@@ -1,12 +1,11 @@
-dni/*
+/qdb/
+/dni/
 /tmp-clearbox/
 qts_qsfp_sdi.qws
 *.rpt
 *.summary
-qdb/*
 *.done
 *.bak
-tmp-clearbox/*
 *.syn.smsg
 *.sld
 .idea/*
