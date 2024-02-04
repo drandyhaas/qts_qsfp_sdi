@@ -1,2 +1,0 @@
-22 serialization::archive 19 0 0 2 0 0 0 16 default_jtag.sdc 0 0 10 text_model 1 1 
- 15 sld_sysconfiles 6 folder 1 1 
