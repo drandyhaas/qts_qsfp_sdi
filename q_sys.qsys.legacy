@@ -60,6 +60,11 @@ https://fpgasoftware.intel.com/eula.-->
          value = "17";
          type = "int";
       }
+      datum sopceditor_expanded
+      {
+         value = "0";
+         type = "boolean";
+      }
    }
    element q_sys_pll_status_interconnect_qsfp
    {
@@ -68,6 +73,11 @@ https://fpgasoftware.intel.com/eula.-->
          value = "10";
          type = "int";
       }
+      datum sopceditor_expanded
+      {
+         value = "0";
+         type = "boolean";
+      }
    }
    element q_sys_pll_status_interconnect_qsfp1
    {
@@ -75,6 +85,11 @@ https://fpgasoftware.intel.com/eula.-->
       {
          value = "13";
          type = "int";
+      }
+      datum sopceditor_expanded
+      {
+         value = "0";
+         type = "boolean";
       }
    }
    element q_sys_pll_status_interconnect_sdi
@@ -4519,6 +4534,38 @@ https://fpgasoftware.intel.com/eula.-->
                 </parameters>
             </interface>
             <interface>
+                <name>tx_serial_clk</name>
+                <type>hssi_serial_clock</type>
+                <isStart>true</isStart>
+                <ports>
+                    <port>
+                        <name>tx_serial_clk</name>
+                        <role>clk</role>
+                        <direction>Output</direction>
+                        <width>1</width>
+                        <lowerBound>0</lowerBound>
+                        <vhdlType>STD_LOGIC</vhdlType>
+                        <terminationValue>0</terminationValue>
+                    </port>
+                </ports>
+                <assignments>
+                    <assignmentValueMap>
+                        <entry>
+                            <key>ui.blockdiagram.direction</key>
+                            <value>output</value>
+                        </entry>
+                    </assignmentValueMap>
+                </assignments>
+                <parameters>
+                    <parameterValueMap>
+                        <entry>
+                            <key>clockRate</key>
+                            <value>0</value>
+                        </entry>
+                    </parameterValueMap>
+                </parameters>
+            </interface>
+            <interface>
                 <name>tx_serial_clk_gxt</name>
                 <type>hssi_serial_clock</type>
                 <isStart>true</isStart>
@@ -5094,6 +5141,38 @@ https://fpgasoftware.intel.com/eula.-->
                     </entry>
                     <entry>
                         <key>ptfSchematicName</key>
+                    </entry>
+                </parameterValueMap>
+            </parameters>
+        </interface>
+        <interface>
+            <name>tx_serial_clk</name>
+            <type>hssi_serial_clock</type>
+            <isStart>true</isStart>
+            <ports>
+                <port>
+                    <name>tx_serial_clk</name>
+                    <role>clk</role>
+                    <direction>Output</direction>
+                    <width>1</width>
+                    <lowerBound>0</lowerBound>
+                    <vhdlType>STD_LOGIC</vhdlType>
+                    <terminationValue>0</terminationValue>
+                </port>
+            </ports>
+            <assignments>
+                <assignmentValueMap>
+                    <entry>
+                        <key>ui.blockdiagram.direction</key>
+                        <value>output</value>
+                    </entry>
+                </assignmentValueMap>
+            </assignments>
+            <parameters>
+                <parameterValueMap>
+                    <entry>
+                        <key>clockRate</key>
+                        <value>0</value>
                     </entry>
                 </parameterValueMap>
             </parameters>
@@ -5658,6 +5737,38 @@ https://fpgasoftware.intel.com/eula.-->
                 </parameters>
             </interface>
             <interface>
+                <name>tx_serial_clk</name>
+                <type>hssi_serial_clock</type>
+                <isStart>true</isStart>
+                <ports>
+                    <port>
+                        <name>tx_serial_clk</name>
+                        <role>clk</role>
+                        <direction>Output</direction>
+                        <width>1</width>
+                        <lowerBound>0</lowerBound>
+                        <vhdlType>STD_LOGIC</vhdlType>
+                        <terminationValue>0</terminationValue>
+                    </port>
+                </ports>
+                <assignments>
+                    <assignmentValueMap>
+                        <entry>
+                            <key>ui.blockdiagram.direction</key>
+                            <value>output</value>
+                        </entry>
+                    </assignmentValueMap>
+                </assignments>
+                <parameters>
+                    <parameterValueMap>
+                        <entry>
+                            <key>clockRate</key>
+                            <value>0</value>
+                        </entry>
+                    </parameterValueMap>
+                </parameters>
+            </interface>
+            <interface>
                 <name>tx_serial_clk_gxt</name>
                 <type>hssi_serial_clock</type>
                 <isStart>true</isStart>
@@ -6233,6 +6344,38 @@ https://fpgasoftware.intel.com/eula.-->
                     </entry>
                     <entry>
                         <key>ptfSchematicName</key>
+                    </entry>
+                </parameterValueMap>
+            </parameters>
+        </interface>
+        <interface>
+            <name>tx_serial_clk</name>
+            <type>hssi_serial_clock</type>
+            <isStart>true</isStart>
+            <ports>
+                <port>
+                    <name>tx_serial_clk</name>
+                    <role>clk</role>
+                    <direction>Output</direction>
+                    <width>1</width>
+                    <lowerBound>0</lowerBound>
+                    <vhdlType>STD_LOGIC</vhdlType>
+                    <terminationValue>0</terminationValue>
+                </port>
+            </ports>
+            <assignments>
+                <assignmentValueMap>
+                    <entry>
+                        <key>ui.blockdiagram.direction</key>
+                        <value>output</value>
+                    </entry>
+                </assignmentValueMap>
+            </assignments>
+            <parameters>
+                <parameterValueMap>
+                    <entry>
+                        <key>clockRate</key>
+                        <value>0</value>
                     </entry>
                 </parameterValueMap>
             </parameters>
@@ -7535,6 +7678,38 @@ https://fpgasoftware.intel.com/eula.-->
                 </parameters>
             </interface>
             <interface>
+                <name>xcvr_native_s10_0_tx_serial_clk1</name>
+                <type>hssi_serial_clock</type>
+                <isStart>false</isStart>
+                <ports>
+                    <port>
+                        <name>xcvr_native_s10_0_tx_serial_clk1_clk</name>
+                        <role>clk</role>
+                        <direction>Input</direction>
+                        <width>1</width>
+                        <lowerBound>0</lowerBound>
+                        <vhdlType>STD_LOGIC_VECTOR</vhdlType>
+                        <terminationValue>0</terminationValue>
+                    </port>
+                </ports>
+                <assignments>
+                    <assignmentValueMap>
+                        <entry>
+                            <key>ui.blockdiagram.direction</key>
+                            <value>input</value>
+                        </entry>
+                    </assignmentValueMap>
+                </assignments>
+                <parameters>
+                    <parameterValueMap>
+                        <entry>
+                            <key>clockRate</key>
+                            <value>0</value>
+                        </entry>
+                    </parameterValueMap>
+                </parameters>
+            </interface>
+            <interface>
                 <name>xcvr_native_s10_0_rx_cdr_refclk0</name>
                 <type>clock</type>
                 <isStart>false</isStart>
@@ -8398,6 +8573,38 @@ https://fpgasoftware.intel.com/eula.-->
                 <ports>
                     <port>
                         <name>xcvr_native_s10_0_tx_serial_clk0_clk</name>
+                        <role>clk</role>
+                        <direction>Input</direction>
+                        <width>1</width>
+                        <lowerBound>0</lowerBound>
+                        <vhdlType>STD_LOGIC_VECTOR</vhdlType>
+                        <terminationValue>0</terminationValue>
+                    </port>
+                </ports>
+                <assignments>
+                    <assignmentValueMap>
+                        <entry>
+                            <key>ui.blockdiagram.direction</key>
+                            <value>input</value>
+                        </entry>
+                    </assignmentValueMap>
+                </assignments>
+                <parameters>
+                    <parameterValueMap>
+                        <entry>
+                            <key>clockRate</key>
+                            <value>0</value>
+                        </entry>
+                    </parameterValueMap>
+                </parameters>
+            </interface>
+            <interface>
+                <name>xcvr_native_s10_0_tx_serial_clk1</name>
+                <type>hssi_serial_clock</type>
+                <isStart>false</isStart>
+                <ports>
+                    <port>
+                        <name>xcvr_native_s10_0_tx_serial_clk1_clk</name>
                         <role>clk</role>
                         <direction>Input</direction>
                         <width>1</width>
@@ -9313,6 +9520,38 @@ https://fpgasoftware.intel.com/eula.-->
                 </parameters>
             </interface>
             <interface>
+                <name>xcvr_native_s10_0_tx_serial_clk1</name>
+                <type>hssi_serial_clock</type>
+                <isStart>false</isStart>
+                <ports>
+                    <port>
+                        <name>xcvr_native_s10_0_tx_serial_clk1_clk</name>
+                        <role>clk</role>
+                        <direction>Input</direction>
+                        <width>1</width>
+                        <lowerBound>0</lowerBound>
+                        <vhdlType>STD_LOGIC_VECTOR</vhdlType>
+                        <terminationValue>0</terminationValue>
+                    </port>
+                </ports>
+                <assignments>
+                    <assignmentValueMap>
+                        <entry>
+                            <key>ui.blockdiagram.direction</key>
+                            <value>input</value>
+                        </entry>
+                    </assignmentValueMap>
+                </assignments>
+                <parameters>
+                    <parameterValueMap>
+                        <entry>
+                            <key>clockRate</key>
+                            <value>0</value>
+                        </entry>
+                    </parameterValueMap>
+                </parameters>
+            </interface>
+            <interface>
                 <name>xcvr_native_s10_0_rx_cdr_refclk0</name>
                 <type>clock</type>
                 <isStart>false</isStart>
@@ -10176,6 +10415,38 @@ https://fpgasoftware.intel.com/eula.-->
                 <ports>
                     <port>
                         <name>xcvr_native_s10_0_tx_serial_clk0_clk</name>
+                        <role>clk</role>
+                        <direction>Input</direction>
+                        <width>1</width>
+                        <lowerBound>0</lowerBound>
+                        <vhdlType>STD_LOGIC_VECTOR</vhdlType>
+                        <terminationValue>0</terminationValue>
+                    </port>
+                </ports>
+                <assignments>
+                    <assignmentValueMap>
+                        <entry>
+                            <key>ui.blockdiagram.direction</key>
+                            <value>input</value>
+                        </entry>
+                    </assignmentValueMap>
+                </assignments>
+                <parameters>
+                    <parameterValueMap>
+                        <entry>
+                            <key>clockRate</key>
+                            <value>0</value>
+                        </entry>
+                    </parameterValueMap>
+                </parameters>
+            </interface>
+            <interface>
+                <name>xcvr_native_s10_0_tx_serial_clk1</name>
+                <type>hssi_serial_clock</type>
+                <isStart>false</isStart>
+                <ports>
+                    <port>
+                        <name>xcvr_native_s10_0_tx_serial_clk1_clk</name>
                         <role>clk</role>
                         <direction>Input</direction>
                         <width>1</width>
@@ -14196,6 +14467,26 @@ https://fpgasoftware.intel.com/eula.-->
    version="23.3"
    start="sdi_xcvr_atx_pll.tx_serial_clk"
    end="sdi_xcvr_test_1.xcvr_native_s10_0_tx_serial_clk0" />
+ <connection
+   kind="hssi_serial_clock"
+   version="23.3"
+   start="qsfp_xcvr_atx_pll.tx_serial_clk"
+   end="qsfp_xcvr_test_0.xcvr_native_s10_0_tx_serial_clk1" />
+ <connection
+   kind="hssi_serial_clock"
+   version="23.3"
+   start="qsfp_xcvr_atx_pll.tx_serial_clk"
+   end="qsfp_xcvr_test_1.xcvr_native_s10_0_tx_serial_clk1" />
+ <connection
+   kind="hssi_serial_clock"
+   version="23.3"
+   start="qsfp_xcvr_atx_pll1.tx_serial_clk"
+   end="qsfp_xcvr_test_3.xcvr_native_s10_0_tx_serial_clk1" />
+ <connection
+   kind="hssi_serial_clock"
+   version="23.3"
+   start="qsfp_xcvr_atx_pll1.tx_serial_clk"
+   end="qsfp_xcvr_test_4.xcvr_native_s10_0_tx_serial_clk1" />
  <connection
    kind="hssi_serial_clock"
    version="23.3"

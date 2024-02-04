@@ -15,6 +15,7 @@ module qsfp_xcvr_test (
 		input  wire        mm_bridge_0_s0_debugaccess,                      //                                 .debugaccess
 		input  wire [0:0]  pll_locked_pll_locked_pll_locked,                //            pll_locked_pll_locked.pll_locked
 		input  wire [0:0]  xcvr_native_s10_0_tx_serial_clk0_clk,            // xcvr_native_s10_0_tx_serial_clk0.clk
+		input  wire [0:0]  xcvr_native_s10_0_tx_serial_clk1_clk,            // xcvr_native_s10_0_tx_serial_clk1.clk
 		input  wire        xcvr_native_s10_0_rx_cdr_refclk0_clk,            // xcvr_native_s10_0_rx_cdr_refclk0.clk
 		output wire [0:0]  xcvr_native_s10_0_tx_serial_data_tx_serial_data, // xcvr_native_s10_0_tx_serial_data.tx_serial_data
 		input  wire [0:0]  xcvr_native_s10_0_rx_serial_data_rx_serial_data  // xcvr_native_s10_0_rx_serial_data.rx_serial_data

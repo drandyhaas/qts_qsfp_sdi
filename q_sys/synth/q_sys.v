@@ -41,6 +41,8 @@ module q_sys (
 	wire   [0:0] q_sys_pll_status_interconnect_qsfp1_pll_locked_b_pll_locked;     // q_sys_pll_status_interconnect_qsfp1:pll_locked_b -> qsfp_xcvr_test_4:pll_locked_pll_locked_pll_locked
 	wire   [0:0] q_sys_pll_status_interconnect_sdi_pll_locked_a_pll_locked;       // q_sys_pll_status_interconnect_sdi:pll_locked_a -> sdi_xcvr_test_0:pll_status_interconnect_0_pll_locked_pll_locked
 	wire         sdi_xcvr_atx_pll_tx_serial_clk_clk;                              // sdi_xcvr_atx_pll:tx_serial_clk -> [sdi_xcvr_test_0:xcvr_native_s10_0_tx_serial_clk0_clk, sdi_xcvr_test_1:xcvr_native_s10_0_tx_serial_clk0_clk]
+	wire         qsfp_xcvr_atx_pll_tx_serial_clk_clk;                             // qsfp_xcvr_atx_pll:tx_serial_clk -> [qsfp_xcvr_test_0:xcvr_native_s10_0_tx_serial_clk1_clk, qsfp_xcvr_test_1:xcvr_native_s10_0_tx_serial_clk1_clk]
+	wire         qsfp_xcvr_atx_pll1_tx_serial_clk_clk;                            // qsfp_xcvr_atx_pll1:tx_serial_clk -> [qsfp_xcvr_test_3:xcvr_native_s10_0_tx_serial_clk1_clk, qsfp_xcvr_test_4:xcvr_native_s10_0_tx_serial_clk1_clk]
 	wire         qsfp_xcvr_atx_pll_tx_serial_clk_gxt_clk;                         // qsfp_xcvr_atx_pll:tx_serial_clk_gxt -> [qsfp_xcvr_test_0:xcvr_native_s10_0_tx_serial_clk0_clk, qsfp_xcvr_test_1:xcvr_native_s10_0_tx_serial_clk0_clk]
 	wire         qsfp_xcvr_atx_pll1_tx_serial_clk_gxt_clk;                        // qsfp_xcvr_atx_pll1:tx_serial_clk_gxt -> [qsfp_xcvr_test_3:xcvr_native_s10_0_tx_serial_clk0_clk, qsfp_xcvr_test_4:xcvr_native_s10_0_tx_serial_clk0_clk]
 	wire         clk_50_clk_reset_reset;                                          // clk_50:reset_n_out -> [master_0:clk_reset_reset, mm_interconnect_0:product_info_0_reset_reset_bridge_in_reset_reset, product_info_0:reset_n, qsfp_xcvr_test_0:reset_50_reset_n, qsfp_xcvr_test_1:reset_50_reset_n, qsfp_xcvr_test_3:reset_50_reset_n, qsfp_xcvr_test_4:reset_50_reset_n, sdi_xcvr_test_0:reset_50_reset_n, sdi_xcvr_test_1:reset_50_reset_n]
@@ -208,6 +210,7 @@ module q_sys (
 
 	q_sys_xcvr_atx_pll_s10_htile_1 qsfp_xcvr_atx_pll (
 		.pll_refclk0           (qsfp_xcvr_atx_pll_refclk_out_clk_clk),                           //   input,   width = 1,       pll_refclk0.clk
+		.tx_serial_clk         (qsfp_xcvr_atx_pll_tx_serial_clk_clk),                            //  output,   width = 1,     tx_serial_clk.clk
 		.tx_serial_clk_gxt     (qsfp_xcvr_atx_pll_tx_serial_clk_gxt_clk),                        //  output,   width = 1, tx_serial_clk_gxt.clk
 		.pll_locked            (qsfp_xcvr_atx_pll_pll_locked_pll_locked),                        //  output,   width = 1,        pll_locked.pll_locked
 		.reconfig_clk0         (clk_100_clk_clk),                                                //   input,   width = 1,     reconfig_clk0.clk
@@ -223,6 +226,7 @@ module q_sys (
 
 	q_sys_xcvr_atx_pll_s10_htile_2 qsfp_xcvr_atx_pll1 (
 		.pll_refclk0           (qsfp_xcvr_atx_pll_refclk_out_clk_clk),                            //   input,   width = 1,       pll_refclk0.clk
+		.tx_serial_clk         (qsfp_xcvr_atx_pll1_tx_serial_clk_clk),                            //  output,   width = 1,     tx_serial_clk.clk
 		.tx_serial_clk_gxt     (qsfp_xcvr_atx_pll1_tx_serial_clk_gxt_clk),                        //  output,   width = 1, tx_serial_clk_gxt.clk
 		.pll_locked            (qsfp_xcvr_atx_pll1_pll_locked_pll_locked),                        //  output,   width = 1,        pll_locked.pll_locked
 		.reconfig_clk0         (clk_100_clk_clk),                                                 //   input,   width = 1,     reconfig_clk0.clk
@@ -278,6 +282,7 @@ module q_sys (
 		.mm_bridge_0_s0_debugaccess                      (mm_interconnect_0_qsfp_xcvr_test_0_mm_bridge_0_s0_debugaccess),    //   input,   width = 1,                                 .debugaccess
 		.pll_locked_pll_locked_pll_locked                (q_sys_pll_status_interconnect_qsfp_pll_locked_a_pll_locked),       //   input,   width = 1,            pll_locked_pll_locked.pll_locked
 		.xcvr_native_s10_0_tx_serial_clk0_clk            (qsfp_xcvr_atx_pll_tx_serial_clk_gxt_clk),                          //   input,   width = 1, xcvr_native_s10_0_tx_serial_clk0.clk
+		.xcvr_native_s10_0_tx_serial_clk1_clk            (qsfp_xcvr_atx_pll_tx_serial_clk_clk),                              //   input,   width = 1, xcvr_native_s10_0_tx_serial_clk1.clk
 		.xcvr_native_s10_0_rx_cdr_refclk0_clk            (qsfp_xcvr_atx_pll_refclk_out_clk_clk),                             //   input,   width = 1, xcvr_native_s10_0_rx_cdr_refclk0.clk
 		.xcvr_native_s10_0_tx_serial_data_tx_serial_data (qsfp_xcvr_test_0_xcvr_native_s10_0_tx_serial_data_tx_serial_data), //  output,   width = 1, xcvr_native_s10_0_tx_serial_data.tx_serial_data
 		.xcvr_native_s10_0_rx_serial_data_rx_serial_data (qsfp_xcvr_test_0_xcvr_native_s10_0_rx_serial_data_rx_serial_data)  //   input,   width = 1, xcvr_native_s10_0_rx_serial_data.rx_serial_data
@@ -300,6 +305,7 @@ module q_sys (
 		.mm_bridge_0_s0_debugaccess                      (mm_interconnect_0_qsfp_xcvr_test_1_mm_bridge_0_s0_debugaccess),    //   input,   width = 1,                                 .debugaccess
 		.pll_locked_pll_locked_pll_locked                (q_sys_pll_status_interconnect_qsfp_pll_locked_b_pll_locked),       //   input,   width = 1,            pll_locked_pll_locked.pll_locked
 		.xcvr_native_s10_0_tx_serial_clk0_clk            (qsfp_xcvr_atx_pll_tx_serial_clk_gxt_clk),                          //   input,   width = 1, xcvr_native_s10_0_tx_serial_clk0.clk
+		.xcvr_native_s10_0_tx_serial_clk1_clk            (qsfp_xcvr_atx_pll_tx_serial_clk_clk),                              //   input,   width = 1, xcvr_native_s10_0_tx_serial_clk1.clk
 		.xcvr_native_s10_0_rx_cdr_refclk0_clk            (qsfp_xcvr_atx_pll_refclk_out_clk_clk),                             //   input,   width = 1, xcvr_native_s10_0_rx_cdr_refclk0.clk
 		.xcvr_native_s10_0_tx_serial_data_tx_serial_data (qsfp_xcvr_test_1_xcvr_native_s10_0_tx_serial_data_tx_serial_data), //  output,   width = 1, xcvr_native_s10_0_tx_serial_data.tx_serial_data
 		.xcvr_native_s10_0_rx_serial_data_rx_serial_data (qsfp_xcvr_test_1_xcvr_native_s10_0_rx_serial_data_rx_serial_data)  //   input,   width = 1, xcvr_native_s10_0_rx_serial_data.rx_serial_data
@@ -322,6 +328,7 @@ module q_sys (
 		.mm_bridge_0_s0_debugaccess                      (mm_interconnect_0_qsfp_xcvr_test_3_mm_bridge_0_s0_debugaccess),    //   input,   width = 1,                                 .debugaccess
 		.pll_locked_pll_locked_pll_locked                (q_sys_pll_status_interconnect_qsfp1_pll_locked_a_pll_locked),      //   input,   width = 1,            pll_locked_pll_locked.pll_locked
 		.xcvr_native_s10_0_tx_serial_clk0_clk            (qsfp_xcvr_atx_pll1_tx_serial_clk_gxt_clk),                         //   input,   width = 1, xcvr_native_s10_0_tx_serial_clk0.clk
+		.xcvr_native_s10_0_tx_serial_clk1_clk            (qsfp_xcvr_atx_pll1_tx_serial_clk_clk),                             //   input,   width = 1, xcvr_native_s10_0_tx_serial_clk1.clk
 		.xcvr_native_s10_0_rx_cdr_refclk0_clk            (qsfp_xcvr_atx_pll_refclk_out_clk_clk),                             //   input,   width = 1, xcvr_native_s10_0_rx_cdr_refclk0.clk
 		.xcvr_native_s10_0_tx_serial_data_tx_serial_data (qsfp_xcvr_test_3_xcvr_native_s10_0_tx_serial_data_tx_serial_data), //  output,   width = 1, xcvr_native_s10_0_tx_serial_data.tx_serial_data
 		.xcvr_native_s10_0_rx_serial_data_rx_serial_data (qsfp_xcvr_test_3_xcvr_native_s10_0_rx_serial_data_rx_serial_data)  //   input,   width = 1, xcvr_native_s10_0_rx_serial_data.rx_serial_data
@@ -344,6 +351,7 @@ module q_sys (
 		.mm_bridge_0_s0_debugaccess                      (mm_interconnect_0_qsfp_xcvr_test_4_mm_bridge_0_s0_debugaccess),    //   input,   width = 1,                                 .debugaccess
 		.pll_locked_pll_locked_pll_locked                (q_sys_pll_status_interconnect_qsfp1_pll_locked_b_pll_locked),      //   input,   width = 1,            pll_locked_pll_locked.pll_locked
 		.xcvr_native_s10_0_tx_serial_clk0_clk            (qsfp_xcvr_atx_pll1_tx_serial_clk_gxt_clk),                         //   input,   width = 1, xcvr_native_s10_0_tx_serial_clk0.clk
+		.xcvr_native_s10_0_tx_serial_clk1_clk            (qsfp_xcvr_atx_pll1_tx_serial_clk_clk),                             //   input,   width = 1, xcvr_native_s10_0_tx_serial_clk1.clk
 		.xcvr_native_s10_0_rx_cdr_refclk0_clk            (qsfp_xcvr_atx_pll_refclk_out_clk_clk),                             //   input,   width = 1, xcvr_native_s10_0_rx_cdr_refclk0.clk
 		.xcvr_native_s10_0_tx_serial_data_tx_serial_data (qsfp_xcvr_test_4_xcvr_native_s10_0_tx_serial_data_tx_serial_data), //  output,   width = 1, xcvr_native_s10_0_tx_serial_data.tx_serial_data
 		.xcvr_native_s10_0_rx_serial_data_rx_serial_data (qsfp_xcvr_test_4_xcvr_native_s10_0_rx_serial_data_rx_serial_data)  //   input,   width = 1, xcvr_native_s10_0_rx_serial_data.rx_serial_data

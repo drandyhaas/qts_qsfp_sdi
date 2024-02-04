@@ -10,6 +10,7 @@
 		.tx_cal_busy             (_connected_to_tx_cal_busy_),             //  output,   width = 1,             tx_cal_busy.tx_cal_busy
 		.rx_cal_busy             (_connected_to_rx_cal_busy_),             //  output,   width = 1,             rx_cal_busy.rx_cal_busy
 		.tx_serial_clk0          (_connected_to_tx_serial_clk0_),          //   input,   width = 1,          tx_serial_clk0.clk
+		.tx_serial_clk1          (_connected_to_tx_serial_clk1_),          //   input,   width = 1,          tx_serial_clk1.clk
 		.rx_cdr_refclk0          (_connected_to_rx_cdr_refclk0_),          //   input,   width = 1,          rx_cdr_refclk0.clk
 		.tx_serial_data          (_connected_to_tx_serial_data_),          //  output,   width = 1,          tx_serial_data.tx_serial_data
 		.rx_serial_data          (_connected_to_rx_serial_data_),          //   input,   width = 1,          rx_serial_data.rx_serial_data

@@ -1,5 +1,5 @@
 Assembler report for qts_qsfp_sdi
-Thu Feb  1 05:29:51 2024
+Sun Feb  4 15:29:49 2024
 Quartus Prime Version 23.3.0 Build 104 09/20/2023 SC Pro Edition
 
 
@@ -40,7 +40,7 @@ on the Quartus Prime software download page.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Thu Feb  1 05:29:51 2024 ;
+; Assembler Status      ; Successful - Sun Feb  4 15:29:49 2024 ;
 ; Revision Name         ; qts_qsfp_sdi                          ;
 ; Top-level Entity Name ; qts_qsfp_sdi                          ;
 ; Family                ; Stratix 10                            ;
@@ -151,8 +151,8 @@ on the Quartus Prime software download page.
 Info: *******************************************************************
 Info: Running Quartus Prime Assembler
     Info: Version 23.3.0 Build 104 09/20/2023 SC Pro Edition
-    Info: Processing started: Thu Feb  1 05:29:07 2024
-    Info: System process ID: 13512
+    Info: Processing started: Sun Feb  4 15:29:04 2024
+    Info: System process ID: 4656
 Info: Command: quartus_asm --read_settings_files=on --write_settings_files=off qts_qsfp_sdi -c qts_qsfp_sdi
 Info: Using INI file C:/Users/Haas1S/Downloads/stratix/qts_qsfp_sdi/qts_qsfp_sdi/quartus.ini
 Info: The application is running in 'DNI' mode.
@@ -164,9 +164,9 @@ Info (22889): This design was generated using the DNI flow.
 Info (20553): Using CVP Hash 0123456789ABCDEF001122334455667788889999AAAABBBBCCCCDDDDEEEEFFFF
 Info: Quartus Prime Assembler was successful. 0 errors, 0 warnings
     Info: Peak virtual memory: 10605 megabytes
-    Info: Processing ended: Thu Feb  1 05:29:52 2024
+    Info: Processing ended: Sun Feb  4 15:29:49 2024
     Info: Elapsed time: 00:00:45
-    Info: System process ID: 13512
+    Info: System process ID: 4656
 
 
 +----------------------------------------------------+
@@ -194,8 +194,8 @@ Info: Quartus Prime Assembler was successful. 0 errors, 0 warnings
 ; Option         ; Setting                                                                                            ;
 +----------------+----------------------------------------------------------------------------------------------------+
 ; JTAG usercode  ; 0xFFFFFFFF                                                                                         ;
-; Checksum       ; 0x408864AA                                                                                         ;
-; Design hash    ; E8CDF9E506566E503D53E3B5596DB0575FFB672D23AA01CFD3A0B241637774B3                                   ;
+; Checksum       ; 0x408E4C59                                                                                         ;
+; Design hash    ; 64BC802DEBF54D806F451374969A1C171928A53A595E8FFACEEF4D8C10949F22                                   ;
 +----------------+----------------------------------------------------------------------------------------------------+
 
 

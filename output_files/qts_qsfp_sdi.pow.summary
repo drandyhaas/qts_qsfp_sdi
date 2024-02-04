@@ -1,5 +1,5 @@
-Power Analyzer Status : Successful - Thu Feb  1 04:06:33 2024
-Quartus Prime Version : 21.2.0 Build 72 06/14/2021 SC Pro Edition
+Power Analyzer Status : Successful - Sun Feb  4 17:21:10 2024
+Quartus Prime Version : 23.3.0 Build 104 09/20/2023 SC Pro Edition
 Revision Name : qts_qsfp_sdi
 Top-level Entity Name : qts_qsfp_sdi
 Family : Stratix 10
@@ -7,16 +7,16 @@ Device : 1SG280HU2F50E2VG
 Timing Models : Final
 Power Models : Final
 Device Status : Final
-Total On-Chip Power Dissipation : 14093.90 mW
-Total On-Chip Power Dissipation Before SmartVID Power Savings : 14093.90 mW
-Transceiver Standby On-Chip Power Dissipation : 3181.61 mW
-Transceiver Dynamic On-Chip Power Dissipation : 4422.44 mW
+Total On-Chip Power Dissipation : 14139.90 mW
+Total On-Chip Power Dissipation Before SmartVID Power Savings : 14139.90 mW
+Transceiver Standby On-Chip Power Dissipation : 3192.73 mW
+Transceiver Dynamic On-Chip Power Dissipation : 4421.83 mW
 I/O Standby On-Chip Power Dissipation : 35.91 mW
 I/O Dynamic On-Chip Power Dissipation : 0.81 mW
-Core Dynamic On-Chip Power Dissipation : 405.79 mW
+Core Dynamic On-Chip Power Dissipation : 441.44 mW
 HPS Standby On-Chip Power Dissipation : 0.00 mW
 HPS Dynamic On-Chip Power Dissipation : 0.00 mW
-Device Static On-Chip Power Dissipation : 6047.34 mW
+Device Static On-Chip Power Dissipation : 6047.19 mW
 High Bandwidth Memory Standby On-Chip Power Dissipation : 0.00 mW
 High Bandwidth Memory Dynamic On-Chip Power Dissipation : 0.00 mW
 Analog/Digital Converter Standby On-Chip Power Dissipation : 0.00 mW

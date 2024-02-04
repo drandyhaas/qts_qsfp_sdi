@@ -1,4 +1,4 @@
-Fitter Status : Successful - Thu Feb  1 05:28:38 2024
+Fitter Status : Successful - Sun Feb  4 17:20:16 2024
 Quartus Prime Version : 23.3.0 Build 104 09/20/2023 SC Pro Edition
 Revision Name : qts_qsfp_sdi
 Top-level Entity Name : qts_qsfp_sdi
@@ -7,8 +7,8 @@ Device : 1SG280HU2F50E2VG
 Timing Models : Final
 Power Models : Final
 Device Status : Final
-Logic utilization (in ALMs) : 22,311 / 933,120 ( 2 % )
-Total dedicated logic registers : 35246
+Logic utilization (in ALMs) : 22,327 / 933,120 ( 2 % )
+Total dedicated logic registers : 35258
 Total pins : 62 / 1,152 ( 5 % )
 Total block memory bits : 966,464 / 240,046,080 ( < 1 % )
 Total RAM Blocks : 72 / 11,721 ( < 1 % )

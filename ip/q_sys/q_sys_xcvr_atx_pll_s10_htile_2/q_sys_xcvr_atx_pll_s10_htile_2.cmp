@@ -1,6 +1,7 @@
 	component q_sys_xcvr_atx_pll_s10_htile_2 is
 		port (
 			pll_refclk0           : in  std_logic                     := 'X';             -- clk
+			tx_serial_clk         : out std_logic;                                        -- clk
 			tx_serial_clk_gxt     : out std_logic;                                        -- clk
 			pll_locked            : out std_logic;                                        -- pll_locked
 			reconfig_clk0         : in  std_logic                     := 'X';             -- clk

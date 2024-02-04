@@ -1,5 +1,6 @@
 	q_sys_xcvr_atx_pll_s10_htile_2 u0 (
 		.pll_refclk0           (_connected_to_pll_refclk0_),           //   input,   width = 1,       pll_refclk0.clk
+		.tx_serial_clk         (_connected_to_tx_serial_clk_),         //  output,   width = 1,     tx_serial_clk.clk
 		.tx_serial_clk_gxt     (_connected_to_tx_serial_clk_gxt_),     //  output,   width = 1, tx_serial_clk_gxt.clk
 		.pll_locked            (_connected_to_pll_locked_),            //  output,   width = 1,        pll_locked.pll_locked
 		.reconfig_clk0         (_connected_to_reconfig_clk0_),         //   input,   width = 1,     reconfig_clk0.clk

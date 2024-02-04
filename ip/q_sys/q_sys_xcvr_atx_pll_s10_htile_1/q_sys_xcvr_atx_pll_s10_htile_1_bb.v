@@ -1,5 +1,6 @@
 module q_sys_xcvr_atx_pll_s10_htile_1 (
 		input  wire        pll_refclk0,           //       pll_refclk0.clk
+		output wire        tx_serial_clk,         //     tx_serial_clk.clk
 		output wire        tx_serial_clk_gxt,     // tx_serial_clk_gxt.clk
 		output wire        pll_locked,            //        pll_locked.pll_locked
 		input  wire        reconfig_clk0,         //     reconfig_clk0.clk

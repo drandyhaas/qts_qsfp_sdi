@@ -1,6 +1,7 @@
 	component q_sys_xcvr_atx_pll_s10_htile_2 is
 		port (
 			pll_refclk0           : in  std_logic                     := 'X';             -- clk
+			tx_serial_clk         : out std_logic;                                        -- clk
 			tx_serial_clk_gxt     : out std_logic;                                        -- clk
 			pll_locked            : out std_logic;                                        -- pll_locked
 			reconfig_clk0         : in  std_logic                     := 'X';             -- clk
@@ -18,6 +19,7 @@
 	u0 : component q_sys_xcvr_atx_pll_s10_htile_2
 		port map (
 			pll_refclk0           => CONNECTED_TO_pll_refclk0,           --       pll_refclk0.clk
+			tx_serial_clk         => CONNECTED_TO_tx_serial_clk,         --     tx_serial_clk.clk
 			tx_serial_clk_gxt     => CONNECTED_TO_tx_serial_clk_gxt,     -- tx_serial_clk_gxt.clk
 			pll_locked            => CONNECTED_TO_pll_locked,            --        pll_locked.pll_locked
 			reconfig_clk0         => CONNECTED_TO_reconfig_clk0,         --     reconfig_clk0.clk

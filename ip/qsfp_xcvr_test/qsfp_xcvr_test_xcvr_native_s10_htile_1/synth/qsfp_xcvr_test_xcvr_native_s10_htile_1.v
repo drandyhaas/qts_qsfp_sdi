@@ -15,6 +15,7 @@ module qsfp_xcvr_test_xcvr_native_s10_htile_1 (
 		output wire [0:0]  tx_cal_busy,             //             tx_cal_busy.tx_cal_busy
 		output wire [0:0]  rx_cal_busy,             //             rx_cal_busy.rx_cal_busy
 		input  wire [0:0]  tx_serial_clk0,          //          tx_serial_clk0.clk
+		input  wire [0:0]  tx_serial_clk1,          //          tx_serial_clk1.clk
 		input  wire        rx_cdr_refclk0,          //          rx_cdr_refclk0.clk
 		output wire [0:0]  tx_serial_data,          //          tx_serial_data.tx_serial_data
 		input  wire [0:0]  rx_serial_data,          //          rx_serial_data.rx_serial_data
@@ -44,7 +45,7 @@ module qsfp_xcvr_test_xcvr_native_s10_htile_1 (
 
 	wire  [79:0] qsfp_xcvr_test_xcvr_native_s10_htile_1_rx_parallel_data; // port fragment
 
-	qsfp_xcvr_test_xcvr_native_s10_htile_1_altera_xcvr_native_s10_htile_1930_v7wbk6y #(
+	qsfp_xcvr_test_xcvr_native_s10_htile_1_altera_xcvr_native_s10_htile_1930_ugm7okq #(
 		.rcfg_enable                                                                     (1),
 		.rcfg_jtag_enable                                                                (1),
 		.rcfg_separate_avmm_busy                                                         (0),
@@ -81,7 +82,7 @@ module qsfp_xcvr_test_xcvr_native_s10_htile_1 (
 		.manual_rx_hssi_aib_bonding_comp_cnt                                             (0),
 		.manual_rx_core_aib_bonding_mode                                                 ("individual"),
 		.manual_rx_core_aib_bonding_comp_cnt                                             (0),
-		.plls                                                                            (1),
+		.plls                                                                            (2),
 		.number_physical_bonding_clocks                                                  (1),
 		.cdr_refclk_cnt                                                                  (1),
 		.display_std_tx_pld_adapt_width                                                  (10),
@@ -1115,7 +1116,7 @@ module qsfp_xcvr_test_xcvr_native_s10_htile_1 (
 		.pma_rx_buf_pm_cr2_rx_path_initial_settings                                      ("true"),
 		.pma_rx_buf_pm_cr2_rx_path_jtag_hys                                              ("hys_increase_disable"),
 		.pma_rx_buf_pm_cr2_rx_path_jtag_lp                                               ("lp_off"),
-		.pma_rx_buf_pm_cr2_rx_path_link                                                  ("sr"),
+		.pma_rx_buf_pm_cr2_rx_path_link                                                  ("lr"),
 		.pma_rx_buf_xrx_path_xcdr_deser_xcdr_loopback_mode                               ("loopback_disabled"),
 		.pma_rx_buf_loopback_modes                                                       ("lpbk_disable"),
 		.pma_rx_buf_offset_cancellation_coarse                                           ("coarse_setting_0"),
@@ -1301,7 +1302,7 @@ module qsfp_xcvr_test_xcvr_native_s10_htile_1 (
 		.pma_rx_odi_vert_threshold                                                       ("vert_0"),
 		.pma_rx_odi_vreg_voltage_sel                                                     ("vreg1"),
 		.pma_rx_odi_silicon_rev                                                          ("14nm5bcr2eb"),
-		.pma_rx_sd_link                                                                  ("sr"),
+		.pma_rx_sd_link                                                                  ("lr"),
 		.pma_rx_sd_optimal                                                               ("true"),
 		.pma_rx_sd_power_mode                                                            ("high_perf"),
 		.pma_rx_sd_prot_mode                                                             ("basic_rx"),
@@ -1349,7 +1350,7 @@ module qsfp_xcvr_test_xcvr_native_s10_htile_1 (
 		.pma_tx_buf_pm_cr2_tx_path_initial_settings                                      ("true"),
 		.pma_tx_buf_jtag_drv_sel                                                         ("drv1"),
 		.pma_tx_buf_jtag_lp                                                              ("lp_off"),
-		.pma_tx_buf_pm_cr2_tx_path_link                                                  ("sr"),
+		.pma_tx_buf_pm_cr2_tx_path_link                                                  ("lr"),
 		.pma_tx_buf_low_power_en                                                         ("disable"),
 		.pma_tx_buf_lst                                                                  ("atb_disabled"),
 		.pma_tx_buf_pm_cr2_tx_rx_mcgb_location_for_pcie                                  (0),
@@ -1991,6 +1992,7 @@ module qsfp_xcvr_test_xcvr_native_s10_htile_1 (
 		.tx_cal_busy                       (tx_cal_busy),                                                                                                                                                                                                                                                  //  output,   width = 1,          tx_cal_busy.tx_cal_busy
 		.rx_cal_busy                       (rx_cal_busy),                                                                                                                                                                                                                                                  //  output,   width = 1,          rx_cal_busy.rx_cal_busy
 		.tx_serial_clk0                    (tx_serial_clk0),                                                                                                                                                                                                                                               //   input,   width = 1,       tx_serial_clk0.clk
+		.tx_serial_clk1                    (tx_serial_clk1),                                                                                                                                                                                                                                               //   input,   width = 1,       tx_serial_clk1.clk
 		.rx_cdr_refclk0                    (rx_cdr_refclk0),                                                                                                                                                                                                                                               //   input,   width = 1,       rx_cdr_refclk0.clk
 		.tx_serial_data                    (tx_serial_data),                                                                                                                                                                                                                                               //  output,   width = 1,       tx_serial_data.tx_serial_data
 		.rx_serial_data                    (rx_serial_data),                                                                                                                                                                                                                                               //   input,   width = 1,       rx_serial_data.rx_serial_data
@@ -2026,7 +2028,6 @@ module qsfp_xcvr_test_xcvr_native_s10_htile_1 (
 		.rx_digitalreset_timeout           (),                                                                                                                                                                                                                                                             // (terminated),                                   
 		.tx_dll_lock                       (),                                                                                                                                                                                                                                                             // (terminated),                                   
 		.avmm_busy                         (),                                                                                                                                                                                                                                                             // (terminated),                                   
-		.tx_serial_clk1                    (1'b0),                                                                                                                                                                                                                                                         // (terminated),                                   
 		.tx_serial_clk2                    (1'b0),                                                                                                                                                                                                                                                         // (terminated),                                   
 		.tx_serial_clk3                    (1'b0),                                                                                                                                                                                                                                                         // (terminated),                                   
 		.tx_bonding_clocks                 (6'b000000),                                                                                                                                                                                                                                                    // (terminated),                                   

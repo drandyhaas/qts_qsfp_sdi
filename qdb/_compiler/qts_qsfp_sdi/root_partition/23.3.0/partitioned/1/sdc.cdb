@@ -108,7 +108,7 @@ if {$aclr_counter > 0} {
 if {$clrn_counter > 0} {
     set_false_path -to [get_pins -compatibility_mode -nocase ${hpath}alt_rst_sync_uq1|altera_reset_synchronizer_int_chain*|clrn]
 }
- 13 0 2 C: 5 Users 6 Haas1S 9 Downloads 7 stratix 12 qts_qsfp_sdi 12 qts_qsfp_sdi 2 ip 14 qsfp_xcvr_test 38 qsfp_xcvr_test_xcvr_native_s10_htile_1 33 altera_xcvr_native_s10_htile_1930 5 synth 46 alt_xcvr_native_global_constraints_v7wbk6y.sdc 9069 # (C) 2001-2023 Intel Corporation. All rights reserved.
+ 13 0 2 C: 5 Users 6 Haas1S 9 Downloads 7 stratix 12 qts_qsfp_sdi 12 qts_qsfp_sdi 2 ip 14 qsfp_xcvr_test 38 qsfp_xcvr_test_xcvr_native_s10_htile_1 33 altera_xcvr_native_s10_htile_1930 5 synth 46 alt_xcvr_native_global_constraints_ugm7okq.sdc 9069 # (C) 2001-2023 Intel Corporation. All rights reserved.
 # Your use of Intel Corporation's design tools, logic functions and other 
 # software and tools, and its AMPP partner logic functions, and any output 
 # files from any of the foregoing (including device programming or simulation 
@@ -130,12 +130,12 @@ if {$clrn_counter > 0} {
 # --- This file contains the global timing constraints for     --- #
 # --- Native PHY IP                                            --- #
 # ---    * Clock creation and other constraints are contained  --- #
-# ---      ${ip_name}_alt_xcvr_native_v7wbk6y.sdc              --- #
+# ---      ${ip_name}_alt_xcvr_native_ugm7okq.sdc              --- #
 # -                                                              - # 
 # ---------------------------------------------------------------- #
 
 set script_dir [file dirname [info script]] 
-set split_qsys_output_name [split qsfp_xcvr_test_xcvr_native_s10_htile_1_altera_xcvr_native_s10_htile_1930_v7wbk6y "_"]
+set split_qsys_output_name [split qsfp_xcvr_test_xcvr_native_s10_htile_1_altera_xcvr_native_s10_htile_1930_ugm7okq "_"]
 set xcvr_nphy_index [lsearch $split_qsys_output_name "altera"]
 if {$xcvr_nphy_index < 0} {
   set list_top_inst_name $split_qsys_output_name
@@ -143,7 +143,7 @@ if {$xcvr_nphy_index < 0} {
   set list_top_inst_name [lreplace $split_qsys_output_name $xcvr_nphy_index end]
 }
 set top_inst_name [join $list_top_inst_name "_"]
-source "${script_dir}/${top_inst_name}_ip_parameters_v7wbk6y.tcl"
+source "${script_dir}/${top_inst_name}_ip_parameters_ugm7okq.tcl"
 
 # Find the current Native PHY instance name in the design
 set instance_name [get_current_instance]
@@ -238,7 +238,7 @@ foreach_in_collection port $all_ports_list {
 }
 
 
- 13 0 2 C: 5 Users 6 Haas1S 9 Downloads 7 stratix 12 qts_qsfp_sdi 12 qts_qsfp_sdi 2 ip 14 qsfp_xcvr_test 38 qsfp_xcvr_test_xcvr_native_s10_htile_1 33 altera_xcvr_native_s10_htile_1930 5 synth 44 alt_xcvr_native_helper_functions_v7wbk6y.tcl 58185 # (C) 2001-2023 Intel Corporation. All rights reserved.
+ 13 0 2 C: 5 Users 6 Haas1S 9 Downloads 7 stratix 12 qts_qsfp_sdi 12 qts_qsfp_sdi 2 ip 14 qsfp_xcvr_test 38 qsfp_xcvr_test_xcvr_native_s10_htile_1 33 altera_xcvr_native_s10_htile_1930 5 synth 44 alt_xcvr_native_helper_functions_ugm7okq.tcl 58185 # (C) 2001-2023 Intel Corporation. All rights reserved.
 # Your use of Intel Corporation's design tools, logic functions and other 
 # software and tools, and its AMPP partner logic functions, and any output 
 # files from any of the foregoing (including device programming or simulation 
@@ -280,7 +280,7 @@ set alt_xcvr_native_s10_target_clock_list_dict [dict create]
 # --- registers to create clocks                                         --- #
 # ---                                                                    --- #
 # -------------------------------------------------------------------------- #
-proc native_initialize_db_v7wbk6y { native_db } {
+proc native_initialize_db_ugm7okq { native_db } {
 
   # upvar links one variable to another variable at specified level of execution
   upvar $native_db local_native_db
@@ -305,7 +305,7 @@ proc native_initialize_db_v7wbk6y { native_db } {
   # Create dictionary of pins
   msg_vdebug "IP SDC: Finding port-to-pin mapping for CORE: $::GLOBAL_corename INSTANCE: $instance_name"
   set all_pins [dict create]
-  native_get_pins_v7wbk6y $all_pins
+  native_get_pins_ugm7okq $all_pins
   
   # Set the associative array
   dict set local_native_db $instance_name $all_pins
@@ -318,7 +318,7 @@ proc native_initialize_db_v7wbk6y { native_db } {
 # --- Procedure to find all the pins and registers for nodes of interest --- #
 # ---                                                                    --- #
 # -------------------------------------------------------------------------- #
-proc native_get_pins_v7wbk6y { all_pins } {
+proc native_get_pins_ugm7okq { all_pins } {
 
   global ::native_debug
 
@@ -647,7 +647,7 @@ proc native_get_pins_v7wbk6y { all_pins } {
 # --- Procedure to call procedure to create clocks all channels in an instance --- #
 # ---                                                                          --- #
 # -------------------------------------------------------------------------------- #
-proc native_prepare_to_create_clocks_all_ch_v7wbk6y { instance num_channels mode mode_clks profile_cnt profile alt_xcvr_native_s10_pins clk_freq_dict multiply_factor_dict divide_factor_dict all_profile_clocks_names } {
+proc native_prepare_to_create_clocks_all_ch_ugm7okq { instance num_channels mode mode_clks profile_cnt profile alt_xcvr_native_s10_pins clk_freq_dict multiply_factor_dict divide_factor_dict all_profile_clocks_names } {
   global ::native_debug
 
   set list_of_clk_names [list]
@@ -674,7 +674,7 @@ proc native_prepare_to_create_clocks_all_ch_v7wbk6y { instance num_channels mode
           set clk_freq [dict get $clk_freq_dict $clk_group]
 
           # Create clks for all channels for a clk group in mode clk
-          lappend list_of_clk_names [native_create_clocks_all_ch_v7wbk6y $instance $clk_group $num_channels $clk_freq $clk_pins $profile_cnt $profile]
+          lappend list_of_clk_names [native_create_clocks_all_ch_ugm7okq $instance $clk_group $num_channels $clk_freq $clk_pins $profile_cnt $profile]
 
         } else {
           set clk_freq ""
@@ -731,7 +731,7 @@ proc native_prepare_to_create_clocks_all_ch_v7wbk6y { instance num_channels mode
           set source_nodes [string map {\\ \\\\} $source_nodes] 
 
           # Create clks for all channels for a clk group in mode clk
-          lappend list_of_clk_names [native_create_clocks_all_ch_v7wbk6y $instance $clk_group $num_channels $clk_freq $clk_pins $profile_cnt $profile $source_nodes $master_clocks $multiply_factor $divide_factor]
+          lappend list_of_clk_names [native_create_clocks_all_ch_ugm7okq $instance $clk_group $num_channels $clk_freq $clk_pins $profile_cnt $profile $source_nodes $master_clocks $multiply_factor $divide_factor]
         }
       }
 
@@ -751,7 +751,7 @@ proc native_prepare_to_create_clocks_all_ch_v7wbk6y { instance num_channels mode
 # --- Procedure to create HSSI clocks for all channels in an instance       --- #
 # ---                                                                       --- #
 # ----------------------------------------------------------------------------- #
-proc native_create_clocks_all_ch_v7wbk6y { instance clk_group num_channels freq clk_list profile_cnt profile args } {
+proc native_create_clocks_all_ch_ugm7okq { instance clk_group num_channels freq clk_list profile_cnt profile args } {
   global ::native_debug
 
   set clock_name_list [list]
@@ -822,12 +822,12 @@ proc native_create_clocks_all_ch_v7wbk6y { instance clk_group num_channels freq 
               set divide_factor   [lindex $args end]
 
               # Call procedure to create generated clock for given clock node 
-              native_create_clock_v7wbk6y $clk_group $clock_name $freq $no_inst_clk_node $channel $no_inst_clk_source_node $clk_master_clock $multiply_factor $divide_factor
+              native_create_clock_ugm7okq $clk_group $clock_name $freq $no_inst_clk_node $channel $no_inst_clk_source_node $clk_master_clock $multiply_factor $divide_factor
 
             } else {
 
               # Call procedure to create source clock for given clock node 
-              native_create_clock_v7wbk6y $clk_group $clock_name $freq $no_inst_clk_node $channel
+              native_create_clock_ugm7okq $clk_group $clock_name $freq $no_inst_clk_node $channel
             }
           }
         }; #foreach_in_collection matching_clk matching_clocks_list
@@ -850,12 +850,12 @@ proc native_create_clocks_all_ch_v7wbk6y { instance clk_group num_channels freq 
           set divide_factor   [lindex $args end]
 
           # Call procedure to create generated clock for given clock node 
-          native_create_clock_v7wbk6y $clk_group $clock_name $freq $no_inst_clk_node $channel $no_inst_clk_source_node $clk_master_clock $multiply_factor $divide_factor
+          native_create_clock_ugm7okq $clk_group $clock_name $freq $no_inst_clk_node $channel $no_inst_clk_source_node $clk_master_clock $multiply_factor $divide_factor
 
         } else {
 
           # Call procedure to create source clock for given clock node 
-          native_create_clock_v7wbk6y $clk_group $clock_name $freq $no_inst_clk_node $channel
+          native_create_clock_ugm7okq $clk_group $clock_name $freq $no_inst_clk_node $channel
         }
       }
 
@@ -872,7 +872,7 @@ proc native_create_clocks_all_ch_v7wbk6y { instance clk_group num_channels freq 
 # --- Procedure to create single HSSI clock for given node and clock name   --- #
 # ---                                                                       --- #
 # ----------------------------------------------------------------------------- #
-proc native_create_clock_v7wbk6y { clk_group clock_name freq clk_node channel args } {
+proc native_create_clock_ugm7okq { clk_group clock_name freq clk_node channel args } {
   global ::native_debug
   global ::alt_xcvr_native_s10_target_clock_list_dict
 
@@ -936,7 +936,7 @@ proc native_create_clock_v7wbk6y { clk_group clock_name freq clk_node channel ar
 # --- frequency-dependency                                                  --- #
 # ---                                                                       --- #
 # ----------------------------------------------------------------------------- #
-proc native_check_special_min_pulse_v7wbk6y { clock_name } {
+proc native_check_special_min_pulse_ugm7okq { clock_name } {
   global ::native_debug
   set pass 1  
 
@@ -1449,7 +1449,7 @@ proc native_check_special_min_pulse_v7wbk6y { clock_name } {
 }
 
 
- 13 0 2 C: 5 Users 6 Haas1S 9 Downloads 7 stratix 12 qts_qsfp_sdi 12 qts_qsfp_sdi 2 ip 14 qsfp_xcvr_test 38 qsfp_xcvr_test_xcvr_native_s10_htile_1 33 altera_xcvr_native_s10_htile_1930 5 synth 39 alt_xcvr_native_re_cal_chnl_v7wbk6y.sdc 6476 # (C) 2001-2023 Intel Corporation. All rights reserved.
+ 13 0 2 C: 5 Users 6 Haas1S 9 Downloads 7 stratix 12 qts_qsfp_sdi 12 qts_qsfp_sdi 2 ip 14 qsfp_xcvr_test 38 qsfp_xcvr_test_xcvr_native_s10_htile_1 33 altera_xcvr_native_s10_htile_1930 5 synth 39 alt_xcvr_native_re_cal_chnl_ugm7okq.sdc 6476 # (C) 2001-2023 Intel Corporation. All rights reserved.
 # Your use of Intel Corporation's design tools, logic functions and other 
 # software and tools, and its AMPP partner logic functions, and any output 
 # files from any of the foregoing (including device programming or simulation 
@@ -1475,7 +1475,7 @@ proc native_check_special_min_pulse_v7wbk6y { clock_name } {
 
 # Source the IP parameters Tcl file
 set script_dir [file dirname [info script]] 
-set split_qsys_output_name [split qsfp_xcvr_test_xcvr_native_s10_htile_1_altera_xcvr_native_s10_htile_1930_v7wbk6y "_"]
+set split_qsys_output_name [split qsfp_xcvr_test_xcvr_native_s10_htile_1_altera_xcvr_native_s10_htile_1930_ugm7okq "_"]
 set xcvr_nphy_index [lsearch $split_qsys_output_name "altera"]
 if {$xcvr_nphy_index < 0} {
   set list_top_inst_name $split_qsys_output_name
@@ -1483,7 +1483,7 @@ if {$xcvr_nphy_index < 0} {
   set list_top_inst_name [lreplace $split_qsys_output_name $xcvr_nphy_index end]
 }
 set top_inst_name [join $list_top_inst_name "_"]
-source "${script_dir}/${top_inst_name}_ip_parameters_v7wbk6y.tcl"
+source "${script_dir}/${top_inst_name}_ip_parameters_ugm7okq.tcl"
 
 # Get the number of channels in the Native PHY IP
 set num_channels [dict get $native_phy_ip_params channels_profile0]
@@ -1590,7 +1590,7 @@ if {[get_collection_size $alt_xcvr_resync_reset_col] > 0} {
 
 
 
- 13 0 2 C: 5 Users 6 Haas1S 9 Downloads 7 stratix 12 qts_qsfp_sdi 12 qts_qsfp_sdi 2 ip 14 qsfp_xcvr_test 38 qsfp_xcvr_test_xcvr_native_s10_htile_1 33 altera_xcvr_native_s10_htile_1930 5 synth 84 qsfp_xcvr_test_xcvr_native_s10_htile_1_altera_xcvr_native_s10_htile_1930_v7wbk6y.sdc 97865 # (C) 2001-2023 Intel Corporation. All rights reserved.
+ 13 0 2 C: 5 Users 6 Haas1S 9 Downloads 7 stratix 12 qts_qsfp_sdi 12 qts_qsfp_sdi 2 ip 14 qsfp_xcvr_test 38 qsfp_xcvr_test_xcvr_native_s10_htile_1 33 altera_xcvr_native_s10_htile_1930 5 synth 84 qsfp_xcvr_test_xcvr_native_s10_htile_1_altera_xcvr_native_s10_htile_1930_ugm7okq.sdc 97865 # (C) 2001-2023 Intel Corporation. All rights reserved.
 # Your use of Intel Corporation's design tools, logic functions and other 
 # software and tools, and its AMPP partner logic functions, and any output 
 # files from any of the foregoing (including device programming or simulation 
@@ -1611,12 +1611,12 @@ if {[get_collection_size $alt_xcvr_resync_reset_col] > 0} {
 # ---                                                          --- #
 # --- This file contains the timing constraints for Native PHY --- #
 # ---    * The helper functions are defined in                 --- #
-# ---      alt_xcvr_native_helper_functions_v7wbk6y.tcl        --- #
+# ---      alt_xcvr_native_helper_functions_ugm7okq.tcl        --- #
 # -                                                              - # 
 # ---------------------------------------------------------------- #
 
 set script_dir [file dirname [info script]] 
-set split_qsys_output_name [split qsfp_xcvr_test_xcvr_native_s10_htile_1_altera_xcvr_native_s10_htile_1930_v7wbk6y "_"]
+set split_qsys_output_name [split qsfp_xcvr_test_xcvr_native_s10_htile_1_altera_xcvr_native_s10_htile_1930_ugm7okq "_"]
 set xcvr_nphy_index [lsearch $split_qsys_output_name "altera"]
 if {$xcvr_nphy_index < 0} {
   set list_top_inst_name $split_qsys_output_name
@@ -1624,10 +1624,10 @@ if {$xcvr_nphy_index < 0} {
   set list_top_inst_name [lreplace $split_qsys_output_name $xcvr_nphy_index end]
 }
 set top_inst_name [join $list_top_inst_name "_"]
-source "${script_dir}/${top_inst_name}_ip_parameters_v7wbk6y.tcl"
-source "${script_dir}/alt_xcvr_native_helper_functions_v7wbk6y.tcl"
+source "${script_dir}/${top_inst_name}_ip_parameters_ugm7okq.tcl"
+source "${script_dir}/alt_xcvr_native_helper_functions_ugm7okq.tcl"
 
-# Debug switch. Change to 1 in alt_xcvr_native_helper_functions_v7wbk6y.tcl to get more run-time debug information
+# Debug switch. Change to 1 in alt_xcvr_native_helper_functions_ugm7okq.tcl to get more run-time debug information
 if {![info exists native_debug]} {
   global ::native_debug
 }
@@ -1638,12 +1638,12 @@ if {![info exists native_debug]} {
 # --- timing constraints                                       --- #
 # -                                                              - #
 # ---------------------------------------------------------------- #
-native_initialize_db_v7wbk6y nativedb_v7wbk6y
+native_initialize_db_ugm7okq nativedb_ugm7okq
 
 # ---------------------------------------------------------------- #
 # --- Set all the instances of this core                       --- #
 # ---------------------------------------------------------------- #
-set alt_xcvr_native_s10_instances [ dict keys $nativedb_v7wbk6y ]
+set alt_xcvr_native_s10_instances [ dict keys $nativedb_ugm7okq ]
 
 if {[info exists alt_xcvr_native_s10_pins]} {
    unset alt_xcvr_native_s10_pins
@@ -1666,7 +1666,7 @@ foreach inst $alt_xcvr_native_s10_instances {
     }
 
   } 
-  dict set alt_xcvr_native_s10_pins $inst [dict get $nativedb_v7wbk6y $inst]
+  dict set alt_xcvr_native_s10_pins $inst [dict get $nativedb_ugm7okq $inst]
 
   # Delete the clock names array if it exists 
   if [info exists all_profile_clocks_names] {
@@ -2463,7 +2463,7 @@ foreach inst $alt_xcvr_native_s10_instances {
         post_message -type info "IP SDC: Creating HSSI clocks for each channel in $mode group"
       }
 
-      set list_of_clk_names [native_prepare_to_create_clocks_all_ch_v7wbk6y $inst $num_channels $mode $mode_clks $profile_cnt $i $alt_xcvr_native_s10_pins $freq $multiply_factor_dict $divide_factor_dict $all_profile_clocks_names]
+      set list_of_clk_names [native_prepare_to_create_clocks_all_ch_ugm7okq $inst $num_channels $mode $mode_clks $profile_cnt $i $alt_xcvr_native_s10_pins $freq $multiply_factor_dict $divide_factor_dict $all_profile_clocks_names]
       dict set all_profile_clocks_names $i $mode [join [lsort -dictionary $list_of_clk_names]]
 
       if {$native_debug == 1} {
@@ -2808,7 +2808,7 @@ foreach inst $alt_xcvr_native_s10_instances {
           set fanin_clock_name [string map {\\ \\\\} $fanin_clock_name]
 
           # Adjust the min pulse width requirement based on frequency
-          add_ddr_report_command "native_check_special_min_pulse_v7wbk6y $fanin_clock_name"
+          add_ddr_report_command "native_check_special_min_pulse_ugm7okq $fanin_clock_name"
         } elseif {[regexp {aib_tx_internal_div\.reg$} $fanin_node_name]} {
               post_message -type warning "can't find clock expected to feed transceiver. Please ensure the .ip of providing clock to transceiver is listed in the QSF or QIP before the .ip of the transceiver."   
         }
@@ -2840,7 +2840,7 @@ foreach inst $alt_xcvr_native_s10_instances {
           set fanin_clock_name [string map {\\ \\\\} $fanin_clock_name]
 
           # Adjust the min pulse width requirement based on frequency
-          add_ddr_report_command "native_check_special_min_pulse_v7wbk6y $fanin_clock_name"
+          add_ddr_report_command "native_check_special_min_pulse_ugm7okq $fanin_clock_name"
         } elseif {[regexp {aib_rx_internal_div\.reg$} $fanin_node_name]} {
               post_message -type warning "can't find clock expected to feed transceiver. Please ensure the .ip of providing clock to transceiver is listed in the QSF or QIP before the .ip of the transceiver."   
         }
@@ -3367,30 +3367,25 @@ foreach_in_collection port $all_ports_list {
 msg_vdebug "IP SDC: End of Native PHY IP SDC file!"
 
 
- 13 0 2 C: 5 Users 6 Haas1S 9 Downloads 7 stratix 12 qts_qsfp_sdi 12 qts_qsfp_sdi 2 ip 14 qsfp_xcvr_test 38 qsfp_xcvr_test_xcvr_native_s10_htile_1 33 altera_xcvr_native_s10_htile_1930 5 synth 64 qsfp_xcvr_test_xcvr_native_s10_htile_1_ip_parameters_v7wbk6y.tcl 2152 if {0} {
+ 13 0 2 C: 5 Users 6 Haas1S 9 Downloads 7 stratix 12 qts_qsfp_sdi 12 qts_qsfp_sdi 2 ip 14 qsfp_xcvr_test 38 qsfp_xcvr_test_xcvr_native_s10_htile_1 33 altera_xcvr_native_s10_htile_1930 5 synth 64 qsfp_xcvr_test_xcvr_native_s10_htile_1_ip_parameters_ugm7okq.tcl 4066 if {0} {
    unset native_phy_ip_params
 }
 
 set native_phy_ip_params [dict create]
 
-dict set native_phy_ip_params profile_cnt "1"
-set ::GLOBAL_corename qsfp_xcvr_test_xcvr_native_s10_htile_1_altera_xcvr_native_s10_htile_1930_v7wbk6y
-# -------------------------------- #
-# --- Default Profile settings --- #
-# -------------------------------- #
+dict set native_phy_ip_params profile_cnt "2"
+set ::GLOBAL_corename qsfp_xcvr_test_xcvr_native_s10_htile_1_altera_xcvr_native_s10_htile_1930_ugm7okq
+# ------------------------------- #
+# --- Profile0 settings       --- #
+# ------------------------------- #
 dict set native_phy_ip_params channels_profile0 "1"
-dict set native_phy_ip_params set_data_rate_profile0 "25781.25"
+dict set native_phy_ip_params set_data_rate_profile0 "10312.5"
 dict set native_phy_ip_params bonded_mode_profile0 "not_bonded"
-dict set native_phy_ip_params tx_enable_profile0 "1"
-dict set native_phy_ip_params rx_enable_profile0 "1"
 dict set native_phy_ip_params rcfg_enable_profile0 "1"
 dict set native_phy_ip_params set_prbs_soft_logic_enable_profile0 "1"
-dict set native_phy_ip_params l_tx_fifo_transfer_mode_profile0 "x2"
-dict set native_phy_ip_params l_rx_fifo_transfer_mode_profile0 "x2"
 dict set native_phy_ip_params std_pcs_pma_width_profile0 "10"
 dict set native_phy_ip_params enh_pcs_pma_width_profile0 "64"
 dict set native_phy_ip_params pcs_direct_width_profile0 "8"
-dict set native_phy_ip_params datapath_select_profile0 "Enhanced"
 dict set native_phy_ip_params protocol_mode_profile0 "basic_enh"
 dict set native_phy_ip_params tx_fifo_mode_profile0 "Phase compensation"
 dict set native_phy_ip_params rx_fifo_mode_profile0 "Phase compensation"
@@ -3406,6 +3401,42 @@ dict set native_phy_ip_params tx_clkout2_sel_profile0 "pma_div_clkout"
 dict set native_phy_ip_params rx_clkout2_sel_profile0 "pma_div_clkout"
 dict set native_phy_ip_params tx_pma_div_clkout_divider_profile0 "2"
 dict set native_phy_ip_params rx_pma_div_clkout_divider_profile0 "2"
+dict set native_phy_ip_params l_tx_fifo_transfer_mode_profile0 "x2"
+dict set native_phy_ip_params l_rx_fifo_transfer_mode_profile0 "x2"
+dict set native_phy_ip_params datapath_select_profile0 "Enhanced"
+dict set native_phy_ip_params tx_enable_profile0 "1"
+dict set native_phy_ip_params rx_enable_profile0 "1"
+# ------------------------------- #
+# --- Profile1 settings       --- #
+# ------------------------------- #
+dict set native_phy_ip_params channels_profile1 "1"
+dict set native_phy_ip_params set_data_rate_profile1 "25781.25"
+dict set native_phy_ip_params bonded_mode_profile1 "not_bonded"
+dict set native_phy_ip_params rcfg_enable_profile1 "1"
+dict set native_phy_ip_params set_prbs_soft_logic_enable_profile1 "1"
+dict set native_phy_ip_params std_pcs_pma_width_profile1 "10"
+dict set native_phy_ip_params enh_pcs_pma_width_profile1 "64"
+dict set native_phy_ip_params pcs_direct_width_profile1 "8"
+dict set native_phy_ip_params protocol_mode_profile1 "basic_enh"
+dict set native_phy_ip_params tx_fifo_mode_profile1 "Phase compensation"
+dict set native_phy_ip_params rx_fifo_mode_profile1 "Phase compensation"
+dict set native_phy_ip_params std_tx_byte_ser_mode_profile1 "Disabled"
+dict set native_phy_ip_params std_rx_byte_deser_mode_profile1 "Disabled"
+dict set native_phy_ip_params duplex_mode_profile1 "duplex"
+dict set native_phy_ip_params enable_hip_profile1 "0"
+dict set native_phy_ip_params tx_clkout_sel_profile1 "pcs_clkout"
+dict set native_phy_ip_params rx_clkout_sel_profile1 "pcs_clkout"
+dict set native_phy_ip_params enable_port_tx_clkout2_profile1 "1"
+dict set native_phy_ip_params enable_port_rx_clkout2_profile1 "1"
+dict set native_phy_ip_params tx_clkout2_sel_profile1 "pma_div_clkout"
+dict set native_phy_ip_params rx_clkout2_sel_profile1 "pma_div_clkout"
+dict set native_phy_ip_params tx_pma_div_clkout_divider_profile1 "2"
+dict set native_phy_ip_params rx_pma_div_clkout_divider_profile1 "2"
+dict set native_phy_ip_params l_tx_fifo_transfer_mode_profile1 "x2"
+dict set native_phy_ip_params l_rx_fifo_transfer_mode_profile1 "x2"
+dict set native_phy_ip_params datapath_select_profile1 "Enhanced"
+dict set native_phy_ip_params tx_enable_profile1 "1"
+dict set native_phy_ip_params rx_enable_profile1 "1"
  13 0 2 C: 5 Users 6 Haas1S 9 Downloads 7 stratix 12 qts_qsfp_sdi 12 qts_qsfp_sdi 2 ip 14 qsfp_xcvr_test 39 qsfp_xcvr_test_xcvr_reset_control_s10_0 34 altera_xcvr_reset_control_s10_1911 5 synth 22 alt_xcvr_reset_s10.sdc 3137 # (C) 2001-2023 Intel Corporation. All rights reserved.
 # Your use of Intel Corporation's design tools, logic functions and other 
 # software and tools, and its AMPP partner logic functions, and any output 
@@ -6838,7 +6869,7 @@ if {[get_collection_size $resync_rx_signals] > 0 } {
     set_false_path -to $kpr
   }
 }
- 13 0 2 C: 5 Users 6 Haas1S 9 Downloads 7 stratix 12 qts_qsfp_sdi 12 qts_qsfp_sdi 2 ip 16 xcvr_test_system 24 xcvr_test_system_rx_fifo 9 fifo_1923 5 synth 46 xcvr_test_system_rx_fifo_fifo_1923_lpyfjcq.sdc 3626 # (C) 2001-2023 Intel Corporation. All rights reserved.
+ 13 0 2 C: 5 Users 6 Haas1S 9 Downloads 7 stratix 12 qts_qsfp_sdi 12 qts_qsfp_sdi 2 ip 16 xcvr_test_system 24 xcvr_test_system_rx_fifo 9 fifo_1923 5 synth 46 xcvr_test_system_rx_fifo_fifo_1923_lpyfjcq.sdc 3711 # (C) 2001-2023 Intel Corporation. All rights reserved.
 # Your use of Intel Corporation's design tools, logic functions and other 
 # software and tools, and its AMPP partner logic functions, and any output 
 # files from any of the foregoing (including device programming or simulation 
@@ -6923,7 +6954,7 @@ foreach each_inst $inst_list {
     }
 }
 apply_sdc_pre_mw_dcfifo xcvr_test_system_rx_fifo_fifo_1923_lpyfjcq
- 13 0 2 C: 5 Users 6 Haas1S 9 Downloads 7 stratix 12 qts_qsfp_sdi 12 qts_qsfp_sdi 2 ip 16 xcvr_test_system 24 xcvr_test_system_tx_fifo 9 fifo_1923 5 synth 46 xcvr_test_system_tx_fifo_fifo_1923_bynk7da.sdc 3626 # (C) 2001-2023 Intel Corporation. All rights reserved.
+ 13 0 2 C: 5 Users 6 Haas1S 9 Downloads 7 stratix 12 qts_qsfp_sdi 12 qts_qsfp_sdi 2 ip 16 xcvr_test_system 24 xcvr_test_system_tx_fifo 9 fifo_1923 5 synth 46 xcvr_test_system_tx_fifo_fifo_1923_bynk7da.sdc 3711 # (C) 2001-2023 Intel Corporation. All rights reserved.
 # Your use of Intel Corporation's design tools, logic functions and other 
 # software and tools, and its AMPP partner logic functions, and any output 
 # files from any of the foregoing (including device programming or simulation 

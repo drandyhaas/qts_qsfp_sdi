@@ -5,7 +5,7 @@
  version="1.0"
  fabric="QSYS">
  <!-- Format version 23.3 104 (Future versions may contain additional information.) -->
- <!-- 2023.10.17.11:25:20 -->
+ <!-- 2024.02.04.14:47:10 -->
  <!-- A collection of modules and connections -->
  <parameter name="AUTO_GENERATION_ID">
   <type>java.lang.Integer</type>
@@ -9610,6 +9610,38 @@ the requested settings for a module instance. -->
                 </parameters>
             </interface>
             <interface>
+                <name>tx_serial_clk1</name>
+                <type>hssi_serial_clock</type>
+                <isStart>false</isStart>
+                <ports>
+                    <port>
+                        <name>tx_serial_clk1</name>
+                        <role>clk</role>
+                        <direction>Input</direction>
+                        <width>1</width>
+                        <lowerBound>0</lowerBound>
+                        <vhdlType>STD_LOGIC_VECTOR</vhdlType>
+                        <terminationValue>0</terminationValue>
+                    </port>
+                </ports>
+                <assignments>
+                    <assignmentValueMap>
+                        <entry>
+                            <key>ui.blockdiagram.direction</key>
+                            <value>input</value>
+                        </entry>
+                    </assignmentValueMap>
+                </assignments>
+                <parameters>
+                    <parameterValueMap>
+                        <entry>
+                            <key>clockRate</key>
+                            <value>0</value>
+                        </entry>
+                    </parameterValueMap>
+                </parameters>
+            </interface>
+            <interface>
                 <name>rx_cdr_refclk0</name>
                 <type>clock</type>
                 <isStart>false</isStart>
@@ -11260,6 +11292,38 @@ the requested settings for a module instance. -->
             </parameters>
         </interface>
         <interface>
+            <name>tx_serial_clk1</name>
+            <type>hssi_serial_clock</type>
+            <isStart>false</isStart>
+            <ports>
+                <port>
+                    <name>tx_serial_clk1</name>
+                    <role>clk</role>
+                    <direction>Input</direction>
+                    <width>1</width>
+                    <lowerBound>0</lowerBound>
+                    <vhdlType>STD_LOGIC_VECTOR</vhdlType>
+                    <terminationValue>0</terminationValue>
+                </port>
+            </ports>
+            <assignments>
+                <assignmentValueMap>
+                    <entry>
+                        <key>ui.blockdiagram.direction</key>
+                        <value>input</value>
+                    </entry>
+                </assignmentValueMap>
+            </assignments>
+            <parameters>
+                <parameterValueMap>
+                    <entry>
+                        <key>clockRate</key>
+                        <value>0</value>
+                    </entry>
+                </parameterValueMap>
+            </parameters>
+        </interface>
+        <interface>
             <name>rx_cdr_refclk0</name>
             <type>clock</type>
             <isStart>false</isStart>
@@ -12272,6 +12336,41 @@ the requested settings for a module instance. -->
                         <key>writeWaitTime</key>
                         <value>0</value>
                     </entry>
+                    <entry>
+                        <key>dfhFeatureGuid</key>
+                        <value>0</value>
+                    </entry>
+                    <entry>
+                        <key>dfhGroupId</key>
+                        <value>0</value>
+                    </entry>
+                    <entry>
+                        <key>dfhParameterId</key>
+                    </entry>
+                    <entry>
+                        <key>dfhParameterName</key>
+                    </entry>
+                    <entry>
+                        <key>dfhParameterVersion</key>
+                    </entry>
+                    <entry>
+                        <key>dfhParameterData</key>
+                    </entry>
+                    <entry>
+                        <key>dfhParameterDataLength</key>
+                    </entry>
+                    <entry>
+                        <key>dfhFeatureMajorVersion</key>
+                        <value>0</value>
+                    </entry>
+                    <entry>
+                        <key>dfhFeatureMinorVersion</key>
+                        <value>0</value>
+                    </entry>
+                    <entry>
+                        <key>dfhFeatureId</key>
+                        <value>35</value>
+                    </entry>
                 </parameterValueMap>
             </parameters>
         </interface>
@@ -13002,6 +13101,47 @@ parameters are a RESULT of the module parameters. -->
    <isStart>false</isStart>
    <port>
     <name>tx_serial_clk0</name>
+    <direction>Input</direction>
+    <width>1</width>
+    <role>clk</role>
+   </port>
+  </interface>
+  <interface name="tx_serial_clk1" kind="hssi_serial_clock_sink" version="23.3">
+   <!-- The connection points exposed by a module instance for the
+particular module parameters. Connection points and their
+parameters are a RESULT of the module parameters. -->
+   <assignment>
+    <name>ui.blockdiagram.direction</name>
+    <value>input</value>
+   </assignment>
+   <parameter name="clockRate">
+    <type>long</type>
+    <value>0</value>
+    <derived>false</derived>
+    <enabled>true</enabled>
+    <visible>true</visible>
+    <valid>true</valid>
+   </parameter>
+   <parameter name="deviceFamily">
+    <type>java.lang.String</type>
+    <value>UNKNOWN</value>
+    <derived>false</derived>
+    <enabled>true</enabled>
+    <visible>true</visible>
+    <valid>true</valid>
+   </parameter>
+   <parameter name="generateLegacySim">
+    <type>boolean</type>
+    <value>false</value>
+    <derived>false</derived>
+    <enabled>true</enabled>
+    <visible>true</visible>
+    <valid>true</valid>
+   </parameter>
+   <type>hssi_serial_clock</type>
+   <isStart>false</isStart>
+   <port>
+    <name>tx_serial_clk1</name>
     <direction>Input</direction>
     <width>1</width>
     <role>clk</role>
@@ -38450,7 +38590,7 @@ parameters are a RESULT of the module parameters. -->
   <version>23.3</version>
  </plugin>
  <plugin>
-  <instanceCount>1</instanceCount>
+  <instanceCount>2</instanceCount>
   <name>hssi_serial_clock_sink</name>
   <type>com.altera.entityinterfaces.IElementClass</type>
   <subtype>com.altera.entityinterfaces.IMutableConnectionPoint</subtype>

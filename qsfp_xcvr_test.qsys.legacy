@@ -247,6 +247,11 @@ https://fpgasoftware.intel.com/eula.-->
    type="hssi_serial_clock"
    dir="end" />
  <interface
+   name="xcvr_native_s10_0_tx_serial_clk1"
+   internal="xcvr_native_s10_0.tx_serial_clk1"
+   type="hssi_serial_clock"
+   dir="end" />
+ <interface
    name="xcvr_native_s10_0_tx_serial_data"
    internal="xcvr_native_s10_0.tx_serial_data"
    type="conduit"
@@ -5472,6 +5477,38 @@ https://fpgasoftware.intel.com/eula.-->
                 </parameters>
             </interface>
             <interface>
+                <name>tx_serial_clk1</name>
+                <type>hssi_serial_clock</type>
+                <isStart>false</isStart>
+                <ports>
+                    <port>
+                        <name>tx_serial_clk1</name>
+                        <role>clk</role>
+                        <direction>Input</direction>
+                        <width>1</width>
+                        <lowerBound>0</lowerBound>
+                        <vhdlType>STD_LOGIC_VECTOR</vhdlType>
+                        <terminationValue>0</terminationValue>
+                    </port>
+                </ports>
+                <assignments>
+                    <assignmentValueMap>
+                        <entry>
+                            <key>ui.blockdiagram.direction</key>
+                            <value>input</value>
+                        </entry>
+                    </assignmentValueMap>
+                </assignments>
+                <parameters>
+                    <parameterValueMap>
+                        <entry>
+                            <key>clockRate</key>
+                            <value>0</value>
+                        </entry>
+                    </parameterValueMap>
+                </parameters>
+            </interface>
+            <interface>
                 <name>rx_cdr_refclk0</name>
                 <type>clock</type>
                 <isStart>false</isStart>
@@ -7069,6 +7106,38 @@ https://fpgasoftware.intel.com/eula.-->
             </parameters>
         </interface>
         <interface>
+            <name>tx_serial_clk1</name>
+            <type>hssi_serial_clock</type>
+            <isStart>false</isStart>
+            <ports>
+                <port>
+                    <name>tx_serial_clk1</name>
+                    <role>clk</role>
+                    <direction>Input</direction>
+                    <width>1</width>
+                    <lowerBound>0</lowerBound>
+                    <vhdlType>STD_LOGIC_VECTOR</vhdlType>
+                    <terminationValue>0</terminationValue>
+                </port>
+            </ports>
+            <assignments>
+                <assignmentValueMap>
+                    <entry>
+                        <key>ui.blockdiagram.direction</key>
+                        <value>input</value>
+                    </entry>
+                </assignmentValueMap>
+            </assignments>
+            <parameters>
+                <parameterValueMap>
+                    <entry>
+                        <key>clockRate</key>
+                        <value>0</value>
+                    </entry>
+                </parameterValueMap>
+            </parameters>
+        </interface>
+        <interface>
             <name>rx_cdr_refclk0</name>
             <type>clock</type>
             <isStart>false</isStart>
@@ -8080,6 +8149,41 @@ https://fpgasoftware.intel.com/eula.-->
                     <entry>
                         <key>writeWaitTime</key>
                         <value>0</value>
+                    </entry>
+                    <entry>
+                        <key>dfhFeatureGuid</key>
+                        <value>0</value>
+                    </entry>
+                    <entry>
+                        <key>dfhGroupId</key>
+                        <value>0</value>
+                    </entry>
+                    <entry>
+                        <key>dfhParameterId</key>
+                    </entry>
+                    <entry>
+                        <key>dfhParameterName</key>
+                    </entry>
+                    <entry>
+                        <key>dfhParameterVersion</key>
+                    </entry>
+                    <entry>
+                        <key>dfhParameterData</key>
+                    </entry>
+                    <entry>
+                        <key>dfhParameterDataLength</key>
+                    </entry>
+                    <entry>
+                        <key>dfhFeatureMajorVersion</key>
+                        <value>0</value>
+                    </entry>
+                    <entry>
+                        <key>dfhFeatureMinorVersion</key>
+                        <value>0</value>
+                    </entry>
+                    <entry>
+                        <key>dfhFeatureId</key>
+                        <value>35</value>
                     </entry>
                 </parameterValueMap>
             </parameters>

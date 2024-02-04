@@ -1,5 +1,5 @@
 Flow report for qts_qsfp_sdi
-Thu Feb  1 05:29:51 2024
+Sun Feb  4 17:21:11 2024
 Quartus Prime Version 23.3.0 Build 104 09/20/2023 SC Pro Edition
 
 
@@ -39,7 +39,7 @@ on the Quartus Prime software download page.
 +------------------------------------------------------------------------------+
 ; Flow Summary                                                                 ;
 +---------------------------------+--------------------------------------------+
-; Flow Status                     ; Successful - Thu Feb  1 05:29:50 2024      ;
+; Flow Status                     ; Successful - Sun Feb  4 17:21:10 2024      ;
 ; Quartus Prime Version           ; 23.3.0 Build 104 09/20/2023 SC Pro Edition ;
 ; Revision Name                   ; qts_qsfp_sdi                               ;
 ; Top-level Entity Name           ; qts_qsfp_sdi                               ;
@@ -48,8 +48,8 @@ on the Quartus Prime software download page.
 ; Timing Models                   ; Final                                      ;
 ; Power Models                    ; Final                                      ;
 ; Device Status                   ; Final                                      ;
-; Logic utilization (in ALMs)     ; 22,311 / 933,120 ( 2 % )                   ;
-; Total dedicated logic registers ; 35246                                      ;
+; Logic utilization (in ALMs)     ; 22,327 / 933,120 ( 2 % )                   ;
+; Total dedicated logic registers ; 35258                                      ;
 ; Total pins                      ; 62 / 1,152 ( 5 % )                         ;
 ; Total block memory bits         ; 966,464 / 240,046,080 ( < 1 % )            ;
 ; Total RAM Blocks                ; 72 / 11,721 ( < 1 % )                      ;
@@ -68,7 +68,7 @@ on the Quartus Prime software download page.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 02/01/2024 05:12:55 ;
+; Start date & time ; 02/04/2024 17:04:04 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; qts_qsfp_sdi        ;
 +-------------------+---------------------+
@@ -82,7 +82,7 @@ on the Quartus Prime software download page.
 ; ADV_NETLIST_OPT_SYNTH_WYSIWYG_REMAP ; On                                                                                                                                                                                       ; Off                ; --          ; --             ;
 ; ALLOW_DSP_RETIMING                  ; On                                                                                                                                                                                       ; Off                ; --          ; --             ;
 ; ALLOW_RAM_RETIMING                  ; On                                                                                                                                                                                       ; Off                ; --          ; --             ;
-; COMPILER_SIGNATURE_ID               ; 159303458021396.170678245808872                                                                                                                                                          ; --                 ; --          ; --             ;
+; COMPILER_SIGNATURE_ID               ; 159303458021396.170708431813200                                                                                                                                                          ; --                 ; --          ; --             ;
 ; EDA_OUTPUT_DATA_FORMAT              ; None                                                                                                                                                                                     ; --                 ; --          ; eda_simulation ;
 ; ENABLE_SIGNALTAP                    ; On                                                                                                                                                                                       ; --                 ; --          ; --             ;
 ; ENABLE_TIME_BORROWING_OPTIMIZATION  ; On                                                                                                                                                                                       ; Off                ; --          ; --             ;
@@ -243,29 +243,27 @@ on the Quartus Prime software download page.
 +-------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------+-------------+----------------+
 
 
-+------------------------------------------------------+
-; Flow Elapsed Time                                    ;
-+-----------------+--------------+---------------------+
-; Module Name     ; Elapsed Time ; Peak Virtual Memory ;
-+-----------------+--------------+---------------------+
-; Synthesis       ; 00:02:08     ; 1574 MB             ;
-; Fitter          ; 00:13:32     ; 23330 MB            ;
-; Timing Analyzer ; 00:00:23     ; 6499 MB             ;
-; Assembler       ; 00:00:43     ; 10605 MB            ;
-; Total           ; 00:16:46     ; --                  ;
-+-----------------+--------------+---------------------+
++-----------------------------------------------------+
+; Flow Elapsed Time                                   ;
++----------------+--------------+---------------------+
+; Module Name    ; Elapsed Time ; Peak Virtual Memory ;
++----------------+--------------+---------------------+
+; Synthesis      ; 00:02:00     ; 1584 MB             ;
+; Fitter         ; 00:14:10     ; 23426 MB            ;
+; Power Analyzer ; 00:00:50     ; 11484 MB            ;
+; Total          ; 00:17:00     ; --                  ;
++----------------+--------------+---------------------+
 
 
-+-------------------------------------------------------------------------------+
-; Flow OS Summary                                                               ;
-+-----------------+------------------+------------+------------+----------------+
-; Module Name     ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
-+-----------------+------------------+------------+------------+----------------+
-; Synthesis       ; DESKTOP-4STBDIB  ; Windows 10 ; 10.0.19045 ; x86_64         ;
-; Fitter          ; DESKTOP-4STBDIB  ; Windows 10 ; 10.0.19045 ; x86_64         ;
-; Timing Analyzer ; DESKTOP-4STBDIB  ; Windows 10 ; 10.0.19045 ; x86_64         ;
-; Assembler       ; DESKTOP-4STBDIB  ; Windows 10 ; 10.0.19045 ; x86_64         ;
-+-----------------+------------------+------------+------------+----------------+
++------------------------------------------------------------------------------+
+; Flow OS Summary                                                              ;
++----------------+------------------+------------+------------+----------------+
+; Module Name    ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
++----------------+------------------+------------+------------+----------------+
+; Synthesis      ; DESKTOP-4STBDIB  ; Windows 10 ; 10.0.19045 ; x86_64         ;
+; Fitter         ; DESKTOP-4STBDIB  ; Windows 10 ; 10.0.19045 ; x86_64         ;
+; Power Analyzer ; DESKTOP-4STBDIB  ; Windows 10 ; 10.0.19045 ; x86_64         ;
++----------------+------------------+------------+------------+----------------+
 
 
 ------------
@@ -273,8 +271,7 @@ on the Quartus Prime software download page.
 ------------
 quartus_syn --dni --read_settings_files=on --write_settings_files=off qts_qsfp_sdi -c qts_qsfp_sdi
 quartus_fit --read_settings_files=on --write_settings_files=off qts_qsfp_sdi -c qts_qsfp_sdi
-quartus_sta qts_qsfp_sdi -c qts_qsfp_sdi --mode=finalize
-quartus_asm --read_settings_files=on --write_settings_files=off qts_qsfp_sdi -c qts_qsfp_sdi
+quartus_pow --read_settings_files=on --write_settings_files=off qts_qsfp_sdi -c qts_qsfp_sdi
 
 
 

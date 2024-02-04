@@ -52504,6 +52504,38 @@
                 &lt;/parameters&gt;
             &lt;/interface&gt;
             &lt;interface&gt;
+                &lt;name&gt;tx_serial_clk&lt;/name&gt;
+                &lt;type&gt;hssi_serial_clock&lt;/type&gt;
+                &lt;isStart&gt;true&lt;/isStart&gt;
+                &lt;ports&gt;
+                    &lt;port&gt;
+                        &lt;name&gt;tx_serial_clk&lt;/name&gt;
+                        &lt;role&gt;clk&lt;/role&gt;
+                        &lt;direction&gt;Output&lt;/direction&gt;
+                        &lt;width&gt;1&lt;/width&gt;
+                        &lt;lowerBound&gt;0&lt;/lowerBound&gt;
+                        &lt;vhdlType&gt;STD_LOGIC&lt;/vhdlType&gt;
+                        &lt;terminationValue&gt;0&lt;/terminationValue&gt;
+                    &lt;/port&gt;
+                &lt;/ports&gt;
+                &lt;assignments&gt;
+                    &lt;assignmentValueMap&gt;
+                        &lt;entry&gt;
+                            &lt;key&gt;ui.blockdiagram.direction&lt;/key&gt;
+                            &lt;value&gt;output&lt;/value&gt;
+                        &lt;/entry&gt;
+                    &lt;/assignmentValueMap&gt;
+                &lt;/assignments&gt;
+                &lt;parameters&gt;
+                    &lt;parameterValueMap&gt;
+                        &lt;entry&gt;
+                            &lt;key&gt;clockRate&lt;/key&gt;
+                            &lt;value&gt;0&lt;/value&gt;
+                        &lt;/entry&gt;
+                    &lt;/parameterValueMap&gt;
+                &lt;/parameters&gt;
+            &lt;/interface&gt;
+            &lt;interface&gt;
                 &lt;name&gt;tx_serial_clk_gxt&lt;/name&gt;
                 &lt;type&gt;hssi_serial_clock&lt;/type&gt;
                 &lt;isStart&gt;true&lt;/isStart&gt;
@@ -53082,6 +53114,38 @@
                     &lt;/entry&gt;
                     &lt;entry&gt;
                         &lt;key&gt;ptfSchematicName&lt;/key&gt;
+                    &lt;/entry&gt;
+                &lt;/parameterValueMap&gt;
+            &lt;/parameters&gt;
+        &lt;/interface&gt;
+        &lt;interface&gt;
+            &lt;name&gt;tx_serial_clk&lt;/name&gt;
+            &lt;type&gt;hssi_serial_clock&lt;/type&gt;
+            &lt;isStart&gt;true&lt;/isStart&gt;
+            &lt;ports&gt;
+                &lt;port&gt;
+                    &lt;name&gt;tx_serial_clk&lt;/name&gt;
+                    &lt;role&gt;clk&lt;/role&gt;
+                    &lt;direction&gt;Output&lt;/direction&gt;
+                    &lt;width&gt;1&lt;/width&gt;
+                    &lt;lowerBound&gt;0&lt;/lowerBound&gt;
+                    &lt;vhdlType&gt;STD_LOGIC&lt;/vhdlType&gt;
+                    &lt;terminationValue&gt;0&lt;/terminationValue&gt;
+                &lt;/port&gt;
+            &lt;/ports&gt;
+            &lt;assignments&gt;
+                &lt;assignmentValueMap&gt;
+                    &lt;entry&gt;
+                        &lt;key&gt;ui.blockdiagram.direction&lt;/key&gt;
+                        &lt;value&gt;output&lt;/value&gt;
+                    &lt;/entry&gt;
+                &lt;/assignmentValueMap&gt;
+            &lt;/assignments&gt;
+            &lt;parameters&gt;
+                &lt;parameterValueMap&gt;
+                    &lt;entry&gt;
+                        &lt;key&gt;clockRate&lt;/key&gt;
+                        &lt;value&gt;0&lt;/value&gt;
                     &lt;/entry&gt;
                 &lt;/parameterValueMap&gt;
             &lt;/parameters&gt;
@@ -53817,6 +53881,22 @@
             <interconnectAssignments></interconnectAssignments>
             <className>hssi_serial_clock</className>
             <version>23.3</version>
+            <end>qsfp_xcvr_test_0/xcvr_native_s10_0_tx_serial_clk1</end>
+            <start>qsfp_xcvr_atx_pll/tx_serial_clk</start>
+          </incidentConnection>
+          <incidentConnection>
+            <parameters></parameters>
+            <interconnectAssignments></interconnectAssignments>
+            <className>hssi_serial_clock</className>
+            <version>23.3</version>
+            <end>qsfp_xcvr_test_1/xcvr_native_s10_0_tx_serial_clk1</end>
+            <start>qsfp_xcvr_atx_pll/tx_serial_clk</start>
+          </incidentConnection>
+          <incidentConnection>
+            <parameters></parameters>
+            <interconnectAssignments></interconnectAssignments>
+            <className>hssi_serial_clock</className>
+            <version>23.3</version>
             <end>qsfp_xcvr_test_0/xcvr_native_s10_0_tx_serial_clk0</end>
             <start>qsfp_xcvr_atx_pll/tx_serial_clk_gxt</start>
           </incidentConnection>
@@ -53906,6 +53986,38 @@
                         &lt;/entry&gt;
                         &lt;entry&gt;
                             &lt;key&gt;ptfSchematicName&lt;/key&gt;
+                        &lt;/entry&gt;
+                    &lt;/parameterValueMap&gt;
+                &lt;/parameters&gt;
+            &lt;/interface&gt;
+            &lt;interface&gt;
+                &lt;name&gt;tx_serial_clk&lt;/name&gt;
+                &lt;type&gt;hssi_serial_clock&lt;/type&gt;
+                &lt;isStart&gt;true&lt;/isStart&gt;
+                &lt;ports&gt;
+                    &lt;port&gt;
+                        &lt;name&gt;tx_serial_clk&lt;/name&gt;
+                        &lt;role&gt;clk&lt;/role&gt;
+                        &lt;direction&gt;Output&lt;/direction&gt;
+                        &lt;width&gt;1&lt;/width&gt;
+                        &lt;lowerBound&gt;0&lt;/lowerBound&gt;
+                        &lt;vhdlType&gt;STD_LOGIC&lt;/vhdlType&gt;
+                        &lt;terminationValue&gt;0&lt;/terminationValue&gt;
+                    &lt;/port&gt;
+                &lt;/ports&gt;
+                &lt;assignments&gt;
+                    &lt;assignmentValueMap&gt;
+                        &lt;entry&gt;
+                            &lt;key&gt;ui.blockdiagram.direction&lt;/key&gt;
+                            &lt;value&gt;output&lt;/value&gt;
+                        &lt;/entry&gt;
+                    &lt;/assignmentValueMap&gt;
+                &lt;/assignments&gt;
+                &lt;parameters&gt;
+                    &lt;parameterValueMap&gt;
+                        &lt;entry&gt;
+                            &lt;key&gt;clockRate&lt;/key&gt;
+                            &lt;value&gt;0&lt;/value&gt;
                         &lt;/entry&gt;
                     &lt;/parameterValueMap&gt;
                 &lt;/parameters&gt;
@@ -54489,6 +54601,38 @@
                     &lt;/entry&gt;
                     &lt;entry&gt;
                         &lt;key&gt;ptfSchematicName&lt;/key&gt;
+                    &lt;/entry&gt;
+                &lt;/parameterValueMap&gt;
+            &lt;/parameters&gt;
+        &lt;/interface&gt;
+        &lt;interface&gt;
+            &lt;name&gt;tx_serial_clk&lt;/name&gt;
+            &lt;type&gt;hssi_serial_clock&lt;/type&gt;
+            &lt;isStart&gt;true&lt;/isStart&gt;
+            &lt;ports&gt;
+                &lt;port&gt;
+                    &lt;name&gt;tx_serial_clk&lt;/name&gt;
+                    &lt;role&gt;clk&lt;/role&gt;
+                    &lt;direction&gt;Output&lt;/direction&gt;
+                    &lt;width&gt;1&lt;/width&gt;
+                    &lt;lowerBound&gt;0&lt;/lowerBound&gt;
+                    &lt;vhdlType&gt;STD_LOGIC&lt;/vhdlType&gt;
+                    &lt;terminationValue&gt;0&lt;/terminationValue&gt;
+                &lt;/port&gt;
+            &lt;/ports&gt;
+            &lt;assignments&gt;
+                &lt;assignmentValueMap&gt;
+                    &lt;entry&gt;
+                        &lt;key&gt;ui.blockdiagram.direction&lt;/key&gt;
+                        &lt;value&gt;output&lt;/value&gt;
+                    &lt;/entry&gt;
+                &lt;/assignmentValueMap&gt;
+            &lt;/assignments&gt;
+            &lt;parameters&gt;
+                &lt;parameterValueMap&gt;
+                    &lt;entry&gt;
+                        &lt;key&gt;clockRate&lt;/key&gt;
+                        &lt;value&gt;0&lt;/value&gt;
                     &lt;/entry&gt;
                 &lt;/parameterValueMap&gt;
             &lt;/parameters&gt;
@@ -55224,6 +55368,22 @@
             <interconnectAssignments></interconnectAssignments>
             <className>hssi_serial_clock</className>
             <version>23.3</version>
+            <end>qsfp_xcvr_test_3/xcvr_native_s10_0_tx_serial_clk1</end>
+            <start>qsfp_xcvr_atx_pll1/tx_serial_clk</start>
+          </incidentConnection>
+          <incidentConnection>
+            <parameters></parameters>
+            <interconnectAssignments></interconnectAssignments>
+            <className>hssi_serial_clock</className>
+            <version>23.3</version>
+            <end>qsfp_xcvr_test_4/xcvr_native_s10_0_tx_serial_clk1</end>
+            <start>qsfp_xcvr_atx_pll1/tx_serial_clk</start>
+          </incidentConnection>
+          <incidentConnection>
+            <parameters></parameters>
+            <interconnectAssignments></interconnectAssignments>
+            <className>hssi_serial_clock</className>
+            <version>23.3</version>
             <end>qsfp_xcvr_test_3/xcvr_native_s10_0_tx_serial_clk0</end>
             <start>qsfp_xcvr_atx_pll1/tx_serial_clk_gxt</start>
           </incidentConnection>
@@ -55938,6 +56098,14 @@
             <interconnectAssignments></interconnectAssignments>
             <className>hssi_serial_clock</className>
             <version>23.3</version>
+            <end>qsfp_xcvr_test_0/xcvr_native_s10_0_tx_serial_clk1</end>
+            <start>qsfp_xcvr_atx_pll/tx_serial_clk</start>
+          </incidentConnection>
+          <incidentConnection>
+            <parameters></parameters>
+            <interconnectAssignments></interconnectAssignments>
+            <className>hssi_serial_clock</className>
+            <version>23.3</version>
             <end>qsfp_xcvr_test_0/xcvr_native_s10_0_tx_serial_clk0</end>
             <start>qsfp_xcvr_atx_pll/tx_serial_clk_gxt</start>
           </incidentConnection>
@@ -56206,6 +56374,14 @@
             <interconnectAssignments></interconnectAssignments>
             <className>hssi_serial_clock</className>
             <version>23.3</version>
+            <end>qsfp_xcvr_test_1/xcvr_native_s10_0_tx_serial_clk1</end>
+            <start>qsfp_xcvr_atx_pll/tx_serial_clk</start>
+          </incidentConnection>
+          <incidentConnection>
+            <parameters></parameters>
+            <interconnectAssignments></interconnectAssignments>
+            <className>hssi_serial_clock</className>
+            <version>23.3</version>
             <end>qsfp_xcvr_test_1/xcvr_native_s10_0_tx_serial_clk0</end>
             <start>qsfp_xcvr_atx_pll/tx_serial_clk_gxt</start>
           </incidentConnection>
@@ -56439,6 +56615,14 @@
             <version>23.3</version>
             <end>qsfp_xcvr_test_3/mm_bridge_0_s0</end>
             <start>mm_interconnect_0/qsfp_xcvr_test_3_mm_bridge_0_s0</start>
+          </incidentConnection>
+          <incidentConnection>
+            <parameters></parameters>
+            <interconnectAssignments></interconnectAssignments>
+            <className>hssi_serial_clock</className>
+            <version>23.3</version>
+            <end>qsfp_xcvr_test_3/xcvr_native_s10_0_tx_serial_clk1</end>
+            <start>qsfp_xcvr_atx_pll1/tx_serial_clk</start>
           </incidentConnection>
           <incidentConnection>
             <parameters></parameters>
@@ -56707,6 +56891,14 @@
             <version>23.3</version>
             <end>qsfp_xcvr_test_4/mm_bridge_0_s0</end>
             <start>mm_interconnect_0/qsfp_xcvr_test_4_mm_bridge_0_s0</start>
+          </incidentConnection>
+          <incidentConnection>
+            <parameters></parameters>
+            <interconnectAssignments></interconnectAssignments>
+            <className>hssi_serial_clock</className>
+            <version>23.3</version>
+            <end>qsfp_xcvr_test_4/xcvr_native_s10_0_tx_serial_clk1</end>
+            <start>qsfp_xcvr_atx_pll1/tx_serial_clk</start>
           </incidentConnection>
           <incidentConnection>
             <parameters></parameters>

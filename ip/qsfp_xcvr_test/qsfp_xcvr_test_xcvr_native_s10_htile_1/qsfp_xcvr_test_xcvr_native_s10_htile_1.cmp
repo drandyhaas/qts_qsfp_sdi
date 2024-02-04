@@ -11,6 +11,7 @@
 			tx_cal_busy             : out std_logic_vector(0 downto 0);                     -- tx_cal_busy
 			rx_cal_busy             : out std_logic_vector(0 downto 0);                     -- rx_cal_busy
 			tx_serial_clk0          : in  std_logic_vector(0 downto 0)  := (others => 'X'); -- clk
+			tx_serial_clk1          : in  std_logic_vector(0 downto 0)  := (others => 'X'); -- clk
 			rx_cdr_refclk0          : in  std_logic                     := 'X';             -- clk
 			tx_serial_data          : out std_logic_vector(0 downto 0);                     -- tx_serial_data
 			rx_serial_data          : in  std_logic_vector(0 downto 0)  := (others => 'X'); -- rx_serial_data

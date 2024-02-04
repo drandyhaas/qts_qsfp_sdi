@@ -16,6 +16,7 @@
 			mm_bridge_0_s0_debugaccess                      : in  std_logic                     := 'X';             -- debugaccess
 			pll_locked_pll_locked_pll_locked                : in  std_logic_vector(0 downto 0)  := (others => 'X'); -- pll_locked
 			xcvr_native_s10_0_tx_serial_clk0_clk            : in  std_logic_vector(0 downto 0)  := (others => 'X'); -- clk
+			xcvr_native_s10_0_tx_serial_clk1_clk            : in  std_logic_vector(0 downto 0)  := (others => 'X'); -- clk
 			xcvr_native_s10_0_rx_cdr_refclk0_clk            : in  std_logic                     := 'X';             -- clk
 			xcvr_native_s10_0_tx_serial_data_tx_serial_data : out std_logic_vector(0 downto 0);                     -- tx_serial_data
 			xcvr_native_s10_0_rx_serial_data_rx_serial_data : in  std_logic_vector(0 downto 0)  := (others => 'X')  -- rx_serial_data
@@ -40,6 +41,7 @@
 			mm_bridge_0_s0_debugaccess                      => CONNECTED_TO_mm_bridge_0_s0_debugaccess,                      --                                 .debugaccess
 			pll_locked_pll_locked_pll_locked                => CONNECTED_TO_pll_locked_pll_locked_pll_locked,                --            pll_locked_pll_locked.pll_locked
 			xcvr_native_s10_0_tx_serial_clk0_clk            => CONNECTED_TO_xcvr_native_s10_0_tx_serial_clk0_clk,            -- xcvr_native_s10_0_tx_serial_clk0.clk
+			xcvr_native_s10_0_tx_serial_clk1_clk            => CONNECTED_TO_xcvr_native_s10_0_tx_serial_clk1_clk,            -- xcvr_native_s10_0_tx_serial_clk1.clk
 			xcvr_native_s10_0_rx_cdr_refclk0_clk            => CONNECTED_TO_xcvr_native_s10_0_rx_cdr_refclk0_clk,            -- xcvr_native_s10_0_rx_cdr_refclk0.clk
 			xcvr_native_s10_0_tx_serial_data_tx_serial_data => CONNECTED_TO_xcvr_native_s10_0_tx_serial_data_tx_serial_data, -- xcvr_native_s10_0_tx_serial_data.tx_serial_data
 			xcvr_native_s10_0_rx_serial_data_rx_serial_data => CONNECTED_TO_xcvr_native_s10_0_rx_serial_data_rx_serial_data  -- xcvr_native_s10_0_rx_serial_data.rx_serial_data

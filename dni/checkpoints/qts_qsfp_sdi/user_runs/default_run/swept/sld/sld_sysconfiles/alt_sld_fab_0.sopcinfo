@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <EnsembleReport name="alt_sld_fab_0" kind="alt_sld_fab_0" version="1.0" fabric="QSYS">
  <!-- Format version 23.3 104 (Future versions may contain additional information.) -->
- <!-- 2024.02.01.05:13:56 -->
+ <!-- 2024.02.04.17:04:56 -->
  <!-- A collection of modules and connections -->
  <parameter name="AUTO_GENERATION_ID">
   <type>java.lang.Integer</type>
@@ -125,7 +125,7 @@ the requested settings for a module instance. -->
    name="alt_sld_fab_0_alt_sld_fab_0"
    kind="alt_sld_fab"
    version="19.2.0"
-   entity="alt_sld_fab_0_alt_sld_fab_1920_3ua3i2y"
+   entity="alt_sld_fab_0_alt_sld_fab_1920_xzyjavi"
    library="alt_sld_fab_1920"
    path="alt_sld_fab_0.alt_sld_fab_0"
    hpath="alt_sld_fab_0|alt_sld_fab_0"
@@ -134,7 +134,7 @@ the requested settings for a module instance. -->
 the requested settings for a module instance. -->
   <parameter name="DESIGN_HASH">
    <type>java.lang.String</type>
-   <value>ffd3cf04fabbbbddcb37</value>
+   <value>44fb776d6d74e315a5bf</value>
    <derived>false</derived>
    <enabled>true</enabled>
    <visible>true</visible>
@@ -30833,7 +30833,7 @@ parameters are a RESULT of the module parameters. -->
    name="alt_sld_fab_0_alt_sld_fab_0_ident"
    kind="altera_connection_identification_hub"
    version="19.2.0"
-   entity="alt_sld_fab_0_altera_connection_identification_hub_1920_2is7xka"
+   entity="alt_sld_fab_0_altera_connection_identification_hub_1920_3ssc7aa"
    library="altera_connection_identification_hub_1920"
    path="alt_sld_fab_0.alt_sld_fab_0.ident"
    hpath="alt_sld_fab_0|alt_sld_fab_0|ident"
@@ -30842,7 +30842,7 @@ parameters are a RESULT of the module parameters. -->
 the requested settings for a module instance. -->
   <parameter name="DESIGN_HASH">
    <type>java.lang.String</type>
-   <value>ffd3cf04fabbbbddcb37</value>
+   <value>44fb776d6d74e315a5bf</value>
    <derived>false</derived>
    <enabled>true</enabled>
    <visible>true</visible>

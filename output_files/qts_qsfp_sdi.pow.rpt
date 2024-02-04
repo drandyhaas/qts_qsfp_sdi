@@ -1,6 +1,6 @@
 Power Analyzer report for qts_qsfp_sdi
-Thu Feb  1 04:06:34 2024
-Quartus Prime Version 21.2.0 Build 72 06/14/2021 SC Pro Edition
+Sun Feb  4 17:21:11 2024
+Quartus Prime Version 23.3.0 Build 104 09/20/2023 SC Pro Edition
 
 
 ---------------------
@@ -12,23 +12,24 @@ Quartus Prime Version 21.2.0 Build 72 06/14/2021 SC Pro Edition
   4. Power Analyzer Settings
   5. Power Analyzer Messages
   6. Indeterminate Toggle Rates
-  7. Operating Conditions Used
-  8. On-Chip Power Dissipation by Block Type
-  9. Current Drawn per Supply
- 10. I/O Current Drawn per Supply
- 11. I/O Current Drawn by Voltage
- 12. Transceiver Current Drawn per Supply
- 13. Transceiver Current Drawn by Voltage
- 14. Confidence Metric Details
- 15. Signal Activities
- 16. Power Analyzer INI Usage
+  7. Power Analyzer Generated Files
+  8. Operating Conditions Used
+  9. On-Chip Power Dissipation by Block Type
+ 10. Current Drawn per Supply
+ 11. I/O Current Drawn per Supply
+ 12. I/O Current Drawn by Voltage
+ 13. Transceiver Current Drawn per Supply
+ 14. Transceiver Current Drawn by Voltage
+ 15. Confidence Metric Details
+ 16. Signal Activities
+ 17. Power Analyzer INI Usage
 
 
 
 ----------------
 ; Legal Notice ;
 ----------------
-Copyright (C) 2021  Intel Corporation. All rights reserved.
+Copyright (C) 2023  Intel Corporation. All rights reserved.
 Your use of Intel Corporation's design tools, logic functions 
 and other software and tools, and any partner logic 
 functions, and any output files from any of the foregoing 
@@ -40,16 +41,16 @@ the Intel FPGA IP License Agreement, or other applicable license
 agreement, including, without limitation, that your use is for
 the sole purpose of programming logic devices manufactured by
 Intel and sold by Intel or its authorized distributors.  Please
-refer to the applicable agreement for further details, at
-https://fpgasoftware.intel.com/eula.
+refer to the Intel FPGA Software License Subscription Agreements 
+on the Quartus Prime software download page.
 
 
 
 +------------------------------------------------------------------------------------------------------------------+
 ; Power Analyzer Summary                                                                                           ;
 +---------------------------------------------------------------+--------------------------------------------------+
-; Power Analyzer Status                                         ; Successful - Thu Feb  1 04:06:33 2024            ;
-; Quartus Prime Version                                         ; 21.2.0 Build 72 06/14/2021 SC Pro Edition        ;
+; Power Analyzer Status                                         ; Successful - Sun Feb  4 17:21:10 2024            ;
+; Quartus Prime Version                                         ; 23.3.0 Build 104 09/20/2023 SC Pro Edition       ;
 ; Revision Name                                                 ; qts_qsfp_sdi                                     ;
 ; Top-level Entity Name                                         ; qts_qsfp_sdi                                     ;
 ; Family                                                        ; Stratix 10                                       ;
@@ -57,16 +58,16 @@ https://fpgasoftware.intel.com/eula.
 ; Timing Models                                                 ; Final                                            ;
 ; Power Models                                                  ; Final                                            ;
 ; Device Status                                                 ; Final                                            ;
-; Total On-Chip Power Dissipation                               ; 14093.90 mW                                      ;
-; Total On-Chip Power Dissipation Before SmartVID Power Savings ; 14093.90 mW                                      ;
-; Transceiver Standby On-Chip Power Dissipation                 ; 3181.61 mW                                       ;
-; Transceiver Dynamic On-Chip Power Dissipation                 ; 4422.44 mW                                       ;
+; Total On-Chip Power Dissipation                               ; 14139.90 mW                                      ;
+; Total On-Chip Power Dissipation Before SmartVID Power Savings ; 14139.90 mW                                      ;
+; Transceiver Standby On-Chip Power Dissipation                 ; 3192.73 mW                                       ;
+; Transceiver Dynamic On-Chip Power Dissipation                 ; 4421.83 mW                                       ;
 ; I/O Standby On-Chip Power Dissipation                         ; 35.91 mW                                         ;
 ; I/O Dynamic On-Chip Power Dissipation                         ; 0.81 mW                                          ;
-; Core Dynamic On-Chip Power Dissipation                        ; 405.79 mW                                        ;
+; Core Dynamic On-Chip Power Dissipation                        ; 441.44 mW                                        ;
 ; HPS Standby On-Chip Power Dissipation                         ; 0.00 mW                                          ;
 ; HPS Dynamic On-Chip Power Dissipation                         ; 0.00 mW                                          ;
-; Device Static On-Chip Power Dissipation                       ; 6047.34 mW                                       ;
+; Device Static On-Chip Power Dissipation                       ; 6047.19 mW                                       ;
 ; High Bandwidth Memory Standby On-Chip Power Dissipation       ; 0.00 mW                                          ;
 ; High Bandwidth Memory Dynamic On-Chip Power Dissipation       ; 0.00 mW                                          ;
 ; Analog/Digital Converter Standby On-Chip Power Dissipation    ; 0.00 mW                                          ;
@@ -84,37 +85,37 @@ https://fpgasoftware.intel.com/eula.
 +------------------------+-------------+
 
 
-+--------------------------------------------------------------------------------------------+
-; Power Analyzer Settings                                                                    ;
-+------------------------------------------------------------------+---------+---------------+
-; Option                                                           ; Setting ; Default Value ;
-+------------------------------------------------------------------+---------+---------------+
-; Allow RAM Retiming                                               ; On      ; Off           ;
-; Enable parallel Assembler and Timing Analyzer during compilation ; On      ; On            ;
-; Enable compact report table                                      ; Off     ; Off           ;
-; Enable Design Assistant in the compilation flow                  ; On      ; On            ;
-; Design Assistant include IP blocks                               ; Off     ; Off           ;
-; High fanout net threshold for RAM inference                      ; 15      ; 15            ;
-; Design Assistant limit on reported violations per rule           ; 5000    ; 5000          ;
-; Allow DSP Retiming                                               ; Off     ; Off           ;
-; Default Power Toggle Rate                                        ; 12.5%   ; 12.5%         ;
-; Default Power Input I/O Toggle Rate                              ; 12.5%   ; 12.5%         ;
-; Use vectorless estimation                                        ; On      ; On            ;
-; Use Input Files                                                  ; Off     ; Off           ;
-; Filter Glitches in VCD File Reader                               ; On      ; On            ;
-; Power Analyzer Report Signal Activity                            ; Off     ; Off           ;
-; Power Analyzer Report Power Dissipation                          ; Off     ; Off           ;
-; Device Power Characteristics                                     ; TYPICAL ; TYPICAL       ;
-; Specified Junction Temperature                                   ; 25      ; 25            ;
-; Ambient Temperature                                              ; 25      ; 25            ;
-; Find cooling solution for maximum junction temperature limit     ; Off     ; Off           ;
-; Maximum junction temperature limit                               ; 25      ; 25            ;
-; Case-to-ambient thermal resistance                               ; 0.5     ; 0.5           ;
-; Apply thermal margin                                             ; Off     ; Off           ;
-; Temperature measurement method                                   ; DTS     ; DTS           ;
-; Enable HPS                                                       ; Off     ; Off           ;
-; Processor Frequency                                              ; 0.0     ; 0.0           ;
-+------------------------------------------------------------------+---------+---------------+
++----------------------------------------------------------------------------------------------------------+
+; Power Analyzer Settings                                                                                  ;
++------------------------------------------------------------------+-------------------+-------------------+
+; Option                                                           ; Setting           ; Default Value     ;
++------------------------------------------------------------------+-------------------+-------------------+
+; Enable parallel Assembler and Timing Analyzer during compilation ; On                ; On                ;
+; Enable compact report table                                      ; Off               ; Off               ;
+; Enable Design Assistant in the compilation flow                  ; On                ; On                ;
+; Design Assistant include IP blocks                               ; Off               ; Off               ;
+; High fanout net threshold for RAM inference                      ; 15                ; 15                ;
+; Design Assistant limit on reported violations per rule           ; 5000              ; 5000              ;
+; Default Power Toggle Rate                                        ; 12.5%             ; 12.5%             ;
+; Default Power Input I/O Toggle Rate                              ; 12.5%             ; 12.5%             ;
+; Use vectorless estimation                                        ; On                ; On                ;
+; Use Input Files                                                  ; Off               ; Off               ;
+; Filter Glitches in VCD File Reader                               ; On                ; On                ;
+; Power Analyzer Report Signal Activity                            ; Off               ; Off               ;
+; Power Analyzer Report Power Dissipation                          ; Off               ; Off               ;
+; Device Power Characteristics                                     ; TYPICAL           ; TYPICAL           ;
+; Specified Junction Temperature                                   ; 25                ; 25                ;
+; Ambient Temperature                                              ; 25                ; 25                ;
+; Find cooling solution for maximum junction temperature limit     ; Off               ; Off               ;
+; Maximum junction temperature limit                               ; 25                ; 25                ;
+; Case-to-ambient thermal resistance                               ; 0.5               ; 0.5               ;
+; Apply additional margin                                          ; Off               ; Off               ;
+; Apply additional margin                                          ; 0.0               ; 0.0               ;
+; Temperature measurement method                                   ; DTS               ; DTS               ;
+; Enable HPS                                                       ; Off               ; Off               ;
+; Processor Frequency                                              ; 0.0               ; 0.0               ;
+; Power and Thermal Calculator Export File                         ; qts_qsfp_sdi.qptc ; qts_qsfp_sdi.qptc ;
++------------------------------------------------------------------+-------------------+-------------------+
 
 
 +-------------------------+
@@ -122,15 +123,17 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------+
 Info: *******************************************************************
 Info: Running Quartus Prime Power Analyzer
-    Info: Version 21.2.0 Build 72 06/14/2021 SC Pro Edition
-    Info: Processing started: Thu Feb  1 04:05:37 2024
-    Info: System process ID: 9508
+    Info: Version 23.3.0 Build 104 09/20/2023 SC Pro Edition
+    Info: Processing started: Sun Feb  4 17:20:20 2024
+    Info: System process ID: 11528
 Info: Command: quartus_pow --read_settings_files=on --write_settings_files=off qts_qsfp_sdi -c qts_qsfp_sdi
 Info: Using INI file C:/Users/Haas1S/Downloads/stratix/qts_qsfp_sdi/qts_qsfp_sdi/quartus.ini
+Info: The application is running in 'DNI' mode.
 Info (16677): Loading final database.
 Info (16734): Loading "final" snapshot for partition "root_partition".
 Info (16734): Loading "final" snapshot for partition "auto_fab_0".
-Info (16678): Successfully loaded final database: elapsed time is 00:00:09.
+Info (16678): Successfully loaded final database: elapsed time is 00:00:08.
+Info (22889): This design was generated using the DNI flow.
 Info (21077): Low junction temperature is 0 degrees C
 Info (21077): High junction temperature is 100 degrees C
 Info (332164): Evaluating HDL-embedded SDC commands
@@ -140,78 +143,80 @@ Info (332164): Evaluating HDL-embedded SDC commands
         Info (332166): set_false_path -to [get_keepers {*altera_std_synchronizer:*|din_s1}]
     Info (332165): Entity alt_sld_fab_0_altera_xcvr_reset_sequencer_s10_191_svx7koa
         Info (332166): if {[get_collection_size [get_clocks altera_int_osc_clk -nowarn]] == 0} {create_clock -name altera_int_osc_clk -period 4.000 [get_nodes [get_entity_instances {altera_internal_oscillator_atom}]*|oscillator_dut~oscillator_clock]}; set alt_xcvr_reset_seq_entity_inst [get_entity_instances {altera_xcvr_reset_sequencer_s10}]; set alt_xcvr_reset_seq_entity_inst_list [split $alt_xcvr_reset_seq_entity_inst |]; set alt_xcvr_reset_seq_entity_inst_list  [lreplace $alt_xcvr_reset_seq_entity_inst_list end end]; set alt_xcvr_reset_seq_entity_inst_final_name [join $alt_xcvr_reset_seq_entity_inst_list |]; if { [get_collection_size [get_nodes -nowarn $alt_xcvr_reset_seq_entity_inst_final_name*alt_sld_fab_0_altera_xcvr_reset_sequencer_s10_191_svx7koa_divided_osc_clk]] > 0 } { create_generated_clock -name ALTERA_INSERTED_INTOSC_FOR_TRS|divided_osc_clk -divide_by 2 -source [get_nodes [get_entity_instances {altera_internal_oscillator_atom}]*|oscillator_dut~oscillator_clock] [get_pins -compat -nowarn $alt_xcvr_reset_seq_entity_inst_final_name*alt_sld_fab_0_altera_xcvr_reset_sequencer_s10_191_svx7koa_divided_osc_clk|q] }
-Info (19539): Reading the HDL-embedded SDC files elapsed 00:00:02.
+    Info (332165): Entity sld_synchronizer_no_reset
+        Info (332166): set_false_path -to [get_keepers {*sld_synchronizer_no_reset:*|din_s1}]
+Info (19539): Reading the HDL-embedded SDC files elapsed 00:00:01.
 Info (332104): Reading SDC File: 'ip/xcvr_test_system/xcvr_test_system_tx_fifo/fifo_1923/synth/xcvr_test_system_tx_fifo_fifo_1923_bynk7da.sdc'
 Info (332104): Reading SDC File: 'ip/xcvr_test_system/xcvr_test_system_rx_fifo/fifo_1923/synth/xcvr_test_system_rx_fifo_fifo_1923_lpyfjcq.sdc'
+Info (18794): Reading SDC File: 'ip/sdi_xcvr_test/sdi_xcvr_test_xcvr_reset_control_s10_0/altera_xcvr_reset_control_s10_1911/synth/alt_xcvr_reset_s10.sdc' for instance: 'q_sys_i|qsfp_xcvr_test_0|xcvr_reset_control_s10_0|qsfp_xcvr_test_xcvr_reset_control_s10_0'
 Info (18794): Reading SDC File: 'ip/sdi_xcvr_test/sdi_xcvr_test_xcvr_reset_control_s10_0/altera_xcvr_reset_control_s10_1911/synth/alt_xcvr_reset_s10.sdc' for instance: 'q_sys_i|qsfp_xcvr_test_1|xcvr_reset_control_s10_0|qsfp_xcvr_test_xcvr_reset_control_s10_0'
 Info (18794): Reading SDC File: 'ip/sdi_xcvr_test/sdi_xcvr_test_xcvr_reset_control_s10_0/altera_xcvr_reset_control_s10_1911/synth/alt_xcvr_reset_s10.sdc' for instance: 'q_sys_i|qsfp_xcvr_test_3|xcvr_reset_control_s10_0|qsfp_xcvr_test_xcvr_reset_control_s10_0'
 Info (18794): Reading SDC File: 'ip/sdi_xcvr_test/sdi_xcvr_test_xcvr_reset_control_s10_0/altera_xcvr_reset_control_s10_1911/synth/alt_xcvr_reset_s10.sdc' for instance: 'q_sys_i|qsfp_xcvr_test_4|xcvr_reset_control_s10_0|qsfp_xcvr_test_xcvr_reset_control_s10_0'
 Info (18794): Reading SDC File: 'ip/sdi_xcvr_test/sdi_xcvr_test_xcvr_reset_control_s10_0/altera_xcvr_reset_control_s10_1911/synth/alt_xcvr_reset_s10.sdc' for instance: 'q_sys_i|sdi_xcvr_test_0|xcvr_reset_control_s10_0|sdi_xcvr_test_xcvr_reset_control_s10_0'
 Info (18794): Reading SDC File: 'ip/sdi_xcvr_test/sdi_xcvr_test_xcvr_reset_control_s10_0/altera_xcvr_reset_control_s10_1911/synth/alt_xcvr_reset_s10.sdc' for instance: 'q_sys_i|sdi_xcvr_test_1|xcvr_reset_control_s10_0|sdi_xcvr_test_xcvr_reset_control_s10_0'
-Info (18794): Reading SDC File: 'ip/sdi_xcvr_test/sdi_xcvr_test_xcvr_reset_control_s10_0/altera_xcvr_reset_control_s10_1911/synth/alt_xcvr_reset_s10.sdc' for instance: 'q_sys_i|qsfp_xcvr_test_0|xcvr_reset_control_s10_0|qsfp_xcvr_test_xcvr_reset_control_s10_0'
 Info (18794): Reading SDC File: 'ip/sdi_xcvr_test/sdi_xcvr_test_xcvr_native_s10_htile_0/altera_xcvr_native_s10_htile_1930/synth/sdi_xcvr_test_xcvr_native_s10_htile_0_altera_xcvr_native_s10_htile_1930_5rlvnya.sdc' for instance: 'q_sys_i|sdi_xcvr_test_0|xcvr_native_s10_0|sdi_xcvr_test_xcvr_native_s10_htile_0'
 Info (18794): Reading SDC File: 'ip/sdi_xcvr_test/sdi_xcvr_test_xcvr_native_s10_htile_0/altera_xcvr_native_s10_htile_1930/synth/sdi_xcvr_test_xcvr_native_s10_htile_0_altera_xcvr_native_s10_htile_1930_5rlvnya.sdc' for instance: 'q_sys_i|sdi_xcvr_test_1|xcvr_native_s10_0|sdi_xcvr_test_xcvr_native_s10_htile_0'
 Info (18794): Reading SDC File: 'ip/sdi_xcvr_test/sdi_xcvr_test_xcvr_native_s10_htile_0/altera_xcvr_native_s10_htile_1930/synth/alt_xcvr_native_global_constraints_5rlvnya.sdc' for instance: 'q_sys_i|sdi_xcvr_test_0|xcvr_native_s10_0|sdi_xcvr_test_xcvr_native_s10_htile_0'
 Info (18794): Reading SDC File: 'ip/sdi_xcvr_test/sdi_xcvr_test_xcvr_native_s10_htile_0/altera_xcvr_native_s10_htile_1930/synth/alt_xcvr_native_global_constraints_5rlvnya.sdc' for instance: 'q_sys_i|sdi_xcvr_test_1|xcvr_native_s10_0|sdi_xcvr_test_xcvr_native_s10_htile_0'
 Info (18794): Reading SDC File: 'ip/sdi_xcvr_test/sdi_xcvr_test_xcvr_native_s10_htile_0/altera_xcvr_native_s10_htile_1930/synth/alt_xcvr_native_re_cal_chnl_5rlvnya.sdc' for instance: 'q_sys_i|sdi_xcvr_test_0|xcvr_native_s10_0|sdi_xcvr_test_xcvr_native_s10_htile_0'
 Info (18794): Reading SDC File: 'ip/sdi_xcvr_test/sdi_xcvr_test_xcvr_native_s10_htile_0/altera_xcvr_native_s10_htile_1930/synth/alt_xcvr_native_re_cal_chnl_5rlvnya.sdc' for instance: 'q_sys_i|sdi_xcvr_test_1|xcvr_native_s10_0|sdi_xcvr_test_xcvr_native_s10_htile_0'
+Info (18794): Reading SDC File: 'ip/qsfp_xcvr_test/qsfp_xcvr_test_xcvr_reset_control_s10_0/altera_xcvr_reset_control_s10_1911/synth/alt_xcvr_reset_s10.sdc' for instance: 'q_sys_i|qsfp_xcvr_test_0|xcvr_reset_control_s10_0|qsfp_xcvr_test_xcvr_reset_control_s10_0'
 Info (18794): Reading SDC File: 'ip/qsfp_xcvr_test/qsfp_xcvr_test_xcvr_reset_control_s10_0/altera_xcvr_reset_control_s10_1911/synth/alt_xcvr_reset_s10.sdc' for instance: 'q_sys_i|qsfp_xcvr_test_1|xcvr_reset_control_s10_0|qsfp_xcvr_test_xcvr_reset_control_s10_0'
 Info (18794): Reading SDC File: 'ip/qsfp_xcvr_test/qsfp_xcvr_test_xcvr_reset_control_s10_0/altera_xcvr_reset_control_s10_1911/synth/alt_xcvr_reset_s10.sdc' for instance: 'q_sys_i|qsfp_xcvr_test_3|xcvr_reset_control_s10_0|qsfp_xcvr_test_xcvr_reset_control_s10_0'
 Info (18794): Reading SDC File: 'ip/qsfp_xcvr_test/qsfp_xcvr_test_xcvr_reset_control_s10_0/altera_xcvr_reset_control_s10_1911/synth/alt_xcvr_reset_s10.sdc' for instance: 'q_sys_i|qsfp_xcvr_test_4|xcvr_reset_control_s10_0|qsfp_xcvr_test_xcvr_reset_control_s10_0'
 Info (18794): Reading SDC File: 'ip/qsfp_xcvr_test/qsfp_xcvr_test_xcvr_reset_control_s10_0/altera_xcvr_reset_control_s10_1911/synth/alt_xcvr_reset_s10.sdc' for instance: 'q_sys_i|sdi_xcvr_test_0|xcvr_reset_control_s10_0|sdi_xcvr_test_xcvr_reset_control_s10_0'
 Info (18794): Reading SDC File: 'ip/qsfp_xcvr_test/qsfp_xcvr_test_xcvr_reset_control_s10_0/altera_xcvr_reset_control_s10_1911/synth/alt_xcvr_reset_s10.sdc' for instance: 'q_sys_i|sdi_xcvr_test_1|xcvr_reset_control_s10_0|sdi_xcvr_test_xcvr_reset_control_s10_0'
-Info (18794): Reading SDC File: 'ip/qsfp_xcvr_test/qsfp_xcvr_test_xcvr_reset_control_s10_0/altera_xcvr_reset_control_s10_1911/synth/alt_xcvr_reset_s10.sdc' for instance: 'q_sys_i|qsfp_xcvr_test_0|xcvr_reset_control_s10_0|qsfp_xcvr_test_xcvr_reset_control_s10_0'
-Info (18794): Reading SDC File: 'ip/qsfp_xcvr_test/qsfp_xcvr_test_xcvr_native_s10_htile_1/altera_xcvr_native_s10_htile_1930/synth/qsfp_xcvr_test_xcvr_native_s10_htile_1_altera_xcvr_native_s10_htile_1930_v7wbk6y.sdc' for instance: 'q_sys_i|qsfp_xcvr_test_1|xcvr_native_s10_0|qsfp_xcvr_test_xcvr_native_s10_htile_1'
-Info (18794): Reading SDC File: 'ip/qsfp_xcvr_test/qsfp_xcvr_test_xcvr_native_s10_htile_1/altera_xcvr_native_s10_htile_1930/synth/qsfp_xcvr_test_xcvr_native_s10_htile_1_altera_xcvr_native_s10_htile_1930_v7wbk6y.sdc' for instance: 'q_sys_i|qsfp_xcvr_test_3|xcvr_native_s10_0|qsfp_xcvr_test_xcvr_native_s10_htile_1'
-Info (18794): Reading SDC File: 'ip/qsfp_xcvr_test/qsfp_xcvr_test_xcvr_native_s10_htile_1/altera_xcvr_native_s10_htile_1930/synth/qsfp_xcvr_test_xcvr_native_s10_htile_1_altera_xcvr_native_s10_htile_1930_v7wbk6y.sdc' for instance: 'q_sys_i|qsfp_xcvr_test_4|xcvr_native_s10_0|qsfp_xcvr_test_xcvr_native_s10_htile_1'
-Info (18794): Reading SDC File: 'ip/qsfp_xcvr_test/qsfp_xcvr_test_xcvr_native_s10_htile_1/altera_xcvr_native_s10_htile_1930/synth/qsfp_xcvr_test_xcvr_native_s10_htile_1_altera_xcvr_native_s10_htile_1930_v7wbk6y.sdc' for instance: 'q_sys_i|qsfp_xcvr_test_0|xcvr_native_s10_0|qsfp_xcvr_test_xcvr_native_s10_htile_1'
-Info (18794): Reading SDC File: 'ip/qsfp_xcvr_test/qsfp_xcvr_test_xcvr_native_s10_htile_1/altera_xcvr_native_s10_htile_1930/synth/alt_xcvr_native_global_constraints_v7wbk6y.sdc' for instance: 'q_sys_i|qsfp_xcvr_test_1|xcvr_native_s10_0|qsfp_xcvr_test_xcvr_native_s10_htile_1'
-Info (18794): Reading SDC File: 'ip/qsfp_xcvr_test/qsfp_xcvr_test_xcvr_native_s10_htile_1/altera_xcvr_native_s10_htile_1930/synth/alt_xcvr_native_global_constraints_v7wbk6y.sdc' for instance: 'q_sys_i|qsfp_xcvr_test_3|xcvr_native_s10_0|qsfp_xcvr_test_xcvr_native_s10_htile_1'
-Info (18794): Reading SDC File: 'ip/qsfp_xcvr_test/qsfp_xcvr_test_xcvr_native_s10_htile_1/altera_xcvr_native_s10_htile_1930/synth/alt_xcvr_native_global_constraints_v7wbk6y.sdc' for instance: 'q_sys_i|qsfp_xcvr_test_4|xcvr_native_s10_0|qsfp_xcvr_test_xcvr_native_s10_htile_1'
-Info (18794): Reading SDC File: 'ip/qsfp_xcvr_test/qsfp_xcvr_test_xcvr_native_s10_htile_1/altera_xcvr_native_s10_htile_1930/synth/alt_xcvr_native_global_constraints_v7wbk6y.sdc' for instance: 'q_sys_i|qsfp_xcvr_test_0|xcvr_native_s10_0|qsfp_xcvr_test_xcvr_native_s10_htile_1'
-Info (18794): Reading SDC File: 'ip/qsfp_xcvr_test/qsfp_xcvr_test_xcvr_native_s10_htile_1/altera_xcvr_native_s10_htile_1930/synth/alt_xcvr_native_re_cal_chnl_v7wbk6y.sdc' for instance: 'q_sys_i|qsfp_xcvr_test_1|xcvr_native_s10_0|qsfp_xcvr_test_xcvr_native_s10_htile_1'
-Info (18794): Reading SDC File: 'ip/qsfp_xcvr_test/qsfp_xcvr_test_xcvr_native_s10_htile_1/altera_xcvr_native_s10_htile_1930/synth/alt_xcvr_native_re_cal_chnl_v7wbk6y.sdc' for instance: 'q_sys_i|qsfp_xcvr_test_3|xcvr_native_s10_0|qsfp_xcvr_test_xcvr_native_s10_htile_1'
-Info (18794): Reading SDC File: 'ip/qsfp_xcvr_test/qsfp_xcvr_test_xcvr_native_s10_htile_1/altera_xcvr_native_s10_htile_1930/synth/alt_xcvr_native_re_cal_chnl_v7wbk6y.sdc' for instance: 'q_sys_i|qsfp_xcvr_test_4|xcvr_native_s10_0|qsfp_xcvr_test_xcvr_native_s10_htile_1'
-Info (18794): Reading SDC File: 'ip/qsfp_xcvr_test/qsfp_xcvr_test_xcvr_native_s10_htile_1/altera_xcvr_native_s10_htile_1930/synth/alt_xcvr_native_re_cal_chnl_v7wbk6y.sdc' for instance: 'q_sys_i|qsfp_xcvr_test_0|xcvr_native_s10_0|qsfp_xcvr_test_xcvr_native_s10_htile_1'
+Info (18794): Reading SDC File: 'ip/qsfp_xcvr_test/qsfp_xcvr_test_xcvr_native_s10_htile_1/altera_xcvr_native_s10_htile_1930/synth/qsfp_xcvr_test_xcvr_native_s10_htile_1_altera_xcvr_native_s10_htile_1930_ugm7okq.sdc' for instance: 'q_sys_i|qsfp_xcvr_test_0|xcvr_native_s10_0|qsfp_xcvr_test_xcvr_native_s10_htile_1'
+Info (18794): Reading SDC File: 'ip/qsfp_xcvr_test/qsfp_xcvr_test_xcvr_native_s10_htile_1/altera_xcvr_native_s10_htile_1930/synth/qsfp_xcvr_test_xcvr_native_s10_htile_1_altera_xcvr_native_s10_htile_1930_ugm7okq.sdc' for instance: 'q_sys_i|qsfp_xcvr_test_1|xcvr_native_s10_0|qsfp_xcvr_test_xcvr_native_s10_htile_1'
+Info (18794): Reading SDC File: 'ip/qsfp_xcvr_test/qsfp_xcvr_test_xcvr_native_s10_htile_1/altera_xcvr_native_s10_htile_1930/synth/qsfp_xcvr_test_xcvr_native_s10_htile_1_altera_xcvr_native_s10_htile_1930_ugm7okq.sdc' for instance: 'q_sys_i|qsfp_xcvr_test_3|xcvr_native_s10_0|qsfp_xcvr_test_xcvr_native_s10_htile_1'
+Info (18794): Reading SDC File: 'ip/qsfp_xcvr_test/qsfp_xcvr_test_xcvr_native_s10_htile_1/altera_xcvr_native_s10_htile_1930/synth/qsfp_xcvr_test_xcvr_native_s10_htile_1_altera_xcvr_native_s10_htile_1930_ugm7okq.sdc' for instance: 'q_sys_i|qsfp_xcvr_test_4|xcvr_native_s10_0|qsfp_xcvr_test_xcvr_native_s10_htile_1'
+Info (18794): Reading SDC File: 'ip/qsfp_xcvr_test/qsfp_xcvr_test_xcvr_native_s10_htile_1/altera_xcvr_native_s10_htile_1930/synth/alt_xcvr_native_global_constraints_ugm7okq.sdc' for instance: 'q_sys_i|qsfp_xcvr_test_0|xcvr_native_s10_0|qsfp_xcvr_test_xcvr_native_s10_htile_1'
+Info (18794): Reading SDC File: 'ip/qsfp_xcvr_test/qsfp_xcvr_test_xcvr_native_s10_htile_1/altera_xcvr_native_s10_htile_1930/synth/alt_xcvr_native_global_constraints_ugm7okq.sdc' for instance: 'q_sys_i|qsfp_xcvr_test_1|xcvr_native_s10_0|qsfp_xcvr_test_xcvr_native_s10_htile_1'
+Info (18794): Reading SDC File: 'ip/qsfp_xcvr_test/qsfp_xcvr_test_xcvr_native_s10_htile_1/altera_xcvr_native_s10_htile_1930/synth/alt_xcvr_native_global_constraints_ugm7okq.sdc' for instance: 'q_sys_i|qsfp_xcvr_test_3|xcvr_native_s10_0|qsfp_xcvr_test_xcvr_native_s10_htile_1'
+Info (18794): Reading SDC File: 'ip/qsfp_xcvr_test/qsfp_xcvr_test_xcvr_native_s10_htile_1/altera_xcvr_native_s10_htile_1930/synth/alt_xcvr_native_global_constraints_ugm7okq.sdc' for instance: 'q_sys_i|qsfp_xcvr_test_4|xcvr_native_s10_0|qsfp_xcvr_test_xcvr_native_s10_htile_1'
+Info (18794): Reading SDC File: 'ip/qsfp_xcvr_test/qsfp_xcvr_test_xcvr_native_s10_htile_1/altera_xcvr_native_s10_htile_1930/synth/alt_xcvr_native_re_cal_chnl_ugm7okq.sdc' for instance: 'q_sys_i|qsfp_xcvr_test_0|xcvr_native_s10_0|qsfp_xcvr_test_xcvr_native_s10_htile_1'
+Info (18794): Reading SDC File: 'ip/qsfp_xcvr_test/qsfp_xcvr_test_xcvr_native_s10_htile_1/altera_xcvr_native_s10_htile_1930/synth/alt_xcvr_native_re_cal_chnl_ugm7okq.sdc' for instance: 'q_sys_i|qsfp_xcvr_test_1|xcvr_native_s10_0|qsfp_xcvr_test_xcvr_native_s10_htile_1'
+Info (18794): Reading SDC File: 'ip/qsfp_xcvr_test/qsfp_xcvr_test_xcvr_native_s10_htile_1/altera_xcvr_native_s10_htile_1930/synth/alt_xcvr_native_re_cal_chnl_ugm7okq.sdc' for instance: 'q_sys_i|qsfp_xcvr_test_3|xcvr_native_s10_0|qsfp_xcvr_test_xcvr_native_s10_htile_1'
+Info (18794): Reading SDC File: 'ip/qsfp_xcvr_test/qsfp_xcvr_test_xcvr_native_s10_htile_1/altera_xcvr_native_s10_htile_1930/synth/alt_xcvr_native_re_cal_chnl_ugm7okq.sdc' for instance: 'q_sys_i|qsfp_xcvr_test_4|xcvr_native_s10_0|qsfp_xcvr_test_xcvr_native_s10_htile_1'
 Info (332104): Reading SDC File: 'ip/q_sys/q_sys_master_0/altera_jtag_dc_streaming_191/synth/altera_avalon_st_jtag_interface.sdc'
-Info (18794): Reading SDC File: 'ip/q_sys/q_sys_master_0/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|qsfp_xcvr_test_1|rst_controller'
-Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_1|rst_controller|*
-Info (18794): Reading SDC File: 'ip/q_sys/q_sys_master_0/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|qsfp_xcvr_test_1|rst_controller_001'
-Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_1|rst_controller_001|*
-Info (18794): Reading SDC File: 'ip/q_sys/q_sys_master_0/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|qsfp_xcvr_test_3|rst_controller'
-Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_3|rst_controller|*
-Info (18794): Reading SDC File: 'ip/q_sys/q_sys_master_0/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|qsfp_xcvr_test_3|rst_controller_001'
-Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_3|rst_controller_001|*
-Info (18794): Reading SDC File: 'ip/q_sys/q_sys_master_0/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|qsfp_xcvr_test_4|rst_controller_001'
-Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_4|rst_controller_001|*
-Info (18794): Reading SDC File: 'ip/q_sys/q_sys_master_0/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|qsfp_xcvr_test_4|rst_controller'
-Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_4|rst_controller|*
-Info (18794): Reading SDC File: 'ip/q_sys/q_sys_master_0/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|sdi_xcvr_test_0|rst_controller'
-Info: Following instance found in the design -  q_sys_i|sdi_xcvr_test_0|rst_controller|*
-Info (18794): Reading SDC File: 'ip/q_sys/q_sys_master_0/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|sdi_xcvr_test_0|rst_controller_001'
-Info: Following instance found in the design -  q_sys_i|sdi_xcvr_test_0|rst_controller_001|*
-Info (18794): Reading SDC File: 'ip/q_sys/q_sys_master_0/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|sdi_xcvr_test_1|rst_controller'
-Info: Following instance found in the design -  q_sys_i|sdi_xcvr_test_1|rst_controller|*
-Info (18794): Reading SDC File: 'ip/q_sys/q_sys_master_0/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|sdi_xcvr_test_1|rst_controller_001'
-Info: Following instance found in the design -  q_sys_i|sdi_xcvr_test_1|rst_controller_001|*
+Info (18794): Reading SDC File: 'ip/q_sys/q_sys_master_0/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|master_0|master_0|rst_controller'
+Info: Following instance found in the design -  q_sys_i|master_0|master_0|rst_controller|*
+Info (18794): Reading SDC File: 'ip/q_sys/q_sys_master_0/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|qsfp_xcvr_test_0|xcvr_test_system_0|rst_controller'
+Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_0|xcvr_test_system_0|rst_controller|*
 Info (18794): Reading SDC File: 'ip/q_sys/q_sys_master_0/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|qsfp_xcvr_test_0|rst_controller'
 Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_0|rst_controller|*
 Info (18794): Reading SDC File: 'ip/q_sys/q_sys_master_0/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|qsfp_xcvr_test_0|rst_controller_001'
 Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_0|rst_controller_001|*
 Info (18794): Reading SDC File: 'ip/q_sys/q_sys_master_0/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|qsfp_xcvr_test_1|xcvr_test_system_0|rst_controller'
 Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_1|xcvr_test_system_0|rst_controller|*
+Info (18794): Reading SDC File: 'ip/q_sys/q_sys_master_0/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|qsfp_xcvr_test_1|rst_controller'
+Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_1|rst_controller|*
+Info (18794): Reading SDC File: 'ip/q_sys/q_sys_master_0/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|qsfp_xcvr_test_1|rst_controller_001'
+Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_1|rst_controller_001|*
 Info (18794): Reading SDC File: 'ip/q_sys/q_sys_master_0/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|qsfp_xcvr_test_3|xcvr_test_system_0|rst_controller'
 Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_3|xcvr_test_system_0|rst_controller|*
-Info (18794): Reading SDC File: 'ip/q_sys/q_sys_master_0/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|master_0|master_0|rst_controller'
-Info: Following instance found in the design -  q_sys_i|master_0|master_0|rst_controller|*
+Info (18794): Reading SDC File: 'ip/q_sys/q_sys_master_0/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|qsfp_xcvr_test_3|rst_controller'
+Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_3|rst_controller|*
+Info (18794): Reading SDC File: 'ip/q_sys/q_sys_master_0/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|qsfp_xcvr_test_3|rst_controller_001'
+Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_3|rst_controller_001|*
 Info (18794): Reading SDC File: 'ip/q_sys/q_sys_master_0/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|qsfp_xcvr_test_4|xcvr_test_system_0|rst_controller'
 Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_4|xcvr_test_system_0|rst_controller|*
+Info (18794): Reading SDC File: 'ip/q_sys/q_sys_master_0/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|qsfp_xcvr_test_4|rst_controller'
+Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_4|rst_controller|*
+Info (18794): Reading SDC File: 'ip/q_sys/q_sys_master_0/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|qsfp_xcvr_test_4|rst_controller_001'
+Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_4|rst_controller_001|*
 Info (18794): Reading SDC File: 'ip/q_sys/q_sys_master_0/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|sdi_xcvr_test_0|xcvr_test_system_0|rst_controller'
 Info: Following instance found in the design -  q_sys_i|sdi_xcvr_test_0|xcvr_test_system_0|rst_controller|*
+Info (18794): Reading SDC File: 'ip/q_sys/q_sys_master_0/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|sdi_xcvr_test_0|rst_controller'
+Info: Following instance found in the design -  q_sys_i|sdi_xcvr_test_0|rst_controller|*
+Info (18794): Reading SDC File: 'ip/q_sys/q_sys_master_0/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|sdi_xcvr_test_0|rst_controller_001'
+Info: Following instance found in the design -  q_sys_i|sdi_xcvr_test_0|rst_controller_001|*
 Info (18794): Reading SDC File: 'ip/q_sys/q_sys_master_0/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|sdi_xcvr_test_1|xcvr_test_system_0|rst_controller'
 Info: Following instance found in the design -  q_sys_i|sdi_xcvr_test_1|xcvr_test_system_0|rst_controller|*
-Info (18794): Reading SDC File: 'ip/q_sys/q_sys_master_0/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|qsfp_xcvr_test_0|xcvr_test_system_0|rst_controller'
-Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_0|xcvr_test_system_0|rst_controller|*
+Info (18794): Reading SDC File: 'ip/q_sys/q_sys_master_0/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|sdi_xcvr_test_1|rst_controller'
+Info: Following instance found in the design -  q_sys_i|sdi_xcvr_test_1|rst_controller|*
+Info (18794): Reading SDC File: 'ip/q_sys/q_sys_master_0/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|sdi_xcvr_test_1|rst_controller_001'
+Info: Following instance found in the design -  q_sys_i|sdi_xcvr_test_1|rst_controller_001|*
 Info (332104): Reading SDC File: 'qts_qsfp_sdi.sdc'
 Warning (19049): The derive_pll_clocks command is not supported in this family.
     Info (19050): This command is deprecated because all PLL clocks are automatically generated by the SDC files generated alongside the PLL IP. No user action is required.
@@ -234,137 +239,138 @@ Warning (332049): Ignored set_false_path at qts_qsfp_sdi.sdc(71): Argument <from
 Warning (332174): Ignored filter at qts_qsfp_sdi.sdc(75): qsfp_mod_prsn could not be matched with a clock or keeper or register or port or pin or cell or partition File: C:/Users/Haas1S/Downloads/stratix/qts_qsfp_sdi/qts_qsfp_sdi/qts_qsfp_sdi.sdc Line: 75
 Warning (332049): Ignored set_false_path at qts_qsfp_sdi.sdc(75): Argument <to> is not an object ID File: C:/Users/Haas1S/Downloads/stratix/qts_qsfp_sdi/qts_qsfp_sdi/qts_qsfp_sdi.sdc Line: 75
     Info (332050): set_false_path -from * -to qsfp_mod_prsn File: C:/Users/Haas1S/Downloads/stratix/qts_qsfp_sdi/qts_qsfp_sdi/qts_qsfp_sdi.sdc Line: 75
-Info (18794): Reading SDC File: 'xcvr_test_system/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|qsfp_xcvr_test_1|rst_controller'
-Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_1|rst_controller|*
-Info (18794): Reading SDC File: 'xcvr_test_system/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|qsfp_xcvr_test_1|rst_controller_001'
-Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_1|rst_controller_001|*
-Info (18794): Reading SDC File: 'xcvr_test_system/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|qsfp_xcvr_test_3|rst_controller'
-Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_3|rst_controller|*
-Info (18794): Reading SDC File: 'xcvr_test_system/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|qsfp_xcvr_test_3|rst_controller_001'
-Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_3|rst_controller_001|*
-Info (18794): Reading SDC File: 'xcvr_test_system/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|qsfp_xcvr_test_4|rst_controller_001'
-Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_4|rst_controller_001|*
-Info (18794): Reading SDC File: 'xcvr_test_system/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|qsfp_xcvr_test_4|rst_controller'
-Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_4|rst_controller|*
-Info (18794): Reading SDC File: 'xcvr_test_system/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|sdi_xcvr_test_0|rst_controller'
-Info: Following instance found in the design -  q_sys_i|sdi_xcvr_test_0|rst_controller|*
-Info (18794): Reading SDC File: 'xcvr_test_system/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|sdi_xcvr_test_0|rst_controller_001'
-Info: Following instance found in the design -  q_sys_i|sdi_xcvr_test_0|rst_controller_001|*
-Info (18794): Reading SDC File: 'xcvr_test_system/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|sdi_xcvr_test_1|rst_controller'
-Info: Following instance found in the design -  q_sys_i|sdi_xcvr_test_1|rst_controller|*
-Info (18794): Reading SDC File: 'xcvr_test_system/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|sdi_xcvr_test_1|rst_controller_001'
-Info: Following instance found in the design -  q_sys_i|sdi_xcvr_test_1|rst_controller_001|*
+Info (18794): Reading SDC File: 'xcvr_test_system/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|master_0|master_0|rst_controller'
+Info: Following instance found in the design -  q_sys_i|master_0|master_0|rst_controller|*
+Info (18794): Reading SDC File: 'xcvr_test_system/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|qsfp_xcvr_test_0|xcvr_test_system_0|rst_controller'
+Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_0|xcvr_test_system_0|rst_controller|*
 Info (18794): Reading SDC File: 'xcvr_test_system/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|qsfp_xcvr_test_0|rst_controller'
 Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_0|rst_controller|*
 Info (18794): Reading SDC File: 'xcvr_test_system/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|qsfp_xcvr_test_0|rst_controller_001'
 Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_0|rst_controller_001|*
 Info (18794): Reading SDC File: 'xcvr_test_system/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|qsfp_xcvr_test_1|xcvr_test_system_0|rst_controller'
 Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_1|xcvr_test_system_0|rst_controller|*
+Info (18794): Reading SDC File: 'xcvr_test_system/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|qsfp_xcvr_test_1|rst_controller'
+Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_1|rst_controller|*
+Info (18794): Reading SDC File: 'xcvr_test_system/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|qsfp_xcvr_test_1|rst_controller_001'
+Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_1|rst_controller_001|*
 Info (18794): Reading SDC File: 'xcvr_test_system/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|qsfp_xcvr_test_3|xcvr_test_system_0|rst_controller'
 Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_3|xcvr_test_system_0|rst_controller|*
-Info (18794): Reading SDC File: 'xcvr_test_system/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|master_0|master_0|rst_controller'
-Info: Following instance found in the design -  q_sys_i|master_0|master_0|rst_controller|*
+Info (18794): Reading SDC File: 'xcvr_test_system/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|qsfp_xcvr_test_3|rst_controller'
+Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_3|rst_controller|*
+Info (18794): Reading SDC File: 'xcvr_test_system/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|qsfp_xcvr_test_3|rst_controller_001'
+Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_3|rst_controller_001|*
 Info (18794): Reading SDC File: 'xcvr_test_system/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|qsfp_xcvr_test_4|xcvr_test_system_0|rst_controller'
 Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_4|xcvr_test_system_0|rst_controller|*
+Info (18794): Reading SDC File: 'xcvr_test_system/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|qsfp_xcvr_test_4|rst_controller'
+Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_4|rst_controller|*
+Info (18794): Reading SDC File: 'xcvr_test_system/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|qsfp_xcvr_test_4|rst_controller_001'
+Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_4|rst_controller_001|*
 Info (18794): Reading SDC File: 'xcvr_test_system/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|sdi_xcvr_test_0|xcvr_test_system_0|rst_controller'
 Info: Following instance found in the design -  q_sys_i|sdi_xcvr_test_0|xcvr_test_system_0|rst_controller|*
+Info (18794): Reading SDC File: 'xcvr_test_system/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|sdi_xcvr_test_0|rst_controller'
+Info: Following instance found in the design -  q_sys_i|sdi_xcvr_test_0|rst_controller|*
+Info (18794): Reading SDC File: 'xcvr_test_system/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|sdi_xcvr_test_0|rst_controller_001'
+Info: Following instance found in the design -  q_sys_i|sdi_xcvr_test_0|rst_controller_001|*
 Info (18794): Reading SDC File: 'xcvr_test_system/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|sdi_xcvr_test_1|xcvr_test_system_0|rst_controller'
 Info: Following instance found in the design -  q_sys_i|sdi_xcvr_test_1|xcvr_test_system_0|rst_controller|*
-Info (18794): Reading SDC File: 'xcvr_test_system/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|qsfp_xcvr_test_0|xcvr_test_system_0|rst_controller'
-Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_0|xcvr_test_system_0|rst_controller|*
-Info (332104): Reading SDC File: 'sdi_xcvr_test/hs_clk_xer_1940/synth/altera_avalon_st_handshake_clock_crosser.sdc'
-Info (18794): Reading SDC File: 'sdi_xcvr_test/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|qsfp_xcvr_test_1|rst_controller'
-Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_1|rst_controller|*
-Info (18794): Reading SDC File: 'sdi_xcvr_test/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|qsfp_xcvr_test_1|rst_controller_001'
-Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_1|rst_controller_001|*
-Info (18794): Reading SDC File: 'sdi_xcvr_test/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|qsfp_xcvr_test_3|rst_controller'
-Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_3|rst_controller|*
-Info (18794): Reading SDC File: 'sdi_xcvr_test/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|qsfp_xcvr_test_3|rst_controller_001'
-Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_3|rst_controller_001|*
-Info (18794): Reading SDC File: 'sdi_xcvr_test/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|qsfp_xcvr_test_4|rst_controller_001'
-Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_4|rst_controller_001|*
-Info (18794): Reading SDC File: 'sdi_xcvr_test/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|qsfp_xcvr_test_4|rst_controller'
-Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_4|rst_controller|*
-Info (18794): Reading SDC File: 'sdi_xcvr_test/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|sdi_xcvr_test_0|rst_controller'
-Info: Following instance found in the design -  q_sys_i|sdi_xcvr_test_0|rst_controller|*
-Info (18794): Reading SDC File: 'sdi_xcvr_test/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|sdi_xcvr_test_0|rst_controller_001'
-Info: Following instance found in the design -  q_sys_i|sdi_xcvr_test_0|rst_controller_001|*
-Info (18794): Reading SDC File: 'sdi_xcvr_test/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|sdi_xcvr_test_1|rst_controller'
+Info (18794): Reading SDC File: 'xcvr_test_system/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|sdi_xcvr_test_1|rst_controller'
 Info: Following instance found in the design -  q_sys_i|sdi_xcvr_test_1|rst_controller|*
-Info (18794): Reading SDC File: 'sdi_xcvr_test/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|sdi_xcvr_test_1|rst_controller_001'
+Info (18794): Reading SDC File: 'xcvr_test_system/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|sdi_xcvr_test_1|rst_controller_001'
 Info: Following instance found in the design -  q_sys_i|sdi_xcvr_test_1|rst_controller_001|*
+Info (332104): Reading SDC File: 'sdi_xcvr_test/hs_clk_xer_1940/synth/altera_avalon_st_handshake_clock_crosser.sdc'
+Info (18794): Reading SDC File: 'sdi_xcvr_test/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|master_0|master_0|rst_controller'
+Info: Following instance found in the design -  q_sys_i|master_0|master_0|rst_controller|*
+Info (18794): Reading SDC File: 'sdi_xcvr_test/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|qsfp_xcvr_test_0|xcvr_test_system_0|rst_controller'
+Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_0|xcvr_test_system_0|rst_controller|*
 Info (18794): Reading SDC File: 'sdi_xcvr_test/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|qsfp_xcvr_test_0|rst_controller'
 Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_0|rst_controller|*
 Info (18794): Reading SDC File: 'sdi_xcvr_test/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|qsfp_xcvr_test_0|rst_controller_001'
 Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_0|rst_controller_001|*
 Info (18794): Reading SDC File: 'sdi_xcvr_test/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|qsfp_xcvr_test_1|xcvr_test_system_0|rst_controller'
 Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_1|xcvr_test_system_0|rst_controller|*
+Info (18794): Reading SDC File: 'sdi_xcvr_test/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|qsfp_xcvr_test_1|rst_controller'
+Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_1|rst_controller|*
+Info (18794): Reading SDC File: 'sdi_xcvr_test/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|qsfp_xcvr_test_1|rst_controller_001'
+Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_1|rst_controller_001|*
 Info (18794): Reading SDC File: 'sdi_xcvr_test/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|qsfp_xcvr_test_3|xcvr_test_system_0|rst_controller'
 Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_3|xcvr_test_system_0|rst_controller|*
-Info (18794): Reading SDC File: 'sdi_xcvr_test/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|master_0|master_0|rst_controller'
-Info: Following instance found in the design -  q_sys_i|master_0|master_0|rst_controller|*
+Info (18794): Reading SDC File: 'sdi_xcvr_test/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|qsfp_xcvr_test_3|rst_controller'
+Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_3|rst_controller|*
+Info (18794): Reading SDC File: 'sdi_xcvr_test/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|qsfp_xcvr_test_3|rst_controller_001'
+Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_3|rst_controller_001|*
 Info (18794): Reading SDC File: 'sdi_xcvr_test/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|qsfp_xcvr_test_4|xcvr_test_system_0|rst_controller'
 Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_4|xcvr_test_system_0|rst_controller|*
+Info (18794): Reading SDC File: 'sdi_xcvr_test/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|qsfp_xcvr_test_4|rst_controller'
+Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_4|rst_controller|*
+Info (18794): Reading SDC File: 'sdi_xcvr_test/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|qsfp_xcvr_test_4|rst_controller_001'
+Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_4|rst_controller_001|*
 Info (18794): Reading SDC File: 'sdi_xcvr_test/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|sdi_xcvr_test_0|xcvr_test_system_0|rst_controller'
 Info: Following instance found in the design -  q_sys_i|sdi_xcvr_test_0|xcvr_test_system_0|rst_controller|*
+Info (18794): Reading SDC File: 'sdi_xcvr_test/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|sdi_xcvr_test_0|rst_controller'
+Info: Following instance found in the design -  q_sys_i|sdi_xcvr_test_0|rst_controller|*
+Info (18794): Reading SDC File: 'sdi_xcvr_test/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|sdi_xcvr_test_0|rst_controller_001'
+Info: Following instance found in the design -  q_sys_i|sdi_xcvr_test_0|rst_controller_001|*
 Info (18794): Reading SDC File: 'sdi_xcvr_test/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|sdi_xcvr_test_1|xcvr_test_system_0|rst_controller'
 Info: Following instance found in the design -  q_sys_i|sdi_xcvr_test_1|xcvr_test_system_0|rst_controller|*
-Info (18794): Reading SDC File: 'sdi_xcvr_test/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|qsfp_xcvr_test_0|xcvr_test_system_0|rst_controller'
-Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_0|xcvr_test_system_0|rst_controller|*
-Info (332104): Reading SDC File: 'qsfp_xcvr_test/hs_clk_xer_1940/synth/altera_avalon_st_handshake_clock_crosser.sdc'
-Info (18794): Reading SDC File: 'qsfp_xcvr_test/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|qsfp_xcvr_test_1|rst_controller'
-Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_1|rst_controller|*
-Info (18794): Reading SDC File: 'qsfp_xcvr_test/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|qsfp_xcvr_test_1|rst_controller_001'
-Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_1|rst_controller_001|*
-Info (18794): Reading SDC File: 'qsfp_xcvr_test/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|qsfp_xcvr_test_3|rst_controller'
-Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_3|rst_controller|*
-Info (18794): Reading SDC File: 'qsfp_xcvr_test/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|qsfp_xcvr_test_3|rst_controller_001'
-Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_3|rst_controller_001|*
-Info (18794): Reading SDC File: 'qsfp_xcvr_test/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|qsfp_xcvr_test_4|rst_controller_001'
-Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_4|rst_controller_001|*
-Info (18794): Reading SDC File: 'qsfp_xcvr_test/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|qsfp_xcvr_test_4|rst_controller'
-Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_4|rst_controller|*
-Info (18794): Reading SDC File: 'qsfp_xcvr_test/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|sdi_xcvr_test_0|rst_controller'
-Info: Following instance found in the design -  q_sys_i|sdi_xcvr_test_0|rst_controller|*
-Info (18794): Reading SDC File: 'qsfp_xcvr_test/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|sdi_xcvr_test_0|rst_controller_001'
-Info: Following instance found in the design -  q_sys_i|sdi_xcvr_test_0|rst_controller_001|*
-Info (18794): Reading SDC File: 'qsfp_xcvr_test/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|sdi_xcvr_test_1|rst_controller'
+Info (18794): Reading SDC File: 'sdi_xcvr_test/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|sdi_xcvr_test_1|rst_controller'
 Info: Following instance found in the design -  q_sys_i|sdi_xcvr_test_1|rst_controller|*
-Info (18794): Reading SDC File: 'qsfp_xcvr_test/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|sdi_xcvr_test_1|rst_controller_001'
+Info (18794): Reading SDC File: 'sdi_xcvr_test/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|sdi_xcvr_test_1|rst_controller_001'
 Info: Following instance found in the design -  q_sys_i|sdi_xcvr_test_1|rst_controller_001|*
+Info (332104): Reading SDC File: 'qsfp_xcvr_test/hs_clk_xer_1940/synth/altera_avalon_st_handshake_clock_crosser.sdc'
+Info (18794): Reading SDC File: 'qsfp_xcvr_test/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|master_0|master_0|rst_controller'
+Info: Following instance found in the design -  q_sys_i|master_0|master_0|rst_controller|*
+Info (18794): Reading SDC File: 'qsfp_xcvr_test/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|qsfp_xcvr_test_0|xcvr_test_system_0|rst_controller'
+Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_0|xcvr_test_system_0|rst_controller|*
 Info (18794): Reading SDC File: 'qsfp_xcvr_test/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|qsfp_xcvr_test_0|rst_controller'
 Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_0|rst_controller|*
 Info (18794): Reading SDC File: 'qsfp_xcvr_test/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|qsfp_xcvr_test_0|rst_controller_001'
 Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_0|rst_controller_001|*
 Info (18794): Reading SDC File: 'qsfp_xcvr_test/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|qsfp_xcvr_test_1|xcvr_test_system_0|rst_controller'
 Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_1|xcvr_test_system_0|rst_controller|*
+Info (18794): Reading SDC File: 'qsfp_xcvr_test/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|qsfp_xcvr_test_1|rst_controller'
+Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_1|rst_controller|*
+Info (18794): Reading SDC File: 'qsfp_xcvr_test/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|qsfp_xcvr_test_1|rst_controller_001'
+Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_1|rst_controller_001|*
 Info (18794): Reading SDC File: 'qsfp_xcvr_test/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|qsfp_xcvr_test_3|xcvr_test_system_0|rst_controller'
 Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_3|xcvr_test_system_0|rst_controller|*
-Info (18794): Reading SDC File: 'qsfp_xcvr_test/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|master_0|master_0|rst_controller'
-Info: Following instance found in the design -  q_sys_i|master_0|master_0|rst_controller|*
+Info (18794): Reading SDC File: 'qsfp_xcvr_test/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|qsfp_xcvr_test_3|rst_controller'
+Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_3|rst_controller|*
+Info (18794): Reading SDC File: 'qsfp_xcvr_test/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|qsfp_xcvr_test_3|rst_controller_001'
+Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_3|rst_controller_001|*
 Info (18794): Reading SDC File: 'qsfp_xcvr_test/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|qsfp_xcvr_test_4|xcvr_test_system_0|rst_controller'
 Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_4|xcvr_test_system_0|rst_controller|*
+Info (18794): Reading SDC File: 'qsfp_xcvr_test/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|qsfp_xcvr_test_4|rst_controller'
+Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_4|rst_controller|*
+Info (18794): Reading SDC File: 'qsfp_xcvr_test/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|qsfp_xcvr_test_4|rst_controller_001'
+Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_4|rst_controller_001|*
 Info (18794): Reading SDC File: 'qsfp_xcvr_test/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|sdi_xcvr_test_0|xcvr_test_system_0|rst_controller'
 Info: Following instance found in the design -  q_sys_i|sdi_xcvr_test_0|xcvr_test_system_0|rst_controller|*
+Info (18794): Reading SDC File: 'qsfp_xcvr_test/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|sdi_xcvr_test_0|rst_controller'
+Info: Following instance found in the design -  q_sys_i|sdi_xcvr_test_0|rst_controller|*
+Info (18794): Reading SDC File: 'qsfp_xcvr_test/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|sdi_xcvr_test_0|rst_controller_001'
+Info: Following instance found in the design -  q_sys_i|sdi_xcvr_test_0|rst_controller_001|*
 Info (18794): Reading SDC File: 'qsfp_xcvr_test/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|sdi_xcvr_test_1|xcvr_test_system_0|rst_controller'
 Info: Following instance found in the design -  q_sys_i|sdi_xcvr_test_1|xcvr_test_system_0|rst_controller|*
-Info (18794): Reading SDC File: 'qsfp_xcvr_test/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|qsfp_xcvr_test_0|xcvr_test_system_0|rst_controller'
-Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_0|xcvr_test_system_0|rst_controller|*
+Info (18794): Reading SDC File: 'qsfp_xcvr_test/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|sdi_xcvr_test_1|rst_controller'
+Info: Following instance found in the design -  q_sys_i|sdi_xcvr_test_1|rst_controller|*
+Info (18794): Reading SDC File: 'qsfp_xcvr_test/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'q_sys_i|sdi_xcvr_test_1|rst_controller_001'
+Info: Following instance found in the design -  q_sys_i|sdi_xcvr_test_1|rst_controller_001|*
 Info (332104): Reading SDC File: 'q_sys/hs_clk_xer_1940/synth/altera_avalon_st_handshake_clock_crosser.sdc'
 Info (332104): Reading SDC File: 'ip/xcvr_test_system/xcvr_test_system_data_pattern_generator_0/data_pattern_generator_core_10/synth/data_pattern_generator.sdc'
 Info (332104): Reading SDC File: 'ip/xcvr_test_system/xcvr_test_system_data_pattern_generator_0/data_pattern_generator_core_10/synth/reset_controller.sdc'
 Info (332104): Reading SDC File: 'ip/xcvr_test_system/xcvr_test_system_data_pattern_checker_0/data_pattern_checker_core_10/synth/data_pattern_checker.sdc'
 Info (332104): Reading SDC File: 'ip/xcvr_test_system/xcvr_test_system_data_pattern_checker_0/data_pattern_checker_core_10/synth/reset_controller.sdc'
-Info (332104): Reading SDC File: 'C:/Users/Haas1S/Downloads/stratix/qts_qsfp_sdi/qts_qsfp_sdi/qdb/.t/65bb5982420f.tmp/.temp/sld_fabrics/ipgen/alt_sld_fab_0/alt_sld_fab_0/altera_internal_oscillator_atom_1910/synth/altera_internal_oscillator_atom.sdc'
-Info (332104): Reading SDC File: 'C:/Users/Haas1S/Downloads/stratix/qts_qsfp_sdi/qts_qsfp_sdi/qdb/.t/65bb5982420f.tmp/.temp/sld_fabrics/ipgen/alt_sld_fab_0/alt_sld_fab_0/altera_jtag_dc_streaming_191/synth/altera_avalon_st_jtag_interface.sdc'
-Info (332104): Reading SDC File: 'C:/Users/Haas1S/Downloads/stratix/qts_qsfp_sdi/qts_qsfp_sdi/qdb/.t/65bb5982420f.tmp/.temp/sld_fabrics/ipgen/alt_sld_fab_0/alt_sld_fab_0/altera_reset_controller_1921/synth/altera_reset_controller.sdc'
-Info (18794): Reading SDC File: 'C:/Users/Haas1S/Downloads/stratix/qts_qsfp_sdi/qts_qsfp_sdi/qdb/.t/65bb5982420f.tmp/.temp/sld_fabrics/ipgen/alt_sld_fab_0/alt_sld_fab_0/altera_signaltap_agent_1920/synth/intel_signal_tap.sdc' for instance: 'auto_fab_0|alt_sld_fab_0|alt_sld_fab_0|auto_signaltap_auto_signaltap_0'
+Info (332104): Reading SDC File: 'C:/Users/Haas1S/Downloads/stratix/qts_qsfp_sdi/qts_qsfp_sdi/dni/sld/ipgen/alt_sld_fab_0/alt_sld_fab_0/altera_internal_oscillator_atom_1911/synth/altera_internal_oscillator_atom.sdc'
+Info (332104): Reading SDC File: 'C:/Users/Haas1S/Downloads/stratix/qts_qsfp_sdi/qts_qsfp_sdi/dni/sld/ipgen/alt_sld_fab_0/alt_sld_fab_0/altera_jtag_dc_streaming_191/synth/altera_avalon_st_jtag_interface.sdc'
+Info (18794): Reading SDC File: 'C:/Users/Haas1S/Downloads/stratix/qts_qsfp_sdi/qts_qsfp_sdi/dni/sld/ipgen/alt_sld_fab_0/alt_sld_fab_0/altera_reset_controller_1922/synth/altera_reset_controller.sdc' for instance: 'auto_fab_0|alt_sld_fab_0|alt_sld_fab_0|stfabric|mgmt_rst_synch_0'
+Info: Following instance found in the design -  auto_fab_0|alt_sld_fab_0|alt_sld_fab_0|stfabric|mgmt_rst_synch_0|*
+Info (18794): Reading SDC File: 'C:/Users/Haas1S/Downloads/stratix/qts_qsfp_sdi/qts_qsfp_sdi/dni/sld/ipgen/alt_sld_fab_0/alt_sld_fab_0/altera_signaltap_agent_1920/synth/intel_signal_tap.sdc' for instance: 'auto_fab_0|alt_sld_fab_0|alt_sld_fab_0|auto_signaltap_auto_signaltap_0'
 Info: Constraints on the CDC paths between acquisition clock and communication clock are created in the Signal Tap instance, auto_fab_0|alt_sld_fab_0|alt_sld_fab_0|auto_signaltap_auto_signaltap_0
-Info (18794): Reading SDC File: 'C:/Users/Haas1S/Downloads/stratix/qts_qsfp_sdi/qts_qsfp_sdi/qdb/.t/65bb5982420f.tmp/.temp/sld_fabrics/ipgen/alt_sld_fab_0/alt_sld_fab_0/altera_signaltap_agent_1920/synth/intel_signal_tap.sdc' for instance: 'auto_fab_0|alt_sld_fab_0|alt_sld_fab_0|auto_signaltap_auto_signaltap_1'
+Info (18794): Reading SDC File: 'C:/Users/Haas1S/Downloads/stratix/qts_qsfp_sdi/qts_qsfp_sdi/dni/sld/ipgen/alt_sld_fab_0/alt_sld_fab_0/altera_signaltap_agent_1920/synth/intel_signal_tap.sdc' for instance: 'auto_fab_0|alt_sld_fab_0|alt_sld_fab_0|auto_signaltap_auto_signaltap_1'
 Info: Constraints on the CDC paths between acquisition clock and communication clock are created in the Signal Tap instance, auto_fab_0|alt_sld_fab_0|alt_sld_fab_0|auto_signaltap_auto_signaltap_1
-Info (332104): Reading SDC File: 'C:/Users/Haas1S/Downloads/stratix/qts_qsfp_sdi/qts_qsfp_sdi/qdb/.t/65bb5982420f.tmp/.temp/sld_fabrics/ipgen/alt_sld_fab_0/alt_sld_fab_0/st_dc_fifo_1940/synth/alt_sld_fab_0_st_dc_fifo_1940_r4vdppy.sdc'
-Info (332104): Reading SDC File: 'c:/intelfpga_pro/21.2/ip/altera/sld/jtag/altera_jtag_wys_atom/default_jtag.sdc'
-Info (19449): Reading SDC files elapsed 00:00:04.
+Info (332104): Reading SDC File: 'C:/Users/Haas1S/Downloads/stratix/qts_qsfp_sdi/qts_qsfp_sdi/dni/sld/ipgen/alt_sld_fab_0/alt_sld_fab_0/st_dc_fifo_1950/synth/alt_sld_fab_0_st_dc_fifo_1950_w4zc75y.sdc'
+Info (332104): Reading SDC File: 'C:/Users/Haas1S/Downloads/stratix/qts_qsfp_sdi/qts_qsfp_sdi/dni/sandboxes/13200_0/sld/default_jtag.sdc'
+Info (19449): Reading SDC files elapsed 00:00:03.
 Warning (332070): Port "altera_reserved_tdi" relative to the falling edge of clock "altera_reserved_tck" does not specify a min-fall input delay
 Warning (332070): Port "altera_reserved_tdi" relative to the falling edge of clock "altera_reserved_tck" does not specify a min-rise input delay
 Warning (332070): Port "altera_reserved_tms" relative to the falling edge of clock "altera_reserved_tck" does not specify a min-fall input delay
@@ -374,13 +380,93 @@ Info (223000): Starting Vectorless Power Activity Estimation
 Warning (222013): Relative toggle rates could not be calculated because no clock domain could be identified for some nodes
 Info (223001): Completed Vectorless Power Activity Estimation
 Info (218000): Using Advanced I/O Power to simulate I/O buffers with the specified board trace model
-Info (215049): Average toggle rate for this design is 6.551 millions of transitions / sec.
-Info (215031): Total on-chip power estimate for the design is 14093.90 mW.
+Info: Following instance found in the design -  q_sys_i|master_0|master_0|rst_controller|*
+Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_0|xcvr_test_system_0|rst_controller|*
+Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_0|rst_controller|*
+Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_0|rst_controller_001|*
+Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_1|xcvr_test_system_0|rst_controller|*
+Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_1|rst_controller|*
+Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_1|rst_controller_001|*
+Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_3|xcvr_test_system_0|rst_controller|*
+Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_3|rst_controller|*
+Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_3|rst_controller_001|*
+Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_4|xcvr_test_system_0|rst_controller|*
+Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_4|rst_controller|*
+Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_4|rst_controller_001|*
+Info: Following instance found in the design -  q_sys_i|sdi_xcvr_test_0|xcvr_test_system_0|rst_controller|*
+Info: Following instance found in the design -  q_sys_i|sdi_xcvr_test_0|rst_controller|*
+Info: Following instance found in the design -  q_sys_i|sdi_xcvr_test_0|rst_controller_001|*
+Info: Following instance found in the design -  q_sys_i|sdi_xcvr_test_1|xcvr_test_system_0|rst_controller|*
+Info: Following instance found in the design -  q_sys_i|sdi_xcvr_test_1|rst_controller|*
+Info: Following instance found in the design -  q_sys_i|sdi_xcvr_test_1|rst_controller_001|*
+Info: Following instance found in the design -  q_sys_i|master_0|master_0|rst_controller|*
+Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_0|xcvr_test_system_0|rst_controller|*
+Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_0|rst_controller|*
+Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_0|rst_controller_001|*
+Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_1|xcvr_test_system_0|rst_controller|*
+Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_1|rst_controller|*
+Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_1|rst_controller_001|*
+Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_3|xcvr_test_system_0|rst_controller|*
+Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_3|rst_controller|*
+Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_3|rst_controller_001|*
+Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_4|xcvr_test_system_0|rst_controller|*
+Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_4|rst_controller|*
+Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_4|rst_controller_001|*
+Info: Following instance found in the design -  q_sys_i|sdi_xcvr_test_0|xcvr_test_system_0|rst_controller|*
+Info: Following instance found in the design -  q_sys_i|sdi_xcvr_test_0|rst_controller|*
+Info: Following instance found in the design -  q_sys_i|sdi_xcvr_test_0|rst_controller_001|*
+Info: Following instance found in the design -  q_sys_i|sdi_xcvr_test_1|xcvr_test_system_0|rst_controller|*
+Info: Following instance found in the design -  q_sys_i|sdi_xcvr_test_1|rst_controller|*
+Info: Following instance found in the design -  q_sys_i|sdi_xcvr_test_1|rst_controller_001|*
+Info: Following instance found in the design -  q_sys_i|master_0|master_0|rst_controller|*
+Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_0|xcvr_test_system_0|rst_controller|*
+Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_0|rst_controller|*
+Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_0|rst_controller_001|*
+Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_1|xcvr_test_system_0|rst_controller|*
+Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_1|rst_controller|*
+Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_1|rst_controller_001|*
+Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_3|xcvr_test_system_0|rst_controller|*
+Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_3|rst_controller|*
+Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_3|rst_controller_001|*
+Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_4|xcvr_test_system_0|rst_controller|*
+Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_4|rst_controller|*
+Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_4|rst_controller_001|*
+Info: Following instance found in the design -  q_sys_i|sdi_xcvr_test_0|xcvr_test_system_0|rst_controller|*
+Info: Following instance found in the design -  q_sys_i|sdi_xcvr_test_0|rst_controller|*
+Info: Following instance found in the design -  q_sys_i|sdi_xcvr_test_0|rst_controller_001|*
+Info: Following instance found in the design -  q_sys_i|sdi_xcvr_test_1|xcvr_test_system_0|rst_controller|*
+Info: Following instance found in the design -  q_sys_i|sdi_xcvr_test_1|rst_controller|*
+Info: Following instance found in the design -  q_sys_i|sdi_xcvr_test_1|rst_controller_001|*
+Info: Following instance found in the design -  q_sys_i|master_0|master_0|rst_controller|*
+Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_0|xcvr_test_system_0|rst_controller|*
+Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_0|rst_controller|*
+Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_0|rst_controller_001|*
+Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_1|xcvr_test_system_0|rst_controller|*
+Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_1|rst_controller|*
+Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_1|rst_controller_001|*
+Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_3|xcvr_test_system_0|rst_controller|*
+Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_3|rst_controller|*
+Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_3|rst_controller_001|*
+Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_4|xcvr_test_system_0|rst_controller|*
+Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_4|rst_controller|*
+Info: Following instance found in the design -  q_sys_i|qsfp_xcvr_test_4|rst_controller_001|*
+Info: Following instance found in the design -  q_sys_i|sdi_xcvr_test_0|xcvr_test_system_0|rst_controller|*
+Info: Following instance found in the design -  q_sys_i|sdi_xcvr_test_0|rst_controller|*
+Info: Following instance found in the design -  q_sys_i|sdi_xcvr_test_0|rst_controller_001|*
+Info: Following instance found in the design -  q_sys_i|sdi_xcvr_test_1|xcvr_test_system_0|rst_controller|*
+Info: Following instance found in the design -  q_sys_i|sdi_xcvr_test_1|rst_controller|*
+Info: Following instance found in the design -  q_sys_i|sdi_xcvr_test_1|rst_controller_001|*
+Info: Following instance found in the design -  auto_fab_0|alt_sld_fab_0|alt_sld_fab_0|stfabric|mgmt_rst_synch_0|*
+Info: Constraints on the CDC paths between acquisition clock and communication clock are created in the Signal Tap instance, auto_fab_0|alt_sld_fab_0|alt_sld_fab_0|auto_signaltap_auto_signaltap_0
+Info: Constraints on the CDC paths between acquisition clock and communication clock are created in the Signal Tap instance, auto_fab_0|alt_sld_fab_0|alt_sld_fab_0|auto_signaltap_auto_signaltap_1
+Info (21674): Created Power and Thermal Calculator export file "C:/Users/Haas1S/Downloads/stratix/qts_qsfp_sdi/qts_qsfp_sdi/qts_qsfp_sdi.qptc"
+Info (215049): Average toggle rate for this design is 6.545 millions of transitions / sec.
+Info (215031): Total on-chip power estimate for the design is 14139.90 mW.
 Info: Quartus Prime Power Analyzer was successful. 0 errors, 18 warnings
-    Info: Peak virtual memory: 11835 megabytes
-    Info: Processing ended: Thu Feb  1 04:06:35 2024
-    Info: Elapsed time: 00:00:58
-    Info: System process ID: 9508
+    Info: Peak virtual memory: 11484 megabytes
+    Info: Processing ended: Sun Feb  4 17:21:12 2024
+    Info: Elapsed time: 00:00:52
+    Info: System process ID: 11528
 
 
 +-----------------------------------------------+
@@ -399,6 +485,15 @@ Info: Quartus Prime Power Analyzer was successful. 0 errors, 18 warnings
 ; qsfp_mod_prsn   ; No valid clock domain found ;
 ; qsfp_sda        ; No valid clock domain found ;
 +-----------------+-----------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------+
+; Power Analyzer Generated Files                                                                                                  ;
++-------------------------------------------------+-------------------------------------------------------------------------------+
+; Description                                     ; Filename                                                                      ;
++-------------------------------------------------+-------------------------------------------------------------------------------+
+; Design summary for Power and Thermal Calculator ; C:/Users/Haas1S/Downloads/stratix/qts_qsfp_sdi/qts_qsfp_sdi/qts_qsfp_sdi.qptc ;
++-------------------------------------------------+-------------------------------------------------------------------------------+
 
 
 +--------------------------------------------------------+
@@ -424,7 +519,7 @@ Info: Quartus Prime Power Analyzer was successful. 0 errors, 18 warnings
 ;     1.8 V I/O Standard                       ; 1.8 V   ;
 ;     LVDS I/O Standard                        ; 1.8 V   ;
 ;                                              ;         ;
-; User entered junction temperature            ; 0.0 ??C ;
+; User entered junction temperature            ; 25.0 °C ;
 +----------------------------------------------+---------+
 
 
@@ -433,14 +528,14 @@ Info: Quartus Prime Power Analyzer was successful. 0 errors, 18 warnings
 +--------------------+-----------------------------------+-----------------------------+-----------------------------+-------------------------------+
 ; Block Type         ; Total On-Chip Power by Block Type ; Block On-Chip Dynamic Power ; Block On-Chip Standby Power ; Routing On-Chip Dynamic Power ;
 +--------------------+-----------------------------------+-----------------------------+-----------------------------+-------------------------------+
-; M20K               ; 86.95 mW                          ; 82.04 mW                    ; 0.00 mW                     ; 4.91 mW                       ;
-; PLL                ; 347.47 mW                         ; 280.92 mW                   ; 66.55 mW                    ; 0.00 mW                       ;
-; Combinational cell ; 35.19 mW                          ; 17.22 mW                    ; 0.00 mW                     ; 17.97 mW                      ;
-; Register cell      ; 61.63 mW                          ; 6.40 mW                     ; 0.00 mW                     ; 55.23 mW                      ;
+; M20K               ; 86.51 mW                          ; 82.04 mW                    ; 0.00 mW                     ; 4.47 mW                       ;
+; PLL                ; 327.22 mW                         ; 249.55 mW                   ; 77.68 mW                    ; 0.00 mW                       ;
+; Combinational cell ; 34.36 mW                          ; 16.63 mW                    ; 0.00 mW                     ; 17.72 mW                      ;
+; Register cell      ; 61.60 mW                          ; 6.45 mW                     ; 0.00 mW                     ; 55.15 mW                      ;
 ; IO Analog          ; 36.71 mW                          ; 0.81 mW                     ; 35.91 mW                    ; 0.00 mW                       ;
-; HSSI Analog        ; 6651.96 mW                        ; 3536.90 mW                  ; 3115.05 mW                  ; 0.00 mW                       ;
-; HSSI Digital       ; 604.62 mW                         ; 604.62 mW                   ; 0.00 mW                     ; 0.00 mW                       ;
-; Clock Network      ; 222.01 mW                         ; 44.59 mW                    ; 0.00 mW                     ; 177.42 mW                     ;
+; IO Digital         ; 29.98 mW                          ; 0.00 mW                     ; 0.00 mW                     ; 29.98 mW                      ;
+; Transceiver        ; 7287.33 mW                        ; 4172.28 mW                  ; 3115.05 mW                  ; 0.00 mW                       ;
+; Clock Network      ; 228.98 mW                         ; 43.69 mW                    ; 0.00 mW                     ; 185.29 mW                     ;
 +--------------------+-----------------------------------+-----------------------------+-----------------------------+-------------------------------+
 
 
@@ -450,9 +545,9 @@ Info: Quartus Prime Power Analyzer was successful. 0 errors, 18 warnings
 ; Voltage Supply ; Total Current Drawn ; Total Current Drawn Before SmartVID Savings ; Dynamic Current Drawn ; Standby Current Drawn ; Static Current Drawn ;
 +----------------+---------------------+---------------------------------------------+-----------------------+-----------------------+----------------------+
 ; VCCP           ; 134.90 mA           ; 134.90 mA                                   ; 0.07 mA               ; 0.32 mA               ; 134.51 mA            ;
-; VCCPT          ; 1759.73 mA          ; 1759.73 mA                                  ; 0.35 mA               ; 20.45 mA              ; 1738.93 mA           ;
+; VCCPT          ; 1759.82 mA          ; 1759.82 mA                                  ; 0.35 mA               ; 20.54 mA              ; 1738.93 mA           ;
 ; VCCA_PLL       ; 126.76 mA           ; 126.76 mA                                   ; 0.00 mA               ; 0.00 mA               ; 126.76 mA            ;
-; VCC            ; 2696.14 mA          ; 2696.14 mA                                  ; 770.31 mA             ; 0.00 mA               ; 1925.83 mA           ;
+; VCC            ; 2735.58 mA          ; 2735.58 mA                                  ; 809.91 mA             ; 0.00 mA               ; 1925.67 mA           ;
 ; VCCERAM        ; 605.16 mA           ; 605.16 mA                                   ; 353.27 mA             ; 0.00 mA               ; 251.89 mA            ;
 ; VCCIO_SDM      ; 0.59 mA             ; 0.59 mA                                     ; 0.00 mA               ; 0.00 mA               ; 0.59 mA              ;
 ; VCCFUSEWR_SDM  ; 0.47 mA             ; 0.47 mA                                     ; 0.00 mA               ; 0.00 mA               ; 0.47 mA              ;
@@ -501,7 +596,7 @@ Info: Quartus Prime Power Analyzer was successful. 0 errors, 18 warnings
 +--------------+---------+---------------------+-----------------------+-----------------------+----------------------+
 ; Supply       ; Voltage ; Total Current Drawn ; Dynamic Current Drawn ; Standby Current Drawn ; Static Current Drawn ;
 +--------------+---------+---------------------+-----------------------+-----------------------+----------------------+
-; VCCH_GXBL1KN ; 1.8V    ; 1750.59 mA          ; 759.75 mA             ; 947.15 mA             ; 43.70 mA             ;
+; VCCH_GXBL1KN ; 1.8V    ; 1756.43 mA          ; 759.41 mA             ; 953.33 mA             ; 43.70 mA             ;
 ; VCCR_GXBL1K  ; 1.12V   ; 1823.59 mA          ; 1393.88 mA            ; 382.15 mA             ; 47.57 mA             ;
 ; VCCR_GXBL1L  ; 1.12V   ; 381.12 mA           ; 0.00 mA               ; 333.55 mA             ; 47.57 mA             ;
 ; VCCR_GXBL1M  ; 1.12V   ; 381.12 mA           ; 0.00 mA               ; 333.55 mA             ; 47.57 mA             ;
@@ -519,7 +614,7 @@ Info: Quartus Prime Power Analyzer was successful. 0 errors, 18 warnings
 ; Voltage ; Total Current Drawn ; Dynamic Current Drawn ; Standby Current Drawn ; Static Current Drawn ;
 +---------+---------------------+-----------------------+-----------------------+----------------------+
 ; 1.12V   ; 3773.36 mA          ; 2187.02 mA            ; 1318.52 mA            ; 267.82 mA            ;
-; 1.8V    ; 1750.59 mA          ; 759.75 mA             ; 947.15 mA             ; 43.70 mA             ;
+; 1.8V    ; 1756.43 mA          ; 759.41 mA             ; 953.33 mA             ; 43.70 mA             ;
 +---------+---------------------+-----------------------+-----------------------+----------------------+
 
 
@@ -533,20 +628,20 @@ Info: Quartus Prime Power Analyzer was successful. 0 errors, 18 warnings
 ;     -- Number of signals with Static Probability from Simulation                       ; 0 (0.0%)       ; 0 (0.0%)   ; 0 (0.0%)       ; 0 (0.0%)      ;
 ;                                                                                        ;                ;            ;                ;               ;
 ; Node, entity or clock assignment                                                       ;                ;            ;                ;               ;
-;     -- Number of signals with Toggle Rate from Node, entity or clock assignment        ; 68 (0.1%)      ; 8 (10.1%)  ; 5 (0.0%)       ; 55 (0.1%)     ;
-;     -- Number of signals with Static Probability from Node, entity or clock assignment ; 68 (0.1%)      ; 8 (10.1%)  ; 5 (0.0%)       ; 55 (0.1%)     ;
+;     -- Number of signals with Toggle Rate from Node, entity or clock assignment        ; 68 (0.1%)      ; 8 (10.0%)  ; 5 (0.0%)       ; 55 (0.1%)     ;
+;     -- Number of signals with Static Probability from Node, entity or clock assignment ; 68 (0.1%)      ; 8 (10.0%)  ; 5 (0.0%)       ; 55 (0.1%)     ;
 ;                                                                                        ;                ;            ;                ;               ;
 ; Vectorless estimation                                                                  ;                ;            ;                ;               ;
-;     -- Number of signals with Toggle Rate from Vectorless estimation                   ; 107585 (99.9%) ; 42 (53.2%) ; 36129 (100.0%) ; 71414 (99.9%) ;
-;     -- Number of signals with Zero toggle rate, from Vectorless estimation             ; 2599 (2.4%)    ; 39 (49.4%) ; 1335 (3.7%)    ; 1225 (1.7%)   ;
-;     -- Number of signals with Static Probability from Vectorless estimation            ; 107585 (99.9%) ; 42 (53.2%) ; 36129 (100.0%) ; 71414 (99.9%) ;
+;     -- Number of signals with Toggle Rate from Vectorless estimation                   ; 107855 (99.9%) ; 42 (52.5%) ; 36449 (100.0%) ; 71364 (99.9%) ;
+;     -- Number of signals with Zero toggle rate, from Vectorless estimation             ; 2605 (2.4%)    ; 39 (48.8%) ; 1335 (3.7%)    ; 1231 (1.7%)   ;
+;     -- Number of signals with Static Probability from Vectorless estimation            ; 107855 (99.9%) ; 42 (52.5%) ; 36449 (100.0%) ; 71364 (99.9%) ;
 ;                                                                                        ;                ;            ;                ;               ;
 ; Default assignment                                                                     ;                ;            ;                ;               ;
 ;     -- Number of signals with Toggle Rate from Default assignment                      ; 3 (0.0%)       ; 3 (3.8%)   ; 0 (0.0%)       ; 0 (0.0%)      ;
-;     -- Number of signals with Static Probability from Default assignment               ; 29 (0.0%)      ; 29 (36.7%) ; 0 (0.0%)       ; 0 (0.0%)      ;
+;     -- Number of signals with Static Probability from Default assignment               ; 30 (0.0%)      ; 30 (37.5%) ; 0 (0.0%)       ; 0 (0.0%)      ;
 ;                                                                                        ;                ;            ;                ;               ;
 ; Assumed 0                                                                              ;                ;            ;                ;               ;
-;     -- Number of signals with Toggle Rate assumed 0                                    ; 26 (0.0%)      ; 26 (32.9%) ; 0 (0.0%)       ; 0 (0.0%)      ;
+;     -- Number of signals with Toggle Rate assumed 0                                    ; 27 (0.0%)      ; 27 (33.8%) ; 0 (0.0%)       ; 0 (0.0%)      ;
 +----------------------------------------------------------------------------------------+----------------+------------+----------------+---------------+
 
 

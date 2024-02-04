@@ -5,6 +5,7 @@
 `timescale 1 ps / 1 ps
 module q_sys_xcvr_atx_pll_s10_htile_2 (
 		input  wire        pll_refclk0,           //       pll_refclk0.clk
+		output wire        tx_serial_clk,         //     tx_serial_clk.clk
 		output wire        tx_serial_clk_gxt,     // tx_serial_clk_gxt.clk
 		output wire        pll_locked,            //        pll_locked.pll_locked
 		input  wire        reconfig_clk0,         //     reconfig_clk0.clk
@@ -18,7 +19,7 @@ module q_sys_xcvr_atx_pll_s10_htile_2 (
 		output wire        pll_cal_busy           //      pll_cal_busy.pll_cal_busy
 	);
 
-	q_sys_xcvr_atx_pll_s10_htile_2_altera_xcvr_atx_pll_s10_htile_1911_jm4ttmq #(
+	q_sys_xcvr_atx_pll_s10_htile_2_altera_xcvr_atx_pll_s10_htile_1911_pzhfdgq #(
 		.rcfg_enable                                                      (1),
 		.rcfg_jtag_enable                                                 (1),
 		.rcfg_separate_avmm_busy                                          (0),
@@ -183,6 +184,7 @@ module q_sys_xcvr_atx_pll_s10_htile_2 (
 		.hssi_pma_cgb_master_input_select_gen3                            ("not_used")
 	) q_sys_xcvr_atx_pll_s10_htile_2 (
 		.pll_refclk0             (pll_refclk0),                          //   input,   width = 1,       pll_refclk0.clk
+		.tx_serial_clk           (tx_serial_clk),                        //  output,   width = 1,     tx_serial_clk.clk
 		.tx_serial_clk_gxt       (tx_serial_clk_gxt),                    //  output,   width = 1, tx_serial_clk_gxt.clk
 		.pll_locked              (pll_locked),                           //  output,   width = 1,        pll_locked.pll_locked
 		.reconfig_clk0           (reconfig_clk0),                        //   input,   width = 1,     reconfig_clk0.clk
@@ -199,7 +201,6 @@ module q_sys_xcvr_atx_pll_s10_htile_2 (
 		.pll_refclk2             (1'b0),                                 // (terminated),                                
 		.pll_refclk3             (1'b0),                                 // (terminated),                                
 		.pll_refclk4             (1'b0),                                 // (terminated),                                
-		.tx_serial_clk           (),                                     // (terminated),                                
 		.gxt_input_from_abv_atx  (1'b0),                                 // (terminated),                                
 		.gxt_input_from_blw_atx  (1'b0),                                 // (terminated),                                
 		.gxt_output_to_abv_atx   (),                                     // (terminated),                                

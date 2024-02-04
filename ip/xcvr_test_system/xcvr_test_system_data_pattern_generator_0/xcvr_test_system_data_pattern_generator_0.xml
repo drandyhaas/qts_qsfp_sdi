@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <deploy
- date="2023.10.17.11:25:10"
- outputDirectory="/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/xcvr_test_system/xcvr_test_system_data_pattern_generator_0/">
+ date="2024.02.04.14:47:06"
+ outputDirectory="C:/Users/Haas1S/Downloads/stratix/qts_qsfp_sdi/qts_qsfp_sdi/ip/xcvr_test_system/xcvr_test_system_data_pattern_generator_0/">
  <perimeter>
   <parameter
      name="AUTO_GENERATION_ID"
@@ -164,33 +164,33 @@
   <parameter name="AUTO_CSR_CLK_CLOCK_DOMAIN" value="-1" />
   <generatedFiles>
    <file
-       path="/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/xcvr_test_system/xcvr_test_system_data_pattern_generator_0/synth/xcvr_test_system_data_pattern_generator_0.v"
+       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\xcvr_test_system\xcvr_test_system_data_pattern_generator_0\synth\xcvr_test_system_data_pattern_generator_0.v"
        attributes="CONTAINS_INLINE_CONFIGURATION" />
   </generatedFiles>
   <childGeneratedFiles>
    <file
-       path="/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/xcvr_test_system/xcvr_test_system_data_pattern_generator_0/synth/xcvr_test_system_data_pattern_generator_0.v"
+       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\xcvr_test_system\xcvr_test_system_data_pattern_generator_0\synth\xcvr_test_system_data_pattern_generator_0.v"
        attributes="CONTAINS_INLINE_CONFIGURATION" />
   </childGeneratedFiles>
   <sourceFiles>
    <file
-       path="/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/xcvr_test_system/xcvr_test_system_data_pattern_generator_0.ip" />
+       path="C:/Users/Haas1S/Downloads/stratix/qts_qsfp_sdi/qts_qsfp_sdi/ip/xcvr_test_system/xcvr_test_system_data_pattern_generator_0.ip" />
   </sourceFiles>
   <childSourceFiles>
    <file
-       path="/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/intel_avalon_data_pattern_generator/data_pattern_generator_hw.tcl" />
+       path="C:/Users/Haas1S/Downloads/stratix/qts_qsfp_sdi/qts_qsfp_sdi/ip/intel_avalon_data_pattern_generator/data_pattern_generator_hw.tcl" />
    <file
-       path="/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/intel_avalon_data_pattern_generator/data_pattern_generator_core_hw.tcl" />
+       path="C:/Users/Haas1S/Downloads/stratix/qts_qsfp_sdi/qts_qsfp_sdi/ip/intel_avalon_data_pattern_generator/data_pattern_generator_core_hw.tcl" />
    <file
-       path="/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/intel_avalon_data_pattern_generator/data_pattern_generator.v" />
+       path="C:/Users/Haas1S/Downloads/stratix/qts_qsfp_sdi/qts_qsfp_sdi/ip/intel_avalon_data_pattern_generator/data_pattern_generator.v" />
    <file
-       path="/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/intel_avalon_data_pattern_generator/reset_controller.v" />
+       path="C:/Users/Haas1S/Downloads/stratix/qts_qsfp_sdi/qts_qsfp_sdi/ip/intel_avalon_data_pattern_generator/reset_controller.v" />
    <file
-       path="/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/intel_avalon_data_pattern_generator/reset_synchronizer.v" />
+       path="C:/Users/Haas1S/Downloads/stratix/qts_qsfp_sdi/qts_qsfp_sdi/ip/intel_avalon_data_pattern_generator/reset_synchronizer.v" />
    <file
-       path="/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/intel_avalon_data_pattern_generator/data_pattern_generator.sdc" />
+       path="C:/Users/Haas1S/Downloads/stratix/qts_qsfp_sdi/qts_qsfp_sdi/ip/intel_avalon_data_pattern_generator/data_pattern_generator.sdc" />
    <file
-       path="/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/intel_avalon_data_pattern_generator/reset_controller.sdc" />
+       path="C:/Users/Haas1S/Downloads/stratix/qts_qsfp_sdi/qts_qsfp_sdi/ip/intel_avalon_data_pattern_generator/reset_controller.sdc" />
   </childSourceFiles>
   <messages>
    <message level="Info" culprit="xcvr_test_system_data_pattern_generator_0">"Generating: xcvr_test_system_data_pattern_generator_0"</message>
@@ -215,31 +215,31 @@
   <parameter name="AUTO_CSR_CLK_CLOCK_DOMAIN" value="1" />
   <generatedFiles>
    <file
-       path="/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/xcvr_test_system/xcvr_test_system_data_pattern_generator_0/data_pattern_generator_10/synth/xcvr_test_system_data_pattern_generator_0_data_pattern_generator_10_utzxrya.v"
+       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\xcvr_test_system\xcvr_test_system_data_pattern_generator_0\data_pattern_generator_10\synth\xcvr_test_system_data_pattern_generator_0_data_pattern_generator_10_utzxrya.v"
        attributes="CONTAINS_INLINE_CONFIGURATION" />
   </generatedFiles>
   <childGeneratedFiles>
    <file
-       path="/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/xcvr_test_system/xcvr_test_system_data_pattern_generator_0/data_pattern_generator_10/synth/xcvr_test_system_data_pattern_generator_0_data_pattern_generator_10_utzxrya.v"
+       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\xcvr_test_system\xcvr_test_system_data_pattern_generator_0\data_pattern_generator_10\synth\xcvr_test_system_data_pattern_generator_0_data_pattern_generator_10_utzxrya.v"
        attributes="CONTAINS_INLINE_CONFIGURATION" />
   </childGeneratedFiles>
   <sourceFiles>
    <file
-       path="/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/intel_avalon_data_pattern_generator/data_pattern_generator_hw.tcl" />
+       path="C:/Users/Haas1S/Downloads/stratix/qts_qsfp_sdi/qts_qsfp_sdi/ip/intel_avalon_data_pattern_generator/data_pattern_generator_hw.tcl" />
   </sourceFiles>
   <childSourceFiles>
    <file
-       path="/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/intel_avalon_data_pattern_generator/data_pattern_generator_core_hw.tcl" />
+       path="C:/Users/Haas1S/Downloads/stratix/qts_qsfp_sdi/qts_qsfp_sdi/ip/intel_avalon_data_pattern_generator/data_pattern_generator_core_hw.tcl" />
    <file
-       path="/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/intel_avalon_data_pattern_generator/data_pattern_generator.v" />
+       path="C:/Users/Haas1S/Downloads/stratix/qts_qsfp_sdi/qts_qsfp_sdi/ip/intel_avalon_data_pattern_generator/data_pattern_generator.v" />
    <file
-       path="/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/intel_avalon_data_pattern_generator/reset_controller.v" />
+       path="C:/Users/Haas1S/Downloads/stratix/qts_qsfp_sdi/qts_qsfp_sdi/ip/intel_avalon_data_pattern_generator/reset_controller.v" />
    <file
-       path="/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/intel_avalon_data_pattern_generator/reset_synchronizer.v" />
+       path="C:/Users/Haas1S/Downloads/stratix/qts_qsfp_sdi/qts_qsfp_sdi/ip/intel_avalon_data_pattern_generator/reset_synchronizer.v" />
    <file
-       path="/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/intel_avalon_data_pattern_generator/data_pattern_generator.sdc" />
+       path="C:/Users/Haas1S/Downloads/stratix/qts_qsfp_sdi/qts_qsfp_sdi/ip/intel_avalon_data_pattern_generator/data_pattern_generator.sdc" />
    <file
-       path="/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/intel_avalon_data_pattern_generator/reset_controller.sdc" />
+       path="C:/Users/Haas1S/Downloads/stratix/qts_qsfp_sdi/qts_qsfp_sdi/ip/intel_avalon_data_pattern_generator/reset_controller.sdc" />
   </childSourceFiles>
   <instantiator
      instantiator="xcvr_test_system_data_pattern_generator_0"
@@ -260,41 +260,41 @@
   <parameter name="FREQ_CNTER_ENABLED" value="false" />
   <generatedFiles>
    <file
-       path="/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/xcvr_test_system/xcvr_test_system_data_pattern_generator_0/data_pattern_generator_core_10/synth/data_pattern_generator.v" />
+       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\xcvr_test_system\xcvr_test_system_data_pattern_generator_0\data_pattern_generator_core_10\synth\data_pattern_generator.v" />
    <file
-       path="/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/xcvr_test_system/xcvr_test_system_data_pattern_generator_0/data_pattern_generator_core_10/synth/reset_controller.v" />
+       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\xcvr_test_system\xcvr_test_system_data_pattern_generator_0\data_pattern_generator_core_10\synth\reset_controller.v" />
    <file
-       path="/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/xcvr_test_system/xcvr_test_system_data_pattern_generator_0/data_pattern_generator_core_10/synth/reset_synchronizer.v" />
+       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\xcvr_test_system\xcvr_test_system_data_pattern_generator_0\data_pattern_generator_core_10\synth\reset_synchronizer.v" />
    <file
-       path="/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/xcvr_test_system/xcvr_test_system_data_pattern_generator_0/data_pattern_generator_core_10/synth/data_pattern_generator.sdc" />
+       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\xcvr_test_system\xcvr_test_system_data_pattern_generator_0\data_pattern_generator_core_10\synth\data_pattern_generator.sdc" />
    <file
-       path="/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/xcvr_test_system/xcvr_test_system_data_pattern_generator_0/data_pattern_generator_core_10/synth/reset_controller.sdc" />
+       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\xcvr_test_system\xcvr_test_system_data_pattern_generator_0\data_pattern_generator_core_10\synth\reset_controller.sdc" />
   </generatedFiles>
   <childGeneratedFiles>
    <file
-       path="/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/xcvr_test_system/xcvr_test_system_data_pattern_generator_0/data_pattern_generator_core_10/synth/data_pattern_generator.v" />
+       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\xcvr_test_system\xcvr_test_system_data_pattern_generator_0\data_pattern_generator_core_10\synth\data_pattern_generator.v" />
    <file
-       path="/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/xcvr_test_system/xcvr_test_system_data_pattern_generator_0/data_pattern_generator_core_10/synth/reset_controller.v" />
+       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\xcvr_test_system\xcvr_test_system_data_pattern_generator_0\data_pattern_generator_core_10\synth\reset_controller.v" />
    <file
-       path="/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/xcvr_test_system/xcvr_test_system_data_pattern_generator_0/data_pattern_generator_core_10/synth/reset_synchronizer.v" />
+       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\xcvr_test_system\xcvr_test_system_data_pattern_generator_0\data_pattern_generator_core_10\synth\reset_synchronizer.v" />
    <file
-       path="/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/xcvr_test_system/xcvr_test_system_data_pattern_generator_0/data_pattern_generator_core_10/synth/data_pattern_generator.sdc" />
+       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\xcvr_test_system\xcvr_test_system_data_pattern_generator_0\data_pattern_generator_core_10\synth\data_pattern_generator.sdc" />
    <file
-       path="/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/xcvr_test_system/xcvr_test_system_data_pattern_generator_0/data_pattern_generator_core_10/synth/reset_controller.sdc" />
+       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\xcvr_test_system\xcvr_test_system_data_pattern_generator_0\data_pattern_generator_core_10\synth\reset_controller.sdc" />
   </childGeneratedFiles>
   <sourceFiles>
    <file
-       path="/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/intel_avalon_data_pattern_generator/data_pattern_generator_core_hw.tcl" />
+       path="C:/Users/Haas1S/Downloads/stratix/qts_qsfp_sdi/qts_qsfp_sdi/ip/intel_avalon_data_pattern_generator/data_pattern_generator_core_hw.tcl" />
    <file
-       path="/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/intel_avalon_data_pattern_generator/data_pattern_generator.v" />
+       path="C:/Users/Haas1S/Downloads/stratix/qts_qsfp_sdi/qts_qsfp_sdi/ip/intel_avalon_data_pattern_generator/data_pattern_generator.v" />
    <file
-       path="/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/intel_avalon_data_pattern_generator/reset_controller.v" />
+       path="C:/Users/Haas1S/Downloads/stratix/qts_qsfp_sdi/qts_qsfp_sdi/ip/intel_avalon_data_pattern_generator/reset_controller.v" />
    <file
-       path="/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/intel_avalon_data_pattern_generator/reset_synchronizer.v" />
+       path="C:/Users/Haas1S/Downloads/stratix/qts_qsfp_sdi/qts_qsfp_sdi/ip/intel_avalon_data_pattern_generator/reset_synchronizer.v" />
    <file
-       path="/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/intel_avalon_data_pattern_generator/data_pattern_generator.sdc" />
+       path="C:/Users/Haas1S/Downloads/stratix/qts_qsfp_sdi/qts_qsfp_sdi/ip/intel_avalon_data_pattern_generator/data_pattern_generator.sdc" />
    <file
-       path="/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/intel_avalon_data_pattern_generator/reset_controller.sdc" />
+       path="C:/Users/Haas1S/Downloads/stratix/qts_qsfp_sdi/qts_qsfp_sdi/ip/intel_avalon_data_pattern_generator/reset_controller.sdc" />
   </sourceFiles>
   <childSourceFiles/>
   <instantiator

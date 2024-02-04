@@ -3,4 +3,4 @@
 1 5 11 partitioned 17 dms:cdms:sub_type
 2 5 10 checkpoint 28 dms:cdms:is_checkpoint_valid
 3 0 1 29 dms:cdms:checkpoint_timestamp
-4 4 1706782454
+4 4 1707084314

@@ -15,6 +15,7 @@
 		.mm_bridge_0_s0_debugaccess                      (_connected_to_mm_bridge_0_s0_debugaccess_),                      //   input,   width = 1,                                 .debugaccess
 		.pll_locked_pll_locked_pll_locked                (_connected_to_pll_locked_pll_locked_pll_locked_),                //   input,   width = 1,            pll_locked_pll_locked.pll_locked
 		.xcvr_native_s10_0_tx_serial_clk0_clk            (_connected_to_xcvr_native_s10_0_tx_serial_clk0_clk_),            //   input,   width = 1, xcvr_native_s10_0_tx_serial_clk0.clk
+		.xcvr_native_s10_0_tx_serial_clk1_clk            (_connected_to_xcvr_native_s10_0_tx_serial_clk1_clk_),            //   input,   width = 1, xcvr_native_s10_0_tx_serial_clk1.clk
 		.xcvr_native_s10_0_rx_cdr_refclk0_clk            (_connected_to_xcvr_native_s10_0_rx_cdr_refclk0_clk_),            //   input,   width = 1, xcvr_native_s10_0_rx_cdr_refclk0.clk
 		.xcvr_native_s10_0_tx_serial_data_tx_serial_data (_connected_to_xcvr_native_s10_0_tx_serial_data_tx_serial_data_), //  output,   width = 1, xcvr_native_s10_0_tx_serial_data.tx_serial_data
 		.xcvr_native_s10_0_rx_serial_data_rx_serial_data (_connected_to_xcvr_native_s10_0_rx_serial_data_rx_serial_data_)  //   input,   width = 1, xcvr_native_s10_0_rx_serial_data.rx_serial_data
