@@ -1,0 +1,104 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 2023  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the Intel FPGA Software License Subscription Agreements 
+on the Quartus Prime software download page.
+*/
+(header "symbol" (version "1.1"))
+(symbol
+	(rect 0 0 320 368)
+	(text "sdi_xcvr_test_pll_status_interconnect_0" (rect 24 0 185 12)(font "SansSerif" (font_size 11)))
+	(text "inst" (rect 8 352 20 364)(font "Arial" ))
+	(port
+		(pt 0 72)
+		(input)
+		(text "pll_locked" (rect 0 0 37 12)(font "SansSerif" (font_size 8)))
+		(text "pll_locked" (rect 4 65 64 76)(font "SansSerif" (font_size 8)))
+	)
+	(port
+		(pt 0 320)
+		(input)
+		(text "pll_powerdown_a" (rect 0 0 67 12)(font "SansSerif" (font_size 8)))
+		(text "pll_powerdown_a" (rect 4 315 94 326)(font "SansSerif" (font_size 8)))
+	)
+	(port
+		(pt 0 120)
+		(output)
+		(text "pll_powerdown" (rect 0 0 56 12)(font "SansSerif" (font_size 8)))
+		(text "pll_powerdown" (rect 4 115 82 126)(font "SansSerif" (font_size 8)))
+	)
+	(port
+		(pt 0 176)
+		(output)
+		(text "mcgb_rst" (rect 0 0 38 12)(font "SansSerif" (font_size 8)))
+		(text "mcgb_rst" (rect 4 165 52 176)(font "SansSerif" (font_size 8)))
+		(line (pt 0 176)(pt 119 176)(line_width 1))
+	)
+	(port
+		(pt 0 224)
+		(output)
+		(text "pll_locked_output" (rect 0 0 67 12)(font "SansSerif" (font_size 8)))
+		(text "pll_locked_output" (rect 4 215 106 226)(font "SansSerif" (font_size 8)))
+	)
+	(port
+		(pt 0 272)
+		(output)
+		(text "pll_locked_a" (rect 0 0 48 12)(font "SansSerif" (font_size 8)))
+		(text "pll_locked_a" (rect 4 265 76 276)(font "SansSerif" (font_size 8)))
+	)
+	(drawing
+		(text "pll_locked" (rect 62 46 184 105)(font "SansSerif" (color 128 0 0)(font_size 9)))
+		(text "pll_locked" (rect 124 71 308 152)(font "SansSerif" (color 0 0 0)))
+		(text "pll_powerdown" (rect 32 96 142 205)(font "SansSerif" (color 128 0 0)(font_size 9)))
+		(text "pll_powerdown" (rect 124 121 326 252)(font "SansSerif" (color 0 0 0)))
+		(text "mcgb_rst" (rect 65 146 178 305)(font "SansSerif" (color 128 0 0)(font_size 9)))
+		(text "mcgb_rst" (rect 124 171 296 352)(font "SansSerif" (color 0 0 0)))
+		(text "pll_locked_output" (rect 18 196 138 405)(font "SansSerif" (color 128 0 0)(font_size 9)))
+		(text "pll_locked" (rect 124 221 308 452)(font "SansSerif" (color 0 0 0)))
+		(text "pll_locked_a" (rect 47 246 166 505)(font "SansSerif" (color 128 0 0)(font_size 9)))
+		(text "pll_locked" (rect 124 271 308 552)(font "SansSerif" (color 0 0 0)))
+		(text "pll_powerdown_a" (rect 17 296 124 605)(font "SansSerif" (color 128 0 0)(font_size 9)))
+		(text "pll_powerdown" (rect 124 321 326 652)(font "SansSerif" (color 0 0 0)))
+		(text " sdi_xcvr_test_pll_status_interconnect_0 " (rect 144 351 534 712)(font "SansSerif" ))
+		(line (pt 119 34)(pt 204 34)(line_width 1))
+		(line (pt 204 34)(pt 204 351)(line_width 1))
+		(line (pt 119 351)(pt 204 351)(line_width 1))
+		(line (pt 119 34)(pt 119 351)(line_width 1))
+		(line (pt 0 76)(pt 119 76)(line_width 1))
+		(line (pt 120 55)(pt 120 80)(line_width 1))
+		(line (pt 121 55)(pt 121 80)(line_width 1))
+		(line (pt 0 126)(pt 119 126)(line_width 1))
+		(line (pt 120 105)(pt 120 130)(line_width 1))
+		(line (pt 121 105)(pt 121 130)(line_width 1))
+		(line (pt 120 155)(pt 120 180)(line_width 1))
+		(line (pt 121 155)(pt 121 180)(line_width 1))
+		(line (pt 0 226)(pt 119 226)(line_width 1))
+		(line (pt 120 205)(pt 120 230)(line_width 1))
+		(line (pt 121 205)(pt 121 230)(line_width 1))
+		(line (pt 0 276)(pt 119 276)(line_width 1))
+		(line (pt 120 255)(pt 120 280)(line_width 1))
+		(line (pt 121 255)(pt 121 280)(line_width 1))
+		(line (pt 0 326)(pt 119 326)(line_width 1))
+		(line (pt 120 305)(pt 120 330)(line_width 1))
+		(line (pt 121 305)(pt 121 330)(line_width 1))
+		(line (pt 0 0)(pt 323 0)(line_width 1))
+		(line (pt 323 0)(pt 323 368)(line_width 1))
+		(line (pt 0 368)(pt 323 368)(line_width 1))
+		(line (pt 0 0)(pt 0 368)(line_width 1))
+	)
+)

@@ -1,0 +1,26 @@
+	component q_sys is
+		port (
+			clk_100_clk                                                      : in  std_logic                    := 'X';             -- clk
+			reset_100_reset_n                                                : in  std_logic                    := 'X';             -- reset_n
+			clk_50_clk                                                       : in  std_logic                    := 'X';             -- clk
+			reset_50_reset_n                                                 : in  std_logic                    := 'X';             -- reset_n
+			q_sys_pll_status_interconnect_qsfp_pll_locked_pll_locked         : out std_logic_vector(0 downto 0);                    -- pll_locked
+			q_sys_pll_status_interconnect_qsfp_pll_locked1_pll_locked        : out std_logic_vector(0 downto 0);                    -- pll_locked
+			q_sys_pll_status_interconnect_sdi_pll_locked_pll_locked          : out std_logic_vector(0 downto 0);                    -- pll_locked
+			qsfp_xcvr_atx_pll_refclk_in_clk_clk                              : in  std_logic                    := 'X';             -- clk
+			sdi_xcvr_atx_pll_refclk_in_clk_clk                               : in  std_logic                    := 'X';             -- clk
+			qsfp_xcvr_test_0_xcvr_native_s10_0_tx_serial_data_tx_serial_data : out std_logic_vector(0 downto 0);                    -- tx_serial_data
+			qsfp_xcvr_test_0_xcvr_native_s10_0_rx_serial_data_rx_serial_data : in  std_logic_vector(0 downto 0) := (others => 'X'); -- rx_serial_data
+			qsfp_xcvr_test_1_xcvr_native_s10_0_tx_serial_data_tx_serial_data : out std_logic_vector(0 downto 0);                    -- tx_serial_data
+			qsfp_xcvr_test_1_xcvr_native_s10_0_rx_serial_data_rx_serial_data : in  std_logic_vector(0 downto 0) := (others => 'X'); -- rx_serial_data
+			qsfp_xcvr_test_3_xcvr_native_s10_0_tx_serial_data_tx_serial_data : out std_logic_vector(0 downto 0);                    -- tx_serial_data
+			qsfp_xcvr_test_3_xcvr_native_s10_0_rx_serial_data_rx_serial_data : in  std_logic_vector(0 downto 0) := (others => 'X'); -- rx_serial_data
+			qsfp_xcvr_test_4_xcvr_native_s10_0_tx_serial_data_tx_serial_data : out std_logic_vector(0 downto 0);                    -- tx_serial_data
+			qsfp_xcvr_test_4_xcvr_native_s10_0_rx_serial_data_rx_serial_data : in  std_logic_vector(0 downto 0) := (others => 'X'); -- rx_serial_data
+			sdi_xcvr_test_0_xcvr_native_s10_0_tx_serial_data_tx_serial_data  : out std_logic_vector(0 downto 0);                    -- tx_serial_data
+			sdi_xcvr_test_0_xcvr_native_s10_0_rx_serial_data_rx_serial_data  : in  std_logic_vector(0 downto 0) := (others => 'X'); -- rx_serial_data
+			sdi_xcvr_test_1_xcvr_native_s10_0_tx_serial_data_tx_serial_data  : out std_logic_vector(0 downto 0);                    -- tx_serial_data
+			sdi_xcvr_test_1_xcvr_native_s10_0_rx_serial_data_rx_serial_data  : in  std_logic_vector(0 downto 0) := (others => 'X')  -- rx_serial_data
+		);
+	end component q_sys;
+

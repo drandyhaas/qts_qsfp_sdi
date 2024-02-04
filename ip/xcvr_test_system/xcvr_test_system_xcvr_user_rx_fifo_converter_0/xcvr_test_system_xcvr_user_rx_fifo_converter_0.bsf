@@ -1,0 +1,174 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 2023  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the Intel FPGA Software License Subscription Agreements 
+on the Quartus Prime software download page.
+*/
+(header "symbol" (version "1.1"))
+(symbol
+	(rect 0 0 640 616)
+	(text "xcvr_test_system_xcvr_user_rx_fifo_converter_0" (rect 151 0 363 12)(font "SansSerif" (font_size 11)))
+	(text "inst" (rect 8 600 20 612)(font "Arial" ))
+	(port
+		(pt 0 72)
+		(input)
+		(text "data_pattern_checker_pattern_in[63..0]" (rect 0 0 156 12)(font "SansSerif" (font_size 8)))
+		(text "data_pattern_checker_pattern_in[63..0]" (rect 4 65 232 76)(font "SansSerif" (font_size 8)))
+	)
+	(port
+		(pt 0 120)
+		(input)
+		(text "data_pattern_checker_pattern_in_clk" (rect 0 0 148 12)(font "SansSerif" (font_size 8)))
+		(text "data_pattern_checker_pattern_in_clk" (rect 4 115 214 126)(font "SansSerif" (font_size 8)))
+	)
+	(port
+		(pt 0 224)
+		(input)
+		(text "data_pattern_checker_pattern_in_fifo_read_clk" (rect 0 0 191 12)(font "SansSerif" (font_size 8)))
+		(text "data_pattern_checker_pattern_in_fifo_read_clk" (rect 4 215 274 226)(font "SansSerif" (font_size 8)))
+	)
+	(port
+		(pt 0 520)
+		(input)
+		(text "q[127..0]" (rect 0 0 33 12)(font "SansSerif" (font_size 8)))
+		(text "q[127..0]" (rect 4 515 58 526)(font "SansSerif" (font_size 8)))
+	)
+	(port
+		(pt 0 544)
+		(input)
+		(text "rdempty" (rect 0 0 34 12)(font "SansSerif" (font_size 8)))
+		(text "rdempty" (rect 4 540 46 551)(font "SansSerif" (font_size 8)))
+	)
+	(port
+		(pt 0 576)
+		(input)
+		(text "wrfull" (rect 0 0 20 12)(font "SansSerif" (font_size 8)))
+		(text "wrfull" (rect 4 565 40 576)(font "SansSerif" (font_size 8)))
+		(line (pt 0 576)(pt 289 576)(line_width 1))
+	)
+	(port
+		(pt 0 176)
+		(output)
+		(text "data_pattern_checker_pattern_in_fifo_read[127..0]" (rect 0 0 202 12)(font "SansSerif" (font_size 8)))
+		(text "data_pattern_checker_pattern_in_fifo_read[127..0]" (rect 4 165 298 176)(font "SansSerif" (font_size 8)))
+		(line (pt 0 176)(pt 289 176)(line_width 3))
+	)
+	(port
+		(pt 0 272)
+		(output)
+		(text "data_pattern_checker_rx_fifo_rdempty" (rect 0 0 160 12)(font "SansSerif" (font_size 8)))
+		(text "data_pattern_checker_rx_fifo_rdempty" (rect 4 265 220 276)(font "SansSerif" (font_size 8)))
+	)
+	(port
+		(pt 0 320)
+		(output)
+		(text "data_pattern_checker_rx_fifo_wrfull" (rect 0 0 146 12)(font "SansSerif" (font_size 8)))
+		(text "data_pattern_checker_rx_fifo_wrfull" (rect 4 315 214 326)(font "SansSerif" (font_size 8)))
+	)
+	(port
+		(pt 0 376)
+		(output)
+		(text "data[63..0]" (rect 0 0 41 12)(font "SansSerif" (font_size 8)))
+		(text "data[63..0]" (rect 4 365 70 376)(font "SansSerif" (font_size 8)))
+		(line (pt 0 376)(pt 289 376)(line_width 3))
+	)
+	(port
+		(pt 0 400)
+		(output)
+		(text "wrreq" (rect 0 0 22 12)(font "SansSerif" (font_size 8)))
+		(text "wrreq" (rect 4 390 34 401)(font "SansSerif" (font_size 8)))
+	)
+	(port
+		(pt 0 424)
+		(output)
+		(text "rdreq" (rect 0 0 21 12)(font "SansSerif" (font_size 8)))
+		(text "rdreq" (rect 4 415 34 426)(font "SansSerif" (font_size 8)))
+	)
+	(port
+		(pt 0 448)
+		(output)
+		(text "wrclk" (rect 0 0 20 12)(font "SansSerif" (font_size 8)))
+		(text "wrclk" (rect 4 440 34 451)(font "SansSerif" (font_size 8)))
+	)
+	(port
+		(pt 0 472)
+		(output)
+		(text "rdclk" (rect 0 0 18 12)(font "SansSerif" (font_size 8)))
+		(text "rdclk" (rect 4 465 34 476)(font "SansSerif" (font_size 8)))
+	)
+	(drawing
+		(text "data_pattern_checker_pattern_in" (rect 96 46 378 105)(font "SansSerif" (color 128 0 0)(font_size 9)))
+		(text "export" (rect 294 71 624 152)(font "SansSerif" (color 0 0 0)))
+		(text "data_pattern_checker_pattern_in_clk" (rect 72 96 354 205)(font "SansSerif" (color 128 0 0)(font_size 9)))
+		(text "export" (rect 294 121 624 252)(font "SansSerif" (color 0 0 0)))
+		(text "data_pattern_checker_pattern_in_fifo_read" (rect 34 146 314 305)(font "SansSerif" (color 128 0 0)(font_size 9)))
+		(text "export" (rect 294 171 624 352)(font "SansSerif" (color 0 0 0)))
+		(text "data_pattern_checker_pattern_in_fifo_read_clk" (rect 10 196 290 405)(font "SansSerif" (color 128 0 0)(font_size 9)))
+		(text "export" (rect 294 221 624 452)(font "SansSerif" (color 0 0 0)))
+		(text "data_pattern_checker_rx_fifo_rdempty" (rect 61 246 338 505)(font "SansSerif" (color 128 0 0)(font_size 9)))
+		(text "export" (rect 294 271 624 552)(font "SansSerif" (color 0 0 0)))
+		(text "data_pattern_checker_rx_fifo_wrfull" (rect 75 296 360 605)(font "SansSerif" (color 128 0 0)(font_size 9)))
+		(text "export" (rect 294 321 624 652)(font "SansSerif" (color 0 0 0)))
+		(text "fifo_input" (rect 234 346 528 705)(font "SansSerif" (color 128 0 0)(font_size 9)))
+		(text "datain" (rect 294 371 624 752)(font "SansSerif" (color 0 0 0)))
+		(text "wrreq" (rect 294 396 618 802)(font "SansSerif" (color 0 0 0)))
+		(text "rdreq" (rect 294 421 618 852)(font "SansSerif" (color 0 0 0)))
+		(text "wrclk" (rect 294 446 618 902)(font "SansSerif" (color 0 0 0)))
+		(text "rdclk" (rect 294 471 618 952)(font "SansSerif" (color 0 0 0)))
+		(text "fifo_output" (rect 226 496 518 1005)(font "SansSerif" (color 128 0 0)(font_size 9)))
+		(text "dataout" (rect 294 521 630 1052)(font "SansSerif" (color 0 0 0)))
+		(text "rdempty" (rect 294 546 630 1102)(font "SansSerif" (color 0 0 0)))
+		(text "wrfull" (rect 294 571 624 1152)(font "SansSerif" (color 0 0 0)))
+		(text " xcvr_test_system_xcvr_user_rx_fifo_converter_0 " (rect 417 601 1122 1212)(font "SansSerif" ))
+		(line (pt 289 34)(pt 357 34)(line_width 1))
+		(line (pt 357 34)(pt 357 601)(line_width 1))
+		(line (pt 289 601)(pt 357 601)(line_width 1))
+		(line (pt 289 34)(pt 289 601)(line_width 1))
+		(line (pt 0 76)(pt 289 76)(line_width 3))
+		(line (pt 290 55)(pt 290 80)(line_width 1))
+		(line (pt 291 55)(pt 291 80)(line_width 1))
+		(line (pt 0 126)(pt 289 126)(line_width 1))
+		(line (pt 290 105)(pt 290 130)(line_width 1))
+		(line (pt 291 105)(pt 291 130)(line_width 1))
+		(line (pt 290 155)(pt 290 180)(line_width 1))
+		(line (pt 291 155)(pt 291 180)(line_width 1))
+		(line (pt 0 226)(pt 289 226)(line_width 1))
+		(line (pt 290 205)(pt 290 230)(line_width 1))
+		(line (pt 291 205)(pt 291 230)(line_width 1))
+		(line (pt 0 276)(pt 289 276)(line_width 1))
+		(line (pt 290 255)(pt 290 280)(line_width 1))
+		(line (pt 291 255)(pt 291 280)(line_width 1))
+		(line (pt 0 326)(pt 289 326)(line_width 1))
+		(line (pt 290 305)(pt 290 330)(line_width 1))
+		(line (pt 291 305)(pt 291 330)(line_width 1))
+		(line (pt 0 401)(pt 289 401)(line_width 1))
+		(line (pt 0 426)(pt 289 426)(line_width 1))
+		(line (pt 0 451)(pt 289 451)(line_width 1))
+		(line (pt 0 476)(pt 289 476)(line_width 1))
+		(line (pt 290 355)(pt 290 480)(line_width 1))
+		(line (pt 291 355)(pt 291 480)(line_width 1))
+		(line (pt 0 526)(pt 289 526)(line_width 3))
+		(line (pt 0 551)(pt 289 551)(line_width 1))
+		(line (pt 290 505)(pt 290 580)(line_width 1))
+		(line (pt 291 505)(pt 291 580)(line_width 1))
+		(line (pt 0 0)(pt 646 0)(line_width 1))
+		(line (pt 646 0)(pt 646 618)(line_width 1))
+		(line (pt 0 618)(pt 646 618)(line_width 1))
+		(line (pt 0 0)(pt 0 618)(line_width 1))
+	)
+)

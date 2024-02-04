@@ -1,0 +1,133 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 2023  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the Intel FPGA Software License Subscription Agreements 
+on the Quartus Prime software download page.
+*/
+(header "symbol" (version "1.1"))
+(symbol
+	(rect 0 0 408 440)
+	(text "xcvr_test_system_data_pattern_checker_0" (rect 55 0 234 12)(font "SansSerif" (font_size 11)))
+	(text "inst" (rect 8 424 20 436)(font "Arial" ))
+	(port
+		(pt 0 72)
+		(input)
+		(text "csr_clk_clk" (rect 0 0 46 12)(font "SansSerif" (font_size 8)))
+		(text "csr_clk_clk" (rect 4 65 70 76)(font "SansSerif" (font_size 8)))
+	)
+	(port
+		(pt 0 120)
+		(input)
+		(text "reset_reset" (rect 0 0 46 12)(font "SansSerif" (font_size 8)))
+		(text "reset_reset" (rect 4 115 70 126)(font "SansSerif" (font_size 8)))
+	)
+	(port
+		(pt 0 176)
+		(input)
+		(text "csr_slave_address[2..0]" (rect 0 0 97 12)(font "SansSerif" (font_size 8)))
+		(text "csr_slave_address[2..0]" (rect 4 165 142 176)(font "SansSerif" (font_size 8)))
+		(line (pt 0 176)(pt 170 176)(line_width 3))
+	)
+	(port
+		(pt 0 200)
+		(input)
+		(text "csr_slave_write" (rect 0 0 63 12)(font "SansSerif" (font_size 8)))
+		(text "csr_slave_write" (rect 4 190 94 201)(font "SansSerif" (font_size 8)))
+	)
+	(port
+		(pt 0 224)
+		(input)
+		(text "csr_slave_read" (rect 0 0 63 12)(font "SansSerif" (font_size 8)))
+		(text "csr_slave_read" (rect 4 215 88 226)(font "SansSerif" (font_size 8)))
+	)
+	(port
+		(pt 0 248)
+		(input)
+		(text "csr_slave_byteenable[3..0]" (rect 0 0 108 12)(font "SansSerif" (font_size 8)))
+		(text "csr_slave_byteenable[3..0]" (rect 4 240 160 251)(font "SansSerif" (font_size 8)))
+	)
+	(port
+		(pt 0 272)
+		(input)
+		(text "csr_slave_writedata[31..0]" (rect 0 0 103 12)(font "SansSerif" (font_size 8)))
+		(text "csr_slave_writedata[31..0]" (rect 4 265 160 276)(font "SansSerif" (font_size 8)))
+	)
+	(port
+		(pt 0 344)
+		(input)
+		(text "conduit_pattern_in_clk_export" (rect 0 0 119 12)(font "SansSerif" (font_size 8)))
+		(text "conduit_pattern_in_clk_export" (rect 4 340 178 351)(font "SansSerif" (font_size 8)))
+	)
+	(port
+		(pt 0 400)
+		(input)
+		(text "asi_data[127..0]" (rect 0 0 61 12)(font "SansSerif" (font_size 8)))
+		(text "asi_data[127..0]" (rect 4 390 100 401)(font "SansSerif" (font_size 8)))
+	)
+	(port
+		(pt 0 296)
+		(output)
+		(text "csr_slave_readdata[31..0]" (rect 0 0 103 12)(font "SansSerif" (font_size 8)))
+		(text "csr_slave_readdata[31..0]" (rect 4 290 154 301)(font "SansSerif" (font_size 8)))
+	)
+	(drawing
+		(text "csr_clk" (rect 129 46 300 105)(font "SansSerif" (color 128 0 0)(font_size 9)))
+		(text "clk" (rect 175 71 368 152)(font "SansSerif" (color 0 0 0)))
+		(text "reset" (rect 141 96 312 205)(font "SansSerif" (color 128 0 0)(font_size 9)))
+		(text "reset" (rect 175 121 380 252)(font "SansSerif" (color 0 0 0)))
+		(text "csr_slave" (rect 115 146 284 305)(font "SansSerif" (color 128 0 0)(font_size 9)))
+		(text "address" (rect 175 171 392 352)(font "SansSerif" (color 0 0 0)))
+		(text "write" (rect 175 196 380 402)(font "SansSerif" (color 0 0 0)))
+		(text "read" (rect 175 221 374 452)(font "SansSerif" (color 0 0 0)))
+		(text "byteenable" (rect 175 246 410 502)(font "SansSerif" (color 0 0 0)))
+		(text "writedata" (rect 175 271 404 552)(font "SansSerif" (color 0 0 0)))
+		(text "readdata" (rect 175 296 398 602)(font "SansSerif" (color 0 0 0)))
+		(text "conduit_pattern_in_clk" (rect 39 321 210 655)(font "SansSerif" (color 128 0 0)(font_size 9)))
+		(text "export" (rect 175 346 386 702)(font "SansSerif" (color 0 0 0)))
+		(text "conduit_pattern_in" (rect 63 371 234 755)(font "SansSerif" (color 128 0 0)(font_size 9)))
+		(text "export" (rect 175 396 386 802)(font "SansSerif" (color 0 0 0)))
+		(text " xcvr_test_system_data_pattern_checker_0 " (rect 214 426 674 862)(font "SansSerif" ))
+		(line (pt 170 34)(pt 238 34)(line_width 1))
+		(line (pt 238 34)(pt 238 426)(line_width 1))
+		(line (pt 170 426)(pt 238 426)(line_width 1))
+		(line (pt 170 34)(pt 170 426)(line_width 1))
+		(line (pt 0 76)(pt 170 76)(line_width 1))
+		(line (pt 171 55)(pt 171 80)(line_width 1))
+		(line (pt 172 55)(pt 172 80)(line_width 1))
+		(line (pt 0 126)(pt 170 126)(line_width 1))
+		(line (pt 171 105)(pt 171 130)(line_width 1))
+		(line (pt 172 105)(pt 172 130)(line_width 1))
+		(line (pt 0 201)(pt 170 201)(line_width 1))
+		(line (pt 0 226)(pt 170 226)(line_width 1))
+		(line (pt 0 251)(pt 170 251)(line_width 3))
+		(line (pt 0 276)(pt 170 276)(line_width 3))
+		(line (pt 0 301)(pt 170 301)(line_width 3))
+		(line (pt 171 155)(pt 171 305)(line_width 1))
+		(line (pt 172 155)(pt 172 305)(line_width 1))
+		(line (pt 0 351)(pt 170 351)(line_width 1))
+		(line (pt 171 330)(pt 171 355)(line_width 1))
+		(line (pt 172 330)(pt 172 355)(line_width 1))
+		(line (pt 0 401)(pt 170 401)(line_width 3))
+		(line (pt 171 380)(pt 171 405)(line_width 1))
+		(line (pt 172 380)(pt 172 405)(line_width 1))
+		(line (pt 0 0)(pt 408 0)(line_width 1))
+		(line (pt 408 0)(pt 408 443)(line_width 1))
+		(line (pt 0 443)(pt 408 443)(line_width 1))
+		(line (pt 0 0)(pt 0 443)(line_width 1))
+	)
+)

@@ -1,0 +1,31 @@
+set_global_assignment -entity "sdi_xcvr_test_nativePHY_loopback_cont_0" -library "sdi_xcvr_test_nativePHY_loopback_cont_0" -name IP_TOOL_NAME "QsysPrimePro"
+set_global_assignment -entity "sdi_xcvr_test_nativePHY_loopback_cont_0" -library "sdi_xcvr_test_nativePHY_loopback_cont_0" -name IP_TOOL_VERSION "23.3"
+set_global_assignment -entity "sdi_xcvr_test_nativePHY_loopback_cont_0" -library "sdi_xcvr_test_nativePHY_loopback_cont_0" -name IP_TOOL_ENV "QsysPrimePro"
+set_global_assignment -entity "sdi_xcvr_test_nativePHY_loopback_cont_0" -library "sdi_xcvr_test_nativePHY_loopback_cont_0" -name IP_TOOL_VENDOR_NAME "Altera Corporation"
+set_global_assignment -entity "sdi_xcvr_test_nativePHY_loopback_cont_0" -library "sdi_xcvr_test_nativePHY_loopback_cont_0" -name IP_TOP_LEVEL_COMPONENT_NAME "nativePHY_loopback_cont"
+set_global_assignment -library "sdi_xcvr_test_nativePHY_loopback_cont_0" -name SOPCINFO_FILE [file join $::quartus(qip_path) "sdi_xcvr_test_nativePHY_loopback_cont_0.sopcinfo"]
+set_global_assignment -entity "sdi_xcvr_test_nativePHY_loopback_cont_0" -library "sdi_xcvr_test_nativePHY_loopback_cont_0" -name SLD_INFO "QSYS_NAME sdi_xcvr_test_nativePHY_loopback_cont_0 HAS_SOPCINFO 1 GENERATION_ID 0"
+set_global_assignment -library "sdi_xcvr_test_nativePHY_loopback_cont_0" -name MISC_FILE [file join $::quartus(qip_path) "sdi_xcvr_test_nativePHY_loopback_cont_0.cmp"]
+set_global_assignment -entity "sdi_xcvr_test_nativePHY_loopback_cont_0" -library "sdi_xcvr_test_nativePHY_loopback_cont_0" -name IP_TARGETED_DEVICE_FAMILY "Stratix 10"
+set_global_assignment -entity "sdi_xcvr_test_nativePHY_loopback_cont_0" -library "sdi_xcvr_test_nativePHY_loopback_cont_0" -name IP_GENERATED_DEVICE_FAMILY "{Stratix 10}"
+set_global_assignment -entity "sdi_xcvr_test_nativePHY_loopback_cont_0" -library "sdi_xcvr_test_nativePHY_loopback_cont_0" -name IP_QSYS_MODE "STANDALONE"
+set_global_assignment -name SYNTHESIS_ONLY_QIP ON
+set_global_assignment -library "sdi_xcvr_test_nativePHY_loopback_cont_0" -name MISC_FILE [file join $::quartus(qip_path) "../sdi_xcvr_test_nativePHY_loopback_cont_0.ip"]
+
+set_global_assignment -entity "nativePHY_loopback_cont" -library "nativePHY_loopback_cont_10" -name IP_COMPONENT_NAME "bmF0aXZlUEhZX2xvb3BiYWNrX2NvbnQ="
+set_global_assignment -entity "nativePHY_loopback_cont" -library "nativePHY_loopback_cont_10" -name IP_COMPONENT_DISPLAY_NAME "bmF0aXZlUEhZX2xvb3BiYWNrX2NvbnQ="
+set_global_assignment -entity "nativePHY_loopback_cont" -library "nativePHY_loopback_cont_10" -name IP_COMPONENT_REPORT_HIERARCHY "Off"
+set_global_assignment -entity "nativePHY_loopback_cont" -library "nativePHY_loopback_cont_10" -name IP_COMPONENT_INTERNAL "Off"
+set_global_assignment -entity "nativePHY_loopback_cont" -library "nativePHY_loopback_cont_10" -name IP_COMPONENT_VERSION "MS4w"
+set_global_assignment -entity "nativePHY_loopback_cont" -library "nativePHY_loopback_cont_10" -name IP_COMPONENT_GROUP "RGV2a2l0X0lQcw=="
+set_global_assignment -entity "sdi_xcvr_test_nativePHY_loopback_cont_0" -library "sdi_xcvr_test_nativePHY_loopback_cont_0" -name IP_COMPONENT_NAME "c2RpX3hjdnJfdGVzdF9uYXRpdmVQSFlfbG9vcGJhY2tfY29udF8w"
+set_global_assignment -entity "sdi_xcvr_test_nativePHY_loopback_cont_0" -library "sdi_xcvr_test_nativePHY_loopback_cont_0" -name IP_COMPONENT_DISPLAY_NAME "c3lzdGVt"
+set_global_assignment -entity "sdi_xcvr_test_nativePHY_loopback_cont_0" -library "sdi_xcvr_test_nativePHY_loopback_cont_0" -name IP_COMPONENT_REPORT_HIERARCHY "On"
+set_global_assignment -entity "sdi_xcvr_test_nativePHY_loopback_cont_0" -library "sdi_xcvr_test_nativePHY_loopback_cont_0" -name IP_COMPONENT_INTERNAL "Off"
+set_global_assignment -entity "sdi_xcvr_test_nativePHY_loopback_cont_0" -library "sdi_xcvr_test_nativePHY_loopback_cont_0" -name IP_COMPONENT_AUTHOR "QWx0ZXJhIENvcnBvcmF0aW9u"
+set_global_assignment -entity "sdi_xcvr_test_nativePHY_loopback_cont_0" -library "sdi_xcvr_test_nativePHY_loopback_cont_0" -name IP_COMPONENT_VERSION "MS4w"
+
+
+set_global_assignment -library "nativePHY_loopback_cont_10" -name VERILOG_FILE [file join $::quartus(qip_path) "nativePHY_loopback_cont_10/synth/nativePHY_loopback_cont.v"]
+set_global_assignment -library "sdi_xcvr_test_nativePHY_loopback_cont_0" -name VERILOG_FILE [file join $::quartus(qip_path) "synth/sdi_xcvr_test_nativePHY_loopback_cont_0.v"]
+

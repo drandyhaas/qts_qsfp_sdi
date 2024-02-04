@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deploy
+ date="2023.10.17.11:25:15"
+ outputDirectory="/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/xcvr_test_system/xcvr_test_system_freq_counter_0/">
+ <perimeter>
+  <parameter
+     name="AUTO_GENERATION_ID"
+     type="Integer"
+     defaultValue="0"
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_UNIQUE_ID"
+     type="String"
+     defaultValue=""
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_DEVICE_FAMILY"
+     type="String"
+     defaultValue="Stratix 10"
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_DEVICE"
+     type="String"
+     defaultValue="1SG280HU2F50E2VG"
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_DEVICE_SPEEDGRADE"
+     type="String"
+     defaultValue="1"
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_CLOCK_CLOCK_RATE"
+     type="Long"
+     defaultValue="-1"
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_CLOCK_CLOCK_DOMAIN"
+     type="Integer"
+     defaultValue="-1"
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_CLOCK_RESET_DOMAIN"
+     type="Integer"
+     defaultValue="-1"
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_SAMPLE_CLOCK_CLOCK_RATE"
+     type="Long"
+     defaultValue="-1"
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_SAMPLE_CLOCK_CLOCK_DOMAIN"
+     type="Integer"
+     defaultValue="-1"
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_SAMPLE_CLOCK_RESET_DOMAIN"
+     type="Integer"
+     defaultValue="-1"
+     onHdl="0"
+     affectsHdl="1" />
+  <interface name="reset" kind="reset" start="0">
+   <property name="associatedClock" value="clock" />
+   <property name="synchronousEdges" value="DEASSERT" />
+   <port name="reset_n" direction="input" role="reset_n" width="1" />
+  </interface>
+  <interface name="clock" kind="clock" start="0">
+   <property name="clockRate" value="0" />
+   <property name="externallyDriven" value="false" />
+   <property name="ptfSchematicName" value="" />
+   <port name="clk" direction="input" role="clk" width="1" />
+  </interface>
+  <interface name="csr" kind="avalon" start="0">
+   <property name="addressAlignment" value="DYNAMIC" />
+   <property name="addressGroup" value="0" />
+   <property name="addressSpan" value="64" />
+   <property name="addressUnits" value="WORDS" />
+   <property name="alwaysBurstMaxBurst" value="false" />
+   <property name="associatedClock" value="clock" />
+   <property name="associatedReset" value="reset" />
+   <property name="bitsPerSymbol" value="8" />
+   <property name="bridgedAddressOffset" value="0" />
+   <property name="bridgesToMaster" value="" />
+   <property name="burstOnBurstBoundariesOnly" value="false" />
+   <property name="burstcountUnits" value="WORDS" />
+   <property name="constantBurstBehavior" value="false" />
+   <property name="explicitAddressSpan" value="0" />
+   <property name="holdTime" value="0" />
+   <property name="interleaveBursts" value="false" />
+   <property name="isBigEndian" value="false" />
+   <property name="isFlash" value="false" />
+   <property name="isMemoryDevice" value="false" />
+   <property name="isNonVolatileStorage" value="false" />
+   <property name="linewrapBursts" value="false" />
+   <property name="maximumPendingReadTransactions" value="0" />
+   <property name="maximumPendingWriteTransactions" value="0" />
+   <property name="minimumReadLatency" value="1" />
+   <property name="minimumResponseLatency" value="1" />
+   <property name="minimumUninterruptedRunLength" value="1" />
+   <property name="prSafe" value="false" />
+   <property name="printableDevice" value="false" />
+   <property name="readLatency" value="0" />
+   <property name="readWaitStates" value="1" />
+   <property name="readWaitTime" value="1" />
+   <property name="registerIncomingSignals" value="false" />
+   <property name="registerOutgoingSignals" value="false" />
+   <property name="setupTime" value="0" />
+   <property name="timingUnits" value="Cycles" />
+   <property name="transparentBridge" value="false" />
+   <property name="waitrequestAllowance" value="0" />
+   <property name="wellBehavedWaitrequest" value="false" />
+   <property name="writeLatency" value="0" />
+   <property name="writeWaitStates" value="0" />
+   <property name="writeWaitTime" value="0" />
+   <property name="dfhFeatureGuid" value="0" />
+   <property name="dfhGroupId" value="0" />
+   <property name="dfhParameterId" value="" />
+   <property name="dfhParameterName" value="" />
+   <property name="dfhParameterVersion" value="" />
+   <property name="dfhParameterData" value="" />
+   <property name="dfhParameterDataLength" value="" />
+   <property name="dfhFeatureMajorVersion" value="0" />
+   <property name="dfhFeatureMinorVersion" value="0" />
+   <property name="dfhFeatureId" value="35" />
+   <port name="csr_address" direction="input" role="address" width="4" />
+   <port name="csr_read" direction="input" role="read" width="1" />
+   <port name="csr_readdata" direction="output" role="readdata" width="32" />
+  </interface>
+  <interface name="sample_clock" kind="clock" start="0">
+   <property name="clockRate" value="0" />
+   <property name="externallyDriven" value="false" />
+   <property name="ptfSchematicName" value="" />
+   <port name="sample_clk" direction="input" role="clk" width="1" />
+  </interface>
+ </perimeter>
+ <entity
+   kind="xcvr_test_system_freq_counter_0"
+   version="1.0"
+   name="xcvr_test_system_freq_counter_0">
+  <parameter name="AUTO_CLOCK_CLOCK_RATE" value="-1" />
+  <parameter name="AUTO_CLOCK_CLOCK_DOMAIN" value="-1" />
+  <parameter name="AUTO_CLOCK_RESET_DOMAIN" value="-1" />
+  <parameter name="AUTO_SAMPLE_CLOCK_CLOCK_DOMAIN" value="-1" />
+  <parameter name="AUTO_GENERATION_ID" value="0" />
+  <parameter name="AUTO_DEVICE" value="1SG280HU2F50E2VG" />
+  <parameter name="AUTO_DEVICE_FAMILY" value="Stratix 10" />
+  <parameter name="AUTO_SAMPLE_CLOCK_CLOCK_RATE" value="-1" />
+  <parameter name="AUTO_SAMPLE_CLOCK_RESET_DOMAIN" value="-1" />
+  <parameter name="AUTO_UNIQUE_ID" value="" />
+  <parameter name="AUTO_DEVICE_SPEEDGRADE" value="2" />
+  <generatedFiles>
+   <file
+       path="/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/xcvr_test_system/xcvr_test_system_freq_counter_0/synth/xcvr_test_system_freq_counter_0.v"
+       attributes="CONTAINS_INLINE_CONFIGURATION" />
+  </generatedFiles>
+  <childGeneratedFiles>
+   <file
+       path="/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/xcvr_test_system/xcvr_test_system_freq_counter_0/synth/xcvr_test_system_freq_counter_0.v"
+       attributes="CONTAINS_INLINE_CONFIGURATION" />
+  </childGeneratedFiles>
+  <sourceFiles>
+   <file
+       path="/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/xcvr_test_system/xcvr_test_system_freq_counter_0.ip" />
+  </sourceFiles>
+  <childSourceFiles>
+   <file
+       path="/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/freq_counter/freq_counter_hw.tcl" />
+  </childSourceFiles>
+  <messages>
+   <message level="Info" culprit="xcvr_test_system_freq_counter_0">"Generating: xcvr_test_system_freq_counter_0"</message>
+   <message level="Info" culprit="xcvr_test_system_freq_counter_0">"Generating: freq_counter"</message>
+  </messages>
+ </entity>
+ <entity kind="freq_counter" version="1.0" name="freq_counter">
+  <parameter name="SYSTEM_CLK_FREQ_PICO_SEC" value="20000" />
+  <generatedFiles>
+   <file
+       path="/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/xcvr_test_system/xcvr_test_system_freq_counter_0/freq_counter_10/synth/freq_counter.v"
+       attributes="TOP_LEVEL_FILE" />
+  </generatedFiles>
+  <childGeneratedFiles>
+   <file
+       path="/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/xcvr_test_system/xcvr_test_system_freq_counter_0/freq_counter_10/synth/freq_counter.v"
+       attributes="TOP_LEVEL_FILE" />
+  </childGeneratedFiles>
+  <sourceFiles>
+   <file
+       path="/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/freq_counter/freq_counter_hw.tcl" />
+  </sourceFiles>
+  <childSourceFiles/>
+  <instantiator instantiator="xcvr_test_system_freq_counter_0" as="freq_counter_0" />
+  <messages>
+   <message level="Info" culprit="xcvr_test_system_freq_counter_0">"Generating: freq_counter"</message>
+  </messages>
+ </entity>
+</deploy>

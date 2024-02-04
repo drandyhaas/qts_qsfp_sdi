@@ -1,0 +1,230 @@
+
+State Machine - Summary
+
+State Machine - q_sys_i|qsfp_xcvr_test_4|xcvr_native_s10_0|qsfp_xcvr_test_xcvr_native_s10_htile_1|g_recal[0].alt_xcvr_recal|cntr_state
+Name cntr_state.USER_AVMM cntr_state.WAIT_CAL_UP cntr_state.CNTR_UP cntr_state.WAIT_CAL_DONE 
+cntr_state.WAIT_CAL_DONE 0 0 0 0 
+cntr_state.CNTR_UP 0 0 1 1 
+cntr_state.WAIT_CAL_UP 0 1 0 1 
+cntr_state.USER_AVMM 1 0 0 1 
+
+State Machine - q_sys_i|qsfp_xcvr_test_4|xcvr_native_s10_0|qsfp_xcvr_test_xcvr_native_s10_htile_1|g_recal[0].alt_xcvr_recal|recal_state
+Name recal_state.SEND_ARB recal_state.IDLE3 recal_state.READ_ARB recal_state.IDLE2 recal_state.SEND_REQ recal_state.IDLE1 recal_state.READ_CALCODE recal_state.WAIT_CNTR 
+recal_state.WAIT_CNTR 0 0 0 0 0 0 0 0 
+recal_state.READ_CALCODE 0 0 0 0 0 0 1 1 
+recal_state.IDLE1 0 0 0 0 0 1 0 1 
+recal_state.SEND_REQ 0 0 0 0 1 0 0 1 
+recal_state.IDLE2 0 0 0 1 0 0 0 1 
+recal_state.READ_ARB 0 0 1 0 0 0 0 1 
+recal_state.IDLE3 0 1 0 0 0 0 0 1 
+recal_state.SEND_ARB 1 0 0 0 0 0 0 1 
+
+State Machine - q_sys_i|qsfp_xcvr_test_1|xcvr_native_s10_0|qsfp_xcvr_test_xcvr_native_s10_htile_1|g_recal[0].alt_xcvr_recal|cntr_state
+Name cntr_state.USER_AVMM cntr_state.WAIT_CAL_UP cntr_state.CNTR_UP cntr_state.WAIT_CAL_DONE 
+cntr_state.WAIT_CAL_DONE 0 0 0 0 
+cntr_state.CNTR_UP 0 0 1 1 
+cntr_state.WAIT_CAL_UP 0 1 0 1 
+cntr_state.USER_AVMM 1 0 0 1 
+
+State Machine - q_sys_i|qsfp_xcvr_test_1|xcvr_native_s10_0|qsfp_xcvr_test_xcvr_native_s10_htile_1|g_recal[0].alt_xcvr_recal|recal_state
+Name recal_state.SEND_ARB recal_state.IDLE3 recal_state.READ_ARB recal_state.IDLE2 recal_state.SEND_REQ recal_state.IDLE1 recal_state.READ_CALCODE recal_state.WAIT_CNTR 
+recal_state.WAIT_CNTR 0 0 0 0 0 0 0 0 
+recal_state.READ_CALCODE 0 0 0 0 0 0 1 1 
+recal_state.IDLE1 0 0 0 0 0 1 0 1 
+recal_state.SEND_REQ 0 0 0 0 1 0 0 1 
+recal_state.IDLE2 0 0 0 1 0 0 0 1 
+recal_state.READ_ARB 0 0 1 0 0 0 0 1 
+recal_state.IDLE3 0 1 0 0 0 0 0 1 
+recal_state.SEND_ARB 1 0 0 0 0 0 0 1 
+
+State Machine - q_sys_i|qsfp_xcvr_test_0|xcvr_native_s10_0|qsfp_xcvr_test_xcvr_native_s10_htile_1|g_recal[0].alt_xcvr_recal|recal_state
+Name recal_state.SEND_ARB recal_state.IDLE3 recal_state.READ_ARB recal_state.IDLE2 recal_state.SEND_REQ recal_state.IDLE1 recal_state.READ_CALCODE recal_state.WAIT_CNTR 
+recal_state.WAIT_CNTR 0 0 0 0 0 0 0 0 
+recal_state.READ_CALCODE 0 0 0 0 0 0 1 1 
+recal_state.IDLE1 0 0 0 0 0 1 0 1 
+recal_state.SEND_REQ 0 0 0 0 1 0 0 1 
+recal_state.IDLE2 0 0 0 1 0 0 0 1 
+recal_state.READ_ARB 0 0 1 0 0 0 0 1 
+recal_state.IDLE3 0 1 0 0 0 0 0 1 
+recal_state.SEND_ARB 1 0 0 0 0 0 0 1 
+
+State Machine - q_sys_i|qsfp_xcvr_test_3|xcvr_native_s10_0|qsfp_xcvr_test_xcvr_native_s10_htile_1|g_recal[0].alt_xcvr_recal|recal_state
+Name recal_state.SEND_ARB recal_state.IDLE3 recal_state.READ_ARB recal_state.IDLE2 recal_state.SEND_REQ recal_state.IDLE1 recal_state.READ_CALCODE recal_state.WAIT_CNTR 
+recal_state.WAIT_CNTR 0 0 0 0 0 0 0 0 
+recal_state.READ_CALCODE 0 0 0 0 0 0 1 1 
+recal_state.IDLE1 0 0 0 0 0 1 0 1 
+recal_state.SEND_REQ 0 0 0 0 1 0 0 1 
+recal_state.IDLE2 0 0 0 1 0 0 0 1 
+recal_state.READ_ARB 0 0 1 0 0 0 0 1 
+recal_state.IDLE3 0 1 0 0 0 0 0 1 
+recal_state.SEND_ARB 1 0 0 0 0 0 0 1 
+
+State Machine - q_sys_i|master_0|master_0|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|write_state
+Name write_state.ST_WRITE_DATA write_state.ST_HEADER_2 write_state.ST_HEADER_1 write_state.ST_BYPASS 
+write_state.ST_BYPASS 0 0 0 0 
+write_state.ST_HEADER_1 0 0 1 1 
+write_state.ST_HEADER_2 0 1 0 1 
+write_state.ST_WRITE_DATA 1 0 0 1 
+
+State Machine - q_sys_i|master_0|master_0|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|read_state
+Name read_state.ST_HEADER read_state.ST_READ_DATA read_state.ST_PADDED 
+read_state.ST_HEADER 0 0 0 
+read_state.ST_READ_DATA 1 1 0 
+read_state.ST_PADDED 1 0 1 
+
+State Machine - q_sys_i|qsfp_xcvr_test_3|xcvr_native_s10_0|qsfp_xcvr_test_xcvr_native_s10_htile_1|g_recal[0].alt_xcvr_recal|cntr_state
+Name cntr_state.USER_AVMM cntr_state.WAIT_CAL_UP cntr_state.CNTR_UP cntr_state.WAIT_CAL_DONE 
+cntr_state.WAIT_CAL_DONE 0 0 0 0 
+cntr_state.CNTR_UP 0 0 1 1 
+cntr_state.WAIT_CAL_UP 0 1 0 1 
+cntr_state.USER_AVMM 1 0 0 1 
+
+State Machine - q_sys_i|qsfp_xcvr_test_0|xcvr_native_s10_0|qsfp_xcvr_test_xcvr_native_s10_htile_1|g_recal[0].alt_xcvr_recal|cntr_state
+Name cntr_state.USER_AVMM cntr_state.WAIT_CAL_UP cntr_state.CNTR_UP cntr_state.WAIT_CAL_DONE 
+cntr_state.WAIT_CAL_DONE 0 0 0 0 
+cntr_state.CNTR_UP 0 0 1 1 
+cntr_state.WAIT_CAL_UP 0 1 0 1 
+cntr_state.USER_AVMM 1 0 0 1 
+
+State Machine - q_sys_i|master_0|master_0|transacto|p2m|state
+Name state.READ_SEND_WAIT state.READ_DATA_WAIT state.READ_SEND_ISSUE state.READ_CMD_WAIT state.WRITE_WAIT state.RETURN_PACKET state.READ_ASSERT state.GET_WRITE_DATA state.GET_ADDR4 state.GET_ADDR3 state.GET_ADDR2 state.GET_ADDR1 state.GET_SIZE2 state.GET_SIZE1 state.GET_EXTRA state.READY 
+state.READY 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+state.GET_EXTRA 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+state.GET_SIZE1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+state.GET_SIZE2 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+state.GET_ADDR1 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+state.GET_ADDR2 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+state.GET_ADDR3 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+state.GET_ADDR4 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+state.GET_WRITE_DATA 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+state.READ_ASSERT 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+state.RETURN_PACKET 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+state.WRITE_WAIT 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+state.READ_CMD_WAIT 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+state.READ_SEND_ISSUE 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+state.READ_DATA_WAIT 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+state.READ_SEND_WAIT 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - q_sys_i|sdi_xcvr_test_1|xcvr_test_system_0|data_pattern_generator_0|data_pattern_generator_0|data_pattern_generator|state
+Name state.ST_CUSTOM state.ST_LOW_FREQ state.ST_HIGH_FREQ state.ST_PRBS state.ST_PREAMBLE state.ST_IDLE 
+state.ST_IDLE 0 0 0 0 0 0 
+state.ST_PREAMBLE 0 0 0 0 1 1 
+state.ST_PRBS 0 0 0 1 0 1 
+state.ST_HIGH_FREQ 0 0 1 0 0 1 
+state.ST_LOW_FREQ 0 1 0 0 0 1 
+state.ST_CUSTOM 1 0 0 0 0 1 
+
+State Machine - q_sys_i|qsfp_xcvr_test_4|xcvr_test_system_0|data_pattern_generator_0|data_pattern_generator_0|data_pattern_generator|state
+Name state.ST_CUSTOM state.ST_LOW_FREQ state.ST_HIGH_FREQ state.ST_PRBS state.ST_PREAMBLE state.ST_IDLE 
+state.ST_IDLE 0 0 0 0 0 0 
+state.ST_PREAMBLE 0 0 0 0 1 1 
+state.ST_PRBS 0 0 0 1 0 1 
+state.ST_HIGH_FREQ 0 0 1 0 0 1 
+state.ST_LOW_FREQ 0 1 0 0 0 1 
+state.ST_CUSTOM 1 0 0 0 0 1 
+
+State Machine - q_sys_i|sdi_xcvr_test_0|xcvr_test_system_0|data_pattern_generator_0|data_pattern_generator_0|data_pattern_generator|state
+Name state.ST_CUSTOM state.ST_LOW_FREQ state.ST_HIGH_FREQ state.ST_PRBS state.ST_PREAMBLE state.ST_IDLE 
+state.ST_IDLE 0 0 0 0 0 0 
+state.ST_PREAMBLE 0 0 0 0 1 1 
+state.ST_PRBS 0 0 0 1 0 1 
+state.ST_HIGH_FREQ 0 0 1 0 0 1 
+state.ST_LOW_FREQ 0 1 0 0 0 1 
+state.ST_CUSTOM 1 0 0 0 0 1 
+
+State Machine - q_sys_i|qsfp_xcvr_test_0|xcvr_test_system_0|data_pattern_generator_0|data_pattern_generator_0|data_pattern_generator|state
+Name state.ST_CUSTOM state.ST_LOW_FREQ state.ST_HIGH_FREQ state.ST_PRBS state.ST_PREAMBLE state.ST_IDLE 
+state.ST_IDLE 0 0 0 0 0 0 
+state.ST_PREAMBLE 0 0 0 0 1 1 
+state.ST_PRBS 0 0 0 1 0 1 
+state.ST_HIGH_FREQ 0 0 1 0 0 1 
+state.ST_LOW_FREQ 0 1 0 0 0 1 
+state.ST_CUSTOM 1 0 0 0 0 1 
+
+State Machine - q_sys_i|qsfp_xcvr_test_1|xcvr_test_system_0|data_pattern_generator_0|data_pattern_generator_0|data_pattern_generator|state
+Name state.ST_CUSTOM state.ST_LOW_FREQ state.ST_HIGH_FREQ state.ST_PRBS state.ST_PREAMBLE state.ST_IDLE 
+state.ST_IDLE 0 0 0 0 0 0 
+state.ST_PREAMBLE 0 0 0 0 1 1 
+state.ST_PRBS 0 0 0 1 0 1 
+state.ST_HIGH_FREQ 0 0 1 0 0 1 
+state.ST_LOW_FREQ 0 1 0 0 0 1 
+state.ST_CUSTOM 1 0 0 0 0 1 
+
+State Machine - q_sys_i|qsfp_xcvr_test_3|xcvr_test_system_0|data_pattern_generator_0|data_pattern_generator_0|data_pattern_generator|state
+Name state.ST_CUSTOM state.ST_LOW_FREQ state.ST_HIGH_FREQ state.ST_PRBS state.ST_PREAMBLE state.ST_IDLE 
+state.ST_IDLE 0 0 0 0 0 0 
+state.ST_PREAMBLE 0 0 0 0 1 1 
+state.ST_PRBS 0 0 0 1 0 1 
+state.ST_HIGH_FREQ 0 0 1 0 0 1 
+state.ST_LOW_FREQ 0 1 0 0 0 1 
+state.ST_CUSTOM 1 0 0 0 0 1 
+
+State Machine - q_sys_i|qsfp_xcvr_test_0|xcvr_test_system_0|data_pattern_checker_0|data_pattern_checker_0|data_pattern_checker|state
+Name state.ST_IDLE state.ST_COUNT state.ST_GET_LOCK 
+state.ST_IDLE 0 0 0 
+state.ST_COUNT 1 1 0 
+state.ST_GET_LOCK 1 0 1 
+
+State Machine - q_sys_i|qsfp_xcvr_test_1|xcvr_test_system_0|data_pattern_checker_0|data_pattern_checker_0|data_pattern_checker|state
+Name state.ST_IDLE state.ST_COUNT state.ST_GET_LOCK 
+state.ST_IDLE 0 0 0 
+state.ST_COUNT 1 1 0 
+state.ST_GET_LOCK 1 0 1 
+
+State Machine - q_sys_i|qsfp_xcvr_test_3|xcvr_test_system_0|data_pattern_checker_0|data_pattern_checker_0|data_pattern_checker|state
+Name state.ST_IDLE state.ST_COUNT state.ST_GET_LOCK 
+state.ST_IDLE 0 0 0 
+state.ST_COUNT 1 1 0 
+state.ST_GET_LOCK 1 0 1 
+
+State Machine - q_sys_i|qsfp_xcvr_test_4|xcvr_test_system_0|data_pattern_checker_0|data_pattern_checker_0|data_pattern_checker|state
+Name state.ST_IDLE state.ST_COUNT state.ST_GET_LOCK 
+state.ST_IDLE 0 0 0 
+state.ST_COUNT 1 1 0 
+state.ST_GET_LOCK 1 0 1 
+
+State Machine - q_sys_i|sdi_xcvr_test_0|xcvr_test_system_0|data_pattern_checker_0|data_pattern_checker_0|data_pattern_checker|state
+Name state.ST_IDLE state.ST_COUNT state.ST_GET_LOCK 
+state.ST_IDLE 0 0 0 
+state.ST_COUNT 1 1 0 
+state.ST_GET_LOCK 1 0 1 
+
+State Machine - q_sys_i|sdi_xcvr_test_1|xcvr_test_system_0|data_pattern_checker_0|data_pattern_checker_0|data_pattern_checker|state
+Name state.ST_IDLE state.ST_COUNT state.ST_GET_LOCK 
+state.ST_IDLE 0 0 0 
+state.ST_COUNT 1 1 0 
+state.ST_GET_LOCK 1 0 1 
+
+State Machine - Summary
+
+State Machine - auto_fab_0|alt_sld_fab_0|alt_sld_fab_0|host_link_jtag|jtag|normal.jtag_dc_streaming|jtag_streaming|read_state
+Name read_state.ST_HEADER read_state.ST_READ_DATA read_state.ST_PADDED 
+read_state.ST_HEADER 0 0 0 
+read_state.ST_READ_DATA 1 1 0 
+read_state.ST_PADDED 1 0 1 
+
+State Machine - auto_fab_0|alt_sld_fab_0|alt_sld_fab_0|host_link_jtag|jtag|normal.jtag_dc_streaming|jtag_streaming|write_state
+Name write_state.ST_WRITE_DATA write_state.ST_HEADER_2 write_state.ST_HEADER_1 write_state.ST_BYPASS 
+write_state.ST_BYPASS 0 0 0 0 
+write_state.ST_HEADER_1 0 0 1 1 
+write_state.ST_HEADER_2 0 1 0 1 
+write_state.ST_WRITE_DATA 1 0 0 1 
+
+State Machine - auto_fab_0|alt_sld_fab_0|alt_sld_fab_0|memfabric|transacto|p2m|state
+Name state.READ_SEND_WAIT state.READ_DATA_WAIT state.READ_SEND_ISSUE state.READ_CMD_WAIT state.WRITE_WAIT state.RETURN_PACKET state.READ_ASSERT state.GET_WRITE_DATA state.GET_ADDR4 state.GET_ADDR3 state.GET_ADDR2 state.GET_ADDR1 state.GET_SIZE2 state.GET_SIZE1 state.GET_EXTRA state.READY 
+state.READY 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+state.GET_EXTRA 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+state.GET_SIZE1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+state.GET_SIZE2 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+state.GET_ADDR1 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+state.GET_ADDR2 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+state.GET_ADDR3 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+state.GET_ADDR4 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+state.GET_WRITE_DATA 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+state.READ_ASSERT 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+state.RETURN_PACKET 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+state.WRITE_WAIT 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+state.READ_CMD_WAIT 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+state.READ_SEND_ISSUE 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+state.READ_DATA_WAIT 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+state.READ_SEND_WAIT 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 

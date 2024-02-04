@@ -1,0 +1,21 @@
+Fitter Status : Successful - Thu Feb  1 05:28:38 2024
+Quartus Prime Version : 23.3.0 Build 104 09/20/2023 SC Pro Edition
+Revision Name : qts_qsfp_sdi
+Top-level Entity Name : qts_qsfp_sdi
+Family : Stratix 10
+Device : 1SG280HU2F50E2VG
+Timing Models : Final
+Power Models : Final
+Device Status : Final
+Logic utilization (in ALMs) : 22,311 / 933,120 ( 2 % )
+Total dedicated logic registers : 35246
+Total pins : 62 / 1,152 ( 5 % )
+Total block memory bits : 966,464 / 240,046,080 ( < 1 % )
+Total RAM Blocks : 72 / 11,721 ( < 1 % )
+Total DSP Blocks : 0 / 5,760 ( 0 % )
+Total DIB Channels : 0 / 75 ( 0 % )
+Total HSSI RX channels : 6 / 96 ( 6 % )
+Total HSSI TX channels : 6 / 96 ( 6 % )
+Total HSSI HPS : 0 / 1 ( 0 % )
+Total HSSI EHIPs : 0 / 4 ( 0 % )
+Total PLLs : 9 / 184 ( 5 % )

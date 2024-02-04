@@ -1,0 +1,147 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 2023  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the Intel FPGA Software License Subscription Agreements 
+on the Quartus Prime software download page.
+*/
+(header "symbol" (version "1.1"))
+(symbol
+	(rect 0 0 368 512)
+	(text "qsfp_xcvr_test_nativePHY_loopback_cont_0" (rect 35 0 220 12)(font "SansSerif" (font_size 11)))
+	(text "inst" (rect 8 496 20 508)(font "Arial" ))
+	(port
+		(pt 0 72)
+		(input)
+		(text "reset_n" (rect 0 0 30 12)(font "SansSerif" (font_size 8)))
+		(text "reset_n" (rect 4 65 46 76)(font "SansSerif" (font_size 8)))
+	)
+	(port
+		(pt 0 120)
+		(input)
+		(text "clk" (rect 0 0 10 12)(font "SansSerif" (font_size 8)))
+		(text "clk" (rect 4 115 22 126)(font "SansSerif" (font_size 8)))
+	)
+	(port
+		(pt 0 176)
+		(input)
+		(text "csr_address[3..0]" (rect 0 0 70 12)(font "SansSerif" (font_size 8)))
+		(text "csr_address[3..0]" (rect 4 165 106 176)(font "SansSerif" (font_size 8)))
+		(line (pt 0 176)(pt 136 176)(line_width 3))
+	)
+	(port
+		(pt 0 200)
+		(input)
+		(text "csr_read" (rect 0 0 36 12)(font "SansSerif" (font_size 8)))
+		(text "csr_read" (rect 4 190 52 201)(font "SansSerif" (font_size 8)))
+	)
+	(port
+		(pt 0 224)
+		(input)
+		(text "csr_write" (rect 0 0 36 12)(font "SansSerif" (font_size 8)))
+		(text "csr_write" (rect 4 215 58 226)(font "SansSerif" (font_size 8)))
+	)
+	(port
+		(pt 0 272)
+		(input)
+		(text "csr_writedata[31..0]" (rect 0 0 76 12)(font "SansSerif" (font_size 8)))
+		(text "csr_writedata[31..0]" (rect 4 265 124 276)(font "SansSerif" (font_size 8)))
+	)
+	(port
+		(pt 0 320)
+		(input)
+		(text "pll_locked" (rect 0 0 37 12)(font "SansSerif" (font_size 8)))
+		(text "pll_locked" (rect 4 315 64 326)(font "SansSerif" (font_size 8)))
+	)
+	(port
+		(pt 0 376)
+		(input)
+		(text "rx_is_lockedtoref" (rect 0 0 69 12)(font "SansSerif" (font_size 8)))
+		(text "rx_is_lockedtoref" (rect 4 365 106 376)(font "SansSerif" (font_size 8)))
+		(line (pt 0 376)(pt 136 376)(line_width 1))
+	)
+	(port
+		(pt 0 248)
+		(output)
+		(text "csr_readdata[31..0]" (rect 0 0 76 12)(font "SansSerif" (font_size 8)))
+		(text "csr_readdata[31..0]" (rect 4 240 118 251)(font "SansSerif" (font_size 8)))
+	)
+	(port
+		(pt 0 424)
+		(output)
+		(text "rx_seriallpbken" (rect 0 0 59 12)(font "SansSerif" (font_size 8)))
+		(text "rx_seriallpbken" (rect 4 415 94 426)(font "SansSerif" (font_size 8)))
+	)
+	(port
+		(pt 0 472)
+		(output)
+		(text "rx_seriallpbken_mon" (rect 0 0 82 12)(font "SansSerif" (font_size 8)))
+		(text "rx_seriallpbken_mon" (rect 4 465 118 476)(font "SansSerif" (font_size 8)))
+	)
+	(drawing
+		(text "reset" (rect 107 46 244 105)(font "SansSerif" (color 128 0 0)(font_size 9)))
+		(text "reset_n" (rect 141 71 324 152)(font "SansSerif" (color 0 0 0)))
+		(text "clock" (rect 108 96 246 205)(font "SansSerif" (color 128 0 0)(font_size 9)))
+		(text "clk" (rect 141 121 300 252)(font "SansSerif" (color 0 0 0)))
+		(text "csr" (rect 119 146 256 305)(font "SansSerif" (color 128 0 0)(font_size 9)))
+		(text "address" (rect 141 171 324 352)(font "SansSerif" (color 0 0 0)))
+		(text "read" (rect 141 196 306 402)(font "SansSerif" (color 0 0 0)))
+		(text "write" (rect 141 221 312 452)(font "SansSerif" (color 0 0 0)))
+		(text "readdata" (rect 141 246 330 502)(font "SansSerif" (color 0 0 0)))
+		(text "writedata" (rect 141 271 336 552)(font "SansSerif" (color 0 0 0)))
+		(text "pll_locked" (rect 79 296 218 605)(font "SansSerif" (color 128 0 0)(font_size 9)))
+		(text "pll_locked" (rect 141 321 342 652)(font "SansSerif" (color 0 0 0)))
+		(text "rx_is_lockedtoref" (rect 35 346 172 705)(font "SansSerif" (color 128 0 0)(font_size 9)))
+		(text "rx_is_lockedtoref" (rect 141 371 384 752)(font "SansSerif" (color 0 0 0)))
+		(text "rx_seriallpbken" (rect 48 396 186 805)(font "SansSerif" (color 128 0 0)(font_size 9)))
+		(text "rx_seriallpbken" (rect 141 421 372 852)(font "SansSerif" (color 0 0 0)))
+		(text "rx_seriallpbken_mon" (rect 15 446 144 905)(font "SansSerif" (color 128 0 0)(font_size 9)))
+		(text "export" (rect 141 471 318 952)(font "SansSerif" (color 0 0 0)))
+		(text " qsfp_xcvr_test_nativePHY_loopback_cont_0 " (rect 174 501 600 1012)(font "SansSerif" ))
+		(line (pt 136 34)(pt 238 34)(line_width 1))
+		(line (pt 238 34)(pt 238 501)(line_width 1))
+		(line (pt 136 501)(pt 238 501)(line_width 1))
+		(line (pt 136 34)(pt 136 501)(line_width 1))
+		(line (pt 0 76)(pt 136 76)(line_width 1))
+		(line (pt 137 55)(pt 137 80)(line_width 1))
+		(line (pt 138 55)(pt 138 80)(line_width 1))
+		(line (pt 0 126)(pt 136 126)(line_width 1))
+		(line (pt 137 105)(pt 137 130)(line_width 1))
+		(line (pt 138 105)(pt 138 130)(line_width 1))
+		(line (pt 0 201)(pt 136 201)(line_width 1))
+		(line (pt 0 226)(pt 136 226)(line_width 1))
+		(line (pt 0 251)(pt 136 251)(line_width 3))
+		(line (pt 0 276)(pt 136 276)(line_width 3))
+		(line (pt 137 155)(pt 137 280)(line_width 1))
+		(line (pt 138 155)(pt 138 280)(line_width 1))
+		(line (pt 0 326)(pt 136 326)(line_width 1))
+		(line (pt 137 305)(pt 137 330)(line_width 1))
+		(line (pt 138 305)(pt 138 330)(line_width 1))
+		(line (pt 137 355)(pt 137 380)(line_width 1))
+		(line (pt 138 355)(pt 138 380)(line_width 1))
+		(line (pt 0 426)(pt 136 426)(line_width 1))
+		(line (pt 137 405)(pt 137 430)(line_width 1))
+		(line (pt 138 405)(pt 138 430)(line_width 1))
+		(line (pt 0 476)(pt 136 476)(line_width 1))
+		(line (pt 137 455)(pt 137 480)(line_width 1))
+		(line (pt 138 455)(pt 138 480)(line_width 1))
+		(line (pt 0 0)(pt 374 0)(line_width 1))
+		(line (pt 374 0)(pt 374 518)(line_width 1))
+		(line (pt 0 518)(pt 374 518)(line_width 1))
+		(line (pt 0 0)(pt 0 518)(line_width 1))
+	)
+)

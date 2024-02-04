@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simPackage>
+ <file
+   path="altera_merlin_master_translator_192/sim/sdi_xcvr_test_altera_merlin_master_translator_192_lykd4la.sv"
+   type="SYSTEM_VERILOG"
+   library="altera_merlin_master_translator_192" />
+ <file
+   path="altera_merlin_slave_translator_191/sim/sdi_xcvr_test_altera_merlin_slave_translator_191_x56fcki.sv"
+   type="SYSTEM_VERILOG"
+   library="altera_merlin_slave_translator_191" />
+ <file
+   path="altera_merlin_master_agent_1921/sim/sdi_xcvr_test_altera_merlin_master_agent_1921_2inlndi.sv"
+   type="SYSTEM_VERILOG"
+   library="altera_merlin_master_agent_1921" />
+ <file
+   path="altera_merlin_slave_agent_1921/sim/sdi_xcvr_test_altera_merlin_slave_agent_1921_b6r3djy.sv"
+   type="SYSTEM_VERILOG"
+   library="altera_merlin_slave_agent_1921" />
+ <file
+   path="altera_merlin_slave_agent_1921/sim/altera_merlin_burst_uncompressor.sv"
+   type="SYSTEM_VERILOG"
+   library="altera_merlin_slave_agent_1921" />
+ <file
+   path="altera_avalon_sc_fifo_1931/sim/sdi_xcvr_test_altera_avalon_sc_fifo_1931_fzgstwy.v"
+   type="VERILOG"
+   library="altera_avalon_sc_fifo_1931" />
+ <file
+   path="altera_merlin_router_1921/sim/sdi_xcvr_test_altera_merlin_router_1921_ylon4vq.sv"
+   type="SYSTEM_VERILOG"
+   library="altera_merlin_router_1921" />
+ <file
+   path="altera_merlin_router_1921/sim/sdi_xcvr_test_altera_merlin_router_1921_cwjx5gy.sv"
+   type="SYSTEM_VERILOG"
+   library="altera_merlin_router_1921" />
+ <file
+   path="altera_merlin_router_1921/sim/sdi_xcvr_test_altera_merlin_router_1921_ya7j6xi.sv"
+   type="SYSTEM_VERILOG"
+   library="altera_merlin_router_1921" />
+ <file
+   path="altera_merlin_router_1921/sim/sdi_xcvr_test_altera_merlin_router_1921_7loa6ei.sv"
+   type="SYSTEM_VERILOG"
+   library="altera_merlin_router_1921" />
+ <file
+   path="altera_merlin_traffic_limiter_191/sim/sdi_xcvr_test_altera_merlin_traffic_limiter_altera_avalon_sc_fifo_191_7trhvuy.v"
+   type="VERILOG"
+   library="altera_merlin_traffic_limiter_191"
+   hasInlineConfiguration="true" />
+ <file
+   path="altera_merlin_traffic_limiter_191/sim/altera_merlin_reorder_memory.sv"
+   type="SYSTEM_VERILOG"
+   library="altera_merlin_traffic_limiter_191" />
+ <file
+   path="altera_merlin_traffic_limiter_191/sim/altera_avalon_st_pipeline_base.v"
+   type="SYSTEM_VERILOG"
+   library="altera_merlin_traffic_limiter_191" />
+ <file
+   path="altera_merlin_traffic_limiter_191/sim/sdi_xcvr_test_altera_merlin_traffic_limiter_191_kcba44q.sv"
+   type="SYSTEM_VERILOG"
+   library="altera_merlin_traffic_limiter_191" />
+ <file
+   path="altera_merlin_demultiplexer_1921/sim/sdi_xcvr_test_altera_merlin_demultiplexer_1921_tpjuufq.sv"
+   type="SYSTEM_VERILOG"
+   library="altera_merlin_demultiplexer_1921" />
+ <file
+   path="altera_merlin_demultiplexer_1921/sim/sdi_xcvr_test_altera_merlin_demultiplexer_1921_hidmfdy.sv"
+   type="SYSTEM_VERILOG"
+   library="altera_merlin_demultiplexer_1921" />
+ <file
+   path="altera_merlin_multiplexer_1922/sim/sdi_xcvr_test_altera_merlin_multiplexer_1922_sx4fypi.sv"
+   type="SYSTEM_VERILOG"
+   library="altera_merlin_multiplexer_1922" />
+ <file
+   path="altera_merlin_multiplexer_1922/sim/altera_merlin_arbitrator.sv"
+   type="SYSTEM_VERILOG"
+   library="altera_merlin_multiplexer_1922" />
+ <file
+   path="altera_merlin_multiplexer_1922/sim/sdi_xcvr_test_altera_merlin_multiplexer_1922_f3ke5za.sv"
+   type="SYSTEM_VERILOG"
+   library="altera_merlin_multiplexer_1922" />
+ <file
+   path="altera_merlin_multiplexer_1922/sim/altera_merlin_arbitrator.sv"
+   type="SYSTEM_VERILOG"
+   library="altera_merlin_multiplexer_1922" />
+ <file
+   path="altera_merlin_demultiplexer_1921/sim/sdi_xcvr_test_altera_merlin_demultiplexer_1921_vsc72dq.sv"
+   type="SYSTEM_VERILOG"
+   library="altera_merlin_demultiplexer_1921" />
+ <file
+   path="altera_merlin_multiplexer_1922/sim/sdi_xcvr_test_altera_merlin_multiplexer_1922_o5h777y.sv"
+   type="SYSTEM_VERILOG"
+   library="altera_merlin_multiplexer_1922" />
+ <file
+   path="altera_merlin_multiplexer_1922/sim/altera_merlin_arbitrator.sv"
+   type="SYSTEM_VERILOG"
+   library="altera_merlin_multiplexer_1922" />
+ <file
+   path="altera_merlin_multiplexer_1922/sim/sdi_xcvr_test_altera_merlin_multiplexer_1922_6c6ivwy.sv"
+   type="SYSTEM_VERILOG"
+   library="altera_merlin_multiplexer_1922" />
+ <file
+   path="altera_merlin_multiplexer_1922/sim/altera_merlin_arbitrator.sv"
+   type="SYSTEM_VERILOG"
+   library="altera_merlin_multiplexer_1922" />
+ <file
+   path="hs_clk_xer_1940/sim/sdi_xcvr_test_hs_clk_xer_1940_gyeivji.v"
+   type="VERILOG"
+   library="hs_clk_xer_1940" />
+ <file
+   path="hs_clk_xer_1940/sim/altera_reset_synchronizer.v"
+   type="SYSTEM_VERILOG"
+   library="hs_clk_xer_1940" />
+ <file
+   path="hs_clk_xer_1940/sim/altera_avalon_st_clock_crosser.v"
+   type="SYSTEM_VERILOG"
+   library="hs_clk_xer_1940" />
+ <file
+   path="hs_clk_xer_1940/sim/altera_avalon_st_pipeline_base.v"
+   type="SYSTEM_VERILOG"
+   library="hs_clk_xer_1940" />
+ <file
+   path="hs_clk_xer_1940/sim/altera_std_synchronizer_nocut.v"
+   type="SYSTEM_VERILOG"
+   library="hs_clk_xer_1940" />
+ <file
+   path="hs_clk_xer_1940/sim/altera_avalon_st_handshake_clock_crosser.sdc"
+   type="SDC_ENTITY"
+   library="hs_clk_xer_1940" />
+ <file
+   path="altera_mm_interconnect_1920/sim/sdi_xcvr_test_altera_mm_interconnect_1920_4ix6v3i.v"
+   type="VERILOG"
+   library="altera_mm_interconnect_1920"
+   hasInlineConfiguration="true" />
+ <file
+   path="altera_reset_controller_1922/sim/altera_reset_controller.v"
+   type="VERILOG"
+   library="altera_reset_controller_1922" />
+ <file
+   path="altera_reset_controller_1922/sim/altera_reset_synchronizer.v"
+   type="VERILOG"
+   library="altera_reset_controller_1922" />
+ <file
+   path="altera_reset_controller_1922/sim/altera_reset_controller.sdc"
+   type="SDC_ENTITY"
+   library="altera_reset_controller_1922" />
+ <file
+   path="sim/sdi_xcvr_test.v"
+   type="VERILOG"
+   library="sdi_xcvr_test"
+   hasInlineConfiguration="true" />
+ <topLevel name="sdi_xcvr_test.sdi_xcvr_test" />
+ <deviceFamily name="stratix10" />
+ <device name="1SG280HU2F50E2VG" />
+</simPackage>

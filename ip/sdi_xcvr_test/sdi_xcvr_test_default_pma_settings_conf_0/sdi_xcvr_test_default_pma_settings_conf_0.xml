@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deploy
+ date="2023.10.17.11:25:13"
+ outputDirectory="/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/sdi_xcvr_test/sdi_xcvr_test_default_pma_settings_conf_0/">
+ <perimeter>
+  <parameter
+     name="AUTO_GENERATION_ID"
+     type="Integer"
+     defaultValue="0"
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_UNIQUE_ID"
+     type="String"
+     defaultValue=""
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_DEVICE_FAMILY"
+     type="String"
+     defaultValue="Stratix 10"
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_DEVICE"
+     type="String"
+     defaultValue="1SG280HU2F50E2VG"
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_DEVICE_SPEEDGRADE"
+     type="String"
+     defaultValue="1"
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_CLOCK_CLOCK_RATE"
+     type="Long"
+     defaultValue="-1"
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_CLOCK_CLOCK_DOMAIN"
+     type="Integer"
+     defaultValue="-1"
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_CLOCK_RESET_DOMAIN"
+     type="Integer"
+     defaultValue="-1"
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_AVALON_MASTER_ADDRESS_MAP"
+     type="AddressMap"
+     defaultValue=""
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_AVALON_MASTER_ADDRESS_WIDTH"
+     type="AddressWidthType"
+     defaultValue="-1"
+     onHdl="0"
+     affectsHdl="1" />
+  <interface name="clock" kind="clock" start="0">
+   <property name="clockRate" value="0" />
+   <property name="externallyDriven" value="false" />
+   <property name="ptfSchematicName" value="" />
+   <port name="clock" direction="input" role="clk" width="1" />
+  </interface>
+  <interface name="reset" kind="reset" start="0">
+   <property name="associatedClock" value="clock" />
+   <property name="synchronousEdges" value="DEASSERT" />
+   <port name="reset_n" direction="input" role="reset_n" width="1" />
+  </interface>
+  <interface name="avalon_master" kind="avalon" start="1">
+   <property name="adaptsTo" value="" />
+   <property name="addressGroup" value="0" />
+   <property name="addressUnits" value="SYMBOLS" />
+   <property name="alwaysBurstMaxBurst" value="false" />
+   <property name="associatedClock" value="clock" />
+   <property name="associatedReset" value="reset" />
+   <property name="bitsPerSymbol" value="8" />
+   <property name="burstOnBurstBoundariesOnly" value="false" />
+   <property name="burstcountUnits" value="WORDS" />
+   <property name="constantBurstBehavior" value="false" />
+   <property name="dBSBigEndian" value="false" />
+   <property name="doStreamReads" value="false" />
+   <property name="doStreamWrites" value="false" />
+   <property name="holdTime" value="0" />
+   <property name="interleaveBursts" value="false" />
+   <property name="isAsynchronous" value="false" />
+   <property name="isBigEndian" value="false" />
+   <property name="isReadable" value="false" />
+   <property name="isWriteable" value="false" />
+   <property name="linewrapBursts" value="false" />
+   <property name="maxAddressWidth" value="32" />
+   <property name="maximumPendingReadTransactions" value="0" />
+   <property name="maximumPendingWriteTransactions" value="0" />
+   <property name="minimumReadLatency" value="1" />
+   <property name="minimumResponseLatency" value="1" />
+   <property name="prSafe" value="false" />
+   <property name="readLatency" value="0" />
+   <property name="readWaitTime" value="1" />
+   <property name="registerIncomingSignals" value="false" />
+   <property name="registerOutgoingSignals" value="false" />
+   <property name="setupTime" value="0" />
+   <property name="timingUnits" value="Cycles" />
+   <property name="waitrequestAllowance" value="0" />
+   <property name="writeWaitTime" value="0" />
+   <port name="master_wen" direction="output" role="write_n" width="1" />
+   <port name="master_oen" direction="output" role="read_n" width="1" />
+   <port name="master_be" direction="output" role="byteenable" width="4" />
+   <port name="master_address" direction="output" role="address" width="32" />
+   <port name="master_wdata" direction="output" role="writedata" width="32" />
+   <port name="master_rdata" direction="input" role="readdata" width="32" />
+   <port
+       name="readdatavalid_in"
+       direction="input"
+       role="readdatavalid"
+       width="1" />
+   <port name="waitrequest_in" direction="input" role="waitrequest" width="1" />
+  </interface>
+  <interface name="avalon_slave" kind="avalon" start="0">
+   <property name="addressAlignment" value="DYNAMIC" />
+   <property name="addressGroup" value="0" />
+   <property name="addressSpan" value="64" />
+   <property name="addressUnits" value="WORDS" />
+   <property name="alwaysBurstMaxBurst" value="false" />
+   <property name="associatedClock" value="clock" />
+   <property name="associatedReset" value="reset" />
+   <property name="bitsPerSymbol" value="8" />
+   <property name="bridgedAddressOffset" value="0" />
+   <property name="bridgesToMaster" value="" />
+   <property name="burstOnBurstBoundariesOnly" value="false" />
+   <property name="burstcountUnits" value="WORDS" />
+   <property name="constantBurstBehavior" value="false" />
+   <property name="explicitAddressSpan" value="0" />
+   <property name="holdTime" value="0" />
+   <property name="interleaveBursts" value="false" />
+   <property name="isBigEndian" value="false" />
+   <property name="isFlash" value="false" />
+   <property name="isMemoryDevice" value="false" />
+   <property name="isNonVolatileStorage" value="false" />
+   <property name="linewrapBursts" value="false" />
+   <property name="maximumPendingReadTransactions" value="0" />
+   <property name="maximumPendingWriteTransactions" value="0" />
+   <property name="minimumReadLatency" value="1" />
+   <property name="minimumResponseLatency" value="1" />
+   <property name="minimumUninterruptedRunLength" value="1" />
+   <property name="prSafe" value="false" />
+   <property name="printableDevice" value="false" />
+   <property name="readLatency" value="0" />
+   <property name="readWaitStates" value="1" />
+   <property name="readWaitTime" value="1" />
+   <property name="registerIncomingSignals" value="false" />
+   <property name="registerOutgoingSignals" value="false" />
+   <property name="setupTime" value="0" />
+   <property name="timingUnits" value="Cycles" />
+   <property name="transparentBridge" value="false" />
+   <property name="waitrequestAllowance" value="0" />
+   <property name="wellBehavedWaitrequest" value="false" />
+   <property name="writeLatency" value="0" />
+   <property name="writeWaitStates" value="0" />
+   <property name="writeWaitTime" value="0" />
+   <property name="dfhFeatureGuid" value="0" />
+   <property name="dfhGroupId" value="0" />
+   <property name="dfhParameterId" value="" />
+   <property name="dfhParameterName" value="" />
+   <property name="dfhParameterVersion" value="" />
+   <property name="dfhParameterData" value="" />
+   <property name="dfhParameterDataLength" value="" />
+   <property name="dfhFeatureMajorVersion" value="0" />
+   <property name="dfhFeatureMinorVersion" value="0" />
+   <property name="dfhFeatureId" value="35" />
+   <port name="slave_read" direction="input" role="read" width="1" />
+   <port name="slave_write" direction="input" role="write" width="1" />
+   <port name="slave_readdata" direction="output" role="readdata" width="32" />
+   <port name="slave_writedata" direction="input" role="writedata" width="32" />
+   <port name="slave_address" direction="input" role="address" width="4" />
+  </interface>
+ </perimeter>
+ <entity
+   kind="sdi_xcvr_test_default_pma_settings_conf_0"
+   version="1.0"
+   name="sdi_xcvr_test_default_pma_settings_conf_0">
+  <parameter name="AUTO_CLOCK_CLOCK_RATE" value="-1" />
+  <parameter name="AUTO_CLOCK_CLOCK_DOMAIN" value="-1" />
+  <parameter name="AUTO_CLOCK_RESET_DOMAIN" value="-1" />
+  <parameter name="AUTO_GENERATION_ID" value="0" />
+  <parameter name="AUTO_DEVICE" value="1SG280HU2F50E2VG" />
+  <parameter name="AUTO_DEVICE_FAMILY" value="Stratix 10" />
+  <parameter name="AUTO_AVALON_MASTER_ADDRESS_WIDTH" value="-1" />
+  <parameter name="AUTO_UNIQUE_ID" value="" />
+  <parameter name="AUTO_AVALON_MASTER_ADDRESS_MAP" value="" />
+  <parameter name="AUTO_DEVICE_SPEEDGRADE" value="2" />
+  <generatedFiles>
+   <file
+       path="/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/sdi_xcvr_test/sdi_xcvr_test_default_pma_settings_conf_0/synth/sdi_xcvr_test_default_pma_settings_conf_0.v"
+       attributes="CONTAINS_INLINE_CONFIGURATION" />
+  </generatedFiles>
+  <childGeneratedFiles>
+   <file
+       path="/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/sdi_xcvr_test/sdi_xcvr_test_default_pma_settings_conf_0/synth/sdi_xcvr_test_default_pma_settings_conf_0.v"
+       attributes="CONTAINS_INLINE_CONFIGURATION" />
+  </childGeneratedFiles>
+  <sourceFiles>
+   <file
+       path="/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/sdi_xcvr_test/sdi_xcvr_test_default_pma_settings_conf_0.ip" />
+  </sourceFiles>
+  <childSourceFiles>
+   <file
+       path="/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/default_pma_settings_conf/default_pma_settings_conf_hw.tcl" />
+  </childSourceFiles>
+  <messages>
+   <message level="Info" culprit="sdi_xcvr_test_default_pma_settings_conf_0">"Generating: sdi_xcvr_test_default_pma_settings_conf_0"</message>
+   <message level="Info" culprit="sdi_xcvr_test_default_pma_settings_conf_0">"Generating: default_pma_settings_conf"</message>
+  </messages>
+ </entity>
+ <entity
+   kind="default_pma_settings_conf"
+   version="1.0"
+   name="default_pma_settings_conf">
+  <parameter name="XCVR_CTLE_1S_ENABLE_ADDR" value="1132" />
+  <parameter name="XCVR_VOD_ADDR" value="1060" />
+  <parameter name="XCVR_POST_2ND_ADDR" value="1048" />
+  <parameter name="XCVR_VGA_ADDR" value="1408" />
+  <parameter name="XCVR_PRE_2ND_ADDR" value="1056" />
+  <parameter name="XCVR_DCGAIN_L8_ADDR" value="1128" />
+  <parameter name="XCVR_PRE_1ST_ADDR" value="1052" />
+  <parameter name="XCVR_CTLE_1S_ADDR" value="1432" />
+  <parameter name="XCVR_DCGAIN_H4_ADDR" value="1136" />
+  <parameter name="XCVR_RECONFIG_BASE_ADDR" value="0" />
+  <parameter name="XCVR_CTLE_4S_ADDR" value="1436" />
+  <parameter name="XCVR_POST_1ST_ADDR" value="1044" />
+  <generatedFiles>
+   <file
+       path="/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/sdi_xcvr_test/sdi_xcvr_test_default_pma_settings_conf_0/default_pma_settings_conf_10/synth/default_pma_settings_conf.v"
+       attributes="" />
+  </generatedFiles>
+  <childGeneratedFiles>
+   <file
+       path="/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/sdi_xcvr_test/sdi_xcvr_test_default_pma_settings_conf_0/default_pma_settings_conf_10/synth/default_pma_settings_conf.v"
+       attributes="" />
+  </childGeneratedFiles>
+  <sourceFiles>
+   <file
+       path="/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/default_pma_settings_conf/default_pma_settings_conf_hw.tcl" />
+  </sourceFiles>
+  <childSourceFiles/>
+  <instantiator
+     instantiator="sdi_xcvr_test_default_pma_settings_conf_0"
+     as="sdi_xcvr_test_default_pma_settings_conf_0" />
+  <messages>
+   <message level="Info" culprit="sdi_xcvr_test_default_pma_settings_conf_0">"Generating: default_pma_settings_conf"</message>
+  </messages>
+ </entity>
+</deploy>

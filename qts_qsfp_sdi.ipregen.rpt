@@ -1,0 +1,1057 @@
+IP Upgrade report for qts_qsfp_sdi
+Tue Oct 17 11:14:10 2023
+Quartus Prime Version 23.3.0 Build 104 09/20/2023 SC Pro Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. IP Upgrade Summary
+  3. Successfully Upgraded IP Components
+  4. IP Upgrade Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2023  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the Intel FPGA Software License Subscription Agreements 
+on the Quartus Prime software download page.
+
+
+
++---------------------------------------------------------------------------+
+; IP Upgrade Summary                                                        ;
++------------------------------+--------------------------------------------+
+; IP Components Upgrade Status ; Passed - Tue Oct 17 11:14:10 2023          ;
+; Quartus Prime Version        ; 23.3.0 Build 104 09/20/2023 SC Pro Edition ;
+; Revision Name                ; qts_qsfp_sdi                               ;
+; Top-level Entity Name        ; qts_qsfp_sdi                               ;
+; Family                       ; Stratix 10                                 ;
++------------------------------+--------------------------------------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Successfully Upgraded IP Components                                                                                                                                                            ;
++--------------------------+---------------------------+---------+-------------------------------------------------+-------------------------------------------------+-----------------+---------+
+; Entity Name              ; Component Name            ; Version ; Original Source File                            ; Generation File Path                            ; New Source File ; Message ;
++--------------------------+---------------------------+---------+-------------------------------------------------+-------------------------------------------------+-----------------+---------+
+; xcvr_test_system_rx_fifo ; fifo                      ; 19.2.0  ; ip/xcvr_test_system/xcvr_test_system_rx_fifo.ip ; ip/xcvr_test_system/xcvr_test_system_rx_fifo.ip ;                 ;         ;
+; xcvr_test_system_tx_fifo ; fifo                      ; 19.2.0  ; ip/xcvr_test_system/xcvr_test_system_tx_fifo.ip ; ip/xcvr_test_system/xcvr_test_system_tx_fifo.ip ;                 ;         ;
+; q_sys_master_0           ; altera_jtag_avalon_master ; 19.1    ; ip/q_sys/q_sys_master_0.ip                      ; ip/q_sys/q_sys_master_0.ip                      ;                 ;         ;
+; qsfp_xcvr_test           ; QsysPrimePro              ; 23.1    ; qsfp_xcvr_test.qsys                             ; qsfp_xcvr_test.qsys                             ;                 ;         ;
+; q_sys                    ; QsysPrimePro              ; 23.1    ; q_sys.qsys                                      ; q_sys.qsys                                      ;                 ;         ;
+; sdi_xcvr_test            ; QsysPrimePro              ; 23.1    ; sdi_xcvr_test.qsys                              ; sdi_xcvr_test.qsys                              ;                 ;         ;
+; xcvr_test_system         ; QsysPrimePro              ; 23.1    ; xcvr_test_system.qsys                           ; xcvr_test_system.qsys                           ;                 ;         ;
++--------------------------+---------------------------+---------+-------------------------------------------------+-------------------------------------------------+-----------------+---------+
+
+
++---------------------+
+; IP Upgrade Messages ;
++---------------------+
+Info (11902): Backing up file "/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/xcvr_test_system/xcvr_test_system_rx_fifo.ip" to "/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/xcvr_test_system/xcvr_test_system_rx_fifo.BAK.ip"
+Info (11902): Backing up file "ip/xcvr_test_system/xcvr_test_system_rx_fifo/synth/xcvr_test_system_rx_fifo.v" to "/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/xcvr_test_system/xcvr_test_system_rx_fifo.BAK.v"
+Info (11902): Backing up file "/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/xcvr_test_system/xcvr_test_system_tx_fifo.ip" to "/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/xcvr_test_system/xcvr_test_system_tx_fifo.BAK.ip"
+Info (11902): Backing up file "ip/xcvr_test_system/xcvr_test_system_tx_fifo/synth/xcvr_test_system_tx_fifo.v" to "/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/xcvr_test_system/xcvr_test_system_tx_fifo.BAK.v"
+Info (11902): Backing up file "/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/q_sys/q_sys_master_0.ip" to "/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/q_sys/q_sys_master_0.BAK.ip"
+Info (11902): Backing up file "ip/q_sys/q_sys_master_0/synth/q_sys_master_0.v" to "/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/q_sys/q_sys_master_0.BAK.v"
+Info (11902): Backing up file "/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/qsfp_xcvr_test.qsys" to "/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/qsfp_xcvr_test.BAK.qsys"
+Info (11902): Backing up file "qsfp_xcvr_test/synth/qsfp_xcvr_test.v" to "/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/qsfp_xcvr_test.BAK.v"
+Info (11902): Backing up file "/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/q_sys.qsys" to "/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/q_sys.BAK.qsys"
+Info (11902): Backing up file "q_sys/synth/q_sys.v" to "/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/q_sys.BAK.v"
+Info (11902): Backing up file "/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/sdi_xcvr_test.qsys" to "/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/sdi_xcvr_test.BAK.qsys"
+Info (11902): Backing up file "sdi_xcvr_test/synth/sdi_xcvr_test.v" to "/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/sdi_xcvr_test.BAK.v"
+Info (11902): Backing up file "/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/xcvr_test_system.qsys" to "/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/xcvr_test_system.BAK.qsys"
+Info (11902): Backing up file "xcvr_test_system/synth/xcvr_test_system.v" to "/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/xcvr_test_system.BAK.v"
+Info (20325): ***************************************************************
+Info (20325): Quartus is a registered trademark of Intel Corporation in the
+Info (20325): US and other countries.  Portions of the Quartus Prime software
+Info (20325): code, and other portions of the code included in this download
+Info (20325): or on this DVD, are licensed to Intel Corporation and are the
+Info (20325): copyrighted property of third parties. For license details,
+Info (20325): refer to the End User License Agreement at
+Info (20325): http://fpgasoftware.intel.com/eula.
+Info (20325): ***************************************************************
+Info (20325): 2023.10.17.11:12:49 Info: Batch generation will generate the listed files in this order: qsfp_xcvr_test.qsys, q_sys.qsys, sdi_xcvr_test.qsys, xcvr_test_system.qsys, /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/xcvr_test_system/xcvr_test_system_rx_fifo.ip, ip/xcvr_test_system/xcvr_test_system_tx_fifo.ip, ip/q_sys/q_sys_master_0.ip
+Info (20325): 2023.10.17.11:12:57 Info: IP upgrade skipped for Platform Designer system qsfp_xcvr_test.qsys
+Info (20325): 2023.10.17.11:12:57 Info: Starting to upgrade the IP cores in the Platform Designer system
+Info (20325): 2023.10.17.11:12:57 Info: Finished upgrading the ip cores
+Info (20325): 2023.10.17.11:13:00 Info: Starting to upgrade the IP cores in the Platform Designer system
+Info (20325): 2023.10.17.11:13:00 Info: Finished upgrading the ip cores
+Info (20325): 2023.10.17.11:13:01 Info: Starting to upgrade the IP cores in the Platform Designer system
+Info (20325): 2023.10.17.11:13:01 Info: Finished upgrading the ip cores
+Info (20325): 2023.10.17.11:13:02 Info: Starting to upgrade the IP cores in the Platform Designer system
+Info (20325): 2023.10.17.11:13:02 Info: Finished upgrading the ip cores
+Info (20325): 2023.10.17.11:13:02 Info: Starting to upgrade the IP cores in the Platform Designer system
+Info (20325): 2023.10.17.11:13:02 Info: Finished upgrading the ip cores
+Info (20325): 2023.10.17.11:13:02 Info: Starting to upgrade the IP cores in the Platform Designer system
+Info (20325): 2023.10.17.11:13:02 Info: Finished upgrading the ip cores
+Info (20325): 2023.10.17.11:13:03 Info: Starting to upgrade the IP cores in the Platform Designer system
+Info (20325): 2023.10.17.11:13:03 Info: Finished upgrading the ip cores
+Info (20325): ***************************************************************
+Info (20325): Quartus is a registered trademark of Intel Corporation in the
+Info (20325): US and other countries.  Portions of the Quartus Prime software
+Info (20325): code, and other portions of the code included in this download
+Info (20325): or on this DVD, are licensed to Intel Corporation and are the
+Info (20325): copyrighted property of third parties. For license details,
+Info (20325): refer to the End User License Agreement at
+Info (20325): http://fpgasoftware.intel.com/eula.
+Info (20325): ***************************************************************
+Info (20325): 2023.10.17.11:13:07 Info: Batch generation will generate the listed files in this order: qsfp_xcvr_test.qsys, q_sys.qsys, sdi_xcvr_test.qsys, xcvr_test_system.qsys, /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/xcvr_test_system/xcvr_test_system_rx_fifo.ip, ip/xcvr_test_system/xcvr_test_system_tx_fifo.ip, ip/q_sys/q_sys_master_0.ip
+Info (20325): 2023.10.17.11:13:23 Info: Parallel IP Generation is enabled.
+Info (20325): 2023.10.17.11:13:23 Info: Platform Designer will attempt to use 6 processors for parallel IP generation based on available number of processors and the total number of IP to be generated.
+Info (20325): 2023.10.17.11:13:23 Info:
+Info (20325): 2023.10.17.11:13:23 Info: Starting: Platform Designer system generation
+Info (20325): 2023.10.17.11:13:40 Info:
+Info (20325): 2023.10.17.11:13:40 Info: Saving generation log to /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/xcvr_test_system/xcvr_test_system_tx_fifo/xcvr_test_system_tx_fifo_generation.rpt
+Info (20325): 2023.10.17.11:13:40 Info: Generated by version: 23.3 build 104
+Info (20325): 2023.10.17.11:13:40 Info: Starting: Create simulation model
+Info (20325): 2023.10.17.11:13:40 Info: qsys-generate /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/xcvr_test_system/xcvr_test_system_tx_fifo.ip --simulation=VERILOG --allow-mixed-language-simulation --output-directory=/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/xcvr_test_system/xcvr_test_system_tx_fifo --family="Stratix 10" --part=1SG280HU2F50E2VG
+Info (20325): 2023.10.17.11:13:40 Info: xcvr_test_system_tx_fifo.rx_fifo_0: Targeting device family: Stratix 10.
+Info (20325): 2023.10.17.11:13:40 Info: xcvr_test_system_tx_fifo.rx_fifo_0: Tab: 'SCFIFO Options' is unavailable while using Dual-Clock FIFO.
+Info (20325): 2023.10.17.11:13:40 Info: xcvr_test_system_tx_fifo.rx_fifo_0: 'Output register option' is unavailable while using Dual-Clock FIFO.
+Info (20325): 2023.10.17.11:13:40 Info: xcvr_test_system_tx_fifo.rx_fifo_0: SDC file will be generated to apply correct constraints. User may experience increase in fitter compilation time
+Info (20325): 2023.10.17.11:13:40 Info: xcvr_test_system_tx_fifo.rx_fifo_0: Embedded set_false_path assignment is disabled.
+Info (20325): 2023.10.17.11:13:40 Info: xcvr_test_system_tx_fifo: "Transforming system: xcvr_test_system_tx_fifo"
+Info (20325): 2023.10.17.11:13:40 Info: xcvr_test_system_tx_fifo: "Naming system components in system: xcvr_test_system_tx_fifo"
+Info (20325): 2023.10.17.11:13:40 Info: xcvr_test_system_tx_fifo: "Processing generation queue"
+Info (20325): 2023.10.17.11:13:40 Info: xcvr_test_system_tx_fifo: "Generating: xcvr_test_system_tx_fifo"
+Info (20325): 2023.10.17.11:13:40 Info: xcvr_test_system_tx_fifo: "Generating: xcvr_test_system_tx_fifo_fifo_1923_bynk7da"
+Info (20325): 2023.10.17.11:13:40 Info: xcvr_test_system_tx_fifo: Done "xcvr_test_system_tx_fifo" with 2 modules, 3 files
+Info (20325): 2023.10.17.11:13:40 Info: Generating the following file(s) for VCSMX simulator in /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/xcvr_test_system/xcvr_test_system_tx_fifo/sim/ directory:
+Info (20325): 2023.10.17.11:13:40 Info: common/vcsmx_files.tcl
+Info (20325): 2023.10.17.11:13:40 Info: Generating the following file(s) for XCELIUM simulator in /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/xcvr_test_system/xcvr_test_system_tx_fifo/sim/ directory:
+Info (20325): 2023.10.17.11:13:40 Info: common/xcelium_files.tcl
+Info (20325): 2023.10.17.11:13:40 Info: Generating the following file(s) for MODELSIM simulator in /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/xcvr_test_system/xcvr_test_system_tx_fifo/sim/ directory:
+Info (20325): 2023.10.17.11:13:40 Info: common/modelsim_files.tcl
+Info (20325): 2023.10.17.11:13:40 Info: Generating the following file(s) for VCS simulator in /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/xcvr_test_system/xcvr_test_system_tx_fifo/sim/ directory:
+Info (20325): 2023.10.17.11:13:40 Info: common/vcs_files.tcl
+Info (20325): 2023.10.17.11:13:40 Info: Generating the following file(s) for RIVIERA simulator in /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/xcvr_test_system/xcvr_test_system_tx_fifo/sim/ directory:
+Info (20325): 2023.10.17.11:13:40 Info: common/riviera_files.tcl
+Info (20325): 2023.10.17.11:13:40 Info: For information on how to simulate your IP, see the explanatory comments in the simulator-specific subdirectories under /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/xcvr_test_system/xcvr_test_system_tx_fifo/sim/.
+Info (20325): 2023.10.17.11:13:40 Info: Regenerate these scripts whenever you make any change to any Quartus-generated IP in your project.
+Info (20325): 2023.10.17.11:13:40 Info: Finished: Create simulation model
+Info (20325): 2023.10.17.11:13:40 Info: Starting: Create simulation script
+Info (20325): 2023.10.17.11:13:40 Info: sim-script-gen --system-file=/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/xcvr_test_system/xcvr_test_system_tx_fifo.ip --output-directory=/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/xcvr_test_system/xcvr_test_system_tx_fifo/sim/ --use-relative-paths=true
+Info (20325): 2023.10.17.11:13:40 Info: Generating the following file(s) for VCSMX simulator in /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/xcvr_test_system/xcvr_test_system_tx_fifo/sim/ directory:
+Info (20325): 2023.10.17.11:13:40 Info: synopsys/vcsmx/synopsys_sim.setup
+Info (20325): 2023.10.17.11:13:40 Info: synopsys/vcsmx/vcsmx_setup.sh
+Info (20325): 2023.10.17.11:13:40 Info: Generating the following file(s) for XCELIUM simulator in /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/xcvr_test_system/xcvr_test_system_tx_fifo/sim/ directory:
+Info (20325): 2023.10.17.11:13:40 Info: xcelium/cds.lib
+Info (20325): 2023.10.17.11:13:40 Info: xcelium/hdl.var
+Info (20325): 2023.10.17.11:13:40 Info: xcelium/xcelium_setup.sh
+Info (20325): 2023.10.17.11:13:40 Info: 2 .cds.lib files in xcelium/cds_libs/ directory
+Info (20325): 2023.10.17.11:13:40 Info: Generating the following file(s) for MODELSIM simulator in /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/xcvr_test_system/xcvr_test_system_tx_fifo/sim/ directory:
+Info (20325): 2023.10.17.11:13:40 Info: mentor/msim_setup.tcl
+Info (20325): 2023.10.17.11:13:40 Info: Generating the following file(s) for VCS simulator in /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/xcvr_test_system/xcvr_test_system_tx_fifo/sim/ directory:
+Info (20325): 2023.10.17.11:13:40 Info: synopsys/vcs/vcs_setup.sh
+Info (20325): 2023.10.17.11:13:40 Info: Generating the following file(s) for RIVIERA simulator in /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/xcvr_test_system/xcvr_test_system_tx_fifo/sim/ directory:
+Info (20325): 2023.10.17.11:13:40 Info: aldec/rivierapro_setup.tcl
+Info (20325): 2023.10.17.11:13:40 Info: For information on how to simulate your IP, see the explanatory comments in the simulator-specific subdirectories under /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/xcvr_test_system/xcvr_test_system_tx_fifo/sim/.
+Info (20325): 2023.10.17.11:13:40 Info: Regenerate these scripts whenever you make any change to any Quartus-generated IP in your project.
+Info (20325): 2023.10.17.11:13:40 Info: Finished: Create simulation script
+Info (20325): 2023.10.17.11:13:40 Info: Starting: Create block symbol file (.bsf)
+Info (20325): 2023.10.17.11:13:40 Info: qsys-generate /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/xcvr_test_system/xcvr_test_system_tx_fifo.ip --block-symbol-file --output-directory=/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/xcvr_test_system/xcvr_test_system_tx_fifo --family="Stratix 10" --part=1SG280HU2F50E2VG
+Info (20325): 2023.10.17.11:13:40 Info: xcvr_test_system_tx_fifo.rx_fifo_0: Targeting device family: Stratix 10.
+Info (20325): 2023.10.17.11:13:40 Info: xcvr_test_system_tx_fifo.rx_fifo_0: Tab: 'SCFIFO Options' is unavailable while using Dual-Clock FIFO.
+Info (20325): 2023.10.17.11:13:40 Info: xcvr_test_system_tx_fifo.rx_fifo_0: 'Output register option' is unavailable while using Dual-Clock FIFO.
+Info (20325): 2023.10.17.11:13:40 Info: xcvr_test_system_tx_fifo.rx_fifo_0: SDC file will be generated to apply correct constraints. User may experience increase in fitter compilation time
+Info (20325): 2023.10.17.11:13:40 Info: xcvr_test_system_tx_fifo.rx_fifo_0: Embedded set_false_path assignment is disabled.
+Info (20325): 2023.10.17.11:13:40 Info: Finished: Create block symbol file (.bsf)
+Info (20325): 2023.10.17.11:13:40 Info:
+Info (20325): 2023.10.17.11:13:40 Info: Starting: Create HDL design files for synthesis
+Info (20325): 2023.10.17.11:13:40 Info: qsys-generate /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/xcvr_test_system/xcvr_test_system_tx_fifo.ip --synthesis=VERILOG --output-directory=/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/xcvr_test_system/xcvr_test_system_tx_fifo --family="Stratix 10" --part=1SG280HU2F50E2VG
+Info (20325): 2023.10.17.11:13:40 Info: xcvr_test_system_tx_fifo.rx_fifo_0: Targeting device family: Stratix 10.
+Info (20325): 2023.10.17.11:13:40 Info: xcvr_test_system_tx_fifo.rx_fifo_0: Tab: 'SCFIFO Options' is unavailable while using Dual-Clock FIFO.
+Info (20325): 2023.10.17.11:13:40 Info: xcvr_test_system_tx_fifo.rx_fifo_0: 'Output register option' is unavailable while using Dual-Clock FIFO.
+Info (20325): 2023.10.17.11:13:40 Info: xcvr_test_system_tx_fifo.rx_fifo_0: SDC file will be generated to apply correct constraints. User may experience increase in fitter compilation time
+Info (20325): 2023.10.17.11:13:40 Info: xcvr_test_system_tx_fifo.rx_fifo_0: Embedded set_false_path assignment is disabled.
+Info (20325): 2023.10.17.11:13:40 Info: xcvr_test_system_tx_fifo: "Transforming system: xcvr_test_system_tx_fifo"
+Info (20325): 2023.10.17.11:13:40 Info: xcvr_test_system_tx_fifo: "Naming system components in system: xcvr_test_system_tx_fifo"
+Info (20325): 2023.10.17.11:13:40 Info: xcvr_test_system_tx_fifo: "Processing generation queue"
+Info (20325): 2023.10.17.11:13:40 Info: xcvr_test_system_tx_fifo: "Generating: xcvr_test_system_tx_fifo"
+Info (20325): 2023.10.17.11:13:40 Info: xcvr_test_system_tx_fifo: "Generating: xcvr_test_system_tx_fifo_fifo_1923_bynk7da"
+Info (20325): 2023.10.17.11:13:40 Info: xcvr_test_system_tx_fifo: Done "xcvr_test_system_tx_fifo" with 2 modules, 3 files
+Info (20325): 2023.10.17.11:13:40 Info: Finished: Create HDL design files for synthesis
+Info (20325): 2023.10.17.11:13:40 Info: Generation of /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/xcvr_test_system/xcvr_test_system_tx_fifo.ip (xcvr_test_system_tx_fifo) took 5372 ms
+Info (20325): 2023.10.17.11:13:40 Info:
+Info (20325): 2023.10.17.11:13:40 Info: Saving generation log to /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/xcvr_test_system/xcvr_test_system_rx_fifo/xcvr_test_system_rx_fifo_generation.rpt
+Info (20325): 2023.10.17.11:13:40 Info: Generated by version: 23.3 build 104
+Info (20325): 2023.10.17.11:13:40 Info: Starting: Create simulation model
+Info (20325): 2023.10.17.11:13:40 Info: qsys-generate /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/xcvr_test_system/xcvr_test_system_rx_fifo.ip --simulation=VERILOG --allow-mixed-language-simulation --output-directory=/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/xcvr_test_system/xcvr_test_system_rx_fifo --family="Stratix 10" --part=1SG280HU2F50E2VG
+Info (20325): 2023.10.17.11:13:40 Info: xcvr_test_system_rx_fifo.xcvr_test_system_fifo_1: Targeting device family: Stratix 10.
+Info (20325): 2023.10.17.11:13:40 Info: xcvr_test_system_rx_fifo.xcvr_test_system_fifo_1: Tab: 'SCFIFO Options' is unavailable while using Dual-Clock FIFO.
+Info (20325): 2023.10.17.11:13:40 Info: xcvr_test_system_rx_fifo.xcvr_test_system_fifo_1: 'Output register option' is unavailable while using Dual-Clock FIFO.
+Info (20325): 2023.10.17.11:13:40 Info: xcvr_test_system_rx_fifo.xcvr_test_system_fifo_1: SDC file will be generated to apply correct constraints. User may experience increase in fitter compilation time
+Info (20325): 2023.10.17.11:13:40 Info: xcvr_test_system_rx_fifo.xcvr_test_system_fifo_1: Embedded set_false_path assignment is disabled.
+Info (20325): 2023.10.17.11:13:40 Info: xcvr_test_system_rx_fifo: "Transforming system: xcvr_test_system_rx_fifo"
+Info (20325): 2023.10.17.11:13:40 Info: xcvr_test_system_rx_fifo: "Naming system components in system: xcvr_test_system_rx_fifo"
+Info (20325): 2023.10.17.11:13:40 Info: xcvr_test_system_rx_fifo: "Processing generation queue"
+Info (20325): 2023.10.17.11:13:40 Info: xcvr_test_system_rx_fifo: "Generating: xcvr_test_system_rx_fifo"
+Info (20325): 2023.10.17.11:13:40 Info: xcvr_test_system_rx_fifo: "Generating: xcvr_test_system_rx_fifo_fifo_1923_lpyfjcq"
+Info (20325): 2023.10.17.11:13:40 Info: xcvr_test_system_rx_fifo: Done "xcvr_test_system_rx_fifo" with 2 modules, 3 files
+Info (20325): 2023.10.17.11:13:40 Info: Generating the following file(s) for VCSMX simulator in /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/xcvr_test_system/xcvr_test_system_rx_fifo/sim/ directory:
+Info (20325): 2023.10.17.11:13:40 Info: common/vcsmx_files.tcl
+Info (20325): 2023.10.17.11:13:40 Info: Generating the following file(s) for XCELIUM simulator in /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/xcvr_test_system/xcvr_test_system_rx_fifo/sim/ directory:
+Info (20325): 2023.10.17.11:13:40 Info: common/xcelium_files.tcl
+Info (20325): 2023.10.17.11:13:40 Info: Generating the following file(s) for MODELSIM simulator in /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/xcvr_test_system/xcvr_test_system_rx_fifo/sim/ directory:
+Info (20325): 2023.10.17.11:13:40 Info: common/modelsim_files.tcl
+Info (20325): 2023.10.17.11:13:40 Info: Generating the following file(s) for VCS simulator in /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/xcvr_test_system/xcvr_test_system_rx_fifo/sim/ directory:
+Info (20325): 2023.10.17.11:13:40 Info: common/vcs_files.tcl
+Info (20325): 2023.10.17.11:13:40 Info: Generating the following file(s) for RIVIERA simulator in /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/xcvr_test_system/xcvr_test_system_rx_fifo/sim/ directory:
+Info (20325): 2023.10.17.11:13:40 Info: common/riviera_files.tcl
+Info (20325): 2023.10.17.11:13:40 Info: For information on how to simulate your IP, see the explanatory comments in the simulator-specific subdirectories under /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/xcvr_test_system/xcvr_test_system_rx_fifo/sim/.
+Info (20325): 2023.10.17.11:13:40 Info: Regenerate these scripts whenever you make any change to any Quartus-generated IP in your project.
+Info (20325): 2023.10.17.11:13:40 Info: Finished: Create simulation model
+Info (20325): 2023.10.17.11:13:40 Info: Starting: Create simulation script
+Info (20325): 2023.10.17.11:13:40 Info: sim-script-gen --system-file=/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/xcvr_test_system/xcvr_test_system_rx_fifo.ip --output-directory=/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/xcvr_test_system/xcvr_test_system_rx_fifo/sim/ --use-relative-paths=true
+Info (20325): 2023.10.17.11:13:40 Info: Generating the following file(s) for VCSMX simulator in /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/xcvr_test_system/xcvr_test_system_rx_fifo/sim/ directory:
+Info (20325): 2023.10.17.11:13:40 Info: synopsys/vcsmx/synopsys_sim.setup
+Info (20325): 2023.10.17.11:13:40 Info: synopsys/vcsmx/vcsmx_setup.sh
+Info (20325): 2023.10.17.11:13:40 Info: Generating the following file(s) for XCELIUM simulator in /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/xcvr_test_system/xcvr_test_system_rx_fifo/sim/ directory:
+Info (20325): 2023.10.17.11:13:40 Info: xcelium/cds.lib
+Info (20325): 2023.10.17.11:13:40 Info: xcelium/hdl.var
+Info (20325): 2023.10.17.11:13:40 Info: xcelium/xcelium_setup.sh
+Info (20325): 2023.10.17.11:13:40 Info: 2 .cds.lib files in xcelium/cds_libs/ directory
+Info (20325): 2023.10.17.11:13:40 Info: Generating the following file(s) for MODELSIM simulator in /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/xcvr_test_system/xcvr_test_system_rx_fifo/sim/ directory:
+Info (20325): 2023.10.17.11:13:40 Info: mentor/msim_setup.tcl
+Info (20325): 2023.10.17.11:13:40 Info: Generating the following file(s) for VCS simulator in /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/xcvr_test_system/xcvr_test_system_rx_fifo/sim/ directory:
+Info (20325): 2023.10.17.11:13:40 Info: synopsys/vcs/vcs_setup.sh
+Info (20325): 2023.10.17.11:13:40 Info: Generating the following file(s) for RIVIERA simulator in /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/xcvr_test_system/xcvr_test_system_rx_fifo/sim/ directory:
+Info (20325): 2023.10.17.11:13:40 Info: aldec/rivierapro_setup.tcl
+Info (20325): 2023.10.17.11:13:40 Info: For information on how to simulate your IP, see the explanatory comments in the simulator-specific subdirectories under /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/xcvr_test_system/xcvr_test_system_rx_fifo/sim/.
+Info (20325): 2023.10.17.11:13:40 Info: Regenerate these scripts whenever you make any change to any Quartus-generated IP in your project.
+Info (20325): 2023.10.17.11:13:40 Info: Finished: Create simulation script
+Info (20325): 2023.10.17.11:13:40 Info: Starting: Create block symbol file (.bsf)
+Info (20325): 2023.10.17.11:13:40 Info: qsys-generate /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/xcvr_test_system/xcvr_test_system_rx_fifo.ip --block-symbol-file --output-directory=/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/xcvr_test_system/xcvr_test_system_rx_fifo --family="Stratix 10" --part=1SG280HU2F50E2VG
+Info (20325): 2023.10.17.11:13:40 Info: xcvr_test_system_rx_fifo.xcvr_test_system_fifo_1: Targeting device family: Stratix 10.
+Info (20325): 2023.10.17.11:13:40 Info: xcvr_test_system_rx_fifo.xcvr_test_system_fifo_1: Tab: 'SCFIFO Options' is unavailable while using Dual-Clock FIFO.
+Info (20325): 2023.10.17.11:13:40 Info: xcvr_test_system_rx_fifo.xcvr_test_system_fifo_1: 'Output register option' is unavailable while using Dual-Clock FIFO.
+Info (20325): 2023.10.17.11:13:40 Info: xcvr_test_system_rx_fifo.xcvr_test_system_fifo_1: SDC file will be generated to apply correct constraints. User may experience increase in fitter compilation time
+Info (20325): 2023.10.17.11:13:40 Info: xcvr_test_system_rx_fifo.xcvr_test_system_fifo_1: Embedded set_false_path assignment is disabled.
+Info (20325): 2023.10.17.11:13:40 Info: Finished: Create block symbol file (.bsf)
+Info (20325): 2023.10.17.11:13:40 Info:
+Info (20325): 2023.10.17.11:13:40 Info: Starting: Create HDL design files for synthesis
+Info (20325): 2023.10.17.11:13:40 Info: qsys-generate /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/xcvr_test_system/xcvr_test_system_rx_fifo.ip --synthesis=VERILOG --output-directory=/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/xcvr_test_system/xcvr_test_system_rx_fifo --family="Stratix 10" --part=1SG280HU2F50E2VG
+Info (20325): 2023.10.17.11:13:40 Info: xcvr_test_system_rx_fifo.xcvr_test_system_fifo_1: Targeting device family: Stratix 10.
+Info (20325): 2023.10.17.11:13:40 Info: xcvr_test_system_rx_fifo.xcvr_test_system_fifo_1: Tab: 'SCFIFO Options' is unavailable while using Dual-Clock FIFO.
+Info (20325): 2023.10.17.11:13:40 Info: xcvr_test_system_rx_fifo.xcvr_test_system_fifo_1: 'Output register option' is unavailable while using Dual-Clock FIFO.
+Info (20325): 2023.10.17.11:13:40 Info: xcvr_test_system_rx_fifo.xcvr_test_system_fifo_1: SDC file will be generated to apply correct constraints. User may experience increase in fitter compilation time
+Info (20325): 2023.10.17.11:13:40 Info: xcvr_test_system_rx_fifo.xcvr_test_system_fifo_1: Embedded set_false_path assignment is disabled.
+Info (20325): 2023.10.17.11:13:40 Info: xcvr_test_system_rx_fifo: "Transforming system: xcvr_test_system_rx_fifo"
+Info (20325): 2023.10.17.11:13:40 Info: xcvr_test_system_rx_fifo: "Naming system components in system: xcvr_test_system_rx_fifo"
+Info (20325): 2023.10.17.11:13:40 Info: xcvr_test_system_rx_fifo: "Processing generation queue"
+Info (20325): 2023.10.17.11:13:40 Info: xcvr_test_system_rx_fifo: "Generating: xcvr_test_system_rx_fifo"
+Info (20325): 2023.10.17.11:13:40 Info: xcvr_test_system_rx_fifo: "Generating: xcvr_test_system_rx_fifo_fifo_1923_lpyfjcq"
+Info (20325): 2023.10.17.11:13:40 Info: xcvr_test_system_rx_fifo: Done "xcvr_test_system_rx_fifo" with 2 modules, 3 files
+Info (20325): 2023.10.17.11:13:40 Info: Finished: Create HDL design files for synthesis
+Info (20325): 2023.10.17.11:13:40 Info: Generation of /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/xcvr_test_system/xcvr_test_system_rx_fifo.ip (xcvr_test_system_rx_fifo) took 5504 ms
+Info (20325): 2023.10.17.11:13:41 Info:
+Info (20325): 2023.10.17.11:13:41 Info: Saving generation log to /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/q_sys/q_sys_master_0/q_sys_master_0_generation.rpt
+Info (20325): 2023.10.17.11:13:41 Info: Generated by version: 23.3 build 104
+Info (20325): 2023.10.17.11:13:41 Info: Starting: Create simulation model
+Info (20325): 2023.10.17.11:13:41 Info: qsys-generate /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/q_sys/q_sys_master_0.ip --simulation=VERILOG --allow-mixed-language-simulation --output-directory=/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/q_sys/q_sys_master_0 --family="Stratix 10" --part=1SG280HU2F50E2VG
+Info (20325): 2023.10.17.11:13:41 Info: q_sys_master_0: "Transforming system: q_sys_master_0"
+Info (20325): 2023.10.17.11:13:41 Info: q_sys_master_0: "Naming system components in system: q_sys_master_0"
+Info (20325): 2023.10.17.11:13:41 Info: q_sys_master_0: "Processing generation queue"
+Info (20325): 2023.10.17.11:13:41 Info: q_sys_master_0: "Generating: q_sys_master_0"
+Info (20325): 2023.10.17.11:13:41 Info: q_sys_master_0: "Generating: q_sys_master_0_altera_jtag_avalon_master_191_3zppvky"
+Info (20325): 2023.10.17.11:13:41 Info: q_sys_master_0: "Generating: altera_avalon_st_jtag_interface"
+Info (20325): 2023.10.17.11:13:41 Info: q_sys_master_0: "Generating: q_sys_master_0_timing_adapter_1940_5ju4ddy"
+Info (20325): 2023.10.17.11:13:41 Info: q_sys_master_0: "Generating: q_sys_master_0_altera_avalon_sc_fifo_1931_fzgstwy"
+Info (20325): 2023.10.17.11:13:41 Info: q_sys_master_0: "Generating: altera_avalon_st_bytes_to_packets"
+Info (20325): 2023.10.17.11:13:41 Info: q_sys_master_0: "Generating: altera_avalon_st_packets_to_bytes"
+Info (20325): 2023.10.17.11:13:41 Info: q_sys_master_0: "Generating: altera_avalon_packets_to_master"
+Info (20325): 2023.10.17.11:13:41 Info: q_sys_master_0: "Generating: q_sys_master_0_channel_adapter_1921_5wnzrci"
+Info (20325): 2023.10.17.11:13:41 Info: q_sys_master_0: "Generating: q_sys_master_0_channel_adapter_1921_fkajlia"
+Info (20325): 2023.10.17.11:13:41 Info: q_sys_master_0: "Generating: altera_reset_controller"
+Info (20325): 2023.10.17.11:13:41 Info: q_sys_master_0: Done "q_sys_master_0" with 11 modules, 24 files
+Info (20325): 2023.10.17.11:13:41 Info: Generating the following file(s) for XCELIUM simulator in /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/q_sys/q_sys_master_0/sim/ directory:
+Info (20325): 2023.10.17.11:13:41 Info: common/xcelium_files.tcl
+Info (20325): 2023.10.17.11:13:41 Info: Generating the following file(s) for MODELSIM simulator in /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/q_sys/q_sys_master_0/sim/ directory:
+Info (20325): 2023.10.17.11:13:41 Info: common/modelsim_files.tcl
+Info (20325): 2023.10.17.11:13:41 Info: Generating the following file(s) for VCS simulator in /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/q_sys/q_sys_master_0/sim/ directory:
+Info (20325): 2023.10.17.11:13:41 Info: common/vcs_files.tcl
+Info (20325): 2023.10.17.11:13:41 Info: Generating the following file(s) for RIVIERA simulator in /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/q_sys/q_sys_master_0/sim/ directory:
+Info (20325): 2023.10.17.11:13:41 Info: common/riviera_files.tcl
+Info (20325): 2023.10.17.11:13:41 Info: Generating the following file(s) for VCSMX simulator in /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/q_sys/q_sys_master_0/sim/ directory:
+Info (20325): 2023.10.17.11:13:41 Info: common/vcsmx_files.tcl
+Info (20325): 2023.10.17.11:13:41 Info: For information on how to simulate your IP, see the explanatory comments in the simulator-specific subdirectories under /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/q_sys/q_sys_master_0/sim/.
+Info (20325): 2023.10.17.11:13:41 Info: Regenerate these scripts whenever you make any change to any Quartus-generated IP in your project.
+Info (20325): 2023.10.17.11:13:41 Info: Finished: Create simulation model
+Info (20325): 2023.10.17.11:13:41 Info: Starting: Create simulation script
+Info (20325): 2023.10.17.11:13:41 Info: sim-script-gen --system-file=/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/q_sys/q_sys_master_0.ip --output-directory=/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/q_sys/q_sys_master_0/sim/ --use-relative-paths=true
+Info (20325): 2023.10.17.11:13:41 Info: Generating the following file(s) for XCELIUM simulator in /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/q_sys/q_sys_master_0/sim/ directory:
+Info (20325): 2023.10.17.11:13:41 Info: xcelium/cds.lib
+Info (20325): 2023.10.17.11:13:41 Info: xcelium/hdl.var
+Info (20325): 2023.10.17.11:13:41 Info: xcelium/xcelium_setup.sh
+Info (20325): 2023.10.17.11:13:41 Info: 10 .cds.lib files in xcelium/cds_libs/ directory
+Info (20325): 2023.10.17.11:13:41 Info: Generating the following file(s) for MODELSIM simulator in /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/q_sys/q_sys_master_0/sim/ directory:
+Info (20325): 2023.10.17.11:13:41 Info: mentor/msim_setup.tcl
+Info (20325): 2023.10.17.11:13:41 Info: Generating the following file(s) for VCS simulator in /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/q_sys/q_sys_master_0/sim/ directory:
+Info (20325): 2023.10.17.11:13:41 Info: synopsys/vcs/vcs_setup.sh
+Info (20325): 2023.10.17.11:13:41 Info: Generating the following file(s) for RIVIERA simulator in /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/q_sys/q_sys_master_0/sim/ directory:
+Info (20325): 2023.10.17.11:13:41 Info: aldec/rivierapro_setup.tcl
+Info (20325): 2023.10.17.11:13:41 Info: Generating the following file(s) for VCSMX simulator in /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/q_sys/q_sys_master_0/sim/ directory:
+Info (20325): 2023.10.17.11:13:41 Info: synopsys/vcsmx/synopsys_sim.setup
+Info (20325): 2023.10.17.11:13:41 Info: synopsys/vcsmx/vcsmx_setup.sh
+Info (20325): 2023.10.17.11:13:41 Info: For information on how to simulate your IP, see the explanatory comments in the simulator-specific subdirectories under /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/q_sys/q_sys_master_0/sim/.
+Info (20325): 2023.10.17.11:13:41 Info: Regenerate these scripts whenever you make any change to any Quartus-generated IP in your project.
+Info (20325): 2023.10.17.11:13:41 Info: Finished: Create simulation script
+Info (20325): 2023.10.17.11:13:41 Info: Starting: Create block symbol file (.bsf)
+Info (20325): 2023.10.17.11:13:41 Info: qsys-generate /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/q_sys/q_sys_master_0.ip --block-symbol-file --output-directory=/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/q_sys/q_sys_master_0 --family="Stratix 10" --part=1SG280HU2F50E2VG
+Info (20325): 2023.10.17.11:13:41 Info: Finished: Create block symbol file (.bsf)
+Info (20325): 2023.10.17.11:13:41 Info:
+Info (20325): 2023.10.17.11:13:41 Info: Starting: Create HDL design files for synthesis
+Info (20325): 2023.10.17.11:13:41 Info: qsys-generate /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/q_sys/q_sys_master_0.ip --synthesis=VERILOG --output-directory=/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/q_sys/q_sys_master_0 --family="Stratix 10" --part=1SG280HU2F50E2VG
+Info (20325): 2023.10.17.11:13:41 Info: q_sys_master_0: "Transforming system: q_sys_master_0"
+Info (20325): 2023.10.17.11:13:41 Info: q_sys_master_0: "Naming system components in system: q_sys_master_0"
+Info (20325): 2023.10.17.11:13:41 Info: q_sys_master_0: "Processing generation queue"
+Info (20325): 2023.10.17.11:13:41 Info: q_sys_master_0: "Generating: q_sys_master_0"
+Info (20325): 2023.10.17.11:13:41 Info: q_sys_master_0: "Generating: q_sys_master_0_altera_jtag_avalon_master_191_3zppvky"
+Info (20325): 2023.10.17.11:13:41 Info: q_sys_master_0: "Generating: altera_avalon_st_jtag_interface"
+Info (20325): 2023.10.17.11:13:41 Info: q_sys_master_0: "Generating: q_sys_master_0_timing_adapter_1940_5ju4ddy"
+Info (20325): 2023.10.17.11:13:41 Info: q_sys_master_0: "Generating: q_sys_master_0_altera_avalon_sc_fifo_1931_fzgstwy"
+Info (20325): 2023.10.17.11:13:41 Info: q_sys_master_0: "Generating: altera_avalon_st_bytes_to_packets"
+Info (20325): 2023.10.17.11:13:41 Info: q_sys_master_0: "Generating: altera_avalon_st_packets_to_bytes"
+Info (20325): 2023.10.17.11:13:41 Info: q_sys_master_0: "Generating: altera_avalon_packets_to_master"
+Info (20325): 2023.10.17.11:13:41 Info: q_sys_master_0: "Generating: q_sys_master_0_channel_adapter_1921_5wnzrci"
+Info (20325): 2023.10.17.11:13:41 Info: q_sys_master_0: "Generating: q_sys_master_0_channel_adapter_1921_fkajlia"
+Info (20325): 2023.10.17.11:13:41 Info: q_sys_master_0: "Generating: altera_reset_controller"
+Info (20325): 2023.10.17.11:13:41 Info: q_sys_master_0: Done "q_sys_master_0" with 11 modules, 24 files
+Info (20325): 2023.10.17.11:13:41 Info: Finished: Create HDL design files for synthesis
+Info (20325): 2023.10.17.11:13:41 Info: Generation of /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/q_sys/q_sys_master_0.ip (q_sys_master_0) took 5923 ms
+Info (20325): 2023.10.17.11:13:45 Info:
+Info (20325): 2023.10.17.11:13:45 Info: xcvr_test_system: All Generic Component instances match their respective ip files.
+Info (20325): 2023.10.17.11:13:45 Info: Saving generation log to /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/xcvr_test_system/xcvr_test_system_generation.rpt
+Info (20325): 2023.10.17.11:13:45 Info: Generated by version: 23.3 build 104
+Info (20325): 2023.10.17.11:13:45 Info: Starting: Create simulation model
+Info (20325): 2023.10.17.11:13:45 Info: qsys-generate /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/xcvr_test_system.qsys --simulation=VERILOG --allow-mixed-language-simulation --output-directory=/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/xcvr_test_system --family="Stratix 10" --part=1SG280HU2F50E2VG
+Info (20325): 2023.10.17.11:13:45 Info: Loading qts_qsfp_sdi/xcvr_test_system.qsys
+Info (20325): 2023.10.17.11:13:45 Info: Reading input file
+Info (20325): 2023.10.17.11:13:45 Info: Parameterizing module clk_50
+Info (20325): 2023.10.17.11:13:45 Info: Parameterizing module data_pattern_checker_0
+Info (20325): 2023.10.17.11:13:45 Info: Parameterizing module data_pattern_generator_0
+Info (20325): 2023.10.17.11:13:45 Info: Parameterizing module freq_counter_0
+Info (20325): 2023.10.17.11:13:45 Info: Parameterizing module mm_bridge_0
+Info (20325): 2023.10.17.11:13:45 Info: Parameterizing module rx_fifo
+Info (20325): 2023.10.17.11:13:45 Info: Parameterizing module tx_fifo
+Info (20325): 2023.10.17.11:13:45 Info: Parameterizing module xcvr_tx_rx_clkout2_converter_0
+Info (20325): 2023.10.17.11:13:45 Info: Parameterizing module xcvr_user_rx_fifo_converter_0
+Info (20325): 2023.10.17.11:13:45 Info: Parameterizing module xcvr_user_tx_fifo_converter_0
+Info (20325): 2023.10.17.11:13:45 Info: Building connections
+Info (20325): 2023.10.17.11:13:45 Info: Parameterizing connections
+Info (20325): 2023.10.17.11:13:45 Info: Validating
+Info (20325): 2023.10.17.11:13:45 Info: Done reading input file
+Info (20325): 2023.10.17.11:13:45 Info: xcvr_test_system: "Transforming system: xcvr_test_system"
+Info (20325): 2023.10.17.11:13:45 Info: xcvr_test_system: "Naming system components in system: xcvr_test_system"
+Info (20325): 2023.10.17.11:13:45 Info: xcvr_test_system: "Processing generation queue"
+Info (20325): 2023.10.17.11:13:45 Info: xcvr_test_system: "Generating: xcvr_test_system"
+Info (20325): 2023.10.17.11:13:45 Info: xcvr_test_system: "Generating: xcvr_test_system_clk_50"
+Info (20325): 2023.10.17.11:13:45 Info: xcvr_test_system: "Generating: xcvr_test_system_data_pattern_checker_0"
+Info (20325): 2023.10.17.11:13:45 Info: xcvr_test_system: "Generating: xcvr_test_system_data_pattern_generator_0"
+Info (20325): 2023.10.17.11:13:45 Info: xcvr_test_system: "Generating: xcvr_test_system_freq_counter_0"
+Info (20325): 2023.10.17.11:13:45 Info: xcvr_test_system: "Generating: xcvr_test_system_mm_bridge_0"
+Info (20325): 2023.10.17.11:13:45 Info: xcvr_test_system: "Generating: xcvr_test_system_rx_fifo"
+Info (20325): 2023.10.17.11:13:45 Info: xcvr_test_system: "Generating: xcvr_test_system_tx_fifo"
+Info (20325): 2023.10.17.11:13:45 Info: xcvr_test_system: "Generating: xcvr_test_system_xcvr_tx_rx_clkout2_converter_0"
+Info (20325): 2023.10.17.11:13:45 Info: xcvr_test_system: "Generating: xcvr_test_system_xcvr_user_rx_fifo_converter_0"
+Info (20325): 2023.10.17.11:13:45 Info: xcvr_test_system: "Generating: xcvr_test_system_xcvr_user_tx_fifo_converter_0"
+Info (20325): 2023.10.17.11:13:45 Info: xcvr_test_system: "Generating: xcvr_test_system_altera_mm_interconnect_1920_zd6ql4a"
+Info (20325): 2023.10.17.11:13:45 Info: xcvr_test_system: "Generating: altera_reset_controller"
+Info (20325): 2023.10.17.11:13:45 Info: xcvr_test_system: "Generating: xcvr_test_system_altera_merlin_master_translator_192_lykd4la"
+Info (20325): 2023.10.17.11:13:45 Info: xcvr_test_system: "Generating: xcvr_test_system_altera_merlin_slave_translator_191_x56fcki"
+Info (20325): 2023.10.17.11:13:45 Info: xcvr_test_system: "Generating: xcvr_test_system_altera_merlin_master_agent_1921_2inlndi"
+Info (20325): 2023.10.17.11:13:45 Info: xcvr_test_system: "Generating: xcvr_test_system_altera_merlin_slave_agent_1921_b6r3djy"
+Info (20325): 2023.10.17.11:13:45 Info: xcvr_test_system: "Generating: xcvr_test_system_altera_avalon_sc_fifo_1931_fzgstwy"
+Info (20325): 2023.10.17.11:13:45 Info: xcvr_test_system: "Generating: xcvr_test_system_altera_merlin_router_1921_rvqh52q"
+Info (20325): 2023.10.17.11:13:45 Info: xcvr_test_system: "Generating: xcvr_test_system_altera_merlin_router_1921_22lk4la"
+Info (20325): 2023.10.17.11:13:45 Info: xcvr_test_system: "Generating: xcvr_test_system_altera_merlin_traffic_limiter_191_kcba44q"
+Info (20325): 2023.10.17.11:13:45 Info: my_altera_avalon_sc_fifo_dest_id_fifo: "Generating: my_altera_avalon_sc_fifo_dest_id_fifo"
+Info (20325): 2023.10.17.11:13:45 Info: xcvr_test_system: "Generating: xcvr_test_system_altera_merlin_demultiplexer_1921_gaw4kza"
+Info (20325): 2023.10.17.11:13:45 Info: xcvr_test_system: "Generating: xcvr_test_system_altera_merlin_multiplexer_1922_caxee3y"
+Info (20325): 2023.10.17.11:13:45 Info: xcvr_test_system: "Generating: xcvr_test_system_altera_merlin_demultiplexer_1921_7oucsfq"
+Info (20325): 2023.10.17.11:13:45 Info: xcvr_test_system: "Generating: xcvr_test_system_altera_merlin_multiplexer_1922_fin6qia"
+Info (20325): 2023.10.17.11:13:45 Info: xcvr_test_system: "Generating: xcvr_test_system_altera_avalon_st_pipeline_stage_1930_bv2ucky"
+Info (20325): 2023.10.17.11:13:45 Info: xcvr_test_system: "Generating: xcvr_test_system_altera_merlin_traffic_limiter_altera_avalon_sc_fifo_191_dvli2oa"
+Info (20325): 2023.10.17.11:13:45 Info: xcvr_test_system: Done "xcvr_test_system" with 27 modules, 25 files
+Info (20325): 2023.10.17.11:13:45 Info: Generating the following file(s) for VCSMX simulator in /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/xcvr_test_system/sim/ directory:
+Info (20325): 2023.10.17.11:13:45 Info: common/vcsmx_files.tcl
+Info (20325): 2023.10.17.11:13:45 Info: Generating the following file(s) for MODELSIM simulator in /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/xcvr_test_system/sim/ directory:
+Info (20325): 2023.10.17.11:13:45 Info: common/modelsim_files.tcl
+Info (20325): 2023.10.17.11:13:45 Info: Generating the following file(s) for XCELIUM simulator in /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/xcvr_test_system/sim/ directory:
+Info (20325): 2023.10.17.11:13:45 Info: common/xcelium_files.tcl
+Info (20325): 2023.10.17.11:13:45 Info: Generating the following file(s) for RIVIERA simulator in /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/xcvr_test_system/sim/ directory:
+Info (20325): 2023.10.17.11:13:45 Info: common/riviera_files.tcl
+Info (20325): 2023.10.17.11:13:45 Info: Generating the following file(s) for VCS simulator in /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/xcvr_test_system/sim/ directory:
+Info (20325): 2023.10.17.11:13:45 Info: common/vcs_files.tcl
+Info (20325): 2023.10.17.11:13:45 Info: For information on how to simulate your IP, see the explanatory comments in the simulator-specific subdirectories under /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/xcvr_test_system/sim/.
+Info (20325): 2023.10.17.11:13:45 Info: Regenerate these scripts whenever you make any change to any Quartus-generated IP in your project.
+Info (20325): 2023.10.17.11:13:45 Info: Finished: Create simulation model
+Info (20325): 2023.10.17.11:13:45 Info: Starting: Create simulation script
+Info (20325): 2023.10.17.11:13:45 Info: sim-script-gen --system-file=/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/xcvr_test_system.qsys --output-directory=/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/xcvr_test_system/sim/ --use-relative-paths=true
+Info (20325): 2023.10.17.11:13:45 Info: Generating the following file(s) for VCSMX simulator in /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/xcvr_test_system/sim/ directory:
+Info (20325): 2023.10.17.11:13:45 Info: synopsys/vcsmx/synopsys_sim.setup
+Info (20325): 2023.10.17.11:13:45 Info: synopsys/vcsmx/vcsmx_setup.sh
+Info (20325): 2023.10.17.11:13:45 Info: Generating the following file(s) for MODELSIM simulator in /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/xcvr_test_system/sim/ directory:
+Info (20325): 2023.10.17.11:13:45 Info: mentor/msim_setup.tcl
+Info (20325): 2023.10.17.11:13:45 Info: Generating the following file(s) for XCELIUM simulator in /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/xcvr_test_system/sim/ directory:
+Info (20325): 2023.10.17.11:13:45 Info: xcelium/cds.lib
+Info (20325): 2023.10.17.11:13:45 Info: xcelium/hdl.var
+Info (20325): 2023.10.17.11:13:45 Info: xcelium/xcelium_setup.sh
+Info (20325): 2023.10.17.11:13:45 Info: 1 .cds.lib files in xcelium/cds_libs/ directory
+Info (20325): 2023.10.17.11:13:45 Info: Generating the following file(s) for RIVIERA simulator in /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/xcvr_test_system/sim/ directory:
+Info (20325): 2023.10.17.11:13:45 Info: aldec/rivierapro_setup.tcl
+Info (20325): 2023.10.17.11:13:45 Info: Generating the following file(s) for VCS simulator in /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/xcvr_test_system/sim/ directory:
+Info (20325): 2023.10.17.11:13:45 Info: synopsys/vcs/vcs_setup.sh
+Info (20325): 2023.10.17.11:13:45 Info: For information on how to simulate your IP, see the explanatory comments in the simulator-specific subdirectories under /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/xcvr_test_system/sim/.
+Info (20325): 2023.10.17.11:13:45 Info: Regenerate these scripts whenever you make any change to any Quartus-generated IP in your project.
+Info (20325): 2023.10.17.11:13:45 Info: Finished: Create simulation script
+Info (20325): 2023.10.17.11:13:45 Info: Starting: Create block symbol file (.bsf)
+Info (20325): 2023.10.17.11:13:45 Info: qsys-generate /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/xcvr_test_system.qsys --block-symbol-file --output-directory=/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/xcvr_test_system --family="Stratix 10" --part=1SG280HU2F50E2VG
+Info (20325): 2023.10.17.11:13:45 Info: Loading qts_qsfp_sdi/xcvr_test_system.qsys
+Info (20325): 2023.10.17.11:13:45 Info: Reading input file
+Info (20325): 2023.10.17.11:13:45 Info: Parameterizing module clk_50
+Info (20325): 2023.10.17.11:13:45 Info: Parameterizing module data_pattern_checker_0
+Info (20325): 2023.10.17.11:13:45 Info: Parameterizing module data_pattern_generator_0
+Info (20325): 2023.10.17.11:13:45 Info: Parameterizing module freq_counter_0
+Info (20325): 2023.10.17.11:13:45 Info: Parameterizing module mm_bridge_0
+Info (20325): 2023.10.17.11:13:45 Info: Parameterizing module rx_fifo
+Info (20325): 2023.10.17.11:13:45 Info: Parameterizing module tx_fifo
+Info (20325): 2023.10.17.11:13:45 Info: Parameterizing module xcvr_tx_rx_clkout2_converter_0
+Info (20325): 2023.10.17.11:13:45 Info: Parameterizing module xcvr_user_rx_fifo_converter_0
+Info (20325): 2023.10.17.11:13:45 Info: Parameterizing module xcvr_user_tx_fifo_converter_0
+Info (20325): 2023.10.17.11:13:45 Info: Building connections
+Info (20325): 2023.10.17.11:13:45 Info: Parameterizing connections
+Info (20325): 2023.10.17.11:13:45 Info: Validating
+Info (20325): 2023.10.17.11:13:45 Info: Done reading input file
+Info (20325): 2023.10.17.11:13:45 Info: Finished: Create block symbol file (.bsf)
+Info (20325): 2023.10.17.11:13:45 Info:
+Info (20325): 2023.10.17.11:13:45 Info: Starting: Create HDL design files for synthesis
+Info (20325): 2023.10.17.11:13:45 Info: qsys-generate /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/xcvr_test_system.qsys --synthesis=VERILOG --output-directory=/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/xcvr_test_system --family="Stratix 10" --part=1SG280HU2F50E2VG
+Info (20325): 2023.10.17.11:13:45 Info: Loading qts_qsfp_sdi/xcvr_test_system.qsys
+Info (20325): 2023.10.17.11:13:45 Info: Reading input file
+Info (20325): 2023.10.17.11:13:45 Info: Parameterizing module clk_50
+Info (20325): 2023.10.17.11:13:45 Info: Parameterizing module data_pattern_checker_0
+Info (20325): 2023.10.17.11:13:45 Info: Parameterizing module data_pattern_generator_0
+Info (20325): 2023.10.17.11:13:45 Info: Parameterizing module freq_counter_0
+Info (20325): 2023.10.17.11:13:45 Info: Parameterizing module mm_bridge_0
+Info (20325): 2023.10.17.11:13:45 Info: Parameterizing module rx_fifo
+Info (20325): 2023.10.17.11:13:45 Info: Parameterizing module tx_fifo
+Info (20325): 2023.10.17.11:13:45 Info: Parameterizing module xcvr_tx_rx_clkout2_converter_0
+Info (20325): 2023.10.17.11:13:45 Info: Parameterizing module xcvr_user_rx_fifo_converter_0
+Info (20325): 2023.10.17.11:13:45 Info: Parameterizing module xcvr_user_tx_fifo_converter_0
+Info (20325): 2023.10.17.11:13:45 Info: Building connections
+Info (20325): 2023.10.17.11:13:45 Info: Parameterizing connections
+Info (20325): 2023.10.17.11:13:45 Info: Validating
+Info (20325): 2023.10.17.11:13:45 Info: Done reading input file
+Info (20325): 2023.10.17.11:13:45 Info: xcvr_test_system: "Transforming system: xcvr_test_system"
+Info (20325): 2023.10.17.11:13:45 Info: xcvr_test_system: "Naming system components in system: xcvr_test_system"
+Info (20325): 2023.10.17.11:13:45 Info: xcvr_test_system: "Processing generation queue"
+Info (20325): 2023.10.17.11:13:45 Info: xcvr_test_system: "Generating: xcvr_test_system"
+Info (20325): 2023.10.17.11:13:45 Info: xcvr_test_system: "Generating: xcvr_test_system_clk_50"
+Info (20325): 2023.10.17.11:13:45 Info: xcvr_test_system: "Generating: xcvr_test_system_data_pattern_checker_0"
+Info (20325): 2023.10.17.11:13:45 Info: xcvr_test_system: "Generating: xcvr_test_system_data_pattern_generator_0"
+Info (20325): 2023.10.17.11:13:45 Info: xcvr_test_system: "Generating: xcvr_test_system_freq_counter_0"
+Info (20325): 2023.10.17.11:13:45 Info: xcvr_test_system: "Generating: xcvr_test_system_mm_bridge_0"
+Info (20325): 2023.10.17.11:13:45 Info: xcvr_test_system: "Generating: xcvr_test_system_rx_fifo"
+Info (20325): 2023.10.17.11:13:45 Info: xcvr_test_system: "Generating: xcvr_test_system_tx_fifo"
+Info (20325): 2023.10.17.11:13:45 Info: xcvr_test_system: "Generating: xcvr_test_system_xcvr_tx_rx_clkout2_converter_0"
+Info (20325): 2023.10.17.11:13:45 Info: xcvr_test_system: "Generating: xcvr_test_system_xcvr_user_rx_fifo_converter_0"
+Info (20325): 2023.10.17.11:13:45 Info: xcvr_test_system: "Generating: xcvr_test_system_xcvr_user_tx_fifo_converter_0"
+Info (20325): 2023.10.17.11:13:45 Info: xcvr_test_system: "Generating: xcvr_test_system_altera_mm_interconnect_1920_zd6ql4a"
+Info (20325): 2023.10.17.11:13:45 Info: xcvr_test_system: "Generating: altera_reset_controller"
+Info (20325): 2023.10.17.11:13:45 Info: xcvr_test_system: "Generating: xcvr_test_system_altera_merlin_master_translator_192_lykd4la"
+Info (20325): 2023.10.17.11:13:45 Info: xcvr_test_system: "Generating: xcvr_test_system_altera_merlin_slave_translator_191_x56fcki"
+Info (20325): 2023.10.17.11:13:45 Info: xcvr_test_system: "Generating: xcvr_test_system_altera_merlin_master_agent_1921_2inlndi"
+Info (20325): 2023.10.17.11:13:45 Info: xcvr_test_system: "Generating: xcvr_test_system_altera_merlin_slave_agent_1921_b6r3djy"
+Info (20325): 2023.10.17.11:13:45 Info: xcvr_test_system: "Generating: xcvr_test_system_altera_avalon_sc_fifo_1931_fzgstwy"
+Info (20325): 2023.10.17.11:13:45 Info: xcvr_test_system: "Generating: xcvr_test_system_altera_merlin_router_1921_rvqh52q"
+Info (20325): 2023.10.17.11:13:45 Info: xcvr_test_system: "Generating: xcvr_test_system_altera_merlin_router_1921_22lk4la"
+Info (20325): 2023.10.17.11:13:45 Info: xcvr_test_system: "Generating: xcvr_test_system_altera_merlin_traffic_limiter_191_kcba44q"
+Info (20325): 2023.10.17.11:13:45 Info: my_altera_avalon_sc_fifo_dest_id_fifo: "Generating: my_altera_avalon_sc_fifo_dest_id_fifo"
+Info (20325): 2023.10.17.11:13:45 Info: xcvr_test_system: "Generating: xcvr_test_system_altera_merlin_demultiplexer_1921_gaw4kza"
+Info (20325): 2023.10.17.11:13:45 Info: xcvr_test_system: "Generating: xcvr_test_system_altera_merlin_multiplexer_1922_caxee3y"
+Info (20325): 2023.10.17.11:13:45 Info: xcvr_test_system: "Generating: xcvr_test_system_altera_merlin_demultiplexer_1921_7oucsfq"
+Info (20325): 2023.10.17.11:13:45 Info: xcvr_test_system: "Generating: xcvr_test_system_altera_merlin_multiplexer_1922_fin6qia"
+Info (20325): 2023.10.17.11:13:45 Info: xcvr_test_system: "Generating: xcvr_test_system_altera_avalon_st_pipeline_stage_1930_bv2ucky"
+Info (20325): 2023.10.17.11:13:45 Info: xcvr_test_system: "Generating: xcvr_test_system_altera_merlin_traffic_limiter_altera_avalon_sc_fifo_191_dvli2oa"
+Info (20325): 2023.10.17.11:13:45 Info: xcvr_test_system: Done "xcvr_test_system" with 27 modules, 25 files
+Info (20325): 2023.10.17.11:13:45 Info: Finished: Create HDL design files for synthesis
+Info (20325): 2023.10.17.11:13:45 Info: Generation of /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/xcvr_test_system.qsys (xcvr_test_system) took 9677 ms
+Info (20325): 2023.10.17.11:13:47 Info:
+Info (20325): 2023.10.17.11:13:47 Info: qsfp_xcvr_test: All Generic Component instances match their respective ip files.
+Info (20325): 2023.10.17.11:13:47 Info: Saving generation log to /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/qsfp_xcvr_test/qsfp_xcvr_test_generation.rpt
+Info (20325): 2023.10.17.11:13:47 Info: Generated by version: 23.3 build 104
+Info (20325): 2023.10.17.11:13:47 Info: Starting: Create simulation model
+Info (20325): 2023.10.17.11:13:47 Info: qsys-generate /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/qsfp_xcvr_test.qsys --simulation=VERILOG --allow-mixed-language-simulation --output-directory=/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/qsfp_xcvr_test --family="Stratix 10" --part=1SG280HU2F50E2VG
+Info (20325): 2023.10.17.11:13:47 Info: Loading qts_qsfp_sdi/qsfp_xcvr_test.qsys
+Info (20325): 2023.10.17.11:13:47 Info: Reading input file
+Info (20325): 2023.10.17.11:13:47 Info: Parameterizing module clk_100
+Info (20325): 2023.10.17.11:13:47 Info: Parameterizing module clk_50
+Info (20325): 2023.10.17.11:13:47 Info: Parameterizing module default_pma_settings_conf_0
+Info (20325): 2023.10.17.11:13:47 Info: Parameterizing module mm_bridge_0
+Info (20325): 2023.10.17.11:13:47 Info: Parameterizing module nativePHY_loopback_cont_0
+Info (20325): 2023.10.17.11:13:47 Info: Parameterizing module pll_locked
+Info (20325): 2023.10.17.11:13:47 Info: Parameterizing module xcvr_native_s10_0
+Info (20325): 2023.10.17.11:13:47 Info: Parameterizing module xcvr_reset_control_s10_0
+Info (20325): 2023.10.17.11:13:47 Info: Parameterizing module xcvr_st_converter_0
+Info (20325): 2023.10.17.11:13:47 Info: Parameterizing module xcvr_test_system_0
+Info (20325): 2023.10.17.11:13:47 Info: Building connections
+Info (20325): 2023.10.17.11:13:47 Info: Parameterizing connections
+Info (20325): 2023.10.17.11:13:47 Info: Validating
+Info (20325): 2023.10.17.11:13:47 Info: Done reading input file
+Info (20325): 2023.10.17.11:13:47 Info: qsfp_xcvr_test: "Transforming system: qsfp_xcvr_test"
+Info (20325): 2023.10.17.11:13:47 Info: Inserting clock-crossing logic between cmd_demux.src0 and cmd_mux.sink0
+Info (20325): 2023.10.17.11:13:47 Info: Inserting clock-crossing logic between cmd_demux_001.src0 and cmd_mux.sink1
+Info (20325): 2023.10.17.11:13:47 Info: Inserting clock-crossing logic between rsp_demux.src0 and rsp_mux.sink0
+Info (20325): 2023.10.17.11:13:47 Info: Inserting clock-crossing logic between rsp_demux.src1 and rsp_mux_001.sink0
+Info (20325): 2023.10.17.11:13:47 Info: qsfp_xcvr_test: "Naming system components in system: qsfp_xcvr_test"
+Info (20325): 2023.10.17.11:13:47 Info: qsfp_xcvr_test: "Processing generation queue"
+Info (20325): 2023.10.17.11:13:47 Info: qsfp_xcvr_test: "Generating: qsfp_xcvr_test"
+Info (20325): 2023.10.17.11:13:47 Info: qsfp_xcvr_test: "Generating: qsfp_xcvr_test_clk_100"
+Info (20325): 2023.10.17.11:13:47 Info: qsfp_xcvr_test: "Generating: qsfp_xcvr_test_clk_50"
+Info (20325): 2023.10.17.11:13:47 Info: qsfp_xcvr_test: "Generating: qsfp_xcvr_test_default_pma_settings_conf_0"
+Info (20325): 2023.10.17.11:13:47 Info: qsfp_xcvr_test: "Generating: qsfp_xcvr_test_mm_bridge_0"
+Info (20325): 2023.10.17.11:13:47 Info: qsfp_xcvr_test: "Generating: qsfp_xcvr_test_nativePHY_loopback_cont_0"
+Info (20325): 2023.10.17.11:13:47 Info: qsfp_xcvr_test: "Generating: qsfp_xcvr_test_pll_status_interconnect_0"
+Info (20325): 2023.10.17.11:13:47 Info: qsfp_xcvr_test: "Generating: qsfp_xcvr_test_xcvr_native_s10_htile_1"
+Info (20325): 2023.10.17.11:13:47 Info: qsfp_xcvr_test: "Generating: qsfp_xcvr_test_xcvr_reset_control_s10_0"
+Info (20325): 2023.10.17.11:13:47 Info: qsfp_xcvr_test: "Generating: qsfp_xcvr_test_xcvr_st_converter_0"
+Info (20325): 2023.10.17.11:13:47 Info: qsfp_xcvr_test: "Generating: qsfp_xcvr_test_altera_mm_interconnect_1920_4ix6v3i"
+Info (20325): 2023.10.17.11:13:47 Info: qsfp_xcvr_test: "Generating: altera_reset_controller"
+Info (20325): 2023.10.17.11:13:47 Info: qsfp_xcvr_test: "Generating: qsfp_xcvr_test_altera_merlin_master_translator_192_lykd4la"
+Info (20325): 2023.10.17.11:13:47 Info: qsfp_xcvr_test: "Generating: qsfp_xcvr_test_altera_merlin_slave_translator_191_x56fcki"
+Info (20325): 2023.10.17.11:13:47 Info: qsfp_xcvr_test: "Generating: qsfp_xcvr_test_altera_merlin_master_agent_1921_2inlndi"
+Info (20325): 2023.10.17.11:13:47 Info: qsfp_xcvr_test: "Generating: qsfp_xcvr_test_altera_merlin_slave_agent_1921_b6r3djy"
+Info (20325): 2023.10.17.11:13:47 Info: qsfp_xcvr_test: "Generating: qsfp_xcvr_test_altera_avalon_sc_fifo_1931_fzgstwy"
+Info (20325): 2023.10.17.11:13:47 Info: qsfp_xcvr_test: "Generating: qsfp_xcvr_test_altera_merlin_router_1921_ylon4vq"
+Info (20325): 2023.10.17.11:13:47 Info: qsfp_xcvr_test: "Generating: qsfp_xcvr_test_altera_merlin_router_1921_cwjx5gy"
+Info (20325): 2023.10.17.11:13:47 Info: qsfp_xcvr_test: "Generating: qsfp_xcvr_test_altera_merlin_router_1921_ya7j6xi"
+Info (20325): 2023.10.17.11:13:47 Info: qsfp_xcvr_test: "Generating: qsfp_xcvr_test_altera_merlin_router_1921_7loa6ei"
+Info (20325): 2023.10.17.11:13:47 Info: qsfp_xcvr_test: "Generating: qsfp_xcvr_test_altera_merlin_traffic_limiter_191_kcba44q"
+Info (20325): 2023.10.17.11:13:47 Info: my_altera_avalon_sc_fifo_dest_id_fifo: "Generating: my_altera_avalon_sc_fifo_dest_id_fifo"
+Info (20325): 2023.10.17.11:13:47 Info: qsfp_xcvr_test: "Generating: qsfp_xcvr_test_altera_merlin_demultiplexer_1921_tpjuufq"
+Info (20325): 2023.10.17.11:13:47 Info: qsfp_xcvr_test: "Generating: qsfp_xcvr_test_altera_merlin_demultiplexer_1921_hidmfdy"
+Info (20325): 2023.10.17.11:13:47 Info: qsfp_xcvr_test: "Generating: qsfp_xcvr_test_altera_merlin_multiplexer_1922_sx4fypi"
+Info (20325): 2023.10.17.11:13:47 Info: qsfp_xcvr_test: "Generating: qsfp_xcvr_test_altera_merlin_multiplexer_1922_f3ke5za"
+Info (20325): 2023.10.17.11:13:47 Info: qsfp_xcvr_test: "Generating: qsfp_xcvr_test_altera_merlin_demultiplexer_1921_vsc72dq"
+Info (20325): 2023.10.17.11:13:47 Info: qsfp_xcvr_test: "Generating: qsfp_xcvr_test_altera_merlin_multiplexer_1922_o5h777y"
+Info (20325): 2023.10.17.11:13:47 Info: qsfp_xcvr_test: "Generating: qsfp_xcvr_test_altera_merlin_multiplexer_1922_6c6ivwy"
+Info (20325): 2023.10.17.11:13:47 Info: qsfp_xcvr_test: "Generating: qsfp_xcvr_test_hs_clk_xer_1940_gyeivji"
+Info (20325): 2023.10.17.11:13:47 Info: qsfp_xcvr_test: "Generating: qsfp_xcvr_test_altera_merlin_traffic_limiter_altera_avalon_sc_fifo_191_7trhvuy"
+Info (20325): 2023.10.17.11:13:47 Info: qsfp_xcvr_test: Done "qsfp_xcvr_test" with 32 modules, 36 files
+Info (20325): 2023.10.17.11:13:47 Info: Generating the following file(s) for XCELIUM simulator in /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/qsfp_xcvr_test/sim/ directory:
+Info (20325): 2023.10.17.11:13:47 Info: common/xcelium_files.tcl
+Info (20325): 2023.10.17.11:13:47 Info: Generating the following file(s) for VCS simulator in /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/qsfp_xcvr_test/sim/ directory:
+Info (20325): 2023.10.17.11:13:47 Info: common/vcs_files.tcl
+Info (20325): 2023.10.17.11:13:47 Info: Generating the following file(s) for MODELSIM simulator in /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/qsfp_xcvr_test/sim/ directory:
+Info (20325): 2023.10.17.11:13:47 Info: common/modelsim_files.tcl
+Info (20325): 2023.10.17.11:13:47 Info: Generating the following file(s) for RIVIERA simulator in /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/qsfp_xcvr_test/sim/ directory:
+Info (20325): 2023.10.17.11:13:47 Info: common/riviera_files.tcl
+Info (20325): 2023.10.17.11:13:47 Info: Generating the following file(s) for VCSMX simulator in /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/qsfp_xcvr_test/sim/ directory:
+Info (20325): 2023.10.17.11:13:47 Info: common/vcsmx_files.tcl
+Info (20325): 2023.10.17.11:13:47 Info: For information on how to simulate your IP, see the explanatory comments in the simulator-specific subdirectories under /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/qsfp_xcvr_test/sim/.
+Info (20325): 2023.10.17.11:13:47 Info: Regenerate these scripts whenever you make any change to any Quartus-generated IP in your project.
+Info (20325): 2023.10.17.11:13:47 Info: Finished: Create simulation model
+Info (20325): 2023.10.17.11:13:47 Info: Starting: Create simulation script
+Info (20325): 2023.10.17.11:13:47 Info: sim-script-gen --system-file=/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/qsfp_xcvr_test.qsys --output-directory=/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/qsfp_xcvr_test/sim/ --use-relative-paths=true
+Info (20325): 2023.10.17.11:13:47 Info: Generating the following file(s) for XCELIUM simulator in /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/qsfp_xcvr_test/sim/ directory:
+Info (20325): 2023.10.17.11:13:47 Info: xcelium/cds.lib
+Info (20325): 2023.10.17.11:13:47 Info: xcelium/hdl.var
+Info (20325): 2023.10.17.11:13:47 Info: xcelium/xcelium_setup.sh
+Info (20325): 2023.10.17.11:13:47 Info: 1 .cds.lib files in xcelium/cds_libs/ directory
+Info (20325): 2023.10.17.11:13:47 Info: Generating the following file(s) for VCS simulator in /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/qsfp_xcvr_test/sim/ directory:
+Info (20325): 2023.10.17.11:13:47 Info: synopsys/vcs/vcs_setup.sh
+Info (20325): 2023.10.17.11:13:47 Info: Generating the following file(s) for MODELSIM simulator in /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/qsfp_xcvr_test/sim/ directory:
+Info (20325): 2023.10.17.11:13:47 Info: mentor/msim_setup.tcl
+Info (20325): 2023.10.17.11:13:47 Info: Generating the following file(s) for RIVIERA simulator in /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/qsfp_xcvr_test/sim/ directory:
+Info (20325): 2023.10.17.11:13:47 Info: aldec/rivierapro_setup.tcl
+Info (20325): 2023.10.17.11:13:47 Info: Generating the following file(s) for VCSMX simulator in /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/qsfp_xcvr_test/sim/ directory:
+Info (20325): 2023.10.17.11:13:47 Info: synopsys/vcsmx/synopsys_sim.setup
+Info (20325): 2023.10.17.11:13:47 Info: synopsys/vcsmx/vcsmx_setup.sh
+Info (20325): 2023.10.17.11:13:47 Info: For information on how to simulate your IP, see the explanatory comments in the simulator-specific subdirectories under /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/qsfp_xcvr_test/sim/.
+Info (20325): 2023.10.17.11:13:47 Info: Regenerate these scripts whenever you make any change to any Quartus-generated IP in your project.
+Info (20325): 2023.10.17.11:13:47 Info: Finished: Create simulation script
+Info (20325): 2023.10.17.11:13:47 Info: Starting: Create block symbol file (.bsf)
+Info (20325): 2023.10.17.11:13:47 Info: qsys-generate /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/qsfp_xcvr_test.qsys --block-symbol-file --output-directory=/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/qsfp_xcvr_test --family="Stratix 10" --part=1SG280HU2F50E2VG
+Info (20325): 2023.10.17.11:13:47 Info: Loading qts_qsfp_sdi/qsfp_xcvr_test.qsys
+Info (20325): 2023.10.17.11:13:47 Info: Reading input file
+Info (20325): 2023.10.17.11:13:47 Info: Parameterizing module clk_100
+Info (20325): 2023.10.17.11:13:47 Info: Parameterizing module clk_50
+Info (20325): 2023.10.17.11:13:47 Info: Parameterizing module default_pma_settings_conf_0
+Info (20325): 2023.10.17.11:13:47 Info: Parameterizing module mm_bridge_0
+Info (20325): 2023.10.17.11:13:47 Info: Parameterizing module nativePHY_loopback_cont_0
+Info (20325): 2023.10.17.11:13:47 Info: Parameterizing module pll_locked
+Info (20325): 2023.10.17.11:13:47 Info: Parameterizing module xcvr_native_s10_0
+Info (20325): 2023.10.17.11:13:47 Info: Parameterizing module xcvr_reset_control_s10_0
+Info (20325): 2023.10.17.11:13:47 Info: Parameterizing module xcvr_st_converter_0
+Info (20325): 2023.10.17.11:13:47 Info: Parameterizing module xcvr_test_system_0
+Info (20325): 2023.10.17.11:13:47 Info: Building connections
+Info (20325): 2023.10.17.11:13:47 Info: Parameterizing connections
+Info (20325): 2023.10.17.11:13:47 Info: Validating
+Info (20325): 2023.10.17.11:13:47 Info: Done reading input file
+Info (20325): 2023.10.17.11:13:47 Info: Finished: Create block symbol file (.bsf)
+Info (20325): 2023.10.17.11:13:47 Info:
+Info (20325): 2023.10.17.11:13:47 Info: Starting: Create HDL design files for synthesis
+Info (20325): 2023.10.17.11:13:47 Info: qsys-generate /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/qsfp_xcvr_test.qsys --synthesis=VERILOG --output-directory=/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/qsfp_xcvr_test --family="Stratix 10" --part=1SG280HU2F50E2VG
+Info (20325): 2023.10.17.11:13:47 Info: Loading qts_qsfp_sdi/qsfp_xcvr_test.qsys
+Info (20325): 2023.10.17.11:13:47 Info: Reading input file
+Info (20325): 2023.10.17.11:13:47 Info: Parameterizing module clk_100
+Info (20325): 2023.10.17.11:13:47 Info: Parameterizing module clk_50
+Info (20325): 2023.10.17.11:13:47 Info: Parameterizing module default_pma_settings_conf_0
+Info (20325): 2023.10.17.11:13:47 Info: Parameterizing module mm_bridge_0
+Info (20325): 2023.10.17.11:13:47 Info: Parameterizing module nativePHY_loopback_cont_0
+Info (20325): 2023.10.17.11:13:47 Info: Parameterizing module pll_locked
+Info (20325): 2023.10.17.11:13:47 Info: Parameterizing module xcvr_native_s10_0
+Info (20325): 2023.10.17.11:13:47 Info: Parameterizing module xcvr_reset_control_s10_0
+Info (20325): 2023.10.17.11:13:47 Info: Parameterizing module xcvr_st_converter_0
+Info (20325): 2023.10.17.11:13:47 Info: Parameterizing module xcvr_test_system_0
+Info (20325): 2023.10.17.11:13:47 Info: Building connections
+Info (20325): 2023.10.17.11:13:47 Info: Parameterizing connections
+Info (20325): 2023.10.17.11:13:47 Info: Validating
+Info (20325): 2023.10.17.11:13:47 Info: Done reading input file
+Info (20325): 2023.10.17.11:13:47 Info: qsfp_xcvr_test: "Transforming system: qsfp_xcvr_test"
+Info (20325): 2023.10.17.11:13:47 Info: Inserting clock-crossing logic between cmd_demux.src0 and cmd_mux.sink0
+Info (20325): 2023.10.17.11:13:47 Info: Inserting clock-crossing logic between cmd_demux_001.src0 and cmd_mux.sink1
+Info (20325): 2023.10.17.11:13:47 Info: Inserting clock-crossing logic between rsp_demux.src0 and rsp_mux.sink0
+Info (20325): 2023.10.17.11:13:47 Info: Inserting clock-crossing logic between rsp_demux.src1 and rsp_mux_001.sink0
+Info (20325): 2023.10.17.11:13:47 Info: qsfp_xcvr_test: "Naming system components in system: qsfp_xcvr_test"
+Info (20325): 2023.10.17.11:13:47 Info: qsfp_xcvr_test: "Processing generation queue"
+Info (20325): 2023.10.17.11:13:47 Info: qsfp_xcvr_test: "Generating: qsfp_xcvr_test"
+Info (20325): 2023.10.17.11:13:47 Info: qsfp_xcvr_test: "Generating: qsfp_xcvr_test_clk_100"
+Info (20325): 2023.10.17.11:13:47 Info: qsfp_xcvr_test: "Generating: qsfp_xcvr_test_clk_50"
+Info (20325): 2023.10.17.11:13:47 Info: qsfp_xcvr_test: "Generating: qsfp_xcvr_test_default_pma_settings_conf_0"
+Info (20325): 2023.10.17.11:13:47 Info: qsfp_xcvr_test: "Generating: qsfp_xcvr_test_mm_bridge_0"
+Info (20325): 2023.10.17.11:13:47 Info: qsfp_xcvr_test: "Generating: qsfp_xcvr_test_nativePHY_loopback_cont_0"
+Info (20325): 2023.10.17.11:13:47 Info: qsfp_xcvr_test: "Generating: qsfp_xcvr_test_pll_status_interconnect_0"
+Info (20325): 2023.10.17.11:13:47 Info: qsfp_xcvr_test: "Generating: qsfp_xcvr_test_xcvr_native_s10_htile_1"
+Info (20325): 2023.10.17.11:13:47 Info: qsfp_xcvr_test: "Generating: qsfp_xcvr_test_xcvr_reset_control_s10_0"
+Info (20325): 2023.10.17.11:13:47 Info: qsfp_xcvr_test: "Generating: qsfp_xcvr_test_xcvr_st_converter_0"
+Info (20325): 2023.10.17.11:13:47 Info: qsfp_xcvr_test: "Generating: qsfp_xcvr_test_altera_mm_interconnect_1920_4ix6v3i"
+Info (20325): 2023.10.17.11:13:47 Info: qsfp_xcvr_test: "Generating: altera_reset_controller"
+Info (20325): 2023.10.17.11:13:47 Info: qsfp_xcvr_test: "Generating: qsfp_xcvr_test_altera_merlin_master_translator_192_lykd4la"
+Info (20325): 2023.10.17.11:13:47 Info: qsfp_xcvr_test: "Generating: qsfp_xcvr_test_altera_merlin_slave_translator_191_x56fcki"
+Info (20325): 2023.10.17.11:13:47 Info: qsfp_xcvr_test: "Generating: qsfp_xcvr_test_altera_merlin_master_agent_1921_2inlndi"
+Info (20325): 2023.10.17.11:13:47 Info: qsfp_xcvr_test: "Generating: qsfp_xcvr_test_altera_merlin_slave_agent_1921_b6r3djy"
+Info (20325): 2023.10.17.11:13:47 Info: qsfp_xcvr_test: "Generating: qsfp_xcvr_test_altera_avalon_sc_fifo_1931_fzgstwy"
+Info (20325): 2023.10.17.11:13:47 Info: qsfp_xcvr_test: "Generating: qsfp_xcvr_test_altera_merlin_router_1921_ylon4vq"
+Info (20325): 2023.10.17.11:13:47 Info: qsfp_xcvr_test: "Generating: qsfp_xcvr_test_altera_merlin_router_1921_cwjx5gy"
+Info (20325): 2023.10.17.11:13:47 Info: qsfp_xcvr_test: "Generating: qsfp_xcvr_test_altera_merlin_router_1921_ya7j6xi"
+Info (20325): 2023.10.17.11:13:47 Info: qsfp_xcvr_test: "Generating: qsfp_xcvr_test_altera_merlin_router_1921_7loa6ei"
+Info (20325): 2023.10.17.11:13:47 Info: qsfp_xcvr_test: "Generating: qsfp_xcvr_test_altera_merlin_traffic_limiter_191_kcba44q"
+Info (20325): 2023.10.17.11:13:47 Info: my_altera_avalon_sc_fifo_dest_id_fifo: "Generating: my_altera_avalon_sc_fifo_dest_id_fifo"
+Info (20325): 2023.10.17.11:13:47 Info: qsfp_xcvr_test: "Generating: qsfp_xcvr_test_altera_merlin_demultiplexer_1921_tpjuufq"
+Info (20325): 2023.10.17.11:13:47 Info: qsfp_xcvr_test: "Generating: qsfp_xcvr_test_altera_merlin_demultiplexer_1921_hidmfdy"
+Info (20325): 2023.10.17.11:13:47 Info: qsfp_xcvr_test: "Generating: qsfp_xcvr_test_altera_merlin_multiplexer_1922_sx4fypi"
+Info (20325): 2023.10.17.11:13:47 Info: qsfp_xcvr_test: "Generating: qsfp_xcvr_test_altera_merlin_multiplexer_1922_f3ke5za"
+Info (20325): 2023.10.17.11:13:47 Info: qsfp_xcvr_test: "Generating: qsfp_xcvr_test_altera_merlin_demultiplexer_1921_vsc72dq"
+Info (20325): 2023.10.17.11:13:47 Info: qsfp_xcvr_test: "Generating: qsfp_xcvr_test_altera_merlin_multiplexer_1922_o5h777y"
+Info (20325): 2023.10.17.11:13:47 Info: qsfp_xcvr_test: "Generating: qsfp_xcvr_test_altera_merlin_multiplexer_1922_6c6ivwy"
+Info (20325): 2023.10.17.11:13:47 Info: qsfp_xcvr_test: "Generating: qsfp_xcvr_test_hs_clk_xer_1940_gyeivji"
+Info (20325): 2023.10.17.11:13:47 Info: qsfp_xcvr_test: "Generating: qsfp_xcvr_test_altera_merlin_traffic_limiter_altera_avalon_sc_fifo_191_7trhvuy"
+Info (20325): 2023.10.17.11:13:47 Info: qsfp_xcvr_test: Done "qsfp_xcvr_test" with 32 modules, 36 files
+Info (20325): 2023.10.17.11:13:47 Info: Finished: Create HDL design files for synthesis
+Info (20325): 2023.10.17.11:13:47 Info: Generation of /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/qsfp_xcvr_test.qsys (qsfp_xcvr_test) took 11099 ms
+Info (20325): 2023.10.17.11:13:47 Info:
+Info (20325): 2023.10.17.11:13:47 Info: sdi_xcvr_test: All Generic Component instances match their respective ip files.
+Info (20325): 2023.10.17.11:13:47 Info: Saving generation log to /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/sdi_xcvr_test/sdi_xcvr_test_generation.rpt
+Info (20325): 2023.10.17.11:13:47 Info: Generated by version: 23.3 build 104
+Info (20325): 2023.10.17.11:13:47 Info: Starting: Create simulation model
+Info (20325): 2023.10.17.11:13:47 Info: qsys-generate /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/sdi_xcvr_test.qsys --simulation=VERILOG --allow-mixed-language-simulation --output-directory=/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/sdi_xcvr_test --family="Stratix 10" --part=1SG280HU2F50E2VG
+Info (20325): 2023.10.17.11:13:47 Info: Loading qts_qsfp_sdi/sdi_xcvr_test.qsys
+Info (20325): 2023.10.17.11:13:47 Info: Reading input file
+Info (20325): 2023.10.17.11:13:47 Info: Parameterizing module clk_100
+Info (20325): 2023.10.17.11:13:47 Info: Parameterizing module clk_50
+Info (20325): 2023.10.17.11:13:47 Info: Parameterizing module default_pma_settings_conf_0
+Info (20325): 2023.10.17.11:13:47 Info: Parameterizing module mm_bridge_0
+Info (20325): 2023.10.17.11:13:47 Info: Parameterizing module nativePHY_loopback_cont_0
+Info (20325): 2023.10.17.11:13:47 Info: Parameterizing module pll_status_interconnect_0
+Info (20325): 2023.10.17.11:13:47 Info: Parameterizing module xcvr_native_s10_0
+Info (20325): 2023.10.17.11:13:47 Info: Parameterizing module xcvr_reset_control_s10_0
+Info (20325): 2023.10.17.11:13:47 Info: Parameterizing module xcvr_st_converter_0
+Info (20325): 2023.10.17.11:13:47 Info: Parameterizing module xcvr_test_system_0
+Info (20325): 2023.10.17.11:13:47 Info: Building connections
+Info (20325): 2023.10.17.11:13:47 Info: Parameterizing connections
+Info (20325): 2023.10.17.11:13:47 Info: Validating
+Info (20325): 2023.10.17.11:13:47 Info: Done reading input file
+Info (20325): 2023.10.17.11:13:47 Info: sdi_xcvr_test: "Transforming system: sdi_xcvr_test"
+Info (20325): 2023.10.17.11:13:47 Info: Inserting clock-crossing logic between cmd_demux.src0 and cmd_mux.sink0
+Info (20325): 2023.10.17.11:13:47 Info: Inserting clock-crossing logic between cmd_demux_001.src0 and cmd_mux.sink1
+Info (20325): 2023.10.17.11:13:47 Info: Inserting clock-crossing logic between rsp_demux.src0 and rsp_mux.sink0
+Info (20325): 2023.10.17.11:13:47 Info: Inserting clock-crossing logic between rsp_demux.src1 and rsp_mux_001.sink0
+Info (20325): 2023.10.17.11:13:47 Info: sdi_xcvr_test: "Naming system components in system: sdi_xcvr_test"
+Info (20325): 2023.10.17.11:13:47 Info: sdi_xcvr_test: "Processing generation queue"
+Info (20325): 2023.10.17.11:13:47 Info: sdi_xcvr_test: "Generating: sdi_xcvr_test"
+Info (20325): 2023.10.17.11:13:47 Info: sdi_xcvr_test: "Generating: sdi_xcvr_test_clk_100"
+Info (20325): 2023.10.17.11:13:47 Info: sdi_xcvr_test: "Generating: sdi_xcvr_test_clk_50"
+Info (20325): 2023.10.17.11:13:47 Info: sdi_xcvr_test: "Generating: sdi_xcvr_test_default_pma_settings_conf_0"
+Info (20325): 2023.10.17.11:13:47 Info: sdi_xcvr_test: "Generating: sdi_xcvr_test_mm_bridge_0"
+Info (20325): 2023.10.17.11:13:47 Info: sdi_xcvr_test: "Generating: sdi_xcvr_test_nativePHY_loopback_cont_0"
+Info (20325): 2023.10.17.11:13:47 Info: sdi_xcvr_test: "Generating: sdi_xcvr_test_pll_status_interconnect_0"
+Info (20325): 2023.10.17.11:13:47 Info: sdi_xcvr_test: "Generating: sdi_xcvr_test_xcvr_native_s10_htile_0"
+Info (20325): 2023.10.17.11:13:47 Info: sdi_xcvr_test: "Generating: sdi_xcvr_test_xcvr_reset_control_s10_0"
+Info (20325): 2023.10.17.11:13:47 Info: sdi_xcvr_test: "Generating: sdi_xcvr_test_xcvr_st_converter_0"
+Info (20325): 2023.10.17.11:13:47 Info: sdi_xcvr_test: "Generating: sdi_xcvr_test_altera_mm_interconnect_1920_4ix6v3i"
+Info (20325): 2023.10.17.11:13:47 Info: sdi_xcvr_test: "Generating: altera_reset_controller"
+Info (20325): 2023.10.17.11:13:47 Info: sdi_xcvr_test: "Generating: sdi_xcvr_test_altera_merlin_master_translator_192_lykd4la"
+Info (20325): 2023.10.17.11:13:47 Info: sdi_xcvr_test: "Generating: sdi_xcvr_test_altera_merlin_slave_translator_191_x56fcki"
+Info (20325): 2023.10.17.11:13:47 Info: sdi_xcvr_test: "Generating: sdi_xcvr_test_altera_merlin_master_agent_1921_2inlndi"
+Info (20325): 2023.10.17.11:13:47 Info: sdi_xcvr_test: "Generating: sdi_xcvr_test_altera_merlin_slave_agent_1921_b6r3djy"
+Info (20325): 2023.10.17.11:13:47 Info: sdi_xcvr_test: "Generating: sdi_xcvr_test_altera_avalon_sc_fifo_1931_fzgstwy"
+Info (20325): 2023.10.17.11:13:47 Info: sdi_xcvr_test: "Generating: sdi_xcvr_test_altera_merlin_router_1921_ylon4vq"
+Info (20325): 2023.10.17.11:13:47 Info: sdi_xcvr_test: "Generating: sdi_xcvr_test_altera_merlin_router_1921_cwjx5gy"
+Info (20325): 2023.10.17.11:13:47 Info: sdi_xcvr_test: "Generating: sdi_xcvr_test_altera_merlin_router_1921_ya7j6xi"
+Info (20325): 2023.10.17.11:13:47 Info: sdi_xcvr_test: "Generating: sdi_xcvr_test_altera_merlin_router_1921_7loa6ei"
+Info (20325): 2023.10.17.11:13:47 Info: sdi_xcvr_test: "Generating: sdi_xcvr_test_altera_merlin_traffic_limiter_191_kcba44q"
+Info (20325): 2023.10.17.11:13:47 Info: my_altera_avalon_sc_fifo_dest_id_fifo: "Generating: my_altera_avalon_sc_fifo_dest_id_fifo"
+Info (20325): 2023.10.17.11:13:47 Info: sdi_xcvr_test: "Generating: sdi_xcvr_test_altera_merlin_demultiplexer_1921_tpjuufq"
+Info (20325): 2023.10.17.11:13:47 Info: sdi_xcvr_test: "Generating: sdi_xcvr_test_altera_merlin_demultiplexer_1921_hidmfdy"
+Info (20325): 2023.10.17.11:13:47 Info: sdi_xcvr_test: "Generating: sdi_xcvr_test_altera_merlin_multiplexer_1922_sx4fypi"
+Info (20325): 2023.10.17.11:13:47 Info: sdi_xcvr_test: "Generating: sdi_xcvr_test_altera_merlin_multiplexer_1922_f3ke5za"
+Info (20325): 2023.10.17.11:13:47 Info: sdi_xcvr_test: "Generating: sdi_xcvr_test_altera_merlin_demultiplexer_1921_vsc72dq"
+Info (20325): 2023.10.17.11:13:47 Info: sdi_xcvr_test: "Generating: sdi_xcvr_test_altera_merlin_multiplexer_1922_o5h777y"
+Info (20325): 2023.10.17.11:13:47 Info: sdi_xcvr_test: "Generating: sdi_xcvr_test_altera_merlin_multiplexer_1922_6c6ivwy"
+Info (20325): 2023.10.17.11:13:47 Info: sdi_xcvr_test: "Generating: sdi_xcvr_test_hs_clk_xer_1940_gyeivji"
+Info (20325): 2023.10.17.11:13:47 Info: sdi_xcvr_test: "Generating: sdi_xcvr_test_altera_merlin_traffic_limiter_altera_avalon_sc_fifo_191_7trhvuy"
+Info (20325): 2023.10.17.11:13:47 Info: sdi_xcvr_test: Done "sdi_xcvr_test" with 32 modules, 36 files
+Info (20325): 2023.10.17.11:13:47 Info: Generating the following file(s) for VCSMX simulator in /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/sdi_xcvr_test/sim/ directory:
+Info (20325): 2023.10.17.11:13:47 Info: common/vcsmx_files.tcl
+Info (20325): 2023.10.17.11:13:47 Info: Generating the following file(s) for XCELIUM simulator in /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/sdi_xcvr_test/sim/ directory:
+Info (20325): 2023.10.17.11:13:47 Info: common/xcelium_files.tcl
+Info (20325): 2023.10.17.11:13:47 Info: Generating the following file(s) for MODELSIM simulator in /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/sdi_xcvr_test/sim/ directory:
+Info (20325): 2023.10.17.11:13:47 Info: common/modelsim_files.tcl
+Info (20325): 2023.10.17.11:13:47 Info: Generating the following file(s) for RIVIERA simulator in /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/sdi_xcvr_test/sim/ directory:
+Info (20325): 2023.10.17.11:13:47 Info: common/riviera_files.tcl
+Info (20325): 2023.10.17.11:13:47 Info: Generating the following file(s) for VCS simulator in /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/sdi_xcvr_test/sim/ directory:
+Info (20325): 2023.10.17.11:13:47 Info: common/vcs_files.tcl
+Info (20325): 2023.10.17.11:13:47 Info: For information on how to simulate your IP, see the explanatory comments in the simulator-specific subdirectories under /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/sdi_xcvr_test/sim/.
+Info (20325): 2023.10.17.11:13:47 Info: Regenerate these scripts whenever you make any change to any Quartus-generated IP in your project.
+Info (20325): 2023.10.17.11:13:47 Info: Finished: Create simulation model
+Info (20325): 2023.10.17.11:13:47 Info: Starting: Create simulation script
+Info (20325): 2023.10.17.11:13:47 Info: sim-script-gen --system-file=/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/sdi_xcvr_test.qsys --output-directory=/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/sdi_xcvr_test/sim/ --use-relative-paths=true
+Info (20325): 2023.10.17.11:13:47 Info: Generating the following file(s) for VCSMX simulator in /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/sdi_xcvr_test/sim/ directory:
+Info (20325): 2023.10.17.11:13:47 Info: synopsys/vcsmx/synopsys_sim.setup
+Info (20325): 2023.10.17.11:13:47 Info: synopsys/vcsmx/vcsmx_setup.sh
+Info (20325): 2023.10.17.11:13:47 Info: Generating the following file(s) for XCELIUM simulator in /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/sdi_xcvr_test/sim/ directory:
+Info (20325): 2023.10.17.11:13:47 Info: xcelium/cds.lib
+Info (20325): 2023.10.17.11:13:47 Info: xcelium/hdl.var
+Info (20325): 2023.10.17.11:13:47 Info: xcelium/xcelium_setup.sh
+Info (20325): 2023.10.17.11:13:47 Info: 1 .cds.lib files in xcelium/cds_libs/ directory
+Info (20325): 2023.10.17.11:13:47 Info: Generating the following file(s) for MODELSIM simulator in /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/sdi_xcvr_test/sim/ directory:
+Info (20325): 2023.10.17.11:13:47 Info: mentor/msim_setup.tcl
+Info (20325): 2023.10.17.11:13:47 Info: Generating the following file(s) for RIVIERA simulator in /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/sdi_xcvr_test/sim/ directory:
+Info (20325): 2023.10.17.11:13:47 Info: aldec/rivierapro_setup.tcl
+Info (20325): 2023.10.17.11:13:47 Info: Generating the following file(s) for VCS simulator in /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/sdi_xcvr_test/sim/ directory:
+Info (20325): 2023.10.17.11:13:47 Info: synopsys/vcs/vcs_setup.sh
+Info (20325): 2023.10.17.11:13:47 Info: For information on how to simulate your IP, see the explanatory comments in the simulator-specific subdirectories under /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/sdi_xcvr_test/sim/.
+Info (20325): 2023.10.17.11:13:47 Info: Regenerate these scripts whenever you make any change to any Quartus-generated IP in your project.
+Info (20325): 2023.10.17.11:13:47 Info: Finished: Create simulation script
+Info (20325): 2023.10.17.11:13:47 Info: Starting: Create block symbol file (.bsf)
+Info (20325): 2023.10.17.11:13:47 Info: qsys-generate /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/sdi_xcvr_test.qsys --block-symbol-file --output-directory=/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/sdi_xcvr_test --family="Stratix 10" --part=1SG280HU2F50E2VG
+Info (20325): 2023.10.17.11:13:47 Info: Loading qts_qsfp_sdi/sdi_xcvr_test.qsys
+Info (20325): 2023.10.17.11:13:47 Info: Reading input file
+Info (20325): 2023.10.17.11:13:47 Info: Parameterizing module clk_100
+Info (20325): 2023.10.17.11:13:47 Info: Parameterizing module clk_50
+Info (20325): 2023.10.17.11:13:47 Info: Parameterizing module default_pma_settings_conf_0
+Info (20325): 2023.10.17.11:13:47 Info: Parameterizing module mm_bridge_0
+Info (20325): 2023.10.17.11:13:47 Info: Parameterizing module nativePHY_loopback_cont_0
+Info (20325): 2023.10.17.11:13:47 Info: Parameterizing module pll_status_interconnect_0
+Info (20325): 2023.10.17.11:13:47 Info: Parameterizing module xcvr_native_s10_0
+Info (20325): 2023.10.17.11:13:47 Info: Parameterizing module xcvr_reset_control_s10_0
+Info (20325): 2023.10.17.11:13:47 Info: Parameterizing module xcvr_st_converter_0
+Info (20325): 2023.10.17.11:13:47 Info: Parameterizing module xcvr_test_system_0
+Info (20325): 2023.10.17.11:13:47 Info: Building connections
+Info (20325): 2023.10.17.11:13:47 Info: Parameterizing connections
+Info (20325): 2023.10.17.11:13:47 Info: Validating
+Info (20325): 2023.10.17.11:13:47 Info: Done reading input file
+Info (20325): 2023.10.17.11:13:47 Info: Finished: Create block symbol file (.bsf)
+Info (20325): 2023.10.17.11:13:47 Info:
+Info (20325): 2023.10.17.11:13:47 Info: Starting: Create HDL design files for synthesis
+Info (20325): 2023.10.17.11:13:47 Info: qsys-generate /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/sdi_xcvr_test.qsys --synthesis=VERILOG --output-directory=/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/sdi_xcvr_test --family="Stratix 10" --part=1SG280HU2F50E2VG
+Info (20325): 2023.10.17.11:13:47 Info: Loading qts_qsfp_sdi/sdi_xcvr_test.qsys
+Info (20325): 2023.10.17.11:13:47 Info: Reading input file
+Info (20325): 2023.10.17.11:13:47 Info: Parameterizing module clk_100
+Info (20325): 2023.10.17.11:13:47 Info: Parameterizing module clk_50
+Info (20325): 2023.10.17.11:13:47 Info: Parameterizing module default_pma_settings_conf_0
+Info (20325): 2023.10.17.11:13:47 Info: Parameterizing module mm_bridge_0
+Info (20325): 2023.10.17.11:13:47 Info: Parameterizing module nativePHY_loopback_cont_0
+Info (20325): 2023.10.17.11:13:47 Info: Parameterizing module pll_status_interconnect_0
+Info (20325): 2023.10.17.11:13:47 Info: Parameterizing module xcvr_native_s10_0
+Info (20325): 2023.10.17.11:13:47 Info: Parameterizing module xcvr_reset_control_s10_0
+Info (20325): 2023.10.17.11:13:47 Info: Parameterizing module xcvr_st_converter_0
+Info (20325): 2023.10.17.11:13:47 Info: Parameterizing module xcvr_test_system_0
+Info (20325): 2023.10.17.11:13:47 Info: Building connections
+Info (20325): 2023.10.17.11:13:47 Info: Parameterizing connections
+Info (20325): 2023.10.17.11:13:47 Info: Validating
+Info (20325): 2023.10.17.11:13:47 Info: Done reading input file
+Info (20325): 2023.10.17.11:13:47 Info: sdi_xcvr_test: "Transforming system: sdi_xcvr_test"
+Info (20325): 2023.10.17.11:13:47 Info: Inserting clock-crossing logic between cmd_demux.src0 and cmd_mux.sink0
+Info (20325): 2023.10.17.11:13:47 Info: Inserting clock-crossing logic between cmd_demux_001.src0 and cmd_mux.sink1
+Info (20325): 2023.10.17.11:13:47 Info: Inserting clock-crossing logic between rsp_demux.src0 and rsp_mux.sink0
+Info (20325): 2023.10.17.11:13:47 Info: Inserting clock-crossing logic between rsp_demux.src1 and rsp_mux_001.sink0
+Info (20325): 2023.10.17.11:13:47 Info: sdi_xcvr_test: "Naming system components in system: sdi_xcvr_test"
+Info (20325): 2023.10.17.11:13:47 Info: sdi_xcvr_test: "Processing generation queue"
+Info (20325): 2023.10.17.11:13:47 Info: sdi_xcvr_test: "Generating: sdi_xcvr_test"
+Info (20325): 2023.10.17.11:13:47 Info: sdi_xcvr_test: "Generating: sdi_xcvr_test_clk_100"
+Info (20325): 2023.10.17.11:13:47 Info: sdi_xcvr_test: "Generating: sdi_xcvr_test_clk_50"
+Info (20325): 2023.10.17.11:13:47 Info: sdi_xcvr_test: "Generating: sdi_xcvr_test_default_pma_settings_conf_0"
+Info (20325): 2023.10.17.11:13:47 Info: sdi_xcvr_test: "Generating: sdi_xcvr_test_mm_bridge_0"
+Info (20325): 2023.10.17.11:13:47 Info: sdi_xcvr_test: "Generating: sdi_xcvr_test_nativePHY_loopback_cont_0"
+Info (20325): 2023.10.17.11:13:47 Info: sdi_xcvr_test: "Generating: sdi_xcvr_test_pll_status_interconnect_0"
+Info (20325): 2023.10.17.11:13:47 Info: sdi_xcvr_test: "Generating: sdi_xcvr_test_xcvr_native_s10_htile_0"
+Info (20325): 2023.10.17.11:13:47 Info: sdi_xcvr_test: "Generating: sdi_xcvr_test_xcvr_reset_control_s10_0"
+Info (20325): 2023.10.17.11:13:47 Info: sdi_xcvr_test: "Generating: sdi_xcvr_test_xcvr_st_converter_0"
+Info (20325): 2023.10.17.11:13:47 Info: sdi_xcvr_test: "Generating: sdi_xcvr_test_altera_mm_interconnect_1920_4ix6v3i"
+Info (20325): 2023.10.17.11:13:47 Info: sdi_xcvr_test: "Generating: altera_reset_controller"
+Info (20325): 2023.10.17.11:13:47 Info: sdi_xcvr_test: "Generating: sdi_xcvr_test_altera_merlin_master_translator_192_lykd4la"
+Info (20325): 2023.10.17.11:13:47 Info: sdi_xcvr_test: "Generating: sdi_xcvr_test_altera_merlin_slave_translator_191_x56fcki"
+Info (20325): 2023.10.17.11:13:47 Info: sdi_xcvr_test: "Generating: sdi_xcvr_test_altera_merlin_master_agent_1921_2inlndi"
+Info (20325): 2023.10.17.11:13:47 Info: sdi_xcvr_test: "Generating: sdi_xcvr_test_altera_merlin_slave_agent_1921_b6r3djy"
+Info (20325): 2023.10.17.11:13:47 Info: sdi_xcvr_test: "Generating: sdi_xcvr_test_altera_avalon_sc_fifo_1931_fzgstwy"
+Info (20325): 2023.10.17.11:13:47 Info: sdi_xcvr_test: "Generating: sdi_xcvr_test_altera_merlin_router_1921_ylon4vq"
+Info (20325): 2023.10.17.11:13:47 Info: sdi_xcvr_test: "Generating: sdi_xcvr_test_altera_merlin_router_1921_cwjx5gy"
+Info (20325): 2023.10.17.11:13:47 Info: sdi_xcvr_test: "Generating: sdi_xcvr_test_altera_merlin_router_1921_ya7j6xi"
+Info (20325): 2023.10.17.11:13:47 Info: sdi_xcvr_test: "Generating: sdi_xcvr_test_altera_merlin_router_1921_7loa6ei"
+Info (20325): 2023.10.17.11:13:47 Info: sdi_xcvr_test: "Generating: sdi_xcvr_test_altera_merlin_traffic_limiter_191_kcba44q"
+Info (20325): 2023.10.17.11:13:47 Info: my_altera_avalon_sc_fifo_dest_id_fifo: "Generating: my_altera_avalon_sc_fifo_dest_id_fifo"
+Info (20325): 2023.10.17.11:13:47 Info: sdi_xcvr_test: "Generating: sdi_xcvr_test_altera_merlin_demultiplexer_1921_tpjuufq"
+Info (20325): 2023.10.17.11:13:47 Info: sdi_xcvr_test: "Generating: sdi_xcvr_test_altera_merlin_demultiplexer_1921_hidmfdy"
+Info (20325): 2023.10.17.11:13:47 Info: sdi_xcvr_test: "Generating: sdi_xcvr_test_altera_merlin_multiplexer_1922_sx4fypi"
+Info (20325): 2023.10.17.11:13:47 Info: sdi_xcvr_test: "Generating: sdi_xcvr_test_altera_merlin_multiplexer_1922_f3ke5za"
+Info (20325): 2023.10.17.11:13:47 Info: sdi_xcvr_test: "Generating: sdi_xcvr_test_altera_merlin_demultiplexer_1921_vsc72dq"
+Info (20325): 2023.10.17.11:13:47 Info: sdi_xcvr_test: "Generating: sdi_xcvr_test_altera_merlin_multiplexer_1922_o5h777y"
+Info (20325): 2023.10.17.11:13:47 Info: sdi_xcvr_test: "Generating: sdi_xcvr_test_altera_merlin_multiplexer_1922_6c6ivwy"
+Info (20325): 2023.10.17.11:13:47 Info: sdi_xcvr_test: "Generating: sdi_xcvr_test_hs_clk_xer_1940_gyeivji"
+Info (20325): 2023.10.17.11:13:47 Info: sdi_xcvr_test: "Generating: sdi_xcvr_test_altera_merlin_traffic_limiter_altera_avalon_sc_fifo_191_7trhvuy"
+Info (20325): 2023.10.17.11:13:47 Info: sdi_xcvr_test: Done "sdi_xcvr_test" with 32 modules, 36 files
+Info (20325): 2023.10.17.11:13:47 Info: Finished: Create HDL design files for synthesis
+Info (20325): 2023.10.17.11:13:47 Info: Generation of /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/sdi_xcvr_test.qsys (sdi_xcvr_test) took 11074 ms
+Info (20325): 2023.10.17.11:14:09 Info:
+Info (20325): 2023.10.17.11:14:09 Info:
+Info (20325): 2023.10.17.11:14:09 Info: q_sys: All Generic Component instances match their respective ip files.
+Info (20325): 2023.10.17.11:14:09 Info: Saving generation log to /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/q_sys/q_sys_generation.rpt
+Info (20325): 2023.10.17.11:14:09 Info: Generated by version: 23.3 build 104
+Info (20325): 2023.10.17.11:14:09 Info: Starting: Create simulation model
+Info (20325): 2023.10.17.11:14:09 Info: qsys-generate /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/q_sys.qsys --simulation=VERILOG --allow-mixed-language-simulation --output-directory=/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/q_sys --family="Stratix 10" --part=1SG280HU2F50E2VG
+Info (20325): 2023.10.17.11:14:09 Info: Loading qts_qsfp_sdi/q_sys.qsys
+Info (20325): 2023.10.17.11:14:09 Info: Reading input file
+Info (20325): 2023.10.17.11:14:09 Info: Parameterizing module clk_100
+Info (20325): 2023.10.17.11:14:09 Info: Parameterizing module clk_50
+Info (20325): 2023.10.17.11:14:09 Info: Parameterizing module master_0
+Info (20325): 2023.10.17.11:14:09 Info: Parameterizing module product_info_0
+Info (20325): 2023.10.17.11:14:09 Info: Parameterizing module q_sys_pll_status_interconnect_qsfp
+Info (20325): 2023.10.17.11:14:09 Info: Parameterizing module q_sys_pll_status_interconnect_qsfp1
+Info (20325): 2023.10.17.11:14:09 Info: Parameterizing module q_sys_pll_status_interconnect_sdi
+Info (20325): 2023.10.17.11:14:09 Info: Parameterizing module qsfp_xcvr_atx_pll
+Info (20325): 2023.10.17.11:14:09 Info: Parameterizing module qsfp_xcvr_atx_pll1
+Info (20325): 2023.10.17.11:14:09 Info: Parameterizing module qsfp_xcvr_atx_pll_refclk
+Info (20325): 2023.10.17.11:14:09 Info: Parameterizing module qsfp_xcvr_test_0
+Info (20325): 2023.10.17.11:14:09 Info: Parameterizing module qsfp_xcvr_test_1
+Info (20325): 2023.10.17.11:14:09 Info: Parameterizing module qsfp_xcvr_test_3
+Info (20325): 2023.10.17.11:14:09 Info: Parameterizing module qsfp_xcvr_test_4
+Info (20325): 2023.10.17.11:14:09 Info: Parameterizing module sdi_xcvr_atx_pll
+Info (20325): 2023.10.17.11:14:09 Info: Parameterizing module sdi_xcvr_atx_pll_refclk
+Info (20325): 2023.10.17.11:14:09 Info: Parameterizing module sdi_xcvr_test_0
+Info (20325): 2023.10.17.11:14:09 Info: Parameterizing module sdi_xcvr_test_1
+Info (20325): 2023.10.17.11:14:09 Info: Building connections
+Info (20325): 2023.10.17.11:14:09 Info: Parameterizing connections
+Info (20325): 2023.10.17.11:14:09 Info: Validating
+Info (20325): 2023.10.17.11:14:09 Info: Done reading input file
+Info (20325): 2023.10.17.11:14:09 Info: q_sys: "Transforming system: q_sys"
+Info (20325): 2023.10.17.11:14:09 Info: Inserting clock-crossing logic between cmd_demux.src7 and cmd_mux_007.sink0
+Info (20325): 2023.10.17.11:14:09 Info: Inserting clock-crossing logic between cmd_demux.src8 and cmd_mux_008.sink0
+Info (20325): 2023.10.17.11:14:09 Info: Inserting clock-crossing logic between cmd_demux.src9 and cmd_mux_009.sink0
+Info (20325): 2023.10.17.11:14:09 Info: Inserting clock-crossing logic between rsp_demux_007.src0 and rsp_mux.sink7
+Info (20325): 2023.10.17.11:14:09 Info: Inserting clock-crossing logic between rsp_demux_008.src0 and rsp_mux.sink8
+Info (20325): 2023.10.17.11:14:09 Info: Inserting clock-crossing logic between rsp_demux_009.src0 and rsp_mux.sink9
+Info (20325): 2023.10.17.11:14:09 Info: q_sys: "Naming system components in system: q_sys"
+Info (20325): 2023.10.17.11:14:09 Info: q_sys: "Processing generation queue"
+Info (20325): 2023.10.17.11:14:09 Info: q_sys: "Generating: q_sys"
+Info (20325): 2023.10.17.11:14:09 Info: q_sys: "Generating: q_sys_clk_100"
+Info (20325): 2023.10.17.11:14:09 Info: q_sys: "Generating: q_sys_clk_50"
+Info (20325): 2023.10.17.11:14:09 Info: q_sys: "Generating: q_sys_master_0"
+Info (20325): 2023.10.17.11:14:09 Info: q_sys: "Generating: q_sys_product_info_0"
+Info (20325): 2023.10.17.11:14:09 Info: q_sys: "Generating: q_sys_pll_status_interconnect_2"
+Info (20325): 2023.10.17.11:14:09 Info: q_sys: "Generating: q_sys_pll_status_interconnect_0"
+Info (20325): 2023.10.17.11:14:09 Info: q_sys: "Generating: q_sys_pll_status_interconnect_4"
+Info (20325): 2023.10.17.11:14:09 Info: q_sys: "Generating: q_sys_xcvr_atx_pll_s10_htile_1"
+Info (20325): 2023.10.17.11:14:09 Info: q_sys: "Generating: q_sys_xcvr_atx_pll_s10_htile_2"
+Info (20325): 2023.10.17.11:14:09 Info: q_sys: "Generating: q_sys_clock_bridge_0"
+Info (20325): 2023.10.17.11:14:09 Info: q_sys: "Generating: q_sys_xcvr_atx_pll_s10_htile_0"
+Info (20325): 2023.10.17.11:14:09 Info: q_sys: "Generating: q_sys_clock_bridge_1"
+Info (20325): 2023.10.17.11:14:09 Info: q_sys: "Generating: q_sys_altera_mm_interconnect_1920_57nh4yy"
+Info (20325): 2023.10.17.11:14:09 Info: q_sys: "Generating: q_sys_altera_merlin_master_translator_192_lykd4la"
+Info (20325): 2023.10.17.11:14:09 Info: q_sys: "Generating: q_sys_altera_merlin_slave_translator_191_x56fcki"
+Info (20325): 2023.10.17.11:14:09 Info: q_sys: "Generating: q_sys_altera_merlin_master_agent_1921_2inlndi"
+Info (20325): 2023.10.17.11:14:09 Info: q_sys: "Generating: q_sys_altera_merlin_slave_agent_1921_b6r3djy"
+Info (20325): 2023.10.17.11:14:09 Info: q_sys: "Generating: q_sys_altera_avalon_sc_fifo_1931_fzgstwy"
+Info (20325): 2023.10.17.11:14:09 Info: q_sys: "Generating: q_sys_altera_merlin_router_1921_lnketcy"
+Info (20325): 2023.10.17.11:14:09 Info: q_sys: "Generating: q_sys_altera_merlin_router_1921_ww4g4ya"
+Info (20325): 2023.10.17.11:14:09 Info: q_sys: "Generating: q_sys_altera_merlin_traffic_limiter_191_kcba44q"
+Info (20325): 2023.10.17.11:14:09 Info: my_altera_avalon_sc_fifo_dest_id_fifo: "Generating: my_altera_avalon_sc_fifo_dest_id_fifo"
+Info (20325): 2023.10.17.11:14:09 Info: q_sys: "Generating: q_sys_altera_merlin_demultiplexer_1921_tbc4z7i"
+Info (20325): 2023.10.17.11:14:09 Info: q_sys: "Generating: q_sys_altera_merlin_multiplexer_1922_2wwphby"
+Info (20325): 2023.10.17.11:14:09 Info: q_sys: "Generating: q_sys_altera_merlin_demultiplexer_1921_457fupy"
+Info (20325): 2023.10.17.11:14:09 Info: q_sys: "Generating: q_sys_altera_merlin_multiplexer_1922_veanixq"
+Info (20325): 2023.10.17.11:14:09 Info: q_sys: "Generating: q_sys_hs_clk_xer_1940_suurwgi"
+Info (20325): 2023.10.17.11:14:09 Info: q_sys: "Generating: q_sys_altera_avalon_st_pipeline_stage_1930_bv2ucky"
+Info (20325): 2023.10.17.11:14:09 Info: q_sys: "Generating: q_sys_altera_merlin_traffic_limiter_altera_avalon_sc_fifo_191_blu76ua"
+Info (20325): 2023.10.17.11:14:09 Info: q_sys: Done "q_sys" with 31 modules, 28 files
+Info (20325): 2023.10.17.11:14:09 Info: Generating the following file(s) for VCSMX simulator in /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/q_sys/sim/ directory:
+Info (20325): 2023.10.17.11:14:09 Info: common/vcsmx_files.tcl
+Info (20325): 2023.10.17.11:14:09 Info: Generating the following file(s) for XCELIUM simulator in /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/q_sys/sim/ directory:
+Info (20325): 2023.10.17.11:14:09 Info: common/xcelium_files.tcl
+Info (20325): 2023.10.17.11:14:09 Info: Generating the following file(s) for MODELSIM simulator in /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/q_sys/sim/ directory:
+Info (20325): 2023.10.17.11:14:09 Info: common/modelsim_files.tcl
+Info (20325): 2023.10.17.11:14:09 Info: Generating the following file(s) for RIVIERA simulator in /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/q_sys/sim/ directory:
+Info (20325): 2023.10.17.11:14:09 Info: common/riviera_files.tcl
+Info (20325): 2023.10.17.11:14:09 Info: Generating the following file(s) for VCS simulator in /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/q_sys/sim/ directory:
+Info (20325): 2023.10.17.11:14:09 Info: common/vcs_files.tcl
+Info (20325): 2023.10.17.11:14:09 Info: For information on how to simulate your IP, see the explanatory comments in the simulator-specific subdirectories under /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/q_sys/sim/.
+Info (20325): 2023.10.17.11:14:09 Info: Regenerate these scripts whenever you make any change to any Quartus-generated IP in your project.
+Info (20325): 2023.10.17.11:14:09 Info: Finished: Create simulation model
+Info (20325): 2023.10.17.11:14:09 Info: Starting: Create simulation script
+Info (20325): 2023.10.17.11:14:09 Info: sim-script-gen --system-file=/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/q_sys.qsys --output-directory=/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/q_sys/sim/ --use-relative-paths=true
+Info (20325): 2023.10.17.11:14:09 Info: Generating the following file(s) for VCSMX simulator in /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/q_sys/sim/ directory:
+Info (20325): 2023.10.17.11:14:09 Info: synopsys/vcsmx/synopsys_sim.setup
+Info (20325): 2023.10.17.11:14:09 Info: synopsys/vcsmx/vcsmx_setup.sh
+Info (20325): 2023.10.17.11:14:09 Info: Generating the following file(s) for XCELIUM simulator in /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/q_sys/sim/ directory:
+Info (20325): 2023.10.17.11:14:09 Info: xcelium/cds.lib
+Info (20325): 2023.10.17.11:14:09 Info: xcelium/hdl.var
+Info (20325): 2023.10.17.11:14:09 Info: xcelium/xcelium_setup.sh
+Info (20325): 2023.10.17.11:14:09 Info: 1 .cds.lib files in xcelium/cds_libs/ directory
+Info (20325): 2023.10.17.11:14:09 Info: Generating the following file(s) for MODELSIM simulator in /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/q_sys/sim/ directory:
+Info (20325): 2023.10.17.11:14:09 Info: mentor/msim_setup.tcl
+Info (20325): 2023.10.17.11:14:09 Info: Generating the following file(s) for RIVIERA simulator in /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/q_sys/sim/ directory:
+Info (20325): 2023.10.17.11:14:09 Info: aldec/rivierapro_setup.tcl
+Info (20325): 2023.10.17.11:14:09 Info: Generating the following file(s) for VCS simulator in /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/q_sys/sim/ directory:
+Info (20325): 2023.10.17.11:14:09 Info: synopsys/vcs/vcs_setup.sh
+Info (20325): 2023.10.17.11:14:09 Info: For information on how to simulate your IP, see the explanatory comments in the simulator-specific subdirectories under /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/q_sys/sim/.
+Info (20325): 2023.10.17.11:14:09 Info: Regenerate these scripts whenever you make any change to any Quartus-generated IP in your project.
+Info (20325): 2023.10.17.11:14:09 Info: Finished: Create simulation script
+Info (20325): 2023.10.17.11:14:09 Info: Starting: Create block symbol file (.bsf)
+Info (20325): 2023.10.17.11:14:09 Info: qsys-generate /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/q_sys.qsys --block-symbol-file --output-directory=/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/q_sys --family="Stratix 10" --part=1SG280HU2F50E2VG
+Info (20325): 2023.10.17.11:14:09 Info: Loading qts_qsfp_sdi/q_sys.qsys
+Info (20325): 2023.10.17.11:14:09 Info: Reading input file
+Info (20325): 2023.10.17.11:14:09 Info: Parameterizing module clk_100
+Info (20325): 2023.10.17.11:14:09 Info: Parameterizing module clk_50
+Info (20325): 2023.10.17.11:14:09 Info: Parameterizing module master_0
+Info (20325): 2023.10.17.11:14:09 Info: Parameterizing module product_info_0
+Info (20325): 2023.10.17.11:14:09 Info: Parameterizing module q_sys_pll_status_interconnect_qsfp
+Info (20325): 2023.10.17.11:14:09 Info: Parameterizing module q_sys_pll_status_interconnect_qsfp1
+Info (20325): 2023.10.17.11:14:09 Info: Parameterizing module q_sys_pll_status_interconnect_sdi
+Info (20325): 2023.10.17.11:14:09 Info: Parameterizing module qsfp_xcvr_atx_pll
+Info (20325): 2023.10.17.11:14:09 Info: Parameterizing module qsfp_xcvr_atx_pll1
+Info (20325): 2023.10.17.11:14:09 Info: Parameterizing module qsfp_xcvr_atx_pll_refclk
+Info (20325): 2023.10.17.11:14:09 Info: Parameterizing module qsfp_xcvr_test_0
+Info (20325): 2023.10.17.11:14:09 Info: Parameterizing module qsfp_xcvr_test_1
+Info (20325): 2023.10.17.11:14:09 Info: Parameterizing module qsfp_xcvr_test_3
+Info (20325): 2023.10.17.11:14:09 Info: Parameterizing module qsfp_xcvr_test_4
+Info (20325): 2023.10.17.11:14:09 Info: Parameterizing module sdi_xcvr_atx_pll
+Info (20325): 2023.10.17.11:14:09 Info: Parameterizing module sdi_xcvr_atx_pll_refclk
+Info (20325): 2023.10.17.11:14:09 Info: Parameterizing module sdi_xcvr_test_0
+Info (20325): 2023.10.17.11:14:09 Info: Parameterizing module sdi_xcvr_test_1
+Info (20325): 2023.10.17.11:14:09 Info: Building connections
+Info (20325): 2023.10.17.11:14:09 Info: Parameterizing connections
+Info (20325): 2023.10.17.11:14:09 Info: Validating
+Info (20325): 2023.10.17.11:14:09 Info: Done reading input file
+Info (20325): 2023.10.17.11:14:09 Info: Finished: Create block symbol file (.bsf)
+Info (20325): 2023.10.17.11:14:09 Info:
+Info (20325): 2023.10.17.11:14:09 Info: Starting: Create HDL design files for synthesis
+Info (20325): 2023.10.17.11:14:09 Info: qsys-generate /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/q_sys.qsys --synthesis=VERILOG --output-directory=/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/q_sys --family="Stratix 10" --part=1SG280HU2F50E2VG
+Info (20325): 2023.10.17.11:14:09 Info: Loading qts_qsfp_sdi/q_sys.qsys
+Info (20325): 2023.10.17.11:14:09 Info: Reading input file
+Info (20325): 2023.10.17.11:14:09 Info: Parameterizing module clk_100
+Info (20325): 2023.10.17.11:14:09 Info: Parameterizing module clk_50
+Info (20325): 2023.10.17.11:14:09 Info: Parameterizing module master_0
+Info (20325): 2023.10.17.11:14:09 Info: Parameterizing module product_info_0
+Info (20325): 2023.10.17.11:14:09 Info: Parameterizing module q_sys_pll_status_interconnect_qsfp
+Info (20325): 2023.10.17.11:14:09 Info: Parameterizing module q_sys_pll_status_interconnect_qsfp1
+Info (20325): 2023.10.17.11:14:09 Info: Parameterizing module q_sys_pll_status_interconnect_sdi
+Info (20325): 2023.10.17.11:14:09 Info: Parameterizing module qsfp_xcvr_atx_pll
+Info (20325): 2023.10.17.11:14:09 Info: Parameterizing module qsfp_xcvr_atx_pll1
+Info (20325): 2023.10.17.11:14:09 Info: Parameterizing module qsfp_xcvr_atx_pll_refclk
+Info (20325): 2023.10.17.11:14:09 Info: Parameterizing module qsfp_xcvr_test_0
+Info (20325): 2023.10.17.11:14:09 Info: Parameterizing module qsfp_xcvr_test_1
+Info (20325): 2023.10.17.11:14:09 Info: Parameterizing module qsfp_xcvr_test_3
+Info (20325): 2023.10.17.11:14:09 Info: Parameterizing module qsfp_xcvr_test_4
+Info (20325): 2023.10.17.11:14:09 Info: Parameterizing module sdi_xcvr_atx_pll
+Info (20325): 2023.10.17.11:14:09 Info: Parameterizing module sdi_xcvr_atx_pll_refclk
+Info (20325): 2023.10.17.11:14:09 Info: Parameterizing module sdi_xcvr_test_0
+Info (20325): 2023.10.17.11:14:09 Info: Parameterizing module sdi_xcvr_test_1
+Info (20325): 2023.10.17.11:14:09 Info: Building connections
+Info (20325): 2023.10.17.11:14:09 Info: Parameterizing connections
+Info (20325): 2023.10.17.11:14:09 Info: Validating
+Info (20325): 2023.10.17.11:14:09 Info: Done reading input file
+Info (20325): 2023.10.17.11:14:09 Info: q_sys: "Transforming system: q_sys"
+Info (20325): 2023.10.17.11:14:09 Info: Inserting clock-crossing logic between cmd_demux.src7 and cmd_mux_007.sink0
+Info (20325): 2023.10.17.11:14:09 Info: Inserting clock-crossing logic between cmd_demux.src8 and cmd_mux_008.sink0
+Info (20325): 2023.10.17.11:14:09 Info: Inserting clock-crossing logic between cmd_demux.src9 and cmd_mux_009.sink0
+Info (20325): 2023.10.17.11:14:09 Info: Inserting clock-crossing logic between rsp_demux_007.src0 and rsp_mux.sink7
+Info (20325): 2023.10.17.11:14:09 Info: Inserting clock-crossing logic between rsp_demux_008.src0 and rsp_mux.sink8
+Info (20325): 2023.10.17.11:14:09 Info: Inserting clock-crossing logic between rsp_demux_009.src0 and rsp_mux.sink9
+Info (20325): 2023.10.17.11:14:09 Info: q_sys: "Naming system components in system: q_sys"
+Info (20325): 2023.10.17.11:14:09 Info: q_sys: "Processing generation queue"
+Info (20325): 2023.10.17.11:14:09 Info: q_sys: "Generating: q_sys"
+Info (20325): 2023.10.17.11:14:09 Info: q_sys: "Generating: q_sys_clk_100"
+Info (20325): 2023.10.17.11:14:09 Info: q_sys: "Generating: q_sys_clk_50"
+Info (20325): 2023.10.17.11:14:09 Info: q_sys: "Generating: q_sys_master_0"
+Info (20325): 2023.10.17.11:14:09 Info: q_sys: "Generating: q_sys_product_info_0"
+Info (20325): 2023.10.17.11:14:09 Info: q_sys: "Generating: q_sys_pll_status_interconnect_2"
+Info (20325): 2023.10.17.11:14:09 Info: q_sys: "Generating: q_sys_pll_status_interconnect_0"
+Info (20325): 2023.10.17.11:14:09 Info: q_sys: "Generating: q_sys_pll_status_interconnect_4"
+Info (20325): 2023.10.17.11:14:09 Info: q_sys: "Generating: q_sys_xcvr_atx_pll_s10_htile_1"
+Info (20325): 2023.10.17.11:14:09 Info: q_sys: "Generating: q_sys_xcvr_atx_pll_s10_htile_2"
+Info (20325): 2023.10.17.11:14:09 Info: q_sys: "Generating: q_sys_clock_bridge_0"
+Info (20325): 2023.10.17.11:14:09 Info: q_sys: "Generating: q_sys_xcvr_atx_pll_s10_htile_0"
+Info (20325): 2023.10.17.11:14:09 Info: q_sys: "Generating: q_sys_clock_bridge_1"
+Info (20325): 2023.10.17.11:14:09 Info: q_sys: "Generating: q_sys_altera_mm_interconnect_1920_57nh4yy"
+Info (20325): 2023.10.17.11:14:09 Info: q_sys: "Generating: q_sys_altera_merlin_master_translator_192_lykd4la"
+Info (20325): 2023.10.17.11:14:09 Info: q_sys: "Generating: q_sys_altera_merlin_slave_translator_191_x56fcki"
+Info (20325): 2023.10.17.11:14:09 Info: q_sys: "Generating: q_sys_altera_merlin_master_agent_1921_2inlndi"
+Info (20325): 2023.10.17.11:14:09 Info: q_sys: "Generating: q_sys_altera_merlin_slave_agent_1921_b6r3djy"
+Info (20325): 2023.10.17.11:14:09 Info: q_sys: "Generating: q_sys_altera_avalon_sc_fifo_1931_fzgstwy"
+Info (20325): 2023.10.17.11:14:09 Info: q_sys: "Generating: q_sys_altera_merlin_router_1921_lnketcy"
+Info (20325): 2023.10.17.11:14:09 Info: q_sys: "Generating: q_sys_altera_merlin_router_1921_ww4g4ya"
+Info (20325): 2023.10.17.11:14:09 Info: q_sys: "Generating: q_sys_altera_merlin_traffic_limiter_191_kcba44q"
+Info (20325): 2023.10.17.11:14:09 Info: my_altera_avalon_sc_fifo_dest_id_fifo: "Generating: my_altera_avalon_sc_fifo_dest_id_fifo"
+Info (20325): 2023.10.17.11:14:09 Info: q_sys: "Generating: q_sys_altera_merlin_demultiplexer_1921_tbc4z7i"
+Info (20325): 2023.10.17.11:14:09 Info: q_sys: "Generating: q_sys_altera_merlin_multiplexer_1922_2wwphby"
+Info (20325): 2023.10.17.11:14:09 Info: q_sys: "Generating: q_sys_altera_merlin_demultiplexer_1921_457fupy"
+Info (20325): 2023.10.17.11:14:09 Info: q_sys: "Generating: q_sys_altera_merlin_multiplexer_1922_veanixq"
+Info (20325): 2023.10.17.11:14:09 Info: q_sys: "Generating: q_sys_hs_clk_xer_1940_suurwgi"
+Info (20325): 2023.10.17.11:14:09 Info: q_sys: "Generating: q_sys_altera_avalon_st_pipeline_stage_1930_bv2ucky"
+Info (20325): 2023.10.17.11:14:09 Info: q_sys: "Generating: q_sys_altera_merlin_traffic_limiter_altera_avalon_sc_fifo_191_blu76ua"
+Info (20325): 2023.10.17.11:14:09 Info: q_sys: Done "q_sys" with 31 modules, 28 files
+Info (20325): 2023.10.17.11:14:09 Info: Finished: Create HDL design files for synthesis
+Info (20325): 2023.10.17.11:14:09 Info: Generation of /nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/q_sys.qsys (q_sys) took 18623 ms
+Info (20325): 2023.10.17.11:14:09 Info: Finished: Platform Designer system generation
+Info (11131): Completed upgrading IP component fifo with file "ip/xcvr_test_system/xcvr_test_system_rx_fifo.ip"
+Info (11131): Completed upgrading IP component fifo with file "ip/xcvr_test_system/xcvr_test_system_tx_fifo.ip"
+Info (11131): Completed upgrading IP component altera_jtag_avalon_master with file "ip/q_sys/q_sys_master_0.ip"
+Info (11131): Completed upgrading IP component QsysPrimePro with file "qsfp_xcvr_test.qsys"
+Info (11131): Completed upgrading IP component QsysPrimePro with file "q_sys.qsys"
+Info (11131): Completed upgrading IP component QsysPrimePro with file "sdi_xcvr_test.qsys"
+Info (11131): Completed upgrading IP component QsysPrimePro with file "xcvr_test_system.qsys"
+Info (23030): Evaluation of Tcl script /p/psg/swip/releases/acds/23.3/104/linux64/quartus/common/tcl/internal/ip_regen/ip_regen.tcl was successful
+Info: Quartus Prime Shell was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 1210 megabytes
+    Info: Processing ended: Tue Oct 17 11:14:10 2023
+    Info: Elapsed time: 00:01:40
+    Info: System process ID: 26432
+
+

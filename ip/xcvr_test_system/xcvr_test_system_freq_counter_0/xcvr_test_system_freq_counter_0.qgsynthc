@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<node xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:altera="http://www.altera.com/XMLSchema/Qsys/SystemTree">
+  <instanceKey xsi:type="xs:string">xcvr_test_system_freq_counter_0</instanceKey>
+  <instanceData xsi:type="data">
+    <parameters></parameters>
+    <interconnectAssignments></interconnectAssignments>
+    <className>xcvr_test_system_freq_counter_0</className>
+    <version>1.0</version>
+    <name>xcvr_test_system_freq_counter_0</name>
+    <uniqueName>xcvr_test_system_freq_counter_0</uniqueName>
+    <nonce>0</nonce>
+    <incidentConnections></incidentConnections>
+  </instanceData>
+  <children>
+    <node>
+      <instanceKey xsi:type="xs:string">freq_counter_0</instanceKey>
+      <instanceData xsi:type="data">
+        <parameters>
+          <parameter>
+            <name>SYSTEM_CLK_FREQ_PICO_SEC</name>
+            <value>20000</value>
+          </parameter>
+        </parameters>
+        <interconnectAssignments></interconnectAssignments>
+        <className>freq_counter</className>
+        <version>1.0</version>
+        <name>freq_counter_0</name>
+        <uniqueName>freq_counter</uniqueName>
+        <fixedName>freq_counter</fixedName>
+        <nonce>0</nonce>
+        <incidentConnections></incidentConnections>
+        <path>xcvr_test_system_freq_counter_0.freq_counter_0</path>
+      </instanceData>
+      <children></children>
+    </node>
+  </children>
+</node>

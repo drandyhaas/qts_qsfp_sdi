@@ -1,0 +1,65 @@
+set_global_assignment -entity "sdi_xcvr_test_xcvr_native_s10_htile_0" -library "sdi_xcvr_test_xcvr_native_s10_htile_0" -name IP_TOOL_NAME "QsysPrimePro"
+set_global_assignment -entity "sdi_xcvr_test_xcvr_native_s10_htile_0" -library "sdi_xcvr_test_xcvr_native_s10_htile_0" -name IP_TOOL_VERSION "23.3"
+set_global_assignment -entity "sdi_xcvr_test_xcvr_native_s10_htile_0" -library "sdi_xcvr_test_xcvr_native_s10_htile_0" -name IP_TOOL_ENV "QsysPrimePro"
+set_global_assignment -entity "sdi_xcvr_test_xcvr_native_s10_htile_0" -library "sdi_xcvr_test_xcvr_native_s10_htile_0" -name IP_TOOL_VENDOR_NAME "Intel Corporation"
+set_global_assignment -entity "sdi_xcvr_test_xcvr_native_s10_htile_0" -library "sdi_xcvr_test_xcvr_native_s10_htile_0" -name IP_TOP_LEVEL_COMPONENT_NAME "altera_xcvr_native_s10_htile"
+set_global_assignment -library "sdi_xcvr_test_xcvr_native_s10_htile_0" -name SOPCINFO_FILE [file join $::quartus(qip_path) "sdi_xcvr_test_xcvr_native_s10_htile_0.sopcinfo"]
+set_global_assignment -entity "sdi_xcvr_test_xcvr_native_s10_htile_0" -library "sdi_xcvr_test_xcvr_native_s10_htile_0" -name SLD_INFO "QSYS_NAME sdi_xcvr_test_xcvr_native_s10_htile_0 HAS_SOPCINFO 1 GENERATION_ID 0"
+set_global_assignment -library "sdi_xcvr_test_xcvr_native_s10_htile_0" -name MISC_FILE [file join $::quartus(qip_path) "sdi_xcvr_test_xcvr_native_s10_htile_0.cmp"]
+set_global_assignment -entity "sdi_xcvr_test_xcvr_native_s10_htile_0" -library "sdi_xcvr_test_xcvr_native_s10_htile_0" -name IP_TARGETED_DEVICE_FAMILY "Stratix 10"
+set_global_assignment -entity "sdi_xcvr_test_xcvr_native_s10_htile_0" -library "sdi_xcvr_test_xcvr_native_s10_htile_0" -name IP_GENERATED_DEVICE_FAMILY "{Stratix 10}"
+set_global_assignment -entity "sdi_xcvr_test_xcvr_native_s10_htile_0" -library "sdi_xcvr_test_xcvr_native_s10_htile_0" -name IP_QSYS_MODE "STANDALONE"
+set_global_assignment -name SYNTHESIS_ONLY_QIP ON
+set_global_assignment -library "sdi_xcvr_test_xcvr_native_s10_htile_0" -name MISC_FILE [file join $::quartus(qip_path) "../sdi_xcvr_test_xcvr_native_s10_htile_0.ip"]
+
+set_global_assignment -entity "sdi_xcvr_test_xcvr_native_s10_htile_0_altera_xcvr_native_s10_htile_1930_5rlvnya" -library "altera_xcvr_native_s10_htile_1930" -name IP_COMPONENT_NAME "c2RpX3hjdnJfdGVzdF94Y3ZyX25hdGl2ZV9zMTBfaHRpbGVfMF9hbHRlcmFfeGN2cl9uYXRpdmVfczEwX2h0aWxlXzE5MzBfNXJsdm55YQ=="
+set_global_assignment -entity "sdi_xcvr_test_xcvr_native_s10_htile_0_altera_xcvr_native_s10_htile_1930_5rlvnya" -library "altera_xcvr_native_s10_htile_1930" -name IP_COMPONENT_DISPLAY_NAME "TC1UaWxlL0gtVGlsZSBUcmFuc2NlaXZlciBOYXRpdmUgUEhZIEludGVsIFN0cmF0aXggMTAgRlBHQSBJUA=="
+set_global_assignment -entity "sdi_xcvr_test_xcvr_native_s10_htile_0_altera_xcvr_native_s10_htile_1930_5rlvnya" -library "altera_xcvr_native_s10_htile_1930" -name IP_COMPONENT_REPORT_HIERARCHY "Off"
+set_global_assignment -entity "sdi_xcvr_test_xcvr_native_s10_htile_0_altera_xcvr_native_s10_htile_1930_5rlvnya" -library "altera_xcvr_native_s10_htile_1930" -name IP_COMPONENT_INTERNAL "Off"
+set_global_assignment -entity "sdi_xcvr_test_xcvr_native_s10_htile_0_altera_xcvr_native_s10_htile_1930_5rlvnya" -library "altera_xcvr_native_s10_htile_1930" -name IP_COMPONENT_AUTHOR "SW50ZWwgQ29ycG9yYXRpb24="
+set_global_assignment -entity "sdi_xcvr_test_xcvr_native_s10_htile_0_altera_xcvr_native_s10_htile_1930_5rlvnya" -library "altera_xcvr_native_s10_htile_1930" -name IP_COMPONENT_VERSION "MTkuMy4w"
+set_global_assignment -entity "sdi_xcvr_test_xcvr_native_s10_htile_0_altera_xcvr_native_s10_htile_1930_5rlvnya" -library "altera_xcvr_native_s10_htile_1930" -name IP_COMPONENT_DESCRIPTION "U3RyYXRpeCAxMCBMLVRpbGUvSC1UaWxlIFRyYW5zY2VpdmVyIE5hdGl2ZSBQSFku"
+set_global_assignment -entity "sdi_xcvr_test_xcvr_native_s10_htile_0_altera_xcvr_native_s10_htile_1930_5rlvnya" -library "altera_xcvr_native_s10_htile_1930" -name IP_COMPONENT_GROUP "SW50ZXJmYWNlIFByb3RvY29scy9UcmFuc2NlaXZlciBQSFk="
+set_global_assignment -entity "sdi_xcvr_test_xcvr_native_s10_htile_0_altera_xcvr_native_s10_htile_1930_5rlvnya" -library "altera_xcvr_native_s10_htile_1930" -name IP_COMPONENT_DOCUMENTATION_LINK "aHR0cHM6Ly93d3cuaW50ZWwuY29tL2NvbnRlbnQvd3d3L3VzL2VuL2RvY3MvcHJvZ3JhbW1hYmxlLzY4MzYyMS8="
+set_global_assignment -entity "sdi_xcvr_test_xcvr_native_s10_htile_0" -library "sdi_xcvr_test_xcvr_native_s10_htile_0" -name IP_COMPONENT_NAME "c2RpX3hjdnJfdGVzdF94Y3ZyX25hdGl2ZV9zMTBfaHRpbGVfMA=="
+set_global_assignment -entity "sdi_xcvr_test_xcvr_native_s10_htile_0" -library "sdi_xcvr_test_xcvr_native_s10_htile_0" -name IP_COMPONENT_DISPLAY_NAME "c3lzdGVt"
+set_global_assignment -entity "sdi_xcvr_test_xcvr_native_s10_htile_0" -library "sdi_xcvr_test_xcvr_native_s10_htile_0" -name IP_COMPONENT_REPORT_HIERARCHY "On"
+set_global_assignment -entity "sdi_xcvr_test_xcvr_native_s10_htile_0" -library "sdi_xcvr_test_xcvr_native_s10_htile_0" -name IP_COMPONENT_INTERNAL "Off"
+set_global_assignment -entity "sdi_xcvr_test_xcvr_native_s10_htile_0" -library "sdi_xcvr_test_xcvr_native_s10_htile_0" -name IP_COMPONENT_AUTHOR "SW50ZWwgQ29ycG9yYXRpb24="
+set_global_assignment -entity "sdi_xcvr_test_xcvr_native_s10_htile_0" -library "sdi_xcvr_test_xcvr_native_s10_htile_0" -name IP_COMPONENT_VERSION "MS4w"
+
+
+set_global_assignment -library "altera_xcvr_native_s10_htile_1930" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "altera_xcvr_native_s10_htile_1930/synth/alt_xcvr_arbiter.sv"]
+set_global_assignment -library "altera_xcvr_native_s10_htile_1930" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_xcvr_native_s10_htile_1930/synth/altera_std_synchronizer_nocut.v"]
+set_global_assignment -library "altera_xcvr_native_s10_htile_1930" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "altera_xcvr_native_s10_htile_1930/synth/alt_xcvr_resync_std.sv"]
+set_global_assignment -library "altera_xcvr_native_s10_htile_1930" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "altera_xcvr_native_s10_htile_1930/synth/alt_xcvr_reset_counter_s10.sv"]
+set_global_assignment -library "altera_xcvr_native_s10_htile_1930" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "altera_xcvr_native_s10_htile_1930/synth/altera_xcvr_native_s10_functions_h.sv"]
+set_global_assignment -library "altera_xcvr_native_s10_htile_1930" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "altera_xcvr_native_s10_htile_1930/synth/s10_avmm_h.sv"]
+set_global_assignment -library "altera_xcvr_native_s10_htile_1930" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "altera_xcvr_native_s10_htile_1930/synth/alt_xcvr_native_avmm_csr.sv"]
+set_global_assignment -library "altera_xcvr_native_s10_htile_1930" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "altera_xcvr_native_s10_htile_1930/synth/alt_xcvr_native_prbs_accum.sv"]
+set_global_assignment -library "altera_xcvr_native_s10_htile_1930" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "altera_xcvr_native_s10_htile_1930/synth/alt_xcvr_native_odi_accel.sv"]
+set_global_assignment -library "altera_xcvr_native_s10_htile_1930" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "altera_xcvr_native_s10_htile_1930/synth/alt_xcvr_native_rcfg_arb.sv"]
+set_global_assignment -library "altera_xcvr_native_s10_htile_1930" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "altera_xcvr_native_s10_htile_1930/synth/alt_xcvr_early_spd_chng_s10_htile.sv"]
+set_global_assignment -library "altera_xcvr_native_s10_htile_1930" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "altera_xcvr_native_s10_htile_1930/synth/alt_xcvr_native_anlg_reset_seq.sv"]
+set_global_assignment -library "altera_xcvr_native_s10_htile_1930" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "altera_xcvr_native_s10_htile_1930/synth/alt_xcvr_native_dig_reset_seq.sv"]
+set_global_assignment -library "altera_xcvr_native_s10_htile_1930" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "altera_xcvr_native_s10_htile_1930/synth/alt_xcvr_native_reset_seq.sv"]
+set_global_assignment -library "altera_xcvr_native_s10_htile_1930" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "altera_xcvr_native_s10_htile_1930/synth/alt_xcvr_native_anlg_reset_seq_wrapper.sv"]
+set_global_assignment -library "altera_xcvr_native_s10_htile_1930" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_xcvr_native_s10_htile_1930/synth/alt_xcvr_native_re_cal_chnl.v"]
+set_global_assignment -library "altera_xcvr_native_s10_htile_1930" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "altera_xcvr_native_s10_htile_1930/synth/alt_xcvr_pcie_rx_eios_prot.sv"]
+set_global_assignment -library "altera_xcvr_native_s10_htile_1930" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "altera_xcvr_native_s10_htile_1930/synth/alt_xcvr_native_rx_maib_wa.sv"]
+set_global_assignment -library "altera_xcvr_native_s10_htile_1930" -name SOURCE_FILE [file join $::quartus(qip_path) "altera_xcvr_native_s10_htile_1930/synth/plain_files.txt"]
+set_global_assignment -library "altera_xcvr_native_s10_htile_1930" -name SOURCE_FILE [file join $::quartus(qip_path) "altera_xcvr_native_s10_htile_1930/synth/docs/sdi_xcvr_test_xcvr_native_s10_htile_0_altera_xcvr_native_s10_htile_1930_5rlvnya_parameters.csv"]
+set_global_assignment -library "altera_xcvr_native_s10_htile_1930" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "altera_xcvr_native_s10_htile_1930/synth/sdi_xcvr_test_xcvr_native_s10_htile_0_altera_xcvr_native_s10_htile_1930_5rlvnya.sv"]
+set_instance_assignment -entity "sdi_xcvr_test_xcvr_native_s10_htile_0_altera_xcvr_native_s10_htile_1930_5rlvnya" -library "altera_xcvr_native_s10_htile_1930" -name SDC_ENTITY_FILE [file join $::quartus(qip_path) "altera_xcvr_native_s10_htile_1930/synth/sdi_xcvr_test_xcvr_native_s10_htile_0_altera_xcvr_native_s10_htile_1930_5rlvnya.sdc"]
+set_instance_assignment -entity "sdi_xcvr_test_xcvr_native_s10_htile_0_altera_xcvr_native_s10_htile_1930_5rlvnya" -library "altera_xcvr_native_s10_htile_1930" -name TCL_ENTITY_FILE [file join $::quartus(qip_path) "altera_xcvr_native_s10_htile_1930/synth/alt_xcvr_native_helper_functions_5rlvnya.tcl"]
+set_instance_assignment -entity "sdi_xcvr_test_xcvr_native_s10_htile_0_altera_xcvr_native_s10_htile_1930_5rlvnya" -library "altera_xcvr_native_s10_htile_1930" -name SDC_ENTITY_FILE [file join $::quartus(qip_path) "altera_xcvr_native_s10_htile_1930/synth/alt_xcvr_native_global_constraints_5rlvnya.sdc"] -no_sdc_promotion 
+set_instance_assignment -entity "sdi_xcvr_test_xcvr_native_s10_htile_0_altera_xcvr_native_s10_htile_1930_5rlvnya" -library "altera_xcvr_native_s10_htile_1930" -name SDC_ENTITY_FILE [file join $::quartus(qip_path) "altera_xcvr_native_s10_htile_1930/synth/alt_xcvr_native_re_cal_chnl_5rlvnya.sdc"] -no_sdc_promotion 
+set_global_assignment -library "altera_xcvr_native_s10_htile_1930" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "altera_xcvr_native_s10_htile_1930/synth/alt_xcvr_native_rcfg_opt_logic_5rlvnya.sv"]
+set_instance_assignment -entity "sdi_xcvr_test_xcvr_native_s10_htile_0_altera_xcvr_native_s10_htile_1930_5rlvnya" -library "altera_xcvr_native_s10_htile_1930" -name TCL_ENTITY_FILE [file join $::quartus(qip_path) "altera_xcvr_native_s10_htile_1930/synth/sdi_xcvr_test_xcvr_native_s10_htile_0_ip_parameters_5rlvnya.tcl"]
+set_global_assignment -library "sdi_xcvr_test_xcvr_native_s10_htile_0" -name VERILOG_FILE [file join $::quartus(qip_path) "synth/sdi_xcvr_test_xcvr_native_s10_htile_0.v"]
+
+
+set_global_assignment -entity "sdi_xcvr_test_xcvr_native_s10_htile_0_altera_xcvr_native_s10_htile_1930_5rlvnya" -library "altera_xcvr_native_s10_htile_1930" -name IP_TOOL_NAME "altera_xcvr_native_s10_htile"
+set_global_assignment -entity "sdi_xcvr_test_xcvr_native_s10_htile_0_altera_xcvr_native_s10_htile_1930_5rlvnya" -library "altera_xcvr_native_s10_htile_1930" -name IP_TOOL_VERSION "19.3.0"
+set_global_assignment -entity "sdi_xcvr_test_xcvr_native_s10_htile_0_altera_xcvr_native_s10_htile_1930_5rlvnya" -library "altera_xcvr_native_s10_htile_1930" -name IP_TOOL_ENV "QsysPrimePro"
+

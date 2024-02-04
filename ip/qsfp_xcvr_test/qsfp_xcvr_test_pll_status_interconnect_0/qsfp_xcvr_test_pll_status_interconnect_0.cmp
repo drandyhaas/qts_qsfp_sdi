@@ -1,0 +1,11 @@
+	component qsfp_xcvr_test_pll_status_interconnect_0 is
+		port (
+			pll_locked        : in  std_logic_vector(0 downto 0) := (others => 'X'); -- pll_locked
+			pll_powerdown     : out std_logic_vector(0 downto 0);                    -- pll_powerdown
+			mcgb_rst          : out std_logic_vector(0 downto 0);                    -- mcgb_rst
+			pll_locked_output : out std_logic_vector(0 downto 0);                    -- pll_locked
+			pll_locked_a      : out std_logic_vector(0 downto 0);                    -- pll_locked
+			pll_powerdown_a   : in  std_logic_vector(0 downto 0) := (others => 'X')  -- pll_powerdown
+		);
+	end component qsfp_xcvr_test_pll_status_interconnect_0;
+

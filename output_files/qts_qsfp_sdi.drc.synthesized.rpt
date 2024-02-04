@@ -1,0 +1,470 @@
+Design Assistant report for qts_qsfp_sdi
+Thu Feb  1 05:15:02 2024
+Quartus Prime Version 23.3.0 Build 104 09/20/2023 SC Pro Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Design Assistant (Synthesized) Results - 3 of 14 Rules Failed
+  3. RES-30134 - Registers Not Reachable from Reset Release IP
+  4. LNT-30010 - Nets Driving both Reset and Clock Enable Signals
+  5. FLP-10500 - Non Driving Top Level Inputs Found
+  6. LNT-30011 - Design Contains Combinational Loops
+  7. RES-10202 - Register Power-Up Settings Conflict with Device Settings
+  8. LNT-30017 - Register Output Driving Its Own Asynchronous Control Signal Directly or Through Combinational Logic
+  9. LNT-30023 - Reset Nets with Polarity Conflict
+ 10. RES-30132 - Registers May Not Be Properly Reset
+ 11. RES-30133 - Embedded Memory Blocks with Initialized Content That Might be Modified Before the FPGA Enters User Mode
+ 12. TMC-20052 - Paths with Post Synthesis Inferred Latches
+ 13. LNT-50006 - DSP Control Signal Registers Reset Mode Mismatch
+ 14. TMC-20053 - DSP Inputs Driven by High Fan-Out Net
+ 15. TMC-20500 - Hierarchical Tree Duplication was Shallower than Possible
+ 16. TMC-20501 - Hierarchical Tree Duplication was Shallower than Requested
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2023  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the Intel FPGA Software License Subscription Agreements 
+on the Quartus Prime software download page.
+
+
+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Design Assistant (Synthesized) Results - 3 of 14 Rules Failed                                                                                                                          ;
++---------------------------------------------------------------------------------------------------------------------+----------+------------+--------+---------------------------------+
+; Rule                                                                                                                ; Severity ; Violations ; Waived ; Tags                            ;
++---------------------------------------------------------------------------------------------------------------------+----------+------------+--------+---------------------------------+
+; RES-30134 - Registers Not Reachable from Reset Release IP                                                           ; Medium   ; 247        ; 0      ; reset-usage, reset-reachability ;
+; LNT-30010 - Nets Driving both Reset and Clock Enable Signals                                                        ; Low      ; 6          ; 0      ; reset-usage                     ;
+; FLP-10500 - Non Driving Top Level Inputs Found                                                                      ; Low      ; 4          ; 0      ; system                          ;
+; LNT-30011 - Design Contains Combinational Loops                                                                     ; High     ; 0          ; 0      ; nonstandard-timing              ;
+; RES-10202 - Register Power-Up Settings Conflict with Device Settings                                                ; High     ; 0          ; 0      ; reset-usage                     ;
+; LNT-30017 - Register Output Driving Its Own Asynchronous Control Signal Directly or Through Combinational Logic     ; Medium   ; 0          ; 0      ; nonstandard-timing              ;
+; LNT-30023 - Reset Nets with Polarity Conflict                                                                       ; Medium   ; 0          ; 0      ; reset-usage                     ;
+; RES-30132 - Registers May Not Be Properly Reset                                                                     ; Medium   ; 0          ; 0      ; reset-usage, reset-reachability ;
+; RES-30133 - Embedded Memory Blocks with Initialized Content That Might be Modified Before the FPGA Enters User Mode ; Medium   ; 0          ; 0      ; ram, reset-usage                ;
+; TMC-20052 - Paths with Post Synthesis Inferred Latches                                                              ; Medium   ; 0          ; 0      ; nonstandard-timing, latch       ;
+; LNT-50006 - DSP Control Signal Registers Reset Mode Mismatch                                                        ; Low      ; 0          ; 0      ; dsp, reset-usage                ;
+; TMC-20053 - DSP Inputs Driven by High Fan-Out Net                                                                   ; Low      ; 0          ; 0      ; dsp                             ;
+; TMC-20500 - Hierarchical Tree Duplication was Shallower than Possible                                               ; Low      ; 0          ; 0      ; register-duplication, synthesis ;
+; TMC-20501 - Hierarchical Tree Duplication was Shallower than Requested                                              ; Low      ; 0          ; 0      ; register-duplication, synthesis ;
++---------------------------------------------------------------------------------------------------------------------+----------+------------+--------+---------------------------------+
+
+
+Status:		FAIL
+Severity:		Medium
+Number of violations: 	247
+Rule Parameters:      	max_violations = 5000
++--------------------------------------------------------------------------------------------------+
+; RES-30134 - Registers Not Reachable from Reset Release IP                                        ;
++-----------------------------------------------------------------------------------------+--------+
+; Register Node                                                                           ; Waived ;
++-----------------------------------------------------------------------------------------+--------+
+; cnt_1s[26]                                                                              ;        ;
+; cnt_1s[15]                                                                              ;        ;
+; q_sys_i|qsfp_xcvr_test_1|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[28] ;        ;
+; q_sys_i|qsfp_xcvr_test_1|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[16] ;        ;
+; q_sys_i|qsfp_xcvr_test_1|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[17] ;        ;
+; q_sys_i|qsfp_xcvr_test_1|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[18] ;        ;
+; q_sys_i|qsfp_xcvr_test_1|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[19] ;        ;
+; q_sys_i|qsfp_xcvr_test_1|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[20] ;        ;
+; q_sys_i|qsfp_xcvr_test_1|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[21] ;        ;
+; q_sys_i|qsfp_xcvr_test_1|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[22] ;        ;
+; q_sys_i|qsfp_xcvr_test_1|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[23] ;        ;
+; q_sys_i|qsfp_xcvr_test_1|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[24] ;        ;
+; cnt_1s[16]                                                                              ;        ;
+; q_sys_i|qsfp_xcvr_test_1|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[25] ;        ;
+; q_sys_i|qsfp_xcvr_test_1|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[26] ;        ;
+; q_sys_i|qsfp_xcvr_test_1|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[27] ;        ;
+; q_sys_i|qsfp_xcvr_test_1|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[15] ;        ;
+; q_sys_i|qsfp_xcvr_test_1|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[10] ;        ;
+; q_sys_i|qsfp_xcvr_test_1|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[11] ;        ;
+; q_sys_i|qsfp_xcvr_test_1|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[12] ;        ;
+; q_sys_i|qsfp_xcvr_test_1|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[13] ;        ;
+; q_sys_i|qsfp_xcvr_test_1|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[14] ;        ;
+; q_sys_i|qsfp_xcvr_test_1|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[5]  ;        ;
+; cnt_1s[17]                                                                              ;        ;
+; q_sys_i|qsfp_xcvr_test_1|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[6]  ;        ;
+; q_sys_i|qsfp_xcvr_test_1|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[7]  ;        ;
+; q_sys_i|qsfp_xcvr_test_1|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[8]  ;        ;
+; q_sys_i|qsfp_xcvr_test_1|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[9]  ;        ;
+; q_sys_i|qsfp_xcvr_test_1|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[4]  ;        ;
+; q_sys_i|qsfp_xcvr_test_4|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[0]  ;        ;
+; q_sys_i|qsfp_xcvr_test_4|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[1]  ;        ;
+; q_sys_i|qsfp_xcvr_test_4|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[2]  ;        ;
+; q_sys_i|qsfp_xcvr_test_4|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[3]  ;        ;
+; q_sys_i|qsfp_xcvr_test_4|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[31] ;        ;
+; cnt_1s[18]                                                                              ;        ;
+; q_sys_i|qsfp_xcvr_test_4|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[30] ;        ;
+; q_sys_i|qsfp_xcvr_test_4|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[29] ;        ;
+; q_sys_i|qsfp_xcvr_test_4|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[28] ;        ;
+; q_sys_i|qsfp_xcvr_test_4|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[10] ;        ;
+; q_sys_i|qsfp_xcvr_test_4|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[11] ;        ;
+; q_sys_i|qsfp_xcvr_test_4|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[12] ;        ;
+; q_sys_i|qsfp_xcvr_test_4|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[13] ;        ;
+; q_sys_i|qsfp_xcvr_test_4|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[14] ;        ;
+; q_sys_i|qsfp_xcvr_test_4|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[4]  ;        ;
+; q_sys_i|qsfp_xcvr_test_4|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[5]  ;        ;
+; cnt_1s[0]                                                                               ;        ;
+; q_sys_i|qsfp_xcvr_test_4|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[6]  ;        ;
+; q_sys_i|qsfp_xcvr_test_4|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[7]  ;        ;
+; q_sys_i|qsfp_xcvr_test_4|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[8]  ;        ;
+; q_sys_i|qsfp_xcvr_test_4|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[9]  ;        ;
+; q_sys_i|qsfp_xcvr_test_4|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[15] ;        ;
+; q_sys_i|qsfp_xcvr_test_4|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[16] ;        ;
+; q_sys_i|qsfp_xcvr_test_4|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[17] ;        ;
+; q_sys_i|qsfp_xcvr_test_4|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[18] ;        ;
+; q_sys_i|qsfp_xcvr_test_4|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[19] ;        ;
+; q_sys_i|qsfp_xcvr_test_4|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[20] ;        ;
+; cnt_1s[1]                                                                               ;        ;
+; q_sys_i|qsfp_xcvr_test_4|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[21] ;        ;
+; q_sys_i|qsfp_xcvr_test_4|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[22] ;        ;
+; q_sys_i|qsfp_xcvr_test_4|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[23] ;        ;
+; q_sys_i|qsfp_xcvr_test_4|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[24] ;        ;
+; q_sys_i|qsfp_xcvr_test_4|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[25] ;        ;
+; q_sys_i|qsfp_xcvr_test_4|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[26] ;        ;
+; q_sys_i|qsfp_xcvr_test_4|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[27] ;        ;
+; q_sys_i|sdi_xcvr_test_0|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[0]   ;        ;
+; q_sys_i|sdi_xcvr_test_0|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[1]   ;        ;
+; q_sys_i|sdi_xcvr_test_0|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[2]   ;        ;
+; cnt_1s[2]                                                                               ;        ;
+; q_sys_i|sdi_xcvr_test_0|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[3]   ;        ;
+; q_sys_i|sdi_xcvr_test_0|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[31]  ;        ;
+; q_sys_i|sdi_xcvr_test_0|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[30]  ;        ;
+; q_sys_i|sdi_xcvr_test_0|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[29]  ;        ;
+; q_sys_i|sdi_xcvr_test_0|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[28]  ;        ;
+; q_sys_i|sdi_xcvr_test_0|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[16]  ;        ;
+; q_sys_i|sdi_xcvr_test_0|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[17]  ;        ;
+; q_sys_i|sdi_xcvr_test_0|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[18]  ;        ;
+; q_sys_i|sdi_xcvr_test_0|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[19]  ;        ;
+; q_sys_i|sdi_xcvr_test_0|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[20]  ;        ;
+; cnt_1s[3]                                                                               ;        ;
+; q_sys_i|sdi_xcvr_test_0|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[21]  ;        ;
+; q_sys_i|sdi_xcvr_test_0|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[22]  ;        ;
+; q_sys_i|sdi_xcvr_test_0|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[23]  ;        ;
+; q_sys_i|sdi_xcvr_test_0|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[24]  ;        ;
+; q_sys_i|sdi_xcvr_test_0|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[25]  ;        ;
+; q_sys_i|sdi_xcvr_test_0|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[26]  ;        ;
+; q_sys_i|sdi_xcvr_test_0|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[27]  ;        ;
+; q_sys_i|sdi_xcvr_test_0|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[15]  ;        ;
+; q_sys_i|sdi_xcvr_test_0|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[10]  ;        ;
+; q_sys_i|sdi_xcvr_test_0|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[11]  ;        ;
+; cnt_1s[4]                                                                               ;        ;
+; q_sys_i|sdi_xcvr_test_0|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[12]  ;        ;
+; q_sys_i|sdi_xcvr_test_0|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[13]  ;        ;
+; q_sys_i|sdi_xcvr_test_0|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[14]  ;        ;
+; q_sys_i|sdi_xcvr_test_0|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[5]   ;        ;
+; q_sys_i|sdi_xcvr_test_0|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[6]   ;        ;
+; q_sys_i|sdi_xcvr_test_0|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[7]   ;        ;
+; q_sys_i|sdi_xcvr_test_0|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[8]   ;        ;
+; q_sys_i|sdi_xcvr_test_0|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[9]   ;        ;
+; q_sys_i|sdi_xcvr_test_0|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[4]   ;        ;
+; q_sys_i|sdi_xcvr_test_1|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[0]   ;        ;
+; cnt_1s[5]                                                                               ;        ;
+; q_sys_i|sdi_xcvr_test_1|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[1]   ;        ;
+; q_sys_i|sdi_xcvr_test_1|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[2]   ;        ;
+; q_sys_i|sdi_xcvr_test_1|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[3]   ;        ;
+; q_sys_i|sdi_xcvr_test_1|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[31]  ;        ;
+; q_sys_i|sdi_xcvr_test_1|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[30]  ;        ;
+; q_sys_i|sdi_xcvr_test_1|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[29]  ;        ;
+; q_sys_i|sdi_xcvr_test_1|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[28]  ;        ;
+; q_sys_i|sdi_xcvr_test_1|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[10]  ;        ;
+; q_sys_i|sdi_xcvr_test_1|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[11]  ;        ;
+; q_sys_i|sdi_xcvr_test_1|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[12]  ;        ;
+; cnt_1s[25]                                                                              ;        ;
+; cnt_1s[6]                                                                               ;        ;
+; q_sys_i|sdi_xcvr_test_1|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[13]  ;        ;
+; q_sys_i|sdi_xcvr_test_1|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[14]  ;        ;
+; q_sys_i|sdi_xcvr_test_1|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[4]   ;        ;
+; q_sys_i|sdi_xcvr_test_1|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[5]   ;        ;
+; q_sys_i|sdi_xcvr_test_1|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[6]   ;        ;
+; q_sys_i|sdi_xcvr_test_1|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[7]   ;        ;
+; q_sys_i|sdi_xcvr_test_1|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[8]   ;        ;
+; q_sys_i|sdi_xcvr_test_1|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[9]   ;        ;
+; q_sys_i|sdi_xcvr_test_1|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[15]  ;        ;
+; q_sys_i|sdi_xcvr_test_1|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[16]  ;        ;
+; cnt_1s[7]                                                                               ;        ;
+; q_sys_i|sdi_xcvr_test_1|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[17]  ;        ;
+; q_sys_i|sdi_xcvr_test_1|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[18]  ;        ;
+; q_sys_i|sdi_xcvr_test_1|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[19]  ;        ;
+; q_sys_i|sdi_xcvr_test_1|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[20]  ;        ;
+; q_sys_i|sdi_xcvr_test_1|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[21]  ;        ;
+; q_sys_i|sdi_xcvr_test_1|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[22]  ;        ;
+; q_sys_i|sdi_xcvr_test_1|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[23]  ;        ;
+; q_sys_i|sdi_xcvr_test_1|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[24]  ;        ;
+; q_sys_i|sdi_xcvr_test_1|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[25]  ;        ;
+; q_sys_i|sdi_xcvr_test_1|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[26]  ;        ;
+; cnt_1s[8]                                                                               ;        ;
+; q_sys_i|sdi_xcvr_test_1|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[27]  ;        ;
+; heart_beat_cnt[0]                                                                       ;        ;
+; heart_beat_cnt[1]                                                                       ;        ;
+; heart_beat_cnt[2]                                                                       ;        ;
+; heart_beat_cnt[3]                                                                       ;        ;
+; heart_beat_cnt[4]                                                                       ;        ;
+; heart_beat_cnt[5]                                                                       ;        ;
+; heart_beat_cnt[6]                                                                       ;        ;
+; heart_beat_cnt[7]                                                                       ;        ;
+; heart_beat_cnt[8]                                                                       ;        ;
+; cnt_1s[9]                                                                               ;        ;
+; heart_beat_cnt[9]                                                                       ;        ;
+; heart_beat_cnt[10]                                                                      ;        ;
+; heart_beat_cnt[11]                                                                      ;        ;
+; heart_beat_cnt[12]                                                                      ;        ;
+; heart_beat_cnt[13]                                                                      ;        ;
+; heart_beat_cnt[14]                                                                      ;        ;
+; heart_beat_cnt[15]                                                                      ;        ;
+; heart_beat_cnt[16]                                                                      ;        ;
+; heart_beat_cnt[17]                                                                      ;        ;
+; heart_beat_cnt[18]                                                                      ;        ;
+; cnt_1s[10]                                                                              ;        ;
+; heart_beat_cnt[19]                                                                      ;        ;
+; heart_beat_cnt[20]                                                                      ;        ;
+; heart_beat_cnt[21]                                                                      ;        ;
+; heart_beat_cnt[22]                                                                      ;        ;
+; heart_beat_cnt[23]                                                                      ;        ;
+; heart_beat_cnt[24]                                                                      ;        ;
+; heart_beat_cnt[25]                                                                      ;        ;
+; heart_beat_cnt[26]                                                                      ;        ;
+; cnt_1s[11]                                                                              ;        ;
+; cnt_1s[23]                                                                              ;        ;
+; cnt_1s[24]                                                                              ;        ;
+; system_reset_n[0]                                                                       ;        ;
+; q_sys_i|qsfp_xcvr_test_0|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[0]  ;        ;
+; cnt_1s[22]                                                                              ;        ;
+; q_sys_i|qsfp_xcvr_test_0|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[1]  ;        ;
+; q_sys_i|qsfp_xcvr_test_0|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[2]  ;        ;
+; q_sys_i|qsfp_xcvr_test_0|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[3]  ;        ;
+; q_sys_i|qsfp_xcvr_test_0|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[31] ;        ;
+; q_sys_i|qsfp_xcvr_test_0|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[30] ;        ;
+; q_sys_i|qsfp_xcvr_test_0|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[29] ;        ;
+; q_sys_i|qsfp_xcvr_test_0|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[28] ;        ;
+; q_sys_i|qsfp_xcvr_test_0|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[16] ;        ;
+; q_sys_i|qsfp_xcvr_test_0|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[17] ;        ;
+; q_sys_i|qsfp_xcvr_test_0|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[18] ;        ;
+; cnt_1s[21]                                                                              ;        ;
+; q_sys_i|qsfp_xcvr_test_0|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[19] ;        ;
+; q_sys_i|qsfp_xcvr_test_0|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[20] ;        ;
+; q_sys_i|qsfp_xcvr_test_0|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[21] ;        ;
+; q_sys_i|qsfp_xcvr_test_0|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[22] ;        ;
+; q_sys_i|qsfp_xcvr_test_0|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[23] ;        ;
+; q_sys_i|qsfp_xcvr_test_0|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[24] ;        ;
+; q_sys_i|qsfp_xcvr_test_0|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[25] ;        ;
+; q_sys_i|qsfp_xcvr_test_0|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[26] ;        ;
+; q_sys_i|qsfp_xcvr_test_0|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[27] ;        ;
+; q_sys_i|qsfp_xcvr_test_0|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[15] ;        ;
+; cnt_1s[20]                                                                              ;        ;
+; q_sys_i|qsfp_xcvr_test_0|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[10] ;        ;
+; q_sys_i|qsfp_xcvr_test_0|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[11] ;        ;
+; q_sys_i|qsfp_xcvr_test_0|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[12] ;        ;
+; q_sys_i|qsfp_xcvr_test_0|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[13] ;        ;
+; q_sys_i|qsfp_xcvr_test_0|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[14] ;        ;
+; q_sys_i|qsfp_xcvr_test_0|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[5]  ;        ;
+; q_sys_i|qsfp_xcvr_test_0|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[6]  ;        ;
+; q_sys_i|qsfp_xcvr_test_0|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[7]  ;        ;
+; q_sys_i|qsfp_xcvr_test_0|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[8]  ;        ;
+; q_sys_i|qsfp_xcvr_test_0|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[9]  ;        ;
+; cnt_1s[19]                                                                              ;        ;
+; q_sys_i|qsfp_xcvr_test_0|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[4]  ;        ;
+; q_sys_i|qsfp_xcvr_test_3|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[0]  ;        ;
+; q_sys_i|qsfp_xcvr_test_3|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[1]  ;        ;
+; q_sys_i|qsfp_xcvr_test_3|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[2]  ;        ;
+; q_sys_i|qsfp_xcvr_test_3|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[3]  ;        ;
+; q_sys_i|qsfp_xcvr_test_3|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[31] ;        ;
+; q_sys_i|qsfp_xcvr_test_3|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[30] ;        ;
+; q_sys_i|qsfp_xcvr_test_3|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[29] ;        ;
+; q_sys_i|qsfp_xcvr_test_3|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[28] ;        ;
+; q_sys_i|qsfp_xcvr_test_3|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[16] ;        ;
+; cnt_1s[12]                                                                              ;        ;
+; q_sys_i|qsfp_xcvr_test_3|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[17] ;        ;
+; q_sys_i|qsfp_xcvr_test_3|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[18] ;        ;
+; q_sys_i|qsfp_xcvr_test_3|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[19] ;        ;
+; q_sys_i|qsfp_xcvr_test_3|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[20] ;        ;
+; q_sys_i|qsfp_xcvr_test_3|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[21] ;        ;
+; q_sys_i|qsfp_xcvr_test_3|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[22] ;        ;
+; q_sys_i|qsfp_xcvr_test_3|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[23] ;        ;
+; q_sys_i|qsfp_xcvr_test_3|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[24] ;        ;
+; q_sys_i|qsfp_xcvr_test_3|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[25] ;        ;
+; q_sys_i|qsfp_xcvr_test_3|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[26] ;        ;
+; cnt_1s[13]                                                                              ;        ;
+; q_sys_i|qsfp_xcvr_test_3|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[27] ;        ;
+; q_sys_i|qsfp_xcvr_test_3|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[15] ;        ;
+; q_sys_i|qsfp_xcvr_test_3|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[10] ;        ;
+; q_sys_i|qsfp_xcvr_test_3|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[11] ;        ;
+; q_sys_i|qsfp_xcvr_test_3|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[12] ;        ;
+; q_sys_i|qsfp_xcvr_test_3|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[13] ;        ;
+; q_sys_i|qsfp_xcvr_test_3|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[14] ;        ;
+; q_sys_i|qsfp_xcvr_test_3|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[5]  ;        ;
+; q_sys_i|qsfp_xcvr_test_3|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[6]  ;        ;
+; q_sys_i|qsfp_xcvr_test_3|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[7]  ;        ;
+; cnt_1s[14]                                                                              ;        ;
+; q_sys_i|qsfp_xcvr_test_3|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[8]  ;        ;
+; q_sys_i|qsfp_xcvr_test_3|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[9]  ;        ;
+; q_sys_i|qsfp_xcvr_test_3|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[4]  ;        ;
+; q_sys_i|qsfp_xcvr_test_1|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[0]  ;        ;
+; q_sys_i|qsfp_xcvr_test_1|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[1]  ;        ;
+; q_sys_i|qsfp_xcvr_test_1|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[2]  ;        ;
+; q_sys_i|qsfp_xcvr_test_1|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[3]  ;        ;
+; q_sys_i|qsfp_xcvr_test_1|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[31] ;        ;
+; q_sys_i|qsfp_xcvr_test_1|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[30] ;        ;
+; q_sys_i|qsfp_xcvr_test_1|xcvr_test_system_0|freq_counter_0|freq_counter_0|count_1ms[29] ;        ;
++-----------------------------------------------------------------------------------------+--------+
+
+
+Status:		FAIL
+Severity:		Low
+Number of violations: 	6
+Rule Parameters:      	max_violations = 5000
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; LNT-30010 - Nets Driving both Reset and Clock Enable Signals                                                                                                                                                                                                                                                                                                                                                                ;
++------------------------------------------------------------------------------------+---------------------------+---------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------+--------------------------------------+-------------------------------------+--------------------------------+--------+
+; Driver                                                                             ; Asynchronous Reset Signal ; Synchronous Reset Signal                                                                    ; Clock Enable Signal                                                                   ; Number of Asynchronous Reset Signals ; Number of Synchronous Reset Signals ; Number of Clock Enable Signals ; Waived ;
++------------------------------------------------------------------------------------+---------------------------+---------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------+--------------------------------------+-------------------------------------+--------------------------------+--------+
+; q_sys_i|qsfp_xcvr_test_0|xcvr_test_system_0|freq_counter_0|freq_counter_0|pls_1sec ; --                        ; q_sys_i|qsfp_xcvr_test_0|xcvr_test_system_0|freq_counter_0|freq_counter_0|freq_int[31]|SCLR ; q_sys_i|qsfp_xcvr_test_0|xcvr_test_system_0|freq_counter_0|freq_counter_0|freq[0]|ENA ; 0                                    ; 32                                  ; 32                             ;        ;
+; q_sys_i|qsfp_xcvr_test_3|xcvr_test_system_0|freq_counter_0|freq_counter_0|pls_1sec ; --                        ; q_sys_i|qsfp_xcvr_test_3|xcvr_test_system_0|freq_counter_0|freq_counter_0|freq_int[31]|SCLR ; q_sys_i|qsfp_xcvr_test_3|xcvr_test_system_0|freq_counter_0|freq_counter_0|freq[0]|ENA ; 0                                    ; 32                                  ; 32                             ;        ;
+; q_sys_i|qsfp_xcvr_test_1|xcvr_test_system_0|freq_counter_0|freq_counter_0|pls_1sec ; --                        ; q_sys_i|qsfp_xcvr_test_1|xcvr_test_system_0|freq_counter_0|freq_counter_0|freq_int[31]|SCLR ; q_sys_i|qsfp_xcvr_test_1|xcvr_test_system_0|freq_counter_0|freq_counter_0|freq[0]|ENA ; 0                                    ; 32                                  ; 32                             ;        ;
+; q_sys_i|qsfp_xcvr_test_4|xcvr_test_system_0|freq_counter_0|freq_counter_0|pls_1sec ; --                        ; q_sys_i|qsfp_xcvr_test_4|xcvr_test_system_0|freq_counter_0|freq_counter_0|freq_int[31]|SCLR ; q_sys_i|qsfp_xcvr_test_4|xcvr_test_system_0|freq_counter_0|freq_counter_0|freq[0]|ENA ; 0                                    ; 32                                  ; 32                             ;        ;
+; q_sys_i|sdi_xcvr_test_0|xcvr_test_system_0|freq_counter_0|freq_counter_0|pls_1sec  ; --                        ; q_sys_i|sdi_xcvr_test_0|xcvr_test_system_0|freq_counter_0|freq_counter_0|freq_int[31]|SCLR  ; q_sys_i|sdi_xcvr_test_0|xcvr_test_system_0|freq_counter_0|freq_counter_0|freq[0]|ENA  ; 0                                    ; 32                                  ; 32                             ;        ;
+; q_sys_i|sdi_xcvr_test_1|xcvr_test_system_0|freq_counter_0|freq_counter_0|pls_1sec  ; --                        ; q_sys_i|sdi_xcvr_test_1|xcvr_test_system_0|freq_counter_0|freq_counter_0|freq_int[31]|SCLR  ; q_sys_i|sdi_xcvr_test_1|xcvr_test_system_0|freq_counter_0|freq_counter_0|freq[0]|ENA  ; 0                                    ; 32                                  ; 32                             ;        ;
++------------------------------------------------------------------------------------+---------------------------+---------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------+--------------------------------------+-------------------------------------+--------------------------------+--------+
+
+
+Status:		FAIL
+Severity:		Low
+Number of violations: 	4
+Rule Parameters:      	max_violations = 5000
++------------------------------------------------+
+; FLP-10500 - Non Driving Top Level Inputs Found ;
++------------------+-----------------------------+
+; Input Name       ; Waived                      ;
++------------------+-----------------------------+
+; qsfp_interruptn  ;                             ;
+; qsfp_mod_prsn    ;                             ;
+; user_dipsw[0..3] ;                             ;
+; user_pb[0..2]    ;                             ;
++------------------+-----------------------------+
+
+
+Status:		PASS
+Severity:		High
+Number of violations: 	0
+Rule Parameters:      	max_violations = 5000
++-------------------------------------------------+
+; LNT-30011 - Design Contains Combinational Loops ;
++-------------------------------------------------+
+
+
+Status:		PASS
+Severity:		High
+Number of violations: 	0
+Rule Parameters:      	max_violations = 5000
++----------------------------------------------------------------------+
+; RES-10202 - Register Power-Up Settings Conflict with Device Settings ;
++----------------------------------------------------------------------+
+
+
+Status:		PASS
+Severity:		Medium
+Number of violations: 	0
+Rule Parameters:      	max_violations = 5000
++-----------------------------------------------------------------------------------------------------------------+
+; LNT-30017 - Register Output Driving Its Own Asynchronous Control Signal Directly or Through Combinational Logic ;
++-----------------------------------------------------------------------------------------------------------------+
+
+
+Status:		PASS
+Severity:		Medium
+Number of violations: 	0
+Rule Parameters:      	max_violations = 5000
++-----------------------------------------------+
+; LNT-30023 - Reset Nets with Polarity Conflict ;
++-----------------------------------------------+
+
+
+Status:		PASS
+Severity:		Medium
+Number of violations: 	0
+Rule Parameters:      	max_violations = 5000
++-------------------------------------------------+
+; RES-30132 - Registers May Not Be Properly Reset ;
++-------------------------------------------------+
+
+
+Status:		PASS
+Severity:		Medium
+Number of violations: 	0
+Rule Parameters:      	
+		max_violations = 5000
+		exclude_ram_blocks_without_mif = True
++---------------------------------------------------------------------------------------------------------------------+
+; RES-30133 - Embedded Memory Blocks with Initialized Content That Might be Modified Before the FPGA Enters User Mode ;
++---------------------------------------------------------------------------------------------------------------------+
+
+
+Status:		PASS
+Severity:		Medium
+Number of violations: 	0
+Rule Parameters:      	max_violations = 5000
++--------------------------------------------------------+
+; TMC-20052 - Paths with Post Synthesis Inferred Latches ;
++--------------------------------------------------------+
+
+
+Status:		PASS
+Severity:		Low
+Number of violations: 	0
+Rule Parameters:      	
+		max_violations = 5000
+		DSP_Chain_Threshold = 2
+		DSP_Check_User_WYSIWYGs = True
++--------------------------------------------------------------+
+; LNT-50006 - DSP Control Signal Registers Reset Mode Mismatch ;
++--------------------------------------------------------------+
+
+
+Status:		PASS
+Severity:		Low
+Number of violations: 	0
+Rule Parameters:      	
+		max_violations = 5000
+		DSP_High_Fanout_Net_Threshold = 500
+		DSP_Chain_Threshold = 2
+		DSP_Check_User_WYSIWYGs = True
++---------------------------------------------------+
+; TMC-20053 - DSP Inputs Driven by High Fan-Out Net ;
++---------------------------------------------------+
+
+
+Status:		PASS
+Severity:		Low
+Number of violations: 	0
+Rule Parameters:      	max_violations = 5000
++-----------------------------------------------------------------------+
+; TMC-20500 - Hierarchical Tree Duplication was Shallower than Possible ;
++-----------------------------------------------------------------------+
+
+
+Status:		PASS
+Severity:		Low
+Number of violations: 	0
+Rule Parameters:      	max_violations = 5000
++------------------------------------------------------------------------+
+; TMC-20501 - Hierarchical Tree Duplication was Shallower than Requested ;
++------------------------------------------------------------------------+
+
+

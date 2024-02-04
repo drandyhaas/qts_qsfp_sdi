@@ -1,0 +1,44 @@
+set_global_assignment -entity "sdi_xcvr_test_xcvr_reset_control_s10_0" -library "sdi_xcvr_test_xcvr_reset_control_s10_0" -name IP_TOOL_NAME "QsysPrimePro"
+set_global_assignment -entity "sdi_xcvr_test_xcvr_reset_control_s10_0" -library "sdi_xcvr_test_xcvr_reset_control_s10_0" -name IP_TOOL_VERSION "23.3"
+set_global_assignment -entity "sdi_xcvr_test_xcvr_reset_control_s10_0" -library "sdi_xcvr_test_xcvr_reset_control_s10_0" -name IP_TOOL_ENV "QsysPrimePro"
+set_global_assignment -entity "sdi_xcvr_test_xcvr_reset_control_s10_0" -library "sdi_xcvr_test_xcvr_reset_control_s10_0" -name IP_TOOL_VENDOR_NAME "Intel Corporation"
+set_global_assignment -entity "sdi_xcvr_test_xcvr_reset_control_s10_0" -library "sdi_xcvr_test_xcvr_reset_control_s10_0" -name IP_TOP_LEVEL_COMPONENT_NAME "altera_xcvr_reset_control_s10"
+set_global_assignment -library "sdi_xcvr_test_xcvr_reset_control_s10_0" -name SOPCINFO_FILE [file join $::quartus(qip_path) "sdi_xcvr_test_xcvr_reset_control_s10_0.sopcinfo"]
+set_global_assignment -entity "sdi_xcvr_test_xcvr_reset_control_s10_0" -library "sdi_xcvr_test_xcvr_reset_control_s10_0" -name SLD_INFO "QSYS_NAME sdi_xcvr_test_xcvr_reset_control_s10_0 HAS_SOPCINFO 1 GENERATION_ID 0"
+set_global_assignment -library "sdi_xcvr_test_xcvr_reset_control_s10_0" -name MISC_FILE [file join $::quartus(qip_path) "sdi_xcvr_test_xcvr_reset_control_s10_0.cmp"]
+set_global_assignment -entity "sdi_xcvr_test_xcvr_reset_control_s10_0" -library "sdi_xcvr_test_xcvr_reset_control_s10_0" -name IP_TARGETED_DEVICE_FAMILY "Stratix 10"
+set_global_assignment -entity "sdi_xcvr_test_xcvr_reset_control_s10_0" -library "sdi_xcvr_test_xcvr_reset_control_s10_0" -name IP_GENERATED_DEVICE_FAMILY "{Stratix 10}"
+set_global_assignment -entity "sdi_xcvr_test_xcvr_reset_control_s10_0" -library "sdi_xcvr_test_xcvr_reset_control_s10_0" -name IP_QSYS_MODE "STANDALONE"
+set_global_assignment -name SYNTHESIS_ONLY_QIP ON
+set_global_assignment -library "sdi_xcvr_test_xcvr_reset_control_s10_0" -name MISC_FILE [file join $::quartus(qip_path) "../sdi_xcvr_test_xcvr_reset_control_s10_0.ip"]
+
+set_global_assignment -entity "altera_xcvr_reset_control_s10" -library "altera_xcvr_reset_control_s10_1911" -name IP_COMPONENT_NAME "YWx0ZXJhX3hjdnJfcmVzZXRfY29udHJvbF9zMTA="
+set_global_assignment -entity "altera_xcvr_reset_control_s10" -library "altera_xcvr_reset_control_s10_1911" -name IP_COMPONENT_DISPLAY_NAME "VHJhbnNjZWl2ZXIgUEhZIFJlc2V0IENvbnRyb2xsZXIgSW50ZWwgU3RyYXRpeCAxMCBGUEdBIElQ"
+set_global_assignment -entity "altera_xcvr_reset_control_s10" -library "altera_xcvr_reset_control_s10_1911" -name IP_COMPONENT_REPORT_HIERARCHY "Off"
+set_global_assignment -entity "altera_xcvr_reset_control_s10" -library "altera_xcvr_reset_control_s10_1911" -name IP_COMPONENT_INTERNAL "Off"
+set_global_assignment -entity "altera_xcvr_reset_control_s10" -library "altera_xcvr_reset_control_s10_1911" -name IP_COMPONENT_AUTHOR "SW50ZWwgQ29ycG9yYXRpb24="
+set_global_assignment -entity "altera_xcvr_reset_control_s10" -library "altera_xcvr_reset_control_s10_1911" -name IP_COMPONENT_VERSION "MTkuMS4x"
+set_global_assignment -entity "altera_xcvr_reset_control_s10" -library "altera_xcvr_reset_control_s10_1911" -name IP_COMPONENT_DESCRIPTION "VHJhbnNjZWl2ZXIgUEhZIFJlc2V0IENvbnRyb2xsZXIgSW50ZWwgU3RyYXRpeCAxMCBGUEdBIElQ"
+set_global_assignment -entity "altera_xcvr_reset_control_s10" -library "altera_xcvr_reset_control_s10_1911" -name IP_COMPONENT_GROUP "SW50ZXJmYWNlIFByb3RvY29scy9UcmFuc2NlaXZlciBQSFk="
+set_global_assignment -entity "altera_xcvr_reset_control_s10" -library "altera_xcvr_reset_control_s10_1911" -name IP_COMPONENT_DOCUMENTATION_LINK "aHR0cHM6Ly93d3cuYWx0ZXJhLmNvbS9jb250ZW50L2RhbS9hbHRlcmEtd3d3L2dsb2JhbC9lbl9VUy9wZGZzL2xpdGVyYXR1cmUvaGIvc3RyYXRpeC0xMC91Z19zdHJhdGl4MTBfbF9odGlsZV94Y3ZyX3BoeS5wZGY="
+set_global_assignment -entity "sdi_xcvr_test_xcvr_reset_control_s10_0" -library "sdi_xcvr_test_xcvr_reset_control_s10_0" -name IP_COMPONENT_NAME "c2RpX3hjdnJfdGVzdF94Y3ZyX3Jlc2V0X2NvbnRyb2xfczEwXzA="
+set_global_assignment -entity "sdi_xcvr_test_xcvr_reset_control_s10_0" -library "sdi_xcvr_test_xcvr_reset_control_s10_0" -name IP_COMPONENT_DISPLAY_NAME "c3lzdGVt"
+set_global_assignment -entity "sdi_xcvr_test_xcvr_reset_control_s10_0" -library "sdi_xcvr_test_xcvr_reset_control_s10_0" -name IP_COMPONENT_REPORT_HIERARCHY "On"
+set_global_assignment -entity "sdi_xcvr_test_xcvr_reset_control_s10_0" -library "sdi_xcvr_test_xcvr_reset_control_s10_0" -name IP_COMPONENT_INTERNAL "Off"
+set_global_assignment -entity "sdi_xcvr_test_xcvr_reset_control_s10_0" -library "sdi_xcvr_test_xcvr_reset_control_s10_0" -name IP_COMPONENT_AUTHOR "SW50ZWwgQ29ycG9yYXRpb24="
+set_global_assignment -entity "sdi_xcvr_test_xcvr_reset_control_s10_0" -library "sdi_xcvr_test_xcvr_reset_control_s10_0" -name IP_COMPONENT_VERSION "MS4w"
+
+
+set_global_assignment -library "altera_xcvr_reset_control_s10_1911" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_xcvr_reset_control_s10_1911/synth/altera_std_synchronizer_nocut.v"]
+set_global_assignment -library "altera_xcvr_reset_control_s10_1911" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "altera_xcvr_reset_control_s10_1911/synth/alt_xcvr_resync_std.sv"]
+set_global_assignment -library "altera_xcvr_reset_control_s10_1911" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "altera_xcvr_reset_control_s10_1911/synth/altera_xcvr_reset_control_s10.sv"]
+set_global_assignment -library "altera_xcvr_reset_control_s10_1911" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "altera_xcvr_reset_control_s10_1911/synth/alt_xcvr_reset_counter_s10.sv"]
+set_global_assignment -library "altera_xcvr_reset_control_s10_1911" -name SOURCE_FILE [file join $::quartus(qip_path) "altera_xcvr_reset_control_s10_1911/synth/plain_files.txt"]
+set_instance_assignment -entity "altera_xcvr_reset_control_s10" -library "altera_xcvr_reset_control_s10_1911" -name SDC_ENTITY_FILE [file join $::quartus(qip_path) "altera_xcvr_reset_control_s10_1911/synth/alt_xcvr_reset_s10.sdc"]
+set_global_assignment -library "sdi_xcvr_test_xcvr_reset_control_s10_0" -name VERILOG_FILE [file join $::quartus(qip_path) "synth/sdi_xcvr_test_xcvr_reset_control_s10_0.v"]
+
+
+set_global_assignment -entity "altera_xcvr_reset_control_s10" -library "altera_xcvr_reset_control_s10_1911" -name IP_TOOL_NAME "altera_xcvr_reset_control_s10"
+set_global_assignment -entity "altera_xcvr_reset_control_s10" -library "altera_xcvr_reset_control_s10_1911" -name IP_TOOL_VERSION "19.1.1"
+set_global_assignment -entity "altera_xcvr_reset_control_s10" -library "altera_xcvr_reset_control_s10_1911" -name IP_TOOL_ENV "QsysPrimePro"
+

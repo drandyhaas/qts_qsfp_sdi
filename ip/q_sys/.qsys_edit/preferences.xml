@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences>
+ <debug showDebugMenu="0" />
+ <library expandedCategories="Existing IP Variants,Library,Project" />
+ <window width="2576" height="1416" x="-8" y="-8" />
+ <systemtable filter="All Interfaces">
+  <columns>
+   <connections preferredWidth="47" />
+   <name preferredWidth="329" />
+   <export preferredWidth="336" />
+  </columns>
+ </systemtable>
+ <generation path="" />
+</preferences>

@@ -1,0 +1,24 @@
+set_global_assignment -entity "qsfp_xcvr_test_clk_100" -library "qsfp_xcvr_test_clk_100" -name IP_TOOL_NAME "QsysPrimePro"
+set_global_assignment -entity "qsfp_xcvr_test_clk_100" -library "qsfp_xcvr_test_clk_100" -name IP_TOOL_VERSION "23.3"
+set_global_assignment -entity "qsfp_xcvr_test_clk_100" -library "qsfp_xcvr_test_clk_100" -name IP_TOOL_ENV "QsysPrimePro"
+set_global_assignment -entity "qsfp_xcvr_test_clk_100" -library "qsfp_xcvr_test_clk_100" -name IP_TOOL_VENDOR_NAME "Altera Corporation"
+set_global_assignment -entity "qsfp_xcvr_test_clk_100" -library "qsfp_xcvr_test_clk_100" -name IP_TOP_LEVEL_COMPONENT_NAME "clock_source"
+set_global_assignment -library "qsfp_xcvr_test_clk_100" -name SOPCINFO_FILE [file join $::quartus(qip_path) "qsfp_xcvr_test_clk_100.sopcinfo"]
+set_global_assignment -entity "qsfp_xcvr_test_clk_100" -library "qsfp_xcvr_test_clk_100" -name SLD_INFO "QSYS_NAME qsfp_xcvr_test_clk_100 HAS_SOPCINFO 1 GENERATION_ID 0"
+set_global_assignment -library "qsfp_xcvr_test_clk_100" -name MISC_FILE [file join $::quartus(qip_path) "qsfp_xcvr_test_clk_100.cmp"]
+set_global_assignment -entity "qsfp_xcvr_test_clk_100" -library "qsfp_xcvr_test_clk_100" -name IP_TARGETED_DEVICE_FAMILY "Stratix 10"
+set_global_assignment -entity "qsfp_xcvr_test_clk_100" -library "qsfp_xcvr_test_clk_100" -name IP_GENERATED_DEVICE_FAMILY "{Stratix 10}"
+set_global_assignment -entity "qsfp_xcvr_test_clk_100" -library "qsfp_xcvr_test_clk_100" -name IP_QSYS_MODE "STANDALONE"
+set_global_assignment -name SYNTHESIS_ONLY_QIP ON
+set_global_assignment -library "qsfp_xcvr_test_clk_100" -name MISC_FILE [file join $::quartus(qip_path) "../qsfp_xcvr_test_clk_100.ip"]
+
+set_global_assignment -entity "qsfp_xcvr_test_clk_100" -library "qsfp_xcvr_test_clk_100" -name IP_COMPONENT_NAME "cXNmcF94Y3ZyX3Rlc3RfY2xrXzEwMA=="
+set_global_assignment -entity "qsfp_xcvr_test_clk_100" -library "qsfp_xcvr_test_clk_100" -name IP_COMPONENT_DISPLAY_NAME "c3lzdGVt"
+set_global_assignment -entity "qsfp_xcvr_test_clk_100" -library "qsfp_xcvr_test_clk_100" -name IP_COMPONENT_REPORT_HIERARCHY "On"
+set_global_assignment -entity "qsfp_xcvr_test_clk_100" -library "qsfp_xcvr_test_clk_100" -name IP_COMPONENT_INTERNAL "Off"
+set_global_assignment -entity "qsfp_xcvr_test_clk_100" -library "qsfp_xcvr_test_clk_100" -name IP_COMPONENT_AUTHOR "QWx0ZXJhIENvcnBvcmF0aW9u"
+set_global_assignment -entity "qsfp_xcvr_test_clk_100" -library "qsfp_xcvr_test_clk_100" -name IP_COMPONENT_VERSION "MS4w"
+
+
+set_global_assignment -library "qsfp_xcvr_test_clk_100" -name VERILOG_FILE [file join $::quartus(qip_path) "synth/qsfp_xcvr_test_clk_100.v"]
+

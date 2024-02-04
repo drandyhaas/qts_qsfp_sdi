@@ -1,0 +1,12 @@
+	component xcvr_test_system_xcvr_tx_rx_clkout2_converter_0 is
+		port (
+			rx_clkout2        : in  std_logic := 'X'; -- clk
+			rx_clkout2_a      : out std_logic;        -- export
+			rx_clkout2_b      : out std_logic;        -- export
+			tx_clkout2        : in  std_logic := 'X'; -- clk
+			tx_clkout2_a      : out std_logic;        -- export
+			tx_clkout2_b      : out std_logic;        -- export
+			tx_clkout2_sample : out std_logic         -- clk
+		);
+	end component xcvr_test_system_xcvr_tx_rx_clkout2_converter_0;
+

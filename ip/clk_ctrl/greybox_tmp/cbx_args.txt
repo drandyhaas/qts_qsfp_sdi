@@ -1,0 +1,12 @@
+ENA_REGISTER_MODE=none
+INTENDED_DEVICE_FAMILY="Stratix V"
+USE_GLITCH_FREE_SWITCH_OVER_IMPLEMENTATION=ON
+clock_type="Global Clock"
+DEVICE_FAMILY="Stratix V"
+clkselect
+clkselect
+ena
+inclk
+inclk
+inclk
+outclk

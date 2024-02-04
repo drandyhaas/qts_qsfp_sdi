@@ -1,0 +1,1360 @@
+Fitter Fastforward Stage Report for qts_qsfp_sdi
+Thu Feb  1 04:02:23 2024
+Quartus Prime Version 21.2.0 Build 72 06/14/2021 SC Pro Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Summary
+  3. Settings
+  4. Clock Fmax Summary
+  5. Clock Worst-Case Slack Summary
+  6. Fast Forward Summary for Clock Domain q_sys_i|qsfp_xcvr_test_1|xcvr_native_s10_0|tx_clkout|ch0
+  7. Critical Chain for Base Result
+  8. Meets timing requirements: No further analysis performed.
+  9. Fast Forward Summary for Clock Domain q_sys_i|qsfp_xcvr_test_4|xcvr_native_s10_0|tx_clkout|ch0
+ 10. Critical Chain for Base Result
+ 11. Meets timing requirements: No further analysis performed.
+ 12. Fast Forward Summary for Clock Domain q_sys_i|qsfp_xcvr_test_4|xcvr_native_s10_0|rx_clkout|ch0
+ 13. Critical Chain for Base Result
+ 14. Meets timing requirements: No further analysis performed.
+ 15. Fast Forward Summary for Clock Domain q_sys_i|qsfp_xcvr_test_3|xcvr_native_s10_0|tx_clkout|ch0
+ 16. Critical Chain for Base Result
+ 17. Meets timing requirements: No further analysis performed.
+ 18. Fast Forward Summary for Clock Domain q_sys_i|qsfp_xcvr_test_0|xcvr_native_s10_0|rx_clkout|ch0
+ 19. Critical Chain for Base Result
+ 20. Meets timing requirements: No further analysis performed.
+ 21. Fast Forward Summary for Clock Domain q_sys_i|qsfp_xcvr_test_0|xcvr_native_s10_0|tx_clkout|ch0
+ 22. Critical Chain for Base Result
+ 23. Meets timing requirements: No further analysis performed.
+ 24. Fast Forward Summary for Clock Domain q_sys_i|qsfp_xcvr_test_3|xcvr_native_s10_0|rx_clkout2|ch0
+ 25. Critical Chain for Base Result
+ 26. Meets timing requirements: No further analysis performed.
+ 27. Fast Forward Summary for Clock Domain q_sys_i|qsfp_xcvr_test_3|xcvr_native_s10_0|rx_clkout|ch0
+ 28. Critical Chain for Base Result
+ 29. Meets timing requirements: No further analysis performed.
+ 30. Fast Forward Summary for Clock Domain q_sys_i|qsfp_xcvr_test_1|xcvr_native_s10_0|rx_clkout|ch0
+ 31. Critical Chain for Base Result
+ 32. Meets timing requirements: No further analysis performed.
+ 33. Fast Forward Summary for Clock Domain q_sys_i|qsfp_xcvr_test_0|xcvr_native_s10_0|rx_clkout2|ch0
+ 34. Critical Chain for Base Result
+ 35. Meets timing requirements: No further analysis performed.
+ 36. Fast Forward Summary for Clock Domain q_sys_i|qsfp_xcvr_test_4|xcvr_native_s10_0|rx_clkout2|ch0
+ 37. Critical Chain for Base Result
+ 38. Meets timing requirements: No further analysis performed.
+ 39. Fast Forward Summary for Clock Domain q_sys_i|qsfp_xcvr_test_1|xcvr_native_s10_0|rx_clkout2|ch0
+ 40. Critical Chain for Base Result
+ 41. Meets timing requirements: No further analysis performed.
+ 42. Fast Forward Summary for Clock Domain q_sys_i|qsfp_xcvr_test_1|xcvr_native_s10_0|tx_clkout2|ch0
+ 43. Critical Chain for Base Result
+ 44. Meets timing requirements: No further analysis performed.
+ 45. Fast Forward Summary for Clock Domain q_sys_i|qsfp_xcvr_test_0|xcvr_native_s10_0|tx_clkout2|ch0
+ 46. Critical Chain for Base Result
+ 47. Meets timing requirements: No further analysis performed.
+ 48. Fast Forward Summary for Clock Domain q_sys_i|qsfp_xcvr_test_3|xcvr_native_s10_0|tx_clkout2|ch0
+ 49. Critical Chain for Base Result
+ 50. Meets timing requirements: No further analysis performed.
+ 51. Fast Forward Summary for Clock Domain q_sys_i|qsfp_xcvr_test_4|xcvr_native_s10_0|tx_clkout2|ch0
+ 52. Critical Chain for Base Result
+ 53. Meets timing requirements: No further analysis performed.
+ 54. Fast Forward Summary for Clock Domain altera_reserved_tck
+ 55. Critical Chain for Base Result
+ 56. Meets timing requirements: No further analysis performed.
+ 57. Fast Forward Summary for Clock Domain clk_fpga_100m
+ 58. Critical Chain for Base Result
+ 59. Meets timing requirements: No further analysis performed.
+ 60. Fast Forward Summary for Clock Domain ALTERA_INSERTED_INTOSC_FOR_TRS|divided_osc_clk
+ 61. Critical Chain for Base Result
+ 62. Meets timing requirements: No further analysis performed.
+ 63. Fast Forward Summary for Clock Domain q_sys_i|sdi_xcvr_test_0|xcvr_native_s10_0|tx_clkout|ch0
+ 64. Critical Chain for Base Result
+ 65. Meets timing requirements: No further analysis performed.
+ 66. Fast Forward Summary for Clock Domain q_sys_i|sdi_xcvr_test_0|xcvr_native_s10_0|rx_clkout|ch0
+ 67. Critical Chain for Base Result
+ 68. Meets timing requirements: No further analysis performed.
+ 69. Fast Forward Summary for Clock Domain q_sys_i|sdi_xcvr_test_1|xcvr_native_s10_0|tx_clkout|ch0
+ 70. Critical Chain for Base Result
+ 71. Meets timing requirements: No further analysis performed.
+ 72. Fast Forward Summary for Clock Domain q_sys_i|sdi_xcvr_test_1|xcvr_native_s10_0|rx_clkout|ch0
+ 73. Critical Chain for Base Result
+ 74. Meets timing requirements: No further analysis performed.
+ 75. Fast Forward Summary for Clock Domain q_sys_i|sdi_xcvr_test_0|xcvr_native_s10_0|rx_clkout2|ch0
+ 76. Critical Chain for Base Result
+ 77. Meets timing requirements: No further analysis performed.
+ 78. Fast Forward Summary for Clock Domain clk_50
+ 79. Critical Chain for Base Result
+ 80. Meets timing requirements: No further analysis performed.
+ 81. Fast Forward Summary for Clock Domain q_sys_i|sdi_xcvr_test_1|xcvr_native_s10_0|rx_clkout2|ch0
+ 82. Critical Chain for Base Result
+ 83. Meets timing requirements: No further analysis performed.
+ 84. Fast Forward Summary for Clock Domain q_sys_i|sdi_xcvr_test_1|xcvr_native_s10_0|tx_clkout2|ch0
+ 85. Critical Chain for Base Result
+ 86. Meets timing requirements: No further analysis performed.
+ 87. Fast Forward Summary for Clock Domain q_sys_i|sdi_xcvr_test_0|xcvr_native_s10_0|tx_clkout2|ch0
+ 88. Critical Chain for Base Result
+ 89. Meets timing requirements: No further analysis performed.
+ 90. Fast Forward Summary for Clock Domain q_sys_i|qsfp_xcvr_test_1|xcvr_native_s10_0|qsfp_xcvr_test_xcvr_native_s10_htile_1|recal_clk_div8|ch0
+ 91. Critical Chain for Base Result
+ 92. Meets timing requirements: No further analysis performed.
+ 93. Fast Forward Summary for Clock Domain q_sys_i|qsfp_xcvr_test_3|xcvr_native_s10_0|qsfp_xcvr_test_xcvr_native_s10_htile_1|recal_clk_div8|ch0
+ 94. Critical Chain for Base Result
+ 95. Meets timing requirements: No further analysis performed.
+ 96. Fast Forward Summary for Clock Domain q_sys_i|qsfp_xcvr_test_4|xcvr_native_s10_0|qsfp_xcvr_test_xcvr_native_s10_htile_1|recal_clk_div8|ch0
+ 97. Critical Chain for Base Result
+ 98. Meets timing requirements: No further analysis performed.
+ 99. Fast Forward Summary for Clock Domain q_sys_i|qsfp_xcvr_test_0|xcvr_native_s10_0|qsfp_xcvr_test_xcvr_native_s10_htile_1|recal_clk_div8|ch0
+100. Critical Chain for Base Result
+101. Meets timing requirements: No further analysis performed.
+102. Hyper-Retimer INI Usage
+103. Fastforward Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2021  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+
+
+
++-------------------------------------------------------------------+
+; Summary                                                           ;
++-----------------------+-------------------------------------------+
+; Fast Forward Status   ; Successful - Thu Feb  1 04:02:22 2024     ;
+; Quartus Prime Version ; 21.2.0 Build 72 06/14/2021 SC Pro Edition ;
+; Revision Name         ; qts_qsfp_sdi                              ;
+; Top-level Entity Name ; qts_qsfp_sdi                              ;
+; Family                ; Stratix 10                                ;
+; Device                ; 1SG280HU2F50E2VG                          ;
++-----------------------+-------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------+
+; Settings                                                                                          ;
++-------------------------------------------------------------------------+---------+---------------+
+; Option                                                                  ; Setting ; Default Value ;
++-------------------------------------------------------------------------+---------+---------------+
+; Enable Hyper-Retimer Fast Forward analysis during compilation           ; On      ; Off           ;
+; Enable Hyper-Retimer Fast Forward Hierarchy analysis during compilation ; On      ; On            ;
+; Fast Forward Compile Cut All Clock Transfers                            ; On      ; On            ;
+; Fast Forward Compile Maximum Additional Pipeline Stages                 ; -1      ; -1            ;
+; Fast Forward Compile Asynchronous Clears                                ; Auto    ; Auto          ;
+; Fast Forward Compile User Preserve Directives                           ; Auto    ; Auto          ;
+; Fast Forward Compile Fully Register DSP blocks                          ; On      ; On            ;
+; Fast Forward Compile Fully Register RAM blocks                          ; On      ; On            ;
+; Enable Critical Chain Viewer                                            ; On      ; On            ;
++-------------------------------------------------------------------------+---------+---------------+
+To turn on Fast Forward analysis during Quartus compilation, edit the setting in the HyperFlex settings menu in the Quartus GUI or set_global_assignment -name FLOW_ENABLE_HYPER_RETIMER_FAST_FORWARD ON in your QSF
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Clock Fmax Summary                                                                                                                                                                                                                  ;
++------------------------------------------------------------------------------------------------------+---------+------------------------------+--------------------------------+----------------------------------+-----------------+
+; Clock Name                                                                                           ; Fmax    ; Achieved with Hyper-Retiming ; Achieved with Hyper-Pipelining ; Achieved with Hyper-Optimization ; Restricted Fmax ;
++------------------------------------------------------------------------------------------------------+---------+------------------------------+--------------------------------+----------------------------------+-----------------+
+; clk_fpga_100m                                                                                        ; 156 MHz ; 156 MHz                      ; 156 MHz                        ; 156 MHz                          ; 156 MHz         ;
+; q_sys_i|qsfp_xcvr_test_0|xcvr_native_s10_0|rx_clkout|ch0                                             ; 493 MHz ; 493 MHz                      ; 493 MHz                        ; 493 MHz                          ; 493 MHz         ;
+; q_sys_i|sdi_xcvr_test_0|xcvr_native_s10_0|rx_clkout|ch0                                              ; 338 MHz ; 338 MHz                      ; 338 MHz                        ; 338 MHz                          ; 338 MHz         ;
+; q_sys_i|qsfp_xcvr_test_3|xcvr_native_s10_0|rx_clkout|ch0                                             ; 521 MHz ; 521 MHz                      ; 521 MHz                        ; 521 MHz                          ; 521 MHz         ;
+; q_sys_i|qsfp_xcvr_test_1|xcvr_native_s10_0|rx_clkout|ch0                                             ; 525 MHz ; 525 MHz                      ; 525 MHz                        ; 525 MHz                          ; 525 MHz         ;
+; q_sys_i|qsfp_xcvr_test_4|xcvr_native_s10_0|rx_clkout|ch0                                             ; 484 MHz ; 484 MHz                      ; 484 MHz                        ; 484 MHz                          ; 484 MHz         ;
+; q_sys_i|sdi_xcvr_test_1|xcvr_native_s10_0|rx_clkout|ch0                                              ; 377 MHz ; 377 MHz                      ; 377 MHz                        ; 377 MHz                          ; 377 MHz         ;
+; ALTERA_INSERTED_INTOSC_FOR_TRS|divided_osc_clk                                                       ; 231 MHz ; 231 MHz                      ; 231 MHz                        ; 231 MHz                          ; 231 MHz         ;
+; q_sys_i|qsfp_xcvr_test_0|xcvr_native_s10_0|tx_clkout|ch0                                             ; 493 MHz ; 493 MHz                      ; 493 MHz                        ; 493 MHz                          ; 493 MHz         ;
+; q_sys_i|sdi_xcvr_test_0|xcvr_native_s10_0|tx_clkout|ch0                                              ; 299 MHz ; 299 MHz                      ; 299 MHz                        ; 299 MHz                          ; 299 MHz         ;
+; q_sys_i|qsfp_xcvr_test_3|xcvr_native_s10_0|tx_clkout|ch0                                             ; 486 MHz ; 486 MHz                      ; 486 MHz                        ; 486 MHz                          ; 486 MHz         ;
+; q_sys_i|qsfp_xcvr_test_1|xcvr_native_s10_0|tx_clkout|ch0                                             ; 465 MHz ; 465 MHz                      ; 465 MHz                        ; 465 MHz                          ; 465 MHz         ;
+; q_sys_i|qsfp_xcvr_test_4|xcvr_native_s10_0|tx_clkout|ch0                                             ; 469 MHz ; 469 MHz                      ; 469 MHz                        ; 469 MHz                          ; 469 MHz         ;
+; q_sys_i|sdi_xcvr_test_1|xcvr_native_s10_0|tx_clkout|ch0                                              ; 342 MHz ; 342 MHz                      ; 342 MHz                        ; 342 MHz                          ; 342 MHz         ;
+; q_sys_i|qsfp_xcvr_test_0|xcvr_native_s10_0|tx_clkout2|ch0                                            ; 329 MHz ; 329 MHz                      ; 329 MHz                        ; 329 MHz                          ; 329 MHz         ;
+; q_sys_i|sdi_xcvr_test_0|xcvr_native_s10_0|tx_clkout2|ch0                                             ; 257 MHz ; 257 MHz                      ; 257 MHz                        ; 257 MHz                          ; 257 MHz         ;
+; q_sys_i|qsfp_xcvr_test_3|xcvr_native_s10_0|tx_clkout2|ch0                                            ; 334 MHz ; 334 MHz                      ; 334 MHz                        ; 334 MHz                          ; 334 MHz         ;
+; q_sys_i|qsfp_xcvr_test_1|xcvr_native_s10_0|tx_clkout2|ch0                                            ; 325 MHz ; 325 MHz                      ; 325 MHz                        ; 325 MHz                          ; 325 MHz         ;
+; q_sys_i|qsfp_xcvr_test_4|xcvr_native_s10_0|tx_clkout2|ch0                                            ; 340 MHz ; 340 MHz                      ; 340 MHz                        ; 340 MHz                          ; 340 MHz         ;
+; q_sys_i|sdi_xcvr_test_1|xcvr_native_s10_0|tx_clkout2|ch0                                             ; 250 MHz ; 250 MHz                      ; 250 MHz                        ; 250 MHz                          ; 250 MHz         ;
+; clk_50                                                                                               ; 186 MHz ; 186 MHz                      ; 186 MHz                        ; 186 MHz                          ; 186 MHz         ;
+; q_sys_i|qsfp_xcvr_test_0|xcvr_native_s10_0|rx_clkout2|ch0                                            ; 231 MHz ; 231 MHz                      ; 231 MHz                        ; 231 MHz                          ; 231 MHz         ;
+; q_sys_i|qsfp_xcvr_test_3|xcvr_native_s10_0|rx_clkout2|ch0                                            ; 226 MHz ; 226 MHz                      ; 226 MHz                        ; 226 MHz                          ; 226 MHz         ;
+; q_sys_i|qsfp_xcvr_test_1|xcvr_native_s10_0|rx_clkout2|ch0                                            ; 248 MHz ; 248 MHz                      ; 248 MHz                        ; 248 MHz                          ; 248 MHz         ;
+; q_sys_i|qsfp_xcvr_test_4|xcvr_native_s10_0|rx_clkout2|ch0                                            ; 236 MHz ; 236 MHz                      ; 236 MHz                        ; 236 MHz                          ; 236 MHz         ;
+; q_sys_i|sdi_xcvr_test_1|xcvr_native_s10_0|rx_clkout2|ch0                                             ; 147 MHz ; 147 MHz                      ; 147 MHz                        ; 147 MHz                          ; 147 MHz         ;
+; q_sys_i|sdi_xcvr_test_0|xcvr_native_s10_0|rx_clkout2|ch0                                             ; 139 MHz ; 139 MHz                      ; 139 MHz                        ; 139 MHz                          ; 139 MHz         ;
+; altera_reserved_tck                                                                                  ; 28 MHz  ; 28 MHz                       ; 28 MHz                         ; 28 MHz                           ; 28 MHz          ;
+; q_sys_i|qsfp_xcvr_test_0|xcvr_native_s10_0|qsfp_xcvr_test_xcvr_native_s10_htile_1|recal_clk_div8|ch0 ; 304 MHz ; 304 MHz                      ; 304 MHz                        ; 304 MHz                          ; 304 MHz         ;
+; q_sys_i|qsfp_xcvr_test_1|xcvr_native_s10_0|qsfp_xcvr_test_xcvr_native_s10_htile_1|recal_clk_div8|ch0 ; 271 MHz ; 271 MHz                      ; 271 MHz                        ; 271 MHz                          ; 271 MHz         ;
+; q_sys_i|qsfp_xcvr_test_3|xcvr_native_s10_0|qsfp_xcvr_test_xcvr_native_s10_htile_1|recal_clk_div8|ch0 ; 298 MHz ; 298 MHz                      ; 298 MHz                        ; 298 MHz                          ; 298 MHz         ;
+; q_sys_i|qsfp_xcvr_test_4|xcvr_native_s10_0|qsfp_xcvr_test_xcvr_native_s10_htile_1|recal_clk_div8|ch0 ; 300 MHz ; 300 MHz                      ; 300 MHz                        ; 300 MHz                          ; 300 MHz         ;
++------------------------------------------------------------------------------------------------------+---------+------------------------------+--------------------------------+----------------------------------+-----------------+
+Fast Forward Compilation enabled: Post-place & route results are analyzed to provide step-by-step recommendations for suggested RTL changes and show the estimated performance improvement from making these changes
+- Fmax/Slack: Estimated performance from retiming existing registers in the design
+- Relationship: Timing relationship between launch and latch clock edge
+- Achieved with Hyper-Retiming: Estimated performance from analyzing optimizations to remove restrictions that prevent registers from retiming
+- Achieved with Hyper-Pipelining: Estimated performance from analyzing optimizations to add new registers to the design to pipeline paths better
+- Achieved with Hyper-Optimization: Estimated performance from analyzing optimizations to further improve the design
+
+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Clock Worst-Case Slack Summary                                                                                                                                                                                                         ;
++------------------------------------------------------------------------------------------------------+------------------------------+------------------------------+--------------------------------+----------------------------------+
+; Clock Name                                                                                           ; Slack                        ; Achieved with Hyper-Retiming ; Achieved with Hyper-Pipelining ; Achieved with Hyper-Optimization ;
++------------------------------------------------------------------------------------------------------+------------------------------+------------------------------+--------------------------------+----------------------------------+
+; clk_fpga_100m                                                                                        ; 3.600 (10.000 Relationship)  ; 3.600 (10.000 Relationship)  ; 3.600 (10.000 Relationship)    ; 3.600 (10.000 Relationship)      ;
+; q_sys_i|qsfp_xcvr_test_0|xcvr_native_s10_0|rx_clkout|ch0                                             ; 0.452 (2.482 Relationship)   ; 0.452 (2.482 Relationship)   ; 0.452 (2.482 Relationship)     ; 0.452 (2.482 Relationship)       ;
+; q_sys_i|sdi_xcvr_test_0|xcvr_native_s10_0|rx_clkout|ch0                                              ; 7.817 (10.774 Relationship)  ; 7.817 (10.774 Relationship)  ; 7.817 (10.774 Relationship)    ; 7.817 (10.774 Relationship)      ;
+; q_sys_i|qsfp_xcvr_test_3|xcvr_native_s10_0|rx_clkout|ch0                                             ; 0.561 (2.482 Relationship)   ; 0.561 (2.482 Relationship)   ; 0.561 (2.482 Relationship)     ; 0.561 (2.482 Relationship)       ;
+; q_sys_i|qsfp_xcvr_test_1|xcvr_native_s10_0|rx_clkout|ch0                                             ; 0.577 (2.482 Relationship)   ; 0.577 (2.482 Relationship)   ; 0.577 (2.482 Relationship)     ; 0.577 (2.482 Relationship)       ;
+; q_sys_i|qsfp_xcvr_test_4|xcvr_native_s10_0|rx_clkout|ch0                                             ; 0.416 (2.482 Relationship)   ; 0.416 (2.482 Relationship)   ; 0.416 (2.482 Relationship)     ; 0.416 (2.482 Relationship)       ;
+; q_sys_i|sdi_xcvr_test_1|xcvr_native_s10_0|rx_clkout|ch0                                              ; 8.121 (10.774 Relationship)  ; 8.121 (10.774 Relationship)  ; 8.121 (10.774 Relationship)    ; 8.121 (10.774 Relationship)      ;
+; ALTERA_INSERTED_INTOSC_FOR_TRS|divided_osc_clk                                                       ; 3.672 (8.000 Relationship)   ; 3.672 (8.000 Relationship)   ; 3.672 (8.000 Relationship)     ; 3.672 (8.000 Relationship)       ;
+; q_sys_i|qsfp_xcvr_test_0|xcvr_native_s10_0|tx_clkout|ch0                                             ; 0.453 (2.482 Relationship)   ; 0.453 (2.482 Relationship)   ; 0.453 (2.482 Relationship)     ; 0.453 (2.482 Relationship)       ;
+; q_sys_i|sdi_xcvr_test_0|xcvr_native_s10_0|tx_clkout|ch0                                              ; 7.431 (10.774 Relationship)  ; 7.431 (10.774 Relationship)  ; 7.431 (10.774 Relationship)    ; 7.431 (10.774 Relationship)      ;
+; q_sys_i|qsfp_xcvr_test_3|xcvr_native_s10_0|tx_clkout|ch0                                             ; 0.426 (2.482 Relationship)   ; 0.426 (2.482 Relationship)   ; 0.426 (2.482 Relationship)     ; 0.426 (2.482 Relationship)       ;
+; q_sys_i|qsfp_xcvr_test_1|xcvr_native_s10_0|tx_clkout|ch0                                             ; 0.332 (2.482 Relationship)   ; 0.332 (2.482 Relationship)   ; 0.332 (2.482 Relationship)     ; 0.332 (2.482 Relationship)       ;
+; q_sys_i|qsfp_xcvr_test_4|xcvr_native_s10_0|tx_clkout|ch0                                             ; 0.349 (2.482 Relationship)   ; 0.349 (2.482 Relationship)   ; 0.349 (2.482 Relationship)     ; 0.349 (2.482 Relationship)       ;
+; q_sys_i|sdi_xcvr_test_1|xcvr_native_s10_0|tx_clkout|ch0                                              ; 7.848 (10.774 Relationship)  ; 7.848 (10.774 Relationship)  ; 7.848 (10.774 Relationship)    ; 7.848 (10.774 Relationship)      ;
+; q_sys_i|qsfp_xcvr_test_0|xcvr_native_s10_0|tx_clkout2|ch0                                            ; 1.927 (4.964 Relationship)   ; 1.927 (4.964 Relationship)   ; 1.927 (4.964 Relationship)     ; 1.927 (4.964 Relationship)       ;
+; q_sys_i|sdi_xcvr_test_0|xcvr_native_s10_0|tx_clkout2|ch0                                             ; 17.664 (21.548 Relationship) ; 17.664 (21.548 Relationship) ; 17.664 (21.548 Relationship)   ; 17.664 (21.548 Relationship)     ;
+; q_sys_i|qsfp_xcvr_test_3|xcvr_native_s10_0|tx_clkout2|ch0                                            ; 1.966 (4.964 Relationship)   ; 1.966 (4.964 Relationship)   ; 1.966 (4.964 Relationship)     ; 1.966 (4.964 Relationship)       ;
+; q_sys_i|qsfp_xcvr_test_1|xcvr_native_s10_0|tx_clkout2|ch0                                            ; 1.891 (4.964 Relationship)   ; 1.891 (4.964 Relationship)   ; 1.891 (4.964 Relationship)     ; 1.891 (4.964 Relationship)       ;
+; q_sys_i|qsfp_xcvr_test_4|xcvr_native_s10_0|tx_clkout2|ch0                                            ; 2.024 (4.964 Relationship)   ; 2.024 (4.964 Relationship)   ; 2.024 (4.964 Relationship)     ; 2.024 (4.964 Relationship)       ;
+; q_sys_i|sdi_xcvr_test_1|xcvr_native_s10_0|tx_clkout2|ch0                                             ; 17.543 (21.548 Relationship) ; 17.543 (21.548 Relationship) ; 17.543 (21.548 Relationship)   ; 17.543 (21.548 Relationship)     ;
+; clk_50                                                                                               ; 14.628 (20.000 Relationship) ; 14.628 (20.000 Relationship) ; 14.628 (20.000 Relationship)   ; 14.628 (20.000 Relationship)     ;
+; q_sys_i|qsfp_xcvr_test_0|xcvr_native_s10_0|rx_clkout2|ch0                                            ; 0.630 (4.964 Relationship)   ; 0.630 (4.964 Relationship)   ; 0.630 (4.964 Relationship)     ; 0.630 (4.964 Relationship)       ;
+; q_sys_i|qsfp_xcvr_test_3|xcvr_native_s10_0|rx_clkout2|ch0                                            ; 0.535 (4.964 Relationship)   ; 0.535 (4.964 Relationship)   ; 0.535 (4.964 Relationship)     ; 0.535 (4.964 Relationship)       ;
+; q_sys_i|qsfp_xcvr_test_1|xcvr_native_s10_0|rx_clkout2|ch0                                            ; 0.934 (4.964 Relationship)   ; 0.934 (4.964 Relationship)   ; 0.934 (4.964 Relationship)     ; 0.934 (4.964 Relationship)       ;
+; q_sys_i|qsfp_xcvr_test_4|xcvr_native_s10_0|rx_clkout2|ch0                                            ; 0.730 (4.964 Relationship)   ; 0.730 (4.964 Relationship)   ; 0.730 (4.964 Relationship)     ; 0.730 (4.964 Relationship)       ;
+; q_sys_i|sdi_xcvr_test_1|xcvr_native_s10_0|rx_clkout2|ch0                                             ; 14.729 (21.548 Relationship) ; 14.729 (21.548 Relationship) ; 14.729 (21.548 Relationship)   ; 14.729 (21.548 Relationship)     ;
+; q_sys_i|sdi_xcvr_test_0|xcvr_native_s10_0|rx_clkout2|ch0                                             ; 14.330 (21.548 Relationship) ; 14.330 (21.548 Relationship) ; 14.330 (21.548 Relationship)   ; 14.330 (21.548 Relationship)     ;
+; altera_reserved_tck                                                                                  ; 3.080 (20.833 Relationship)  ; 3.080 (20.833 Relationship)  ; 3.080 (20.833 Relationship)    ; 3.080 (20.833 Relationship)      ;
+; q_sys_i|qsfp_xcvr_test_0|xcvr_native_s10_0|qsfp_xcvr_test_xcvr_native_s10_htile_1|recal_clk_div8|ch0 ; 60.706 (64.000 Relationship) ; 60.706 (64.000 Relationship) ; 60.706 (64.000 Relationship)   ; 60.706 (64.000 Relationship)     ;
+; q_sys_i|qsfp_xcvr_test_1|xcvr_native_s10_0|qsfp_xcvr_test_xcvr_native_s10_htile_1|recal_clk_div8|ch0 ; 60.313 (64.000 Relationship) ; 60.313 (64.000 Relationship) ; 60.313 (64.000 Relationship)   ; 60.313 (64.000 Relationship)     ;
+; q_sys_i|qsfp_xcvr_test_3|xcvr_native_s10_0|qsfp_xcvr_test_xcvr_native_s10_htile_1|recal_clk_div8|ch0 ; 60.649 (64.000 Relationship) ; 60.649 (64.000 Relationship) ; 60.649 (64.000 Relationship)   ; 60.649 (64.000 Relationship)     ;
+; q_sys_i|qsfp_xcvr_test_4|xcvr_native_s10_0|qsfp_xcvr_test_xcvr_native_s10_htile_1|recal_clk_div8|ch0 ; 60.666 (64.000 Relationship) ; 60.666 (64.000 Relationship) ; 60.666 (64.000 Relationship)   ; 60.666 (64.000 Relationship)     ;
++------------------------------------------------------------------------------------------------------+------------------------------+------------------------------+--------------------------------+----------------------------------+
+Fast Forward Compilation enabled: Post-place & route results are analyzed to provide step-by-step recommendations for suggested RTL changes and show the estimated performance improvement from making these changes
+- Fmax/Slack: Estimated performance from retiming existing registers in the design
+- Relationship: Timing relationship between launch and latch clock edge
+- Achieved with Hyper-Retiming: Estimated performance from analyzing optimizations to remove restrictions that prevent registers from retiming
+- Achieved with Hyper-Pipelining: Estimated performance from analyzing optimizations to add new registers to the design to pipeline paths better
+- Achieved with Hyper-Optimization: Estimated performance from analyzing optimizations to further improve the design
+
+
++------------------------------------------------------------------------------------------------------------------------+
+; Fast Forward Summary for Clock Domain q_sys_i|qsfp_xcvr_test_1|xcvr_native_s10_0|tx_clkout|ch0                         ;
++--------------------+-----------------------------------------------------------+----------------+-------+--------------+
+; Step               ; Fast Forward Optimizations Analyzed                       ; Estimated Fmax ; Slack ; Relationship ;
++--------------------+-----------------------------------------------------------+----------------+-------+--------------+
+; Base Performance   ; None                                                      ; 465 MHz        ; 0.332 ; 2.482        ;
+; Fast Forward Limit ; Meets timing requirements: No further analysis performed. ; --             ; --    ; --           ;
++--------------------+-----------------------------------------------------------+----------------+-------+--------------+
+
+
+Critical Chain for Base Result
+===============================================================================
++--------------------------------------------------------------------+
+; Critical Chain for Base Result                                     ;
++--------------------------------------------------------------------+
+; Critical Chain for Base Result                                     ;
++--------------------------------------------------------------------+
+; See 'Retiming Limit Details' results in Fitter Retime Stage folder ;
++--------------------------------------------------------------------+
+
+
+
+Meets timing requirements: No further analysis performed.
+===============================================================================
++-----------------------------------------------------------+
+; Optimizations Analyzed (Cumulative)                       ;
++-----------------------------------------------------------+
+; Optimizations Analyzed (Cumulative)                       ;
++-----------------------------------------------------------+
+; Meets timing requirements: No further analysis performed. ;
++-----------------------------------------------------------+
+
+
+
++------------------------------------------------------------------------------------------------------------------------+
+; Fast Forward Summary for Clock Domain q_sys_i|qsfp_xcvr_test_4|xcvr_native_s10_0|tx_clkout|ch0                         ;
++--------------------+-----------------------------------------------------------+----------------+-------+--------------+
+; Step               ; Fast Forward Optimizations Analyzed                       ; Estimated Fmax ; Slack ; Relationship ;
++--------------------+-----------------------------------------------------------+----------------+-------+--------------+
+; Base Performance   ; None                                                      ; 469 MHz        ; 0.349 ; 2.482        ;
+; Fast Forward Limit ; Meets timing requirements: No further analysis performed. ; --             ; --    ; --           ;
++--------------------+-----------------------------------------------------------+----------------+-------+--------------+
+
+
+Critical Chain for Base Result
+===============================================================================
++--------------------------------------------------------------------+
+; Critical Chain for Base Result                                     ;
++--------------------------------------------------------------------+
+; Critical Chain for Base Result                                     ;
++--------------------------------------------------------------------+
+; See 'Retiming Limit Details' results in Fitter Retime Stage folder ;
++--------------------------------------------------------------------+
+
+
+
+Meets timing requirements: No further analysis performed.
+===============================================================================
++-----------------------------------------------------------+
+; Optimizations Analyzed (Cumulative)                       ;
++-----------------------------------------------------------+
+; Optimizations Analyzed (Cumulative)                       ;
++-----------------------------------------------------------+
+; Meets timing requirements: No further analysis performed. ;
++-----------------------------------------------------------+
+
+
+
++------------------------------------------------------------------------------------------------------------------------+
+; Fast Forward Summary for Clock Domain q_sys_i|qsfp_xcvr_test_4|xcvr_native_s10_0|rx_clkout|ch0                         ;
++--------------------+-----------------------------------------------------------+----------------+-------+--------------+
+; Step               ; Fast Forward Optimizations Analyzed                       ; Estimated Fmax ; Slack ; Relationship ;
++--------------------+-----------------------------------------------------------+----------------+-------+--------------+
+; Base Performance   ; None                                                      ; 484 MHz        ; 0.416 ; 2.482        ;
+; Fast Forward Limit ; Meets timing requirements: No further analysis performed. ; --             ; --    ; --           ;
++--------------------+-----------------------------------------------------------+----------------+-------+--------------+
+
+
+Critical Chain for Base Result
+===============================================================================
++--------------------------------------------------------------------+
+; Critical Chain for Base Result                                     ;
++--------------------------------------------------------------------+
+; Critical Chain for Base Result                                     ;
++--------------------------------------------------------------------+
+; See 'Retiming Limit Details' results in Fitter Retime Stage folder ;
++--------------------------------------------------------------------+
+
+
+
+Meets timing requirements: No further analysis performed.
+===============================================================================
++-----------------------------------------------------------+
+; Optimizations Analyzed (Cumulative)                       ;
++-----------------------------------------------------------+
+; Optimizations Analyzed (Cumulative)                       ;
++-----------------------------------------------------------+
+; Meets timing requirements: No further analysis performed. ;
++-----------------------------------------------------------+
+
+
+
++------------------------------------------------------------------------------------------------------------------------+
+; Fast Forward Summary for Clock Domain q_sys_i|qsfp_xcvr_test_3|xcvr_native_s10_0|tx_clkout|ch0                         ;
++--------------------+-----------------------------------------------------------+----------------+-------+--------------+
+; Step               ; Fast Forward Optimizations Analyzed                       ; Estimated Fmax ; Slack ; Relationship ;
++--------------------+-----------------------------------------------------------+----------------+-------+--------------+
+; Base Performance   ; None                                                      ; 486 MHz        ; 0.426 ; 2.482        ;
+; Fast Forward Limit ; Meets timing requirements: No further analysis performed. ; --             ; --    ; --           ;
++--------------------+-----------------------------------------------------------+----------------+-------+--------------+
+
+
+Critical Chain for Base Result
+===============================================================================
++--------------------------------------------------------------------+
+; Critical Chain for Base Result                                     ;
++--------------------------------------------------------------------+
+; Critical Chain for Base Result                                     ;
++--------------------------------------------------------------------+
+; See 'Retiming Limit Details' results in Fitter Retime Stage folder ;
++--------------------------------------------------------------------+
+
+
+
+Meets timing requirements: No further analysis performed.
+===============================================================================
++-----------------------------------------------------------+
+; Optimizations Analyzed (Cumulative)                       ;
++-----------------------------------------------------------+
+; Optimizations Analyzed (Cumulative)                       ;
++-----------------------------------------------------------+
+; Meets timing requirements: No further analysis performed. ;
++-----------------------------------------------------------+
+
+
+
++------------------------------------------------------------------------------------------------------------------------+
+; Fast Forward Summary for Clock Domain q_sys_i|qsfp_xcvr_test_0|xcvr_native_s10_0|rx_clkout|ch0                         ;
++--------------------+-----------------------------------------------------------+----------------+-------+--------------+
+; Step               ; Fast Forward Optimizations Analyzed                       ; Estimated Fmax ; Slack ; Relationship ;
++--------------------+-----------------------------------------------------------+----------------+-------+--------------+
+; Base Performance   ; None                                                      ; 493 MHz        ; 0.452 ; 2.482        ;
+; Fast Forward Limit ; Meets timing requirements: No further analysis performed. ; --             ; --    ; --           ;
++--------------------+-----------------------------------------------------------+----------------+-------+--------------+
+
+
+Critical Chain for Base Result
+===============================================================================
++--------------------------------------------------------------------+
+; Critical Chain for Base Result                                     ;
++--------------------------------------------------------------------+
+; Critical Chain for Base Result                                     ;
++--------------------------------------------------------------------+
+; See 'Retiming Limit Details' results in Fitter Retime Stage folder ;
++--------------------------------------------------------------------+
+
+
+
+Meets timing requirements: No further analysis performed.
+===============================================================================
++-----------------------------------------------------------+
+; Optimizations Analyzed (Cumulative)                       ;
++-----------------------------------------------------------+
+; Optimizations Analyzed (Cumulative)                       ;
++-----------------------------------------------------------+
+; Meets timing requirements: No further analysis performed. ;
++-----------------------------------------------------------+
+
+
+
++------------------------------------------------------------------------------------------------------------------------+
+; Fast Forward Summary for Clock Domain q_sys_i|qsfp_xcvr_test_0|xcvr_native_s10_0|tx_clkout|ch0                         ;
++--------------------+-----------------------------------------------------------+----------------+-------+--------------+
+; Step               ; Fast Forward Optimizations Analyzed                       ; Estimated Fmax ; Slack ; Relationship ;
++--------------------+-----------------------------------------------------------+----------------+-------+--------------+
+; Base Performance   ; None                                                      ; 493 MHz        ; 0.453 ; 2.482        ;
+; Fast Forward Limit ; Meets timing requirements: No further analysis performed. ; --             ; --    ; --           ;
++--------------------+-----------------------------------------------------------+----------------+-------+--------------+
+
+
+Critical Chain for Base Result
+===============================================================================
++--------------------------------------------------------------------+
+; Critical Chain for Base Result                                     ;
++--------------------------------------------------------------------+
+; Critical Chain for Base Result                                     ;
++--------------------------------------------------------------------+
+; See 'Retiming Limit Details' results in Fitter Retime Stage folder ;
++--------------------------------------------------------------------+
+
+
+
+Meets timing requirements: No further analysis performed.
+===============================================================================
++-----------------------------------------------------------+
+; Optimizations Analyzed (Cumulative)                       ;
++-----------------------------------------------------------+
+; Optimizations Analyzed (Cumulative)                       ;
++-----------------------------------------------------------+
+; Meets timing requirements: No further analysis performed. ;
++-----------------------------------------------------------+
+
+
+
++------------------------------------------------------------------------------------------------------------------------+
+; Fast Forward Summary for Clock Domain q_sys_i|qsfp_xcvr_test_3|xcvr_native_s10_0|rx_clkout2|ch0                        ;
++--------------------+-----------------------------------------------------------+----------------+-------+--------------+
+; Step               ; Fast Forward Optimizations Analyzed                       ; Estimated Fmax ; Slack ; Relationship ;
++--------------------+-----------------------------------------------------------+----------------+-------+--------------+
+; Base Performance   ; None                                                      ; 226 MHz        ; 0.535 ; 4.964        ;
+; Fast Forward Limit ; Meets timing requirements: No further analysis performed. ; --             ; --    ; --           ;
++--------------------+-----------------------------------------------------------+----------------+-------+--------------+
+
+
+Critical Chain for Base Result
+===============================================================================
++--------------------------------------------------------------------+
+; Critical Chain for Base Result                                     ;
++--------------------------------------------------------------------+
+; Critical Chain for Base Result                                     ;
++--------------------------------------------------------------------+
+; See 'Retiming Limit Details' results in Fitter Retime Stage folder ;
++--------------------------------------------------------------------+
+
+
+
+Meets timing requirements: No further analysis performed.
+===============================================================================
++-----------------------------------------------------------+
+; Optimizations Analyzed (Cumulative)                       ;
++-----------------------------------------------------------+
+; Optimizations Analyzed (Cumulative)                       ;
++-----------------------------------------------------------+
+; Meets timing requirements: No further analysis performed. ;
++-----------------------------------------------------------+
+
+
+
++------------------------------------------------------------------------------------------------------------------------+
+; Fast Forward Summary for Clock Domain q_sys_i|qsfp_xcvr_test_3|xcvr_native_s10_0|rx_clkout|ch0                         ;
++--------------------+-----------------------------------------------------------+----------------+-------+--------------+
+; Step               ; Fast Forward Optimizations Analyzed                       ; Estimated Fmax ; Slack ; Relationship ;
++--------------------+-----------------------------------------------------------+----------------+-------+--------------+
+; Base Performance   ; None                                                      ; 521 MHz        ; 0.561 ; 2.482        ;
+; Fast Forward Limit ; Meets timing requirements: No further analysis performed. ; --             ; --    ; --           ;
++--------------------+-----------------------------------------------------------+----------------+-------+--------------+
+
+
+Critical Chain for Base Result
+===============================================================================
++--------------------------------------------------------------------+
+; Critical Chain for Base Result                                     ;
++--------------------------------------------------------------------+
+; Critical Chain for Base Result                                     ;
++--------------------------------------------------------------------+
+; See 'Retiming Limit Details' results in Fitter Retime Stage folder ;
++--------------------------------------------------------------------+
+
+
+
+Meets timing requirements: No further analysis performed.
+===============================================================================
++-----------------------------------------------------------+
+; Optimizations Analyzed (Cumulative)                       ;
++-----------------------------------------------------------+
+; Optimizations Analyzed (Cumulative)                       ;
++-----------------------------------------------------------+
+; Meets timing requirements: No further analysis performed. ;
++-----------------------------------------------------------+
+
+
+
++------------------------------------------------------------------------------------------------------------------------+
+; Fast Forward Summary for Clock Domain q_sys_i|qsfp_xcvr_test_1|xcvr_native_s10_0|rx_clkout|ch0                         ;
++--------------------+-----------------------------------------------------------+----------------+-------+--------------+
+; Step               ; Fast Forward Optimizations Analyzed                       ; Estimated Fmax ; Slack ; Relationship ;
++--------------------+-----------------------------------------------------------+----------------+-------+--------------+
+; Base Performance   ; None                                                      ; 525 MHz        ; 0.577 ; 2.482        ;
+; Fast Forward Limit ; Meets timing requirements: No further analysis performed. ; --             ; --    ; --           ;
++--------------------+-----------------------------------------------------------+----------------+-------+--------------+
+
+
+Critical Chain for Base Result
+===============================================================================
++--------------------------------------------------------------------+
+; Critical Chain for Base Result                                     ;
++--------------------------------------------------------------------+
+; Critical Chain for Base Result                                     ;
++--------------------------------------------------------------------+
+; See 'Retiming Limit Details' results in Fitter Retime Stage folder ;
++--------------------------------------------------------------------+
+
+
+
+Meets timing requirements: No further analysis performed.
+===============================================================================
++-----------------------------------------------------------+
+; Optimizations Analyzed (Cumulative)                       ;
++-----------------------------------------------------------+
+; Optimizations Analyzed (Cumulative)                       ;
++-----------------------------------------------------------+
+; Meets timing requirements: No further analysis performed. ;
++-----------------------------------------------------------+
+
+
+
++------------------------------------------------------------------------------------------------------------------------+
+; Fast Forward Summary for Clock Domain q_sys_i|qsfp_xcvr_test_0|xcvr_native_s10_0|rx_clkout2|ch0                        ;
++--------------------+-----------------------------------------------------------+----------------+-------+--------------+
+; Step               ; Fast Forward Optimizations Analyzed                       ; Estimated Fmax ; Slack ; Relationship ;
++--------------------+-----------------------------------------------------------+----------------+-------+--------------+
+; Base Performance   ; None                                                      ; 231 MHz        ; 0.630 ; 4.964        ;
+; Fast Forward Limit ; Meets timing requirements: No further analysis performed. ; --             ; --    ; --           ;
++--------------------+-----------------------------------------------------------+----------------+-------+--------------+
+
+
+Critical Chain for Base Result
+===============================================================================
++--------------------------------------------------------------------+
+; Critical Chain for Base Result                                     ;
++--------------------------------------------------------------------+
+; Critical Chain for Base Result                                     ;
++--------------------------------------------------------------------+
+; See 'Retiming Limit Details' results in Fitter Retime Stage folder ;
++--------------------------------------------------------------------+
+
+
+
+Meets timing requirements: No further analysis performed.
+===============================================================================
++-----------------------------------------------------------+
+; Optimizations Analyzed (Cumulative)                       ;
++-----------------------------------------------------------+
+; Optimizations Analyzed (Cumulative)                       ;
++-----------------------------------------------------------+
+; Meets timing requirements: No further analysis performed. ;
++-----------------------------------------------------------+
+
+
+
++------------------------------------------------------------------------------------------------------------------------+
+; Fast Forward Summary for Clock Domain q_sys_i|qsfp_xcvr_test_4|xcvr_native_s10_0|rx_clkout2|ch0                        ;
++--------------------+-----------------------------------------------------------+----------------+-------+--------------+
+; Step               ; Fast Forward Optimizations Analyzed                       ; Estimated Fmax ; Slack ; Relationship ;
++--------------------+-----------------------------------------------------------+----------------+-------+--------------+
+; Base Performance   ; None                                                      ; 236 MHz        ; 0.730 ; 4.964        ;
+; Fast Forward Limit ; Meets timing requirements: No further analysis performed. ; --             ; --    ; --           ;
++--------------------+-----------------------------------------------------------+----------------+-------+--------------+
+
+
+Critical Chain for Base Result
+===============================================================================
++--------------------------------------------------------------------+
+; Critical Chain for Base Result                                     ;
++--------------------------------------------------------------------+
+; Critical Chain for Base Result                                     ;
++--------------------------------------------------------------------+
+; See 'Retiming Limit Details' results in Fitter Retime Stage folder ;
++--------------------------------------------------------------------+
+
+
+
+Meets timing requirements: No further analysis performed.
+===============================================================================
++-----------------------------------------------------------+
+; Optimizations Analyzed (Cumulative)                       ;
++-----------------------------------------------------------+
+; Optimizations Analyzed (Cumulative)                       ;
++-----------------------------------------------------------+
+; Meets timing requirements: No further analysis performed. ;
++-----------------------------------------------------------+
+
+
+
++------------------------------------------------------------------------------------------------------------------------+
+; Fast Forward Summary for Clock Domain q_sys_i|qsfp_xcvr_test_1|xcvr_native_s10_0|rx_clkout2|ch0                        ;
++--------------------+-----------------------------------------------------------+----------------+-------+--------------+
+; Step               ; Fast Forward Optimizations Analyzed                       ; Estimated Fmax ; Slack ; Relationship ;
++--------------------+-----------------------------------------------------------+----------------+-------+--------------+
+; Base Performance   ; None                                                      ; 248 MHz        ; 0.934 ; 4.964        ;
+; Fast Forward Limit ; Meets timing requirements: No further analysis performed. ; --             ; --    ; --           ;
++--------------------+-----------------------------------------------------------+----------------+-------+--------------+
+
+
+Critical Chain for Base Result
+===============================================================================
++--------------------------------------------------------------------+
+; Critical Chain for Base Result                                     ;
++--------------------------------------------------------------------+
+; Critical Chain for Base Result                                     ;
++--------------------------------------------------------------------+
+; See 'Retiming Limit Details' results in Fitter Retime Stage folder ;
++--------------------------------------------------------------------+
+
+
+
+Meets timing requirements: No further analysis performed.
+===============================================================================
++-----------------------------------------------------------+
+; Optimizations Analyzed (Cumulative)                       ;
++-----------------------------------------------------------+
+; Optimizations Analyzed (Cumulative)                       ;
++-----------------------------------------------------------+
+; Meets timing requirements: No further analysis performed. ;
++-----------------------------------------------------------+
+
+
+
++------------------------------------------------------------------------------------------------------------------------+
+; Fast Forward Summary for Clock Domain q_sys_i|qsfp_xcvr_test_1|xcvr_native_s10_0|tx_clkout2|ch0                        ;
++--------------------+-----------------------------------------------------------+----------------+-------+--------------+
+; Step               ; Fast Forward Optimizations Analyzed                       ; Estimated Fmax ; Slack ; Relationship ;
++--------------------+-----------------------------------------------------------+----------------+-------+--------------+
+; Base Performance   ; None                                                      ; 325 MHz        ; 1.891 ; 4.964        ;
+; Fast Forward Limit ; Meets timing requirements: No further analysis performed. ; --             ; --    ; --           ;
++--------------------+-----------------------------------------------------------+----------------+-------+--------------+
+
+
+Critical Chain for Base Result
+===============================================================================
++--------------------------------------------------------------------+
+; Critical Chain for Base Result                                     ;
++--------------------------------------------------------------------+
+; Critical Chain for Base Result                                     ;
++--------------------------------------------------------------------+
+; See 'Retiming Limit Details' results in Fitter Retime Stage folder ;
++--------------------------------------------------------------------+
+
+
+
+Meets timing requirements: No further analysis performed.
+===============================================================================
++-----------------------------------------------------------+
+; Optimizations Analyzed (Cumulative)                       ;
++-----------------------------------------------------------+
+; Optimizations Analyzed (Cumulative)                       ;
++-----------------------------------------------------------+
+; Meets timing requirements: No further analysis performed. ;
++-----------------------------------------------------------+
+
+
+
++------------------------------------------------------------------------------------------------------------------------+
+; Fast Forward Summary for Clock Domain q_sys_i|qsfp_xcvr_test_0|xcvr_native_s10_0|tx_clkout2|ch0                        ;
++--------------------+-----------------------------------------------------------+----------------+-------+--------------+
+; Step               ; Fast Forward Optimizations Analyzed                       ; Estimated Fmax ; Slack ; Relationship ;
++--------------------+-----------------------------------------------------------+----------------+-------+--------------+
+; Base Performance   ; None                                                      ; 329 MHz        ; 1.927 ; 4.964        ;
+; Fast Forward Limit ; Meets timing requirements: No further analysis performed. ; --             ; --    ; --           ;
++--------------------+-----------------------------------------------------------+----------------+-------+--------------+
+
+
+Critical Chain for Base Result
+===============================================================================
++--------------------------------------------------------------------+
+; Critical Chain for Base Result                                     ;
++--------------------------------------------------------------------+
+; Critical Chain for Base Result                                     ;
++--------------------------------------------------------------------+
+; See 'Retiming Limit Details' results in Fitter Retime Stage folder ;
++--------------------------------------------------------------------+
+
+
+
+Meets timing requirements: No further analysis performed.
+===============================================================================
++-----------------------------------------------------------+
+; Optimizations Analyzed (Cumulative)                       ;
++-----------------------------------------------------------+
+; Optimizations Analyzed (Cumulative)                       ;
++-----------------------------------------------------------+
+; Meets timing requirements: No further analysis performed. ;
++-----------------------------------------------------------+
+
+
+
++------------------------------------------------------------------------------------------------------------------------+
+; Fast Forward Summary for Clock Domain q_sys_i|qsfp_xcvr_test_3|xcvr_native_s10_0|tx_clkout2|ch0                        ;
++--------------------+-----------------------------------------------------------+----------------+-------+--------------+
+; Step               ; Fast Forward Optimizations Analyzed                       ; Estimated Fmax ; Slack ; Relationship ;
++--------------------+-----------------------------------------------------------+----------------+-------+--------------+
+; Base Performance   ; None                                                      ; 334 MHz        ; 1.966 ; 4.964        ;
+; Fast Forward Limit ; Meets timing requirements: No further analysis performed. ; --             ; --    ; --           ;
++--------------------+-----------------------------------------------------------+----------------+-------+--------------+
+
+
+Critical Chain for Base Result
+===============================================================================
++--------------------------------------------------------------------+
+; Critical Chain for Base Result                                     ;
++--------------------------------------------------------------------+
+; Critical Chain for Base Result                                     ;
++--------------------------------------------------------------------+
+; See 'Retiming Limit Details' results in Fitter Retime Stage folder ;
++--------------------------------------------------------------------+
+
+
+
+Meets timing requirements: No further analysis performed.
+===============================================================================
++-----------------------------------------------------------+
+; Optimizations Analyzed (Cumulative)                       ;
++-----------------------------------------------------------+
+; Optimizations Analyzed (Cumulative)                       ;
++-----------------------------------------------------------+
+; Meets timing requirements: No further analysis performed. ;
++-----------------------------------------------------------+
+
+
+
++------------------------------------------------------------------------------------------------------------------------+
+; Fast Forward Summary for Clock Domain q_sys_i|qsfp_xcvr_test_4|xcvr_native_s10_0|tx_clkout2|ch0                        ;
++--------------------+-----------------------------------------------------------+----------------+-------+--------------+
+; Step               ; Fast Forward Optimizations Analyzed                       ; Estimated Fmax ; Slack ; Relationship ;
++--------------------+-----------------------------------------------------------+----------------+-------+--------------+
+; Base Performance   ; None                                                      ; 340 MHz        ; 2.024 ; 4.964        ;
+; Fast Forward Limit ; Meets timing requirements: No further analysis performed. ; --             ; --    ; --           ;
++--------------------+-----------------------------------------------------------+----------------+-------+--------------+
+
+
+Critical Chain for Base Result
+===============================================================================
++--------------------------------------------------------------------+
+; Critical Chain for Base Result                                     ;
++--------------------------------------------------------------------+
+; Critical Chain for Base Result                                     ;
++--------------------------------------------------------------------+
+; See 'Retiming Limit Details' results in Fitter Retime Stage folder ;
++--------------------------------------------------------------------+
+
+
+
+Meets timing requirements: No further analysis performed.
+===============================================================================
++-----------------------------------------------------------+
+; Optimizations Analyzed (Cumulative)                       ;
++-----------------------------------------------------------+
+; Optimizations Analyzed (Cumulative)                       ;
++-----------------------------------------------------------+
+; Meets timing requirements: No further analysis performed. ;
++-----------------------------------------------------------+
+
+
+
++------------------------------------------------------------------------------------------------------------------------+
+; Fast Forward Summary for Clock Domain altera_reserved_tck                                                              ;
++--------------------+-----------------------------------------------------------+----------------+-------+--------------+
+; Step               ; Fast Forward Optimizations Analyzed                       ; Estimated Fmax ; Slack ; Relationship ;
++--------------------+-----------------------------------------------------------+----------------+-------+--------------+
+; Base Performance   ; None                                                      ; 28 MHz         ; 3.080 ; 20.833       ;
+; Fast Forward Limit ; Meets timing requirements: No further analysis performed. ; --             ; --    ; --           ;
++--------------------+-----------------------------------------------------------+----------------+-------+--------------+
+
+
+Critical Chain for Base Result
+===============================================================================
++--------------------------------------------------------------------+
+; Critical Chain for Base Result                                     ;
++--------------------------------------------------------------------+
+; Critical Chain for Base Result                                     ;
++--------------------------------------------------------------------+
+; See 'Retiming Limit Details' results in Fitter Retime Stage folder ;
++--------------------------------------------------------------------+
+
+
+
+Meets timing requirements: No further analysis performed.
+===============================================================================
++-----------------------------------------------------------+
+; Optimizations Analyzed (Cumulative)                       ;
++-----------------------------------------------------------+
+; Optimizations Analyzed (Cumulative)                       ;
++-----------------------------------------------------------+
+; Meets timing requirements: No further analysis performed. ;
++-----------------------------------------------------------+
+
+
+
++------------------------------------------------------------------------------------------------------------------------+
+; Fast Forward Summary for Clock Domain clk_fpga_100m                                                                    ;
++--------------------+-----------------------------------------------------------+----------------+-------+--------------+
+; Step               ; Fast Forward Optimizations Analyzed                       ; Estimated Fmax ; Slack ; Relationship ;
++--------------------+-----------------------------------------------------------+----------------+-------+--------------+
+; Base Performance   ; None                                                      ; 156 MHz        ; 3.600 ; 10.000       ;
+; Fast Forward Limit ; Meets timing requirements: No further analysis performed. ; --             ; --    ; --           ;
++--------------------+-----------------------------------------------------------+----------------+-------+--------------+
+
+
+Critical Chain for Base Result
+===============================================================================
++--------------------------------------------------------------------+
+; Critical Chain for Base Result                                     ;
++--------------------------------------------------------------------+
+; Critical Chain for Base Result                                     ;
++--------------------------------------------------------------------+
+; See 'Retiming Limit Details' results in Fitter Retime Stage folder ;
++--------------------------------------------------------------------+
+
+
+
+Meets timing requirements: No further analysis performed.
+===============================================================================
++-----------------------------------------------------------+
+; Optimizations Analyzed (Cumulative)                       ;
++-----------------------------------------------------------+
+; Optimizations Analyzed (Cumulative)                       ;
++-----------------------------------------------------------+
+; Meets timing requirements: No further analysis performed. ;
++-----------------------------------------------------------+
+
+
+
++------------------------------------------------------------------------------------------------------------------------+
+; Fast Forward Summary for Clock Domain ALTERA_INSERTED_INTOSC_FOR_TRS|divided_osc_clk                                   ;
++--------------------+-----------------------------------------------------------+----------------+-------+--------------+
+; Step               ; Fast Forward Optimizations Analyzed                       ; Estimated Fmax ; Slack ; Relationship ;
++--------------------+-----------------------------------------------------------+----------------+-------+--------------+
+; Base Performance   ; None                                                      ; 231 MHz        ; 3.672 ; 8.000        ;
+; Fast Forward Limit ; Meets timing requirements: No further analysis performed. ; --             ; --    ; --           ;
++--------------------+-----------------------------------------------------------+----------------+-------+--------------+
+
+
+Critical Chain for Base Result
+===============================================================================
++--------------------------------------------------------------------+
+; Critical Chain for Base Result                                     ;
++--------------------------------------------------------------------+
+; Critical Chain for Base Result                                     ;
++--------------------------------------------------------------------+
+; See 'Retiming Limit Details' results in Fitter Retime Stage folder ;
++--------------------------------------------------------------------+
+
+
+
+Meets timing requirements: No further analysis performed.
+===============================================================================
++-----------------------------------------------------------+
+; Optimizations Analyzed (Cumulative)                       ;
++-----------------------------------------------------------+
+; Optimizations Analyzed (Cumulative)                       ;
++-----------------------------------------------------------+
+; Meets timing requirements: No further analysis performed. ;
++-----------------------------------------------------------+
+
+
+
++------------------------------------------------------------------------------------------------------------------------+
+; Fast Forward Summary for Clock Domain q_sys_i|sdi_xcvr_test_0|xcvr_native_s10_0|tx_clkout|ch0                          ;
++--------------------+-----------------------------------------------------------+----------------+-------+--------------+
+; Step               ; Fast Forward Optimizations Analyzed                       ; Estimated Fmax ; Slack ; Relationship ;
++--------------------+-----------------------------------------------------------+----------------+-------+--------------+
+; Base Performance   ; None                                                      ; 299 MHz        ; 7.431 ; 10.774       ;
+; Fast Forward Limit ; Meets timing requirements: No further analysis performed. ; --             ; --    ; --           ;
++--------------------+-----------------------------------------------------------+----------------+-------+--------------+
+
+
+Critical Chain for Base Result
+===============================================================================
++--------------------------------------------------------------------+
+; Critical Chain for Base Result                                     ;
++--------------------------------------------------------------------+
+; Critical Chain for Base Result                                     ;
++--------------------------------------------------------------------+
+; See 'Retiming Limit Details' results in Fitter Retime Stage folder ;
++--------------------------------------------------------------------+
+
+
+
+Meets timing requirements: No further analysis performed.
+===============================================================================
++-----------------------------------------------------------+
+; Optimizations Analyzed (Cumulative)                       ;
++-----------------------------------------------------------+
+; Optimizations Analyzed (Cumulative)                       ;
++-----------------------------------------------------------+
+; Meets timing requirements: No further analysis performed. ;
++-----------------------------------------------------------+
+
+
+
++------------------------------------------------------------------------------------------------------------------------+
+; Fast Forward Summary for Clock Domain q_sys_i|sdi_xcvr_test_0|xcvr_native_s10_0|rx_clkout|ch0                          ;
++--------------------+-----------------------------------------------------------+----------------+-------+--------------+
+; Step               ; Fast Forward Optimizations Analyzed                       ; Estimated Fmax ; Slack ; Relationship ;
++--------------------+-----------------------------------------------------------+----------------+-------+--------------+
+; Base Performance   ; None                                                      ; 338 MHz        ; 7.817 ; 10.774       ;
+; Fast Forward Limit ; Meets timing requirements: No further analysis performed. ; --             ; --    ; --           ;
++--------------------+-----------------------------------------------------------+----------------+-------+--------------+
+
+
+Critical Chain for Base Result
+===============================================================================
++--------------------------------------------------------------------+
+; Critical Chain for Base Result                                     ;
++--------------------------------------------------------------------+
+; Critical Chain for Base Result                                     ;
++--------------------------------------------------------------------+
+; See 'Retiming Limit Details' results in Fitter Retime Stage folder ;
++--------------------------------------------------------------------+
+
+
+
+Meets timing requirements: No further analysis performed.
+===============================================================================
++-----------------------------------------------------------+
+; Optimizations Analyzed (Cumulative)                       ;
++-----------------------------------------------------------+
+; Optimizations Analyzed (Cumulative)                       ;
++-----------------------------------------------------------+
+; Meets timing requirements: No further analysis performed. ;
++-----------------------------------------------------------+
+
+
+
++------------------------------------------------------------------------------------------------------------------------+
+; Fast Forward Summary for Clock Domain q_sys_i|sdi_xcvr_test_1|xcvr_native_s10_0|tx_clkout|ch0                          ;
++--------------------+-----------------------------------------------------------+----------------+-------+--------------+
+; Step               ; Fast Forward Optimizations Analyzed                       ; Estimated Fmax ; Slack ; Relationship ;
++--------------------+-----------------------------------------------------------+----------------+-------+--------------+
+; Base Performance   ; None                                                      ; 342 MHz        ; 7.848 ; 10.774       ;
+; Fast Forward Limit ; Meets timing requirements: No further analysis performed. ; --             ; --    ; --           ;
++--------------------+-----------------------------------------------------------+----------------+-------+--------------+
+
+
+Critical Chain for Base Result
+===============================================================================
++--------------------------------------------------------------------+
+; Critical Chain for Base Result                                     ;
++--------------------------------------------------------------------+
+; Critical Chain for Base Result                                     ;
++--------------------------------------------------------------------+
+; See 'Retiming Limit Details' results in Fitter Retime Stage folder ;
++--------------------------------------------------------------------+
+
+
+
+Meets timing requirements: No further analysis performed.
+===============================================================================
++-----------------------------------------------------------+
+; Optimizations Analyzed (Cumulative)                       ;
++-----------------------------------------------------------+
+; Optimizations Analyzed (Cumulative)                       ;
++-----------------------------------------------------------+
+; Meets timing requirements: No further analysis performed. ;
++-----------------------------------------------------------+
+
+
+
++------------------------------------------------------------------------------------------------------------------------+
+; Fast Forward Summary for Clock Domain q_sys_i|sdi_xcvr_test_1|xcvr_native_s10_0|rx_clkout|ch0                          ;
++--------------------+-----------------------------------------------------------+----------------+-------+--------------+
+; Step               ; Fast Forward Optimizations Analyzed                       ; Estimated Fmax ; Slack ; Relationship ;
++--------------------+-----------------------------------------------------------+----------------+-------+--------------+
+; Base Performance   ; None                                                      ; 377 MHz        ; 8.121 ; 10.774       ;
+; Fast Forward Limit ; Meets timing requirements: No further analysis performed. ; --             ; --    ; --           ;
++--------------------+-----------------------------------------------------------+----------------+-------+--------------+
+
+
+Critical Chain for Base Result
+===============================================================================
++--------------------------------------------------------------------+
+; Critical Chain for Base Result                                     ;
++--------------------------------------------------------------------+
+; Critical Chain for Base Result                                     ;
++--------------------------------------------------------------------+
+; See 'Retiming Limit Details' results in Fitter Retime Stage folder ;
++--------------------------------------------------------------------+
+
+
+
+Meets timing requirements: No further analysis performed.
+===============================================================================
++-----------------------------------------------------------+
+; Optimizations Analyzed (Cumulative)                       ;
++-----------------------------------------------------------+
+; Optimizations Analyzed (Cumulative)                       ;
++-----------------------------------------------------------+
+; Meets timing requirements: No further analysis performed. ;
++-----------------------------------------------------------+
+
+
+
++-------------------------------------------------------------------------------------------------------------------------+
+; Fast Forward Summary for Clock Domain q_sys_i|sdi_xcvr_test_0|xcvr_native_s10_0|rx_clkout2|ch0                          ;
++--------------------+-----------------------------------------------------------+----------------+--------+--------------+
+; Step               ; Fast Forward Optimizations Analyzed                       ; Estimated Fmax ; Slack  ; Relationship ;
++--------------------+-----------------------------------------------------------+----------------+--------+--------------+
+; Base Performance   ; None                                                      ; 139 MHz        ; 14.330 ; 21.548       ;
+; Fast Forward Limit ; Meets timing requirements: No further analysis performed. ; --             ; --     ; --           ;
++--------------------+-----------------------------------------------------------+----------------+--------+--------------+
+
+
+Critical Chain for Base Result
+===============================================================================
++--------------------------------------------------------------------+
+; Critical Chain for Base Result                                     ;
++--------------------------------------------------------------------+
+; Critical Chain for Base Result                                     ;
++--------------------------------------------------------------------+
+; See 'Retiming Limit Details' results in Fitter Retime Stage folder ;
++--------------------------------------------------------------------+
+
+
+
+Meets timing requirements: No further analysis performed.
+===============================================================================
++-----------------------------------------------------------+
+; Optimizations Analyzed (Cumulative)                       ;
++-----------------------------------------------------------+
+; Optimizations Analyzed (Cumulative)                       ;
++-----------------------------------------------------------+
+; Meets timing requirements: No further analysis performed. ;
++-----------------------------------------------------------+
+
+
+
++-------------------------------------------------------------------------------------------------------------------------+
+; Fast Forward Summary for Clock Domain clk_50                                                                            ;
++--------------------+-----------------------------------------------------------+----------------+--------+--------------+
+; Step               ; Fast Forward Optimizations Analyzed                       ; Estimated Fmax ; Slack  ; Relationship ;
++--------------------+-----------------------------------------------------------+----------------+--------+--------------+
+; Base Performance   ; None                                                      ; 186 MHz        ; 14.628 ; 20.000       ;
+; Fast Forward Limit ; Meets timing requirements: No further analysis performed. ; --             ; --     ; --           ;
++--------------------+-----------------------------------------------------------+----------------+--------+--------------+
+
+
+Critical Chain for Base Result
+===============================================================================
++--------------------------------------------------------------------+
+; Critical Chain for Base Result                                     ;
++--------------------------------------------------------------------+
+; Critical Chain for Base Result                                     ;
++--------------------------------------------------------------------+
+; See 'Retiming Limit Details' results in Fitter Retime Stage folder ;
++--------------------------------------------------------------------+
+
+
+
+Meets timing requirements: No further analysis performed.
+===============================================================================
++-----------------------------------------------------------+
+; Optimizations Analyzed (Cumulative)                       ;
++-----------------------------------------------------------+
+; Optimizations Analyzed (Cumulative)                       ;
++-----------------------------------------------------------+
+; Meets timing requirements: No further analysis performed. ;
++-----------------------------------------------------------+
+
+
+
++-------------------------------------------------------------------------------------------------------------------------+
+; Fast Forward Summary for Clock Domain q_sys_i|sdi_xcvr_test_1|xcvr_native_s10_0|rx_clkout2|ch0                          ;
++--------------------+-----------------------------------------------------------+----------------+--------+--------------+
+; Step               ; Fast Forward Optimizations Analyzed                       ; Estimated Fmax ; Slack  ; Relationship ;
++--------------------+-----------------------------------------------------------+----------------+--------+--------------+
+; Base Performance   ; None                                                      ; 147 MHz        ; 14.729 ; 21.548       ;
+; Fast Forward Limit ; Meets timing requirements: No further analysis performed. ; --             ; --     ; --           ;
++--------------------+-----------------------------------------------------------+----------------+--------+--------------+
+
+
+Critical Chain for Base Result
+===============================================================================
++--------------------------------------------------------------------+
+; Critical Chain for Base Result                                     ;
++--------------------------------------------------------------------+
+; Critical Chain for Base Result                                     ;
++--------------------------------------------------------------------+
+; See 'Retiming Limit Details' results in Fitter Retime Stage folder ;
++--------------------------------------------------------------------+
+
+
+
+Meets timing requirements: No further analysis performed.
+===============================================================================
++-----------------------------------------------------------+
+; Optimizations Analyzed (Cumulative)                       ;
++-----------------------------------------------------------+
+; Optimizations Analyzed (Cumulative)                       ;
++-----------------------------------------------------------+
+; Meets timing requirements: No further analysis performed. ;
++-----------------------------------------------------------+
+
+
+
++-------------------------------------------------------------------------------------------------------------------------+
+; Fast Forward Summary for Clock Domain q_sys_i|sdi_xcvr_test_1|xcvr_native_s10_0|tx_clkout2|ch0                          ;
++--------------------+-----------------------------------------------------------+----------------+--------+--------------+
+; Step               ; Fast Forward Optimizations Analyzed                       ; Estimated Fmax ; Slack  ; Relationship ;
++--------------------+-----------------------------------------------------------+----------------+--------+--------------+
+; Base Performance   ; None                                                      ; 250 MHz        ; 17.543 ; 21.548       ;
+; Fast Forward Limit ; Meets timing requirements: No further analysis performed. ; --             ; --     ; --           ;
++--------------------+-----------------------------------------------------------+----------------+--------+--------------+
+
+
+Critical Chain for Base Result
+===============================================================================
++--------------------------------------------------------------------+
+; Critical Chain for Base Result                                     ;
++--------------------------------------------------------------------+
+; Critical Chain for Base Result                                     ;
++--------------------------------------------------------------------+
+; See 'Retiming Limit Details' results in Fitter Retime Stage folder ;
++--------------------------------------------------------------------+
+
+
+
+Meets timing requirements: No further analysis performed.
+===============================================================================
++-----------------------------------------------------------+
+; Optimizations Analyzed (Cumulative)                       ;
++-----------------------------------------------------------+
+; Optimizations Analyzed (Cumulative)                       ;
++-----------------------------------------------------------+
+; Meets timing requirements: No further analysis performed. ;
++-----------------------------------------------------------+
+
+
+
++-------------------------------------------------------------------------------------------------------------------------+
+; Fast Forward Summary for Clock Domain q_sys_i|sdi_xcvr_test_0|xcvr_native_s10_0|tx_clkout2|ch0                          ;
++--------------------+-----------------------------------------------------------+----------------+--------+--------------+
+; Step               ; Fast Forward Optimizations Analyzed                       ; Estimated Fmax ; Slack  ; Relationship ;
++--------------------+-----------------------------------------------------------+----------------+--------+--------------+
+; Base Performance   ; None                                                      ; 257 MHz        ; 17.664 ; 21.548       ;
+; Fast Forward Limit ; Meets timing requirements: No further analysis performed. ; --             ; --     ; --           ;
++--------------------+-----------------------------------------------------------+----------------+--------+--------------+
+
+
+Critical Chain for Base Result
+===============================================================================
++--------------------------------------------------------------------+
+; Critical Chain for Base Result                                     ;
++--------------------------------------------------------------------+
+; Critical Chain for Base Result                                     ;
++--------------------------------------------------------------------+
+; See 'Retiming Limit Details' results in Fitter Retime Stage folder ;
++--------------------------------------------------------------------+
+
+
+
+Meets timing requirements: No further analysis performed.
+===============================================================================
++-----------------------------------------------------------+
+; Optimizations Analyzed (Cumulative)                       ;
++-----------------------------------------------------------+
+; Optimizations Analyzed (Cumulative)                       ;
++-----------------------------------------------------------+
+; Meets timing requirements: No further analysis performed. ;
++-----------------------------------------------------------+
+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------+
+; Fast Forward Summary for Clock Domain q_sys_i|qsfp_xcvr_test_1|xcvr_native_s10_0|qsfp_xcvr_test_xcvr_native_s10_htile_1|recal_clk_div8|ch0 ;
++--------------------+-----------------------------------------------------------+----------------+--------+---------------------------------+
+; Step               ; Fast Forward Optimizations Analyzed                       ; Estimated Fmax ; Slack  ; Relationship                    ;
++--------------------+-----------------------------------------------------------+----------------+--------+---------------------------------+
+; Base Performance   ; None                                                      ; 271 MHz        ; 60.313 ; 64.000                          ;
+; Fast Forward Limit ; Meets timing requirements: No further analysis performed. ; --             ; --     ; --                              ;
++--------------------+-----------------------------------------------------------+----------------+--------+---------------------------------+
+
+
+Critical Chain for Base Result
+===============================================================================
++--------------------------------------------------------------------+
+; Critical Chain for Base Result                                     ;
++--------------------------------------------------------------------+
+; Critical Chain for Base Result                                     ;
++--------------------------------------------------------------------+
+; See 'Retiming Limit Details' results in Fitter Retime Stage folder ;
++--------------------------------------------------------------------+
+
+
+
+Meets timing requirements: No further analysis performed.
+===============================================================================
++-----------------------------------------------------------+
+; Optimizations Analyzed (Cumulative)                       ;
++-----------------------------------------------------------+
+; Optimizations Analyzed (Cumulative)                       ;
++-----------------------------------------------------------+
+; Meets timing requirements: No further analysis performed. ;
++-----------------------------------------------------------+
+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------+
+; Fast Forward Summary for Clock Domain q_sys_i|qsfp_xcvr_test_3|xcvr_native_s10_0|qsfp_xcvr_test_xcvr_native_s10_htile_1|recal_clk_div8|ch0 ;
++--------------------+-----------------------------------------------------------+----------------+--------+---------------------------------+
+; Step               ; Fast Forward Optimizations Analyzed                       ; Estimated Fmax ; Slack  ; Relationship                    ;
++--------------------+-----------------------------------------------------------+----------------+--------+---------------------------------+
+; Base Performance   ; None                                                      ; 298 MHz        ; 60.649 ; 64.000                          ;
+; Fast Forward Limit ; Meets timing requirements: No further analysis performed. ; --             ; --     ; --                              ;
++--------------------+-----------------------------------------------------------+----------------+--------+---------------------------------+
+
+
+Critical Chain for Base Result
+===============================================================================
++--------------------------------------------------------------------+
+; Critical Chain for Base Result                                     ;
++--------------------------------------------------------------------+
+; Critical Chain for Base Result                                     ;
++--------------------------------------------------------------------+
+; See 'Retiming Limit Details' results in Fitter Retime Stage folder ;
++--------------------------------------------------------------------+
+
+
+
+Meets timing requirements: No further analysis performed.
+===============================================================================
++-----------------------------------------------------------+
+; Optimizations Analyzed (Cumulative)                       ;
++-----------------------------------------------------------+
+; Optimizations Analyzed (Cumulative)                       ;
++-----------------------------------------------------------+
+; Meets timing requirements: No further analysis performed. ;
++-----------------------------------------------------------+
+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------+
+; Fast Forward Summary for Clock Domain q_sys_i|qsfp_xcvr_test_4|xcvr_native_s10_0|qsfp_xcvr_test_xcvr_native_s10_htile_1|recal_clk_div8|ch0 ;
++--------------------+-----------------------------------------------------------+----------------+--------+---------------------------------+
+; Step               ; Fast Forward Optimizations Analyzed                       ; Estimated Fmax ; Slack  ; Relationship                    ;
++--------------------+-----------------------------------------------------------+----------------+--------+---------------------------------+
+; Base Performance   ; None                                                      ; 300 MHz        ; 60.666 ; 64.000                          ;
+; Fast Forward Limit ; Meets timing requirements: No further analysis performed. ; --             ; --     ; --                              ;
++--------------------+-----------------------------------------------------------+----------------+--------+---------------------------------+
+
+
+Critical Chain for Base Result
+===============================================================================
++--------------------------------------------------------------------+
+; Critical Chain for Base Result                                     ;
++--------------------------------------------------------------------+
+; Critical Chain for Base Result                                     ;
++--------------------------------------------------------------------+
+; See 'Retiming Limit Details' results in Fitter Retime Stage folder ;
++--------------------------------------------------------------------+
+
+
+
+Meets timing requirements: No further analysis performed.
+===============================================================================
++-----------------------------------------------------------+
+; Optimizations Analyzed (Cumulative)                       ;
++-----------------------------------------------------------+
+; Optimizations Analyzed (Cumulative)                       ;
++-----------------------------------------------------------+
+; Meets timing requirements: No further analysis performed. ;
++-----------------------------------------------------------+
+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------+
+; Fast Forward Summary for Clock Domain q_sys_i|qsfp_xcvr_test_0|xcvr_native_s10_0|qsfp_xcvr_test_xcvr_native_s10_htile_1|recal_clk_div8|ch0 ;
++--------------------+-----------------------------------------------------------+----------------+--------+---------------------------------+
+; Step               ; Fast Forward Optimizations Analyzed                       ; Estimated Fmax ; Slack  ; Relationship                    ;
++--------------------+-----------------------------------------------------------+----------------+--------+---------------------------------+
+; Base Performance   ; None                                                      ; 304 MHz        ; 60.706 ; 64.000                          ;
+; Fast Forward Limit ; Meets timing requirements: No further analysis performed. ; --             ; --     ; --                              ;
++--------------------+-----------------------------------------------------------+----------------+--------+---------------------------------+
+
+
+Critical Chain for Base Result
+===============================================================================
++--------------------------------------------------------------------+
+; Critical Chain for Base Result                                     ;
++--------------------------------------------------------------------+
+; Critical Chain for Base Result                                     ;
++--------------------------------------------------------------------+
+; See 'Retiming Limit Details' results in Fitter Retime Stage folder ;
++--------------------------------------------------------------------+
+
+
+
+Meets timing requirements: No further analysis performed.
+===============================================================================
++-----------------------------------------------------------+
+; Optimizations Analyzed (Cumulative)                       ;
++-----------------------------------------------------------+
+; Optimizations Analyzed (Cumulative)                       ;
++-----------------------------------------------------------+
+; Meets timing requirements: No further analysis performed. ;
++-----------------------------------------------------------+
+
+
+
++------------------------------------------------------------------------------------------------+
+; Hyper-Retimer INI Usage                                                                        ;
++----------------------+-------------------------------------------------------------------------+
+; Option               ; Usage                                                                   ;
++----------------------+-------------------------------------------------------------------------+
+; Initialization file: ; C:/Users/Haas1S/Downloads/stratix/qts_qsfp_sdi/qts_qsfp_sdi/quartus.ini ;
++----------------------+-------------------------------------------------------------------------+
+
+
++----------------------+
+; Fastforward Messages ;
++----------------------+
+Can't read Quartus Prime message file C:/Users/Haas1S/Downloads/stratix/qts_qsfp_sdi/qts_qsfp_sdi/qdb/_compiler/qts_qsfp_sdi/_flat/21.2.0/legacy/1/qts_qsfp_sdi.fit.fastforward.header.qmsgdb.
+Make sure the file exists and is up to date, and you have permission to read and write the file.
+
+

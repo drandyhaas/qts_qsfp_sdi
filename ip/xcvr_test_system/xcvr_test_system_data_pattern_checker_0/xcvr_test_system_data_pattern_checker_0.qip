@@ -1,0 +1,52 @@
+set_global_assignment -entity "xcvr_test_system_data_pattern_checker_0" -library "xcvr_test_system_data_pattern_checker_0" -name IP_TOOL_NAME "QsysPrimePro"
+set_global_assignment -entity "xcvr_test_system_data_pattern_checker_0" -library "xcvr_test_system_data_pattern_checker_0" -name IP_TOOL_VERSION "23.3"
+set_global_assignment -entity "xcvr_test_system_data_pattern_checker_0" -library "xcvr_test_system_data_pattern_checker_0" -name IP_TOOL_ENV "QsysPrimePro"
+set_global_assignment -entity "xcvr_test_system_data_pattern_checker_0" -library "xcvr_test_system_data_pattern_checker_0" -name IP_TOOL_VENDOR_NAME "Intel Corporation"
+set_global_assignment -entity "xcvr_test_system_data_pattern_checker_0" -library "xcvr_test_system_data_pattern_checker_0" -name IP_TOP_LEVEL_COMPONENT_NAME "data_pattern_checker"
+set_global_assignment -library "xcvr_test_system_data_pattern_checker_0" -name SOPCINFO_FILE [file join $::quartus(qip_path) "xcvr_test_system_data_pattern_checker_0.sopcinfo"]
+set_global_assignment -entity "xcvr_test_system_data_pattern_checker_0" -library "xcvr_test_system_data_pattern_checker_0" -name SLD_INFO "QSYS_NAME xcvr_test_system_data_pattern_checker_0 HAS_SOPCINFO 1 GENERATION_ID 0"
+set_global_assignment -library "xcvr_test_system_data_pattern_checker_0" -name MISC_FILE [file join $::quartus(qip_path) "xcvr_test_system_data_pattern_checker_0.cmp"]
+set_global_assignment -entity "xcvr_test_system_data_pattern_checker_0" -library "xcvr_test_system_data_pattern_checker_0" -name IP_TARGETED_DEVICE_FAMILY "Stratix 10"
+set_global_assignment -entity "xcvr_test_system_data_pattern_checker_0" -library "xcvr_test_system_data_pattern_checker_0" -name IP_GENERATED_DEVICE_FAMILY "{Stratix 10}"
+set_global_assignment -entity "xcvr_test_system_data_pattern_checker_0" -library "xcvr_test_system_data_pattern_checker_0" -name IP_QSYS_MODE "STANDALONE"
+set_global_assignment -name SYNTHESIS_ONLY_QIP ON
+set_global_assignment -library "xcvr_test_system_data_pattern_checker_0" -name MISC_FILE [file join $::quartus(qip_path) "../xcvr_test_system_data_pattern_checker_0.ip"]
+
+set_global_assignment -entity "data_pattern_checker" -library "data_pattern_checker_core_10" -name IP_COMPONENT_NAME "ZGF0YV9wYXR0ZXJuX2NoZWNrZXI="
+set_global_assignment -entity "data_pattern_checker" -library "data_pattern_checker_core_10" -name IP_COMPONENT_DISPLAY_NAME "RGF0YSBQYXR0ZXJuIENoZWNrZXIgQ29yZQ=="
+set_global_assignment -entity "data_pattern_checker" -library "data_pattern_checker_core_10" -name IP_COMPONENT_REPORT_HIERARCHY "Off"
+set_global_assignment -entity "data_pattern_checker" -library "data_pattern_checker_core_10" -name IP_COMPONENT_INTERNAL "On"
+set_global_assignment -entity "data_pattern_checker" -library "data_pattern_checker_core_10" -name IP_COMPONENT_AUTHOR "SW50ZWwgQ29ycG9yYXRpb24="
+set_global_assignment -entity "data_pattern_checker" -library "data_pattern_checker_core_10" -name IP_COMPONENT_VERSION "MS4w"
+set_global_assignment -entity "data_pattern_checker" -library "data_pattern_checker_core_10" -name IP_COMPONENT_DESCRIPTION "RGF0YSBQYXR0ZXJuIENoZWNrZXIgQ29yZQ=="
+set_global_assignment -entity "xcvr_test_system_data_pattern_checker_0_data_pattern_checker_10_tpte7tq" -library "data_pattern_checker_10" -name IP_COMPONENT_NAME "eGN2cl90ZXN0X3N5c3RlbV9kYXRhX3BhdHRlcm5fY2hlY2tlcl8wX2RhdGFfcGF0dGVybl9jaGVja2VyXzEwX3RwdGU3dHE="
+set_global_assignment -entity "xcvr_test_system_data_pattern_checker_0_data_pattern_checker_10_tpte7tq" -library "data_pattern_checker_10" -name IP_COMPONENT_DISPLAY_NAME "RGF0YSBQYXR0ZXJuIENoZWNrZXI="
+set_global_assignment -entity "xcvr_test_system_data_pattern_checker_0_data_pattern_checker_10_tpte7tq" -library "data_pattern_checker_10" -name IP_COMPONENT_REPORT_HIERARCHY "Off"
+set_global_assignment -entity "xcvr_test_system_data_pattern_checker_0_data_pattern_checker_10_tpte7tq" -library "data_pattern_checker_10" -name IP_COMPONENT_INTERNAL "Off"
+set_global_assignment -entity "xcvr_test_system_data_pattern_checker_0_data_pattern_checker_10_tpte7tq" -library "data_pattern_checker_10" -name IP_COMPONENT_AUTHOR "SW50ZWwgQ29ycG9yYXRpb24="
+set_global_assignment -entity "xcvr_test_system_data_pattern_checker_0_data_pattern_checker_10_tpte7tq" -library "data_pattern_checker_10" -name IP_COMPONENT_VERSION "MS4w"
+set_global_assignment -entity "xcvr_test_system_data_pattern_checker_0_data_pattern_checker_10_tpte7tq" -library "data_pattern_checker_10" -name IP_COMPONENT_DESCRIPTION "RGF0YSBQYXR0ZXJuIENoZWNrZXI="
+set_global_assignment -entity "xcvr_test_system_data_pattern_checker_0" -library "xcvr_test_system_data_pattern_checker_0" -name IP_COMPONENT_NAME "eGN2cl90ZXN0X3N5c3RlbV9kYXRhX3BhdHRlcm5fY2hlY2tlcl8w"
+set_global_assignment -entity "xcvr_test_system_data_pattern_checker_0" -library "xcvr_test_system_data_pattern_checker_0" -name IP_COMPONENT_DISPLAY_NAME "c3lzdGVt"
+set_global_assignment -entity "xcvr_test_system_data_pattern_checker_0" -library "xcvr_test_system_data_pattern_checker_0" -name IP_COMPONENT_REPORT_HIERARCHY "On"
+set_global_assignment -entity "xcvr_test_system_data_pattern_checker_0" -library "xcvr_test_system_data_pattern_checker_0" -name IP_COMPONENT_INTERNAL "Off"
+set_global_assignment -entity "xcvr_test_system_data_pattern_checker_0" -library "xcvr_test_system_data_pattern_checker_0" -name IP_COMPONENT_AUTHOR "SW50ZWwgQ29ycG9yYXRpb24="
+set_global_assignment -entity "xcvr_test_system_data_pattern_checker_0" -library "xcvr_test_system_data_pattern_checker_0" -name IP_COMPONENT_VERSION "MS4w"
+
+
+set_global_assignment -library "data_pattern_checker_core_10" -name VERILOG_FILE [file join $::quartus(qip_path) "data_pattern_checker_core_10/synth/data_pattern_checker.v"]
+set_global_assignment -library "data_pattern_checker_core_10" -name VERILOG_FILE [file join $::quartus(qip_path) "data_pattern_checker_core_10/synth/reset_controller.v"]
+set_global_assignment -library "data_pattern_checker_core_10" -name VERILOG_FILE [file join $::quartus(qip_path) "data_pattern_checker_core_10/synth/reset_synchronizer.v"]
+set_global_assignment -library "data_pattern_checker_core_10" -name SDC_FILE [file join $::quartus(qip_path) "data_pattern_checker_core_10/synth/data_pattern_checker.sdc"]
+set_global_assignment -library "data_pattern_checker_core_10" -name SDC_FILE [file join $::quartus(qip_path) "data_pattern_checker_core_10/synth/reset_controller.sdc"]
+set_global_assignment -library "data_pattern_checker_10" -name VERILOG_FILE [file join $::quartus(qip_path) "data_pattern_checker_10/synth/xcvr_test_system_data_pattern_checker_0_data_pattern_checker_10_tpte7tq.v"]
+set_global_assignment -library "xcvr_test_system_data_pattern_checker_0" -name VERILOG_FILE [file join $::quartus(qip_path) "synth/xcvr_test_system_data_pattern_checker_0.v"]
+
+
+set_global_assignment -entity "xcvr_test_system_data_pattern_checker_0_data_pattern_checker_10_tpte7tq" -library "data_pattern_checker_10" -name IP_TOOL_NAME "data_pattern_checker"
+set_global_assignment -entity "xcvr_test_system_data_pattern_checker_0_data_pattern_checker_10_tpte7tq" -library "data_pattern_checker_10" -name IP_TOOL_VERSION "1.0"
+set_global_assignment -entity "xcvr_test_system_data_pattern_checker_0_data_pattern_checker_10_tpte7tq" -library "data_pattern_checker_10" -name IP_TOOL_ENV "QsysPrimePro"
+set_global_assignment -entity "data_pattern_checker" -library "data_pattern_checker_core_10" -name IP_TOOL_NAME "data_pattern_checker_core"
+set_global_assignment -entity "data_pattern_checker" -library "data_pattern_checker_core_10" -name IP_TOOL_VERSION "1.0"
+set_global_assignment -entity "data_pattern_checker" -library "data_pattern_checker_core_10" -name IP_TOOL_ENV "QsysPrimePro"
+

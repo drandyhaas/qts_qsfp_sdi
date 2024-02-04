@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ip name="FIFO Intel FPGA IP">
+ <timestamp>2023-05-24T14:24:24.306</timestamp>
+ <file></file>
+ <old_version>18.1</old_version>
+ <new_version>19.2.0</new_version>
+</ip>
+
+<ip name="FIFO Intel FPGA IP">
+ <timestamp>2023-05-24T14:24:24.683</timestamp>
+ <file></file>
+ <old_version>18.1</old_version>
+ <new_version>19.2.0</new_version>
+</ip>
+
+<ip name="JTAG to Avalon Master Bridge Intel FPGA IP">
+ <timestamp>2023-05-24T14:24:26.326</timestamp>
+ <file></file>
+ <old_version>18.1</old_version>
+ <new_version>19.1</new_version>
+</ip>
+
+<ip name="L-Tile/H-Tile Transceiver ATX PLL Intel Stratix 10 FPGA IP">
+ <timestamp>2023-05-24T14:24:29.828</timestamp>
+ <file></file>
+ <old_version>18.1</old_version>
+ <new_version>19.1.1</new_version>
+</ip>
+
+<ip name="L-Tile/H-Tile Transceiver ATX PLL Intel Stratix 10 FPGA IP">
+ <timestamp>2023-05-24T14:24:30.431</timestamp>
+ <file></file>
+ <old_version>18.1</old_version>
+ <new_version>19.1.1</new_version>
+</ip>
+
+<ip name="L-Tile/H-Tile Transceiver ATX PLL Intel Stratix 10 FPGA IP">
+ <timestamp>2023-05-24T14:24:32.258</timestamp>
+ <file></file>
+ <old_version>18.1</old_version>
+ <new_version>19.1.1</new_version>
+</ip>
+
+<ip name="Avalon Memory Mapped Pipeline Bridge Intel FPGA IP">
+ <timestamp>2023-05-24T14:24:32.686</timestamp>
+ <file></file>
+ <old_version>18.1</old_version>
+ <new_version>20.0.1</new_version>
+</ip>
+
+<ip name="Avalon Data Pattern Checker Intel FPGA IP">
+ <timestamp>2023-05-24T14:24:33.197</timestamp>
+ <file></file>
+ <old_version>18.1</old_version>
+ <new_version>19.1</new_version>
+</ip>
+
+<ip name="Transceiver PHY Reset Controller Intel Stratix 10 FPGA IP">
+ <timestamp>2023-05-24T14:24:33.714</timestamp>
+ <file></file>
+ <old_version>18.1</old_version>
+ <new_version>19.1.1</new_version>
+</ip>
+
+<ip name="L-Tile/H-Tile Transceiver Native PHY Intel Stratix 10 FPGA IP">
+ <timestamp>2023-05-24T14:24:51.852</timestamp>
+ <file></file>
+ <old_version>18.1</old_version>
+ <new_version>19.3.0</new_version>
+</ip>
+
+<ip name="Avalon Memory Mapped Pipeline Bridge Intel FPGA IP">
+ <timestamp>2023-05-24T14:24:52.236</timestamp>
+ <file></file>
+ <old_version>18.1</old_version>
+ <new_version>20.0.1</new_version>
+</ip>
+
+<ip name="Transceiver PHY Reset Controller Intel Stratix 10 FPGA IP">
+ <timestamp>2023-05-24T14:24:54.129</timestamp>
+ <file></file>
+ <old_version>18.1</old_version>
+ <new_version>19.1.1</new_version>
+</ip>
+
+<ip name="L-Tile/H-Tile Transceiver Native PHY Intel Stratix 10 FPGA IP">
+ <timestamp>2023-05-24T14:24:57.429</timestamp>
+ <file></file>
+ <old_version>18.1</old_version>
+ <new_version>19.3.0</new_version>
+</ip>
+
+<ip name="Avalon Memory Mapped Pipeline Bridge Intel FPGA IP">
+ <timestamp>2023-05-24T14:24:57.882</timestamp>
+ <file></file>
+ <old_version>18.1</old_version>
+ <new_version>20.0.1</new_version>
+</ip>
+
+<ip name="clock_source">
+ <timestamp>2023-05-24T14:32:00.368</timestamp>
+ <file>ip/xcvr_test_system/xcvr_test_system_clk_50.ip</file>
+ <old_version>18.1</old_version>
+ <new_version>23.1</new_version>
+</ip>
+
+<ip name="clock_source">
+ <timestamp>2023-05-24T15:11:44.765</timestamp>
+ <file>ip/sdi_xcvr_test/sdi_xcvr_test_clk_100.ip</file>
+ <old_version>18.1</old_version>
+ <new_version>23.1</new_version>
+</ip>
+
+<ip name="clock_source">
+ <timestamp>2023-05-24T15:11:44.982</timestamp>
+ <file>ip/sdi_xcvr_test/sdi_xcvr_test_clk_50.ip</file>
+ <old_version>18.1</old_version>
+ <new_version>23.1</new_version>
+</ip>
+
+<ip name="clock_source">
+ <timestamp>2023-05-24T15:28:25.072</timestamp>
+ <file>ip/qsfp_xcvr_test/qsfp_xcvr_test_clk_100.ip</file>
+ <old_version>18.1</old_version>
+ <new_version>23.1</new_version>
+</ip>
+
+<ip name="clock_source">
+ <timestamp>2023-05-24T15:28:25.305</timestamp>
+ <file>ip/qsfp_xcvr_test/qsfp_xcvr_test_clk_50.ip</file>
+ <old_version>18.1</old_version>
+ <new_version>23.1</new_version>
+</ip>
+
+<ip name="clock_source">
+ <timestamp>2023-05-24T16:04:34.044</timestamp>
+ <file>ip/q_sys/q_sys_clk_100.ip</file>
+ <old_version>18.1</old_version>
+ <new_version>23.1</new_version>
+</ip>
+
+<ip name="clock_source">
+ <timestamp>2023-05-24T16:04:34.284</timestamp>
+ <file>ip/q_sys/q_sys_clk_50.ip</file>
+ <old_version>18.1</old_version>
+ <new_version>23.1</new_version>
+</ip>
+
+<ip name="altera_clock_bridge">
+ <timestamp>2023-05-24T16:04:34.342</timestamp>
+ <file>ip/q_sys/q_sys_clock_bridge_0.ip</file>
+ <old_version>18.1</old_version>
+ <new_version>19.2.0</new_version>
+</ip>
+
+<ip name="altera_clock_bridge">
+ <timestamp>2023-05-24T16:04:34.492</timestamp>
+ <file>ip/q_sys/q_sys_clock_bridge_1.ip</file>
+ <old_version>18.1</old_version>
+ <new_version>19.2.0</new_version>
+</ip>
+
+<ip name="FIFO Intel FPGA IP">
+ <timestamp>2023-10-17T11:13:02.613</timestamp>
+ <file></file>
+ <old_version>19.2.0</old_version>
+ <new_version>19.2.3</new_version>
+ <changes>
+  <change> No parameter change </change>
+  <change> No port change </change>
+  <change> Quartus infrastructure maintenance </change>
+ </changes>
+</ip>
+
+<ip name="FIFO Intel FPGA IP">
+ <timestamp>2023-10-17T11:13:02.895</timestamp>
+ <file></file>
+ <old_version>19.2.0</old_version>
+ <new_version>19.2.3</new_version>
+ <changes>
+  <change> No parameter change </change>
+  <change> No port change </change>
+  <change> Quartus infrastructure maintenance </change>
+ </changes>
+</ip>
+
+<ip name="clock_source">
+ <timestamp>2023-10-17T11:14:54.102</timestamp>
+ <file>ip/xcvr_test_system/xcvr_test_system_clk_50.ip</file>
+ <old_version>23.1</old_version>
+ <new_version>23.3</new_version>
+</ip>
+
+<ip name="clock_source">
+ <timestamp>2023-10-17T11:17:13.492</timestamp>
+ <file>ip/sdi_xcvr_test/sdi_xcvr_test_clk_100.ip</file>
+ <old_version>23.1</old_version>
+ <new_version>23.3</new_version>
+</ip>
+
+<ip name="clock_source">
+ <timestamp>2023-10-17T11:17:13.755</timestamp>
+ <file>ip/sdi_xcvr_test/sdi_xcvr_test_clk_50.ip</file>
+ <old_version>23.1</old_version>
+ <new_version>23.3</new_version>
+</ip>
+
+<ip name="clock_source">
+ <timestamp>2023-10-17T11:23:03.055</timestamp>
+ <file>ip/q_sys/q_sys_clk_100.ip</file>
+ <old_version>23.1</old_version>
+ <new_version>23.3</new_version>
+</ip>
+
+<ip name="clock_source">
+ <timestamp>2023-10-17T11:23:03.103</timestamp>
+ <file>ip/q_sys/q_sys_clk_50.ip</file>
+ <old_version>23.1</old_version>
+ <new_version>23.3</new_version>
+</ip>

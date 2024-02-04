@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deploy
+ date="2023.10.17.11:25:10"
+ outputDirectory="/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/xcvr_test_system/xcvr_test_system_data_pattern_generator_0/">
+ <perimeter>
+  <parameter
+     name="AUTO_GENERATION_ID"
+     type="Integer"
+     defaultValue="0"
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_UNIQUE_ID"
+     type="String"
+     defaultValue=""
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_DEVICE_FAMILY"
+     type="String"
+     defaultValue="Stratix 10"
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_DEVICE"
+     type="String"
+     defaultValue="1SG280HU2F50E2VG"
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_DEVICE_SPEEDGRADE"
+     type="String"
+     defaultValue="2"
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_CSR_CLK_CLOCK_RATE"
+     type="Long"
+     defaultValue="-1"
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_CSR_CLK_CLOCK_DOMAIN"
+     type="Integer"
+     defaultValue="-1"
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_CSR_CLK_RESET_DOMAIN"
+     type="Integer"
+     defaultValue="-1"
+     onHdl="0"
+     affectsHdl="1" />
+  <interface name="csr_clk" kind="clock" start="0">
+   <property name="clockRate" value="0" />
+   <property name="externallyDriven" value="false" />
+   <property name="ptfSchematicName" value="" />
+   <port name="csr_clk_clk" direction="input" role="clk" width="1" />
+  </interface>
+  <interface name="reset" kind="reset" start="0">
+   <property name="associatedClock" value="csr_clk" />
+   <property name="synchronousEdges" value="DEASSERT" />
+   <port name="reset_reset" direction="input" role="reset" width="1" />
+  </interface>
+  <interface name="csr_slave" kind="avalon" start="0">
+   <property name="addressAlignment" value="DYNAMIC" />
+   <property name="addressGroup" value="0" />
+   <property name="addressSpan" value="32" />
+   <property name="addressUnits" value="WORDS" />
+   <property name="alwaysBurstMaxBurst" value="false" />
+   <property name="associatedClock" value="csr_clk" />
+   <property name="associatedReset" value="reset" />
+   <property name="bitsPerSymbol" value="8" />
+   <property name="bridgedAddressOffset" value="0" />
+   <property name="bridgesToMaster" value="" />
+   <property name="burstOnBurstBoundariesOnly" value="false" />
+   <property name="burstcountUnits" value="WORDS" />
+   <property name="constantBurstBehavior" value="false" />
+   <property name="explicitAddressSpan" value="0" />
+   <property name="holdTime" value="0" />
+   <property name="interleaveBursts" value="false" />
+   <property name="isBigEndian" value="false" />
+   <property name="isFlash" value="false" />
+   <property name="isMemoryDevice" value="false" />
+   <property name="isNonVolatileStorage" value="false" />
+   <property name="linewrapBursts" value="false" />
+   <property name="maximumPendingReadTransactions" value="0" />
+   <property name="maximumPendingWriteTransactions" value="0" />
+   <property name="minimumReadLatency" value="1" />
+   <property name="minimumResponseLatency" value="1" />
+   <property name="minimumUninterruptedRunLength" value="1" />
+   <property name="prSafe" value="false" />
+   <property name="printableDevice" value="false" />
+   <property name="readLatency" value="1" />
+   <property name="readWaitStates" value="0" />
+   <property name="readWaitTime" value="0" />
+   <property name="registerIncomingSignals" value="false" />
+   <property name="registerOutgoingSignals" value="false" />
+   <property name="setupTime" value="0" />
+   <property name="timingUnits" value="Cycles" />
+   <property name="transparentBridge" value="false" />
+   <property name="waitrequestAllowance" value="0" />
+   <property name="wellBehavedWaitrequest" value="false" />
+   <property name="writeLatency" value="0" />
+   <property name="writeWaitStates" value="0" />
+   <property name="writeWaitTime" value="0" />
+   <property name="dfhFeatureGuid" value="0" />
+   <property name="dfhGroupId" value="0" />
+   <property name="dfhParameterId" value="" />
+   <property name="dfhParameterName" value="" />
+   <property name="dfhParameterVersion" value="" />
+   <property name="dfhParameterData" value="" />
+   <property name="dfhParameterDataLength" value="" />
+   <property name="dfhFeatureMajorVersion" value="0" />
+   <property name="dfhFeatureMinorVersion" value="0" />
+   <property name="dfhFeatureId" value="35" />
+   <port name="csr_slave_address" direction="input" role="address" width="3" />
+   <port name="csr_slave_write" direction="input" role="write" width="1" />
+   <port name="csr_slave_read" direction="input" role="read" width="1" />
+   <port
+       name="csr_slave_byteenable"
+       direction="input"
+       role="byteenable"
+       width="4" />
+   <port
+       name="csr_slave_writedata"
+       direction="input"
+       role="writedata"
+       width="32" />
+   <port
+       name="csr_slave_readdata"
+       direction="output"
+       role="readdata"
+       width="32" />
+  </interface>
+  <interface name="conduit_pattern_out_clk" kind="conduit" start="0">
+   <property name="associatedClock" value="" />
+   <property name="associatedReset" value="" />
+   <property name="prSafe" value="false" />
+   <port
+       name="conduit_pattern_out_clk_export"
+       direction="input"
+       role="export"
+       width="1" />
+  </interface>
+  <interface name="conduit_pattern_out" kind="conduit" start="0">
+   <property name="associatedClock" value="" />
+   <property name="associatedReset" value="" />
+   <property name="prSafe" value="false" />
+   <port name="aso_data" direction="output" role="export" width="128" />
+  </interface>
+ </perimeter>
+ <entity
+   kind="xcvr_test_system_data_pattern_generator_0"
+   version="1.0"
+   name="xcvr_test_system_data_pattern_generator_0">
+  <parameter name="AUTO_GENERATION_ID" value="0" />
+  <parameter name="AUTO_DEVICE" value="1SG280HU2F50E2VG" />
+  <parameter name="AUTO_DEVICE_FAMILY" value="Stratix 10" />
+  <parameter name="AUTO_CSR_CLK_CLOCK_RATE" value="-1" />
+  <parameter name="AUTO_UNIQUE_ID" value="" />
+  <parameter name="AUTO_CSR_CLK_RESET_DOMAIN" value="-1" />
+  <parameter name="AUTO_DEVICE_SPEEDGRADE" value="2" />
+  <parameter name="AUTO_CSR_CLK_CLOCK_DOMAIN" value="-1" />
+  <generatedFiles>
+   <file
+       path="/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/xcvr_test_system/xcvr_test_system_data_pattern_generator_0/synth/xcvr_test_system_data_pattern_generator_0.v"
+       attributes="CONTAINS_INLINE_CONFIGURATION" />
+  </generatedFiles>
+  <childGeneratedFiles>
+   <file
+       path="/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/xcvr_test_system/xcvr_test_system_data_pattern_generator_0/synth/xcvr_test_system_data_pattern_generator_0.v"
+       attributes="CONTAINS_INLINE_CONFIGURATION" />
+  </childGeneratedFiles>
+  <sourceFiles>
+   <file
+       path="/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/xcvr_test_system/xcvr_test_system_data_pattern_generator_0.ip" />
+  </sourceFiles>
+  <childSourceFiles>
+   <file
+       path="/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/intel_avalon_data_pattern_generator/data_pattern_generator_hw.tcl" />
+   <file
+       path="/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/intel_avalon_data_pattern_generator/data_pattern_generator_core_hw.tcl" />
+   <file
+       path="/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/intel_avalon_data_pattern_generator/data_pattern_generator.v" />
+   <file
+       path="/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/intel_avalon_data_pattern_generator/reset_controller.v" />
+   <file
+       path="/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/intel_avalon_data_pattern_generator/reset_synchronizer.v" />
+   <file
+       path="/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/intel_avalon_data_pattern_generator/data_pattern_generator.sdc" />
+   <file
+       path="/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/intel_avalon_data_pattern_generator/reset_controller.sdc" />
+  </childSourceFiles>
+  <messages>
+   <message level="Info" culprit="xcvr_test_system_data_pattern_generator_0">"Generating: xcvr_test_system_data_pattern_generator_0"</message>
+   <message level="Info" culprit="xcvr_test_system_data_pattern_generator_0">"Generating: xcvr_test_system_data_pattern_generator_0_data_pattern_generator_10_utzxrya"</message>
+   <message level="Info" culprit="xcvr_test_system_data_pattern_generator_0">"Generating: data_pattern_generator"</message>
+  </messages>
+ </entity>
+ <entity
+   kind="data_pattern_generator"
+   version="1.0"
+   name="xcvr_test_system_data_pattern_generator_0_data_pattern_generator_10_utzxrya">
+  <parameter name="BYPASS_ENABLED" value="false" />
+  <parameter name="CROSS_CLK_SYNC_DEPTH" value="4" />
+  <parameter name="AVALON_ENABLED" value="false" />
+  <parameter name="AUTO_DEVICE" value="1SG280HU2F50E2VG" />
+  <parameter name="AUTO_DEVICE_FAMILY" value="Stratix 10" />
+  <parameter name="ST_DATA_W" value="128" />
+  <parameter name="AUTO_CSR_CLK_CLOCK_RATE" value="50000000" />
+  <parameter name="AUTO_CSR_CLK_RESET_DOMAIN" value="1" />
+  <parameter name="FREQ_CNTER_ENABLED" value="false" />
+  <parameter name="AUTO_DEVICE_SPEEDGRADE" value="2" />
+  <parameter name="AUTO_CSR_CLK_CLOCK_DOMAIN" value="1" />
+  <generatedFiles>
+   <file
+       path="/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/xcvr_test_system/xcvr_test_system_data_pattern_generator_0/data_pattern_generator_10/synth/xcvr_test_system_data_pattern_generator_0_data_pattern_generator_10_utzxrya.v"
+       attributes="CONTAINS_INLINE_CONFIGURATION" />
+  </generatedFiles>
+  <childGeneratedFiles>
+   <file
+       path="/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/xcvr_test_system/xcvr_test_system_data_pattern_generator_0/data_pattern_generator_10/synth/xcvr_test_system_data_pattern_generator_0_data_pattern_generator_10_utzxrya.v"
+       attributes="CONTAINS_INLINE_CONFIGURATION" />
+  </childGeneratedFiles>
+  <sourceFiles>
+   <file
+       path="/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/intel_avalon_data_pattern_generator/data_pattern_generator_hw.tcl" />
+  </sourceFiles>
+  <childSourceFiles>
+   <file
+       path="/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/intel_avalon_data_pattern_generator/data_pattern_generator_core_hw.tcl" />
+   <file
+       path="/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/intel_avalon_data_pattern_generator/data_pattern_generator.v" />
+   <file
+       path="/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/intel_avalon_data_pattern_generator/reset_controller.v" />
+   <file
+       path="/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/intel_avalon_data_pattern_generator/reset_synchronizer.v" />
+   <file
+       path="/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/intel_avalon_data_pattern_generator/data_pattern_generator.sdc" />
+   <file
+       path="/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/intel_avalon_data_pattern_generator/reset_controller.sdc" />
+  </childSourceFiles>
+  <instantiator
+     instantiator="xcvr_test_system_data_pattern_generator_0"
+     as="data_pattern_generator_0" />
+  <messages>
+   <message level="Info" culprit="xcvr_test_system_data_pattern_generator_0">"Generating: xcvr_test_system_data_pattern_generator_0_data_pattern_generator_10_utzxrya"</message>
+   <message level="Info" culprit="xcvr_test_system_data_pattern_generator_0">"Generating: data_pattern_generator"</message>
+  </messages>
+ </entity>
+ <entity
+   kind="data_pattern_generator_core"
+   version="1.0"
+   name="data_pattern_generator">
+  <parameter name="BYPASS_ENABLED" value="false" />
+  <parameter name="AVALON_ENABLED" value="false" />
+  <parameter name="ST_DATA_W" value="128" />
+  <parameter name="AUTO_CSR_CLK_CLOCK_RATE" value="50000000" />
+  <parameter name="FREQ_CNTER_ENABLED" value="false" />
+  <generatedFiles>
+   <file
+       path="/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/xcvr_test_system/xcvr_test_system_data_pattern_generator_0/data_pattern_generator_core_10/synth/data_pattern_generator.v" />
+   <file
+       path="/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/xcvr_test_system/xcvr_test_system_data_pattern_generator_0/data_pattern_generator_core_10/synth/reset_controller.v" />
+   <file
+       path="/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/xcvr_test_system/xcvr_test_system_data_pattern_generator_0/data_pattern_generator_core_10/synth/reset_synchronizer.v" />
+   <file
+       path="/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/xcvr_test_system/xcvr_test_system_data_pattern_generator_0/data_pattern_generator_core_10/synth/data_pattern_generator.sdc" />
+   <file
+       path="/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/xcvr_test_system/xcvr_test_system_data_pattern_generator_0/data_pattern_generator_core_10/synth/reset_controller.sdc" />
+  </generatedFiles>
+  <childGeneratedFiles>
+   <file
+       path="/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/xcvr_test_system/xcvr_test_system_data_pattern_generator_0/data_pattern_generator_core_10/synth/data_pattern_generator.v" />
+   <file
+       path="/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/xcvr_test_system/xcvr_test_system_data_pattern_generator_0/data_pattern_generator_core_10/synth/reset_controller.v" />
+   <file
+       path="/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/xcvr_test_system/xcvr_test_system_data_pattern_generator_0/data_pattern_generator_core_10/synth/reset_synchronizer.v" />
+   <file
+       path="/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/xcvr_test_system/xcvr_test_system_data_pattern_generator_0/data_pattern_generator_core_10/synth/data_pattern_generator.sdc" />
+   <file
+       path="/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/xcvr_test_system/xcvr_test_system_data_pattern_generator_0/data_pattern_generator_core_10/synth/reset_controller.sdc" />
+  </childGeneratedFiles>
+  <sourceFiles>
+   <file
+       path="/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/intel_avalon_data_pattern_generator/data_pattern_generator_core_hw.tcl" />
+   <file
+       path="/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/intel_avalon_data_pattern_generator/data_pattern_generator.v" />
+   <file
+       path="/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/intel_avalon_data_pattern_generator/reset_controller.v" />
+   <file
+       path="/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/intel_avalon_data_pattern_generator/reset_synchronizer.v" />
+   <file
+       path="/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/intel_avalon_data_pattern_generator/data_pattern_generator.sdc" />
+   <file
+       path="/nfs/site/disks/psg_board_1/xinyul3x/Stratix10GX/stratix10GX_1sg280u50_fpga_revd_htile_v23.1/qts_qsfp_sdi/ip/intel_avalon_data_pattern_generator/reset_controller.sdc" />
+  </sourceFiles>
+  <childSourceFiles/>
+  <instantiator
+     instantiator="xcvr_test_system_data_pattern_generator_0_data_pattern_generator_10_utzxrya"
+     as="data_pattern_generator" />
+  <messages>
+   <message level="Info" culprit="xcvr_test_system_data_pattern_generator_0">"Generating: data_pattern_generator"</message>
+  </messages>
+ </entity>
+</deploy>

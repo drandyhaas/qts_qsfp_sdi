@@ -1,0 +1,170 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 2023  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the Intel FPGA Software License Subscription Agreements 
+on the Quartus Prime software download page.
+*/
+(header "symbol" (version "1.1"))
+(symbol
+	(rect 0 0 368 512)
+	(text "sdi_xcvr_test_xcvr_st_converter_0" (rect 65 0 213 12)(font "SansSerif" (font_size 11)))
+	(text "inst" (rect 8 496 20 508)(font "Arial" ))
+	(port
+		(pt 0 120)
+		(input)
+		(text "tx_clkout" (rect 0 0 35 12)(font "SansSerif" (font_size 8)))
+		(text "tx_clkout" (rect 4 115 58 126)(font "SansSerif" (font_size 8)))
+	)
+	(port
+		(pt 0 176)
+		(input)
+		(text "rx_parallel_data[63..0]" (rect 0 0 87 12)(font "SansSerif" (font_size 8)))
+		(text "rx_parallel_data[63..0]" (rect 4 165 142 176)(font "SansSerif" (font_size 8)))
+		(line (pt 0 176)(pt 119 176)(line_width 3))
+	)
+	(port
+		(pt 0 224)
+		(input)
+		(text "rx_clkout" (rect 0 0 36 12)(font "SansSerif" (font_size 8)))
+		(text "rx_clkout" (rect 4 215 58 226)(font "SansSerif" (font_size 8)))
+	)
+	(port
+		(pt 0 272)
+		(input)
+		(text "rx_is_lockedtodata" (rect 0 0 74 12)(font "SansSerif" (font_size 8)))
+		(text "rx_is_lockedtodata" (rect 4 265 112 276)(font "SansSerif" (font_size 8)))
+	)
+	(port
+		(pt 0 320)
+		(input)
+		(text "tx_data_a[63..0]" (rect 0 0 64 12)(font "SansSerif" (font_size 8)))
+		(text "tx_data_a[63..0]" (rect 4 315 100 326)(font "SansSerif" (font_size 8)))
+	)
+	(port
+		(pt 0 72)
+		(output)
+		(text "tx_parallel_data[63..0]" (rect 0 0 86 12)(font "SansSerif" (font_size 8)))
+		(text "tx_parallel_data[63..0]" (rect 4 65 142 76)(font "SansSerif" (font_size 8)))
+	)
+	(port
+		(pt 0 376)
+		(output)
+		(text "tx_clkout_a" (rect 0 0 46 12)(font "SansSerif" (font_size 8)))
+		(text "tx_clkout_a" (rect 4 365 70 376)(font "SansSerif" (font_size 8)))
+		(line (pt 0 376)(pt 119 376)(line_width 1))
+	)
+	(port
+		(pt 0 424)
+		(output)
+		(text "rx_data_a[63..0]" (rect 0 0 66 12)(font "SansSerif" (font_size 8)))
+		(text "rx_data_a[63..0]" (rect 4 415 100 426)(font "SansSerif" (font_size 8)))
+	)
+	(port
+		(pt 0 472)
+		(output)
+		(text "rx_clkout_a" (rect 0 0 47 12)(font "SansSerif" (font_size 8)))
+		(text "rx_clkout_a" (rect 4 465 70 476)(font "SansSerif" (font_size 8)))
+	)
+	(port
+		(pt 368 72)
+		(output)
+		(text "test_reset_n_a" (rect 0 0 61 12)(font "SansSerif" (font_size 8)))
+		(text "test_reset_n_a" (rect 296 65 380 76)(font "SansSerif" (font_size 8)))
+	)
+	(port
+		(pt 368 120)
+		(output)
+		(text "tx_clkout_a_output" (rect 0 0 75 12)(font "SansSerif" (font_size 8)))
+		(text "tx_clkout_a_output" (rect 278 115 386 126)(font "SansSerif" (font_size 8)))
+	)
+	(port
+		(pt 368 176)
+		(output)
+		(text "rx_clkout_a_output" (rect 0 0 76 12)(font "SansSerif" (font_size 8)))
+		(text "rx_clkout_a_output" (rect 277 165 385 176)(font "SansSerif" (font_size 8)))
+	)
+	(drawing
+		(text "tx_parallel_data" (rect 27 46 150 105)(font "SansSerif" (color 128 0 0)(font_size 9)))
+		(text "tx_parallel_data" (rect 124 71 344 152)(font "SansSerif" (color 0 0 0)))
+		(text "tx_clkout" (rect 68 96 190 205)(font "SansSerif" (color 128 0 0)(font_size 9)))
+		(text "clk" (rect 124 121 266 252)(font "SansSerif" (color 0 0 0)))
+		(text "rx_parallel_data" (rect 26 146 148 305)(font "SansSerif" (color 128 0 0)(font_size 9)))
+		(text "rx_parallel_data" (rect 124 171 344 352)(font "SansSerif" (color 0 0 0)))
+		(text "rx_clkout" (rect 67 196 188 405)(font "SansSerif" (color 128 0 0)(font_size 9)))
+		(text "clk" (rect 124 221 266 452)(font "SansSerif" (color 0 0 0)))
+		(text "rx_is_lockedtodata" (rect 10 246 128 505)(font "SansSerif" (color 128 0 0)(font_size 9)))
+		(text "rx_is_lockedtodata" (rect 124 271 356 552)(font "SansSerif" (color 0 0 0)))
+		(text "tx_data_a" (rect 62 296 178 605)(font "SansSerif" (color 128 0 0)(font_size 9)))
+		(text "export" (rect 124 321 284 652)(font "SansSerif" (color 0 0 0)))
+		(text "tx_clkout_a" (rect 53 346 172 705)(font "SansSerif" (color 128 0 0)(font_size 9)))
+		(text "export" (rect 124 371 284 752)(font "SansSerif" (color 0 0 0)))
+		(text "rx_data_a" (rect 61 396 176 805)(font "SansSerif" (color 128 0 0)(font_size 9)))
+		(text "export" (rect 124 421 284 852)(font "SansSerif" (color 0 0 0)))
+		(text "rx_clkout_a" (rect 52 446 170 905)(font "SansSerif" (color 128 0 0)(font_size 9)))
+		(text "export" (rect 124 471 284 952)(font "SansSerif" (color 0 0 0)))
+		(text "test_reset_n_a" (rect 256 46 596 105)(font "SansSerif" (color 128 0 0)(font_size 9)))
+		(text "reset_n" (rect 219 71 480 152)(font "SansSerif" (color 0 0 0)))
+		(text "tx_clkout_a_output" (rect 256 96 620 205)(font "SansSerif" (color 128 0 0)(font_size 9)))
+		(text "clk" (rect 240 121 498 252)(font "SansSerif" (color 0 0 0)))
+		(text "rx_clkout_a_output" (rect 256 146 620 305)(font "SansSerif" (color 128 0 0)(font_size 9)))
+		(text "clk" (rect 240 171 498 352)(font "SansSerif" (color 0 0 0)))
+		(text " sdi_xcvr_test_xcvr_st_converter_0 " (rect 212 501 634 1012)(font "SansSerif" ))
+		(line (pt 119 34)(pt 255 34)(line_width 1))
+		(line (pt 255 34)(pt 255 501)(line_width 1))
+		(line (pt 119 501)(pt 255 501)(line_width 1))
+		(line (pt 119 34)(pt 119 501)(line_width 1))
+		(line (pt 0 76)(pt 119 76)(line_width 3))
+		(line (pt 120 55)(pt 120 80)(line_width 1))
+		(line (pt 121 55)(pt 121 80)(line_width 1))
+		(line (pt 0 126)(pt 119 126)(line_width 1))
+		(line (pt 120 105)(pt 120 130)(line_width 1))
+		(line (pt 121 105)(pt 121 130)(line_width 1))
+		(line (pt 120 155)(pt 120 180)(line_width 1))
+		(line (pt 121 155)(pt 121 180)(line_width 1))
+		(line (pt 0 226)(pt 119 226)(line_width 1))
+		(line (pt 120 205)(pt 120 230)(line_width 1))
+		(line (pt 121 205)(pt 121 230)(line_width 1))
+		(line (pt 0 276)(pt 119 276)(line_width 1))
+		(line (pt 120 255)(pt 120 280)(line_width 1))
+		(line (pt 121 255)(pt 121 280)(line_width 1))
+		(line (pt 0 326)(pt 119 326)(line_width 3))
+		(line (pt 120 305)(pt 120 330)(line_width 1))
+		(line (pt 121 305)(pt 121 330)(line_width 1))
+		(line (pt 120 355)(pt 120 380)(line_width 1))
+		(line (pt 121 355)(pt 121 380)(line_width 1))
+		(line (pt 0 426)(pt 119 426)(line_width 3))
+		(line (pt 120 405)(pt 120 430)(line_width 1))
+		(line (pt 121 405)(pt 121 430)(line_width 1))
+		(line (pt 0 476)(pt 119 476)(line_width 1))
+		(line (pt 120 455)(pt 120 480)(line_width 1))
+		(line (pt 121 455)(pt 121 480)(line_width 1))
+		(line (pt 374 76)(pt 255 76)(line_width 1))
+		(line (pt 254 55)(pt 254 80)(line_width 1))
+		(line (pt 253 55)(pt 253 80)(line_width 1))
+		(line (pt 374 126)(pt 255 126)(line_width 1))
+		(line (pt 254 105)(pt 254 130)(line_width 1))
+		(line (pt 253 105)(pt 253 130)(line_width 1))
+		(line (pt 374 176)(pt 255 176)(line_width 1))
+		(line (pt 254 155)(pt 254 180)(line_width 1))
+		(line (pt 253 155)(pt 253 180)(line_width 1))
+		(line (pt 0 0)(pt 374 0)(line_width 1))
+		(line (pt 374 0)(pt 374 518)(line_width 1))
+		(line (pt 0 518)(pt 374 518)(line_width 1))
+		(line (pt 0 0)(pt 0 518)(line_width 1))
+	)
+)

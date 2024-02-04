@@ -1,0 +1,31 @@
+set_global_assignment -entity "xcvr_test_system_freq_counter_0" -library "xcvr_test_system_freq_counter_0" -name IP_TOOL_NAME "QsysPrimePro"
+set_global_assignment -entity "xcvr_test_system_freq_counter_0" -library "xcvr_test_system_freq_counter_0" -name IP_TOOL_VERSION "23.3"
+set_global_assignment -entity "xcvr_test_system_freq_counter_0" -library "xcvr_test_system_freq_counter_0" -name IP_TOOL_ENV "QsysPrimePro"
+set_global_assignment -entity "xcvr_test_system_freq_counter_0" -library "xcvr_test_system_freq_counter_0" -name IP_TOOL_VENDOR_NAME "Altera Corporation"
+set_global_assignment -entity "xcvr_test_system_freq_counter_0" -library "xcvr_test_system_freq_counter_0" -name IP_TOP_LEVEL_COMPONENT_NAME "freq_counter"
+set_global_assignment -library "xcvr_test_system_freq_counter_0" -name SOPCINFO_FILE [file join $::quartus(qip_path) "xcvr_test_system_freq_counter_0.sopcinfo"]
+set_global_assignment -entity "xcvr_test_system_freq_counter_0" -library "xcvr_test_system_freq_counter_0" -name SLD_INFO "QSYS_NAME xcvr_test_system_freq_counter_0 HAS_SOPCINFO 1 GENERATION_ID 0"
+set_global_assignment -library "xcvr_test_system_freq_counter_0" -name MISC_FILE [file join $::quartus(qip_path) "xcvr_test_system_freq_counter_0.cmp"]
+set_global_assignment -entity "xcvr_test_system_freq_counter_0" -library "xcvr_test_system_freq_counter_0" -name IP_TARGETED_DEVICE_FAMILY "Stratix 10"
+set_global_assignment -entity "xcvr_test_system_freq_counter_0" -library "xcvr_test_system_freq_counter_0" -name IP_GENERATED_DEVICE_FAMILY "{Stratix 10}"
+set_global_assignment -entity "xcvr_test_system_freq_counter_0" -library "xcvr_test_system_freq_counter_0" -name IP_QSYS_MODE "STANDALONE"
+set_global_assignment -name SYNTHESIS_ONLY_QIP ON
+set_global_assignment -library "xcvr_test_system_freq_counter_0" -name MISC_FILE [file join $::quartus(qip_path) "../xcvr_test_system_freq_counter_0.ip"]
+
+set_global_assignment -entity "freq_counter" -library "freq_counter_10" -name IP_COMPONENT_NAME "ZnJlcV9jb3VudGVy"
+set_global_assignment -entity "freq_counter" -library "freq_counter_10" -name IP_COMPONENT_DISPLAY_NAME "ZnJlcV9jb3VudGVy"
+set_global_assignment -entity "freq_counter" -library "freq_counter_10" -name IP_COMPONENT_REPORT_HIERARCHY "Off"
+set_global_assignment -entity "freq_counter" -library "freq_counter_10" -name IP_COMPONENT_INTERNAL "Off"
+set_global_assignment -entity "freq_counter" -library "freq_counter_10" -name IP_COMPONENT_VERSION "MS4w"
+set_global_assignment -entity "freq_counter" -library "freq_counter_10" -name IP_COMPONENT_GROUP "RGV2a2l0X0lQcw=="
+set_global_assignment -entity "xcvr_test_system_freq_counter_0" -library "xcvr_test_system_freq_counter_0" -name IP_COMPONENT_NAME "eGN2cl90ZXN0X3N5c3RlbV9mcmVxX2NvdW50ZXJfMA=="
+set_global_assignment -entity "xcvr_test_system_freq_counter_0" -library "xcvr_test_system_freq_counter_0" -name IP_COMPONENT_DISPLAY_NAME "c3lzdGVt"
+set_global_assignment -entity "xcvr_test_system_freq_counter_0" -library "xcvr_test_system_freq_counter_0" -name IP_COMPONENT_REPORT_HIERARCHY "On"
+set_global_assignment -entity "xcvr_test_system_freq_counter_0" -library "xcvr_test_system_freq_counter_0" -name IP_COMPONENT_INTERNAL "Off"
+set_global_assignment -entity "xcvr_test_system_freq_counter_0" -library "xcvr_test_system_freq_counter_0" -name IP_COMPONENT_AUTHOR "QWx0ZXJhIENvcnBvcmF0aW9u"
+set_global_assignment -entity "xcvr_test_system_freq_counter_0" -library "xcvr_test_system_freq_counter_0" -name IP_COMPONENT_VERSION "MS4w"
+
+
+set_global_assignment -library "freq_counter_10" -name VERILOG_FILE [file join $::quartus(qip_path) "freq_counter_10/synth/freq_counter.v"]
+set_global_assignment -library "xcvr_test_system_freq_counter_0" -name VERILOG_FILE [file join $::quartus(qip_path) "synth/xcvr_test_system_freq_counter_0.v"]
+
