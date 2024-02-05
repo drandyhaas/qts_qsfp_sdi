@@ -174,7 +174,6 @@ set_global_assignment -name DEVICE_FILTER_PACKAGE FBGA
 
 #################################################################################################
 #RX_PIN settings
-set_instance_assignment -name XCVR_VCCR_VCCT_VOLTAGE 1_1V -to qsfp_rx_p -entity qts_qsfp_sdi
 set_instance_assignment -name HSSI_PARAMETER "pma_rx_buf_eq_dc_gain_trim=no_dc_gain" -to qsfp_rx_p -entity qts_qsfp_sdi
 set_instance_assignment -name HSSI_PARAMETER "pma_adapt_adp_vga_en=radp_vga_enable" -to qsfp_rx_p -entity qts_qsfp_sdi
 set_instance_assignment -name HSSI_PARAMETER "pma_adapt_adp_vga_sel=radp_vga_sel_2" -to qsfp_rx_p -entity qts_qsfp_sdi
@@ -182,7 +181,6 @@ set_instance_assignment -name HSSI_PARAMETER "pma_adapt_adp_ctle_eqz_1s_sel=radp
 
 #################################################################################################
 #TX_PIN settings
-set_instance_assignment -name XCVR_VCCR_VCCT_VOLTAGE 1_1V -to qsfp_tx_p -entity qts_qsfp_sdi
 set_instance_assignment -name HSSI_PARAMETER "pma_tx_buf_vod_output_swing_ctrl=31" -to qsfp_tx_p -entity qts_qsfp_sdi
 set_instance_assignment -name HSSI_PARAMETER "pma_tx_buf_compensation_en=enable" -to qsfp_tx_p -entity qts_qsfp_sdi
 set_instance_assignment -name HSSI_PARAMETER "pma_tx_buf_compensation_posttap_en=enable" -to qsfp_tx_p -entity qts_qsfp_sdi

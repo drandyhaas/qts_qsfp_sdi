@@ -401,7 +401,7 @@ module q_sys (
 		.xcvr_native_s10_0_rx_serial_data_rx_serial_data (sdi_xcvr_test_1_xcvr_native_s10_0_rx_serial_data_rx_serial_data)  //   input,   width = 1,     xcvr_native_s10_0_rx_serial_data.rx_serial_data
 	);
 
-	q_sys_altera_mm_interconnect_1920_57nh4yy mm_interconnect_0 (
+	q_sys_altera_mm_interconnect_1920_uje3pgq mm_interconnect_0 (
 		.master_0_master_address                                      (master_0_master_address),                                         //   input,  width = 32,                                        master_0_master.address
 		.master_0_master_waitrequest                                  (master_0_master_waitrequest),                                     //  output,   width = 1,                                                       .waitrequest
 		.master_0_master_byteenable                                   (master_0_master_byteenable),                                      //   input,   width = 4,                                                       .byteenable

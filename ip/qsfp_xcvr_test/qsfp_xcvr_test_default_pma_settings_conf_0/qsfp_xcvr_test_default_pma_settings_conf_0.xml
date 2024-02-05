@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <deploy
- date="2024.02.04.14:46:59"
- outputDirectory="C:/Users/Haas1S/Downloads/stratix/qts_qsfp_sdi/qts_qsfp_sdi/ip/qsfp_xcvr_test/qsfp_xcvr_test_default_pma_settings_conf_0/">
+ date="2024.02.05.10:25:25"
+ outputDirectory="C:/Users/Haas1S/Downloads/git/qts_qsfp_sdi/ip/qsfp_xcvr_test/qsfp_xcvr_test_default_pma_settings_conf_0/">
  <perimeter>
   <parameter
      name="AUTO_GENERATION_ID"
@@ -197,21 +197,21 @@
   <parameter name="AUTO_DEVICE_SPEEDGRADE" value="2" />
   <generatedFiles>
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_default_pma_settings_conf_0\synth\qsfp_xcvr_test_default_pma_settings_conf_0.v"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_default_pma_settings_conf_0\synth\qsfp_xcvr_test_default_pma_settings_conf_0.v"
        attributes="CONTAINS_INLINE_CONFIGURATION" />
   </generatedFiles>
   <childGeneratedFiles>
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_default_pma_settings_conf_0\synth\qsfp_xcvr_test_default_pma_settings_conf_0.v"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_default_pma_settings_conf_0\synth\qsfp_xcvr_test_default_pma_settings_conf_0.v"
        attributes="CONTAINS_INLINE_CONFIGURATION" />
   </childGeneratedFiles>
   <sourceFiles>
    <file
-       path="C:/Users/Haas1S/Downloads/stratix/qts_qsfp_sdi/qts_qsfp_sdi/ip/qsfp_xcvr_test/qsfp_xcvr_test_default_pma_settings_conf_0.ip" />
+       path="C:/Users/Haas1S/Downloads/git/qts_qsfp_sdi/ip/qsfp_xcvr_test/qsfp_xcvr_test_default_pma_settings_conf_0.ip" />
   </sourceFiles>
   <childSourceFiles>
    <file
-       path="C:/Users/Haas1S/Downloads/stratix/qts_qsfp_sdi/qts_qsfp_sdi/ip/default_pma_settings_conf/default_pma_settings_conf_hw.tcl" />
+       path="C:/Users/Haas1S/Downloads/git/qts_qsfp_sdi/ip/default_pma_settings_conf/default_pma_settings_conf_hw.tcl" />
   </childSourceFiles>
   <messages>
    <message level="Info" culprit="qsfp_xcvr_test_default_pma_settings_conf_0">"Generating: qsfp_xcvr_test_default_pma_settings_conf_0"</message>
@@ -236,17 +236,17 @@
   <parameter name="XCVR_POST_1ST_ADDR" value="1044" />
   <generatedFiles>
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_default_pma_settings_conf_0\default_pma_settings_conf_10\synth\default_pma_settings_conf.v"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_default_pma_settings_conf_0\default_pma_settings_conf_10\synth\default_pma_settings_conf.v"
        attributes="" />
   </generatedFiles>
   <childGeneratedFiles>
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_default_pma_settings_conf_0\default_pma_settings_conf_10\synth\default_pma_settings_conf.v"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_default_pma_settings_conf_0\default_pma_settings_conf_10\synth\default_pma_settings_conf.v"
        attributes="" />
   </childGeneratedFiles>
   <sourceFiles>
    <file
-       path="C:/Users/Haas1S/Downloads/stratix/qts_qsfp_sdi/qts_qsfp_sdi/ip/default_pma_settings_conf/default_pma_settings_conf_hw.tcl" />
+       path="C:/Users/Haas1S/Downloads/git/qts_qsfp_sdi/ip/default_pma_settings_conf/default_pma_settings_conf_hw.tcl" />
   </sourceFiles>
   <childSourceFiles/>
   <instantiator

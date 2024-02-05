@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <deploy
- date="2024.02.04.14:46:54"
- outputDirectory="C:/Users/Haas1S/Downloads/stratix/qts_qsfp_sdi/qts_qsfp_sdi/ip/sdi_xcvr_test/sdi_xcvr_test_nativePHY_loopback_cont_0/">
+ date="2024.02.05.10:25:51"
+ outputDirectory="C:/Users/Haas1S/Downloads/git/qts_qsfp_sdi/ip/sdi_xcvr_test/sdi_xcvr_test_nativePHY_loopback_cont_0/">
  <perimeter>
   <parameter
      name="AUTO_GENERATION_ID"
@@ -167,21 +167,21 @@
   <parameter name="AUTO_DEVICE_SPEEDGRADE" value="2" />
   <generatedFiles>
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\sdi_xcvr_test\sdi_xcvr_test_nativePHY_loopback_cont_0\synth\sdi_xcvr_test_nativePHY_loopback_cont_0.v"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\sdi_xcvr_test\sdi_xcvr_test_nativePHY_loopback_cont_0\synth\sdi_xcvr_test_nativePHY_loopback_cont_0.v"
        attributes="CONTAINS_INLINE_CONFIGURATION" />
   </generatedFiles>
   <childGeneratedFiles>
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\sdi_xcvr_test\sdi_xcvr_test_nativePHY_loopback_cont_0\synth\sdi_xcvr_test_nativePHY_loopback_cont_0.v"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\sdi_xcvr_test\sdi_xcvr_test_nativePHY_loopback_cont_0\synth\sdi_xcvr_test_nativePHY_loopback_cont_0.v"
        attributes="CONTAINS_INLINE_CONFIGURATION" />
   </childGeneratedFiles>
   <sourceFiles>
    <file
-       path="C:/Users/Haas1S/Downloads/stratix/qts_qsfp_sdi/qts_qsfp_sdi/ip/sdi_xcvr_test/sdi_xcvr_test_nativePHY_loopback_cont_0.ip" />
+       path="C:/Users/Haas1S/Downloads/git/qts_qsfp_sdi/ip/sdi_xcvr_test/sdi_xcvr_test_nativePHY_loopback_cont_0.ip" />
   </sourceFiles>
   <childSourceFiles>
    <file
-       path="C:/Users/Haas1S/Downloads/stratix/qts_qsfp_sdi/qts_qsfp_sdi/ip/nativePHY_loopback_cont/nativePHY_loopback_cont_hw.tcl" />
+       path="C:/Users/Haas1S/Downloads/git/qts_qsfp_sdi/ip/nativePHY_loopback_cont/nativePHY_loopback_cont_hw.tcl" />
   </childSourceFiles>
   <messages>
    <message level="Info" culprit="sdi_xcvr_test_nativePHY_loopback_cont_0">"Generating: sdi_xcvr_test_nativePHY_loopback_cont_0"</message>
@@ -195,17 +195,17 @@
   <parameter name="NUM_OF_CH" value="1" />
   <generatedFiles>
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\sdi_xcvr_test\sdi_xcvr_test_nativePHY_loopback_cont_0\nativePHY_loopback_cont_10\synth\nativePHY_loopback_cont.v"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\sdi_xcvr_test\sdi_xcvr_test_nativePHY_loopback_cont_0\nativePHY_loopback_cont_10\synth\nativePHY_loopback_cont.v"
        attributes="TOP_LEVEL_FILE" />
   </generatedFiles>
   <childGeneratedFiles>
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\sdi_xcvr_test\sdi_xcvr_test_nativePHY_loopback_cont_0\nativePHY_loopback_cont_10\synth\nativePHY_loopback_cont.v"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\sdi_xcvr_test\sdi_xcvr_test_nativePHY_loopback_cont_0\nativePHY_loopback_cont_10\synth\nativePHY_loopback_cont.v"
        attributes="TOP_LEVEL_FILE" />
   </childGeneratedFiles>
   <sourceFiles>
    <file
-       path="C:/Users/Haas1S/Downloads/stratix/qts_qsfp_sdi/qts_qsfp_sdi/ip/nativePHY_loopback_cont/nativePHY_loopback_cont_hw.tcl" />
+       path="C:/Users/Haas1S/Downloads/git/qts_qsfp_sdi/ip/nativePHY_loopback_cont/nativePHY_loopback_cont_hw.tcl" />
   </sourceFiles>
   <childSourceFiles/>
   <instantiator

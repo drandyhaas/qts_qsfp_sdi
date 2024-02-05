@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <deploy
- date="2024.02.04.14:52:14"
- outputDirectory="C:/Users/Haas1S/Downloads/stratix/qts_qsfp_sdi/qts_qsfp_sdi/ip/qsfp_xcvr_test/qsfp_xcvr_test_xcvr_native_s10_htile_1/">
+ date="2024.02.05.10:25:52"
+ outputDirectory="C:/Users/Haas1S/Downloads/git/qts_qsfp_sdi/ip/qsfp_xcvr_test/qsfp_xcvr_test_xcvr_native_s10_htile_1/">
  <perimeter>
   <parameter
      name="AUTO_GENERATION_ID"
@@ -459,17 +459,17 @@
   <parameter name="AUTO_RX_CDR_REFCLK0_CLOCK_RATE" value="-1" />
   <generatedFiles>
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\synth\qsfp_xcvr_test_xcvr_native_s10_htile_1.v"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\synth\qsfp_xcvr_test_xcvr_native_s10_htile_1.v"
        attributes="CONTAINS_INLINE_CONFIGURATION" />
   </generatedFiles>
   <childGeneratedFiles>
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\synth\qsfp_xcvr_test_xcvr_native_s10_htile_1.v"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\synth\qsfp_xcvr_test_xcvr_native_s10_htile_1.v"
        attributes="CONTAINS_INLINE_CONFIGURATION" />
   </childGeneratedFiles>
   <sourceFiles>
    <file
-       path="C:/Users/Haas1S/Downloads/stratix/qts_qsfp_sdi/qts_qsfp_sdi/ip/qsfp_xcvr_test/qsfp_xcvr_test_xcvr_native_s10_htile_1.ip" />
+       path="C:/Users/Haas1S/Downloads/git/qts_qsfp_sdi/ip/qsfp_xcvr_test/qsfp_xcvr_test_xcvr_native_s10_htile_1.ip" />
   </sourceFiles>
   <childSourceFiles>
    <file
@@ -4119,180 +4119,180 @@
   <parameter name="support_mode" value="user_mode" />
   <generatedFiles>
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_arbiter.sv"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_arbiter.sv"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\altera_std_synchronizer_nocut.v"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\altera_std_synchronizer_nocut.v"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_resync_std.sv"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_resync_std.sv"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_reset_counter_s10.sv"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_reset_counter_s10.sv"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\altera_xcvr_native_s10_functions_h.sv"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\altera_xcvr_native_s10_functions_h.sv"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\s10_avmm_h.sv"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\s10_avmm_h.sv"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_native_avmm_csr.sv"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_native_avmm_csr.sv"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_native_prbs_accum.sv"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_native_prbs_accum.sv"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_native_odi_accel.sv"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_native_odi_accel.sv"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_native_rcfg_arb.sv"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_native_rcfg_arb.sv"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_early_spd_chng_s10_htile.sv"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_early_spd_chng_s10_htile.sv"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_native_anlg_reset_seq.sv"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_native_anlg_reset_seq.sv"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_native_dig_reset_seq.sv"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_native_dig_reset_seq.sv"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_native_reset_seq.sv"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_native_reset_seq.sv"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_native_anlg_reset_seq_wrapper.sv"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_native_anlg_reset_seq_wrapper.sv"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_native_re_cal_chnl.v"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_native_re_cal_chnl.v"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_pcie_rx_eios_prot.sv"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_pcie_rx_eios_prot.sv"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_native_rx_maib_wa.sv"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_native_rx_maib_wa.sv"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\plain_files.txt"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\plain_files.txt"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\rcfg_timing_db\qsfp_xcvr_test_xcvr_native_s10_htile_1_hssi_pldadapt_rx_rcfg_settings_ugm7okq.json"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\rcfg_timing_db\qsfp_xcvr_test_xcvr_native_s10_htile_1_hssi_pldadapt_rx_rcfg_settings_ugm7okq.json"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\rcfg_timing_db\qsfp_xcvr_test_xcvr_native_s10_htile_1_hssi_pldadapt_tx_rcfg_settings_ugm7okq.json"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\rcfg_timing_db\qsfp_xcvr_test_xcvr_native_s10_htile_1_hssi_pldadapt_tx_rcfg_settings_ugm7okq.json"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\qsfp_xcvr_test_xcvr_native_s10_htile_1_ip_parameters_ugm7okq.tcl"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\qsfp_xcvr_test_xcvr_native_s10_htile_1_ip_parameters_ugm7okq.tcl"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\docs\qsfp_xcvr_test_xcvr_native_s10_htile_1_altera_xcvr_native_s10_htile_1930_ugm7okq_parameters.csv"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\docs\qsfp_xcvr_test_xcvr_native_s10_htile_1_altera_xcvr_native_s10_htile_1930_ugm7okq_parameters.csv"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\qsfp_xcvr_test_xcvr_native_s10_htile_1_altera_xcvr_native_s10_htile_1930_ugm7okq.sv"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\qsfp_xcvr_test_xcvr_native_s10_htile_1_altera_xcvr_native_s10_htile_1930_ugm7okq.sv"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\qsfp_xcvr_test_xcvr_native_s10_htile_1_altera_xcvr_native_s10_htile_1930_ugm7okq.sdc"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\qsfp_xcvr_test_xcvr_native_s10_htile_1_altera_xcvr_native_s10_htile_1930_ugm7okq.sdc"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_native_helper_functions_ugm7okq.tcl"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_native_helper_functions_ugm7okq.tcl"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_native_global_constraints_ugm7okq.sdc"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_native_global_constraints_ugm7okq.sdc"
        attributes="NO_SDC_PROMOTION" />
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_native_re_cal_chnl_ugm7okq.sdc"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_native_re_cal_chnl_ugm7okq.sdc"
        attributes="NO_SDC_PROMOTION" />
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_native_rcfg_opt_logic_ugm7okq.sv"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_native_rcfg_opt_logic_ugm7okq.sv"
        attributes="" />
   </generatedFiles>
   <childGeneratedFiles>
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_arbiter.sv"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_arbiter.sv"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\altera_std_synchronizer_nocut.v"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\altera_std_synchronizer_nocut.v"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_resync_std.sv"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_resync_std.sv"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_reset_counter_s10.sv"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_reset_counter_s10.sv"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\altera_xcvr_native_s10_functions_h.sv"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\altera_xcvr_native_s10_functions_h.sv"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\s10_avmm_h.sv"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\s10_avmm_h.sv"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_native_avmm_csr.sv"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_native_avmm_csr.sv"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_native_prbs_accum.sv"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_native_prbs_accum.sv"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_native_odi_accel.sv"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_native_odi_accel.sv"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_native_rcfg_arb.sv"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_native_rcfg_arb.sv"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_early_spd_chng_s10_htile.sv"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_early_spd_chng_s10_htile.sv"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_native_anlg_reset_seq.sv"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_native_anlg_reset_seq.sv"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_native_dig_reset_seq.sv"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_native_dig_reset_seq.sv"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_native_reset_seq.sv"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_native_reset_seq.sv"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_native_anlg_reset_seq_wrapper.sv"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_native_anlg_reset_seq_wrapper.sv"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_native_re_cal_chnl.v"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_native_re_cal_chnl.v"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_pcie_rx_eios_prot.sv"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_pcie_rx_eios_prot.sv"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_native_rx_maib_wa.sv"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_native_rx_maib_wa.sv"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\plain_files.txt"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\plain_files.txt"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\rcfg_timing_db\qsfp_xcvr_test_xcvr_native_s10_htile_1_hssi_pldadapt_rx_rcfg_settings_ugm7okq.json"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\rcfg_timing_db\qsfp_xcvr_test_xcvr_native_s10_htile_1_hssi_pldadapt_rx_rcfg_settings_ugm7okq.json"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\rcfg_timing_db\qsfp_xcvr_test_xcvr_native_s10_htile_1_hssi_pldadapt_tx_rcfg_settings_ugm7okq.json"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\rcfg_timing_db\qsfp_xcvr_test_xcvr_native_s10_htile_1_hssi_pldadapt_tx_rcfg_settings_ugm7okq.json"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\qsfp_xcvr_test_xcvr_native_s10_htile_1_ip_parameters_ugm7okq.tcl"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\qsfp_xcvr_test_xcvr_native_s10_htile_1_ip_parameters_ugm7okq.tcl"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\docs\qsfp_xcvr_test_xcvr_native_s10_htile_1_altera_xcvr_native_s10_htile_1930_ugm7okq_parameters.csv"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\docs\qsfp_xcvr_test_xcvr_native_s10_htile_1_altera_xcvr_native_s10_htile_1930_ugm7okq_parameters.csv"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\qsfp_xcvr_test_xcvr_native_s10_htile_1_altera_xcvr_native_s10_htile_1930_ugm7okq.sv"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\qsfp_xcvr_test_xcvr_native_s10_htile_1_altera_xcvr_native_s10_htile_1930_ugm7okq.sv"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\qsfp_xcvr_test_xcvr_native_s10_htile_1_altera_xcvr_native_s10_htile_1930_ugm7okq.sdc"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\qsfp_xcvr_test_xcvr_native_s10_htile_1_altera_xcvr_native_s10_htile_1930_ugm7okq.sdc"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_native_helper_functions_ugm7okq.tcl"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_native_helper_functions_ugm7okq.tcl"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_native_global_constraints_ugm7okq.sdc"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_native_global_constraints_ugm7okq.sdc"
        attributes="NO_SDC_PROMOTION" />
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_native_re_cal_chnl_ugm7okq.sdc"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_native_re_cal_chnl_ugm7okq.sdc"
        attributes="NO_SDC_PROMOTION" />
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_native_rcfg_opt_logic_ugm7okq.sv"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_native_rcfg_opt_logic_ugm7okq.sv"
        attributes="" />
   </childGeneratedFiles>
   <sourceFiles>

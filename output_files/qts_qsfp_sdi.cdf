@@ -5,10 +5,8 @@ JedecChain;
 
 	P ActionCode(Ign)
 		Device PartName(5M2210Z) MfrSpec(OpMask(0) SEC_Device(CFI_1GB) Child_OpMask(1 0));
-	P ActionCode(Ign)
-		Device PartName(1_BIT_TAP) MfrSpec(OpMask(0));
 	P ActionCode(Cfg)
-		Device PartName(1SG280HU2F50) Path("C:/Users/Haas1S/Downloads/stratix/qts_qsfp_sdi/qts_qsfp_sdi/output_files/") File("qts_qsfp_sdi.sof") MfrSpec(OpMask(1));
+		Device PartName(1SG280HU2F50) Path("C:/Users/Haas1S/Downloads/git/qts_qsfp_sdi/output_files/") File("qts_qsfp_sdi.sof") MfrSpec(OpMask(1));
 
 ChainEnd;
 

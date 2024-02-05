@@ -14163,7 +14163,7 @@ https://fpgasoftware.intel.com/eula.-->
    start="master_0.master"
    end="sdi_xcvr_atx_pll.reconfig_avmm0">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00200000" />
+  <parameter name="baseAddress" value="0x00300000" />
   <parameter name="defaultConnection" value="false" />
   <parameter name="domainAlias" value="" />
   <parameter name="qsys_mm.burstAdapterImplementation" value="GENERIC_CONVERTER" />
@@ -14213,7 +14213,7 @@ https://fpgasoftware.intel.com/eula.-->
    start="master_0.master"
    end="qsfp_xcvr_atx_pll1.reconfig_avmm0">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00300000" />
+  <parameter name="baseAddress" value="0x00200000" />
   <parameter name="defaultConnection" value="false" />
   <parameter name="domainAlias" value="" />
   <parameter name="qsys_mm.burstAdapterImplementation" value="GENERIC_CONVERTER" />

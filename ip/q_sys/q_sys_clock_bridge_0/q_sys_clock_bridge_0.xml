@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <deploy
- date="2024.02.04.14:46:55"
- outputDirectory="C:/Users/Haas1S/Downloads/stratix/qts_qsfp_sdi/qts_qsfp_sdi/ip/q_sys/q_sys_clock_bridge_0/">
+ date="2024.02.05.10:25:22"
+ outputDirectory="C:/Users/Haas1S/Downloads/git/qts_qsfp_sdi/ip/q_sys/q_sys_clock_bridge_0/">
  <perimeter>
   <parameter
      name="AUTO_GENERATION_ID"
@@ -77,17 +77,17 @@
   <parameter name="AUTO_IN_CLK_CLOCK_DOMAIN" value="-1" />
   <generatedFiles>
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\q_sys\q_sys_clock_bridge_0\synth\q_sys_clock_bridge_0.v"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\q_sys\q_sys_clock_bridge_0\synth\q_sys_clock_bridge_0.v"
        attributes="CONTAINS_INLINE_CONFIGURATION" />
   </generatedFiles>
   <childGeneratedFiles>
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\q_sys\q_sys_clock_bridge_0\synth\q_sys_clock_bridge_0.v"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\q_sys\q_sys_clock_bridge_0\synth\q_sys_clock_bridge_0.v"
        attributes="CONTAINS_INLINE_CONFIGURATION" />
   </childGeneratedFiles>
   <sourceFiles>
    <file
-       path="C:/Users/Haas1S/Downloads/stratix/qts_qsfp_sdi/qts_qsfp_sdi/ip/q_sys/q_sys_clock_bridge_0.ip" />
+       path="C:/Users/Haas1S/Downloads/git/qts_qsfp_sdi/ip/q_sys/q_sys_clock_bridge_0.ip" />
   </sourceFiles>
   <childSourceFiles/>
   <messages>

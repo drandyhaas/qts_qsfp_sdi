@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <deploy
- date="2024.02.04.14:47:25"
- outputDirectory="C:/Users/Haas1S/Downloads/stratix/qts_qsfp_sdi/qts_qsfp_sdi/ip/q_sys/q_sys_master_0/">
+ date="2024.02.05.10:25:23"
+ outputDirectory="C:/Users/Haas1S/Downloads/git/qts_qsfp_sdi/ip/q_sys/q_sys_master_0/">
  <perimeter>
   <parameter
      name="AUTO_GENERATION_ID"
@@ -155,17 +155,17 @@
   <parameter name="AUTO_MASTER_ADDRESS_WIDTH" value="-1" />
   <generatedFiles>
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\q_sys\q_sys_master_0\synth\q_sys_master_0.v"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\q_sys\q_sys_master_0\synth\q_sys_master_0.v"
        attributes="CONTAINS_INLINE_CONFIGURATION" />
   </generatedFiles>
   <childGeneratedFiles>
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\q_sys\q_sys_master_0\synth\q_sys_master_0.v"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\q_sys\q_sys_master_0\synth\q_sys_master_0.v"
        attributes="CONTAINS_INLINE_CONFIGURATION" />
   </childGeneratedFiles>
   <sourceFiles>
    <file
-       path="C:/Users/Haas1S/Downloads/stratix/qts_qsfp_sdi/qts_qsfp_sdi/ip/q_sys/q_sys_master_0.ip" />
+       path="C:/Users/Haas1S/Downloads/git/qts_qsfp_sdi/ip/q_sys/q_sys_master_0.ip" />
   </sourceFiles>
   <childSourceFiles>
    <file
@@ -217,12 +217,12 @@
   <parameter name="AUTO_DEVICE_SPEEDGRADE" value="2" />
   <generatedFiles>
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\q_sys\q_sys_master_0\altera_jtag_avalon_master_191\synth\q_sys_master_0_altera_jtag_avalon_master_191_3zppvky.v"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\q_sys\q_sys_master_0\altera_jtag_avalon_master_191\synth\q_sys_master_0_altera_jtag_avalon_master_191_3zppvky.v"
        attributes="CONTAINS_INLINE_CONFIGURATION" />
   </generatedFiles>
   <childGeneratedFiles>
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\q_sys\q_sys_master_0\altera_jtag_avalon_master_191\synth\q_sys_master_0_altera_jtag_avalon_master_191_3zppvky.v"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\q_sys\q_sys_master_0\altera_jtag_avalon_master_191\synth\q_sys_master_0_altera_jtag_avalon_master_191_3zppvky.v"
        attributes="CONTAINS_INLINE_CONFIGURATION" />
   </childGeneratedFiles>
   <sourceFiles>
@@ -279,78 +279,78 @@
   <parameter name="EXPORT_JTAG" value="0" />
   <generatedFiles>
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\q_sys\q_sys_master_0\altera_jtag_dc_streaming_191\synth\altera_avalon_st_jtag_interface.v"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\q_sys\q_sys_master_0\altera_jtag_dc_streaming_191\synth\altera_avalon_st_jtag_interface.v"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\q_sys\q_sys_master_0\altera_jtag_dc_streaming_191\synth\altera_jtag_dc_streaming.v"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\q_sys\q_sys_master_0\altera_jtag_dc_streaming_191\synth\altera_jtag_dc_streaming.v"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\q_sys\q_sys_master_0\altera_jtag_dc_streaming_191\synth\altera_jtag_sld_node.v"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\q_sys\q_sys_master_0\altera_jtag_dc_streaming_191\synth\altera_jtag_sld_node.v"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\q_sys\q_sys_master_0\altera_jtag_dc_streaming_191\synth\altera_jtag_streaming.v"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\q_sys\q_sys_master_0\altera_jtag_dc_streaming_191\synth\altera_jtag_streaming.v"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\q_sys\q_sys_master_0\altera_jtag_dc_streaming_191\synth\altera_avalon_st_clock_crosser.v"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\q_sys\q_sys_master_0\altera_jtag_dc_streaming_191\synth\altera_avalon_st_clock_crosser.v"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\q_sys\q_sys_master_0\altera_jtag_dc_streaming_191\synth\altera_reset_synchronizer.v"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\q_sys\q_sys_master_0\altera_jtag_dc_streaming_191\synth\altera_reset_synchronizer.v"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\q_sys\q_sys_master_0\altera_jtag_dc_streaming_191\synth\altera_std_synchronizer_nocut.v"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\q_sys\q_sys_master_0\altera_jtag_dc_streaming_191\synth\altera_std_synchronizer_nocut.v"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\q_sys\q_sys_master_0\altera_jtag_dc_streaming_191\synth\altera_avalon_st_pipeline_base.v"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\q_sys\q_sys_master_0\altera_jtag_dc_streaming_191\synth\altera_avalon_st_pipeline_base.v"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\q_sys\q_sys_master_0\altera_jtag_dc_streaming_191\synth\altera_avalon_st_idle_remover.v"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\q_sys\q_sys_master_0\altera_jtag_dc_streaming_191\synth\altera_avalon_st_idle_remover.v"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\q_sys\q_sys_master_0\altera_jtag_dc_streaming_191\synth\altera_avalon_st_idle_inserter.v"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\q_sys\q_sys_master_0\altera_jtag_dc_streaming_191\synth\altera_avalon_st_idle_inserter.v"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\q_sys\q_sys_master_0\altera_jtag_dc_streaming_191\synth\altera_avalon_st_pipeline_stage.sv"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\q_sys\q_sys_master_0\altera_jtag_dc_streaming_191\synth\altera_avalon_st_pipeline_stage.sv"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\q_sys\q_sys_master_0\altera_jtag_dc_streaming_191\synth\altera_avalon_st_jtag_interface.sdc"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\q_sys\q_sys_master_0\altera_jtag_dc_streaming_191\synth\altera_avalon_st_jtag_interface.sdc"
        attributes="NO_AUTO_INSTANCE_DISCOVERY NO_SDC_PROMOTION" />
   </generatedFiles>
   <childGeneratedFiles>
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\q_sys\q_sys_master_0\altera_jtag_dc_streaming_191\synth\altera_avalon_st_jtag_interface.v"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\q_sys\q_sys_master_0\altera_jtag_dc_streaming_191\synth\altera_avalon_st_jtag_interface.v"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\q_sys\q_sys_master_0\altera_jtag_dc_streaming_191\synth\altera_jtag_dc_streaming.v"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\q_sys\q_sys_master_0\altera_jtag_dc_streaming_191\synth\altera_jtag_dc_streaming.v"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\q_sys\q_sys_master_0\altera_jtag_dc_streaming_191\synth\altera_jtag_sld_node.v"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\q_sys\q_sys_master_0\altera_jtag_dc_streaming_191\synth\altera_jtag_sld_node.v"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\q_sys\q_sys_master_0\altera_jtag_dc_streaming_191\synth\altera_jtag_streaming.v"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\q_sys\q_sys_master_0\altera_jtag_dc_streaming_191\synth\altera_jtag_streaming.v"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\q_sys\q_sys_master_0\altera_jtag_dc_streaming_191\synth\altera_avalon_st_clock_crosser.v"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\q_sys\q_sys_master_0\altera_jtag_dc_streaming_191\synth\altera_avalon_st_clock_crosser.v"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\q_sys\q_sys_master_0\altera_jtag_dc_streaming_191\synth\altera_reset_synchronizer.v"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\q_sys\q_sys_master_0\altera_jtag_dc_streaming_191\synth\altera_reset_synchronizer.v"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\q_sys\q_sys_master_0\altera_jtag_dc_streaming_191\synth\altera_std_synchronizer_nocut.v"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\q_sys\q_sys_master_0\altera_jtag_dc_streaming_191\synth\altera_std_synchronizer_nocut.v"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\q_sys\q_sys_master_0\altera_jtag_dc_streaming_191\synth\altera_avalon_st_pipeline_base.v"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\q_sys\q_sys_master_0\altera_jtag_dc_streaming_191\synth\altera_avalon_st_pipeline_base.v"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\q_sys\q_sys_master_0\altera_jtag_dc_streaming_191\synth\altera_avalon_st_idle_remover.v"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\q_sys\q_sys_master_0\altera_jtag_dc_streaming_191\synth\altera_avalon_st_idle_remover.v"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\q_sys\q_sys_master_0\altera_jtag_dc_streaming_191\synth\altera_avalon_st_idle_inserter.v"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\q_sys\q_sys_master_0\altera_jtag_dc_streaming_191\synth\altera_avalon_st_idle_inserter.v"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\q_sys\q_sys_master_0\altera_jtag_dc_streaming_191\synth\altera_avalon_st_pipeline_stage.sv"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\q_sys\q_sys_master_0\altera_jtag_dc_streaming_191\synth\altera_avalon_st_pipeline_stage.sv"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\q_sys\q_sys_master_0\altera_jtag_dc_streaming_191\synth\altera_avalon_st_jtag_interface.sdc"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\q_sys\q_sys_master_0\altera_jtag_dc_streaming_191\synth\altera_avalon_st_jtag_interface.sdc"
        attributes="NO_AUTO_INSTANCE_DISCOVERY NO_SDC_PROMOTION" />
   </childGeneratedFiles>
   <sourceFiles>
@@ -385,12 +385,12 @@
   <parameter name="inUsePackets" value="false" />
   <generatedFiles>
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\q_sys\q_sys_master_0\timing_adapter_1940\synth\q_sys_master_0_timing_adapter_1940_5ju4ddy.sv"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\q_sys\q_sys_master_0\timing_adapter_1940\synth\q_sys_master_0_timing_adapter_1940_5ju4ddy.sv"
        attributes="" />
   </generatedFiles>
   <childGeneratedFiles>
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\q_sys\q_sys_master_0\timing_adapter_1940\synth\q_sys_master_0_timing_adapter_1940_5ju4ddy.sv"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\q_sys\q_sys_master_0\timing_adapter_1940\synth\q_sys_master_0_timing_adapter_1940_5ju4ddy.sv"
        attributes="" />
   </childGeneratedFiles>
   <sourceFiles>
@@ -415,12 +415,12 @@
   <parameter name="ENABLE_EXPLICIT_MAXCHANNEL" value="false" />
   <generatedFiles>
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\q_sys\q_sys_master_0\altera_avalon_sc_fifo_1931\synth\q_sys_master_0_altera_avalon_sc_fifo_1931_fzgstwy.v"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\q_sys\q_sys_master_0\altera_avalon_sc_fifo_1931\synth\q_sys_master_0_altera_avalon_sc_fifo_1931_fzgstwy.v"
        attributes="" />
   </generatedFiles>
   <childGeneratedFiles>
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\q_sys\q_sys_master_0\altera_avalon_sc_fifo_1931\synth\q_sys_master_0_altera_avalon_sc_fifo_1931_fzgstwy.v"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\q_sys\q_sys_master_0\altera_avalon_sc_fifo_1931\synth\q_sys_master_0_altera_avalon_sc_fifo_1931_fzgstwy.v"
        attributes="" />
   </childGeneratedFiles>
   <sourceFiles>
@@ -444,12 +444,12 @@
   <parameter name="CHANNEL_WIDTH" value="8" />
   <generatedFiles>
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\q_sys\q_sys_master_0\altera_avalon_st_bytes_to_packets_1922\synth\altera_avalon_st_bytes_to_packets.v"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\q_sys\q_sys_master_0\altera_avalon_st_bytes_to_packets_1922\synth\altera_avalon_st_bytes_to_packets.v"
        attributes="" />
   </generatedFiles>
   <childGeneratedFiles>
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\q_sys\q_sys_master_0\altera_avalon_st_bytes_to_packets_1922\synth\altera_avalon_st_bytes_to_packets.v"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\q_sys\q_sys_master_0\altera_avalon_st_bytes_to_packets_1922\synth\altera_avalon_st_bytes_to_packets.v"
        attributes="" />
   </childGeneratedFiles>
   <sourceFiles>
@@ -473,12 +473,12 @@
   <parameter name="CHANNEL_WIDTH" value="8" />
   <generatedFiles>
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\q_sys\q_sys_master_0\altera_avalon_st_packets_to_bytes_1922\synth\altera_avalon_st_packets_to_bytes.v"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\q_sys\q_sys_master_0\altera_avalon_st_packets_to_bytes_1922\synth\altera_avalon_st_packets_to_bytes.v"
        attributes="" />
   </generatedFiles>
   <childGeneratedFiles>
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\q_sys\q_sys_master_0\altera_avalon_st_packets_to_bytes_1922\synth\altera_avalon_st_packets_to_bytes.v"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\q_sys\q_sys_master_0\altera_avalon_st_packets_to_bytes_1922\synth\altera_avalon_st_packets_to_bytes.v"
        attributes="" />
   </childGeneratedFiles>
   <sourceFiles>
@@ -503,12 +503,12 @@
   <parameter name="FIFO_DEPTHS" value="2" />
   <generatedFiles>
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\q_sys\q_sys_master_0\altera_avalon_packets_to_master_1922\synth\altera_avalon_packets_to_master.v"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\q_sys\q_sys_master_0\altera_avalon_packets_to_master_1922\synth\altera_avalon_packets_to_master.v"
        attributes="" />
   </generatedFiles>
   <childGeneratedFiles>
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\q_sys\q_sys_master_0\altera_avalon_packets_to_master_1922\synth\altera_avalon_packets_to_master.v"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\q_sys\q_sys_master_0\altera_avalon_packets_to_master_1922\synth\altera_avalon_packets_to_master.v"
        attributes="" />
   </childGeneratedFiles>
   <sourceFiles>
@@ -540,12 +540,12 @@
   <parameter name="inUseEmptyPort" value="AUTO" />
   <generatedFiles>
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\q_sys\q_sys_master_0\channel_adapter_1921\synth\q_sys_master_0_channel_adapter_1921_5wnzrci.sv"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\q_sys\q_sys_master_0\channel_adapter_1921\synth\q_sys_master_0_channel_adapter_1921_5wnzrci.sv"
        attributes="" />
   </generatedFiles>
   <childGeneratedFiles>
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\q_sys\q_sys_master_0\channel_adapter_1921\synth\q_sys_master_0_channel_adapter_1921_5wnzrci.sv"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\q_sys\q_sys_master_0\channel_adapter_1921\synth\q_sys_master_0_channel_adapter_1921_5wnzrci.sv"
        attributes="" />
   </childGeneratedFiles>
   <sourceFiles>
@@ -577,12 +577,12 @@
   <parameter name="inUseEmptyPort" value="AUTO" />
   <generatedFiles>
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\q_sys\q_sys_master_0\channel_adapter_1921\synth\q_sys_master_0_channel_adapter_1921_fkajlia.sv"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\q_sys\q_sys_master_0\channel_adapter_1921\synth\q_sys_master_0_channel_adapter_1921_fkajlia.sv"
        attributes="" />
   </generatedFiles>
   <childGeneratedFiles>
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\q_sys\q_sys_master_0\channel_adapter_1921\synth\q_sys_master_0_channel_adapter_1921_fkajlia.sv"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\q_sys\q_sys_master_0\channel_adapter_1921\synth\q_sys_master_0_channel_adapter_1921_fkajlia.sv"
        attributes="" />
   </childGeneratedFiles>
   <sourceFiles>
@@ -603,24 +603,24 @@
    name="altera_reset_controller">
   <generatedFiles>
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\q_sys\q_sys_master_0\altera_reset_controller_1922\synth\altera_reset_controller.v"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\q_sys\q_sys_master_0\altera_reset_controller_1922\synth\altera_reset_controller.v"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\q_sys\q_sys_master_0\altera_reset_controller_1922\synth\altera_reset_synchronizer.v"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\q_sys\q_sys_master_0\altera_reset_controller_1922\synth\altera_reset_synchronizer.v"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\q_sys\q_sys_master_0\altera_reset_controller_1922\synth\altera_reset_controller.sdc"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\q_sys\q_sys_master_0\altera_reset_controller_1922\synth\altera_reset_controller.sdc"
        attributes="NO_SDC_PROMOTION" />
   </generatedFiles>
   <childGeneratedFiles>
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\q_sys\q_sys_master_0\altera_reset_controller_1922\synth\altera_reset_controller.v"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\q_sys\q_sys_master_0\altera_reset_controller_1922\synth\altera_reset_controller.v"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\q_sys\q_sys_master_0\altera_reset_controller_1922\synth\altera_reset_synchronizer.v"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\q_sys\q_sys_master_0\altera_reset_controller_1922\synth\altera_reset_synchronizer.v"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\q_sys\q_sys_master_0\altera_reset_controller_1922\synth\altera_reset_controller.sdc"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\q_sys\q_sys_master_0\altera_reset_controller_1922\synth\altera_reset_controller.sdc"
        attributes="NO_SDC_PROMOTION" />
   </childGeneratedFiles>
   <sourceFiles>

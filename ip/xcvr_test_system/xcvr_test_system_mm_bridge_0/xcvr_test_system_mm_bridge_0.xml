@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <deploy
- date="2024.02.04.14:46:57"
- outputDirectory="C:/Users/Haas1S/Downloads/stratix/qts_qsfp_sdi/qts_qsfp_sdi/ip/xcvr_test_system/xcvr_test_system_mm_bridge_0/">
+ date="2024.02.05.10:25:56"
+ outputDirectory="C:/Users/Haas1S/Downloads/git/qts_qsfp_sdi/ip/xcvr_test_system/xcvr_test_system_mm_bridge_0/">
  <perimeter>
   <parameter
      name="AUTO_GENERATION_ID"
@@ -208,17 +208,17 @@
   <parameter name="AUTO_DEVICE_SPEEDGRADE" value="2" />
   <generatedFiles>
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\xcvr_test_system\xcvr_test_system_mm_bridge_0\synth\xcvr_test_system_mm_bridge_0.v"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\xcvr_test_system\xcvr_test_system_mm_bridge_0\synth\xcvr_test_system_mm_bridge_0.v"
        attributes="CONTAINS_INLINE_CONFIGURATION" />
   </generatedFiles>
   <childGeneratedFiles>
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\xcvr_test_system\xcvr_test_system_mm_bridge_0\synth\xcvr_test_system_mm_bridge_0.v"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\xcvr_test_system\xcvr_test_system_mm_bridge_0\synth\xcvr_test_system_mm_bridge_0.v"
        attributes="CONTAINS_INLINE_CONFIGURATION" />
   </childGeneratedFiles>
   <sourceFiles>
    <file
-       path="C:/Users/Haas1S/Downloads/stratix/qts_qsfp_sdi/qts_qsfp_sdi/ip/xcvr_test_system/xcvr_test_system_mm_bridge_0.ip" />
+       path="C:/Users/Haas1S/Downloads/git/qts_qsfp_sdi/ip/xcvr_test_system/xcvr_test_system_mm_bridge_0.ip" />
   </sourceFiles>
   <childSourceFiles>
    <file
@@ -236,12 +236,12 @@
   <parameter name="MAX_BURST_SIZE" value="1" />
   <generatedFiles>
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\xcvr_test_system\xcvr_test_system_mm_bridge_0\altera_avalon_mm_bridge_2001\synth\xcvr_test_system_mm_bridge_0_altera_avalon_mm_bridge_2001_k2bg7dq.v"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\xcvr_test_system\xcvr_test_system_mm_bridge_0\altera_avalon_mm_bridge_2001\synth\xcvr_test_system_mm_bridge_0_altera_avalon_mm_bridge_2001_k2bg7dq.v"
        attributes="" />
   </generatedFiles>
   <childGeneratedFiles>
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\xcvr_test_system\xcvr_test_system_mm_bridge_0\altera_avalon_mm_bridge_2001\synth\xcvr_test_system_mm_bridge_0_altera_avalon_mm_bridge_2001_k2bg7dq.v"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\xcvr_test_system\xcvr_test_system_mm_bridge_0\altera_avalon_mm_bridge_2001\synth\xcvr_test_system_mm_bridge_0_altera_avalon_mm_bridge_2001_k2bg7dq.v"
        attributes="" />
   </childGeneratedFiles>
   <sourceFiles>

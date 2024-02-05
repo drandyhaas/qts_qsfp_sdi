@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <deploy
- date="2024.02.04.14:47:04"
- outputDirectory="C:/Users/Haas1S/Downloads/stratix/qts_qsfp_sdi/qts_qsfp_sdi/ip/xcvr_test_system/xcvr_test_system_rx_fifo/">
+ date="2024.02.05.10:25:56"
+ outputDirectory="C:/Users/Haas1S/Downloads/git/qts_qsfp_sdi/ip/xcvr_test_system/xcvr_test_system_rx_fifo/">
  <perimeter>
   <parameter
      name="AUTO_GENERATION_ID"
@@ -63,17 +63,17 @@
   <parameter name="AUTO_DEVICE_SPEEDGRADE" value="2" />
   <generatedFiles>
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\xcvr_test_system\xcvr_test_system_rx_fifo\synth\xcvr_test_system_rx_fifo.v"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\xcvr_test_system\xcvr_test_system_rx_fifo\synth\xcvr_test_system_rx_fifo.v"
        attributes="CONTAINS_INLINE_CONFIGURATION" />
   </generatedFiles>
   <childGeneratedFiles>
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\xcvr_test_system\xcvr_test_system_rx_fifo\synth\xcvr_test_system_rx_fifo.v"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\xcvr_test_system\xcvr_test_system_rx_fifo\synth\xcvr_test_system_rx_fifo.v"
        attributes="CONTAINS_INLINE_CONFIGURATION" />
   </childGeneratedFiles>
   <sourceFiles>
    <file
-       path="C:/Users/Haas1S/Downloads/stratix/qts_qsfp_sdi/qts_qsfp_sdi/ip/xcvr_test_system/xcvr_test_system_rx_fifo.ip" />
+       path="C:/Users/Haas1S/Downloads/git/qts_qsfp_sdi/ip/xcvr_test_system/xcvr_test_system_rx_fifo.ip" />
   </sourceFiles>
   <childSourceFiles>
    <file path="C:/intelfpga_pro/23.3/ip/altera/megafunctions/fifo/fifo_hw.tcl" />
@@ -132,18 +132,18 @@
   <parameter name="GUI_Width" value="64" />
   <generatedFiles>
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\xcvr_test_system\xcvr_test_system_rx_fifo\fifo_1923\synth\xcvr_test_system_rx_fifo_fifo_1923_lpyfjcq.v"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\xcvr_test_system\xcvr_test_system_rx_fifo\fifo_1923\synth\xcvr_test_system_rx_fifo_fifo_1923_lpyfjcq.v"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\xcvr_test_system\xcvr_test_system_rx_fifo\fifo_1923\synth\xcvr_test_system_rx_fifo_fifo_1923_lpyfjcq.sdc"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\xcvr_test_system\xcvr_test_system_rx_fifo\fifo_1923\synth\xcvr_test_system_rx_fifo_fifo_1923_lpyfjcq.sdc"
        attributes="NO_AUTO_INSTANCE_DISCOVERY NO_SDC_PROMOTION" />
   </generatedFiles>
   <childGeneratedFiles>
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\xcvr_test_system\xcvr_test_system_rx_fifo\fifo_1923\synth\xcvr_test_system_rx_fifo_fifo_1923_lpyfjcq.v"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\xcvr_test_system\xcvr_test_system_rx_fifo\fifo_1923\synth\xcvr_test_system_rx_fifo_fifo_1923_lpyfjcq.v"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\xcvr_test_system\xcvr_test_system_rx_fifo\fifo_1923\synth\xcvr_test_system_rx_fifo_fifo_1923_lpyfjcq.sdc"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\xcvr_test_system\xcvr_test_system_rx_fifo\fifo_1923\synth\xcvr_test_system_rx_fifo_fifo_1923_lpyfjcq.sdc"
        attributes="NO_AUTO_INSTANCE_DISCOVERY NO_SDC_PROMOTION" />
   </childGeneratedFiles>
   <sourceFiles>

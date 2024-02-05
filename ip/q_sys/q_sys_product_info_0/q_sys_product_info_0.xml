@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <deploy
- date="2024.02.04.14:47:09"
- outputDirectory="C:/Users/Haas1S/Downloads/stratix/qts_qsfp_sdi/qts_qsfp_sdi/ip/q_sys/q_sys_product_info_0/">
+ date="2024.02.05.10:25:49"
+ outputDirectory="C:/Users/Haas1S/Downloads/git/qts_qsfp_sdi/ip/q_sys/q_sys_product_info_0/">
  <perimeter>
   <parameter
      name="AUTO_GENERATION_ID"
@@ -131,23 +131,23 @@
   <parameter name="AUTO_DEVICE_SPEEDGRADE" value="2" />
   <generatedFiles>
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\q_sys\q_sys_product_info_0\synth\q_sys_product_info_0.v"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\q_sys\q_sys_product_info_0\synth\q_sys_product_info_0.v"
        attributes="CONTAINS_INLINE_CONFIGURATION" />
   </generatedFiles>
   <childGeneratedFiles>
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\q_sys\q_sys_product_info_0\synth\q_sys_product_info_0.v"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\q_sys\q_sys_product_info_0\synth\q_sys_product_info_0.v"
        attributes="CONTAINS_INLINE_CONFIGURATION" />
   </childGeneratedFiles>
   <sourceFiles>
    <file
-       path="C:/Users/Haas1S/Downloads/stratix/qts_qsfp_sdi/qts_qsfp_sdi/ip/q_sys/q_sys_product_info_0.ip" />
+       path="C:/Users/Haas1S/Downloads/git/qts_qsfp_sdi/ip/q_sys/q_sys_product_info_0.ip" />
   </sourceFiles>
   <childSourceFiles>
    <file
-       path="C:/Users/Haas1S/Downloads/stratix/qts_qsfp_sdi/qts_qsfp_sdi/ip/product_information/product_info_hw.tcl" />
+       path="C:/Users/Haas1S/Downloads/git/qts_qsfp_sdi/ip/product_information/product_info_hw.tcl" />
    <file
-       path="C:/Users/Haas1S/Downloads/stratix/qts_qsfp_sdi/qts_qsfp_sdi/ip/product_information/product_info.vhd" />
+       path="C:/Users/Haas1S/Downloads/git/qts_qsfp_sdi/ip/product_information/product_info.vhd" />
   </childSourceFiles>
   <messages>
    <message level="Info" culprit="q_sys_product_info_0">"Generating: q_sys_product_info_0"</message>
@@ -157,17 +157,17 @@
  <entity kind="product_info" version="1.0" name="product_info">
   <generatedFiles>
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\q_sys\q_sys_product_info_0\product_info_10\synth\product_info.vhd" />
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\q_sys\q_sys_product_info_0\product_info_10\synth\product_info.vhd" />
   </generatedFiles>
   <childGeneratedFiles>
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\q_sys\q_sys_product_info_0\product_info_10\synth\product_info.vhd" />
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\q_sys\q_sys_product_info_0\product_info_10\synth\product_info.vhd" />
   </childGeneratedFiles>
   <sourceFiles>
    <file
-       path="C:/Users/Haas1S/Downloads/stratix/qts_qsfp_sdi/qts_qsfp_sdi/ip/product_information/product_info_hw.tcl" />
+       path="C:/Users/Haas1S/Downloads/git/qts_qsfp_sdi/ip/product_information/product_info_hw.tcl" />
    <file
-       path="C:/Users/Haas1S/Downloads/stratix/qts_qsfp_sdi/qts_qsfp_sdi/ip/product_information/product_info.vhd" />
+       path="C:/Users/Haas1S/Downloads/git/qts_qsfp_sdi/ip/product_information/product_info.vhd" />
   </sourceFiles>
   <childSourceFiles/>
   <instantiator instantiator="q_sys_product_info_0" as="q_sys_product_info_0" />

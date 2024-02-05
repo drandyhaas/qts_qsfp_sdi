@@ -14893,7 +14893,7 @@ https://fpgasoftware.intel.com/eula.-->
       </altera:connection>
       <altera:connection altera:kind="avalon" altera:version="23.3" altera:start="master_0.master" altera:end="sdi_xcvr_atx_pll.reconfig_avmm0">
         <altera:connection_parameter altera:parameter_name="arbitrationPriority" altera:parameter_value="1"></altera:connection_parameter>
-        <altera:connection_parameter altera:parameter_name="baseAddress" altera:parameter_value="0x00200000"></altera:connection_parameter>
+        <altera:connection_parameter altera:parameter_name="baseAddress" altera:parameter_value="0x00300000"></altera:connection_parameter>
         <altera:connection_parameter altera:parameter_name="defaultConnection" altera:parameter_value="false"></altera:connection_parameter>
         <altera:connection_parameter altera:parameter_name="domainAlias" altera:parameter_value=""></altera:connection_parameter>
         <altera:connection_parameter altera:parameter_name="qsys_mm.burstAdapterImplementation" altera:parameter_value="GENERIC_CONVERTER"></altera:connection_parameter>
@@ -14935,7 +14935,7 @@ https://fpgasoftware.intel.com/eula.-->
       </altera:connection>
       <altera:connection altera:kind="avalon" altera:version="23.3" altera:start="master_0.master" altera:end="qsfp_xcvr_atx_pll1.reconfig_avmm0">
         <altera:connection_parameter altera:parameter_name="arbitrationPriority" altera:parameter_value="1"></altera:connection_parameter>
-        <altera:connection_parameter altera:parameter_name="baseAddress" altera:parameter_value="0x00300000"></altera:connection_parameter>
+        <altera:connection_parameter altera:parameter_name="baseAddress" altera:parameter_value="0x00200000"></altera:connection_parameter>
         <altera:connection_parameter altera:parameter_name="defaultConnection" altera:parameter_value="false"></altera:connection_parameter>
         <altera:connection_parameter altera:parameter_name="domainAlias" altera:parameter_value=""></altera:connection_parameter>
         <altera:connection_parameter altera:parameter_name="qsys_mm.burstAdapterImplementation" altera:parameter_value="GENERIC_CONVERTER"></altera:connection_parameter>
@@ -15197,7 +15197,7 @@ https://fpgasoftware.intel.com/eula.-->
               </ipxact:segment>
               <ipxact:segment>
                 <ipxact:name>sdi_xcvr_atx_pll.reconfig_avmm0</ipxact:name>
-                <ipxact:addressOffset>0x0020_0000</ipxact:addressOffset>
+                <ipxact:addressOffset>0x0030_0000</ipxact:addressOffset>
                 <ipxact:range>0x0000_2000</ipxact:range>
               </ipxact:segment>
               <ipxact:segment>
@@ -15207,7 +15207,7 @@ https://fpgasoftware.intel.com/eula.-->
               </ipxact:segment>
               <ipxact:segment>
                 <ipxact:name>qsfp_xcvr_atx_pll1.reconfig_avmm0</ipxact:name>
-                <ipxact:addressOffset>0x0030_0000</ipxact:addressOffset>
+                <ipxact:addressOffset>0x0020_0000</ipxact:addressOffset>
                 <ipxact:range>0x0000_2000</ipxact:range>
               </ipxact:segment>
             </ipxact:segments>

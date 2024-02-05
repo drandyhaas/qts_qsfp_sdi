@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <deploy
- date="2024.02.04.14:47:03"
- outputDirectory="C:/Users/Haas1S/Downloads/stratix/qts_qsfp_sdi/qts_qsfp_sdi/ip/qsfp_xcvr_test/qsfp_xcvr_test_xcvr_reset_control_s10_0/">
+ date="2024.02.05.10:25:36"
+ outputDirectory="C:/Users/Haas1S/Downloads/git/qts_qsfp_sdi/ip/qsfp_xcvr_test/qsfp_xcvr_test_xcvr_reset_control_s10_0/">
  <perimeter>
   <parameter
      name="AUTO_GENERATION_ID"
@@ -203,17 +203,17 @@
   <parameter name="AUTO_DEVICE_SPEEDGRADE" value="2" />
   <generatedFiles>
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_reset_control_s10_0\synth\qsfp_xcvr_test_xcvr_reset_control_s10_0.v"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_reset_control_s10_0\synth\qsfp_xcvr_test_xcvr_reset_control_s10_0.v"
        attributes="CONTAINS_INLINE_CONFIGURATION" />
   </generatedFiles>
   <childGeneratedFiles>
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_reset_control_s10_0\synth\qsfp_xcvr_test_xcvr_reset_control_s10_0.v"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_reset_control_s10_0\synth\qsfp_xcvr_test_xcvr_reset_control_s10_0.v"
        attributes="CONTAINS_INLINE_CONFIGURATION" />
   </childGeneratedFiles>
   <sourceFiles>
    <file
-       path="C:/Users/Haas1S/Downloads/stratix/qts_qsfp_sdi/qts_qsfp_sdi/ip/qsfp_xcvr_test/qsfp_xcvr_test_xcvr_reset_control_s10_0.ip" />
+       path="C:/Users/Haas1S/Downloads/git/qts_qsfp_sdi/ip/qsfp_xcvr_test/qsfp_xcvr_test_xcvr_reset_control_s10_0.ip" />
   </sourceFiles>
   <childSourceFiles>
    <file
@@ -263,42 +263,42 @@
   <parameter name="RX_PER_CHANNEL" value="0" />
   <generatedFiles>
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_reset_control_s10_0\altera_xcvr_reset_control_s10_1911\synth\altera_std_synchronizer_nocut.v"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_reset_control_s10_0\altera_xcvr_reset_control_s10_1911\synth\altera_std_synchronizer_nocut.v"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_reset_control_s10_0\altera_xcvr_reset_control_s10_1911\synth\alt_xcvr_resync_std.sv"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_reset_control_s10_0\altera_xcvr_reset_control_s10_1911\synth\alt_xcvr_resync_std.sv"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_reset_control_s10_0\altera_xcvr_reset_control_s10_1911\synth\altera_xcvr_reset_control_s10.sv"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_reset_control_s10_0\altera_xcvr_reset_control_s10_1911\synth\altera_xcvr_reset_control_s10.sv"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_reset_control_s10_0\altera_xcvr_reset_control_s10_1911\synth\alt_xcvr_reset_counter_s10.sv"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_reset_control_s10_0\altera_xcvr_reset_control_s10_1911\synth\alt_xcvr_reset_counter_s10.sv"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_reset_control_s10_0\altera_xcvr_reset_control_s10_1911\synth\plain_files.txt"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_reset_control_s10_0\altera_xcvr_reset_control_s10_1911\synth\plain_files.txt"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_reset_control_s10_0\altera_xcvr_reset_control_s10_1911\synth\alt_xcvr_reset_s10.sdc"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_reset_control_s10_0\altera_xcvr_reset_control_s10_1911\synth\alt_xcvr_reset_s10.sdc"
        attributes="" />
   </generatedFiles>
   <childGeneratedFiles>
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_reset_control_s10_0\altera_xcvr_reset_control_s10_1911\synth\altera_std_synchronizer_nocut.v"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_reset_control_s10_0\altera_xcvr_reset_control_s10_1911\synth\altera_std_synchronizer_nocut.v"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_reset_control_s10_0\altera_xcvr_reset_control_s10_1911\synth\alt_xcvr_resync_std.sv"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_reset_control_s10_0\altera_xcvr_reset_control_s10_1911\synth\alt_xcvr_resync_std.sv"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_reset_control_s10_0\altera_xcvr_reset_control_s10_1911\synth\altera_xcvr_reset_control_s10.sv"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_reset_control_s10_0\altera_xcvr_reset_control_s10_1911\synth\altera_xcvr_reset_control_s10.sv"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_reset_control_s10_0\altera_xcvr_reset_control_s10_1911\synth\alt_xcvr_reset_counter_s10.sv"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_reset_control_s10_0\altera_xcvr_reset_control_s10_1911\synth\alt_xcvr_reset_counter_s10.sv"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_reset_control_s10_0\altera_xcvr_reset_control_s10_1911\synth\plain_files.txt"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_reset_control_s10_0\altera_xcvr_reset_control_s10_1911\synth\plain_files.txt"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\stratix\qts_qsfp_sdi\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_reset_control_s10_0\altera_xcvr_reset_control_s10_1911\synth\alt_xcvr_reset_s10.sdc"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_reset_control_s10_0\altera_xcvr_reset_control_s10_1911\synth\alt_xcvr_reset_s10.sdc"
        attributes="" />
   </childGeneratedFiles>
   <sourceFiles>
