@@ -9,3 +9,5 @@ s.write(b"haasoscope on")
 s.write(b"haasoscope off")
 </pre>
 
+source ttk_helper_s10.tcl
+
