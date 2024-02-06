@@ -19,7 +19,7 @@ module q_sys_xcvr_atx_pll_s10_htile_2 (
 		output wire        pll_cal_busy           //      pll_cal_busy.pll_cal_busy
 	);
 
-	q_sys_xcvr_atx_pll_s10_htile_2_altera_xcvr_atx_pll_s10_htile_1911_pzhfdgq #(
+	q_sys_xcvr_atx_pll_s10_htile_2_altera_xcvr_atx_pll_s10_htile_1911_uta4vvi #(
 		.rcfg_enable                                                      (1),
 		.rcfg_jtag_enable                                                 (1),
 		.rcfg_separate_avmm_busy                                          (0),
@@ -28,7 +28,7 @@ module q_sys_xcvr_atx_pll_s10_htile_2 (
 		.dbg_user_identifier                                              (0),
 		.dbg_stat_soft_logic_enable                                       (1),
 		.dbg_ctrl_soft_logic_enable                                       (1),
-		.rcfg_emb_strm_enable                                             (0),
+		.rcfg_emb_strm_enable                                             (1),
 		.rcfg_profile_cnt                                                 (2),
 		.hssi_avmm2_if_pcs_arbiter_ctrl                                   ("avmm2_arbiter_uc_sel"),
 		.hssi_avmm2_if_pcs_cal_done                                       ("avmm2_cal_done_deassert"),

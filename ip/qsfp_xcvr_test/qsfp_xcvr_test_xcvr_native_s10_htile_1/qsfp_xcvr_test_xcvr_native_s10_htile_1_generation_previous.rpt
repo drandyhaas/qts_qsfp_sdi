@@ -35,7 +35,7 @@ Info: qsfp_xcvr_test_xcvr_native_s10_htile_1: "Transforming system: qsfp_xcvr_te
 Info: qsfp_xcvr_test_xcvr_native_s10_htile_1: "Naming system components in system: qsfp_xcvr_test_xcvr_native_s10_htile_1"
 Info: qsfp_xcvr_test_xcvr_native_s10_htile_1: "Processing generation queue"
 Info: qsfp_xcvr_test_xcvr_native_s10_htile_1: "Generating: qsfp_xcvr_test_xcvr_native_s10_htile_1"
-Info: qsfp_xcvr_test_xcvr_native_s10_htile_1: "Generating: qsfp_xcvr_test_xcvr_native_s10_htile_1_altera_xcvr_native_s10_htile_1930_ugm7okq"
+Info: qsfp_xcvr_test_xcvr_native_s10_htile_1: "Generating: qsfp_xcvr_test_xcvr_native_s10_htile_1_altera_xcvr_native_s10_htile_1930_pzexkrq"
 Info: qsfp_xcvr_test_xcvr_native_s10_htile_1: add_fileset_file ./alt_xcvr_arbiter.sv SYSTEM_VERILOG PATH ../../../../altera_xcvr_generic/ctrl/alt_xcvr_arbiter.sv
 Info: qsfp_xcvr_test_xcvr_native_s10_htile_1: add_fileset_file ./altera_std_synchronizer_nocut.v VERILOG PATH ../../../../primitives/altera_std_synchronizer/altera_std_synchronizer_nocut.v
 Info: qsfp_xcvr_test_xcvr_native_s10_htile_1: add_fileset_file ./alt_xcvr_resync_std.sv SYSTEM_VERILOG PATH ../../../alt_xcvr_generic/alt_xcvr_resync_std.sv
@@ -82,5 +82,11 @@ Info: qsfp_xcvr_test_xcvr_native_s10_htile_1: "pma_div_clkout" is selected to dr
 Info: qsfp_xcvr_test_xcvr_native_s10_htile_1: "PCS clkout" (pcs_clkout) is selected to drive rx_clkout port and the clock frequency is 402.832031 MHz.
 Info: qsfp_xcvr_test_xcvr_native_s10_htile_1: "pma_div_clkout" is selected to drive rx_clkout2 port and it should not be used for register mode data transfers (Relevant parameter: "Selected rx_clkout2 clock source" (rx_clkout2_sel)).
 Info: qsfp_xcvr_test_xcvr_native_s10_htile_1: A design example cannot be generated for "Tx PLL reference clock frequency"=="125.0" && "Selected CDR reference clock frequency"=="644.531250"
-Info: qsfp_xcvr_test_xcvr_native_s10_htile_1: Done "qsfp_xcvr_test_xcvr_native_s10_htile_1" with 2 modules, 30 files
+Info: qsfp_xcvr_test_xcvr_native_s10_htile_1: Generating configuration files for reconfiguration profile 0
+Info: qsfp_xcvr_test_xcvr_native_s10_htile_1: Generating MIF configuration file
+Info: qsfp_xcvr_test_xcvr_native_s10_htile_1: Generating configuration files for reconfiguration profile 1
+Info: qsfp_xcvr_test_xcvr_native_s10_htile_1: Generating MIF configuration file
+Info: qsfp_xcvr_test_xcvr_native_s10_htile_1: Generating SystemVerilog package file with embedded reconfiguration parameters
+Info: qsfp_xcvr_test_xcvr_native_s10_htile_1: Generating embedded reconfiguration modules
+Info: qsfp_xcvr_test_xcvr_native_s10_htile_1: Done "qsfp_xcvr_test_xcvr_native_s10_htile_1" with 2 modules, 37 files
 Info: Finished: Create HDL design files for synthesis

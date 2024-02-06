@@ -287,3 +287,5 @@ set_global_assignment -name SIGNALTAP_FILE stp1.stp
 set_global_assignment -name IP_FILE ip/xcvr_test_system/xcvr_test_system_data_pattern_generator_0.ip
 set_global_assignment -name IP_FILE ip/xcvr_test_system/xcvr_test_system_data_pattern_checker_0.ip
 set_global_assignment -name FLOW_ENABLE_POWER_ANALYZER OFF
+set_instance_assignment -name PARTITION_COLOUR 4287184895 -to qts_qsfp_sdi -entity qts_qsfp_sdi
+set_instance_assignment -name PARTITION_COLOUR 4287087615 -to auto_fab_0 -entity qts_qsfp_sdi

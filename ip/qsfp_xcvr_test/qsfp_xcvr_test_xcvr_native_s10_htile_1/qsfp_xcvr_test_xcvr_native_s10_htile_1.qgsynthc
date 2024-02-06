@@ -9430,7 +9430,7 @@
           </parameter>
           <parameter>
             <name>rcfg_emb_strm_enable</name>
-            <value>0</value>
+            <value>1</value>
           </parameter>
           <parameter>
             <name>rcfg_enable</name>
@@ -9462,7 +9462,7 @@
           </parameter>
           <parameter>
             <name>rcfg_mif_file_enable</name>
-            <value>0</value>
+            <value>1</value>
           </parameter>
           <parameter>
             <name>rcfg_multi_enable</name>
@@ -9550,7 +9550,7 @@
           </parameter>
           <parameter>
             <name>rcfg_reduced_files_enable</name>
-            <value>0</value>
+            <value>1</value>
           </parameter>
           <parameter>
             <name>rcfg_sdc_derived_param_vals0</name>
@@ -9770,7 +9770,7 @@
           </parameter>
           <parameter>
             <name>set_rcfg_emb_strm_enable</name>
-            <value>0</value>
+            <value>1</value>
           </parameter>
           <parameter>
             <name>set_user_identifier</name>
@@ -10017,7 +10017,7 @@
         <className>altera_xcvr_native_s10_htile</className>
         <version>19.3.0</version>
         <name>qsfp_xcvr_test_xcvr_native_s10_htile_1</name>
-        <uniqueName>qsfp_xcvr_test_xcvr_native_s10_htile_1_altera_xcvr_native_s10_htile_1930_ugm7okq</uniqueName>
+        <uniqueName>qsfp_xcvr_test_xcvr_native_s10_htile_1_altera_xcvr_native_s10_htile_1930_pzexkrq</uniqueName>
         <nonce>0</nonce>
         <incidentConnections></incidentConnections>
         <path>qsfp_xcvr_test_xcvr_native_s10_htile_1.qsfp_xcvr_test_xcvr_native_s10_htile_1</path>

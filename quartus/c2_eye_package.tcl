@@ -23,15 +23,22 @@ proc setup_transceiver_channel_rx_services {} {
         if {[is_service_path transceiver_channel_rx $service_path]} {
             set tcrx_serv [claim_service transceiver_channel_rx $service_path ""]
             set channel [transceiver_channel_rx_get_logical_channel_number $tcrx_serv]
-            send_message warning "skipping transceiver_channel_rx_override_arbitration_crete2 for"
-            send_message warning $tcrx_serv
-            #transceiver_channel_rx_override_arbitration_crete2 $tcrx_serv
+
+            if {[catch {
+                transceiver_channel_rx_override_arbitration_crete2 $tcrx_serv
+            } result]} {
+                # Handle the error
+                send_message warning "skipping transceiver_channel_rx_override_arbitration_crete2 for"
+                send_message warning $tcrx_serv
+            } else {
+                # Key
+                lappend TCRX_LIST $channel
             
-            # Key
-            lappend TCRX_LIST $channel
+                # Value
+                lappend TCRX_LIST $tcrx_serv
+            }
             
-            # Value
-            lappend TCRX_LIST $tcrx_serv
+            
         }
     }
     

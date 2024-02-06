@@ -956,7 +956,7 @@ https://fpgasoftware.intel.com/eula.-->
         <ipxact:parameter parameterId="rcfg_mif_file_enable" type="int">
           <ipxact:name>rcfg_mif_file_enable</ipxact:name>
           <ipxact:displayName>Generate MIF (Memory Initialize File)</ipxact:displayName>
-          <ipxact:value>0</ipxact:value>
+          <ipxact:value>1</ipxact:value>
         </ipxact:parameter>
         <ipxact:parameter parameterId="rcfg_multi_enable" type="int">
           <ipxact:name>rcfg_multi_enable</ipxact:name>
@@ -966,12 +966,12 @@ https://fpgasoftware.intel.com/eula.-->
         <ipxact:parameter parameterId="set_rcfg_emb_strm_enable" type="int">
           <ipxact:name>set_rcfg_emb_strm_enable</ipxact:name>
           <ipxact:displayName>Enable embedded reconfiguration streamer</ipxact:displayName>
-          <ipxact:value>0</ipxact:value>
+          <ipxact:value>1</ipxact:value>
         </ipxact:parameter>
         <ipxact:parameter parameterId="rcfg_reduced_files_enable" type="int">
           <ipxact:name>rcfg_reduced_files_enable</ipxact:name>
           <ipxact:displayName>Generate reduced reconfiguration files</ipxact:displayName>
-          <ipxact:value>0</ipxact:value>
+          <ipxact:value>1</ipxact:value>
         </ipxact:parameter>
         <ipxact:parameter parameterId="rcfg_profile_cnt" type="int">
           <ipxact:name>rcfg_profile_cnt</ipxact:name>

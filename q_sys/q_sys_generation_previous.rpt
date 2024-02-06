@@ -54,12 +54,10 @@ Progress: Parameterizing connections
 Progress: Validating
 Progress: Done reading input file
 Info: q_sys: "Transforming system: q_sys"
-Info: Inserting clock-crossing logic between cmd_demux.src7 and cmd_mux_007.sink0
-Info: Inserting clock-crossing logic between cmd_demux.src8 and cmd_mux_008.sink0
-Info: Inserting clock-crossing logic between cmd_demux.src9 and cmd_mux_009.sink0
-Info: Inserting clock-crossing logic between rsp_demux_007.src0 and rsp_mux.sink7
-Info: Inserting clock-crossing logic between rsp_demux_008.src0 and rsp_mux.sink8
-Info: Inserting clock-crossing logic between rsp_demux_009.src0 and rsp_mux.sink9
+Info: Inserting clock-crossing logic between cmd_demux.src5 and cmd_mux_005.sink0
+Info: Inserting clock-crossing logic between cmd_demux.src6 and cmd_mux_006.sink0
+Info: Inserting clock-crossing logic between rsp_demux_005.src0 and rsp_mux.sink5
+Info: Inserting clock-crossing logic between rsp_demux_006.src0 and rsp_mux.sink6
 Info: q_sys: "Naming system components in system: q_sys"
 Info: q_sys: "Processing generation queue"
 Info: q_sys: "Generating: q_sys"
@@ -69,28 +67,25 @@ Info: q_sys: "Generating: q_sys_master_0"
 Info: q_sys: "Generating: q_sys_product_info_0"
 Info: q_sys: "Generating: q_sys_pll_status_interconnect_2"
 Info: q_sys: "Generating: q_sys_pll_status_interconnect_0"
-Info: q_sys: "Generating: q_sys_pll_status_interconnect_4"
 Info: q_sys: "Generating: q_sys_xcvr_atx_pll_s10_htile_1"
 Info: q_sys: "Generating: q_sys_xcvr_atx_pll_s10_htile_2"
 Info: q_sys: "Generating: q_sys_clock_bridge_0"
-Info: q_sys: "Generating: q_sys_xcvr_atx_pll_s10_htile_0"
-Info: q_sys: "Generating: q_sys_clock_bridge_1"
-Info: q_sys: "Generating: q_sys_altera_mm_interconnect_1920_uje3pgq"
+Info: q_sys: "Generating: q_sys_altera_mm_interconnect_1920_kpacqfy"
 Info: q_sys: "Generating: q_sys_altera_merlin_master_translator_192_lykd4la"
 Info: q_sys: "Generating: q_sys_altera_merlin_slave_translator_191_x56fcki"
 Info: q_sys: "Generating: q_sys_altera_merlin_master_agent_1921_2inlndi"
 Info: q_sys: "Generating: q_sys_altera_merlin_slave_agent_1921_b6r3djy"
 Info: q_sys: "Generating: q_sys_altera_avalon_sc_fifo_1931_fzgstwy"
-Info: q_sys: "Generating: q_sys_altera_merlin_router_1921_bjl5pva"
-Info: q_sys: "Generating: q_sys_altera_merlin_router_1921_ww4g4ya"
+Info: q_sys: "Generating: q_sys_altera_merlin_router_1921_bpvf5qi"
+Info: q_sys: "Generating: q_sys_altera_merlin_router_1921_jeflmgq"
 Info: q_sys: "Generating: q_sys_altera_merlin_traffic_limiter_191_kcba44q"
 Info: my_altera_avalon_sc_fifo_dest_id_fifo: "Generating: my_altera_avalon_sc_fifo_dest_id_fifo"
-Info: q_sys: "Generating: q_sys_altera_merlin_demultiplexer_1921_tbc4z7i"
-Info: q_sys: "Generating: q_sys_altera_merlin_multiplexer_1922_2wwphby"
-Info: q_sys: "Generating: q_sys_altera_merlin_demultiplexer_1921_457fupy"
-Info: q_sys: "Generating: q_sys_altera_merlin_multiplexer_1922_veanixq"
-Info: q_sys: "Generating: q_sys_hs_clk_xer_1940_suurwgi"
+Info: q_sys: "Generating: q_sys_altera_merlin_demultiplexer_1921_kgic6ja"
+Info: q_sys: "Generating: q_sys_altera_merlin_multiplexer_1922_tom7xvi"
+Info: q_sys: "Generating: q_sys_altera_merlin_demultiplexer_1921_7shb6ji"
+Info: q_sys: "Generating: q_sys_altera_merlin_multiplexer_1922_uvtqmia"
+Info: q_sys: "Generating: q_sys_hs_clk_xer_1940_tdhghti"
 Info: q_sys: "Generating: q_sys_altera_avalon_st_pipeline_stage_1930_bv2ucky"
 Info: q_sys: "Generating: q_sys_altera_merlin_traffic_limiter_altera_avalon_sc_fifo_191_blu76ua"
-Info: q_sys: Done "q_sys" with 31 modules, 28 files
+Info: q_sys: Done "q_sys" with 27 modules, 28 files
 Info: Finished: Create HDL design files for synthesis

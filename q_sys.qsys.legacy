@@ -330,18 +330,6 @@ https://fpgasoftware.intel.com/eula.-->
                 <consumedSystemInfos/>
             </value>
         </entry>
-        <entry>
-            <key>sdi_xcvr_atx_pll_refclk_in_clk</key>
-            <value>
-                <connectionPointName>sdi_xcvr_atx_pll_refclk_in_clk</connectionPointName>
-                <suppliedSystemInfos>
-                    <entry>
-                        <key>CLOCK_RATE</key>
-                    </entry>
-                </suppliedSystemInfos>
-                <consumedSystemInfos/>
-            </value>
-        </entry>
     </connPtSystemInfos>
 </systemInfosDefinition>]]></parameter>
  <parameter name="systemScripts" value="" />

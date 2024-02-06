@@ -45,7 +45,7 @@ module qsfp_xcvr_test_xcvr_native_s10_htile_1 (
 
 	wire  [79:0] qsfp_xcvr_test_xcvr_native_s10_htile_1_rx_parallel_data; // port fragment
 
-	qsfp_xcvr_test_xcvr_native_s10_htile_1_altera_xcvr_native_s10_htile_1930_ugm7okq #(
+	qsfp_xcvr_test_xcvr_native_s10_htile_1_altera_xcvr_native_s10_htile_1930_pzexkrq #(
 		.rcfg_enable                                                                     (1),
 		.rcfg_jtag_enable                                                                (1),
 		.rcfg_separate_avmm_busy                                                         (0),
@@ -54,7 +54,7 @@ module qsfp_xcvr_test_xcvr_native_s10_htile_1 (
 		.dbg_user_identifier                                                             (0),
 		.dbg_stat_soft_logic_enable                                                      (1),
 		.dbg_ctrl_soft_logic_enable                                                      (1),
-		.rcfg_emb_strm_enable                                                            (0),
+		.rcfg_emb_strm_enable                                                            (1),
 		.rcfg_profile_cnt                                                                (2),
 		.device_revision                                                                 ("14nm5bcr2eb"),
 		.silicon_revision                                                                ("14nm5bcr2eb"),

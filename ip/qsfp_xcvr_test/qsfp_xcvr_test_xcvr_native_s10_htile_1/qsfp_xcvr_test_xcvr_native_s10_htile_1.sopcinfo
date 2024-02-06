@@ -5,7 +5,7 @@
  version="1.0"
  fabric="QSYS">
  <!-- Format version 23.3 104 (Future versions may contain additional information.) -->
- <!-- 2024.02.05.21:26:01 -->
+ <!-- 2024.02.06.16:29:05 -->
  <!-- A collection of modules and connections -->
  <parameter name="AUTO_GENERATION_ID">
   <type>java.lang.Integer</type>
@@ -193,7 +193,7 @@
    name="qsfp_xcvr_test_xcvr_native_s10_htile_1"
    kind="altera_xcvr_native_s10_htile"
    version="19.3.0"
-   entity="qsfp_xcvr_test_xcvr_native_s10_htile_1_altera_xcvr_native_s10_htile_1930_ugm7okq"
+   entity="qsfp_xcvr_test_xcvr_native_s10_htile_1_altera_xcvr_native_s10_htile_1930_pzexkrq"
    library="altera_xcvr_native_s10_htile_1930"
    path="qsfp_xcvr_test_xcvr_native_s10_htile_1"
    hpath="qsfp_xcvr_test_xcvr_native_s10_htile_1"
@@ -362,7 +362,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="rcfg_mif_file_enable">
    <type>int</type>
-   <value>0</value>
+   <value>1</value>
    <derived>false</derived>
    <enabled>true</enabled>
    <visible>true</visible>
@@ -378,7 +378,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="set_rcfg_emb_strm_enable">
    <type>int</type>
-   <value>0</value>
+   <value>1</value>
    <derived>false</derived>
    <enabled>true</enabled>
    <visible>true</visible>
@@ -386,7 +386,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="rcfg_emb_strm_enable">
    <type>int</type>
-   <value>0</value>
+   <value>1</value>
    <derived>true</derived>
    <enabled>true</enabled>
    <visible>false</visible>
@@ -394,7 +394,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="rcfg_reduced_files_enable">
    <type>int</type>
-   <value>0</value>
+   <value>1</value>
    <derived>false</derived>
    <enabled>true</enabled>
    <visible>true</visible>

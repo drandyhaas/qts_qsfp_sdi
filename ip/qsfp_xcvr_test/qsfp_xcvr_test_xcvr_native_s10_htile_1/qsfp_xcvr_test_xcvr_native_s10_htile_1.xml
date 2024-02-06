@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <deploy
- date="2024.02.05.21:26:01"
+ date="2024.02.06.16:29:05"
  outputDirectory="C:/Users/Haas1S/Downloads/git/qts_qsfp_sdi/ip/qsfp_xcvr_test/qsfp_xcvr_test_xcvr_native_s10_htile_1/">
  <perimeter>
   <parameter
@@ -477,7 +477,7 @@
   </childSourceFiles>
   <messages>
    <message level="Info" culprit="qsfp_xcvr_test_xcvr_native_s10_htile_1">"Generating: qsfp_xcvr_test_xcvr_native_s10_htile_1"</message>
-   <message level="Info" culprit="qsfp_xcvr_test_xcvr_native_s10_htile_1">"Generating: qsfp_xcvr_test_xcvr_native_s10_htile_1_altera_xcvr_native_s10_htile_1930_ugm7okq"</message>
+   <message level="Info" culprit="qsfp_xcvr_test_xcvr_native_s10_htile_1">"Generating: qsfp_xcvr_test_xcvr_native_s10_htile_1_altera_xcvr_native_s10_htile_1930_pzexkrq"</message>
    <message level="Info" culprit="qsfp_xcvr_test_xcvr_native_s10_htile_1">add_fileset_file ./alt_xcvr_arbiter.sv SYSTEM_VERILOG PATH ../../../../altera_xcvr_generic/ctrl/alt_xcvr_arbiter.sv</message>
    <message level="Info" culprit="qsfp_xcvr_test_xcvr_native_s10_htile_1">add_fileset_file ./altera_std_synchronizer_nocut.v VERILOG PATH ../../../../primitives/altera_std_synchronizer/altera_std_synchronizer_nocut.v</message>
    <message level="Info" culprit="qsfp_xcvr_test_xcvr_native_s10_htile_1">add_fileset_file ./alt_xcvr_resync_std.sv SYSTEM_VERILOG PATH ../../../alt_xcvr_generic/alt_xcvr_resync_std.sv</message>
@@ -524,12 +524,18 @@
    <message level="Info" culprit="qsfp_xcvr_test_xcvr_native_s10_htile_1"><![CDATA[<b>"PCS clkout"</b> (pcs_clkout) is selected to drive rx_clkout port and the clock frequency is 402.832031 MHz.]]></message>
    <message level="Info" culprit="qsfp_xcvr_test_xcvr_native_s10_htile_1">"pma_div_clkout" is selected to drive rx_clkout2 port and it should not be used for register mode data transfers (Relevant parameter: "Selected rx_clkout2 clock source" (rx_clkout2_sel)).</message>
    <message level="Info" culprit="qsfp_xcvr_test_xcvr_native_s10_htile_1"><![CDATA[A design example cannot be generated for "Tx PLL reference clock frequency"=="125.0" && "Selected CDR reference clock frequency"=="644.531250"]]></message>
+   <message level="Info" culprit="qsfp_xcvr_test_xcvr_native_s10_htile_1">Generating configuration files for reconfiguration profile 0</message>
+   <message level="Info" culprit="qsfp_xcvr_test_xcvr_native_s10_htile_1">Generating MIF configuration file</message>
+   <message level="Info" culprit="qsfp_xcvr_test_xcvr_native_s10_htile_1">Generating configuration files for reconfiguration profile 1</message>
+   <message level="Info" culprit="qsfp_xcvr_test_xcvr_native_s10_htile_1">Generating MIF configuration file</message>
+   <message level="Info" culprit="qsfp_xcvr_test_xcvr_native_s10_htile_1">Generating SystemVerilog package file with embedded reconfiguration parameters</message>
+   <message level="Info" culprit="qsfp_xcvr_test_xcvr_native_s10_htile_1">Generating embedded reconfiguration modules</message>
   </messages>
  </entity>
  <entity
    kind="altera_xcvr_native_s10_htile"
    version="19.3.0"
-   name="qsfp_xcvr_test_xcvr_native_s10_htile_1_altera_xcvr_native_s10_htile_1930_ugm7okq">
+   name="qsfp_xcvr_test_xcvr_native_s10_htile_1_altera_xcvr_native_s10_htile_1930_pzexkrq">
   <parameter name="l_pcs_channel_enable_hard_reset" value="0" />
   <parameter
      name="hssi_aibcr_rx_aib_rx_dcc_st_rst"
@@ -1264,7 +1270,7 @@
   <parameter name="l_enable_rx_enh" value="1" />
   <parameter name="hssi_10g_rx_pcs_blksync_pipeln" value="blksync_pipeln_dis" />
   <parameter name="hssi_avmm1_if_hssiadapt_sr_sr_parity_en" value="disable" />
-  <parameter name="rcfg_emb_strm_enable" value="0" />
+  <parameter name="rcfg_emb_strm_enable" value="1" />
   <parameter
      name="pma_cdr_refclk_pm_cr_tx_rx_cdr_clkin_scratch0_src"
      value="cdr_clkin_scratch0_src_refclk_iqclk" />
@@ -1806,7 +1812,7 @@
   <parameter name="hssi_aibnd_tx_aib_tx_halfcode" value="aib_tx_halfcode_enable" />
   <parameter name="hssi_avmm1_if_hssiadapt_osc_clk_scg_en" value="disable" />
   <parameter name="hssi_common_pcs_pma_interface_ppmsel" value="ppmsel_1000" />
-  <parameter name="rcfg_mif_file_enable" value="0" />
+  <parameter name="rcfg_mif_file_enable" value="1" />
   <parameter name="hssi_10g_tx_pcs_fastpath" value="fastpath_en" />
   <parameter
      name="hssi_aibnd_tx_aib_red_txferclkoutn_shiften"
@@ -2634,7 +2640,7 @@
      name="hssi_pldadapt_tx_hdpldadapt_aib_fabric_tx_sr_clk_in_hz"
      value="0" />
   <parameter name="hssi_pldadapt_tx_frmgen_bypass" value="frmgen_bypass_en" />
-  <parameter name="set_rcfg_emb_strm_enable" value="0" />
+  <parameter name="set_rcfg_emb_strm_enable" value="1" />
   <parameter name="hssi_aibnd_tx_sup_mode" value="user_mode" />
   <parameter
      name="hssi_aibcr_tx_aib_dllstr_align_dft_ch_muxsel"
@@ -3388,7 +3394,7 @@
   <parameter name="hssi_pldadapt_tx_word_mark" value="wm_en" />
   <parameter name="hssi_avmm1_if_hssiadapt_read_blocking_enable" value="enable" />
   <parameter name="hssi_tx_pld_pcs_interface_hd_pcs8g_sup_mode" value="user_mode" />
-  <parameter name="rcfg_reduced_files_enable" value="0" />
+  <parameter name="rcfg_reduced_files_enable" value="1" />
   <parameter name="hssi_pipe_gen3_phy_status_delay_g12" value="0" />
   <parameter name="enable_port_rx_clkout2" value="1" />
   <parameter name="ovrd_rx_dv_mode" value="0" />
@@ -4176,34 +4182,55 @@
        path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\plain_files.txt"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\rcfg_timing_db\qsfp_xcvr_test_xcvr_native_s10_htile_1_hssi_pldadapt_rx_rcfg_settings_ugm7okq.json"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\rcfg_timing_db\qsfp_xcvr_test_xcvr_native_s10_htile_1_hssi_pldadapt_rx_rcfg_settings_pzexkrq.json"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\rcfg_timing_db\qsfp_xcvr_test_xcvr_native_s10_htile_1_hssi_pldadapt_tx_rcfg_settings_ugm7okq.json"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\rcfg_timing_db\qsfp_xcvr_test_xcvr_native_s10_htile_1_hssi_pldadapt_tx_rcfg_settings_pzexkrq.json"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\qsfp_xcvr_test_xcvr_native_s10_htile_1_ip_parameters_ugm7okq.tcl"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\qsfp_xcvr_test_xcvr_native_s10_htile_1_ip_parameters_pzexkrq.tcl"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\docs\qsfp_xcvr_test_xcvr_native_s10_htile_1_altera_xcvr_native_s10_htile_1930_ugm7okq_parameters.csv"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\reconfig\altera_xcvr_rcfg_10_reconfig_parameters_CFG0.mif"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\qsfp_xcvr_test_xcvr_native_s10_htile_1_altera_xcvr_native_s10_htile_1930_ugm7okq.sv"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\reconfig\altera_xcvr_rcfg_10_reconfig_parameters_CFG1.mif"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\qsfp_xcvr_test_xcvr_native_s10_htile_1_altera_xcvr_native_s10_htile_1930_ugm7okq.sdc"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_native_rcfg_strm_params_pzexkrq.sv"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_native_helper_functions_ugm7okq.tcl"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_native_rcfg_strm_functions.sv"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_native_global_constraints_ugm7okq.sdc"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\docs\qsfp_xcvr_test_xcvr_native_s10_htile_1_altera_xcvr_native_s10_htile_1930_pzexkrq_parameters.csv"
+       attributes="" />
+   <file
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\qsfp_xcvr_test_xcvr_native_s10_htile_1_altera_xcvr_native_s10_htile_1930_pzexkrq.sv"
+       attributes="" />
+   <file
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\qsfp_xcvr_test_xcvr_native_s10_htile_1_altera_xcvr_native_s10_htile_1930_pzexkrq.sdc"
+       attributes="" />
+   <file
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_native_helper_functions_pzexkrq.tcl"
+       attributes="" />
+   <file
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_native_global_constraints_pzexkrq.sdc"
        attributes="NO_SDC_PROMOTION" />
    <file
-       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_native_re_cal_chnl_ugm7okq.sdc"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_native_re_cal_chnl_pzexkrq.sdc"
        attributes="NO_SDC_PROMOTION" />
    <file
-       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_native_rcfg_opt_logic_ugm7okq.sv"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_native_rcfg_strm_rom_pzexkrq.sv"
+       attributes="" />
+   <file
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_native_rcfg_strm_top_pzexkrq.sv"
+       attributes="" />
+   <file
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_native_rcfg_strm_ctrl_pzexkrq.sv"
+       attributes="" />
+   <file
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_native_rcfg_opt_logic_pzexkrq.sv"
        attributes="" />
   </generatedFiles>
   <childGeneratedFiles>
@@ -4265,34 +4292,55 @@
        path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\plain_files.txt"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\rcfg_timing_db\qsfp_xcvr_test_xcvr_native_s10_htile_1_hssi_pldadapt_rx_rcfg_settings_ugm7okq.json"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\rcfg_timing_db\qsfp_xcvr_test_xcvr_native_s10_htile_1_hssi_pldadapt_rx_rcfg_settings_pzexkrq.json"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\rcfg_timing_db\qsfp_xcvr_test_xcvr_native_s10_htile_1_hssi_pldadapt_tx_rcfg_settings_ugm7okq.json"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\rcfg_timing_db\qsfp_xcvr_test_xcvr_native_s10_htile_1_hssi_pldadapt_tx_rcfg_settings_pzexkrq.json"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\qsfp_xcvr_test_xcvr_native_s10_htile_1_ip_parameters_ugm7okq.tcl"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\qsfp_xcvr_test_xcvr_native_s10_htile_1_ip_parameters_pzexkrq.tcl"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\docs\qsfp_xcvr_test_xcvr_native_s10_htile_1_altera_xcvr_native_s10_htile_1930_ugm7okq_parameters.csv"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\reconfig\altera_xcvr_rcfg_10_reconfig_parameters_CFG0.mif"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\qsfp_xcvr_test_xcvr_native_s10_htile_1_altera_xcvr_native_s10_htile_1930_ugm7okq.sv"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\reconfig\altera_xcvr_rcfg_10_reconfig_parameters_CFG1.mif"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\qsfp_xcvr_test_xcvr_native_s10_htile_1_altera_xcvr_native_s10_htile_1930_ugm7okq.sdc"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_native_rcfg_strm_params_pzexkrq.sv"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_native_helper_functions_ugm7okq.tcl"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_native_rcfg_strm_functions.sv"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_native_global_constraints_ugm7okq.sdc"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\docs\qsfp_xcvr_test_xcvr_native_s10_htile_1_altera_xcvr_native_s10_htile_1930_pzexkrq_parameters.csv"
+       attributes="" />
+   <file
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\qsfp_xcvr_test_xcvr_native_s10_htile_1_altera_xcvr_native_s10_htile_1930_pzexkrq.sv"
+       attributes="" />
+   <file
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\qsfp_xcvr_test_xcvr_native_s10_htile_1_altera_xcvr_native_s10_htile_1930_pzexkrq.sdc"
+       attributes="" />
+   <file
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_native_helper_functions_pzexkrq.tcl"
+       attributes="" />
+   <file
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_native_global_constraints_pzexkrq.sdc"
        attributes="NO_SDC_PROMOTION" />
    <file
-       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_native_re_cal_chnl_ugm7okq.sdc"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_native_re_cal_chnl_pzexkrq.sdc"
        attributes="NO_SDC_PROMOTION" />
    <file
-       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_native_rcfg_opt_logic_ugm7okq.sv"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_native_rcfg_strm_rom_pzexkrq.sv"
+       attributes="" />
+   <file
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_native_rcfg_strm_top_pzexkrq.sv"
+       attributes="" />
+   <file
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_native_rcfg_strm_ctrl_pzexkrq.sv"
+       attributes="" />
+   <file
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_native_rcfg_opt_logic_pzexkrq.sv"
        attributes="" />
   </childGeneratedFiles>
   <sourceFiles>
@@ -4304,7 +4352,7 @@
      instantiator="qsfp_xcvr_test_xcvr_native_s10_htile_1"
      as="qsfp_xcvr_test_xcvr_native_s10_htile_1" />
   <messages>
-   <message level="Info" culprit="qsfp_xcvr_test_xcvr_native_s10_htile_1">"Generating: qsfp_xcvr_test_xcvr_native_s10_htile_1_altera_xcvr_native_s10_htile_1930_ugm7okq"</message>
+   <message level="Info" culprit="qsfp_xcvr_test_xcvr_native_s10_htile_1">"Generating: qsfp_xcvr_test_xcvr_native_s10_htile_1_altera_xcvr_native_s10_htile_1930_pzexkrq"</message>
    <message level="Info" culprit="qsfp_xcvr_test_xcvr_native_s10_htile_1">add_fileset_file ./alt_xcvr_arbiter.sv SYSTEM_VERILOG PATH ../../../../altera_xcvr_generic/ctrl/alt_xcvr_arbiter.sv</message>
    <message level="Info" culprit="qsfp_xcvr_test_xcvr_native_s10_htile_1">add_fileset_file ./altera_std_synchronizer_nocut.v VERILOG PATH ../../../../primitives/altera_std_synchronizer/altera_std_synchronizer_nocut.v</message>
    <message level="Info" culprit="qsfp_xcvr_test_xcvr_native_s10_htile_1">add_fileset_file ./alt_xcvr_resync_std.sv SYSTEM_VERILOG PATH ../../../alt_xcvr_generic/alt_xcvr_resync_std.sv</message>
@@ -4351,6 +4399,12 @@
    <message level="Info" culprit="qsfp_xcvr_test_xcvr_native_s10_htile_1"><![CDATA[<b>"PCS clkout"</b> (pcs_clkout) is selected to drive rx_clkout port and the clock frequency is 402.832031 MHz.]]></message>
    <message level="Info" culprit="qsfp_xcvr_test_xcvr_native_s10_htile_1">"pma_div_clkout" is selected to drive rx_clkout2 port and it should not be used for register mode data transfers (Relevant parameter: "Selected rx_clkout2 clock source" (rx_clkout2_sel)).</message>
    <message level="Info" culprit="qsfp_xcvr_test_xcvr_native_s10_htile_1"><![CDATA[A design example cannot be generated for "Tx PLL reference clock frequency"=="125.0" && "Selected CDR reference clock frequency"=="644.531250"]]></message>
+   <message level="Info" culprit="qsfp_xcvr_test_xcvr_native_s10_htile_1">Generating configuration files for reconfiguration profile 0</message>
+   <message level="Info" culprit="qsfp_xcvr_test_xcvr_native_s10_htile_1">Generating MIF configuration file</message>
+   <message level="Info" culprit="qsfp_xcvr_test_xcvr_native_s10_htile_1">Generating configuration files for reconfiguration profile 1</message>
+   <message level="Info" culprit="qsfp_xcvr_test_xcvr_native_s10_htile_1">Generating MIF configuration file</message>
+   <message level="Info" culprit="qsfp_xcvr_test_xcvr_native_s10_htile_1">Generating SystemVerilog package file with embedded reconfiguration parameters</message>
+   <message level="Info" culprit="qsfp_xcvr_test_xcvr_native_s10_htile_1">Generating embedded reconfiguration modules</message>
   </messages>
  </entity>
 </deploy>

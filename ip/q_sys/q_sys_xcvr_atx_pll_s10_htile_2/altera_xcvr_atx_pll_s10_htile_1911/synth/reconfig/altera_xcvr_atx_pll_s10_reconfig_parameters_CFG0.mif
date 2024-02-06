@@ -1,0 +1,13 @@
+DEPTH = 6;
+WIDTH = 27;
+ADDRESS_RADIX = HEX;
+DATA_RADIX = HEX;
+CONTENT
+BEGIN
+000 : 001021F0C; -- [26:16]-DPRIO address=0x102; [15:8]-bit mask=0x1F; [4:3]-atx_pll_lc_sel_tank=lctank1(2'h1); [2:0]-atx_pll_lc_tank_band=lc_band4(3'h4);
+001 : 001054000; -- [26:16]-DPRIO address=0x105; [15:8]-bit mask=0x40; [6:6]-atx_pll_lcnt_off=lcnt_on(1'h0);
+002 : 001080701; -- [26:16]-DPRIO address=0x108; [15:8]-bit mask=0x07; [2:0]-atx_pll_lcnt_divide=2(3'h1);
+003 : 00109FF08; -- [26:16]-DPRIO address=0x109; [15:8]-bit mask=0xFF; [7:0]-atx_pll_mcnt_divide=8(8'h8);
+004 : 0011B2020; -- [26:16]-DPRIO address=0x11B; [15:8]-bit mask=0x20; [5:5]-atx_pll_lcpll_gt_out_mid_enb=lcpll_gt_out_mid_dis(1'h1);
+005 : 007FFFFFF; -- End of data
+END;

@@ -1,0 +1,37 @@
+DEPTH = 30;
+WIDTH = 27;
+ADDRESS_RADIX = HEX;
+DATA_RADIX = HEX;
+CONTENT
+BEGIN
+000 : 001060800; -- [26:16]-DPRIO address=0x106; [15:8]-bit mask=0x08; [3:3]-pma_tx_buf_dcc_finestep_enin=disable(1'h0);
+001 : 001082020; -- [26:16]-DPRIO address=0x108; [15:8]-bit mask=0x20; [5:5]-pma_tx_buf_term_sel=r_r1(1'h1);
+002 : 0011AFF44; -- [26:16]-DPRIO address=0x11A; [15:8]-bit mask=0xFF; [7:4]-pma_rx_buf_ctle_ac_gain=4(4'h4); [3:0]-pma_rx_buf_vga_dc_gain=4(4'h4);
+003 : 0011EA020; -- [26:16]-DPRIO address=0x11E; [15:8]-bit mask=0xA0; [7:7]-pma_rx_buf_ctle_eq_gain=0(1'h0); [5:5]-pma_rx_buf_vga_halfbw_en=vga_half_bw_enabled(1'h1);
+004 : 0011F7110; -- [26:16]-DPRIO address=0x11F; [15:8]-bit mask=0x71; [6:6]-pma_rx_buf_rx_lfeq_enable=rx_lfeq_disable(1'h0); [5:4]-pma_rx_buf_eq_bw_sel=eq_bw_1(2'h1); [0:0]-pma_rx_buf_vga_dc_gain=4(1'h0);
+005 : 001213030; -- [26:16]-DPRIO address=0x121; [15:8]-bit mask=0x30; [5:4]-pma_rx_buf_const_gm_en=cgm_en_3(2'h3);
+006 : 0012D2000; -- [26:16]-DPRIO address=0x12D; [15:8]-bit mask=0x20; [5:5]-pma_rx_dfe_latch_xcouple_disable=latch_xcouple_enable(1'h0);
+007 : 0012EF050; -- [26:16]-DPRIO address=0x12E; [15:8]-bit mask=0xF0; [7:6]-pma_rx_buf_eq_sel=eq_sel_1(2'h1); [5:4]-pma_rx_buf_ctle_tia_isel=ib_tia_bw1(2'h1);
+008 : 00130C040; -- [26:16]-DPRIO address=0x130; [15:8]-bit mask=0xC0; [7:6]-pma_rx_dfe_tapsum_bw_sel=tapsum_medbw(2'h1);
+009 : 001320F05; -- [26:16]-DPRIO address=0x132; [15:8]-bit mask=0x0F; [3:0]-cdr_pll_set_cdr_vco_speed_fix=92(4'h5);
+00A : 001350302; -- [26:16]-DPRIO address=0x135; [15:8]-bit mask=0x03; [1:0]-cdr_pll_lf_resistor_pfd=lf_pfd_setting2(2'h2);
+00B : 001360F0C; -- [26:16]-DPRIO address=0x136; [15:8]-bit mask=0x0F; [3:0]-cdr_pll_set_cdr_vco_speed_fix=92(4'hC);
+00C : 001373C08; -- [26:16]-DPRIO address=0x137; [15:8]-bit mask=0x3C; [5:2]-cdr_pll_set_cdr_vco_speed=2(4'h2);
+00D : 001390702; -- [26:16]-DPRIO address=0x139; [15:8]-bit mask=0x07; [2:0]-cdr_pll_chgpmp_current_pfd=cp_current_pfd_setting2(3'h2);
+00E : 0013A3818; -- [26:16]-DPRIO address=0x13A; [15:8]-bit mask=0x38; [5:3]-cdr_pll_pd_l_counter=2(3'h3);
+00F : 0013BFF10; -- [26:16]-DPRIO address=0x13B; [15:8]-bit mask=0xFF; [7:0]-cdr_pll_mcnt_div=16(8'h10);
+010 : 001448080; -- [26:16]-DPRIO address=0x144; [15:8]-bit mask=0x80; [7:7]-pma_rx_odi_monitor_bw_sel=bw_4(1'h1);
+011 : 001458080; -- [26:16]-DPRIO address=0x145; [15:8]-bit mask=0x80; [7:7]-pma_rx_odi_monitor_bw_sel=bw_4(1'h1);
+012 : 001518080; -- [26:16]-DPRIO address=0x151; [15:8]-bit mask=0x80; [7:7]-pma_rx_buf_eq_cdgen_sel=eq_cdgen_2(1'h1);
+013 : 00154C000; -- [26:16]-DPRIO address=0x154; [15:8]-bit mask=0xC0; [7:6]-pma_rx_odi_vreg_voltage_sel=vreg0(2'h0);
+014 : 001600F0B; -- [26:16]-DPRIO address=0x160; [15:8]-bit mask=0x0F; [3:2]-pma_adapt_adp_dc_ctle_initial_value=radp_dc_ctle_initial_value_16(2'h2); [1:0]-pma_adapt_adp_ac_ctle_initial_value=radp_ac_ctle_initial_value_8(2'h3);
+015 : 001623000; -- [26:16]-DPRIO address=0x162; [15:8]-bit mask=0x30; [5:4]-pma_adapt_adp_dfe_tap1_initial_value=radp_dfe_tap1_initial_value_0(2'h0);
+016 : 001651E0E; -- [26:16]-DPRIO address=0x165; [15:8]-bit mask=0x1E; [4:1]-pma_adapt_adp_dc_ctle_mode2_h2_limit=7(4'h7);
+017 : 001670301; -- [26:16]-DPRIO address=0x167; [15:8]-bit mask=0x03; [1:0]-pma_adapt_adp_vga_initial_value=radp_vga_initial_value_4(2'h1);
+018 : 0022E0404; -- [26:16]-DPRIO address=0x22E; [15:8]-bit mask=0x04; [2:2]-hssi_aibcr_tx_aib_dllstr_align_dy_ctlsel=aib_dllstr_align_dy_ctlsel_setting1(1'h1);
+019 : 002301800; -- [26:16]-DPRIO address=0x230; [15:8]-bit mask=0x18; [4:4]-hssi_aibcr_rx_aib_rx_dcc_en=aib_rx_dcc_disable(1'h0); [3:3]-hssi_aibcr_rx_aib_rx_dcc_byp=aib_rx_dcc_byp_enable(1'h0);
+01A : 0032C0404; -- [26:16]-DPRIO address=0x32C; [15:8]-bit mask=0x04; [2:2]-hssi_aibnd_rx_aib_dllstr_align_dy_ctlsel=aib_dllstr_align_dy_ctlsel_setting1(1'h1);
+01B : 0032E1800; -- [26:16]-DPRIO address=0x32E; [15:8]-bit mask=0x18; [4:4]-hssi_aibnd_tx_aib_tx_dcc_en=aib_tx_dcc_disable(1'h0); [3:3]-hssi_aibnd_tx_aib_tx_dcc_byp=aib_tx_dcc_byp_enable(1'h0);
+01C : 007FFFFFF; -- End of data
+01D : 007FFFFFF; -- Dummy data
+END;

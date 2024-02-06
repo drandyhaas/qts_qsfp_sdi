@@ -1170,7 +1170,7 @@
           </parameter>
           <parameter>
             <name>rcfg_emb_strm_enable</name>
-            <value>0</value>
+            <value>1</value>
           </parameter>
           <parameter>
             <name>rcfg_enable</name>
@@ -1198,7 +1198,7 @@
           </parameter>
           <parameter>
             <name>rcfg_mif_file_enable</name>
-            <value>0</value>
+            <value>1</value>
           </parameter>
           <parameter>
             <name>rcfg_multi_enable</name>
@@ -1286,7 +1286,7 @@
           </parameter>
           <parameter>
             <name>rcfg_reduced_files_enable</name>
-            <value>0</value>
+            <value>1</value>
           </parameter>
           <parameter>
             <name>rcfg_sdc_derived_param_vals0</name>
@@ -1442,7 +1442,7 @@
           </parameter>
           <parameter>
             <name>set_rcfg_emb_strm_enable</name>
-            <value>0</value>
+            <value>1</value>
           </parameter>
           <parameter>
             <name>set_ref_clk_div</name>
@@ -1477,7 +1477,7 @@
         <className>altera_xcvr_atx_pll_s10_htile</className>
         <version>19.1.1</version>
         <name>q_sys_xcvr_atx_pll_s10_htile_1</name>
-        <uniqueName>q_sys_xcvr_atx_pll_s10_htile_1_altera_xcvr_atx_pll_s10_htile_1911_pzhfdgq</uniqueName>
+        <uniqueName>q_sys_xcvr_atx_pll_s10_htile_1_altera_xcvr_atx_pll_s10_htile_1911_uta4vvi</uniqueName>
         <nonce>0</nonce>
         <incidentConnections></incidentConnections>
         <path>q_sys_xcvr_atx_pll_s10_htile_1.q_sys_xcvr_atx_pll_s10_htile_1</path>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <deploy
- date="2024.02.05.21:26:06"
+ date="2024.02.06.16:29:09"
  outputDirectory="C:/Users/Haas1S/Downloads/git/qts_qsfp_sdi/ip/q_sys/q_sys_xcvr_atx_pll_s10_htile_2/">
  <perimeter>
   <parameter
@@ -213,7 +213,7 @@
   </childSourceFiles>
   <messages>
    <message level="Info" culprit="q_sys_xcvr_atx_pll_s10_htile_2">"Generating: q_sys_xcvr_atx_pll_s10_htile_2"</message>
-   <message level="Info" culprit="q_sys_xcvr_atx_pll_s10_htile_2">"Generating: q_sys_xcvr_atx_pll_s10_htile_2_altera_xcvr_atx_pll_s10_htile_1911_pzhfdgq"</message>
+   <message level="Info" culprit="q_sys_xcvr_atx_pll_s10_htile_2">"Generating: q_sys_xcvr_atx_pll_s10_htile_2_altera_xcvr_atx_pll_s10_htile_1911_uta4vvi"</message>
    <message level="Info" culprit="q_sys_xcvr_atx_pll_s10_htile_2">add_fileset_file ./altera_std_synchronizer_nocut.v VERILOG PATH ../../../../primitives/altera_std_synchronizer/altera_std_synchronizer_nocut.v</message>
    <message level="Info" culprit="q_sys_xcvr_atx_pll_s10_htile_2">add_fileset_file ./alt_xcvr_resync.sv SYSTEM_VERILOG PATH ../../../../altera_xcvr_generic/ctrl/alt_xcvr_resync.sv</message>
    <message level="Info" culprit="q_sys_xcvr_atx_pll_s10_htile_2">add_fileset_file ./alt_xcvr_arbiter.sv SYSTEM_VERILOG PATH ../../../../altera_xcvr_generic/ctrl/alt_xcvr_arbiter.sv</message>
@@ -231,12 +231,18 @@
    <message level="Info" culprit="q_sys_xcvr_atx_pll_s10_htile_2">Validating reconfiguration profile 1</message>
    <message level="Info" culprit="q_sys_xcvr_atx_pll_s10_htile_2">Current IP configuration matches reconfiguration profile 1</message>
    <message level="Info" culprit="q_sys_xcvr_atx_pll_s10_htile_2">For the selected device(1SG280HU2F50E2VG), PLL speed grade is 2.</message>
+   <message level="Info" culprit="q_sys_xcvr_atx_pll_s10_htile_2">Generating configuration files for reconfiguration profile 0</message>
+   <message level="Info" culprit="q_sys_xcvr_atx_pll_s10_htile_2">Generating MIF configuration file</message>
+   <message level="Info" culprit="q_sys_xcvr_atx_pll_s10_htile_2">Generating configuration files for reconfiguration profile 1</message>
+   <message level="Info" culprit="q_sys_xcvr_atx_pll_s10_htile_2">Generating MIF configuration file</message>
+   <message level="Info" culprit="q_sys_xcvr_atx_pll_s10_htile_2">Generating SystemVerilog package file with embedded reconfiguration parameters</message>
+   <message level="Info" culprit="q_sys_xcvr_atx_pll_s10_htile_2">Generating embedded reconfiguration modules</message>
   </messages>
  </entity>
  <entity
    kind="altera_xcvr_atx_pll_s10_htile"
    version="19.1.1"
-   name="q_sys_xcvr_atx_pll_s10_htile_2_altera_xcvr_atx_pll_s10_htile_1911_pzhfdgq">
+   name="q_sys_xcvr_atx_pll_s10_htile_2_altera_xcvr_atx_pll_s10_htile_1911_uta4vvi">
   <parameter name="device_die_types" value="HSSI_CRETE2E,MAIN_ND5" />
   <parameter name="enable_atx_to_fpll_cascade_out" value="0" />
   <parameter name="hssi_pma_cgb_master_input_select" value="lcpll_top" />
@@ -416,7 +422,7 @@
   <parameter
      name="hssi_pma_cgb_master_tx_ucontrol_reset_pcie"
      value="pcscorehip_controls_mcgb" />
-  <parameter name="rcfg_reduced_files_enable" value="0" />
+  <parameter name="rcfg_reduced_files_enable" value="1" />
   <parameter name="enable_pld_atx_cal_busy_port" value="1" />
   <parameter name="rcfg_separate_avmm_busy" value="0" />
   <parameter
@@ -523,7 +529,7 @@
   <parameter name="hssi_avmm2_if_hssiadapt_hip_mode" value="disable_hip" />
   <parameter name="reference_clock_frequency_fnl" value="644.531250" />
   <parameter name="enable_debug_options" value="0" />
-  <parameter name="rcfg_emb_strm_enable" value="0" />
+  <parameter name="rcfg_emb_strm_enable" value="1" />
   <parameter
      name="hssi_avmm2_if_pcs_calibration_feature_en"
      value="avmm2_pcs_calibration_en" />
@@ -555,7 +561,7 @@
   <parameter name="atx_pll_lc_vreg_boost_expected_voltage" value="0" />
   <parameter name="enable_28G_output_frm_blw_atx" value="0" />
   <parameter name="hssi_pma_cgb_master_prot_mode" value="basic_tx" />
-  <parameter name="set_rcfg_emb_strm_enable" value="0" />
+  <parameter name="set_rcfg_emb_strm_enable" value="1" />
   <parameter name="atx_pll_cascadeclk_test" value="cascadetest_off" />
   <parameter name="atx_pll_lc_reg_calibration" value="lc_uccal_reg_off" />
   <parameter
@@ -627,7 +633,7 @@
   <parameter
      name="hssi_refclk_divider_core_clk_lvpecl"
      value="core_clk_lvpecl_off" />
-  <parameter name="rcfg_mif_file_enable" value="0" />
+  <parameter name="rcfg_mif_file_enable" value="1" />
   <parameter name="enable_manual_configuration" value="1" />
   <parameter name="l_counter" value="1" />
   <parameter name="enable_8G_buffer_fnl" value="false" />
@@ -717,10 +723,31 @@
        path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\q_sys\q_sys_xcvr_atx_pll_s10_htile_2\altera_xcvr_atx_pll_s10_htile_1911\synth\plain_files.txt"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\q_sys\q_sys_xcvr_atx_pll_s10_htile_2\altera_xcvr_atx_pll_s10_htile_1911\synth\q_sys_xcvr_atx_pll_s10_htile_2_altera_xcvr_atx_pll_s10_htile_1911_pzhfdgq.sv"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\q_sys\q_sys_xcvr_atx_pll_s10_htile_2\altera_xcvr_atx_pll_s10_htile_1911\synth\reconfig\altera_xcvr_atx_pll_s10_reconfig_parameters_CFG0.mif"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\q_sys\q_sys_xcvr_atx_pll_s10_htile_2\altera_xcvr_atx_pll_s10_htile_1911\synth\alt_xcvr_pll_rcfg_opt_logic_pzhfdgq.sv"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\q_sys\q_sys_xcvr_atx_pll_s10_htile_2\altera_xcvr_atx_pll_s10_htile_1911\synth\reconfig\altera_xcvr_atx_pll_s10_reconfig_parameters_CFG1.mif"
+       attributes="" />
+   <file
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\q_sys\q_sys_xcvr_atx_pll_s10_htile_2\altera_xcvr_atx_pll_s10_htile_1911\synth\alt_xcvr_native_rcfg_strm_params_uta4vvi.sv"
+       attributes="" />
+   <file
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\q_sys\q_sys_xcvr_atx_pll_s10_htile_2\altera_xcvr_atx_pll_s10_htile_1911\synth\alt_xcvr_native_rcfg_strm_functions.sv"
+       attributes="" />
+   <file
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\q_sys\q_sys_xcvr_atx_pll_s10_htile_2\altera_xcvr_atx_pll_s10_htile_1911\synth\q_sys_xcvr_atx_pll_s10_htile_2_altera_xcvr_atx_pll_s10_htile_1911_uta4vvi.sv"
+       attributes="" />
+   <file
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\q_sys\q_sys_xcvr_atx_pll_s10_htile_2\altera_xcvr_atx_pll_s10_htile_1911\synth\alt_xcvr_native_rcfg_strm_rom_uta4vvi.sv"
+       attributes="" />
+   <file
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\q_sys\q_sys_xcvr_atx_pll_s10_htile_2\altera_xcvr_atx_pll_s10_htile_1911\synth\alt_xcvr_native_rcfg_strm_top_uta4vvi.sv"
+       attributes="" />
+   <file
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\q_sys\q_sys_xcvr_atx_pll_s10_htile_2\altera_xcvr_atx_pll_s10_htile_1911\synth\alt_xcvr_native_rcfg_strm_ctrl_uta4vvi.sv"
+       attributes="" />
+   <file
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\q_sys\q_sys_xcvr_atx_pll_s10_htile_2\altera_xcvr_atx_pll_s10_htile_1911\synth\alt_xcvr_pll_rcfg_opt_logic_uta4vvi.sv"
        attributes="" />
   </generatedFiles>
   <childGeneratedFiles>
@@ -755,10 +782,31 @@
        path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\q_sys\q_sys_xcvr_atx_pll_s10_htile_2\altera_xcvr_atx_pll_s10_htile_1911\synth\plain_files.txt"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\q_sys\q_sys_xcvr_atx_pll_s10_htile_2\altera_xcvr_atx_pll_s10_htile_1911\synth\q_sys_xcvr_atx_pll_s10_htile_2_altera_xcvr_atx_pll_s10_htile_1911_pzhfdgq.sv"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\q_sys\q_sys_xcvr_atx_pll_s10_htile_2\altera_xcvr_atx_pll_s10_htile_1911\synth\reconfig\altera_xcvr_atx_pll_s10_reconfig_parameters_CFG0.mif"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\q_sys\q_sys_xcvr_atx_pll_s10_htile_2\altera_xcvr_atx_pll_s10_htile_1911\synth\alt_xcvr_pll_rcfg_opt_logic_pzhfdgq.sv"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\q_sys\q_sys_xcvr_atx_pll_s10_htile_2\altera_xcvr_atx_pll_s10_htile_1911\synth\reconfig\altera_xcvr_atx_pll_s10_reconfig_parameters_CFG1.mif"
+       attributes="" />
+   <file
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\q_sys\q_sys_xcvr_atx_pll_s10_htile_2\altera_xcvr_atx_pll_s10_htile_1911\synth\alt_xcvr_native_rcfg_strm_params_uta4vvi.sv"
+       attributes="" />
+   <file
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\q_sys\q_sys_xcvr_atx_pll_s10_htile_2\altera_xcvr_atx_pll_s10_htile_1911\synth\alt_xcvr_native_rcfg_strm_functions.sv"
+       attributes="" />
+   <file
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\q_sys\q_sys_xcvr_atx_pll_s10_htile_2\altera_xcvr_atx_pll_s10_htile_1911\synth\q_sys_xcvr_atx_pll_s10_htile_2_altera_xcvr_atx_pll_s10_htile_1911_uta4vvi.sv"
+       attributes="" />
+   <file
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\q_sys\q_sys_xcvr_atx_pll_s10_htile_2\altera_xcvr_atx_pll_s10_htile_1911\synth\alt_xcvr_native_rcfg_strm_rom_uta4vvi.sv"
+       attributes="" />
+   <file
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\q_sys\q_sys_xcvr_atx_pll_s10_htile_2\altera_xcvr_atx_pll_s10_htile_1911\synth\alt_xcvr_native_rcfg_strm_top_uta4vvi.sv"
+       attributes="" />
+   <file
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\q_sys\q_sys_xcvr_atx_pll_s10_htile_2\altera_xcvr_atx_pll_s10_htile_1911\synth\alt_xcvr_native_rcfg_strm_ctrl_uta4vvi.sv"
+       attributes="" />
+   <file
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\q_sys\q_sys_xcvr_atx_pll_s10_htile_2\altera_xcvr_atx_pll_s10_htile_1911\synth\alt_xcvr_pll_rcfg_opt_logic_uta4vvi.sv"
        attributes="" />
   </childGeneratedFiles>
   <sourceFiles>
@@ -770,7 +818,7 @@
      instantiator="q_sys_xcvr_atx_pll_s10_htile_2"
      as="q_sys_xcvr_atx_pll_s10_htile_2" />
   <messages>
-   <message level="Info" culprit="q_sys_xcvr_atx_pll_s10_htile_2">"Generating: q_sys_xcvr_atx_pll_s10_htile_2_altera_xcvr_atx_pll_s10_htile_1911_pzhfdgq"</message>
+   <message level="Info" culprit="q_sys_xcvr_atx_pll_s10_htile_2">"Generating: q_sys_xcvr_atx_pll_s10_htile_2_altera_xcvr_atx_pll_s10_htile_1911_uta4vvi"</message>
    <message level="Info" culprit="q_sys_xcvr_atx_pll_s10_htile_2">add_fileset_file ./altera_std_synchronizer_nocut.v VERILOG PATH ../../../../primitives/altera_std_synchronizer/altera_std_synchronizer_nocut.v</message>
    <message level="Info" culprit="q_sys_xcvr_atx_pll_s10_htile_2">add_fileset_file ./alt_xcvr_resync.sv SYSTEM_VERILOG PATH ../../../../altera_xcvr_generic/ctrl/alt_xcvr_resync.sv</message>
    <message level="Info" culprit="q_sys_xcvr_atx_pll_s10_htile_2">add_fileset_file ./alt_xcvr_arbiter.sv SYSTEM_VERILOG PATH ../../../../altera_xcvr_generic/ctrl/alt_xcvr_arbiter.sv</message>
@@ -788,6 +836,12 @@
    <message level="Info" culprit="q_sys_xcvr_atx_pll_s10_htile_2">Validating reconfiguration profile 1</message>
    <message level="Info" culprit="q_sys_xcvr_atx_pll_s10_htile_2">Current IP configuration matches reconfiguration profile 1</message>
    <message level="Info" culprit="q_sys_xcvr_atx_pll_s10_htile_2">For the selected device(1SG280HU2F50E2VG), PLL speed grade is 2.</message>
+   <message level="Info" culprit="q_sys_xcvr_atx_pll_s10_htile_2">Generating configuration files for reconfiguration profile 0</message>
+   <message level="Info" culprit="q_sys_xcvr_atx_pll_s10_htile_2">Generating MIF configuration file</message>
+   <message level="Info" culprit="q_sys_xcvr_atx_pll_s10_htile_2">Generating configuration files for reconfiguration profile 1</message>
+   <message level="Info" culprit="q_sys_xcvr_atx_pll_s10_htile_2">Generating MIF configuration file</message>
+   <message level="Info" culprit="q_sys_xcvr_atx_pll_s10_htile_2">Generating SystemVerilog package file with embedded reconfiguration parameters</message>
+   <message level="Info" culprit="q_sys_xcvr_atx_pll_s10_htile_2">Generating embedded reconfiguration modules</message>
   </messages>
  </entity>
 </deploy>

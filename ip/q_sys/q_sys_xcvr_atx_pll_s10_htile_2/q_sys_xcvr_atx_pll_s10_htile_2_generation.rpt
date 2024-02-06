@@ -13,7 +13,7 @@ Info: q_sys_xcvr_atx_pll_s10_htile_2: "Transforming system: q_sys_xcvr_atx_pll_s
 Info: q_sys_xcvr_atx_pll_s10_htile_2: "Naming system components in system: q_sys_xcvr_atx_pll_s10_htile_2"
 Info: q_sys_xcvr_atx_pll_s10_htile_2: "Processing generation queue"
 Info: q_sys_xcvr_atx_pll_s10_htile_2: "Generating: q_sys_xcvr_atx_pll_s10_htile_2"
-Info: q_sys_xcvr_atx_pll_s10_htile_2: "Generating: q_sys_xcvr_atx_pll_s10_htile_2_altera_xcvr_atx_pll_s10_htile_1911_pzhfdgq"
+Info: q_sys_xcvr_atx_pll_s10_htile_2: "Generating: q_sys_xcvr_atx_pll_s10_htile_2_altera_xcvr_atx_pll_s10_htile_1911_uta4vvi"
 Info: q_sys_xcvr_atx_pll_s10_htile_2: add_fileset_file ./altera_std_synchronizer_nocut.v VERILOG PATH ../../../../primitives/altera_std_synchronizer/altera_std_synchronizer_nocut.v
 Info: q_sys_xcvr_atx_pll_s10_htile_2: add_fileset_file ./alt_xcvr_resync.sv SYSTEM_VERILOG PATH ../../../../altera_xcvr_generic/ctrl/alt_xcvr_resync.sv
 Info: q_sys_xcvr_atx_pll_s10_htile_2: add_fileset_file ./alt_xcvr_arbiter.sv SYSTEM_VERILOG PATH ../../../../altera_xcvr_generic/ctrl/alt_xcvr_arbiter.sv
@@ -31,5 +31,11 @@ Info: q_sys_xcvr_atx_pll_s10_htile_2: Building configuration data for reconfigur
 Info: q_sys_xcvr_atx_pll_s10_htile_2: Validating reconfiguration profile 1
 Info: q_sys_xcvr_atx_pll_s10_htile_2: Current IP configuration matches reconfiguration profile 1
 Info: q_sys_xcvr_atx_pll_s10_htile_2: For the selected device(1SG280HU2F50E2VG), PLL speed grade is 2.
-Info: q_sys_xcvr_atx_pll_s10_htile_2: Done "q_sys_xcvr_atx_pll_s10_htile_2" with 2 modules, 13 files
+Info: q_sys_xcvr_atx_pll_s10_htile_2: Generating configuration files for reconfiguration profile 0
+Info: q_sys_xcvr_atx_pll_s10_htile_2: Generating MIF configuration file
+Info: q_sys_xcvr_atx_pll_s10_htile_2: Generating configuration files for reconfiguration profile 1
+Info: q_sys_xcvr_atx_pll_s10_htile_2: Generating MIF configuration file
+Info: q_sys_xcvr_atx_pll_s10_htile_2: Generating SystemVerilog package file with embedded reconfiguration parameters
+Info: q_sys_xcvr_atx_pll_s10_htile_2: Generating embedded reconfiguration modules
+Info: q_sys_xcvr_atx_pll_s10_htile_2: Done "q_sys_xcvr_atx_pll_s10_htile_2" with 2 modules, 20 files
 Info: Finished: Create HDL design files for synthesis

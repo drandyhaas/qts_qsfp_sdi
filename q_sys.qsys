@@ -406,18 +406,6 @@ https://fpgasoftware.intel.com/eula.-->
                 &lt;consumedSystemInfos/&gt;
             &lt;/value&gt;
         &lt;/entry&gt;
-        &lt;entry&gt;
-            &lt;key&gt;sdi_xcvr_atx_pll_refclk_in_clk&lt;/key&gt;
-            &lt;value&gt;
-                &lt;connectionPointName&gt;sdi_xcvr_atx_pll_refclk_in_clk&lt;/connectionPointName&gt;
-                &lt;suppliedSystemInfos&gt;
-                    &lt;entry&gt;
-                        &lt;key&gt;CLOCK_RATE&lt;/key&gt;
-                    &lt;/entry&gt;
-                &lt;/suppliedSystemInfos&gt;
-                &lt;consumedSystemInfos/&gt;
-            &lt;/value&gt;
-        &lt;/entry&gt;
     &lt;/connPtSystemInfos&gt;
 &lt;/systemInfosDefinition&gt;</ipxact:value>
         </ipxact:parameter>

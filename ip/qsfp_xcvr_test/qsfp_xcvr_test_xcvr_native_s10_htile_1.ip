@@ -1859,6 +1859,7 @@ https://fpgasoftware.intel.com/eula.-->
         <ipxact:fileSetRef>
           <ipxact:localName>QUARTUS_SYNTH</ipxact:localName>
         </ipxact:fileSetRef>
+        <ipxact:parameters></ipxact:parameters>
       </ipxact:componentInstantiation>
     </ipxact:instantiations>
     <ipxact:ports>
@@ -1866,6 +1867,7 @@ https://fpgasoftware.intel.com/eula.-->
         <ipxact:name>tx_analogreset</ipxact:name>
         <ipxact:wire>
           <ipxact:direction>in</ipxact:direction>
+          <ipxact:vectors></ipxact:vectors>
           <ipxact:wireTypeDefs>
             <ipxact:wireTypeDef>
               <ipxact:typeName>STD_LOGIC_VECTOR</ipxact:typeName>
@@ -1878,6 +1880,7 @@ https://fpgasoftware.intel.com/eula.-->
         <ipxact:name>rx_analogreset</ipxact:name>
         <ipxact:wire>
           <ipxact:direction>in</ipxact:direction>
+          <ipxact:vectors></ipxact:vectors>
           <ipxact:wireTypeDefs>
             <ipxact:wireTypeDef>
               <ipxact:typeName>STD_LOGIC_VECTOR</ipxact:typeName>
@@ -1890,6 +1893,7 @@ https://fpgasoftware.intel.com/eula.-->
         <ipxact:name>tx_digitalreset</ipxact:name>
         <ipxact:wire>
           <ipxact:direction>in</ipxact:direction>
+          <ipxact:vectors></ipxact:vectors>
           <ipxact:wireTypeDefs>
             <ipxact:wireTypeDef>
               <ipxact:typeName>STD_LOGIC_VECTOR</ipxact:typeName>
@@ -1902,6 +1906,7 @@ https://fpgasoftware.intel.com/eula.-->
         <ipxact:name>rx_digitalreset</ipxact:name>
         <ipxact:wire>
           <ipxact:direction>in</ipxact:direction>
+          <ipxact:vectors></ipxact:vectors>
           <ipxact:wireTypeDefs>
             <ipxact:wireTypeDef>
               <ipxact:typeName>STD_LOGIC_VECTOR</ipxact:typeName>
@@ -1914,6 +1919,7 @@ https://fpgasoftware.intel.com/eula.-->
         <ipxact:name>tx_analogreset_stat</ipxact:name>
         <ipxact:wire>
           <ipxact:direction>out</ipxact:direction>
+          <ipxact:vectors></ipxact:vectors>
           <ipxact:wireTypeDefs>
             <ipxact:wireTypeDef>
               <ipxact:typeName>STD_LOGIC_VECTOR</ipxact:typeName>
@@ -1926,6 +1932,7 @@ https://fpgasoftware.intel.com/eula.-->
         <ipxact:name>rx_analogreset_stat</ipxact:name>
         <ipxact:wire>
           <ipxact:direction>out</ipxact:direction>
+          <ipxact:vectors></ipxact:vectors>
           <ipxact:wireTypeDefs>
             <ipxact:wireTypeDef>
               <ipxact:typeName>STD_LOGIC_VECTOR</ipxact:typeName>
@@ -1938,6 +1945,7 @@ https://fpgasoftware.intel.com/eula.-->
         <ipxact:name>tx_digitalreset_stat</ipxact:name>
         <ipxact:wire>
           <ipxact:direction>out</ipxact:direction>
+          <ipxact:vectors></ipxact:vectors>
           <ipxact:wireTypeDefs>
             <ipxact:wireTypeDef>
               <ipxact:typeName>STD_LOGIC_VECTOR</ipxact:typeName>
@@ -1950,6 +1958,7 @@ https://fpgasoftware.intel.com/eula.-->
         <ipxact:name>rx_digitalreset_stat</ipxact:name>
         <ipxact:wire>
           <ipxact:direction>out</ipxact:direction>
+          <ipxact:vectors></ipxact:vectors>
           <ipxact:wireTypeDefs>
             <ipxact:wireTypeDef>
               <ipxact:typeName>STD_LOGIC_VECTOR</ipxact:typeName>
@@ -1962,6 +1971,7 @@ https://fpgasoftware.intel.com/eula.-->
         <ipxact:name>tx_cal_busy</ipxact:name>
         <ipxact:wire>
           <ipxact:direction>out</ipxact:direction>
+          <ipxact:vectors></ipxact:vectors>
           <ipxact:wireTypeDefs>
             <ipxact:wireTypeDef>
               <ipxact:typeName>STD_LOGIC_VECTOR</ipxact:typeName>
@@ -1974,6 +1984,7 @@ https://fpgasoftware.intel.com/eula.-->
         <ipxact:name>rx_cal_busy</ipxact:name>
         <ipxact:wire>
           <ipxact:direction>out</ipxact:direction>
+          <ipxact:vectors></ipxact:vectors>
           <ipxact:wireTypeDefs>
             <ipxact:wireTypeDef>
               <ipxact:typeName>STD_LOGIC_VECTOR</ipxact:typeName>
@@ -1986,6 +1997,7 @@ https://fpgasoftware.intel.com/eula.-->
         <ipxact:name>tx_serial_clk0</ipxact:name>
         <ipxact:wire>
           <ipxact:direction>in</ipxact:direction>
+          <ipxact:vectors></ipxact:vectors>
           <ipxact:wireTypeDefs>
             <ipxact:wireTypeDef>
               <ipxact:typeName>STD_LOGIC_VECTOR</ipxact:typeName>
@@ -1998,6 +2010,7 @@ https://fpgasoftware.intel.com/eula.-->
         <ipxact:name>tx_serial_clk1</ipxact:name>
         <ipxact:wire>
           <ipxact:direction>in</ipxact:direction>
+          <ipxact:vectors></ipxact:vectors>
           <ipxact:wireTypeDefs>
             <ipxact:wireTypeDef>
               <ipxact:typeName>STD_LOGIC_VECTOR</ipxact:typeName>
@@ -2010,6 +2023,7 @@ https://fpgasoftware.intel.com/eula.-->
         <ipxact:name>rx_cdr_refclk0</ipxact:name>
         <ipxact:wire>
           <ipxact:direction>in</ipxact:direction>
+          <ipxact:vectors></ipxact:vectors>
           <ipxact:wireTypeDefs>
             <ipxact:wireTypeDef>
               <ipxact:typeName>STD_LOGIC</ipxact:typeName>
@@ -2022,6 +2036,7 @@ https://fpgasoftware.intel.com/eula.-->
         <ipxact:name>tx_serial_data</ipxact:name>
         <ipxact:wire>
           <ipxact:direction>out</ipxact:direction>
+          <ipxact:vectors></ipxact:vectors>
           <ipxact:wireTypeDefs>
             <ipxact:wireTypeDef>
               <ipxact:typeName>STD_LOGIC_VECTOR</ipxact:typeName>
@@ -2034,6 +2049,7 @@ https://fpgasoftware.intel.com/eula.-->
         <ipxact:name>rx_serial_data</ipxact:name>
         <ipxact:wire>
           <ipxact:direction>in</ipxact:direction>
+          <ipxact:vectors></ipxact:vectors>
           <ipxact:wireTypeDefs>
             <ipxact:wireTypeDef>
               <ipxact:typeName>STD_LOGIC_VECTOR</ipxact:typeName>
@@ -2046,6 +2062,7 @@ https://fpgasoftware.intel.com/eula.-->
         <ipxact:name>rx_seriallpbken</ipxact:name>
         <ipxact:wire>
           <ipxact:direction>in</ipxact:direction>
+          <ipxact:vectors></ipxact:vectors>
           <ipxact:wireTypeDefs>
             <ipxact:wireTypeDef>
               <ipxact:typeName>STD_LOGIC_VECTOR</ipxact:typeName>
@@ -2058,6 +2075,7 @@ https://fpgasoftware.intel.com/eula.-->
         <ipxact:name>rx_is_lockedtoref</ipxact:name>
         <ipxact:wire>
           <ipxact:direction>out</ipxact:direction>
+          <ipxact:vectors></ipxact:vectors>
           <ipxact:wireTypeDefs>
             <ipxact:wireTypeDef>
               <ipxact:typeName>STD_LOGIC_VECTOR</ipxact:typeName>
@@ -2070,6 +2088,7 @@ https://fpgasoftware.intel.com/eula.-->
         <ipxact:name>rx_is_lockedtodata</ipxact:name>
         <ipxact:wire>
           <ipxact:direction>out</ipxact:direction>
+          <ipxact:vectors></ipxact:vectors>
           <ipxact:wireTypeDefs>
             <ipxact:wireTypeDef>
               <ipxact:typeName>STD_LOGIC_VECTOR</ipxact:typeName>
@@ -2082,6 +2101,7 @@ https://fpgasoftware.intel.com/eula.-->
         <ipxact:name>tx_coreclkin</ipxact:name>
         <ipxact:wire>
           <ipxact:direction>in</ipxact:direction>
+          <ipxact:vectors></ipxact:vectors>
           <ipxact:wireTypeDefs>
             <ipxact:wireTypeDef>
               <ipxact:typeName>STD_LOGIC_VECTOR</ipxact:typeName>
@@ -2094,6 +2114,7 @@ https://fpgasoftware.intel.com/eula.-->
         <ipxact:name>rx_coreclkin</ipxact:name>
         <ipxact:wire>
           <ipxact:direction>in</ipxact:direction>
+          <ipxact:vectors></ipxact:vectors>
           <ipxact:wireTypeDefs>
             <ipxact:wireTypeDef>
               <ipxact:typeName>STD_LOGIC_VECTOR</ipxact:typeName>
@@ -2106,6 +2127,7 @@ https://fpgasoftware.intel.com/eula.-->
         <ipxact:name>tx_clkout</ipxact:name>
         <ipxact:wire>
           <ipxact:direction>out</ipxact:direction>
+          <ipxact:vectors></ipxact:vectors>
           <ipxact:wireTypeDefs>
             <ipxact:wireTypeDef>
               <ipxact:typeName>STD_LOGIC_VECTOR</ipxact:typeName>
@@ -2118,6 +2140,7 @@ https://fpgasoftware.intel.com/eula.-->
         <ipxact:name>tx_clkout2</ipxact:name>
         <ipxact:wire>
           <ipxact:direction>out</ipxact:direction>
+          <ipxact:vectors></ipxact:vectors>
           <ipxact:wireTypeDefs>
             <ipxact:wireTypeDef>
               <ipxact:typeName>STD_LOGIC_VECTOR</ipxact:typeName>
@@ -2130,6 +2153,7 @@ https://fpgasoftware.intel.com/eula.-->
         <ipxact:name>rx_clkout</ipxact:name>
         <ipxact:wire>
           <ipxact:direction>out</ipxact:direction>
+          <ipxact:vectors></ipxact:vectors>
           <ipxact:wireTypeDefs>
             <ipxact:wireTypeDef>
               <ipxact:typeName>STD_LOGIC_VECTOR</ipxact:typeName>
@@ -2142,6 +2166,7 @@ https://fpgasoftware.intel.com/eula.-->
         <ipxact:name>rx_clkout2</ipxact:name>
         <ipxact:wire>
           <ipxact:direction>out</ipxact:direction>
+          <ipxact:vectors></ipxact:vectors>
           <ipxact:wireTypeDefs>
             <ipxact:wireTypeDef>
               <ipxact:typeName>STD_LOGIC_VECTOR</ipxact:typeName>
@@ -2154,6 +2179,7 @@ https://fpgasoftware.intel.com/eula.-->
         <ipxact:name>rx_pma_iqtxrx_clkout</ipxact:name>
         <ipxact:wire>
           <ipxact:direction>out</ipxact:direction>
+          <ipxact:vectors></ipxact:vectors>
           <ipxact:wireTypeDefs>
             <ipxact:wireTypeDef>
               <ipxact:typeName>STD_LOGIC_VECTOR</ipxact:typeName>
@@ -2238,6 +2264,7 @@ https://fpgasoftware.intel.com/eula.-->
         <ipxact:name>reconfig_clk</ipxact:name>
         <ipxact:wire>
           <ipxact:direction>in</ipxact:direction>
+          <ipxact:vectors></ipxact:vectors>
           <ipxact:wireTypeDefs>
             <ipxact:wireTypeDef>
               <ipxact:typeName>STD_LOGIC_VECTOR</ipxact:typeName>
@@ -2250,6 +2277,7 @@ https://fpgasoftware.intel.com/eula.-->
         <ipxact:name>reconfig_reset</ipxact:name>
         <ipxact:wire>
           <ipxact:direction>in</ipxact:direction>
+          <ipxact:vectors></ipxact:vectors>
           <ipxact:wireTypeDefs>
             <ipxact:wireTypeDef>
               <ipxact:typeName>STD_LOGIC_VECTOR</ipxact:typeName>
@@ -2262,6 +2290,7 @@ https://fpgasoftware.intel.com/eula.-->
         <ipxact:name>reconfig_write</ipxact:name>
         <ipxact:wire>
           <ipxact:direction>in</ipxact:direction>
+          <ipxact:vectors></ipxact:vectors>
           <ipxact:wireTypeDefs>
             <ipxact:wireTypeDef>
               <ipxact:typeName>STD_LOGIC_VECTOR</ipxact:typeName>
@@ -2274,6 +2303,7 @@ https://fpgasoftware.intel.com/eula.-->
         <ipxact:name>reconfig_read</ipxact:name>
         <ipxact:wire>
           <ipxact:direction>in</ipxact:direction>
+          <ipxact:vectors></ipxact:vectors>
           <ipxact:wireTypeDefs>
             <ipxact:wireTypeDef>
               <ipxact:typeName>STD_LOGIC_VECTOR</ipxact:typeName>
@@ -2340,6 +2370,7 @@ https://fpgasoftware.intel.com/eula.-->
         <ipxact:name>reconfig_waitrequest</ipxact:name>
         <ipxact:wire>
           <ipxact:direction>out</ipxact:direction>
+          <ipxact:vectors></ipxact:vectors>
           <ipxact:wireTypeDefs>
             <ipxact:wireTypeDef>
               <ipxact:typeName>STD_LOGIC_VECTOR</ipxact:typeName>
@@ -2427,7 +2458,7 @@ https://fpgasoftware.intel.com/eula.-->
         <ipxact:parameter parameterId="rcfg_mif_file_enable" type="int">
           <ipxact:name>rcfg_mif_file_enable</ipxact:name>
           <ipxact:displayName>Generate MIF (Memory Initialize File)</ipxact:displayName>
-          <ipxact:value>0</ipxact:value>
+          <ipxact:value>1</ipxact:value>
         </ipxact:parameter>
         <ipxact:parameter parameterId="rcfg_multi_enable" type="int">
           <ipxact:name>rcfg_multi_enable</ipxact:name>
@@ -2437,12 +2468,12 @@ https://fpgasoftware.intel.com/eula.-->
         <ipxact:parameter parameterId="set_rcfg_emb_strm_enable" type="int">
           <ipxact:name>set_rcfg_emb_strm_enable</ipxact:name>
           <ipxact:displayName>Enable embedded reconfiguration streamer</ipxact:displayName>
-          <ipxact:value>0</ipxact:value>
+          <ipxact:value>1</ipxact:value>
         </ipxact:parameter>
         <ipxact:parameter parameterId="rcfg_reduced_files_enable" type="int">
           <ipxact:name>rcfg_reduced_files_enable</ipxact:name>
           <ipxact:displayName>Generate reduced reconfiguration files</ipxact:displayName>
-          <ipxact:value>0</ipxact:value>
+          <ipxact:value>1</ipxact:value>
         </ipxact:parameter>
         <ipxact:parameter parameterId="rcfg_profile_cnt" type="int">
           <ipxact:name>rcfg_profile_cnt</ipxact:name>
@@ -3933,6 +3964,14 @@ https://fpgasoftware.intel.com/eula.-->
           <ipxact:displayName>bonusData</ipxact:displayName>
           <ipxact:value>bonusData 
 {
+   element $system
+   {
+      datum _originalDeviceFamily
+      {
+         value = "Stratix 10";
+         type = "String";
+      }
+   }
    element qsfp_xcvr_test_xcvr_native_s10_htile_1
    {
       datum _sortIndex
@@ -4341,6 +4380,38 @@ https://fpgasoftware.intel.com/eula.-->
             &lt;ports&gt;
                 &lt;port&gt;
                     &lt;name&gt;tx_serial_clk0&lt;/name&gt;
+                    &lt;role&gt;clk&lt;/role&gt;
+                    &lt;direction&gt;Input&lt;/direction&gt;
+                    &lt;width&gt;1&lt;/width&gt;
+                    &lt;lowerBound&gt;0&lt;/lowerBound&gt;
+                    &lt;vhdlType&gt;STD_LOGIC_VECTOR&lt;/vhdlType&gt;
+                    &lt;terminationValue&gt;0&lt;/terminationValue&gt;
+                &lt;/port&gt;
+            &lt;/ports&gt;
+            &lt;assignments&gt;
+                &lt;assignmentValueMap&gt;
+                    &lt;entry&gt;
+                        &lt;key&gt;ui.blockdiagram.direction&lt;/key&gt;
+                        &lt;value&gt;input&lt;/value&gt;
+                    &lt;/entry&gt;
+                &lt;/assignmentValueMap&gt;
+            &lt;/assignments&gt;
+            &lt;parameters&gt;
+                &lt;parameterValueMap&gt;
+                    &lt;entry&gt;
+                        &lt;key&gt;clockRate&lt;/key&gt;
+                        &lt;value&gt;0&lt;/value&gt;
+                    &lt;/entry&gt;
+                &lt;/parameterValueMap&gt;
+            &lt;/parameters&gt;
+        &lt;/interface&gt;
+        &lt;interface&gt;
+            &lt;name&gt;tx_serial_clk1&lt;/name&gt;
+            &lt;type&gt;hssi_serial_clock&lt;/type&gt;
+            &lt;isStart&gt;false&lt;/isStart&gt;
+            &lt;ports&gt;
+                &lt;port&gt;
+                    &lt;name&gt;tx_serial_clk1&lt;/name&gt;
                     &lt;role&gt;clk&lt;/role&gt;
                     &lt;direction&gt;Input&lt;/direction&gt;
                     &lt;width&gt;1&lt;/width&gt;
@@ -5413,38 +5484,6 @@ https://fpgasoftware.intel.com/eula.-->
                     &lt;entry&gt;
                         &lt;key&gt;dfhFeatureId&lt;/key&gt;
                         &lt;value&gt;35&lt;/value&gt;
-                    &lt;/entry&gt;
-                &lt;/parameterValueMap&gt;
-            &lt;/parameters&gt;
-        &lt;/interface&gt;
-        &lt;interface&gt;
-            &lt;name&gt;tx_serial_clk1&lt;/name&gt;
-            &lt;type&gt;hssi_serial_clock&lt;/type&gt;
-            &lt;isStart&gt;false&lt;/isStart&gt;
-            &lt;ports&gt;
-                &lt;port&gt;
-                    &lt;name&gt;tx_serial_clk1&lt;/name&gt;
-                    &lt;role&gt;clk&lt;/role&gt;
-                    &lt;direction&gt;Input&lt;/direction&gt;
-                    &lt;width&gt;1&lt;/width&gt;
-                    &lt;lowerBound&gt;0&lt;/lowerBound&gt;
-                    &lt;vhdlType&gt;STD_LOGIC_VECTOR&lt;/vhdlType&gt;
-                    &lt;terminationValue&gt;0&lt;/terminationValue&gt;
-                &lt;/port&gt;
-            &lt;/ports&gt;
-            &lt;assignments&gt;
-                &lt;assignmentValueMap&gt;
-                    &lt;entry&gt;
-                        &lt;key&gt;ui.blockdiagram.direction&lt;/key&gt;
-                        &lt;value&gt;input&lt;/value&gt;
-                    &lt;/entry&gt;
-                &lt;/assignmentValueMap&gt;
-            &lt;/assignments&gt;
-            &lt;parameters&gt;
-                &lt;parameterValueMap&gt;
-                    &lt;entry&gt;
-                        &lt;key&gt;clockRate&lt;/key&gt;
-                        &lt;value&gt;0&lt;/value&gt;
                     &lt;/entry&gt;
                 &lt;/parameterValueMap&gt;
             &lt;/parameters&gt;
