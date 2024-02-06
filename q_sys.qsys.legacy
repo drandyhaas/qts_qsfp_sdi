@@ -31,6 +31,11 @@ https://fpgasoftware.intel.com/eula.-->
          value = "1";
          type = "int";
       }
+      datum sopceditor_expanded
+      {
+         value = "0";
+         type = "boolean";
+      }
    }
    element clk_50
    {
@@ -41,7 +46,7 @@ https://fpgasoftware.intel.com/eula.-->
       }
       datum sopceditor_expanded
       {
-         value = "1";
+         value = "0";
          type = "boolean";
       }
    }
@@ -98,6 +103,11 @@ https://fpgasoftware.intel.com/eula.-->
       {
          value = "5";
          type = "int";
+      }
+      datum sopceditor_expanded
+      {
+         value = "0";
+         type = "boolean";
       }
    }
    element qsfp_xcvr_atx_pll
@@ -221,6 +231,11 @@ https://fpgasoftware.intel.com/eula.-->
          value = "2";
          type = "int";
       }
+      datum sopceditor_expanded
+      {
+         value = "0";
+         type = "boolean";
+      }
    }
    element sdi_xcvr_atx_pll_refclk
    {
@@ -228,6 +243,11 @@ https://fpgasoftware.intel.com/eula.-->
       {
          value = "0";
          type = "int";
+      }
+      datum sopceditor_expanded
+      {
+         value = "0";
+         type = "boolean";
       }
    }
    element sdi_xcvr_test_0
@@ -237,6 +257,11 @@ https://fpgasoftware.intel.com/eula.-->
          value = "6";
          type = "int";
       }
+      datum sopceditor_expanded
+      {
+         value = "0";
+         type = "boolean";
+      }
    }
    element sdi_xcvr_test_1
    {
@@ -244,6 +269,11 @@ https://fpgasoftware.intel.com/eula.-->
       {
          value = "7";
          type = "int";
+      }
+      datum sopceditor_expanded
+      {
+         value = "0";
+         type = "boolean";
       }
    }
 }
@@ -333,9 +363,7 @@ https://fpgasoftware.intel.com/eula.-->
    dir="end" />
  <interface
    name="q_sys_pll_status_interconnect_sdi_pll_locked"
-   internal="q_sys_pll_status_interconnect_sdi.pll_locked_output"
-   type="conduit"
-   dir="end" />
+   internal="q_sys_pll_status_interconnect_sdi.pll_locked_output" />
  <interface
    name="qsfp_xcvr_atx_pll_refclk_in_clk"
    internal="qsfp_xcvr_atx_pll_refclk.in_clk"
@@ -389,29 +417,7 @@ https://fpgasoftware.intel.com/eula.-->
  <interface name="reset_50" internal="clk_50.clk_in_reset" type="reset" dir="end" />
  <interface
    name="sdi_xcvr_atx_pll_refclk_in_clk"
-   internal="sdi_xcvr_atx_pll_refclk.in_clk"
-   type="clock"
-   dir="end" />
- <interface
-   name="sdi_xcvr_test_0_xcvr_native_s10_0_rx_serial_data"
-   internal="sdi_xcvr_test_0.xcvr_native_s10_0_rx_serial_data"
-   type="conduit"
-   dir="end" />
- <interface
-   name="sdi_xcvr_test_0_xcvr_native_s10_0_tx_serial_data"
-   internal="sdi_xcvr_test_0.xcvr_native_s10_0_tx_serial_data"
-   type="conduit"
-   dir="end" />
- <interface
-   name="sdi_xcvr_test_1_xcvr_native_s10_0_rx_serial_data"
-   internal="sdi_xcvr_test_1.xcvr_native_s10_0_rx_serial_data"
-   type="conduit"
-   dir="end" />
- <interface
-   name="sdi_xcvr_test_1_xcvr_native_s10_0_tx_serial_data"
-   internal="sdi_xcvr_test_1.xcvr_native_s10_0_tx_serial_data"
-   type="conduit"
-   dir="end" />
+   internal="sdi_xcvr_atx_pll_refclk.in_clk" />
  <module
    name="clk_100"
    kind="altera_generic_component"
@@ -3903,7 +3909,7 @@ https://fpgasoftware.intel.com/eula.-->
    name="q_sys_pll_status_interconnect_sdi"
    kind="altera_generic_component"
    version="1.0"
-   enabled="1">
+   enabled="0">
   <parameter name="bspCpu" value="" />
   <parameter name="componentDefinition"><![CDATA[<componentDefinition>
     <boundary>
@@ -10824,7 +10830,7 @@ https://fpgasoftware.intel.com/eula.-->
    name="sdi_xcvr_atx_pll"
    kind="altera_generic_component"
    version="1.0"
-   enabled="1">
+   enabled="0">
   <parameter name="bspCpu" value="" />
   <parameter name="componentDefinition"><![CDATA[<componentDefinition>
     <boundary>
@@ -11963,7 +11969,7 @@ https://fpgasoftware.intel.com/eula.-->
    name="sdi_xcvr_atx_pll_refclk"
    kind="altera_generic_component"
    version="1.0"
-   enabled="1">
+   enabled="0">
   <parameter name="bspCpu" value="" />
   <parameter name="componentDefinition"><![CDATA[<componentDefinition>
     <boundary>
@@ -12208,7 +12214,7 @@ https://fpgasoftware.intel.com/eula.-->
    name="sdi_xcvr_test_0"
    kind="altera_generic_component"
    version="1.0"
-   enabled="1">
+   enabled="0">
   <parameter name="bspCpu" value="" />
   <parameter name="componentDefinition"><![CDATA[<componentDefinition>
     <boundary>
@@ -12973,15 +12979,15 @@ https://fpgasoftware.intel.com/eula.-->
                     <consumedSystemInfos>
                         <entry>
                             <key>CLOCK_DOMAIN</key>
-                            <value>1</value>
+                            <value>-1</value>
                         </entry>
                         <entry>
                             <key>CLOCK_RATE</key>
-                            <value>100000000</value>
+                            <value>-1</value>
                         </entry>
                         <entry>
                             <key>RESET_DOMAIN</key>
-                            <value>1</value>
+                            <value>-1</value>
                         </entry>
                     </consumedSystemInfos>
                 </value>
@@ -12994,15 +13000,15 @@ https://fpgasoftware.intel.com/eula.-->
                     <consumedSystemInfos>
                         <entry>
                             <key>CLOCK_DOMAIN</key>
-                            <value>3</value>
+                            <value>-1</value>
                         </entry>
                         <entry>
                             <key>CLOCK_RATE</key>
-                            <value>50000000</value>
+                            <value>-1</value>
                         </entry>
                         <entry>
                             <key>RESET_DOMAIN</key>
-                            <value>3</value>
+                            <value>-1</value>
                         </entry>
                     </consumedSystemInfos>
                 </value>
@@ -13033,15 +13039,15 @@ https://fpgasoftware.intel.com/eula.-->
                     <consumedSystemInfos>
                         <entry>
                             <key>CLOCK_DOMAIN</key>
-                            <value>6</value>
+                            <value>-1</value>
                         </entry>
                         <entry>
                             <key>CLOCK_RATE</key>
-                            <value>148500000</value>
+                            <value>-1</value>
                         </entry>
                         <entry>
                             <key>RESET_DOMAIN</key>
-                            <value>6</value>
+                            <value>-1</value>
                         </entry>
                     </consumedSystemInfos>
                 </value>
@@ -13097,7 +13103,7 @@ https://fpgasoftware.intel.com/eula.-->
    name="sdi_xcvr_test_1"
    kind="altera_generic_component"
    version="1.0"
-   enabled="1">
+   enabled="0">
   <parameter name="bspCpu" value="" />
   <parameter name="componentDefinition"><![CDATA[<componentDefinition>
     <boundary>
@@ -13862,15 +13868,15 @@ https://fpgasoftware.intel.com/eula.-->
                     <consumedSystemInfos>
                         <entry>
                             <key>CLOCK_DOMAIN</key>
-                            <value>1</value>
+                            <value>-1</value>
                         </entry>
                         <entry>
                             <key>CLOCK_RATE</key>
-                            <value>100000000</value>
+                            <value>-1</value>
                         </entry>
                         <entry>
                             <key>RESET_DOMAIN</key>
-                            <value>1</value>
+                            <value>-1</value>
                         </entry>
                     </consumedSystemInfos>
                 </value>
@@ -13883,15 +13889,15 @@ https://fpgasoftware.intel.com/eula.-->
                     <consumedSystemInfos>
                         <entry>
                             <key>CLOCK_DOMAIN</key>
-                            <value>3</value>
+                            <value>-1</value>
                         </entry>
                         <entry>
                             <key>CLOCK_RATE</key>
-                            <value>50000000</value>
+                            <value>-1</value>
                         </entry>
                         <entry>
                             <key>RESET_DOMAIN</key>
-                            <value>3</value>
+                            <value>-1</value>
                         </entry>
                     </consumedSystemInfos>
                 </value>
@@ -13922,15 +13928,15 @@ https://fpgasoftware.intel.com/eula.-->
                     <consumedSystemInfos>
                         <entry>
                             <key>CLOCK_DOMAIN</key>
-                            <value>6</value>
+                            <value>-1</value>
                         </entry>
                         <entry>
                             <key>CLOCK_RATE</key>
-                            <value>148500000</value>
+                            <value>-1</value>
                         </entry>
                         <entry>
                             <key>RESET_DOMAIN</key>
-                            <value>6</value>
+                            <value>-1</value>
                         </entry>
                     </consumedSystemInfos>
                 </value>

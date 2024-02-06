@@ -10,9 +10,7 @@ module q_sys (
 		input  wire       reset_50_reset_n,                                                 //                                          reset_50.reset_n
 		output wire [0:0] q_sys_pll_status_interconnect_qsfp_pll_locked_pll_locked,         //     q_sys_pll_status_interconnect_qsfp_pll_locked.pll_locked
 		output wire [0:0] q_sys_pll_status_interconnect_qsfp_pll_locked1_pll_locked,        //    q_sys_pll_status_interconnect_qsfp_pll_locked1.pll_locked
-		output wire [0:0] q_sys_pll_status_interconnect_sdi_pll_locked_pll_locked,          //      q_sys_pll_status_interconnect_sdi_pll_locked.pll_locked
 		input  wire       qsfp_xcvr_atx_pll_refclk_in_clk_clk,                              //                   qsfp_xcvr_atx_pll_refclk_in_clk.clk
-		input  wire       sdi_xcvr_atx_pll_refclk_in_clk_clk,                               //                    sdi_xcvr_atx_pll_refclk_in_clk.clk
 		output wire [0:0] qsfp_xcvr_test_0_xcvr_native_s10_0_tx_serial_data_tx_serial_data, // qsfp_xcvr_test_0_xcvr_native_s10_0_tx_serial_data.tx_serial_data
 		input  wire [0:0] qsfp_xcvr_test_0_xcvr_native_s10_0_rx_serial_data_rx_serial_data, // qsfp_xcvr_test_0_xcvr_native_s10_0_rx_serial_data.rx_serial_data
 		output wire [0:0] qsfp_xcvr_test_1_xcvr_native_s10_0_tx_serial_data_tx_serial_data, // qsfp_xcvr_test_1_xcvr_native_s10_0_tx_serial_data.tx_serial_data
@@ -20,33 +18,24 @@ module q_sys (
 		output wire [0:0] qsfp_xcvr_test_3_xcvr_native_s10_0_tx_serial_data_tx_serial_data, // qsfp_xcvr_test_3_xcvr_native_s10_0_tx_serial_data.tx_serial_data
 		input  wire [0:0] qsfp_xcvr_test_3_xcvr_native_s10_0_rx_serial_data_rx_serial_data, // qsfp_xcvr_test_3_xcvr_native_s10_0_rx_serial_data.rx_serial_data
 		output wire [0:0] qsfp_xcvr_test_4_xcvr_native_s10_0_tx_serial_data_tx_serial_data, // qsfp_xcvr_test_4_xcvr_native_s10_0_tx_serial_data.tx_serial_data
-		input  wire [0:0] qsfp_xcvr_test_4_xcvr_native_s10_0_rx_serial_data_rx_serial_data, // qsfp_xcvr_test_4_xcvr_native_s10_0_rx_serial_data.rx_serial_data
-		output wire [0:0] sdi_xcvr_test_0_xcvr_native_s10_0_tx_serial_data_tx_serial_data,  //  sdi_xcvr_test_0_xcvr_native_s10_0_tx_serial_data.tx_serial_data
-		input  wire [0:0] sdi_xcvr_test_0_xcvr_native_s10_0_rx_serial_data_rx_serial_data,  //  sdi_xcvr_test_0_xcvr_native_s10_0_rx_serial_data.rx_serial_data
-		output wire [0:0] sdi_xcvr_test_1_xcvr_native_s10_0_tx_serial_data_tx_serial_data,  //  sdi_xcvr_test_1_xcvr_native_s10_0_tx_serial_data.tx_serial_data
-		input  wire [0:0] sdi_xcvr_test_1_xcvr_native_s10_0_rx_serial_data_rx_serial_data   //  sdi_xcvr_test_1_xcvr_native_s10_0_rx_serial_data.rx_serial_data
+		input  wire [0:0] qsfp_xcvr_test_4_xcvr_native_s10_0_rx_serial_data_rx_serial_data  // qsfp_xcvr_test_4_xcvr_native_s10_0_rx_serial_data.rx_serial_data
 	);
 
-	wire         clk_50_clk_clk;                                                  // clk_50:clk_out -> [master_0:clk_clk, mm_interconnect_0:clk_50_clk_clk, product_info_0:clk, qsfp_xcvr_test_0:clk_50_clk, qsfp_xcvr_test_1:clk_50_clk, qsfp_xcvr_test_3:clk_50_clk, qsfp_xcvr_test_4:clk_50_clk, sdi_xcvr_test_0:clk_50_clk, sdi_xcvr_test_1:clk_50_clk]
-	wire         clk_100_clk_clk;                                                 // clk_100:clk_out -> [mm_interconnect_0:clk_100_clk_clk, qsfp_xcvr_atx_pll1:reconfig_clk0, qsfp_xcvr_atx_pll:reconfig_clk0, qsfp_xcvr_test_0:clk_100_clk, qsfp_xcvr_test_1:clk_100_clk, qsfp_xcvr_test_3:clk_100_clk, qsfp_xcvr_test_4:clk_100_clk, sdi_xcvr_atx_pll:reconfig_clk0, sdi_xcvr_test_0:clk_100_clk, sdi_xcvr_test_1:clk_100_clk]
-	wire         sdi_xcvr_atx_pll_refclk_out_clk_clk;                             // sdi_xcvr_atx_pll_refclk:out_clk -> [sdi_xcvr_atx_pll:pll_refclk0, sdi_xcvr_test_0:xcvr_native_s10_0_rx_cdr_refclk0_clk, sdi_xcvr_test_1:xcvr_native_s10_0_rx_cdr_refclk0_clk]
+	wire         clk_50_clk_clk;                                                  // clk_50:clk_out -> [master_0:clk_clk, mm_interconnect_0:clk_50_clk_clk, product_info_0:clk, qsfp_xcvr_test_0:clk_50_clk, qsfp_xcvr_test_1:clk_50_clk, qsfp_xcvr_test_3:clk_50_clk, qsfp_xcvr_test_4:clk_50_clk]
+	wire         clk_100_clk_clk;                                                 // clk_100:clk_out -> [mm_interconnect_0:clk_100_clk_clk, qsfp_xcvr_atx_pll1:reconfig_clk0, qsfp_xcvr_atx_pll:reconfig_clk0, qsfp_xcvr_test_0:clk_100_clk, qsfp_xcvr_test_1:clk_100_clk, qsfp_xcvr_test_3:clk_100_clk, qsfp_xcvr_test_4:clk_100_clk]
 	wire         qsfp_xcvr_atx_pll_refclk_out_clk_clk;                            // qsfp_xcvr_atx_pll_refclk:out_clk -> [qsfp_xcvr_atx_pll1:pll_refclk0, qsfp_xcvr_atx_pll:pll_refclk0, qsfp_xcvr_test_0:xcvr_native_s10_0_rx_cdr_refclk0_clk, qsfp_xcvr_test_1:xcvr_native_s10_0_rx_cdr_refclk0_clk, qsfp_xcvr_test_3:xcvr_native_s10_0_rx_cdr_refclk0_clk, qsfp_xcvr_test_4:xcvr_native_s10_0_rx_cdr_refclk0_clk]
-	wire         sdi_xcvr_atx_pll_pll_locked_pll_locked;                          // sdi_xcvr_atx_pll:pll_locked -> q_sys_pll_status_interconnect_sdi:pll_locked
 	wire         qsfp_xcvr_atx_pll_pll_locked_pll_locked;                         // qsfp_xcvr_atx_pll:pll_locked -> q_sys_pll_status_interconnect_qsfp:pll_locked
 	wire         qsfp_xcvr_atx_pll1_pll_locked_pll_locked;                        // qsfp_xcvr_atx_pll1:pll_locked -> q_sys_pll_status_interconnect_qsfp1:pll_locked
 	wire   [0:0] q_sys_pll_status_interconnect_qsfp_pll_locked_a_pll_locked;      // q_sys_pll_status_interconnect_qsfp:pll_locked_a -> qsfp_xcvr_test_0:pll_locked_pll_locked_pll_locked
 	wire   [0:0] q_sys_pll_status_interconnect_qsfp_pll_locked_b_pll_locked;      // q_sys_pll_status_interconnect_qsfp:pll_locked_b -> qsfp_xcvr_test_1:pll_locked_pll_locked_pll_locked
-	wire   [0:0] q_sys_pll_status_interconnect_sdi_pll_locked_b_pll_locked;       // q_sys_pll_status_interconnect_sdi:pll_locked_b -> sdi_xcvr_test_1:pll_status_interconnect_0_pll_locked_pll_locked
 	wire   [0:0] q_sys_pll_status_interconnect_qsfp1_pll_locked_a_pll_locked;     // q_sys_pll_status_interconnect_qsfp1:pll_locked_a -> qsfp_xcvr_test_3:pll_locked_pll_locked_pll_locked
 	wire   [0:0] q_sys_pll_status_interconnect_qsfp1_pll_locked_b_pll_locked;     // q_sys_pll_status_interconnect_qsfp1:pll_locked_b -> qsfp_xcvr_test_4:pll_locked_pll_locked_pll_locked
-	wire   [0:0] q_sys_pll_status_interconnect_sdi_pll_locked_a_pll_locked;       // q_sys_pll_status_interconnect_sdi:pll_locked_a -> sdi_xcvr_test_0:pll_status_interconnect_0_pll_locked_pll_locked
-	wire         sdi_xcvr_atx_pll_tx_serial_clk_clk;                              // sdi_xcvr_atx_pll:tx_serial_clk -> [sdi_xcvr_test_0:xcvr_native_s10_0_tx_serial_clk0_clk, sdi_xcvr_test_1:xcvr_native_s10_0_tx_serial_clk0_clk]
 	wire         qsfp_xcvr_atx_pll_tx_serial_clk_clk;                             // qsfp_xcvr_atx_pll:tx_serial_clk -> [qsfp_xcvr_test_0:xcvr_native_s10_0_tx_serial_clk1_clk, qsfp_xcvr_test_1:xcvr_native_s10_0_tx_serial_clk1_clk]
 	wire         qsfp_xcvr_atx_pll1_tx_serial_clk_clk;                            // qsfp_xcvr_atx_pll1:tx_serial_clk -> [qsfp_xcvr_test_3:xcvr_native_s10_0_tx_serial_clk1_clk, qsfp_xcvr_test_4:xcvr_native_s10_0_tx_serial_clk1_clk]
 	wire         qsfp_xcvr_atx_pll_tx_serial_clk_gxt_clk;                         // qsfp_xcvr_atx_pll:tx_serial_clk_gxt -> [qsfp_xcvr_test_0:xcvr_native_s10_0_tx_serial_clk0_clk, qsfp_xcvr_test_1:xcvr_native_s10_0_tx_serial_clk0_clk]
 	wire         qsfp_xcvr_atx_pll1_tx_serial_clk_gxt_clk;                        // qsfp_xcvr_atx_pll1:tx_serial_clk_gxt -> [qsfp_xcvr_test_3:xcvr_native_s10_0_tx_serial_clk0_clk, qsfp_xcvr_test_4:xcvr_native_s10_0_tx_serial_clk0_clk]
-	wire         clk_50_clk_reset_reset;                                          // clk_50:reset_n_out -> [master_0:clk_reset_reset, mm_interconnect_0:product_info_0_reset_reset_bridge_in_reset_reset, product_info_0:reset_n, qsfp_xcvr_test_0:reset_50_reset_n, qsfp_xcvr_test_1:reset_50_reset_n, qsfp_xcvr_test_3:reset_50_reset_n, qsfp_xcvr_test_4:reset_50_reset_n, sdi_xcvr_test_0:reset_50_reset_n, sdi_xcvr_test_1:reset_50_reset_n]
-	wire         clk_100_clk_reset_reset;                                         // clk_100:reset_n_out -> [mm_interconnect_0:sdi_xcvr_atx_pll_reconfig_reset0_reset_bridge_in_reset_reset, qsfp_xcvr_atx_pll1:reconfig_reset0, qsfp_xcvr_atx_pll:reconfig_reset0, qsfp_xcvr_test_0:reset_100_reset_n, qsfp_xcvr_test_1:reset_100_reset_n, qsfp_xcvr_test_3:reset_100_reset_n, qsfp_xcvr_test_4:reset_100_reset_n, sdi_xcvr_atx_pll:reconfig_reset0, sdi_xcvr_test_0:reset_100_reset_n, sdi_xcvr_test_1:reset_100_reset_n]
+	wire         clk_50_clk_reset_reset;                                          // clk_50:reset_n_out -> [master_0:clk_reset_reset, mm_interconnect_0:product_info_0_reset_reset_bridge_in_reset_reset, product_info_0:reset_n, qsfp_xcvr_test_0:reset_50_reset_n, qsfp_xcvr_test_1:reset_50_reset_n, qsfp_xcvr_test_3:reset_50_reset_n, qsfp_xcvr_test_4:reset_50_reset_n]
+	wire         clk_100_clk_reset_reset;                                         // clk_100:reset_n_out -> [mm_interconnect_0:qsfp_xcvr_atx_pll_reconfig_reset0_reset_bridge_in_reset_reset, qsfp_xcvr_atx_pll1:reconfig_reset0, qsfp_xcvr_atx_pll:reconfig_reset0, qsfp_xcvr_test_0:reset_100_reset_n, qsfp_xcvr_test_1:reset_100_reset_n, qsfp_xcvr_test_3:reset_100_reset_n, qsfp_xcvr_test_4:reset_100_reset_n]
 	wire  [31:0] master_0_master_readdata;                                        // mm_interconnect_0:master_0_master_readdata -> master_0:master_readdata
 	wire         master_0_master_waitrequest;                                     // mm_interconnect_0:master_0_master_waitrequest -> master_0:master_waitrequest
 	wire  [31:0] master_0_master_address;                                         // master_0:master_address -> mm_interconnect_0:master_0_master_address
@@ -99,32 +88,6 @@ module q_sys (
 	wire         mm_interconnect_0_qsfp_xcvr_test_4_mm_bridge_0_s0_write;         // mm_interconnect_0:qsfp_xcvr_test_4_mm_bridge_0_s0_write -> qsfp_xcvr_test_4:mm_bridge_0_s0_write
 	wire  [31:0] mm_interconnect_0_qsfp_xcvr_test_4_mm_bridge_0_s0_writedata;     // mm_interconnect_0:qsfp_xcvr_test_4_mm_bridge_0_s0_writedata -> qsfp_xcvr_test_4:mm_bridge_0_s0_writedata
 	wire   [0:0] mm_interconnect_0_qsfp_xcvr_test_4_mm_bridge_0_s0_burstcount;    // mm_interconnect_0:qsfp_xcvr_test_4_mm_bridge_0_s0_burstcount -> qsfp_xcvr_test_4:mm_bridge_0_s0_burstcount
-	wire  [31:0] mm_interconnect_0_sdi_xcvr_test_0_mm_bridge_0_s0_readdata;       // sdi_xcvr_test_0:mm_bridge_0_s0_readdata -> mm_interconnect_0:sdi_xcvr_test_0_mm_bridge_0_s0_readdata
-	wire         mm_interconnect_0_sdi_xcvr_test_0_mm_bridge_0_s0_waitrequest;    // sdi_xcvr_test_0:mm_bridge_0_s0_waitrequest -> mm_interconnect_0:sdi_xcvr_test_0_mm_bridge_0_s0_waitrequest
-	wire         mm_interconnect_0_sdi_xcvr_test_0_mm_bridge_0_s0_debugaccess;    // mm_interconnect_0:sdi_xcvr_test_0_mm_bridge_0_s0_debugaccess -> sdi_xcvr_test_0:mm_bridge_0_s0_debugaccess
-	wire  [14:0] mm_interconnect_0_sdi_xcvr_test_0_mm_bridge_0_s0_address;        // mm_interconnect_0:sdi_xcvr_test_0_mm_bridge_0_s0_address -> sdi_xcvr_test_0:mm_bridge_0_s0_address
-	wire         mm_interconnect_0_sdi_xcvr_test_0_mm_bridge_0_s0_read;           // mm_interconnect_0:sdi_xcvr_test_0_mm_bridge_0_s0_read -> sdi_xcvr_test_0:mm_bridge_0_s0_read
-	wire   [3:0] mm_interconnect_0_sdi_xcvr_test_0_mm_bridge_0_s0_byteenable;     // mm_interconnect_0:sdi_xcvr_test_0_mm_bridge_0_s0_byteenable -> sdi_xcvr_test_0:mm_bridge_0_s0_byteenable
-	wire         mm_interconnect_0_sdi_xcvr_test_0_mm_bridge_0_s0_readdatavalid;  // sdi_xcvr_test_0:mm_bridge_0_s0_readdatavalid -> mm_interconnect_0:sdi_xcvr_test_0_mm_bridge_0_s0_readdatavalid
-	wire         mm_interconnect_0_sdi_xcvr_test_0_mm_bridge_0_s0_write;          // mm_interconnect_0:sdi_xcvr_test_0_mm_bridge_0_s0_write -> sdi_xcvr_test_0:mm_bridge_0_s0_write
-	wire  [31:0] mm_interconnect_0_sdi_xcvr_test_0_mm_bridge_0_s0_writedata;      // mm_interconnect_0:sdi_xcvr_test_0_mm_bridge_0_s0_writedata -> sdi_xcvr_test_0:mm_bridge_0_s0_writedata
-	wire   [0:0] mm_interconnect_0_sdi_xcvr_test_0_mm_bridge_0_s0_burstcount;     // mm_interconnect_0:sdi_xcvr_test_0_mm_bridge_0_s0_burstcount -> sdi_xcvr_test_0:mm_bridge_0_s0_burstcount
-	wire  [31:0] mm_interconnect_0_sdi_xcvr_test_1_mm_bridge_0_s0_readdata;       // sdi_xcvr_test_1:mm_bridge_0_s0_readdata -> mm_interconnect_0:sdi_xcvr_test_1_mm_bridge_0_s0_readdata
-	wire         mm_interconnect_0_sdi_xcvr_test_1_mm_bridge_0_s0_waitrequest;    // sdi_xcvr_test_1:mm_bridge_0_s0_waitrequest -> mm_interconnect_0:sdi_xcvr_test_1_mm_bridge_0_s0_waitrequest
-	wire         mm_interconnect_0_sdi_xcvr_test_1_mm_bridge_0_s0_debugaccess;    // mm_interconnect_0:sdi_xcvr_test_1_mm_bridge_0_s0_debugaccess -> sdi_xcvr_test_1:mm_bridge_0_s0_debugaccess
-	wire  [14:0] mm_interconnect_0_sdi_xcvr_test_1_mm_bridge_0_s0_address;        // mm_interconnect_0:sdi_xcvr_test_1_mm_bridge_0_s0_address -> sdi_xcvr_test_1:mm_bridge_0_s0_address
-	wire         mm_interconnect_0_sdi_xcvr_test_1_mm_bridge_0_s0_read;           // mm_interconnect_0:sdi_xcvr_test_1_mm_bridge_0_s0_read -> sdi_xcvr_test_1:mm_bridge_0_s0_read
-	wire   [3:0] mm_interconnect_0_sdi_xcvr_test_1_mm_bridge_0_s0_byteenable;     // mm_interconnect_0:sdi_xcvr_test_1_mm_bridge_0_s0_byteenable -> sdi_xcvr_test_1:mm_bridge_0_s0_byteenable
-	wire         mm_interconnect_0_sdi_xcvr_test_1_mm_bridge_0_s0_readdatavalid;  // sdi_xcvr_test_1:mm_bridge_0_s0_readdatavalid -> mm_interconnect_0:sdi_xcvr_test_1_mm_bridge_0_s0_readdatavalid
-	wire         mm_interconnect_0_sdi_xcvr_test_1_mm_bridge_0_s0_write;          // mm_interconnect_0:sdi_xcvr_test_1_mm_bridge_0_s0_write -> sdi_xcvr_test_1:mm_bridge_0_s0_write
-	wire  [31:0] mm_interconnect_0_sdi_xcvr_test_1_mm_bridge_0_s0_writedata;      // mm_interconnect_0:sdi_xcvr_test_1_mm_bridge_0_s0_writedata -> sdi_xcvr_test_1:mm_bridge_0_s0_writedata
-	wire   [0:0] mm_interconnect_0_sdi_xcvr_test_1_mm_bridge_0_s0_burstcount;     // mm_interconnect_0:sdi_xcvr_test_1_mm_bridge_0_s0_burstcount -> sdi_xcvr_test_1:mm_bridge_0_s0_burstcount
-	wire  [31:0] mm_interconnect_0_sdi_xcvr_atx_pll_reconfig_avmm0_readdata;      // sdi_xcvr_atx_pll:reconfig_readdata0 -> mm_interconnect_0:sdi_xcvr_atx_pll_reconfig_avmm0_readdata
-	wire         mm_interconnect_0_sdi_xcvr_atx_pll_reconfig_avmm0_waitrequest;   // sdi_xcvr_atx_pll:reconfig_waitrequest0 -> mm_interconnect_0:sdi_xcvr_atx_pll_reconfig_avmm0_waitrequest
-	wire  [10:0] mm_interconnect_0_sdi_xcvr_atx_pll_reconfig_avmm0_address;       // mm_interconnect_0:sdi_xcvr_atx_pll_reconfig_avmm0_address -> sdi_xcvr_atx_pll:reconfig_address0
-	wire         mm_interconnect_0_sdi_xcvr_atx_pll_reconfig_avmm0_read;          // mm_interconnect_0:sdi_xcvr_atx_pll_reconfig_avmm0_read -> sdi_xcvr_atx_pll:reconfig_read0
-	wire         mm_interconnect_0_sdi_xcvr_atx_pll_reconfig_avmm0_write;         // mm_interconnect_0:sdi_xcvr_atx_pll_reconfig_avmm0_write -> sdi_xcvr_atx_pll:reconfig_write0
-	wire  [31:0] mm_interconnect_0_sdi_xcvr_atx_pll_reconfig_avmm0_writedata;     // mm_interconnect_0:sdi_xcvr_atx_pll_reconfig_avmm0_writedata -> sdi_xcvr_atx_pll:reconfig_writedata0
 	wire  [31:0] mm_interconnect_0_qsfp_xcvr_atx_pll_reconfig_avmm0_readdata;     // qsfp_xcvr_atx_pll:reconfig_readdata0 -> mm_interconnect_0:qsfp_xcvr_atx_pll_reconfig_avmm0_readdata
 	wire         mm_interconnect_0_qsfp_xcvr_atx_pll_reconfig_avmm0_waitrequest;  // qsfp_xcvr_atx_pll:reconfig_waitrequest0 -> mm_interconnect_0:qsfp_xcvr_atx_pll_reconfig_avmm0_waitrequest
 	wire  [10:0] mm_interconnect_0_qsfp_xcvr_atx_pll_reconfig_avmm0_address;      // mm_interconnect_0:qsfp_xcvr_atx_pll_reconfig_avmm0_address -> qsfp_xcvr_atx_pll:reconfig_address0
@@ -197,17 +160,6 @@ module q_sys (
 		.pll_powerdown_b   ()                                                             //   input,  width = 1,   pll_powerdown_b.pll_powerdown
 	);
 
-	q_sys_pll_status_interconnect_4 q_sys_pll_status_interconnect_sdi (
-		.pll_locked        (sdi_xcvr_atx_pll_pll_locked_pll_locked),                    //   input,  width = 1,        pll_locked.pll_locked
-		.pll_powerdown     (),                                                          //  output,  width = 1,     pll_powerdown.pll_powerdown
-		.mcgb_rst          (),                                                          //  output,  width = 1,          mcgb_rst.mcgb_rst
-		.pll_locked_output (q_sys_pll_status_interconnect_sdi_pll_locked_pll_locked),   //  output,  width = 1, pll_locked_output.pll_locked
-		.pll_locked_a      (q_sys_pll_status_interconnect_sdi_pll_locked_a_pll_locked), //  output,  width = 1,      pll_locked_a.pll_locked
-		.pll_powerdown_a   (),                                                          //   input,  width = 1,   pll_powerdown_a.pll_powerdown
-		.pll_locked_b      (q_sys_pll_status_interconnect_sdi_pll_locked_b_pll_locked), //  output,  width = 1,      pll_locked_b.pll_locked
-		.pll_powerdown_b   ()                                                           //   input,  width = 1,   pll_powerdown_b.pll_powerdown
-	);
-
 	q_sys_xcvr_atx_pll_s10_htile_1 qsfp_xcvr_atx_pll (
 		.pll_refclk0           (qsfp_xcvr_atx_pll_refclk_out_clk_clk),                           //   input,   width = 1,       pll_refclk0.clk
 		.tx_serial_clk         (qsfp_xcvr_atx_pll_tx_serial_clk_clk),                            //  output,   width = 1,     tx_serial_clk.clk
@@ -243,26 +195,6 @@ module q_sys (
 	q_sys_clock_bridge_0 qsfp_xcvr_atx_pll_refclk (
 		.in_clk  (qsfp_xcvr_atx_pll_refclk_in_clk_clk),  //   input,  width = 1,  in_clk.clk
 		.out_clk (qsfp_xcvr_atx_pll_refclk_out_clk_clk)  //  output,  width = 1, out_clk.clk
-	);
-
-	q_sys_xcvr_atx_pll_s10_htile_0 sdi_xcvr_atx_pll (
-		.pll_refclk0           (sdi_xcvr_atx_pll_refclk_out_clk_clk),                           //   input,   width = 1,     pll_refclk0.clk
-		.tx_serial_clk         (sdi_xcvr_atx_pll_tx_serial_clk_clk),                            //  output,   width = 1,   tx_serial_clk.clk
-		.pll_locked            (sdi_xcvr_atx_pll_pll_locked_pll_locked),                        //  output,   width = 1,      pll_locked.pll_locked
-		.reconfig_clk0         (clk_100_clk_clk),                                               //   input,   width = 1,   reconfig_clk0.clk
-		.reconfig_reset0       (~clk_100_clk_reset_reset),                                      //   input,   width = 1, reconfig_reset0.reset
-		.reconfig_write0       (mm_interconnect_0_sdi_xcvr_atx_pll_reconfig_avmm0_write),       //   input,   width = 1,  reconfig_avmm0.write
-		.reconfig_read0        (mm_interconnect_0_sdi_xcvr_atx_pll_reconfig_avmm0_read),        //   input,   width = 1,                .read
-		.reconfig_address0     (mm_interconnect_0_sdi_xcvr_atx_pll_reconfig_avmm0_address),     //   input,  width = 11,                .address
-		.reconfig_writedata0   (mm_interconnect_0_sdi_xcvr_atx_pll_reconfig_avmm0_writedata),   //   input,  width = 32,                .writedata
-		.reconfig_readdata0    (mm_interconnect_0_sdi_xcvr_atx_pll_reconfig_avmm0_readdata),    //  output,  width = 32,                .readdata
-		.reconfig_waitrequest0 (mm_interconnect_0_sdi_xcvr_atx_pll_reconfig_avmm0_waitrequest), //  output,   width = 1,                .waitrequest
-		.pll_cal_busy          ()                                                               //  output,   width = 1,    pll_cal_busy.pll_cal_busy
-	);
-
-	q_sys_clock_bridge_1 sdi_xcvr_atx_pll_refclk (
-		.in_clk  (sdi_xcvr_atx_pll_refclk_in_clk_clk),  //   input,  width = 1,  in_clk.clk
-		.out_clk (sdi_xcvr_atx_pll_refclk_out_clk_clk)  //  output,  width = 1, out_clk.clk
 	);
 
 	qsfp_xcvr_test qsfp_xcvr_test_0 (
@@ -357,145 +289,75 @@ module q_sys (
 		.xcvr_native_s10_0_rx_serial_data_rx_serial_data (qsfp_xcvr_test_4_xcvr_native_s10_0_rx_serial_data_rx_serial_data)  //   input,   width = 1, xcvr_native_s10_0_rx_serial_data.rx_serial_data
 	);
 
-	sdi_xcvr_test sdi_xcvr_test_0 (
-		.clk_100_clk                                     (clk_100_clk_clk),                                                 //   input,   width = 1,                              clk_100.clk
-		.reset_100_reset_n                               (clk_100_clk_reset_reset),                                         //   input,   width = 1,                            reset_100.reset_n
-		.clk_50_clk                                      (clk_50_clk_clk),                                                  //   input,   width = 1,                               clk_50.clk
-		.reset_50_reset_n                                (clk_50_clk_reset_reset),                                          //   input,   width = 1,                             reset_50.reset_n
-		.mm_bridge_0_s0_waitrequest                      (mm_interconnect_0_sdi_xcvr_test_0_mm_bridge_0_s0_waitrequest),    //  output,   width = 1,                       mm_bridge_0_s0.waitrequest
-		.mm_bridge_0_s0_readdata                         (mm_interconnect_0_sdi_xcvr_test_0_mm_bridge_0_s0_readdata),       //  output,  width = 32,                                     .readdata
-		.mm_bridge_0_s0_readdatavalid                    (mm_interconnect_0_sdi_xcvr_test_0_mm_bridge_0_s0_readdatavalid),  //  output,   width = 1,                                     .readdatavalid
-		.mm_bridge_0_s0_burstcount                       (mm_interconnect_0_sdi_xcvr_test_0_mm_bridge_0_s0_burstcount),     //   input,   width = 1,                                     .burstcount
-		.mm_bridge_0_s0_writedata                        (mm_interconnect_0_sdi_xcvr_test_0_mm_bridge_0_s0_writedata),      //   input,  width = 32,                                     .writedata
-		.mm_bridge_0_s0_address                          (mm_interconnect_0_sdi_xcvr_test_0_mm_bridge_0_s0_address),        //   input,  width = 15,                                     .address
-		.mm_bridge_0_s0_write                            (mm_interconnect_0_sdi_xcvr_test_0_mm_bridge_0_s0_write),          //   input,   width = 1,                                     .write
-		.mm_bridge_0_s0_read                             (mm_interconnect_0_sdi_xcvr_test_0_mm_bridge_0_s0_read),           //   input,   width = 1,                                     .read
-		.mm_bridge_0_s0_byteenable                       (mm_interconnect_0_sdi_xcvr_test_0_mm_bridge_0_s0_byteenable),     //   input,   width = 4,                                     .byteenable
-		.mm_bridge_0_s0_debugaccess                      (mm_interconnect_0_sdi_xcvr_test_0_mm_bridge_0_s0_debugaccess),    //   input,   width = 1,                                     .debugaccess
-		.pll_status_interconnect_0_pll_locked_pll_locked (q_sys_pll_status_interconnect_sdi_pll_locked_a_pll_locked),       //   input,   width = 1, pll_status_interconnect_0_pll_locked.pll_locked
-		.xcvr_native_s10_0_tx_serial_clk0_clk            (sdi_xcvr_atx_pll_tx_serial_clk_clk),                              //   input,   width = 1,     xcvr_native_s10_0_tx_serial_clk0.clk
-		.xcvr_native_s10_0_rx_cdr_refclk0_clk            (sdi_xcvr_atx_pll_refclk_out_clk_clk),                             //   input,   width = 1,     xcvr_native_s10_0_rx_cdr_refclk0.clk
-		.xcvr_native_s10_0_tx_serial_data_tx_serial_data (sdi_xcvr_test_0_xcvr_native_s10_0_tx_serial_data_tx_serial_data), //  output,   width = 1,     xcvr_native_s10_0_tx_serial_data.tx_serial_data
-		.xcvr_native_s10_0_rx_serial_data_rx_serial_data (sdi_xcvr_test_0_xcvr_native_s10_0_rx_serial_data_rx_serial_data)  //   input,   width = 1,     xcvr_native_s10_0_rx_serial_data.rx_serial_data
-	);
-
-	sdi_xcvr_test sdi_xcvr_test_1 (
-		.clk_100_clk                                     (clk_100_clk_clk),                                                 //   input,   width = 1,                              clk_100.clk
-		.reset_100_reset_n                               (clk_100_clk_reset_reset),                                         //   input,   width = 1,                            reset_100.reset_n
-		.clk_50_clk                                      (clk_50_clk_clk),                                                  //   input,   width = 1,                               clk_50.clk
-		.reset_50_reset_n                                (clk_50_clk_reset_reset),                                          //   input,   width = 1,                             reset_50.reset_n
-		.mm_bridge_0_s0_waitrequest                      (mm_interconnect_0_sdi_xcvr_test_1_mm_bridge_0_s0_waitrequest),    //  output,   width = 1,                       mm_bridge_0_s0.waitrequest
-		.mm_bridge_0_s0_readdata                         (mm_interconnect_0_sdi_xcvr_test_1_mm_bridge_0_s0_readdata),       //  output,  width = 32,                                     .readdata
-		.mm_bridge_0_s0_readdatavalid                    (mm_interconnect_0_sdi_xcvr_test_1_mm_bridge_0_s0_readdatavalid),  //  output,   width = 1,                                     .readdatavalid
-		.mm_bridge_0_s0_burstcount                       (mm_interconnect_0_sdi_xcvr_test_1_mm_bridge_0_s0_burstcount),     //   input,   width = 1,                                     .burstcount
-		.mm_bridge_0_s0_writedata                        (mm_interconnect_0_sdi_xcvr_test_1_mm_bridge_0_s0_writedata),      //   input,  width = 32,                                     .writedata
-		.mm_bridge_0_s0_address                          (mm_interconnect_0_sdi_xcvr_test_1_mm_bridge_0_s0_address),        //   input,  width = 15,                                     .address
-		.mm_bridge_0_s0_write                            (mm_interconnect_0_sdi_xcvr_test_1_mm_bridge_0_s0_write),          //   input,   width = 1,                                     .write
-		.mm_bridge_0_s0_read                             (mm_interconnect_0_sdi_xcvr_test_1_mm_bridge_0_s0_read),           //   input,   width = 1,                                     .read
-		.mm_bridge_0_s0_byteenable                       (mm_interconnect_0_sdi_xcvr_test_1_mm_bridge_0_s0_byteenable),     //   input,   width = 4,                                     .byteenable
-		.mm_bridge_0_s0_debugaccess                      (mm_interconnect_0_sdi_xcvr_test_1_mm_bridge_0_s0_debugaccess),    //   input,   width = 1,                                     .debugaccess
-		.pll_status_interconnect_0_pll_locked_pll_locked (q_sys_pll_status_interconnect_sdi_pll_locked_b_pll_locked),       //   input,   width = 1, pll_status_interconnect_0_pll_locked.pll_locked
-		.xcvr_native_s10_0_tx_serial_clk0_clk            (sdi_xcvr_atx_pll_tx_serial_clk_clk),                              //   input,   width = 1,     xcvr_native_s10_0_tx_serial_clk0.clk
-		.xcvr_native_s10_0_rx_cdr_refclk0_clk            (sdi_xcvr_atx_pll_refclk_out_clk_clk),                             //   input,   width = 1,     xcvr_native_s10_0_rx_cdr_refclk0.clk
-		.xcvr_native_s10_0_tx_serial_data_tx_serial_data (sdi_xcvr_test_1_xcvr_native_s10_0_tx_serial_data_tx_serial_data), //  output,   width = 1,     xcvr_native_s10_0_tx_serial_data.tx_serial_data
-		.xcvr_native_s10_0_rx_serial_data_rx_serial_data (sdi_xcvr_test_1_xcvr_native_s10_0_rx_serial_data_rx_serial_data)  //   input,   width = 1,     xcvr_native_s10_0_rx_serial_data.rx_serial_data
-	);
-
-	q_sys_altera_mm_interconnect_1920_uje3pgq mm_interconnect_0 (
-		.master_0_master_address                                      (master_0_master_address),                                         //   input,  width = 32,                                        master_0_master.address
-		.master_0_master_waitrequest                                  (master_0_master_waitrequest),                                     //  output,   width = 1,                                                       .waitrequest
-		.master_0_master_byteenable                                   (master_0_master_byteenable),                                      //   input,   width = 4,                                                       .byteenable
-		.master_0_master_read                                         (master_0_master_read),                                            //   input,   width = 1,                                                       .read
-		.master_0_master_readdata                                     (master_0_master_readdata),                                        //  output,  width = 32,                                                       .readdata
-		.master_0_master_readdatavalid                                (master_0_master_readdatavalid),                                   //  output,   width = 1,                                                       .readdatavalid
-		.master_0_master_write                                        (master_0_master_write),                                           //   input,   width = 1,                                                       .write
-		.master_0_master_writedata                                    (master_0_master_writedata),                                       //   input,  width = 32,                                                       .writedata
-		.product_info_0_avalon_slave_0_address                        (mm_interconnect_0_product_info_0_avalon_slave_0_address),         //  output,   width = 2,                          product_info_0_avalon_slave_0.address
-		.product_info_0_avalon_slave_0_read                           (mm_interconnect_0_product_info_0_avalon_slave_0_read),            //  output,   width = 1,                                                       .read
-		.product_info_0_avalon_slave_0_readdata                       (mm_interconnect_0_product_info_0_avalon_slave_0_readdata),        //   input,  width = 32,                                                       .readdata
-		.product_info_0_avalon_slave_0_chipselect                     (mm_interconnect_0_product_info_0_avalon_slave_0_chipselect),      //  output,   width = 1,                                                       .chipselect
-		.qsfp_xcvr_test_0_mm_bridge_0_s0_address                      (mm_interconnect_0_qsfp_xcvr_test_0_mm_bridge_0_s0_address),       //  output,  width = 15,                        qsfp_xcvr_test_0_mm_bridge_0_s0.address
-		.qsfp_xcvr_test_0_mm_bridge_0_s0_write                        (mm_interconnect_0_qsfp_xcvr_test_0_mm_bridge_0_s0_write),         //  output,   width = 1,                                                       .write
-		.qsfp_xcvr_test_0_mm_bridge_0_s0_read                         (mm_interconnect_0_qsfp_xcvr_test_0_mm_bridge_0_s0_read),          //  output,   width = 1,                                                       .read
-		.qsfp_xcvr_test_0_mm_bridge_0_s0_readdata                     (mm_interconnect_0_qsfp_xcvr_test_0_mm_bridge_0_s0_readdata),      //   input,  width = 32,                                                       .readdata
-		.qsfp_xcvr_test_0_mm_bridge_0_s0_writedata                    (mm_interconnect_0_qsfp_xcvr_test_0_mm_bridge_0_s0_writedata),     //  output,  width = 32,                                                       .writedata
-		.qsfp_xcvr_test_0_mm_bridge_0_s0_burstcount                   (mm_interconnect_0_qsfp_xcvr_test_0_mm_bridge_0_s0_burstcount),    //  output,   width = 1,                                                       .burstcount
-		.qsfp_xcvr_test_0_mm_bridge_0_s0_byteenable                   (mm_interconnect_0_qsfp_xcvr_test_0_mm_bridge_0_s0_byteenable),    //  output,   width = 4,                                                       .byteenable
-		.qsfp_xcvr_test_0_mm_bridge_0_s0_readdatavalid                (mm_interconnect_0_qsfp_xcvr_test_0_mm_bridge_0_s0_readdatavalid), //   input,   width = 1,                                                       .readdatavalid
-		.qsfp_xcvr_test_0_mm_bridge_0_s0_waitrequest                  (mm_interconnect_0_qsfp_xcvr_test_0_mm_bridge_0_s0_waitrequest),   //   input,   width = 1,                                                       .waitrequest
-		.qsfp_xcvr_test_0_mm_bridge_0_s0_debugaccess                  (mm_interconnect_0_qsfp_xcvr_test_0_mm_bridge_0_s0_debugaccess),   //  output,   width = 1,                                                       .debugaccess
-		.qsfp_xcvr_test_1_mm_bridge_0_s0_address                      (mm_interconnect_0_qsfp_xcvr_test_1_mm_bridge_0_s0_address),       //  output,  width = 15,                        qsfp_xcvr_test_1_mm_bridge_0_s0.address
-		.qsfp_xcvr_test_1_mm_bridge_0_s0_write                        (mm_interconnect_0_qsfp_xcvr_test_1_mm_bridge_0_s0_write),         //  output,   width = 1,                                                       .write
-		.qsfp_xcvr_test_1_mm_bridge_0_s0_read                         (mm_interconnect_0_qsfp_xcvr_test_1_mm_bridge_0_s0_read),          //  output,   width = 1,                                                       .read
-		.qsfp_xcvr_test_1_mm_bridge_0_s0_readdata                     (mm_interconnect_0_qsfp_xcvr_test_1_mm_bridge_0_s0_readdata),      //   input,  width = 32,                                                       .readdata
-		.qsfp_xcvr_test_1_mm_bridge_0_s0_writedata                    (mm_interconnect_0_qsfp_xcvr_test_1_mm_bridge_0_s0_writedata),     //  output,  width = 32,                                                       .writedata
-		.qsfp_xcvr_test_1_mm_bridge_0_s0_burstcount                   (mm_interconnect_0_qsfp_xcvr_test_1_mm_bridge_0_s0_burstcount),    //  output,   width = 1,                                                       .burstcount
-		.qsfp_xcvr_test_1_mm_bridge_0_s0_byteenable                   (mm_interconnect_0_qsfp_xcvr_test_1_mm_bridge_0_s0_byteenable),    //  output,   width = 4,                                                       .byteenable
-		.qsfp_xcvr_test_1_mm_bridge_0_s0_readdatavalid                (mm_interconnect_0_qsfp_xcvr_test_1_mm_bridge_0_s0_readdatavalid), //   input,   width = 1,                                                       .readdatavalid
-		.qsfp_xcvr_test_1_mm_bridge_0_s0_waitrequest                  (mm_interconnect_0_qsfp_xcvr_test_1_mm_bridge_0_s0_waitrequest),   //   input,   width = 1,                                                       .waitrequest
-		.qsfp_xcvr_test_1_mm_bridge_0_s0_debugaccess                  (mm_interconnect_0_qsfp_xcvr_test_1_mm_bridge_0_s0_debugaccess),   //  output,   width = 1,                                                       .debugaccess
-		.qsfp_xcvr_test_3_mm_bridge_0_s0_address                      (mm_interconnect_0_qsfp_xcvr_test_3_mm_bridge_0_s0_address),       //  output,  width = 15,                        qsfp_xcvr_test_3_mm_bridge_0_s0.address
-		.qsfp_xcvr_test_3_mm_bridge_0_s0_write                        (mm_interconnect_0_qsfp_xcvr_test_3_mm_bridge_0_s0_write),         //  output,   width = 1,                                                       .write
-		.qsfp_xcvr_test_3_mm_bridge_0_s0_read                         (mm_interconnect_0_qsfp_xcvr_test_3_mm_bridge_0_s0_read),          //  output,   width = 1,                                                       .read
-		.qsfp_xcvr_test_3_mm_bridge_0_s0_readdata                     (mm_interconnect_0_qsfp_xcvr_test_3_mm_bridge_0_s0_readdata),      //   input,  width = 32,                                                       .readdata
-		.qsfp_xcvr_test_3_mm_bridge_0_s0_writedata                    (mm_interconnect_0_qsfp_xcvr_test_3_mm_bridge_0_s0_writedata),     //  output,  width = 32,                                                       .writedata
-		.qsfp_xcvr_test_3_mm_bridge_0_s0_burstcount                   (mm_interconnect_0_qsfp_xcvr_test_3_mm_bridge_0_s0_burstcount),    //  output,   width = 1,                                                       .burstcount
-		.qsfp_xcvr_test_3_mm_bridge_0_s0_byteenable                   (mm_interconnect_0_qsfp_xcvr_test_3_mm_bridge_0_s0_byteenable),    //  output,   width = 4,                                                       .byteenable
-		.qsfp_xcvr_test_3_mm_bridge_0_s0_readdatavalid                (mm_interconnect_0_qsfp_xcvr_test_3_mm_bridge_0_s0_readdatavalid), //   input,   width = 1,                                                       .readdatavalid
-		.qsfp_xcvr_test_3_mm_bridge_0_s0_waitrequest                  (mm_interconnect_0_qsfp_xcvr_test_3_mm_bridge_0_s0_waitrequest),   //   input,   width = 1,                                                       .waitrequest
-		.qsfp_xcvr_test_3_mm_bridge_0_s0_debugaccess                  (mm_interconnect_0_qsfp_xcvr_test_3_mm_bridge_0_s0_debugaccess),   //  output,   width = 1,                                                       .debugaccess
-		.qsfp_xcvr_test_4_mm_bridge_0_s0_address                      (mm_interconnect_0_qsfp_xcvr_test_4_mm_bridge_0_s0_address),       //  output,  width = 15,                        qsfp_xcvr_test_4_mm_bridge_0_s0.address
-		.qsfp_xcvr_test_4_mm_bridge_0_s0_write                        (mm_interconnect_0_qsfp_xcvr_test_4_mm_bridge_0_s0_write),         //  output,   width = 1,                                                       .write
-		.qsfp_xcvr_test_4_mm_bridge_0_s0_read                         (mm_interconnect_0_qsfp_xcvr_test_4_mm_bridge_0_s0_read),          //  output,   width = 1,                                                       .read
-		.qsfp_xcvr_test_4_mm_bridge_0_s0_readdata                     (mm_interconnect_0_qsfp_xcvr_test_4_mm_bridge_0_s0_readdata),      //   input,  width = 32,                                                       .readdata
-		.qsfp_xcvr_test_4_mm_bridge_0_s0_writedata                    (mm_interconnect_0_qsfp_xcvr_test_4_mm_bridge_0_s0_writedata),     //  output,  width = 32,                                                       .writedata
-		.qsfp_xcvr_test_4_mm_bridge_0_s0_burstcount                   (mm_interconnect_0_qsfp_xcvr_test_4_mm_bridge_0_s0_burstcount),    //  output,   width = 1,                                                       .burstcount
-		.qsfp_xcvr_test_4_mm_bridge_0_s0_byteenable                   (mm_interconnect_0_qsfp_xcvr_test_4_mm_bridge_0_s0_byteenable),    //  output,   width = 4,                                                       .byteenable
-		.qsfp_xcvr_test_4_mm_bridge_0_s0_readdatavalid                (mm_interconnect_0_qsfp_xcvr_test_4_mm_bridge_0_s0_readdatavalid), //   input,   width = 1,                                                       .readdatavalid
-		.qsfp_xcvr_test_4_mm_bridge_0_s0_waitrequest                  (mm_interconnect_0_qsfp_xcvr_test_4_mm_bridge_0_s0_waitrequest),   //   input,   width = 1,                                                       .waitrequest
-		.qsfp_xcvr_test_4_mm_bridge_0_s0_debugaccess                  (mm_interconnect_0_qsfp_xcvr_test_4_mm_bridge_0_s0_debugaccess),   //  output,   width = 1,                                                       .debugaccess
-		.sdi_xcvr_test_0_mm_bridge_0_s0_address                       (mm_interconnect_0_sdi_xcvr_test_0_mm_bridge_0_s0_address),        //  output,  width = 15,                         sdi_xcvr_test_0_mm_bridge_0_s0.address
-		.sdi_xcvr_test_0_mm_bridge_0_s0_write                         (mm_interconnect_0_sdi_xcvr_test_0_mm_bridge_0_s0_write),          //  output,   width = 1,                                                       .write
-		.sdi_xcvr_test_0_mm_bridge_0_s0_read                          (mm_interconnect_0_sdi_xcvr_test_0_mm_bridge_0_s0_read),           //  output,   width = 1,                                                       .read
-		.sdi_xcvr_test_0_mm_bridge_0_s0_readdata                      (mm_interconnect_0_sdi_xcvr_test_0_mm_bridge_0_s0_readdata),       //   input,  width = 32,                                                       .readdata
-		.sdi_xcvr_test_0_mm_bridge_0_s0_writedata                     (mm_interconnect_0_sdi_xcvr_test_0_mm_bridge_0_s0_writedata),      //  output,  width = 32,                                                       .writedata
-		.sdi_xcvr_test_0_mm_bridge_0_s0_burstcount                    (mm_interconnect_0_sdi_xcvr_test_0_mm_bridge_0_s0_burstcount),     //  output,   width = 1,                                                       .burstcount
-		.sdi_xcvr_test_0_mm_bridge_0_s0_byteenable                    (mm_interconnect_0_sdi_xcvr_test_0_mm_bridge_0_s0_byteenable),     //  output,   width = 4,                                                       .byteenable
-		.sdi_xcvr_test_0_mm_bridge_0_s0_readdatavalid                 (mm_interconnect_0_sdi_xcvr_test_0_mm_bridge_0_s0_readdatavalid),  //   input,   width = 1,                                                       .readdatavalid
-		.sdi_xcvr_test_0_mm_bridge_0_s0_waitrequest                   (mm_interconnect_0_sdi_xcvr_test_0_mm_bridge_0_s0_waitrequest),    //   input,   width = 1,                                                       .waitrequest
-		.sdi_xcvr_test_0_mm_bridge_0_s0_debugaccess                   (mm_interconnect_0_sdi_xcvr_test_0_mm_bridge_0_s0_debugaccess),    //  output,   width = 1,                                                       .debugaccess
-		.sdi_xcvr_test_1_mm_bridge_0_s0_address                       (mm_interconnect_0_sdi_xcvr_test_1_mm_bridge_0_s0_address),        //  output,  width = 15,                         sdi_xcvr_test_1_mm_bridge_0_s0.address
-		.sdi_xcvr_test_1_mm_bridge_0_s0_write                         (mm_interconnect_0_sdi_xcvr_test_1_mm_bridge_0_s0_write),          //  output,   width = 1,                                                       .write
-		.sdi_xcvr_test_1_mm_bridge_0_s0_read                          (mm_interconnect_0_sdi_xcvr_test_1_mm_bridge_0_s0_read),           //  output,   width = 1,                                                       .read
-		.sdi_xcvr_test_1_mm_bridge_0_s0_readdata                      (mm_interconnect_0_sdi_xcvr_test_1_mm_bridge_0_s0_readdata),       //   input,  width = 32,                                                       .readdata
-		.sdi_xcvr_test_1_mm_bridge_0_s0_writedata                     (mm_interconnect_0_sdi_xcvr_test_1_mm_bridge_0_s0_writedata),      //  output,  width = 32,                                                       .writedata
-		.sdi_xcvr_test_1_mm_bridge_0_s0_burstcount                    (mm_interconnect_0_sdi_xcvr_test_1_mm_bridge_0_s0_burstcount),     //  output,   width = 1,                                                       .burstcount
-		.sdi_xcvr_test_1_mm_bridge_0_s0_byteenable                    (mm_interconnect_0_sdi_xcvr_test_1_mm_bridge_0_s0_byteenable),     //  output,   width = 4,                                                       .byteenable
-		.sdi_xcvr_test_1_mm_bridge_0_s0_readdatavalid                 (mm_interconnect_0_sdi_xcvr_test_1_mm_bridge_0_s0_readdatavalid),  //   input,   width = 1,                                                       .readdatavalid
-		.sdi_xcvr_test_1_mm_bridge_0_s0_waitrequest                   (mm_interconnect_0_sdi_xcvr_test_1_mm_bridge_0_s0_waitrequest),    //   input,   width = 1,                                                       .waitrequest
-		.sdi_xcvr_test_1_mm_bridge_0_s0_debugaccess                   (mm_interconnect_0_sdi_xcvr_test_1_mm_bridge_0_s0_debugaccess),    //  output,   width = 1,                                                       .debugaccess
-		.sdi_xcvr_atx_pll_reconfig_avmm0_address                      (mm_interconnect_0_sdi_xcvr_atx_pll_reconfig_avmm0_address),       //  output,  width = 11,                        sdi_xcvr_atx_pll_reconfig_avmm0.address
-		.sdi_xcvr_atx_pll_reconfig_avmm0_write                        (mm_interconnect_0_sdi_xcvr_atx_pll_reconfig_avmm0_write),         //  output,   width = 1,                                                       .write
-		.sdi_xcvr_atx_pll_reconfig_avmm0_read                         (mm_interconnect_0_sdi_xcvr_atx_pll_reconfig_avmm0_read),          //  output,   width = 1,                                                       .read
-		.sdi_xcvr_atx_pll_reconfig_avmm0_readdata                     (mm_interconnect_0_sdi_xcvr_atx_pll_reconfig_avmm0_readdata),      //   input,  width = 32,                                                       .readdata
-		.sdi_xcvr_atx_pll_reconfig_avmm0_writedata                    (mm_interconnect_0_sdi_xcvr_atx_pll_reconfig_avmm0_writedata),     //  output,  width = 32,                                                       .writedata
-		.sdi_xcvr_atx_pll_reconfig_avmm0_waitrequest                  (mm_interconnect_0_sdi_xcvr_atx_pll_reconfig_avmm0_waitrequest),   //   input,   width = 1,                                                       .waitrequest
-		.qsfp_xcvr_atx_pll_reconfig_avmm0_address                     (mm_interconnect_0_qsfp_xcvr_atx_pll_reconfig_avmm0_address),      //  output,  width = 11,                       qsfp_xcvr_atx_pll_reconfig_avmm0.address
-		.qsfp_xcvr_atx_pll_reconfig_avmm0_write                       (mm_interconnect_0_qsfp_xcvr_atx_pll_reconfig_avmm0_write),        //  output,   width = 1,                                                       .write
-		.qsfp_xcvr_atx_pll_reconfig_avmm0_read                        (mm_interconnect_0_qsfp_xcvr_atx_pll_reconfig_avmm0_read),         //  output,   width = 1,                                                       .read
-		.qsfp_xcvr_atx_pll_reconfig_avmm0_readdata                    (mm_interconnect_0_qsfp_xcvr_atx_pll_reconfig_avmm0_readdata),     //   input,  width = 32,                                                       .readdata
-		.qsfp_xcvr_atx_pll_reconfig_avmm0_writedata                   (mm_interconnect_0_qsfp_xcvr_atx_pll_reconfig_avmm0_writedata),    //  output,  width = 32,                                                       .writedata
-		.qsfp_xcvr_atx_pll_reconfig_avmm0_waitrequest                 (mm_interconnect_0_qsfp_xcvr_atx_pll_reconfig_avmm0_waitrequest),  //   input,   width = 1,                                                       .waitrequest
-		.qsfp_xcvr_atx_pll1_reconfig_avmm0_address                    (mm_interconnect_0_qsfp_xcvr_atx_pll1_reconfig_avmm0_address),     //  output,  width = 11,                      qsfp_xcvr_atx_pll1_reconfig_avmm0.address
-		.qsfp_xcvr_atx_pll1_reconfig_avmm0_write                      (mm_interconnect_0_qsfp_xcvr_atx_pll1_reconfig_avmm0_write),       //  output,   width = 1,                                                       .write
-		.qsfp_xcvr_atx_pll1_reconfig_avmm0_read                       (mm_interconnect_0_qsfp_xcvr_atx_pll1_reconfig_avmm0_read),        //  output,   width = 1,                                                       .read
-		.qsfp_xcvr_atx_pll1_reconfig_avmm0_readdata                   (mm_interconnect_0_qsfp_xcvr_atx_pll1_reconfig_avmm0_readdata),    //   input,  width = 32,                                                       .readdata
-		.qsfp_xcvr_atx_pll1_reconfig_avmm0_writedata                  (mm_interconnect_0_qsfp_xcvr_atx_pll1_reconfig_avmm0_writedata),   //  output,  width = 32,                                                       .writedata
-		.qsfp_xcvr_atx_pll1_reconfig_avmm0_waitrequest                (mm_interconnect_0_qsfp_xcvr_atx_pll1_reconfig_avmm0_waitrequest), //   input,   width = 1,                                                       .waitrequest
-		.product_info_0_reset_reset_bridge_in_reset_reset             (~clk_50_clk_reset_reset),                                         //   input,   width = 1,             product_info_0_reset_reset_bridge_in_reset.reset
-		.sdi_xcvr_atx_pll_reconfig_reset0_reset_bridge_in_reset_reset (~clk_100_clk_reset_reset),                                        //   input,   width = 1, sdi_xcvr_atx_pll_reconfig_reset0_reset_bridge_in_reset.reset
-		.clk_50_clk_clk                                               (clk_50_clk_clk),                                                  //   input,   width = 1,                                             clk_50_clk.clk
-		.clk_100_clk_clk                                              (clk_100_clk_clk)                                                  //   input,   width = 1,                                            clk_100_clk.clk
+	q_sys_altera_mm_interconnect_1920_kpacqfy mm_interconnect_0 (
+		.master_0_master_address                                       (master_0_master_address),                                         //   input,  width = 32,                                         master_0_master.address
+		.master_0_master_waitrequest                                   (master_0_master_waitrequest),                                     //  output,   width = 1,                                                        .waitrequest
+		.master_0_master_byteenable                                    (master_0_master_byteenable),                                      //   input,   width = 4,                                                        .byteenable
+		.master_0_master_read                                          (master_0_master_read),                                            //   input,   width = 1,                                                        .read
+		.master_0_master_readdata                                      (master_0_master_readdata),                                        //  output,  width = 32,                                                        .readdata
+		.master_0_master_readdatavalid                                 (master_0_master_readdatavalid),                                   //  output,   width = 1,                                                        .readdatavalid
+		.master_0_master_write                                         (master_0_master_write),                                           //   input,   width = 1,                                                        .write
+		.master_0_master_writedata                                     (master_0_master_writedata),                                       //   input,  width = 32,                                                        .writedata
+		.product_info_0_avalon_slave_0_address                         (mm_interconnect_0_product_info_0_avalon_slave_0_address),         //  output,   width = 2,                           product_info_0_avalon_slave_0.address
+		.product_info_0_avalon_slave_0_read                            (mm_interconnect_0_product_info_0_avalon_slave_0_read),            //  output,   width = 1,                                                        .read
+		.product_info_0_avalon_slave_0_readdata                        (mm_interconnect_0_product_info_0_avalon_slave_0_readdata),        //   input,  width = 32,                                                        .readdata
+		.product_info_0_avalon_slave_0_chipselect                      (mm_interconnect_0_product_info_0_avalon_slave_0_chipselect),      //  output,   width = 1,                                                        .chipselect
+		.qsfp_xcvr_test_0_mm_bridge_0_s0_address                       (mm_interconnect_0_qsfp_xcvr_test_0_mm_bridge_0_s0_address),       //  output,  width = 15,                         qsfp_xcvr_test_0_mm_bridge_0_s0.address
+		.qsfp_xcvr_test_0_mm_bridge_0_s0_write                         (mm_interconnect_0_qsfp_xcvr_test_0_mm_bridge_0_s0_write),         //  output,   width = 1,                                                        .write
+		.qsfp_xcvr_test_0_mm_bridge_0_s0_read                          (mm_interconnect_0_qsfp_xcvr_test_0_mm_bridge_0_s0_read),          //  output,   width = 1,                                                        .read
+		.qsfp_xcvr_test_0_mm_bridge_0_s0_readdata                      (mm_interconnect_0_qsfp_xcvr_test_0_mm_bridge_0_s0_readdata),      //   input,  width = 32,                                                        .readdata
+		.qsfp_xcvr_test_0_mm_bridge_0_s0_writedata                     (mm_interconnect_0_qsfp_xcvr_test_0_mm_bridge_0_s0_writedata),     //  output,  width = 32,                                                        .writedata
+		.qsfp_xcvr_test_0_mm_bridge_0_s0_burstcount                    (mm_interconnect_0_qsfp_xcvr_test_0_mm_bridge_0_s0_burstcount),    //  output,   width = 1,                                                        .burstcount
+		.qsfp_xcvr_test_0_mm_bridge_0_s0_byteenable                    (mm_interconnect_0_qsfp_xcvr_test_0_mm_bridge_0_s0_byteenable),    //  output,   width = 4,                                                        .byteenable
+		.qsfp_xcvr_test_0_mm_bridge_0_s0_readdatavalid                 (mm_interconnect_0_qsfp_xcvr_test_0_mm_bridge_0_s0_readdatavalid), //   input,   width = 1,                                                        .readdatavalid
+		.qsfp_xcvr_test_0_mm_bridge_0_s0_waitrequest                   (mm_interconnect_0_qsfp_xcvr_test_0_mm_bridge_0_s0_waitrequest),   //   input,   width = 1,                                                        .waitrequest
+		.qsfp_xcvr_test_0_mm_bridge_0_s0_debugaccess                   (mm_interconnect_0_qsfp_xcvr_test_0_mm_bridge_0_s0_debugaccess),   //  output,   width = 1,                                                        .debugaccess
+		.qsfp_xcvr_test_1_mm_bridge_0_s0_address                       (mm_interconnect_0_qsfp_xcvr_test_1_mm_bridge_0_s0_address),       //  output,  width = 15,                         qsfp_xcvr_test_1_mm_bridge_0_s0.address
+		.qsfp_xcvr_test_1_mm_bridge_0_s0_write                         (mm_interconnect_0_qsfp_xcvr_test_1_mm_bridge_0_s0_write),         //  output,   width = 1,                                                        .write
+		.qsfp_xcvr_test_1_mm_bridge_0_s0_read                          (mm_interconnect_0_qsfp_xcvr_test_1_mm_bridge_0_s0_read),          //  output,   width = 1,                                                        .read
+		.qsfp_xcvr_test_1_mm_bridge_0_s0_readdata                      (mm_interconnect_0_qsfp_xcvr_test_1_mm_bridge_0_s0_readdata),      //   input,  width = 32,                                                        .readdata
+		.qsfp_xcvr_test_1_mm_bridge_0_s0_writedata                     (mm_interconnect_0_qsfp_xcvr_test_1_mm_bridge_0_s0_writedata),     //  output,  width = 32,                                                        .writedata
+		.qsfp_xcvr_test_1_mm_bridge_0_s0_burstcount                    (mm_interconnect_0_qsfp_xcvr_test_1_mm_bridge_0_s0_burstcount),    //  output,   width = 1,                                                        .burstcount
+		.qsfp_xcvr_test_1_mm_bridge_0_s0_byteenable                    (mm_interconnect_0_qsfp_xcvr_test_1_mm_bridge_0_s0_byteenable),    //  output,   width = 4,                                                        .byteenable
+		.qsfp_xcvr_test_1_mm_bridge_0_s0_readdatavalid                 (mm_interconnect_0_qsfp_xcvr_test_1_mm_bridge_0_s0_readdatavalid), //   input,   width = 1,                                                        .readdatavalid
+		.qsfp_xcvr_test_1_mm_bridge_0_s0_waitrequest                   (mm_interconnect_0_qsfp_xcvr_test_1_mm_bridge_0_s0_waitrequest),   //   input,   width = 1,                                                        .waitrequest
+		.qsfp_xcvr_test_1_mm_bridge_0_s0_debugaccess                   (mm_interconnect_0_qsfp_xcvr_test_1_mm_bridge_0_s0_debugaccess),   //  output,   width = 1,                                                        .debugaccess
+		.qsfp_xcvr_test_3_mm_bridge_0_s0_address                       (mm_interconnect_0_qsfp_xcvr_test_3_mm_bridge_0_s0_address),       //  output,  width = 15,                         qsfp_xcvr_test_3_mm_bridge_0_s0.address
+		.qsfp_xcvr_test_3_mm_bridge_0_s0_write                         (mm_interconnect_0_qsfp_xcvr_test_3_mm_bridge_0_s0_write),         //  output,   width = 1,                                                        .write
+		.qsfp_xcvr_test_3_mm_bridge_0_s0_read                          (mm_interconnect_0_qsfp_xcvr_test_3_mm_bridge_0_s0_read),          //  output,   width = 1,                                                        .read
+		.qsfp_xcvr_test_3_mm_bridge_0_s0_readdata                      (mm_interconnect_0_qsfp_xcvr_test_3_mm_bridge_0_s0_readdata),      //   input,  width = 32,                                                        .readdata
+		.qsfp_xcvr_test_3_mm_bridge_0_s0_writedata                     (mm_interconnect_0_qsfp_xcvr_test_3_mm_bridge_0_s0_writedata),     //  output,  width = 32,                                                        .writedata
+		.qsfp_xcvr_test_3_mm_bridge_0_s0_burstcount                    (mm_interconnect_0_qsfp_xcvr_test_3_mm_bridge_0_s0_burstcount),    //  output,   width = 1,                                                        .burstcount
+		.qsfp_xcvr_test_3_mm_bridge_0_s0_byteenable                    (mm_interconnect_0_qsfp_xcvr_test_3_mm_bridge_0_s0_byteenable),    //  output,   width = 4,                                                        .byteenable
+		.qsfp_xcvr_test_3_mm_bridge_0_s0_readdatavalid                 (mm_interconnect_0_qsfp_xcvr_test_3_mm_bridge_0_s0_readdatavalid), //   input,   width = 1,                                                        .readdatavalid
+		.qsfp_xcvr_test_3_mm_bridge_0_s0_waitrequest                   (mm_interconnect_0_qsfp_xcvr_test_3_mm_bridge_0_s0_waitrequest),   //   input,   width = 1,                                                        .waitrequest
+		.qsfp_xcvr_test_3_mm_bridge_0_s0_debugaccess                   (mm_interconnect_0_qsfp_xcvr_test_3_mm_bridge_0_s0_debugaccess),   //  output,   width = 1,                                                        .debugaccess
+		.qsfp_xcvr_test_4_mm_bridge_0_s0_address                       (mm_interconnect_0_qsfp_xcvr_test_4_mm_bridge_0_s0_address),       //  output,  width = 15,                         qsfp_xcvr_test_4_mm_bridge_0_s0.address
+		.qsfp_xcvr_test_4_mm_bridge_0_s0_write                         (mm_interconnect_0_qsfp_xcvr_test_4_mm_bridge_0_s0_write),         //  output,   width = 1,                                                        .write
+		.qsfp_xcvr_test_4_mm_bridge_0_s0_read                          (mm_interconnect_0_qsfp_xcvr_test_4_mm_bridge_0_s0_read),          //  output,   width = 1,                                                        .read
+		.qsfp_xcvr_test_4_mm_bridge_0_s0_readdata                      (mm_interconnect_0_qsfp_xcvr_test_4_mm_bridge_0_s0_readdata),      //   input,  width = 32,                                                        .readdata
+		.qsfp_xcvr_test_4_mm_bridge_0_s0_writedata                     (mm_interconnect_0_qsfp_xcvr_test_4_mm_bridge_0_s0_writedata),     //  output,  width = 32,                                                        .writedata
+		.qsfp_xcvr_test_4_mm_bridge_0_s0_burstcount                    (mm_interconnect_0_qsfp_xcvr_test_4_mm_bridge_0_s0_burstcount),    //  output,   width = 1,                                                        .burstcount
+		.qsfp_xcvr_test_4_mm_bridge_0_s0_byteenable                    (mm_interconnect_0_qsfp_xcvr_test_4_mm_bridge_0_s0_byteenable),    //  output,   width = 4,                                                        .byteenable
+		.qsfp_xcvr_test_4_mm_bridge_0_s0_readdatavalid                 (mm_interconnect_0_qsfp_xcvr_test_4_mm_bridge_0_s0_readdatavalid), //   input,   width = 1,                                                        .readdatavalid
+		.qsfp_xcvr_test_4_mm_bridge_0_s0_waitrequest                   (mm_interconnect_0_qsfp_xcvr_test_4_mm_bridge_0_s0_waitrequest),   //   input,   width = 1,                                                        .waitrequest
+		.qsfp_xcvr_test_4_mm_bridge_0_s0_debugaccess                   (mm_interconnect_0_qsfp_xcvr_test_4_mm_bridge_0_s0_debugaccess),   //  output,   width = 1,                                                        .debugaccess
+		.qsfp_xcvr_atx_pll_reconfig_avmm0_address                      (mm_interconnect_0_qsfp_xcvr_atx_pll_reconfig_avmm0_address),      //  output,  width = 11,                        qsfp_xcvr_atx_pll_reconfig_avmm0.address
+		.qsfp_xcvr_atx_pll_reconfig_avmm0_write                        (mm_interconnect_0_qsfp_xcvr_atx_pll_reconfig_avmm0_write),        //  output,   width = 1,                                                        .write
+		.qsfp_xcvr_atx_pll_reconfig_avmm0_read                         (mm_interconnect_0_qsfp_xcvr_atx_pll_reconfig_avmm0_read),         //  output,   width = 1,                                                        .read
+		.qsfp_xcvr_atx_pll_reconfig_avmm0_readdata                     (mm_interconnect_0_qsfp_xcvr_atx_pll_reconfig_avmm0_readdata),     //   input,  width = 32,                                                        .readdata
+		.qsfp_xcvr_atx_pll_reconfig_avmm0_writedata                    (mm_interconnect_0_qsfp_xcvr_atx_pll_reconfig_avmm0_writedata),    //  output,  width = 32,                                                        .writedata
+		.qsfp_xcvr_atx_pll_reconfig_avmm0_waitrequest                  (mm_interconnect_0_qsfp_xcvr_atx_pll_reconfig_avmm0_waitrequest),  //   input,   width = 1,                                                        .waitrequest
+		.qsfp_xcvr_atx_pll1_reconfig_avmm0_address                     (mm_interconnect_0_qsfp_xcvr_atx_pll1_reconfig_avmm0_address),     //  output,  width = 11,                       qsfp_xcvr_atx_pll1_reconfig_avmm0.address
+		.qsfp_xcvr_atx_pll1_reconfig_avmm0_write                       (mm_interconnect_0_qsfp_xcvr_atx_pll1_reconfig_avmm0_write),       //  output,   width = 1,                                                        .write
+		.qsfp_xcvr_atx_pll1_reconfig_avmm0_read                        (mm_interconnect_0_qsfp_xcvr_atx_pll1_reconfig_avmm0_read),        //  output,   width = 1,                                                        .read
+		.qsfp_xcvr_atx_pll1_reconfig_avmm0_readdata                    (mm_interconnect_0_qsfp_xcvr_atx_pll1_reconfig_avmm0_readdata),    //   input,  width = 32,                                                        .readdata
+		.qsfp_xcvr_atx_pll1_reconfig_avmm0_writedata                   (mm_interconnect_0_qsfp_xcvr_atx_pll1_reconfig_avmm0_writedata),   //  output,  width = 32,                                                        .writedata
+		.qsfp_xcvr_atx_pll1_reconfig_avmm0_waitrequest                 (mm_interconnect_0_qsfp_xcvr_atx_pll1_reconfig_avmm0_waitrequest), //   input,   width = 1,                                                        .waitrequest
+		.product_info_0_reset_reset_bridge_in_reset_reset              (~clk_50_clk_reset_reset),                                         //   input,   width = 1,              product_info_0_reset_reset_bridge_in_reset.reset
+		.qsfp_xcvr_atx_pll_reconfig_reset0_reset_bridge_in_reset_reset (~clk_100_clk_reset_reset),                                        //   input,   width = 1, qsfp_xcvr_atx_pll_reconfig_reset0_reset_bridge_in_reset.reset
+		.clk_50_clk_clk                                                (clk_50_clk_clk),                                                  //   input,   width = 1,                                              clk_50_clk.clk
+		.clk_100_clk_clk                                               (clk_100_clk_clk)                                                  //   input,   width = 1,                                             clk_100_clk.clk
 	);
 
 endmodule

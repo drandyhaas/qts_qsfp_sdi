@@ -47,6 +47,11 @@ https://fpgasoftware.intel.com/eula.-->
          value = "1";
          type = "int";
       }
+      datum sopceditor_expanded
+      {
+         value = "0";
+         type = "boolean";
+      }
    }
    element clk_50
    {
@@ -57,7 +62,7 @@ https://fpgasoftware.intel.com/eula.-->
       }
       datum sopceditor_expanded
       {
-         value = "1";
+         value = "0";
          type = "boolean";
       }
    }
@@ -114,6 +119,11 @@ https://fpgasoftware.intel.com/eula.-->
       {
          value = "5";
          type = "int";
+      }
+      datum sopceditor_expanded
+      {
+         value = "0";
+         type = "boolean";
       }
    }
    element qsfp_xcvr_atx_pll
@@ -237,6 +247,11 @@ https://fpgasoftware.intel.com/eula.-->
          value = "2";
          type = "int";
       }
+      datum sopceditor_expanded
+      {
+         value = "0";
+         type = "boolean";
+      }
    }
    element sdi_xcvr_atx_pll_refclk
    {
@@ -244,6 +259,11 @@ https://fpgasoftware.intel.com/eula.-->
       {
          value = "0";
          type = "int";
+      }
+      datum sopceditor_expanded
+      {
+         value = "0";
+         type = "boolean";
       }
    }
    element sdi_xcvr_test_0
@@ -253,6 +273,11 @@ https://fpgasoftware.intel.com/eula.-->
          value = "6";
          type = "int";
       }
+      datum sopceditor_expanded
+      {
+         value = "0";
+         type = "boolean";
+      }
    }
    element sdi_xcvr_test_1
    {
@@ -260,6 +285,11 @@ https://fpgasoftware.intel.com/eula.-->
       {
          value = "7";
          type = "int";
+      }
+      datum sopceditor_expanded
+      {
+         value = "0";
+         type = "boolean";
       }
    }
 }
@@ -4155,7 +4185,7 @@ https://fpgasoftware.intel.com/eula.-->
           </ipxact:parameters>
         </altera:altera_module_parameters>
       </altera:module>
-      <altera:module altera:enabled="true" altera:auto_export="false">
+      <altera:module altera:enabled="false" altera:auto_export="false">
         <altera:entity_info>
           <ipxact:vendor>Altera Corporation</ipxact:vendor>
           <ipxact:library>q_sys_pll_status_interconnect_sdi</ipxact:library>
@@ -11412,7 +11442,7 @@ https://fpgasoftware.intel.com/eula.-->
           </ipxact:parameters>
         </altera:altera_module_parameters>
       </altera:module>
-      <altera:module altera:enabled="true" altera:auto_export="false">
+      <altera:module altera:enabled="false" altera:auto_export="false">
         <altera:entity_info>
           <ipxact:vendor>Altera Corporation</ipxact:vendor>
           <ipxact:library>sdi_xcvr_atx_pll</ipxact:library>
@@ -12593,7 +12623,7 @@ https://fpgasoftware.intel.com/eula.-->
           </ipxact:parameters>
         </altera:altera_module_parameters>
       </altera:module>
-      <altera:module altera:enabled="true" altera:auto_export="false">
+      <altera:module altera:enabled="false" altera:auto_export="false">
         <altera:entity_info>
           <ipxact:vendor>Altera Corporation</ipxact:vendor>
           <ipxact:library>sdi_xcvr_atx_pll_refclk</ipxact:library>
@@ -12880,7 +12910,7 @@ https://fpgasoftware.intel.com/eula.-->
           </ipxact:parameters>
         </altera:altera_module_parameters>
       </altera:module>
-      <altera:module altera:enabled="true" altera:auto_export="false">
+      <altera:module altera:enabled="false" altera:auto_export="false">
         <altera:entity_info>
           <ipxact:vendor>Altera Corporation</ipxact:vendor>
           <ipxact:library>sdi_xcvr_test_0</ipxact:library>
@@ -13660,15 +13690,15 @@ https://fpgasoftware.intel.com/eula.-->
                     &lt;consumedSystemInfos&gt;
                         &lt;entry&gt;
                             &lt;key&gt;CLOCK_DOMAIN&lt;/key&gt;
-                            &lt;value&gt;1&lt;/value&gt;
+                            &lt;value&gt;-1&lt;/value&gt;
                         &lt;/entry&gt;
                         &lt;entry&gt;
                             &lt;key&gt;CLOCK_RATE&lt;/key&gt;
-                            &lt;value&gt;100000000&lt;/value&gt;
+                            &lt;value&gt;-1&lt;/value&gt;
                         &lt;/entry&gt;
                         &lt;entry&gt;
                             &lt;key&gt;RESET_DOMAIN&lt;/key&gt;
-                            &lt;value&gt;1&lt;/value&gt;
+                            &lt;value&gt;-1&lt;/value&gt;
                         &lt;/entry&gt;
                     &lt;/consumedSystemInfos&gt;
                 &lt;/value&gt;
@@ -13681,15 +13711,15 @@ https://fpgasoftware.intel.com/eula.-->
                     &lt;consumedSystemInfos&gt;
                         &lt;entry&gt;
                             &lt;key&gt;CLOCK_DOMAIN&lt;/key&gt;
-                            &lt;value&gt;3&lt;/value&gt;
+                            &lt;value&gt;-1&lt;/value&gt;
                         &lt;/entry&gt;
                         &lt;entry&gt;
                             &lt;key&gt;CLOCK_RATE&lt;/key&gt;
-                            &lt;value&gt;50000000&lt;/value&gt;
+                            &lt;value&gt;-1&lt;/value&gt;
                         &lt;/entry&gt;
                         &lt;entry&gt;
                             &lt;key&gt;RESET_DOMAIN&lt;/key&gt;
-                            &lt;value&gt;3&lt;/value&gt;
+                            &lt;value&gt;-1&lt;/value&gt;
                         &lt;/entry&gt;
                     &lt;/consumedSystemInfos&gt;
                 &lt;/value&gt;
@@ -13720,15 +13750,15 @@ https://fpgasoftware.intel.com/eula.-->
                     &lt;consumedSystemInfos&gt;
                         &lt;entry&gt;
                             &lt;key&gt;CLOCK_DOMAIN&lt;/key&gt;
-                            &lt;value&gt;6&lt;/value&gt;
+                            &lt;value&gt;-1&lt;/value&gt;
                         &lt;/entry&gt;
                         &lt;entry&gt;
                             &lt;key&gt;CLOCK_RATE&lt;/key&gt;
-                            &lt;value&gt;148500000&lt;/value&gt;
+                            &lt;value&gt;-1&lt;/value&gt;
                         &lt;/entry&gt;
                         &lt;entry&gt;
                             &lt;key&gt;RESET_DOMAIN&lt;/key&gt;
-                            &lt;value&gt;6&lt;/value&gt;
+                            &lt;value&gt;-1&lt;/value&gt;
                         &lt;/entry&gt;
                     &lt;/consumedSystemInfos&gt;
                 &lt;/value&gt;
@@ -13811,7 +13841,7 @@ https://fpgasoftware.intel.com/eula.-->
           </ipxact:parameters>
         </altera:altera_module_parameters>
       </altera:module>
-      <altera:module altera:enabled="true" altera:auto_export="false">
+      <altera:module altera:enabled="false" altera:auto_export="false">
         <altera:entity_info>
           <ipxact:vendor>Altera Corporation</ipxact:vendor>
           <ipxact:library>sdi_xcvr_test_1</ipxact:library>
@@ -14591,15 +14621,15 @@ https://fpgasoftware.intel.com/eula.-->
                     &lt;consumedSystemInfos&gt;
                         &lt;entry&gt;
                             &lt;key&gt;CLOCK_DOMAIN&lt;/key&gt;
-                            &lt;value&gt;1&lt;/value&gt;
+                            &lt;value&gt;-1&lt;/value&gt;
                         &lt;/entry&gt;
                         &lt;entry&gt;
                             &lt;key&gt;CLOCK_RATE&lt;/key&gt;
-                            &lt;value&gt;100000000&lt;/value&gt;
+                            &lt;value&gt;-1&lt;/value&gt;
                         &lt;/entry&gt;
                         &lt;entry&gt;
                             &lt;key&gt;RESET_DOMAIN&lt;/key&gt;
-                            &lt;value&gt;1&lt;/value&gt;
+                            &lt;value&gt;-1&lt;/value&gt;
                         &lt;/entry&gt;
                     &lt;/consumedSystemInfos&gt;
                 &lt;/value&gt;
@@ -14612,15 +14642,15 @@ https://fpgasoftware.intel.com/eula.-->
                     &lt;consumedSystemInfos&gt;
                         &lt;entry&gt;
                             &lt;key&gt;CLOCK_DOMAIN&lt;/key&gt;
-                            &lt;value&gt;3&lt;/value&gt;
+                            &lt;value&gt;-1&lt;/value&gt;
                         &lt;/entry&gt;
                         &lt;entry&gt;
                             &lt;key&gt;CLOCK_RATE&lt;/key&gt;
-                            &lt;value&gt;50000000&lt;/value&gt;
+                            &lt;value&gt;-1&lt;/value&gt;
                         &lt;/entry&gt;
                         &lt;entry&gt;
                             &lt;key&gt;RESET_DOMAIN&lt;/key&gt;
-                            &lt;value&gt;3&lt;/value&gt;
+                            &lt;value&gt;-1&lt;/value&gt;
                         &lt;/entry&gt;
                     &lt;/consumedSystemInfos&gt;
                 &lt;/value&gt;
@@ -14651,15 +14681,15 @@ https://fpgasoftware.intel.com/eula.-->
                     &lt;consumedSystemInfos&gt;
                         &lt;entry&gt;
                             &lt;key&gt;CLOCK_DOMAIN&lt;/key&gt;
-                            &lt;value&gt;6&lt;/value&gt;
+                            &lt;value&gt;-1&lt;/value&gt;
                         &lt;/entry&gt;
                         &lt;entry&gt;
                             &lt;key&gt;CLOCK_RATE&lt;/key&gt;
-                            &lt;value&gt;148500000&lt;/value&gt;
+                            &lt;value&gt;-1&lt;/value&gt;
                         &lt;/entry&gt;
                         &lt;entry&gt;
                             &lt;key&gt;RESET_DOMAIN&lt;/key&gt;
-                            &lt;value&gt;6&lt;/value&gt;
+                            &lt;value&gt;-1&lt;/value&gt;
                         &lt;/entry&gt;
                     &lt;/consumedSystemInfos&gt;
                 &lt;/value&gt;
@@ -15081,7 +15111,7 @@ https://fpgasoftware.intel.com/eula.-->
       <altera:interface_mapping altera:name="clk_50" altera:internal="clk_50.clk_in" altera:type="clock" altera:dir="end"></altera:interface_mapping>
       <altera:interface_mapping altera:name="q_sys_pll_status_interconnect_qsfp_pll_locked" altera:internal="q_sys_pll_status_interconnect_qsfp.pll_locked_output" altera:type="conduit" altera:dir="end"></altera:interface_mapping>
       <altera:interface_mapping altera:name="q_sys_pll_status_interconnect_qsfp_pll_locked1" altera:internal="q_sys_pll_status_interconnect_qsfp1.pll_locked_output" altera:type="conduit" altera:dir="end"></altera:interface_mapping>
-      <altera:interface_mapping altera:name="q_sys_pll_status_interconnect_sdi_pll_locked" altera:internal="q_sys_pll_status_interconnect_sdi.pll_locked_output" altera:type="conduit" altera:dir="end"></altera:interface_mapping>
+      <altera:interface_mapping altera:name="q_sys_pll_status_interconnect_sdi_pll_locked" altera:internal="q_sys_pll_status_interconnect_sdi.pll_locked_output"></altera:interface_mapping>
       <altera:interface_mapping altera:name="qsfp_xcvr_atx_pll_refclk_in_clk" altera:internal="qsfp_xcvr_atx_pll_refclk.in_clk" altera:type="clock" altera:dir="end"></altera:interface_mapping>
       <altera:interface_mapping altera:name="qsfp_xcvr_test_0_xcvr_native_s10_0_rx_serial_data" altera:internal="qsfp_xcvr_test_0.xcvr_native_s10_0_rx_serial_data" altera:type="conduit" altera:dir="end"></altera:interface_mapping>
       <altera:interface_mapping altera:name="qsfp_xcvr_test_0_xcvr_native_s10_0_tx_serial_data" altera:internal="qsfp_xcvr_test_0.xcvr_native_s10_0_tx_serial_data" altera:type="conduit" altera:dir="end"></altera:interface_mapping>
@@ -15093,11 +15123,7 @@ https://fpgasoftware.intel.com/eula.-->
       <altera:interface_mapping altera:name="qsfp_xcvr_test_4_xcvr_native_s10_0_tx_serial_data" altera:internal="qsfp_xcvr_test_4.xcvr_native_s10_0_tx_serial_data" altera:type="conduit" altera:dir="end"></altera:interface_mapping>
       <altera:interface_mapping altera:name="reset_100" altera:internal="clk_100.clk_in_reset" altera:type="reset" altera:dir="end"></altera:interface_mapping>
       <altera:interface_mapping altera:name="reset_50" altera:internal="clk_50.clk_in_reset" altera:type="reset" altera:dir="end"></altera:interface_mapping>
-      <altera:interface_mapping altera:name="sdi_xcvr_atx_pll_refclk_in_clk" altera:internal="sdi_xcvr_atx_pll_refclk.in_clk" altera:type="clock" altera:dir="end"></altera:interface_mapping>
-      <altera:interface_mapping altera:name="sdi_xcvr_test_0_xcvr_native_s10_0_rx_serial_data" altera:internal="sdi_xcvr_test_0.xcvr_native_s10_0_rx_serial_data" altera:type="conduit" altera:dir="end"></altera:interface_mapping>
-      <altera:interface_mapping altera:name="sdi_xcvr_test_0_xcvr_native_s10_0_tx_serial_data" altera:internal="sdi_xcvr_test_0.xcvr_native_s10_0_tx_serial_data" altera:type="conduit" altera:dir="end"></altera:interface_mapping>
-      <altera:interface_mapping altera:name="sdi_xcvr_test_1_xcvr_native_s10_0_rx_serial_data" altera:internal="sdi_xcvr_test_1.xcvr_native_s10_0_rx_serial_data" altera:type="conduit" altera:dir="end"></altera:interface_mapping>
-      <altera:interface_mapping altera:name="sdi_xcvr_test_1_xcvr_native_s10_0_tx_serial_data" altera:internal="sdi_xcvr_test_1.xcvr_native_s10_0_tx_serial_data" altera:type="conduit" altera:dir="end"></altera:interface_mapping>
+      <altera:interface_mapping altera:name="sdi_xcvr_atx_pll_refclk_in_clk" altera:internal="sdi_xcvr_atx_pll_refclk.in_clk"></altera:interface_mapping>
     </altera:altera_interface_boundary>
     <ipxact:components>
       <ipxact:component>
@@ -15124,18 +15150,6 @@ https://fpgasoftware.intel.com/eula.-->
           </ipxact:busInterface>
           <ipxact:busInterface>
             <ipxact:name>qsfp_xcvr_test_4.mm_bridge_0_s0</ipxact:name>
-            <ipxact:busType vendor="intel" library="intel" name="avalon" version="23.3"></ipxact:busType>
-          </ipxact:busInterface>
-          <ipxact:busInterface>
-            <ipxact:name>sdi_xcvr_test_0.mm_bridge_0_s0</ipxact:name>
-            <ipxact:busType vendor="intel" library="intel" name="avalon" version="23.3"></ipxact:busType>
-          </ipxact:busInterface>
-          <ipxact:busInterface>
-            <ipxact:name>sdi_xcvr_test_1.mm_bridge_0_s0</ipxact:name>
-            <ipxact:busType vendor="intel" library="intel" name="avalon" version="23.3"></ipxact:busType>
-          </ipxact:busInterface>
-          <ipxact:busInterface>
-            <ipxact:name>sdi_xcvr_atx_pll.reconfig_avmm0</ipxact:name>
             <ipxact:busType vendor="intel" library="intel" name="avalon" version="23.3"></ipxact:busType>
           </ipxact:busInterface>
           <ipxact:busInterface>
@@ -15184,21 +15198,6 @@ https://fpgasoftware.intel.com/eula.-->
                 <ipxact:name>qsfp_xcvr_test_4.mm_bridge_0_s0</ipxact:name>
                 <ipxact:addressOffset>0x0004_0000</ipxact:addressOffset>
                 <ipxact:range>0x0000_8000</ipxact:range>
-              </ipxact:segment>
-              <ipxact:segment>
-                <ipxact:name>sdi_xcvr_test_0.mm_bridge_0_s0</ipxact:name>
-                <ipxact:addressOffset>0x0005_0000</ipxact:addressOffset>
-                <ipxact:range>0x0000_8000</ipxact:range>
-              </ipxact:segment>
-              <ipxact:segment>
-                <ipxact:name>sdi_xcvr_test_1.mm_bridge_0_s0</ipxact:name>
-                <ipxact:addressOffset>0x0006_0000</ipxact:addressOffset>
-                <ipxact:range>0x0000_8000</ipxact:range>
-              </ipxact:segment>
-              <ipxact:segment>
-                <ipxact:name>sdi_xcvr_atx_pll.reconfig_avmm0</ipxact:name>
-                <ipxact:addressOffset>0x0030_0000</ipxact:addressOffset>
-                <ipxact:range>0x0000_2000</ipxact:range>
               </ipxact:segment>
               <ipxact:segment>
                 <ipxact:name>qsfp_xcvr_atx_pll.reconfig_avmm0</ipxact:name>

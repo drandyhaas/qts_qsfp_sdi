@@ -79,7 +79,7 @@ module qts_qsfp_sdi (
     
     q_sys q_sys_i  (
         .qsfp_xcvr_atx_pll_refclk_in_clk_clk                              (refclk_qsfp_p           ), //                                    atx_pll_1k_refclk_in_clk.clk
-        .sdi_xcvr_atx_pll_refclk_in_clk_clk                               (refclk_sdi_p            ), //                                    atx_pll_1n_refclk_in_clk.clk
+//        .sdi_xcvr_atx_pll_refclk_in_clk_clk                               (refclk_sdi_p            ), //                                    atx_pll_1n_refclk_in_clk.clk
         .clk_100_clk                                                      (clk_fpga_100m           ), //                                                     clk_100.clk
         .reset_100_reset_n                                                (system_reset_n          ), //                                               clk_100_reset.reset_n
         .clk_50_clk                                                       (clk_50                  ), //                                                      clk_50.clk
@@ -93,12 +93,12 @@ module qts_qsfp_sdi (
         .qsfp_xcvr_test_4_xcvr_native_s10_0_rx_serial_data_rx_serial_data (qsfp_rx_p[1]            ), // qsfp_xcvr_system_bank_1k_4_xcvr_native_s10_0_rx_serial_data.rx_serial_data
         .qsfp_xcvr_test_4_xcvr_native_s10_0_tx_serial_data_tx_serial_data (qsfp_tx_p[1]            ), // qsfp_xcvr_system_bank_1k_4_xcvr_native_s10_0_tx_serial_data.tx_serial_data
         .q_sys_pll_status_interconnect_qsfp_pll_locked1_pll_locked        (qsfp_xcvr_atx_pll_locked1),
-        .q_sys_pll_status_interconnect_qsfp_pll_locked_pll_locked         (qsfp_xcvr_atx_pll_locked), //               qsfp_xcvr_system_pll_status_pll_locked_output.pll_locked
-        .sdi_xcvr_test_0_xcvr_native_s10_0_rx_serial_data_rx_serial_data  (sdi_rx_p[0]             ), //  sdi_xcvr_system_bank_1n_0_xcvr_native_s10_0_rx_serial_data.rx_serial_data
-        .sdi_xcvr_test_0_xcvr_native_s10_0_tx_serial_data_tx_serial_data  (sdi_tx_p[0]             ), //  sdi_xcvr_system_bank_1n_0_xcvr_native_s10_0_tx_serial_data.tx_serial_data
-        .sdi_xcvr_test_1_xcvr_native_s10_0_rx_serial_data_rx_serial_data  (sdi_rx_p[1]             ), //  sdi_xcvr_system_bank_1n_1_xcvr_native_s10_0_rx_serial_data.rx_serial_data
-        .sdi_xcvr_test_1_xcvr_native_s10_0_tx_serial_data_tx_serial_data  (sdi_tx_p[1]             ), //  sdi_xcvr_system_bank_1n_1_xcvr_native_s10_0_tx_serial_data.tx_serial_data
-        .q_sys_pll_status_interconnect_sdi_pll_locked_pll_locked          (sdi_xcvr_atx_pll_locked )  //                sdi_xcvr_system_pll_status_pll_locked_output.pll_locked
+        .q_sys_pll_status_interconnect_qsfp_pll_locked_pll_locked         (qsfp_xcvr_atx_pll_locked) //               qsfp_xcvr_system_pll_status_pll_locked_output.pll_locked
+//        .sdi_xcvr_test_0_xcvr_native_s10_0_rx_serial_data_rx_serial_data  (sdi_rx_p[0]             ), //  sdi_xcvr_system_bank_1n_0_xcvr_native_s10_0_rx_serial_data.rx_serial_data
+//        .sdi_xcvr_test_0_xcvr_native_s10_0_tx_serial_data_tx_serial_data  (sdi_tx_p[0]             ), //  sdi_xcvr_system_bank_1n_0_xcvr_native_s10_0_tx_serial_data.tx_serial_data
+//        .sdi_xcvr_test_1_xcvr_native_s10_0_rx_serial_data_rx_serial_data  (sdi_rx_p[1]             ), //  sdi_xcvr_system_bank_1n_1_xcvr_native_s10_0_rx_serial_data.rx_serial_data
+//        .sdi_xcvr_test_1_xcvr_native_s10_0_tx_serial_data_tx_serial_data  (sdi_tx_p[1]             ), //  sdi_xcvr_system_bank_1n_1_xcvr_native_s10_0_tx_serial_data.tx_serial_data
+//        .q_sys_pll_status_interconnect_sdi_pll_locked_pll_locked          (sdi_xcvr_atx_pll_locked )  //                sdi_xcvr_system_pll_status_pll_locked_output.pll_locked
     );
 
     assign qsfp_lp_mode        = 0;

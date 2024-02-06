@@ -21,7 +21,7 @@ https://fpgasoftware.intel.com/eula.-->
    tags=""
    categories="System"
    tool="QsysPro" />
- <parameter name="board">Intel Stratix 10 GX FPGA Development Kit DK-DEV-1SGX-H-A</parameter>
+ <parameter name="board" value="default" />
  <parameter name="bonusData"><![CDATA[bonusData 
 {
    element clk_100
@@ -11100,7 +11100,7 @@ https://fpgasoftware.intel.com/eula.-->
                     <consumedSystemInfos>
                         <entry>
                             <key>CLOCK_DOMAIN</key>
-                            <value>3</value>
+                            <value>5</value>
                         </entry>
                         <entry>
                             <key>CLOCK_RATE</key>
@@ -11108,7 +11108,7 @@ https://fpgasoftware.intel.com/eula.-->
                         </entry>
                         <entry>
                             <key>RESET_DOMAIN</key>
-                            <value>3</value>
+                            <value>5</value>
                         </entry>
                     </consumedSystemInfos>
                 </value>
@@ -11139,7 +11139,7 @@ https://fpgasoftware.intel.com/eula.-->
                     <consumedSystemInfos>
                         <entry>
                             <key>CLOCK_DOMAIN</key>
-                            <value>7</value>
+                            <value>9</value>
                         </entry>
                         <entry>
                             <key>CLOCK_RATE</key>
@@ -11147,7 +11147,7 @@ https://fpgasoftware.intel.com/eula.-->
                         </entry>
                         <entry>
                             <key>RESET_DOMAIN</key>
-                            <value>7</value>
+                            <value>9</value>
                         </entry>
                     </consumedSystemInfos>
                 </value>
@@ -11160,7 +11160,7 @@ https://fpgasoftware.intel.com/eula.-->
                     <consumedSystemInfos>
                         <entry>
                             <key>CLOCK_DOMAIN</key>
-                            <value>9</value>
+                            <value>11</value>
                         </entry>
                         <entry>
                             <key>CLOCK_RATE</key>
@@ -11168,7 +11168,7 @@ https://fpgasoftware.intel.com/eula.-->
                         </entry>
                         <entry>
                             <key>RESET_DOMAIN</key>
-                            <value>9</value>
+                            <value>11</value>
                         </entry>
                     </consumedSystemInfos>
                 </value>
