@@ -12,5 +12,5 @@ ChainEnd;
 
 AlteraBegin;
 	ChainType(JTAG);
-	Frequency(16000000);
+	Frequency(24000000);
 AlteraEnd;
