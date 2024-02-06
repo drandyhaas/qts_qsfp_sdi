@@ -247,15 +247,6 @@ set_global_assignment -name IP_FILE ip/xcvr_test_system/xcvr_test_system_rx_fifo
 set_global_assignment -name IP_FILE ip/xcvr_test_system/xcvr_test_system_mm_bridge_0.ip
 set_global_assignment -name IP_FILE ip/xcvr_test_system/xcvr_test_system_freq_counter_0.ip
 set_global_assignment -name IP_FILE ip/xcvr_test_system/xcvr_test_system_clk_50.ip
-set_global_assignment -name IP_FILE ip/sdi_xcvr_test/sdi_xcvr_test_xcvr_st_converter_0.ip
-set_global_assignment -name IP_FILE ip/sdi_xcvr_test/sdi_xcvr_test_xcvr_reset_control_s10_0.ip
-set_global_assignment -name IP_FILE ip/sdi_xcvr_test/sdi_xcvr_test_xcvr_native_s10_htile_0.ip
-set_global_assignment -name IP_FILE ip/sdi_xcvr_test/sdi_xcvr_test_pll_status_interconnect_0.ip
-set_global_assignment -name IP_FILE ip/sdi_xcvr_test/sdi_xcvr_test_nativePHY_loopback_cont_0.ip
-set_global_assignment -name IP_FILE ip/sdi_xcvr_test/sdi_xcvr_test_mm_bridge_0.ip
-set_global_assignment -name IP_FILE ip/sdi_xcvr_test/sdi_xcvr_test_default_pma_settings_conf_0.ip
-set_global_assignment -name IP_FILE ip/sdi_xcvr_test/sdi_xcvr_test_clk_100.ip
-set_global_assignment -name IP_FILE ip/sdi_xcvr_test/sdi_xcvr_test_clk_50.ip
 set_global_assignment -name IP_FILE ip/qsfp_xcvr_test/qsfp_xcvr_test_xcvr_st_converter_0.ip
 set_global_assignment -name IP_FILE ip/qsfp_xcvr_test/qsfp_xcvr_test_xcvr_reset_control_s10_0.ip
 set_global_assignment -name IP_FILE ip/qsfp_xcvr_test/qsfp_xcvr_test_xcvr_native_s10_htile_1.ip
@@ -280,7 +271,6 @@ set_global_assignment -name IP_FILE ip/q_sys/q_sys_clk_50.ip
 set_global_assignment -name VERILOG_FILE qts_qsfp_sdi.v
 set_global_assignment -name SDC_FILE qts_qsfp_sdi.sdc
 set_global_assignment -name QSYS_FILE xcvr_test_system.qsys
-set_global_assignment -name QSYS_FILE sdi_xcvr_test.qsys
 set_global_assignment -name QSYS_FILE qsfp_xcvr_test.qsys
 set_global_assignment -name QSYS_FILE q_sys.qsys
 set_global_assignment -name SIGNALTAP_FILE stp1.stp
