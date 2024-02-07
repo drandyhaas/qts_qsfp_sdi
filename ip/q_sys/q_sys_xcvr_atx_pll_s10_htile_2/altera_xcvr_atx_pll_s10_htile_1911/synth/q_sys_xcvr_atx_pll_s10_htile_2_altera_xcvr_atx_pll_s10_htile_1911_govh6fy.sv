@@ -34,7 +34,7 @@
 `timescale 1 ns / 1 ns
 (* altera_attribute = "-name UNCONNECTED_OUTPUT_PORT_MESSAGE_LEVEL OFF" *)
 
-module q_sys_xcvr_atx_pll_s10_htile_1_altera_xcvr_atx_pll_s10_htile_1911_uta4vvi
+module q_sys_xcvr_atx_pll_s10_htile_2_altera_xcvr_atx_pll_s10_htile_1911_govh6fy
   #(  
       // H-Tile specific
       parameter atx_pll_bcm_silicon_rev = "rev_off" ,   // H-Tile Valid values: rev_off reva revb revc 
@@ -644,7 +644,7 @@ module q_sys_xcvr_atx_pll_s10_htile_1_altera_xcvr_atx_pll_s10_htile_1911_uta4vvi
 
    //***************************************************************************
    //************* Embedded JTAG, AVMM and Embedded Streamer Expansion *********
-   alt_xcvr_pll_rcfg_opt_logic_uta4vvi 
+   alt_xcvr_pll_rcfg_opt_logic_govh6fy 
      #(
        .dbg_user_identifier                            (dbg_user_identifier                        ),
        .dbg_embedded_debug_enable                      (dbg_embedded_debug_enable                  ),

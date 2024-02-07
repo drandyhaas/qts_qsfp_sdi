@@ -12,15 +12,15 @@ set_global_assignment -entity "q_sys_xcvr_atx_pll_s10_htile_2" -library "q_sys_x
 set_global_assignment -name SYNTHESIS_ONLY_QIP ON
 set_global_assignment -library "q_sys_xcvr_atx_pll_s10_htile_2" -name MISC_FILE [file join $::quartus(qip_path) "../q_sys_xcvr_atx_pll_s10_htile_2.ip"]
 
-set_global_assignment -entity "q_sys_xcvr_atx_pll_s10_htile_2_altera_xcvr_atx_pll_s10_htile_1911_uta4vvi" -library "altera_xcvr_atx_pll_s10_htile_1911" -name IP_COMPONENT_NAME "cV9zeXNfeGN2cl9hdHhfcGxsX3MxMF9odGlsZV8yX2FsdGVyYV94Y3ZyX2F0eF9wbGxfczEwX2h0aWxlXzE5MTFfdXRhNHZ2aQ=="
-set_global_assignment -entity "q_sys_xcvr_atx_pll_s10_htile_2_altera_xcvr_atx_pll_s10_htile_1911_uta4vvi" -library "altera_xcvr_atx_pll_s10_htile_1911" -name IP_COMPONENT_DISPLAY_NAME "TC1UaWxlL0gtVGlsZSBUcmFuc2NlaXZlciBBVFggUExMIEludGVsIFN0cmF0aXggMTAgRlBHQSBJUA=="
-set_global_assignment -entity "q_sys_xcvr_atx_pll_s10_htile_2_altera_xcvr_atx_pll_s10_htile_1911_uta4vvi" -library "altera_xcvr_atx_pll_s10_htile_1911" -name IP_COMPONENT_REPORT_HIERARCHY "Off"
-set_global_assignment -entity "q_sys_xcvr_atx_pll_s10_htile_2_altera_xcvr_atx_pll_s10_htile_1911_uta4vvi" -library "altera_xcvr_atx_pll_s10_htile_1911" -name IP_COMPONENT_INTERNAL "Off"
-set_global_assignment -entity "q_sys_xcvr_atx_pll_s10_htile_2_altera_xcvr_atx_pll_s10_htile_1911_uta4vvi" -library "altera_xcvr_atx_pll_s10_htile_1911" -name IP_COMPONENT_AUTHOR "SW50ZWwgQ29ycG9yYXRpb24="
-set_global_assignment -entity "q_sys_xcvr_atx_pll_s10_htile_2_altera_xcvr_atx_pll_s10_htile_1911_uta4vvi" -library "altera_xcvr_atx_pll_s10_htile_1911" -name IP_COMPONENT_VERSION "MTkuMS4x"
-set_global_assignment -entity "q_sys_xcvr_atx_pll_s10_htile_2_altera_xcvr_atx_pll_s10_htile_1911_uta4vvi" -library "altera_xcvr_atx_pll_s10_htile_1911" -name IP_COMPONENT_DESCRIPTION "U3RyYXRpeCAxMCBMLVRpbGUvSC1UaWxlIFRyYW5zY2VpdmVyIEFUWCBQTEwu"
-set_global_assignment -entity "q_sys_xcvr_atx_pll_s10_htile_2_altera_xcvr_atx_pll_s10_htile_1911_uta4vvi" -library "altera_xcvr_atx_pll_s10_htile_1911" -name IP_COMPONENT_GROUP "SW50ZXJmYWNlIFByb3RvY29scy9UcmFuc2NlaXZlciBQTEw="
-set_global_assignment -entity "q_sys_xcvr_atx_pll_s10_htile_2_altera_xcvr_atx_pll_s10_htile_1911_uta4vvi" -library "altera_xcvr_atx_pll_s10_htile_1911" -name IP_COMPONENT_DOCUMENTATION_LINK "aHR0cDovL3d3dy5hbHRlcmEuY29tL2xpdGVyYXR1cmUvaGIvc3RyYXRpeC0xMC91Z19zdHJhdGl4MTBfeGN2cl9waHkucGRm"
+set_global_assignment -entity "q_sys_xcvr_atx_pll_s10_htile_2_altera_xcvr_atx_pll_s10_htile_1911_govh6fy" -library "altera_xcvr_atx_pll_s10_htile_1911" -name IP_COMPONENT_NAME "cV9zeXNfeGN2cl9hdHhfcGxsX3MxMF9odGlsZV8yX2FsdGVyYV94Y3ZyX2F0eF9wbGxfczEwX2h0aWxlXzE5MTFfZ292aDZmeQ=="
+set_global_assignment -entity "q_sys_xcvr_atx_pll_s10_htile_2_altera_xcvr_atx_pll_s10_htile_1911_govh6fy" -library "altera_xcvr_atx_pll_s10_htile_1911" -name IP_COMPONENT_DISPLAY_NAME "TC1UaWxlL0gtVGlsZSBUcmFuc2NlaXZlciBBVFggUExMIEludGVsIFN0cmF0aXggMTAgRlBHQSBJUA=="
+set_global_assignment -entity "q_sys_xcvr_atx_pll_s10_htile_2_altera_xcvr_atx_pll_s10_htile_1911_govh6fy" -library "altera_xcvr_atx_pll_s10_htile_1911" -name IP_COMPONENT_REPORT_HIERARCHY "Off"
+set_global_assignment -entity "q_sys_xcvr_atx_pll_s10_htile_2_altera_xcvr_atx_pll_s10_htile_1911_govh6fy" -library "altera_xcvr_atx_pll_s10_htile_1911" -name IP_COMPONENT_INTERNAL "Off"
+set_global_assignment -entity "q_sys_xcvr_atx_pll_s10_htile_2_altera_xcvr_atx_pll_s10_htile_1911_govh6fy" -library "altera_xcvr_atx_pll_s10_htile_1911" -name IP_COMPONENT_AUTHOR "SW50ZWwgQ29ycG9yYXRpb24="
+set_global_assignment -entity "q_sys_xcvr_atx_pll_s10_htile_2_altera_xcvr_atx_pll_s10_htile_1911_govh6fy" -library "altera_xcvr_atx_pll_s10_htile_1911" -name IP_COMPONENT_VERSION "MTkuMS4x"
+set_global_assignment -entity "q_sys_xcvr_atx_pll_s10_htile_2_altera_xcvr_atx_pll_s10_htile_1911_govh6fy" -library "altera_xcvr_atx_pll_s10_htile_1911" -name IP_COMPONENT_DESCRIPTION "U3RyYXRpeCAxMCBMLVRpbGUvSC1UaWxlIFRyYW5zY2VpdmVyIEFUWCBQTEwu"
+set_global_assignment -entity "q_sys_xcvr_atx_pll_s10_htile_2_altera_xcvr_atx_pll_s10_htile_1911_govh6fy" -library "altera_xcvr_atx_pll_s10_htile_1911" -name IP_COMPONENT_GROUP "SW50ZXJmYWNlIFByb3RvY29scy9UcmFuc2NlaXZlciBQTEw="
+set_global_assignment -entity "q_sys_xcvr_atx_pll_s10_htile_2_altera_xcvr_atx_pll_s10_htile_1911_govh6fy" -library "altera_xcvr_atx_pll_s10_htile_1911" -name IP_COMPONENT_DOCUMENTATION_LINK "aHR0cDovL3d3dy5hbHRlcmEuY29tL2xpdGVyYXR1cmUvaGIvc3RyYXRpeC0xMC91Z19zdHJhdGl4MTBfeGN2cl9waHkucGRm"
 set_global_assignment -entity "q_sys_xcvr_atx_pll_s10_htile_2" -library "q_sys_xcvr_atx_pll_s10_htile_2" -name IP_COMPONENT_NAME "cV9zeXNfeGN2cl9hdHhfcGxsX3MxMF9odGlsZV8y"
 set_global_assignment -entity "q_sys_xcvr_atx_pll_s10_htile_2" -library "q_sys_xcvr_atx_pll_s10_htile_2" -name IP_COMPONENT_DISPLAY_NAME "c3lzdGVt"
 set_global_assignment -entity "q_sys_xcvr_atx_pll_s10_htile_2" -library "q_sys_xcvr_atx_pll_s10_htile_2" -name IP_COMPONENT_REPORT_HIERARCHY "On"
@@ -41,17 +41,18 @@ set_global_assignment -library "altera_xcvr_atx_pll_s10_htile_1911" -name SYSTEM
 set_global_assignment -library "altera_xcvr_atx_pll_s10_htile_1911" -name SOURCE_FILE [file join $::quartus(qip_path) "altera_xcvr_atx_pll_s10_htile_1911/synth/plain_files.txt"]
 set_global_assignment -library "altera_xcvr_atx_pll_s10_htile_1911" -name SOURCE_FILE [file join $::quartus(qip_path) "altera_xcvr_atx_pll_s10_htile_1911/synth/reconfig/altera_xcvr_atx_pll_s10_reconfig_parameters_CFG0.mif"]
 set_global_assignment -library "altera_xcvr_atx_pll_s10_htile_1911" -name SOURCE_FILE [file join $::quartus(qip_path) "altera_xcvr_atx_pll_s10_htile_1911/synth/reconfig/altera_xcvr_atx_pll_s10_reconfig_parameters_CFG1.mif"]
-set_global_assignment -library "altera_xcvr_atx_pll_s10_htile_1911" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "altera_xcvr_atx_pll_s10_htile_1911/synth/alt_xcvr_native_rcfg_strm_params_uta4vvi.sv"]
+set_global_assignment -library "altera_xcvr_atx_pll_s10_htile_1911" -name SOURCE_FILE [file join $::quartus(qip_path) "altera_xcvr_atx_pll_s10_htile_1911/synth/reconfig/altera_xcvr_atx_pll_s10_reconfig_parameters_CFG2.mif"]
+set_global_assignment -library "altera_xcvr_atx_pll_s10_htile_1911" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "altera_xcvr_atx_pll_s10_htile_1911/synth/alt_xcvr_native_rcfg_strm_params_govh6fy.sv"]
 set_global_assignment -library "altera_xcvr_atx_pll_s10_htile_1911" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "altera_xcvr_atx_pll_s10_htile_1911/synth/alt_xcvr_native_rcfg_strm_functions.sv"]
-set_global_assignment -library "altera_xcvr_atx_pll_s10_htile_1911" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "altera_xcvr_atx_pll_s10_htile_1911/synth/q_sys_xcvr_atx_pll_s10_htile_2_altera_xcvr_atx_pll_s10_htile_1911_uta4vvi.sv"]
-set_global_assignment -library "altera_xcvr_atx_pll_s10_htile_1911" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "altera_xcvr_atx_pll_s10_htile_1911/synth/alt_xcvr_native_rcfg_strm_rom_uta4vvi.sv"]
-set_global_assignment -library "altera_xcvr_atx_pll_s10_htile_1911" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "altera_xcvr_atx_pll_s10_htile_1911/synth/alt_xcvr_native_rcfg_strm_top_uta4vvi.sv"]
-set_global_assignment -library "altera_xcvr_atx_pll_s10_htile_1911" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "altera_xcvr_atx_pll_s10_htile_1911/synth/alt_xcvr_native_rcfg_strm_ctrl_uta4vvi.sv"]
-set_global_assignment -library "altera_xcvr_atx_pll_s10_htile_1911" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "altera_xcvr_atx_pll_s10_htile_1911/synth/alt_xcvr_pll_rcfg_opt_logic_uta4vvi.sv"]
+set_global_assignment -library "altera_xcvr_atx_pll_s10_htile_1911" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "altera_xcvr_atx_pll_s10_htile_1911/synth/q_sys_xcvr_atx_pll_s10_htile_2_altera_xcvr_atx_pll_s10_htile_1911_govh6fy.sv"]
+set_global_assignment -library "altera_xcvr_atx_pll_s10_htile_1911" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "altera_xcvr_atx_pll_s10_htile_1911/synth/alt_xcvr_native_rcfg_strm_rom_govh6fy.sv"]
+set_global_assignment -library "altera_xcvr_atx_pll_s10_htile_1911" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "altera_xcvr_atx_pll_s10_htile_1911/synth/alt_xcvr_native_rcfg_strm_top_govh6fy.sv"]
+set_global_assignment -library "altera_xcvr_atx_pll_s10_htile_1911" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "altera_xcvr_atx_pll_s10_htile_1911/synth/alt_xcvr_native_rcfg_strm_ctrl_govh6fy.sv"]
+set_global_assignment -library "altera_xcvr_atx_pll_s10_htile_1911" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "altera_xcvr_atx_pll_s10_htile_1911/synth/alt_xcvr_pll_rcfg_opt_logic_govh6fy.sv"]
 set_global_assignment -library "q_sys_xcvr_atx_pll_s10_htile_2" -name VERILOG_FILE [file join $::quartus(qip_path) "synth/q_sys_xcvr_atx_pll_s10_htile_2.v"]
 
 
-set_global_assignment -entity "q_sys_xcvr_atx_pll_s10_htile_2_altera_xcvr_atx_pll_s10_htile_1911_uta4vvi" -library "altera_xcvr_atx_pll_s10_htile_1911" -name IP_TOOL_NAME "altera_xcvr_atx_pll_s10_htile"
-set_global_assignment -entity "q_sys_xcvr_atx_pll_s10_htile_2_altera_xcvr_atx_pll_s10_htile_1911_uta4vvi" -library "altera_xcvr_atx_pll_s10_htile_1911" -name IP_TOOL_VERSION "19.1.1"
-set_global_assignment -entity "q_sys_xcvr_atx_pll_s10_htile_2_altera_xcvr_atx_pll_s10_htile_1911_uta4vvi" -library "altera_xcvr_atx_pll_s10_htile_1911" -name IP_TOOL_ENV "QsysPrimePro"
+set_global_assignment -entity "q_sys_xcvr_atx_pll_s10_htile_2_altera_xcvr_atx_pll_s10_htile_1911_govh6fy" -library "altera_xcvr_atx_pll_s10_htile_1911" -name IP_TOOL_NAME "altera_xcvr_atx_pll_s10_htile"
+set_global_assignment -entity "q_sys_xcvr_atx_pll_s10_htile_2_altera_xcvr_atx_pll_s10_htile_1911_govh6fy" -library "altera_xcvr_atx_pll_s10_htile_1911" -name IP_TOOL_VERSION "19.1.1"
+set_global_assignment -entity "q_sys_xcvr_atx_pll_s10_htile_2_altera_xcvr_atx_pll_s10_htile_1911_govh6fy" -library "altera_xcvr_atx_pll_s10_htile_1911" -name IP_TOOL_ENV "QsysPrimePro"
 

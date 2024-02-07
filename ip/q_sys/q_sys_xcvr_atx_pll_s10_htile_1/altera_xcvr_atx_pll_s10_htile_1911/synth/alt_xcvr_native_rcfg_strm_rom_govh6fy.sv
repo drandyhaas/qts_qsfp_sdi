@@ -17,30 +17,30 @@
 `timescale 1 ps/1 ps
 
 import alt_xcvr_native_rcfg_strm_functions::*;
-import alt_xcvr_native_rcfg_strm_params_uta4vvi::*;
+import alt_xcvr_native_rcfg_strm_params_govh6fy::*;
 
-module alt_xcvr_native_rcfg_strm_rom_uta4vvi #(
+module alt_xcvr_native_rcfg_strm_rom_govh6fy #(
   parameter rcfg_rom_style   = "LOGIC",           //Type of inferred rom ("", "MLAB", or "M20K")
   parameter rcfg_profile_cnt = 2                  //Number of configerations in file
 )(
   input  wire                                                                  clk,
   input  wire [(altera_xcvr_native_s10_functions_h::clogb2_alt_xcvr_native_s10(rcfg_profile_cnt-1))-1:0]                               cfg_sel, //Selects a single configuration
-  input  wire [altera_xcvr_native_s10_functions_h::clogb2_alt_xcvr_native_s10(get_max_value(rcfg_profile_cnt, alt_xcvr_native_rcfg_strm_params_uta4vvi::rcfg_cfg_depths)-1)-1:0] addr,    //Address within the particular configuration (not rom address)
-  output reg  [alt_xcvr_native_rcfg_strm_params_uta4vvi::rom_data_width-1:0]                                             data
+  input  wire [altera_xcvr_native_s10_functions_h::clogb2_alt_xcvr_native_s10(get_max_value(rcfg_profile_cnt, alt_xcvr_native_rcfg_strm_params_govh6fy::rcfg_cfg_depths)-1)-1:0] addr,    //Address within the particular configuration (not rom address)
+  output reg  [alt_xcvr_native_rcfg_strm_params_govh6fy::rom_data_width-1:0]                                             data
 );
 
-  localparam rom_addr_width  = altera_xcvr_native_s10_functions_h::clogb2_alt_xcvr_native_s10(alt_xcvr_native_rcfg_strm_params_uta4vvi::rom_depth-1); //Calculate address width
+  localparam rom_addr_width  = altera_xcvr_native_s10_functions_h::clogb2_alt_xcvr_native_s10(alt_xcvr_native_rcfg_strm_params_govh6fy::rom_depth-1); //Calculate address width
 
   wire [31:0]                rom_addr_long;
   wire [rom_addr_width-1:0]  rom_addr;
 
-  assign rom_addr_long = get_sum(cfg_sel, alt_xcvr_native_rcfg_strm_params_uta4vvi::rcfg_cfg_depths) + addr; //Calculate rom address using sum of preceding configuration depths and address within current configuration
+  assign rom_addr_long = get_sum(cfg_sel, alt_xcvr_native_rcfg_strm_params_govh6fy::rcfg_cfg_depths) + addr; //Calculate rom address using sum of preceding configuration depths and address within current configuration
   assign rom_addr      = rom_addr_long[rom_addr_width-1:0];        //Truncate rom address to correct width
 
-  (* romstyle = rcfg_rom_style *) reg [alt_xcvr_native_rcfg_strm_params_uta4vvi::rom_data_width-1:0] rom [0:alt_xcvr_native_rcfg_strm_params_uta4vvi::rom_depth-1]; //Inferred rom
+  (* romstyle = rcfg_rom_style *) reg [alt_xcvr_native_rcfg_strm_params_govh6fy::rom_data_width-1:0] rom [0:alt_xcvr_native_rcfg_strm_params_govh6fy::rom_depth-1]; //Inferred rom
 
   initial begin
-    rom = alt_xcvr_native_rcfg_strm_params_uta4vvi::config_rom;
+    rom = alt_xcvr_native_rcfg_strm_params_govh6fy::config_rom;
   end
 
   always @ (posedge clk) begin

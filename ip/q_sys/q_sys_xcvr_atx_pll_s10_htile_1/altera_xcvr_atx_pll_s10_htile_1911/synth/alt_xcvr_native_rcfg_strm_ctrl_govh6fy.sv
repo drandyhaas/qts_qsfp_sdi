@@ -23,9 +23,9 @@
 `timescale 1 ns / 1 ps
 
 import alt_xcvr_native_rcfg_strm_functions::*;
-import alt_xcvr_native_rcfg_strm_params_uta4vvi::*;
+import alt_xcvr_native_rcfg_strm_params_govh6fy::*;
 
-module alt_xcvr_native_rcfg_strm_ctrl_uta4vvi #(
+module alt_xcvr_native_rcfg_strm_ctrl_govh6fy #(
   parameter cfg_addr_width        = 16,        // Address width within a single configuration in the rom
   parameter addr_mode             = 1,         // 0=word addressing, 1=byte addressing
   parameter xcvr_rcfg_if_type     = "channel", // Reconfig interface type: "channel", "atx", "fpll", "cmu"

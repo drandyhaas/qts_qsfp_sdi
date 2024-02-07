@@ -13,7 +13,7 @@
 
 `timescale 1 ps/1 ps
 
-module alt_xcvr_pll_rcfg_opt_logic_uta4vvi #(
+module alt_xcvr_pll_rcfg_opt_logic_govh6fy #(
   // Parameters for the embedded reconfiguration logic
   parameter                                 dbg_user_identifier         = 0,
   parameter                                 dbg_embedded_debug_enable   = 0,
@@ -271,7 +271,7 @@ endgenerate // End g_jtag
 /**********************************************************************/
 generate if(RCFG_EMB_STRM_ENABLED) begin : g_rcfg_strm_enable //TODO check to see if there is parameter redundancy
 
-      alt_xcvr_native_rcfg_strm_top_uta4vvi #(
+      alt_xcvr_native_rcfg_strm_top_govh6fy #(
         .xcvr_rcfg_interfaces                  ( INTERFACES                      ),
         .xcvr_rcfg_addr_width                  ( ADDR_BITS                       ),
         .xcvr_rcfg_data_width                  ( DATA_WIDTH                      ),

@@ -19,9 +19,9 @@
 
 
 import alt_xcvr_native_rcfg_strm_functions::*;
-import alt_xcvr_native_rcfg_strm_params_uta4vvi::*;
+import alt_xcvr_native_rcfg_strm_params_govh6fy::*;
 
-module alt_xcvr_native_rcfg_strm_top_uta4vvi #(
+module alt_xcvr_native_rcfg_strm_top_govh6fy #(
   parameter rcfg_rom_style        = "LOGIC",           //Type of inferred rom ("", "MLAB", or "M20K")
   parameter rcfg_profile_cnt      = 2,                //Number of configuration profiles
   parameter addr_mode             = 1,                //0=word addressing, 1=byte addressing
@@ -112,7 +112,7 @@ module alt_xcvr_native_rcfg_strm_top_uta4vvi #(
   end
 
   // Rom to store the reconfiguration settings
-  alt_xcvr_native_rcfg_strm_rom_uta4vvi #(
+  alt_xcvr_native_rcfg_strm_rom_govh6fy #(
     .rcfg_rom_style            (rcfg_rom_style           ),
     .rcfg_profile_cnt          (rcfg_profile_cnt         )
   )rom_inst(
@@ -123,7 +123,7 @@ module alt_xcvr_native_rcfg_strm_top_uta4vvi #(
   );
 
   // Streamer control block
-  alt_xcvr_native_rcfg_strm_ctrl_uta4vvi #(
+  alt_xcvr_native_rcfg_strm_ctrl_govh6fy #(
     .cfg_addr_width            (cfg_addr_width           ),
     .addr_mode                 (addr_mode                ),
     .xcvr_rcfg_if_type         (xcvr_rcfg_if_type        ),

@@ -24,14 +24,14 @@ BEGIN
 011 : 001458000; -- [26:16]-DPRIO address=0x145; [15:8]-bit mask=0x80; [7:7]-pma_rx_odi_monitor_bw_sel=bw_1(1'h0);
 012 : 001518000; -- [26:16]-DPRIO address=0x151; [15:8]-bit mask=0x80; [7:7]-pma_rx_buf_eq_cdgen_sel=eq_cdgen_0(1'h0);
 013 : 00154C040; -- [26:16]-DPRIO address=0x154; [15:8]-bit mask=0xC0; [7:6]-pma_rx_odi_vreg_voltage_sel=vreg1(2'h1);
-014 : 001600F0C; -- [26:16]-DPRIO address=0x160; [15:8]-bit mask=0x0F; [3:2]-pma_adapt_adp_dc_ctle_initial_value=radp_dc_ctle_initial_value_32(2'h3); [1:0]-pma_adapt_adp_ac_ctle_initial_value=radp_ac_ctle_initial_value_12(2'h0);
-015 : 001623020; -- [26:16]-DPRIO address=0x162; [15:8]-bit mask=0x30; [5:4]-pma_adapt_adp_dfe_tap1_initial_value=radp_dfe_tap1_initial_value_16(2'h2);
-016 : 001651E18; -- [26:16]-DPRIO address=0x165; [15:8]-bit mask=0x1E; [4:1]-pma_adapt_adp_dc_ctle_mode2_h2_limit=12(4'hC);
-017 : 001670303; -- [26:16]-DPRIO address=0x167; [15:8]-bit mask=0x03; [1:0]-pma_adapt_adp_vga_initial_value=radp_vga_initial_value_16(2'h3);
-018 : 0022E0400; -- [26:16]-DPRIO address=0x22E; [15:8]-bit mask=0x04; [2:2]-hssi_aibcr_tx_aib_dllstr_align_dy_ctlsel=aib_dllstr_align_dy_ctlsel_setting0(1'h0);
-019 : 002301818; -- [26:16]-DPRIO address=0x230; [15:8]-bit mask=0x18; [4:4]-hssi_aibcr_rx_aib_rx_dcc_en=aib_rx_dcc_enable(1'h1); [3:3]-hssi_aibcr_rx_aib_rx_dcc_byp=aib_rx_dcc_byp_disable(1'h1);
-01A : 0032C0400; -- [26:16]-DPRIO address=0x32C; [15:8]-bit mask=0x04; [2:2]-hssi_aibnd_rx_aib_dllstr_align_dy_ctlsel=aib_dllstr_align_dy_ctlsel_setting0(1'h0);
-01B : 0032E1818; -- [26:16]-DPRIO address=0x32E; [15:8]-bit mask=0x18; [4:4]-hssi_aibnd_tx_aib_tx_dcc_en=aib_tx_dcc_enable(1'h1); [3:3]-hssi_aibnd_tx_aib_tx_dcc_byp=aib_tx_dcc_byp_disable(1'h1);
-01C : 007FFFFFF; -- End of data
-01D : 007FFFFFF; -- Dummy data
+014 : 00159FF95; -- [26:16]-DPRIO address=0x159; [15:8]-bit mask=0xFF; [7:0]-cdr_pll_set_cdr_input_freq_range=149(8'h95);
+015 : 001600F0C; -- [26:16]-DPRIO address=0x160; [15:8]-bit mask=0x0F; [3:2]-pma_adapt_adp_dc_ctle_initial_value=radp_dc_ctle_initial_value_32(2'h3); [1:0]-pma_adapt_adp_ac_ctle_initial_value=radp_ac_ctle_initial_value_12(2'h0);
+016 : 001623020; -- [26:16]-DPRIO address=0x162; [15:8]-bit mask=0x30; [5:4]-pma_adapt_adp_dfe_tap1_initial_value=radp_dfe_tap1_initial_value_16(2'h2);
+017 : 001651E18; -- [26:16]-DPRIO address=0x165; [15:8]-bit mask=0x1E; [4:1]-pma_adapt_adp_dc_ctle_mode2_h2_limit=12(4'hC);
+018 : 001670303; -- [26:16]-DPRIO address=0x167; [15:8]-bit mask=0x03; [1:0]-pma_adapt_adp_vga_initial_value=radp_vga_initial_value_16(2'h3);
+019 : 0022E0400; -- [26:16]-DPRIO address=0x22E; [15:8]-bit mask=0x04; [2:2]-hssi_aibcr_tx_aib_dllstr_align_dy_ctlsel=aib_dllstr_align_dy_ctlsel_setting0(1'h0);
+01A : 002301818; -- [26:16]-DPRIO address=0x230; [15:8]-bit mask=0x18; [4:4]-hssi_aibcr_rx_aib_rx_dcc_en=aib_rx_dcc_enable(1'h1); [3:3]-hssi_aibcr_rx_aib_rx_dcc_byp=aib_rx_dcc_byp_disable(1'h1);
+01B : 0032C0400; -- [26:16]-DPRIO address=0x32C; [15:8]-bit mask=0x04; [2:2]-hssi_aibnd_rx_aib_dllstr_align_dy_ctlsel=aib_dllstr_align_dy_ctlsel_setting0(1'h0);
+01C : 0032E1818; -- [26:16]-DPRIO address=0x32E; [15:8]-bit mask=0x18; [4:4]-hssi_aibnd_tx_aib_tx_dcc_en=aib_tx_dcc_enable(1'h1); [3:3]-hssi_aibnd_tx_aib_tx_dcc_byp=aib_tx_dcc_byp_disable(1'h1);
+01D : 007FFFFFF; -- End of data
 END;

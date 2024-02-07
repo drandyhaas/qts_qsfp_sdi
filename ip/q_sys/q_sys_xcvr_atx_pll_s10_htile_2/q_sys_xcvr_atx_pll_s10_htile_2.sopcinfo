@@ -5,7 +5,7 @@
  version="1.0"
  fabric="QSYS">
  <!-- Format version 23.3 104 (Future versions may contain additional information.) -->
- <!-- 2024.02.06.16:29:09 -->
+ <!-- 2024.02.07.17:27:49 -->
  <!-- A collection of modules and connections -->
  <parameter name="AUTO_GENERATION_ID">
   <type>java.lang.Integer</type>
@@ -133,7 +133,7 @@
    name="q_sys_xcvr_atx_pll_s10_htile_2"
    kind="altera_xcvr_atx_pll_s10_htile"
    version="19.1.1"
-   entity="q_sys_xcvr_atx_pll_s10_htile_2_altera_xcvr_atx_pll_s10_htile_1911_uta4vvi"
+   entity="q_sys_xcvr_atx_pll_s10_htile_2_altera_xcvr_atx_pll_s10_htile_1911_govh6fy"
    library="altera_xcvr_atx_pll_s10_htile_1911"
    path="q_sys_xcvr_atx_pll_s10_htile_2"
    hpath="q_sys_xcvr_atx_pll_s10_htile_2"
@@ -342,7 +342,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="rcfg_profile_cnt">
    <type>int</type>
-   <value>2</value>
+   <value>3</value>
    <derived>false</derived>
    <enabled>true</enabled>
    <visible>true</visible>
@@ -350,7 +350,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="rcfg_profile_select">
    <type>int</type>
-   <value>1</value>
+   <value>0</value>
    <derived>false</derived>
    <enabled>true</enabled>
    <visible>true</visible>
@@ -374,7 +374,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="rcfg_profile_data2">
    <type>java.lang.String</type>
-   <value></value>
+   <value>rcfg_debug 0 rcfg_enable 1 rcfg_jtag_enable 1 rcfg_separate_avmm_busy 0 rcfg_enable_avmm_busy_port 0 set_capability_reg_enable 1 set_user_identifier 0 set_csr_soft_logic_enable 1 enable_pld_atx_cal_busy_port 1 support_mode user_mode prot_mode Basic bw_sel high refclk_cnt 1 refclk_index 0 primary_pll_buffer {GX clock output buffer} enable_8G_path 1 enable_28G_output_frm_abv_atx 0 enable_28G_output_frm_blw_atx 0 enable_28G_local_atx_path 1 enable_28G_input_frm_abv_atx 0 enable_28G_input_frm_blw_atx 0 enable_GXT_out_buffer_abv 0 enable_GXT_out_buffer_blw 0 enable_GXT_clock_source disabled enable_pcie_clk 0 enable_cascade_out 0 enable_hip_cal_done_port 0 set_hip_cal_en 0 set_output_clock_frequency 4809.48 set_auto_reference_clock_frequency 601.185 set_manual_reference_clock_frequency 200.0 set_fref_clock_frequency 156.25 set_m_counter 24 set_ref_clk_div 1 set_l_counter 4 set_l_cascade_counter 4 set_l_cascade_predivider 1 set_k_counter 1 enable_mcgb 0 mcgb_div 1 enable_hfreq_clk 0 enable_mcgb_pcie_clksw 0 enable_mcgb_reset 0 mcgb_aux_clkin_cnt 0 enable_bonding_clks 0 enable_fb_comp_bonding 0 pma_width 64 enable_pld_mcgb_cal_busy_port 0</value>
    <derived>false</derived>
    <enabled>false</enabled>
    <visible>true</visible>
@@ -438,7 +438,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="rcfg_sdc_derived_profile_data2">
    <type>java.lang.String</type>
-   <value></value>
+   <value>enable_multi_profile 1 dbg_embedded_debug_enable 1 dbg_capability_reg_enable 1 dbg_user_identifier 0 dbg_stat_soft_logic_enable 1 dbg_ctrl_soft_logic_enable 1 atx_pll_lcpll_gt_in_sel lc_gt_in_sel0 atx_pll_lcpll_gt_out_left_enb lcpll_gt_out_left_dis atx_pll_lcpll_gt_out_mid_enb lcpll_gt_out_mid_dis atx_pll_lcpll_gt_out_right_enb lcpll_gt_out_right_dis enable_atx_to_fpll_cascade_out 0 output_clock_datarate 9618.96 datarate {9618.96 Mbps} enable_fractional 0</value>
    <derived>false</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -518,7 +518,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="rcfg_param_vals2">
    <type>[Ljava.lang.String;</type>
-   <value></value>
+   <value>0,1,1,0,0,1,0,1,1,user_mode,Basic,high,1,0,GX clock output buffer,1,0,0,1,0,0,0,0,disabled,0,0,0,0,4809.48,601.185,200.0,156.25,24,1,4,4,1,1,0,1,0,0,0,0,0,0,64,0</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -590,7 +590,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="rcfg_sdc_derived_param_vals2">
    <type>[Ljava.lang.String;</type>
-   <value></value>
+   <value>1,1,1,0,1,1,lc_gt_in_sel0,lcpll_gt_out_left_dis,lcpll_gt_out_mid_dis,lcpll_gt_out_right_dis,0,9618.96,9618.96 Mbps,0</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -910,7 +910,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="atx_pll_datarate_bps">
    <type>java.lang.String</type>
-   <value>25781250000</value>
+   <value>10312500000</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -1214,7 +1214,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="atx_pll_l_counter">
    <type>int</type>
-   <value>1</value>
+   <value>2</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -1326,7 +1326,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="atx_pll_lcpll_gt_out_mid_enb">
    <type>java.lang.String</type>
-   <value>lcpll_gt_out_mid_en</value>
+   <value>lcpll_gt_out_mid_dis</value>
    <derived>true</derived>
    <enabled>true</enabled>
    <visible>false</visible>
@@ -1358,7 +1358,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="atx_pll_mcnt_divide">
    <type>int</type>
-   <value>10</value>
+   <value>8</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -1382,7 +1382,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="atx_pll_out_freq">
    <type>java.lang.String</type>
-   <value>12890625000</value>
+   <value>5156250000</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -1438,7 +1438,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="atx_pll_powermode_ac_lc">
    <type>java.lang.String</type>
-   <value>lc2_ac_div1</value>
+   <value>lc1_ac_div2</value>
    <derived>true</derived>
    <enabled>true</enabled>
    <visible>false</visible>
@@ -1454,7 +1454,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="atx_pll_powermode_dc_lc">
    <type>java.lang.String</type>
-   <value>lc2_dc_div1</value>
+   <value>lc1_dc_div2</value>
    <derived>true</derived>
    <enabled>true</enabled>
    <visible>false</visible>
@@ -1470,7 +1470,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="atx_pll_primary_use">
    <type>java.lang.String</type>
-   <value>hssi_hf</value>
+   <value>hssi_x1</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -1566,7 +1566,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="atx_pll_vco_freq">
    <type>java.lang.String</type>
-   <value>12890625000</value>
+   <value>10312500000</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -1646,7 +1646,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="atx_pll_lc_sel_tank">
    <type>java.lang.String</type>
-   <value>lctank2</value>
+   <value>lctank1</value>
    <derived>true</derived>
    <enabled>true</enabled>
    <visible>false</visible>
@@ -1654,7 +1654,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="atx_pll_lc_tank_band">
    <type>java.lang.String</type>
-   <value>lc_band5</value>
+   <value>lc_band4</value>
    <derived>true</derived>
    <enabled>true</enabled>
    <visible>false</visible>
@@ -1782,7 +1782,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="atx_pll_lcnt_divide">
    <type>int</type>
-   <value>1</value>
+   <value>2</value>
    <derived>true</derived>
    <enabled>true</enabled>
    <visible>false</visible>
@@ -1790,7 +1790,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="atx_pll_lcnt_off">
    <type>java.lang.String</type>
-   <value>lcnt_off</value>
+   <value>lcnt_on</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -2239,7 +2239,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="primary_use">
    <type>java.lang.String</type>
-   <value>hssi_hf</value>
+   <value>hssi_x1</value>
    <derived>true</derived>
    <enabled>true</enabled>
    <visible>false</visible>
@@ -2287,7 +2287,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="primary_pll_buffer">
    <type>java.lang.String</type>
-   <value>GXT clock output buffer</value>
+   <value>GX clock output buffer</value>
    <derived>false</derived>
    <enabled>true</enabled>
    <visible>true</visible>
@@ -2295,7 +2295,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="enable_8G_buffer_fnl">
    <type>java.lang.String</type>
-   <value>false</value>
+   <value>true</value>
    <derived>true</derived>
    <enabled>true</enabled>
    <visible>false</visible>
@@ -2303,7 +2303,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="enable_28G_buffer_fnl">
    <type>java.lang.String</type>
-   <value>true</value>
+   <value>false</value>
    <derived>true</derived>
    <enabled>true</enabled>
    <visible>false</visible>
@@ -2383,7 +2383,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="enable_GXT_clock_source">
    <type>java.lang.String</type>
-   <value>atx_lcl</value>
+   <value>disabled</value>
    <derived>false</derived>
    <enabled>true</enabled>
    <visible>true</visible>
@@ -2455,7 +2455,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="set_output_clock_frequency">
    <type>double</type>
-   <value>12890.625</value>
+   <value>5156.25</value>
    <derived>false</derived>
    <enabled>true</enabled>
    <visible>true</visible>
@@ -2463,7 +2463,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="output_clock_datarate">
    <type>double</type>
-   <value>25781.25</value>
+   <value>10312.5</value>
    <derived>true</derived>
    <enabled>true</enabled>
    <visible>true</visible>
@@ -2471,7 +2471,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="output_clock_frequency">
    <type>java.lang.String</type>
-   <value>12890.625 MHz</value>
+   <value>5156.25 MHz</value>
    <derived>true</derived>
    <enabled>true</enabled>
    <visible>false</visible>
@@ -2479,7 +2479,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="vco_freq">
    <type>java.lang.String</type>
-   <value>12890.625 MHz</value>
+   <value>10312.5 MHz</value>
    <derived>true</derived>
    <enabled>true</enabled>
    <visible>false</visible>
@@ -2487,7 +2487,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="datarate">
    <type>java.lang.String</type>
-   <value>25781.25 Mbps</value>
+   <value>10312.5 Mbps</value>
    <derived>true</derived>
    <enabled>true</enabled>
    <visible>false</visible>
@@ -2551,7 +2551,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="m_counter">
    <type>int</type>
-   <value>10</value>
+   <value>8</value>
    <derived>true</derived>
    <enabled>true</enabled>
    <visible>true</visible>
@@ -2591,7 +2591,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="l_counter">
    <type>int</type>
-   <value>1</value>
+   <value>2</value>
    <derived>true</derived>
    <enabled>true</enabled>
    <visible>true</visible>
@@ -2655,7 +2655,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="auto_list">
    <type>java.lang.String</type>
-   <value>61.974159 {m 104 effective_m 104 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 62.575850 {m 103 effective_m 103 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 63.189338 {m 102 effective_m 102 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 63.814975 {m 101 effective_m 101 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 64.453125 {m 100 effective_m 100 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 65.104167 {m 99 effective_m 99 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 65.768495 {m 98 effective_m 98 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 66.446521 {m 97 effective_m 97 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 67.138672 {m 96 effective_m 96 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 67.845395 {m 95 effective_m 95 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 68.567154 {m 94 effective_m 94 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 69.304435 {m 93 effective_m 93 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 70.057745 {m 92 effective_m 92 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 70.827610 {m 91 effective_m 91 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 71.614583 {m 90 effective_m 90 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 72.419242 {m 89 effective_m 89 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 73.242188 {m 88 effective_m 88 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 74.084052 {m 87 effective_m 87 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 74.945494 {m 86 effective_m 86 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 75.827206 {m 85 effective_m 85 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 76.729911 {m 84 effective_m 84 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 77.654367 {m 83 effective_m 83 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 78.601372 {m 82 effective_m 82 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 79.571759 {m 81 effective_m 81 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 80.566406 {m 80 effective_m 80 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 81.586234 {m 79 effective_m 79 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 82.632212 {m 78 effective_m 78 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 83.705357 {m 77 effective_m 77 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 84.806743 {m 76 effective_m 76 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 85.937500 {m 75 effective_m 75 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 87.098818 {m 74 effective_m 74 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 88.291952 {m 73 effective_m 73 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 89.518229 {m 72 effective_m 72 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 90.779049 {m 71 effective_m 71 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 92.075893 {m 70 effective_m 70 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 93.410326 {m 69 effective_m 69 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 94.784007 {m 68 effective_m 68 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 96.198694 {m 67 effective_m 67 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 97.656250 {m 66 effective_m 66 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 99.158654 {m 65 effective_m 65 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 100.708008 {m 64 effective_m 64 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 102.306548 {m 63 effective_m 63 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 103.956653 {m 62 effective_m 62 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 105.660861 {m 61 effective_m 61 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 107.421875 {m 60 effective_m 60 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 109.242585 {m 59 effective_m 59 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 111.126078 {m 58 effective_m 58 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 113.075658 {m 57 effective_m 57 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 115.094866 {m 56 effective_m 56 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 117.187500 {m 55 effective_m 55 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 119.357639 {m 54 effective_m 54 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 121.609670 {m 53 effective_m 53 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 123.948317 {m 52 effective_m 52 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 125.151699 {m 103 effective_m 103 n 2 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 126.378676 {m 51 effective_m 51 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 127.629950 {m 101 effective_m 101 n 2 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 128.906250 {m 50 effective_m 50 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 130.208333 {m 99 effective_m 99 n 2 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 131.536990 {m 49 effective_m 49 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 132.893041 {m 97 effective_m 97 n 2 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 134.277344 {m 48 effective_m 48 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 135.690789 {m 95 effective_m 95 n 2 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 137.134309 {m 47 effective_m 47 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 138.608871 {m 93 effective_m 93 n 2 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 140.115489 {m 46 effective_m 46 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 141.655220 {m 91 effective_m 91 n 2 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 143.229167 {m 45 effective_m 45 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 144.838483 {m 89 effective_m 89 n 2 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 146.484375 {m 44 effective_m 44 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 148.168103 {m 87 effective_m 87 n 2 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 149.890988 {m 43 effective_m 43 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 151.654412 {m 85 effective_m 85 n 2 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 153.459821 {m 42 effective_m 42 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 155.308735 {m 83 effective_m 83 n 2 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 157.202744 {m 41 effective_m 41 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 159.143519 {m 81 effective_m 81 n 2 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 161.132813 {m 40 effective_m 40 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 163.172468 {m 79 effective_m 79 n 2 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 165.264423 {m 39 effective_m 39 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 167.410714 {m 77 effective_m 77 n 2 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 169.613487 {m 38 effective_m 38 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 171.875000 {m 75 effective_m 75 n 2 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 174.197635 {m 37 effective_m 37 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 176.583904 {m 73 effective_m 73 n 2 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 179.036458 {m 36 effective_m 36 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 181.558099 {m 71 effective_m 71 n 2 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 184.151786 {m 35 effective_m 35 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 186.820652 {m 69 effective_m 69 n 2 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 189.568015 {m 34 effective_m 34 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 192.397388 {m 67 effective_m 67 n 2 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 195.312500 {m 33 effective_m 33 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 198.317308 {m 65 effective_m 65 n 2 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 201.416016 {m 32 effective_m 32 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 204.613095 {m 63 effective_m 63 n 2 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 207.913306 {m 31 effective_m 31 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 211.321721 {m 61 effective_m 61 n 2 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 214.843750 {m 30 effective_m 30 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 218.485169 {m 59 effective_m 59 n 2 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 222.252155 {m 29 effective_m 29 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 226.151316 {m 57 effective_m 57 n 2 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 230.189732 {m 28 effective_m 28 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 234.375000 {m 55 effective_m 55 n 2 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 238.715278 {m 27 effective_m 27 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 243.219340 {m 53 effective_m 53 n 2 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 247.896635 {m 26 effective_m 26 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 250.303398 {m 103 effective_m 103 n 4 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 252.757353 {m 51 effective_m 51 n 2 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 255.259901 {m 101 effective_m 101 n 4 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 257.812500 {m 25 effective_m 25 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 260.416667 {m 99 effective_m 99 n 4 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 263.073980 {m 49 effective_m 49 n 2 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 265.786082 {m 97 effective_m 97 n 4 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 268.554688 {m 24 effective_m 24 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 271.381579 {m 95 effective_m 95 n 4 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 274.268617 {m 47 effective_m 47 n 2 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 277.217742 {m 93 effective_m 93 n 4 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 280.230978 {m 23 effective_m 23 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 283.310440 {m 91 effective_m 91 n 4 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 286.458333 {m 45 effective_m 45 n 2 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 289.676966 {m 89 effective_m 89 n 4 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 292.968750 {m 22 effective_m 22 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 296.336207 {m 87 effective_m 87 n 4 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 299.781977 {m 43 effective_m 43 n 2 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 303.308824 {m 85 effective_m 85 n 4 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 306.919643 {m 21 effective_m 21 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 310.617470 {m 83 effective_m 83 n 4 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 314.405488 {m 41 effective_m 41 n 2 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 318.287037 {m 81 effective_m 81 n 4 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 322.265625 {m 20 effective_m 20 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 326.344937 {m 79 effective_m 79 n 4 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 330.528846 {m 39 effective_m 39 n 2 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 334.821429 {m 77 effective_m 77 n 4 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 339.226974 {m 19 effective_m 19 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 343.750000 {m 75 effective_m 75 n 4 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 348.395270 {m 37 effective_m 37 n 2 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 353.167808 {m 73 effective_m 73 n 4 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 358.072917 {m 18 effective_m 18 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 363.116197 {m 71 effective_m 71 n 4 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 368.303571 {m 35 effective_m 35 n 2 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 373.641304 {m 69 effective_m 69 n 4 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 379.136029 {m 17 effective_m 17 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 384.794776 {m 67 effective_m 67 n 4 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 390.625000 {m 33 effective_m 33 n 2 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 396.634615 {m 65 effective_m 65 n 4 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 402.832031 {m 16 effective_m 16 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 409.226190 {m 63 effective_m 63 n 4 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 415.826613 {m 31 effective_m 31 n 2 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 422.643443 {m 61 effective_m 61 n 4 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 429.687500 {m 15 effective_m 15 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 436.970339 {m 59 effective_m 59 n 4 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 444.504310 {m 29 effective_m 29 n 2 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 452.302632 {m 57 effective_m 57 n 4 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 460.379464 {m 14 effective_m 14 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 468.750000 {m 55 effective_m 55 n 4 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 477.430556 {m 27 effective_m 27 n 2 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 486.438679 {m 53 effective_m 53 n 4 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 495.793269 {m 13 effective_m 13 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 500.606796 {m 103 effective_m 103 n 8 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 505.514706 {m 51 effective_m 51 n 4 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 510.519802 {m 101 effective_m 101 n 8 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 515.625000 {m 25 effective_m 25 n 2 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 520.833333 {m 99 effective_m 99 n 8 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 526.147959 {m 49 effective_m 49 n 4 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 531.572165 {m 97 effective_m 97 n 8 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 537.109375 {m 12 effective_m 12 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 542.763158 {m 95 effective_m 95 n 8 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 548.537234 {m 47 effective_m 47 n 4 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 554.435484 {m 93 effective_m 93 n 8 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 560.461957 {m 23 effective_m 23 n 2 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 566.620879 {m 91 effective_m 91 n 8 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 572.916667 {m 45 effective_m 45 n 4 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 579.353933 {m 89 effective_m 89 n 8 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 585.937500 {m 11 effective_m 11 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 592.672414 {m 87 effective_m 87 n 8 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 599.563953 {m 43 effective_m 43 n 4 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 606.617647 {m 85 effective_m 85 n 8 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 613.839286 {m 21 effective_m 21 n 2 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 621.234940 {m 83 effective_m 83 n 8 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 628.810976 {m 41 effective_m 41 n 4 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 636.574074 {m 81 effective_m 81 n 8 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 644.531250 {m 10 effective_m 10 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 652.689873 {m 79 effective_m 79 n 8 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 661.057692 {m 39 effective_m 39 n 4 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 669.642857 {m 77 effective_m 77 n 8 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 678.453947 {m 19 effective_m 19 n 2 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 687.500000 {m 75 effective_m 75 n 8 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 696.790541 {m 37 effective_m 37 n 4 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 706.335616 {m 73 effective_m 73 n 8 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 716.145833 {m 9 effective_m 9 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 726.232394 {m 71 effective_m 71 n 8 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 736.607143 {m 35 effective_m 35 n 4 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 747.282609 {m 69 effective_m 69 n 8 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 758.272059 {m 17 effective_m 17 n 2 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 769.589552 {m 67 effective_m 67 n 8 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 781.250000 {m 33 effective_m 33 n 4 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 793.269231 {m 65 effective_m 65 n 8 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0}</value>
+   <value>62.123494 {m 83 effective_m 83 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 62.881098 {m 82 effective_m 82 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 63.657407 {m 81 effective_m 81 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 64.453125 {m 80 effective_m 80 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 65.268987 {m 79 effective_m 79 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 66.105769 {m 78 effective_m 78 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 66.964286 {m 77 effective_m 77 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 67.845395 {m 76 effective_m 76 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 68.750000 {m 75 effective_m 75 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 69.679054 {m 74 effective_m 74 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 70.633562 {m 73 effective_m 73 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 71.614583 {m 72 effective_m 72 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 72.623239 {m 71 effective_m 71 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 73.660714 {m 70 effective_m 70 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 74.728261 {m 69 effective_m 69 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 75.827206 {m 68 effective_m 68 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 76.958955 {m 67 effective_m 67 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 78.125000 {m 66 effective_m 66 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 79.326923 {m 65 effective_m 65 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 80.566406 {m 64 effective_m 64 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 81.845238 {m 63 effective_m 63 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 83.165323 {m 62 effective_m 62 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 84.528689 {m 61 effective_m 61 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 85.937500 {m 60 effective_m 60 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 87.394068 {m 59 effective_m 59 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 88.900862 {m 58 effective_m 58 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 90.460526 {m 57 effective_m 57 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 92.075893 {m 56 effective_m 56 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 93.750000 {m 55 effective_m 55 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 95.486111 {m 54 effective_m 54 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 97.287736 {m 53 effective_m 53 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 99.158654 {m 52 effective_m 52 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 101.102941 {m 51 effective_m 51 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 103.125000 {m 50 effective_m 50 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 105.229592 {m 49 effective_m 49 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 107.421875 {m 48 effective_m 48 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 109.707447 {m 47 effective_m 47 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 112.092391 {m 46 effective_m 46 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 114.583333 {m 45 effective_m 45 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 117.187500 {m 44 effective_m 44 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 119.912791 {m 43 effective_m 43 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 122.767857 {m 42 effective_m 42 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 124.246988 {m 83 effective_m 83 n 2 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 125.762195 {m 41 effective_m 41 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 127.314815 {m 81 effective_m 81 n 2 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 128.906250 {m 40 effective_m 40 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 130.537975 {m 79 effective_m 79 n 2 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 132.211538 {m 39 effective_m 39 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 133.928571 {m 77 effective_m 77 n 2 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 135.690789 {m 38 effective_m 38 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 137.500000 {m 75 effective_m 75 n 2 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 139.358108 {m 37 effective_m 37 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 141.267123 {m 73 effective_m 73 n 2 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 143.229167 {m 36 effective_m 36 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 145.246479 {m 71 effective_m 71 n 2 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 147.321429 {m 35 effective_m 35 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 149.456522 {m 69 effective_m 69 n 2 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 151.654412 {m 34 effective_m 34 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 153.917910 {m 67 effective_m 67 n 2 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 156.250000 {m 33 effective_m 33 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 158.653846 {m 65 effective_m 65 n 2 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 161.132813 {m 32 effective_m 32 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 163.690476 {m 63 effective_m 63 n 2 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 166.330645 {m 31 effective_m 31 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 169.057377 {m 61 effective_m 61 n 2 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 171.875000 {m 30 effective_m 30 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 174.788136 {m 59 effective_m 59 n 2 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 177.801724 {m 29 effective_m 29 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 180.921053 {m 57 effective_m 57 n 2 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 184.151786 {m 28 effective_m 28 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 187.500000 {m 55 effective_m 55 n 2 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 190.972222 {m 27 effective_m 27 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 194.575472 {m 53 effective_m 53 n 2 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 198.317308 {m 26 effective_m 26 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 202.205882 {m 51 effective_m 51 n 2 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 206.250000 {m 25 effective_m 25 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 210.459184 {m 49 effective_m 49 n 2 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 214.843750 {m 24 effective_m 24 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 219.414894 {m 47 effective_m 47 n 2 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 224.184783 {m 23 effective_m 23 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 229.166667 {m 45 effective_m 45 n 2 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 234.375000 {m 22 effective_m 22 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 239.825581 {m 43 effective_m 43 n 2 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 245.535714 {m 21 effective_m 21 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 248.493976 {m 83 effective_m 83 n 4 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 251.524390 {m 41 effective_m 41 n 2 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 254.629630 {m 81 effective_m 81 n 4 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 257.812500 {m 20 effective_m 20 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 261.075949 {m 79 effective_m 79 n 4 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 264.423077 {m 39 effective_m 39 n 2 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 267.857143 {m 77 effective_m 77 n 4 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 271.381579 {m 19 effective_m 19 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 275.000000 {m 75 effective_m 75 n 4 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 278.716216 {m 37 effective_m 37 n 2 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 282.534247 {m 73 effective_m 73 n 4 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 286.458333 {m 18 effective_m 18 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 290.492958 {m 71 effective_m 71 n 4 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 294.642857 {m 35 effective_m 35 n 2 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 298.913043 {m 69 effective_m 69 n 4 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 303.308824 {m 17 effective_m 17 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 307.835821 {m 67 effective_m 67 n 4 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 312.500000 {m 33 effective_m 33 n 2 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 317.307692 {m 65 effective_m 65 n 4 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 322.265625 {m 16 effective_m 16 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 327.380952 {m 63 effective_m 63 n 4 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 332.661290 {m 31 effective_m 31 n 2 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 338.114754 {m 61 effective_m 61 n 4 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 343.750000 {m 15 effective_m 15 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 349.576271 {m 59 effective_m 59 n 4 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 355.603448 {m 29 effective_m 29 n 2 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 361.842105 {m 57 effective_m 57 n 4 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 368.303571 {m 14 effective_m 14 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 375.000000 {m 55 effective_m 55 n 4 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 381.944444 {m 27 effective_m 27 n 2 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 389.150943 {m 53 effective_m 53 n 4 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 396.634615 {m 13 effective_m 13 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 404.411765 {m 51 effective_m 51 n 4 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 412.500000 {m 25 effective_m 25 n 2 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 420.918367 {m 49 effective_m 49 n 4 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 429.687500 {m 12 effective_m 12 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 438.829787 {m 47 effective_m 47 n 4 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 448.369565 {m 23 effective_m 23 n 2 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 458.333333 {m 45 effective_m 45 n 4 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 468.750000 {m 11 effective_m 11 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 479.651163 {m 43 effective_m 43 n 4 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 491.071429 {m 21 effective_m 21 n 2 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 496.987952 {m 83 effective_m 83 n 8 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 503.048780 {m 41 effective_m 41 n 4 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 509.259259 {m 81 effective_m 81 n 8 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 515.625000 {m 10 effective_m 10 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 522.151899 {m 79 effective_m 79 n 8 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 528.846154 {m 39 effective_m 39 n 4 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 535.714286 {m 77 effective_m 77 n 8 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 542.763158 {m 19 effective_m 19 n 2 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 550.000000 {m 75 effective_m 75 n 8 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 557.432432 {m 37 effective_m 37 n 4 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 565.068493 {m 73 effective_m 73 n 8 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 572.916667 {m 9 effective_m 9 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 580.985915 {m 71 effective_m 71 n 8 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 589.285714 {m 35 effective_m 35 n 4 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 597.826087 {m 69 effective_m 69 n 8 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 606.617647 {m 17 effective_m 17 n 2 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 615.671642 {m 67 effective_m 67 n 8 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 625.000000 {m 33 effective_m 33 n 4 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 634.615385 {m 65 effective_m 65 n 8 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 644.531250 {m 8 effective_m 8 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 654.761905 {m 63 effective_m 63 n 8 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 665.322581 {m 31 effective_m 31 n 4 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 676.229508 {m 61 effective_m 61 n 8 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 687.500000 {m 15 effective_m 15 n 2 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 699.152542 {m 59 effective_m 59 n 8 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 711.206897 {m 29 effective_m 29 n 4 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 723.684211 {m 57 effective_m 57 n 8 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 736.607143 {m 14 effective_m 14 n 2 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 750.000000 {m 55 effective_m 55 n 8 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 763.888889 {m 27 effective_m 27 n 4 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 778.301887 {m 53 effective_m 53 n 8 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 793.269231 {m 13 effective_m 13 n 2 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0}</value>
    <derived>true</derived>
    <enabled>true</enabled>
    <visible>false</visible>
@@ -2671,7 +2671,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="pll_setting">
    <type>java.lang.String</type>
-   <value>refclk 644.531250 m_cnt 10 n_cnt 1 l_cnt 1 k_cnt 1 l_cascade 0 l_cascade_predivider 1 outclk {12890.625 MHz}</value>
+   <value>refclk 644.531250 m_cnt 8 n_cnt 1 l_cnt 2 k_cnt 1 l_cascade 0 l_cascade_predivider 1 outclk {5156.25 MHz}</value>
    <derived>true</derived>
    <enabled>true</enabled>
    <visible>false</visible>
@@ -2847,7 +2847,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="mcgb_in_clk_freq">
    <type>double</type>
-   <value>12890.625</value>
+   <value>5156.25</value>
    <derived>true</derived>
    <enabled>true</enabled>
    <visible>true</visible>
@@ -2855,7 +2855,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="mcgb_out_datarate">
    <type>double</type>
-   <value>25781.25</value>
+   <value>10312.5</value>
    <derived>true</derived>
    <enabled>true</enabled>
    <visible>true</visible>
@@ -2927,7 +2927,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="mapped_output_clock_frequency">
    <type>java.lang.String</type>
-   <value>12890.625 MHz</value>
+   <value>5156.25 MHz</value>
    <derived>true</derived>
    <enabled>true</enabled>
    <visible>false</visible>
@@ -2935,7 +2935,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="mapped_primary_pll_buffer">
    <type>java.lang.String</type>
-   <value>GXT clock output buffer</value>
+   <value>GX clock output buffer</value>
    <derived>true</derived>
    <enabled>true</enabled>
    <visible>false</visible>
@@ -2991,7 +2991,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="hssi_pma_cgb_master_datarate_bps">
    <type>java.lang.String</type>
-   <value>25781250000</value>
+   <value>10312500000</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -3055,7 +3055,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="gui_parameter_values">
    <type>[Ljava.lang.String;</type>
-   <value>select_vco_output,1,0,10,1,1,12890.625 MHz,12890.625 MHz,25781.25 Mbps</value>
+   <value>select_vco_output,2,0,8,1,1,5156.25 MHz,10312.5 MHz,10312.5 Mbps</value>
    <derived>true</derived>
    <enabled>true</enabled>
    <visible>true</visible>
