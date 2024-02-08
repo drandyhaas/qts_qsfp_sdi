@@ -689,7 +689,6 @@ https://fpgasoftware.intel.com/eula.-->
         <ipxact:fileSetRef>
           <ipxact:localName>QUARTUS_SYNTH</ipxact:localName>
         </ipxact:fileSetRef>
-        <ipxact:parameters></ipxact:parameters>
       </ipxact:componentInstantiation>
     </ipxact:instantiations>
     <ipxact:ports>
@@ -697,7 +696,6 @@ https://fpgasoftware.intel.com/eula.-->
         <ipxact:name>pll_refclk0</ipxact:name>
         <ipxact:wire>
           <ipxact:direction>in</ipxact:direction>
-          <ipxact:vectors></ipxact:vectors>
           <ipxact:wireTypeDefs>
             <ipxact:wireTypeDef>
               <ipxact:typeName>STD_LOGIC</ipxact:typeName>
@@ -710,7 +708,6 @@ https://fpgasoftware.intel.com/eula.-->
         <ipxact:name>tx_serial_clk</ipxact:name>
         <ipxact:wire>
           <ipxact:direction>out</ipxact:direction>
-          <ipxact:vectors></ipxact:vectors>
           <ipxact:wireTypeDefs>
             <ipxact:wireTypeDef>
               <ipxact:typeName>STD_LOGIC</ipxact:typeName>
@@ -723,7 +720,6 @@ https://fpgasoftware.intel.com/eula.-->
         <ipxact:name>tx_serial_clk_gxt</ipxact:name>
         <ipxact:wire>
           <ipxact:direction>out</ipxact:direction>
-          <ipxact:vectors></ipxact:vectors>
           <ipxact:wireTypeDefs>
             <ipxact:wireTypeDef>
               <ipxact:typeName>STD_LOGIC</ipxact:typeName>
@@ -736,7 +732,6 @@ https://fpgasoftware.intel.com/eula.-->
         <ipxact:name>pll_locked</ipxact:name>
         <ipxact:wire>
           <ipxact:direction>out</ipxact:direction>
-          <ipxact:vectors></ipxact:vectors>
           <ipxact:wireTypeDefs>
             <ipxact:wireTypeDef>
               <ipxact:typeName>STD_LOGIC</ipxact:typeName>
@@ -749,7 +744,6 @@ https://fpgasoftware.intel.com/eula.-->
         <ipxact:name>reconfig_clk0</ipxact:name>
         <ipxact:wire>
           <ipxact:direction>in</ipxact:direction>
-          <ipxact:vectors></ipxact:vectors>
           <ipxact:wireTypeDefs>
             <ipxact:wireTypeDef>
               <ipxact:typeName>STD_LOGIC</ipxact:typeName>
@@ -762,7 +756,6 @@ https://fpgasoftware.intel.com/eula.-->
         <ipxact:name>reconfig_reset0</ipxact:name>
         <ipxact:wire>
           <ipxact:direction>in</ipxact:direction>
-          <ipxact:vectors></ipxact:vectors>
           <ipxact:wireTypeDefs>
             <ipxact:wireTypeDef>
               <ipxact:typeName>STD_LOGIC</ipxact:typeName>
@@ -775,7 +768,6 @@ https://fpgasoftware.intel.com/eula.-->
         <ipxact:name>reconfig_write0</ipxact:name>
         <ipxact:wire>
           <ipxact:direction>in</ipxact:direction>
-          <ipxact:vectors></ipxact:vectors>
           <ipxact:wireTypeDefs>
             <ipxact:wireTypeDef>
               <ipxact:typeName>STD_LOGIC</ipxact:typeName>
@@ -788,7 +780,6 @@ https://fpgasoftware.intel.com/eula.-->
         <ipxact:name>reconfig_read0</ipxact:name>
         <ipxact:wire>
           <ipxact:direction>in</ipxact:direction>
-          <ipxact:vectors></ipxact:vectors>
           <ipxact:wireTypeDefs>
             <ipxact:wireTypeDef>
               <ipxact:typeName>STD_LOGIC</ipxact:typeName>
@@ -855,7 +846,6 @@ https://fpgasoftware.intel.com/eula.-->
         <ipxact:name>reconfig_waitrequest0</ipxact:name>
         <ipxact:wire>
           <ipxact:direction>out</ipxact:direction>
-          <ipxact:vectors></ipxact:vectors>
           <ipxact:wireTypeDefs>
             <ipxact:wireTypeDef>
               <ipxact:typeName>STD_LOGIC</ipxact:typeName>
@@ -868,7 +858,6 @@ https://fpgasoftware.intel.com/eula.-->
         <ipxact:name>pll_cal_busy</ipxact:name>
         <ipxact:wire>
           <ipxact:direction>out</ipxact:direction>
-          <ipxact:vectors></ipxact:vectors>
           <ipxact:wireTypeDefs>
             <ipxact:wireTypeDef>
               <ipxact:typeName>STD_LOGIC</ipxact:typeName>
@@ -981,7 +970,7 @@ https://fpgasoftware.intel.com/eula.-->
         <ipxact:parameter parameterId="rcfg_profile_select" type="int">
           <ipxact:name>rcfg_profile_select</ipxact:name>
           <ipxact:displayName>Store current configuration to profile:</ipxact:displayName>
-          <ipxact:value>0</ipxact:value>
+          <ipxact:value>1</ipxact:value>
         </ipxact:parameter>
         <ipxact:parameter parameterId="rcfg_profile_data0" type="string">
           <ipxact:name>rcfg_profile_data0</ipxact:name>
@@ -1151,7 +1140,7 @@ https://fpgasoftware.intel.com/eula.-->
         <ipxact:parameter parameterId="primary_pll_buffer" type="string">
           <ipxact:name>primary_pll_buffer</ipxact:name>
           <ipxact:displayName>Primary PLL clock output buffer</ipxact:displayName>
-          <ipxact:value>GX clock output buffer</ipxact:value>
+          <ipxact:value>GXT clock output buffer</ipxact:value>
         </ipxact:parameter>
         <ipxact:parameter parameterId="enable_pll_lock" type="int">
           <ipxact:name>enable_pll_lock</ipxact:name>
@@ -1201,7 +1190,7 @@ https://fpgasoftware.intel.com/eula.-->
         <ipxact:parameter parameterId="enable_GXT_clock_source" type="string">
           <ipxact:name>enable_GXT_clock_source</ipxact:name>
           <ipxact:displayName>GXT output clock source</ipxact:displayName>
-          <ipxact:value>disabled</ipxact:value>
+          <ipxact:value>atx_lcl</ipxact:value>
         </ipxact:parameter>
         <ipxact:parameter parameterId="enable_pcie_clk" type="int">
           <ipxact:name>enable_pcie_clk</ipxact:name>
@@ -1226,7 +1215,7 @@ https://fpgasoftware.intel.com/eula.-->
         <ipxact:parameter parameterId="set_output_clock_frequency" type="real">
           <ipxact:name>set_output_clock_frequency</ipxact:name>
           <ipxact:displayName>PLL output frequency</ipxact:displayName>
-          <ipxact:value>5156.25</ipxact:value>
+          <ipxact:value>12890.625</ipxact:value>
         </ipxact:parameter>
         <ipxact:parameter parameterId="set_auto_reference_clock_frequency" type="real">
           <ipxact:name>set_auto_reference_clock_frequency</ipxact:name>
@@ -1387,14 +1376,6 @@ https://fpgasoftware.intel.com/eula.-->
           <ipxact:displayName>bonusData</ipxact:displayName>
           <ipxact:value>bonusData 
 {
-   element $system
-   {
-      datum _originalDeviceFamily
-      {
-         value = "Stratix 10";
-         type = "String";
-      }
-   }
    element q_sys_xcvr_atx_pll_s10_htile_1
    {
       datum _sortIndex
