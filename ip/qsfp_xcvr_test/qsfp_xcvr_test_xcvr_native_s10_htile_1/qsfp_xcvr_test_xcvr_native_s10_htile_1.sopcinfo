@@ -5,7 +5,7 @@
  version="1.0"
  fabric="QSYS">
  <!-- Format version 23.3 104 (Future versions may contain additional information.) -->
- <!-- 2024.02.07.17:27:44 -->
+ <!-- 2024.02.08.15:44:07 -->
  <!-- A collection of modules and connections -->
  <parameter name="AUTO_GENERATION_ID">
   <type>java.lang.Integer</type>
@@ -193,7 +193,7 @@
    name="qsfp_xcvr_test_xcvr_native_s10_htile_1"
    kind="altera_xcvr_native_s10_htile"
    version="19.3.0"
-   entity="qsfp_xcvr_test_xcvr_native_s10_htile_1_altera_xcvr_native_s10_htile_1930_zuwr7xy"
+   entity="qsfp_xcvr_test_xcvr_native_s10_htile_1_altera_xcvr_native_s10_htile_1930_jvmsdma"
    library="altera_xcvr_native_s10_htile_1930"
    path="qsfp_xcvr_test_xcvr_native_s10_htile_1"
    hpath="qsfp_xcvr_test_xcvr_native_s10_htile_1"
@@ -410,7 +410,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="rcfg_profile_select">
    <type>int</type>
-   <value>0</value>
+   <value>2</value>
    <derived>false</derived>
    <enabled>true</enabled>
    <visible>true</visible>
@@ -847,7 +847,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="set_data_rate">
    <type>java.lang.String</type>
-   <value>10312.5</value>
+   <value>9618.96</value>
    <derived>false</derived>
    <enabled>true</enabled>
    <visible>true</visible>
@@ -855,7 +855,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="data_rate_bps">
    <type>java.lang.String</type>
-   <value>10312500000</value>
+   <value>9618960000</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -863,7 +863,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="l_tx_transfer_clk_hz">
    <type>int</type>
-   <value>322265624</value>
+   <value>300592500</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -871,7 +871,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="l_rx_transfer_clk_hz">
    <type>int</type>
-   <value>322265624</value>
+   <value>300592500</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -1431,7 +1431,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="set_cdr_refclk_freq">
    <type>java.lang.String</type>
-   <value>644.531250</value>
+   <value>601.185000</value>
    <derived>false</derived>
    <enabled>true</enabled>
    <visible>true</visible>
@@ -2991,7 +2991,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="l_pll_settings">
    <type>java.lang.String</type>
-   <value>343.750000 {refclk 343.750000 m 15 n 1 lpfd 2 lpd 2 fvco 10312.5} 687.500000 {refclk 687.500000 m 15 n 2 lpfd 2 lpd 2 fvco 10312.5} 322.265625 {refclk 322.265625 m 16 n 1 lpfd 2 lpd 2 fvco 10312.5} 644.531250 {refclk 644.531250 m 16 n 2 lpfd 2 lpd 2 fvco 10312.5} 303.308824 {refclk 303.308824 m 17 n 1 lpfd 2 lpd 2 fvco 10312.5} 606.617647 {refclk 606.617647 m 17 n 2 lpfd 2 lpd 2 fvco 10312.5} 286.458333 {refclk 286.458333 m 18 n 1 lpfd 2 lpd 2 fvco 10312.5} 572.916667 {refclk 572.916667 m 18 n 2 lpfd 2 lpd 2 fvco 10312.5} 271.381579 {refclk 271.381579 m 19 n 1 lpfd 2 lpd 2 fvco 10312.5} 542.763158 {refclk 542.763158 m 19 n 2 lpfd 2 lpd 2 fvco 10312.5} 257.812500 {refclk 257.812500 m 20 n 1 lpfd 2 lpd 2 fvco 10312.5} 515.625000 {refclk 515.625000 m 20 n 2 lpfd 2 lpd 2 fvco 10312.5} 245.535714 {refclk 245.535714 m 21 n 1 lpfd 2 lpd 2 fvco 10312.5} 491.071429 {refclk 491.071429 m 21 n 2 lpfd 2 lpd 2 fvco 10312.5} 234.375000 {refclk 234.375000 m 22 n 1 lpfd 2 lpd 2 fvco 10312.5} 468.750000 {refclk 468.750000 m 22 n 2 lpfd 2 lpd 2 fvco 10312.5} 224.184783 {refclk 224.184783 m 23 n 1 lpfd 2 lpd 2 fvco 10312.5} 448.369565 {refclk 448.369565 m 23 n 2 lpfd 2 lpd 2 fvco 10312.5} 214.843750 {refclk 214.843750 m 24 n 1 lpfd 2 lpd 2 fvco 10312.5} 429.687500 {refclk 429.687500 m 24 n 2 lpfd 2 lpd 2 fvco 10312.5} 206.250000 {refclk 206.250000 m 25 n 1 lpfd 2 lpd 2 fvco 10312.5} 412.500000 {refclk 412.500000 m 25 n 2 lpfd 2 lpd 2 fvco 10312.5} 198.317308 {refclk 198.317308 m 26 n 1 lpfd 2 lpd 2 fvco 10312.5} 396.634615 {refclk 396.634615 m 26 n 2 lpfd 2 lpd 2 fvco 10312.5} 793.269231 {refclk 793.269231 m 26 n 4 lpfd 2 lpd 2 fvco 10312.5} 190.972222 {refclk 190.972222 m 27 n 1 lpfd 2 lpd 2 fvco 10312.5} 381.944444 {refclk 381.944444 m 27 n 2 lpfd 2 lpd 2 fvco 10312.5} 763.888889 {refclk 763.888889 m 27 n 4 lpfd 2 lpd 2 fvco 10312.5} 184.151786 {refclk 184.151786 m 28 n 1 lpfd 2 lpd 2 fvco 10312.5} 368.303571 {refclk 368.303571 m 28 n 2 lpfd 2 lpd 2 fvco 10312.5} 736.607143 {refclk 736.607143 m 28 n 4 lpfd 2 lpd 2 fvco 10312.5} 177.801724 {refclk 177.801724 m 29 n 1 lpfd 2 lpd 2 fvco 10312.5} 355.603448 {refclk 355.603448 m 29 n 2 lpfd 2 lpd 2 fvco 10312.5} 711.206897 {refclk 711.206897 m 29 n 4 lpfd 2 lpd 2 fvco 10312.5} 171.875000 {refclk 171.875000 m 30 n 1 lpfd 2 lpd 2 fvco 10312.5} 166.330645 {refclk 166.330645 m 31 n 1 lpfd 2 lpd 2 fvco 10312.5} 332.661290 {refclk 332.661290 m 31 n 2 lpfd 2 lpd 2 fvco 10312.5} 665.322581 {refclk 665.322581 m 31 n 4 lpfd 2 lpd 2 fvco 10312.5} 161.132813 {refclk 161.132813 m 32 n 1 lpfd 2 lpd 2 fvco 10312.5} 156.250000 {refclk 156.250000 m 33 n 1 lpfd 2 lpd 2 fvco 10312.5} 312.500000 {refclk 312.500000 m 33 n 2 lpfd 2 lpd 2 fvco 10312.5} 625.000000 {refclk 625.000000 m 33 n 4 lpfd 2 lpd 2 fvco 10312.5} 151.654412 {refclk 151.654412 m 34 n 1 lpfd 2 lpd 2 fvco 10312.5} 147.321429 {refclk 147.321429 m 35 n 1 lpfd 2 lpd 2 fvco 10312.5} 294.642857 {refclk 294.642857 m 35 n 2 lpfd 2 lpd 2 fvco 10312.5} 589.285714 {refclk 589.285714 m 35 n 4 lpfd 2 lpd 2 fvco 10312.5} 143.229167 {refclk 143.229167 m 36 n 1 lpfd 2 lpd 2 fvco 10312.5} 139.358108 {refclk 139.358108 m 37 n 1 lpfd 2 lpd 2 fvco 10312.5} 278.716216 {refclk 278.716216 m 37 n 2 lpfd 2 lpd 2 fvco 10312.5} 557.432432 {refclk 557.432432 m 37 n 4 lpfd 2 lpd 2 fvco 10312.5} 135.690789 {refclk 135.690789 m 38 n 1 lpfd 2 lpd 2 fvco 10312.5} 132.211538 {refclk 132.211538 m 39 n 1 lpfd 2 lpd 2 fvco 10312.5} 264.423077 {refclk 264.423077 m 39 n 2 lpfd 2 lpd 2 fvco 10312.5} 528.846154 {refclk 528.846154 m 39 n 4 lpfd 2 lpd 2 fvco 10312.5} 128.906250 {refclk 128.906250 m 40 n 1 lpfd 2 lpd 2 fvco 10312.5} 125.762195 {refclk 125.762195 m 41 n 1 lpfd 2 lpd 2 fvco 10312.5} 251.524390 {refclk 251.524390 m 41 n 2 lpfd 2 lpd 2 fvco 10312.5} 503.048780 {refclk 503.048780 m 41 n 4 lpfd 2 lpd 2 fvco 10312.5} 122.767857 {refclk 122.767857 m 42 n 1 lpfd 2 lpd 2 fvco 10312.5} 119.912791 {refclk 119.912791 m 43 n 1 lpfd 2 lpd 2 fvco 10312.5} 239.825581 {refclk 239.825581 m 43 n 2 lpfd 2 lpd 2 fvco 10312.5} 479.651163 {refclk 479.651163 m 43 n 4 lpfd 2 lpd 2 fvco 10312.5} 117.187500 {refclk 117.187500 m 44 n 1 lpfd 2 lpd 2 fvco 10312.5} 114.583333 {refclk 114.583333 m 45 n 1 lpfd 2 lpd 2 fvco 10312.5} 229.166667 {refclk 229.166667 m 45 n 2 lpfd 2 lpd 2 fvco 10312.5} 458.333333 {refclk 458.333333 m 45 n 4 lpfd 2 lpd 2 fvco 10312.5} 112.092391 {refclk 112.092391 m 46 n 1 lpfd 2 lpd 2 fvco 10312.5} 109.707447 {refclk 109.707447 m 47 n 1 lpfd 2 lpd 2 fvco 10312.5} 219.414894 {refclk 219.414894 m 47 n 2 lpfd 2 lpd 2 fvco 10312.5} 438.829787 {refclk 438.829787 m 47 n 4 lpfd 2 lpd 2 fvco 10312.5} 107.421875 {refclk 107.421875 m 48 n 1 lpfd 2 lpd 2 fvco 10312.5} 105.229592 {refclk 105.229592 m 49 n 1 lpfd 2 lpd 2 fvco 10312.5} 210.459184 {refclk 210.459184 m 49 n 2 lpfd 2 lpd 2 fvco 10312.5} 420.918367 {refclk 420.918367 m 49 n 4 lpfd 2 lpd 2 fvco 10312.5} 103.125000 {refclk 103.125000 m 50 n 1 lpfd 2 lpd 2 fvco 10312.5} 101.102941 {refclk 101.102941 m 51 n 1 lpfd 2 lpd 2 fvco 10312.5} 202.205882 {refclk 202.205882 m 51 n 2 lpfd 2 lpd 2 fvco 10312.5} 404.411765 {refclk 404.411765 m 51 n 4 lpfd 2 lpd 2 fvco 10312.5} 99.158654 {refclk 99.158654 m 52 n 1 lpfd 2 lpd 2 fvco 10312.5} 97.287736 {refclk 97.287736 m 53 n 1 lpfd 2 lpd 2 fvco 10312.5} 194.575472 {refclk 194.575472 m 53 n 2 lpfd 2 lpd 2 fvco 10312.5} 389.150943 {refclk 389.150943 m 53 n 4 lpfd 2 lpd 2 fvco 10312.5} 778.301887 {refclk 778.301887 m 53 n 8 lpfd 2 lpd 2 fvco 10312.5} 95.486111 {refclk 95.486111 m 54 n 1 lpfd 2 lpd 2 fvco 10312.5} 93.750000 {refclk 93.750000 m 55 n 1 lpfd 2 lpd 2 fvco 10312.5} 187.500000 {refclk 187.500000 m 55 n 2 lpfd 2 lpd 2 fvco 10312.5} 375.000000 {refclk 375.000000 m 55 n 4 lpfd 2 lpd 2 fvco 10312.5} 750.000000 {refclk 750.000000 m 55 n 8 lpfd 2 lpd 2 fvco 10312.5} 92.075893 {refclk 92.075893 m 56 n 1 lpfd 2 lpd 2 fvco 10312.5} 90.460526 {refclk 90.460526 m 57 n 1 lpfd 2 lpd 2 fvco 10312.5} 180.921053 {refclk 180.921053 m 57 n 2 lpfd 2 lpd 2 fvco 10312.5} 361.842105 {refclk 361.842105 m 57 n 4 lpfd 2 lpd 2 fvco 10312.5} 723.684211 {refclk 723.684211 m 57 n 8 lpfd 2 lpd 2 fvco 10312.5} 88.900862 {refclk 88.900862 m 58 n 1 lpfd 2 lpd 2 fvco 10312.5} 87.394068 {refclk 87.394068 m 59 n 1 lpfd 2 lpd 2 fvco 10312.5} 174.788136 {refclk 174.788136 m 59 n 2 lpfd 2 lpd 2 fvco 10312.5} 349.576271 {refclk 349.576271 m 59 n 4 lpfd 2 lpd 2 fvco 10312.5} 699.152542 {refclk 699.152542 m 59 n 8 lpfd 2 lpd 2 fvco 10312.5} 85.937500 {refclk 85.937500 m 60 n 1 lpfd 2 lpd 2 fvco 10312.5} 84.528689 {refclk 84.528689 m 61 n 1 lpfd 2 lpd 2 fvco 10312.5} 169.057377 {refclk 169.057377 m 61 n 2 lpfd 2 lpd 2 fvco 10312.5} 338.114754 {refclk 338.114754 m 61 n 4 lpfd 2 lpd 2 fvco 10312.5} 676.229508 {refclk 676.229508 m 61 n 8 lpfd 2 lpd 2 fvco 10312.5} 83.165323 {refclk 83.165323 m 62 n 1 lpfd 2 lpd 2 fvco 10312.5} 81.845238 {refclk 81.845238 m 63 n 1 lpfd 2 lpd 2 fvco 10312.5} 163.690476 {refclk 163.690476 m 63 n 2 lpfd 2 lpd 2 fvco 10312.5} 327.380952 {refclk 327.380952 m 63 n 4 lpfd 2 lpd 2 fvco 10312.5} 654.761905 {refclk 654.761905 m 63 n 8 lpfd 2 lpd 2 fvco 10312.5} 80.566406 {refclk 80.566406 m 64 n 1 lpfd 2 lpd 2 fvco 10312.5} 79.326923 {refclk 79.326923 m 65 n 1 lpfd 2 lpd 2 fvco 10312.5} 158.653846 {refclk 158.653846 m 65 n 2 lpfd 2 lpd 2 fvco 10312.5} 317.307692 {refclk 317.307692 m 65 n 4 lpfd 2 lpd 2 fvco 10312.5} 634.615385 {refclk 634.615385 m 65 n 8 lpfd 2 lpd 2 fvco 10312.5} 78.125000 {refclk 78.125000 m 66 n 1 lpfd 2 lpd 2 fvco 10312.5} 76.958955 {refclk 76.958955 m 67 n 1 lpfd 2 lpd 2 fvco 10312.5} 153.917910 {refclk 153.917910 m 67 n 2 lpfd 2 lpd 2 fvco 10312.5} 307.835821 {refclk 307.835821 m 67 n 4 lpfd 2 lpd 2 fvco 10312.5} 615.671642 {refclk 615.671642 m 67 n 8 lpfd 2 lpd 2 fvco 10312.5} 75.827206 {refclk 75.827206 m 68 n 1 lpfd 2 lpd 2 fvco 10312.5} 74.728261 {refclk 74.728261 m 69 n 1 lpfd 2 lpd 2 fvco 10312.5} 149.456522 {refclk 149.456522 m 69 n 2 lpfd 2 lpd 2 fvco 10312.5} 298.913043 {refclk 298.913043 m 69 n 4 lpfd 2 lpd 2 fvco 10312.5} 597.826087 {refclk 597.826087 m 69 n 8 lpfd 2 lpd 2 fvco 10312.5} 73.660714 {refclk 73.660714 m 70 n 1 lpfd 2 lpd 2 fvco 10312.5} 72.623239 {refclk 72.623239 m 71 n 1 lpfd 2 lpd 2 fvco 10312.5} 145.246479 {refclk 145.246479 m 71 n 2 lpfd 2 lpd 2 fvco 10312.5} 290.492958 {refclk 290.492958 m 71 n 4 lpfd 2 lpd 2 fvco 10312.5} 580.985915 {refclk 580.985915 m 71 n 8 lpfd 2 lpd 2 fvco 10312.5} 71.614583 {refclk 71.614583 m 72 n 1 lpfd 2 lpd 2 fvco 10312.5} 70.633562 {refclk 70.633562 m 73 n 1 lpfd 2 lpd 2 fvco 10312.5} 141.267123 {refclk 141.267123 m 73 n 2 lpfd 2 lpd 2 fvco 10312.5} 282.534247 {refclk 282.534247 m 73 n 4 lpfd 2 lpd 2 fvco 10312.5} 565.068493 {refclk 565.068493 m 73 n 8 lpfd 2 lpd 2 fvco 10312.5} 69.679054 {refclk 69.679054 m 74 n 1 lpfd 2 lpd 2 fvco 10312.5} 68.750000 {refclk 68.750000 m 75 n 1 lpfd 2 lpd 2 fvco 10312.5} 137.500000 {refclk 137.500000 m 75 n 2 lpfd 2 lpd 2 fvco 10312.5} 275.000000 {refclk 275.000000 m 75 n 4 lpfd 2 lpd 2 fvco 10312.5} 550.000000 {refclk 550.000000 m 75 n 8 lpfd 2 lpd 2 fvco 10312.5} 67.845395 {refclk 67.845395 m 76 n 1 lpfd 2 lpd 2 fvco 10312.5} 66.964286 {refclk 66.964286 m 77 n 1 lpfd 2 lpd 2 fvco 10312.5} 133.928571 {refclk 133.928571 m 77 n 2 lpfd 2 lpd 2 fvco 10312.5} 267.857143 {refclk 267.857143 m 77 n 4 lpfd 2 lpd 2 fvco 10312.5} 535.714286 {refclk 535.714286 m 77 n 8 lpfd 2 lpd 2 fvco 10312.5} 66.105769 {refclk 66.105769 m 78 n 1 lpfd 2 lpd 2 fvco 10312.5} 65.268987 {refclk 65.268987 m 79 n 1 lpfd 2 lpd 2 fvco 10312.5} 130.537975 {refclk 130.537975 m 79 n 2 lpfd 2 lpd 2 fvco 10312.5} 261.075949 {refclk 261.075949 m 79 n 4 lpfd 2 lpd 2 fvco 10312.5} 522.151899 {refclk 522.151899 m 79 n 8 lpfd 2 lpd 2 fvco 10312.5} 64.453125 {refclk 64.453125 m 80 n 1 lpfd 2 lpd 2 fvco 10312.5} 63.657407 {refclk 63.657407 m 81 n 1 lpfd 2 lpd 2 fvco 10312.5} 127.314815 {refclk 127.314815 m 81 n 2 lpfd 2 lpd 2 fvco 10312.5} 254.629630 {refclk 254.629630 m 81 n 4 lpfd 2 lpd 2 fvco 10312.5} 509.259259 {refclk 509.259259 m 81 n 8 lpfd 2 lpd 2 fvco 10312.5} 62.881098 {refclk 62.881098 m 82 n 1 lpfd 2 lpd 2 fvco 10312.5} 62.123494 {refclk 62.123494 m 83 n 1 lpfd 2 lpd 2 fvco 10312.5} 124.246988 {refclk 124.246988 m 83 n 2 lpfd 2 lpd 2 fvco 10312.5} 248.493976 {refclk 248.493976 m 83 n 4 lpfd 2 lpd 2 fvco 10312.5} 496.987952 {refclk 496.987952 m 83 n 8 lpfd 2 lpd 2 fvco 10312.5} 61.383929 {refclk 61.383929 m 84 n 1 lpfd 2 lpd 2 fvco 10312.5} 60.661765 {refclk 60.661765 m 85 n 1 lpfd 2 lpd 2 fvco 10312.5} 121.323529 {refclk 121.323529 m 85 n 2 lpfd 2 lpd 2 fvco 10312.5} 242.647059 {refclk 242.647059 m 85 n 4 lpfd 2 lpd 2 fvco 10312.5} 485.294118 {refclk 485.294118 m 85 n 8 lpfd 2 lpd 2 fvco 10312.5} 59.956395 {refclk 59.956395 m 86 n 1 lpfd 2 lpd 2 fvco 10312.5} 59.267241 {refclk 59.267241 m 87 n 1 lpfd 2 lpd 2 fvco 10312.5} 118.534483 {refclk 118.534483 m 87 n 2 lpfd 2 lpd 2 fvco 10312.5} 237.068966 {refclk 237.068966 m 87 n 4 lpfd 2 lpd 2 fvco 10312.5} 474.137931 {refclk 474.137931 m 87 n 8 lpfd 2 lpd 2 fvco 10312.5} 58.593750 {refclk 58.593750 m 88 n 1 lpfd 2 lpd 2 fvco 10312.5} 57.935393 {refclk 57.935393 m 89 n 1 lpfd 2 lpd 2 fvco 10312.5} 115.870787 {refclk 115.870787 m 89 n 2 lpfd 2 lpd 2 fvco 10312.5} 231.741573 {refclk 231.741573 m 89 n 4 lpfd 2 lpd 2 fvco 10312.5} 463.483146 {refclk 463.483146 m 89 n 8 lpfd 2 lpd 2 fvco 10312.5} 57.291667 {refclk 57.291667 m 90 n 1 lpfd 2 lpd 2 fvco 10312.5} 56.662088 {refclk 56.662088 m 91 n 1 lpfd 2 lpd 2 fvco 10312.5} 113.324176 {refclk 113.324176 m 91 n 2 lpfd 2 lpd 2 fvco 10312.5} 226.648352 {refclk 226.648352 m 91 n 4 lpfd 2 lpd 2 fvco 10312.5} 453.296703 {refclk 453.296703 m 91 n 8 lpfd 2 lpd 2 fvco 10312.5} 56.046196 {refclk 56.046196 m 92 n 1 lpfd 2 lpd 2 fvco 10312.5} 55.443548 {refclk 55.443548 m 93 n 1 lpfd 2 lpd 2 fvco 10312.5} 110.887097 {refclk 110.887097 m 93 n 2 lpfd 2 lpd 2 fvco 10312.5} 221.774194 {refclk 221.774194 m 93 n 4 lpfd 2 lpd 2 fvco 10312.5} 443.548387 {refclk 443.548387 m 93 n 8 lpfd 2 lpd 2 fvco 10312.5} 54.853723 {refclk 54.853723 m 94 n 1 lpfd 2 lpd 2 fvco 10312.5} 54.276316 {refclk 54.276316 m 95 n 1 lpfd 2 lpd 2 fvco 10312.5} 108.552632 {refclk 108.552632 m 95 n 2 lpfd 2 lpd 2 fvco 10312.5} 217.105263 {refclk 217.105263 m 95 n 4 lpfd 2 lpd 2 fvco 10312.5} 434.210526 {refclk 434.210526 m 95 n 8 lpfd 2 lpd 2 fvco 10312.5} 53.710938 {refclk 53.710938 m 96 n 1 lpfd 2 lpd 2 fvco 10312.5} 53.157216 {refclk 53.157216 m 97 n 1 lpfd 2 lpd 2 fvco 10312.5} 106.314433 {refclk 106.314433 m 97 n 2 lpfd 2 lpd 2 fvco 10312.5} 212.628866 {refclk 212.628866 m 97 n 4 lpfd 2 lpd 2 fvco 10312.5} 425.257732 {refclk 425.257732 m 97 n 8 lpfd 2 lpd 2 fvco 10312.5} 52.614796 {refclk 52.614796 m 98 n 1 lpfd 2 lpd 2 fvco 10312.5} 52.083333 {refclk 52.083333 m 99 n 1 lpfd 2 lpd 2 fvco 10312.5} 104.166667 {refclk 104.166667 m 99 n 2 lpfd 2 lpd 2 fvco 10312.5} 208.333333 {refclk 208.333333 m 99 n 4 lpfd 2 lpd 2 fvco 10312.5} 416.666667 {refclk 416.666667 m 99 n 8 lpfd 2 lpd 2 fvco 10312.5} 51.562500 {refclk 51.562500 m 100 n 1 lpfd 2 lpd 2 fvco 10312.5} 51.051980 {refclk 51.051980 m 101 n 1 lpfd 2 lpd 2 fvco 10312.5} 102.103960 {refclk 102.103960 m 101 n 2 lpfd 2 lpd 2 fvco 10312.5} 204.207921 {refclk 204.207921 m 101 n 4 lpfd 2 lpd 2 fvco 10312.5} 408.415842 {refclk 408.415842 m 101 n 8 lpfd 2 lpd 2 fvco 10312.5} 50.551471 {refclk 50.551471 m 102 n 1 lpfd 2 lpd 2 fvco 10312.5} 50.060680 {refclk 50.060680 m 103 n 1 lpfd 2 lpd 2 fvco 10312.5} 100.121359 {refclk 100.121359 m 103 n 2 lpfd 2 lpd 2 fvco 10312.5} 200.242718 {refclk 200.242718 m 103 n 4 lpfd 2 lpd 2 fvco 10312.5} 400.485437 {refclk 400.485437 m 103 n 8 lpfd 2 lpd 2 fvco 10312.5} 49.579327 {refclk 49.579327 m 104 n 1 lpfd 2 lpd 2 fvco 10312.5} 49.107143 {refclk 49.107143 m 105 n 1 lpfd 2 lpd 2 fvco 10312.5} 98.214286 {refclk 98.214286 m 105 n 2 lpfd 2 lpd 2 fvco 10312.5} 196.428571 {refclk 196.428571 m 105 n 4 lpfd 2 lpd 2 fvco 10312.5} 392.857143 {refclk 392.857143 m 105 n 8 lpfd 2 lpd 2 fvco 10312.5} 48.643868 {refclk 48.643868 m 106 n 1 lpfd 2 lpd 2 fvco 10312.5} 48.189252 {refclk 48.189252 m 107 n 1 lpfd 2 lpd 2 fvco 10312.5} 96.378505 {refclk 96.378505 m 107 n 2 lpfd 2 lpd 2 fvco 10312.5} 192.757009 {refclk 192.757009 m 107 n 4 lpfd 2 lpd 2 fvco 10312.5} 385.514019 {refclk 385.514019 m 107 n 8 lpfd 2 lpd 2 fvco 10312.5} 47.743056 {refclk 47.743056 m 108 n 1 lpfd 2 lpd 2 fvco 10312.5} 47.305046 {refclk 47.305046 m 109 n 1 lpfd 2 lpd 2 fvco 10312.5} 94.610092 {refclk 94.610092 m 109 n 2 lpfd 2 lpd 2 fvco 10312.5} 189.220183 {refclk 189.220183 m 109 n 4 lpfd 2 lpd 2 fvco 10312.5} 378.440367 {refclk 378.440367 m 109 n 8 lpfd 2 lpd 2 fvco 10312.5} 46.875000 {refclk 46.875000 m 110 n 1 lpfd 2 lpd 2 fvco 10312.5} 46.452703 {refclk 46.452703 m 111 n 1 lpfd 2 lpd 2 fvco 10312.5} 92.905405 {refclk 92.905405 m 111 n 2 lpfd 2 lpd 2 fvco 10312.5} 185.810811 {refclk 185.810811 m 111 n 4 lpfd 2 lpd 2 fvco 10312.5} 371.621622 {refclk 371.621622 m 111 n 8 lpfd 2 lpd 2 fvco 10312.5} 46.037946 {refclk 46.037946 m 112 n 1 lpfd 2 lpd 2 fvco 10312.5} 45.630531 {refclk 45.630531 m 113 n 1 lpfd 2 lpd 2 fvco 10312.5} 91.261062 {refclk 91.261062 m 113 n 2 lpfd 2 lpd 2 fvco 10312.5} 182.522124 {refclk 182.522124 m 113 n 4 lpfd 2 lpd 2 fvco 10312.5} 365.044248 {refclk 365.044248 m 113 n 8 lpfd 2 lpd 2 fvco 10312.5} 45.230263 {refclk 45.230263 m 114 n 1 lpfd 2 lpd 2 fvco 10312.5} 44.836957 {refclk 44.836957 m 115 n 1 lpfd 2 lpd 2 fvco 10312.5} 89.673913 {refclk 89.673913 m 115 n 2 lpfd 2 lpd 2 fvco 10312.5} 179.347826 {refclk 179.347826 m 115 n 4 lpfd 2 lpd 2 fvco 10312.5} 358.695652 {refclk 358.695652 m 115 n 8 lpfd 2 lpd 2 fvco 10312.5} 44.450431 {refclk 44.450431 m 116 n 1 lpfd 2 lpd 2 fvco 10312.5} 44.070513 {refclk 44.070513 m 117 n 1 lpfd 2 lpd 2 fvco 10312.5} 88.141026 {refclk 88.141026 m 117 n 2 lpfd 2 lpd 2 fvco 10312.5} 176.282051 {refclk 176.282051 m 117 n 4 lpfd 2 lpd 2 fvco 10312.5} 352.564103 {refclk 352.564103 m 117 n 8 lpfd 2 lpd 2 fvco 10312.5} 43.697034 {refclk 43.697034 m 118 n 1 lpfd 2 lpd 2 fvco 10312.5} 43.329832 {refclk 43.329832 m 119 n 1 lpfd 2 lpd 2 fvco 10312.5} 86.659664 {refclk 86.659664 m 119 n 2 lpfd 2 lpd 2 fvco 10312.5} 173.319328 {refclk 173.319328 m 119 n 4 lpfd 2 lpd 2 fvco 10312.5} 346.638655 {refclk 346.638655 m 119 n 8 lpfd 2 lpd 2 fvco 10312.5} 42.968750 {refclk 42.968750 m 120 n 1 lpfd 2 lpd 2 fvco 10312.5} 42.613636 {refclk 42.613636 m 121 n 1 lpfd 2 lpd 2 fvco 10312.5} 85.227273 {refclk 85.227273 m 121 n 2 lpfd 2 lpd 2 fvco 10312.5} 170.454545 {refclk 170.454545 m 121 n 4 lpfd 2 lpd 2 fvco 10312.5} 340.909091 {refclk 340.909091 m 121 n 8 lpfd 2 lpd 2 fvco 10312.5} 42.264344 {refclk 42.264344 m 122 n 1 lpfd 2 lpd 2 fvco 10312.5} 41.920732 {refclk 41.920732 m 123 n 1 lpfd 2 lpd 2 fvco 10312.5} 83.841463 {refclk 83.841463 m 123 n 2 lpfd 2 lpd 2 fvco 10312.5} 167.682927 {refclk 167.682927 m 123 n 4 lpfd 2 lpd 2 fvco 10312.5} 335.365854 {refclk 335.365854 m 123 n 8 lpfd 2 lpd 2 fvco 10312.5} 41.582661 {refclk 41.582661 m 124 n 1 lpfd 2 lpd 2 fvco 10312.5} 41.250000 {refclk 41.250000 m 125 n 1 lpfd 2 lpd 2 fvco 10312.5} 82.500000 {refclk 82.500000 m 125 n 2 lpfd 2 lpd 2 fvco 10312.5} 165.000000 {refclk 165.000000 m 125 n 4 lpfd 2 lpd 2 fvco 10312.5} 330.000000 {refclk 330.000000 m 125 n 8 lpfd 2 lpd 2 fvco 10312.5} 40.922619 {refclk 40.922619 m 126 n 1 lpfd 2 lpd 2 fvco 10312.5} 40.600394 {refclk 40.600394 m 127 n 1 lpfd 2 lpd 2 fvco 10312.5} 81.200787 {refclk 81.200787 m 127 n 2 lpfd 2 lpd 2 fvco 10312.5} 162.401575 {refclk 162.401575 m 127 n 4 lpfd 2 lpd 2 fvco 10312.5} 324.803150 {refclk 324.803150 m 127 n 8 lpfd 2 lpd 2 fvco 10312.5} allowed_ranges {40.600394 40.922619 41.250000 41.582661 41.920732 42.264344 42.613636 42.968750 43.329832 43.697034 44.070513 44.450431 44.836957 45.230263 45.630531 46.037946 46.452703 46.875000 47.305046 47.743056 48.189252 48.643868 49.107143 49.579327 50.060680 50.551471 51.051980 51.562500 52.083333 52.614796 53.157216 53.710938 54.276316 54.853723 55.443548 56.046196 56.662088 57.291667 57.935393 58.593750 59.267241 59.956395 60.661765 61.383929 62.123494 62.881098 63.657407 64.453125 65.268987 66.105769 66.964286 67.845395 68.750000 69.679054 70.633562 71.614583 72.623239 73.660714 74.728261 75.827206 76.958955 78.125000 79.326923 80.566406 81.200787 81.845238 82.500000 83.165323 83.841463 84.528689 85.227273 85.937500 86.659664 87.394068 88.141026 88.900862 89.673913 90.460526 91.261062 92.075893 92.905405 93.750000 94.610092 95.486111 96.378505 97.287736 98.214286 99.158654 100.121359 101.102941 102.103960 103.125000 104.166667 105.229592 106.314433 107.421875 108.552632 109.707447 110.887097 112.092391 113.324176 114.583333 115.870787 117.187500 118.534483 119.912791 121.323529 122.767857 124.246988 125.762195 127.314815 128.906250 130.537975 132.211538 133.928571 135.690789 137.500000 139.358108 141.267123 143.229167 145.246479 147.321429 149.456522 151.654412 153.917910 156.250000 158.653846 161.132813 162.401575 163.690476 165.000000 166.330645 167.682927 169.057377 170.454545 171.875000 173.319328 174.788136 176.282051 177.801724 179.347826 180.921053 182.522124 184.151786 185.810811 187.500000 189.220183 190.972222 192.757009 194.575472 196.428571 198.317308 200.242718 202.205882 204.207921 206.250000 208.333333 210.459184 212.628866 214.843750 217.105263 219.414894 221.774194 224.184783 226.648352 229.166667 231.741573 234.375000 237.068966 239.825581 242.647059 245.535714 248.493976 251.524390 254.629630 257.812500 261.075949 264.423077 267.857143 271.381579 275.000000 278.716216 282.534247 286.458333 290.492958 294.642857 298.913043 303.308824 307.835821 312.500000 317.307692 322.265625 324.803150 327.380952 330.000000 332.661290 335.365854 338.114754 340.909091 343.750000 346.638655 349.576271 352.564103 355.603448 358.695652 361.842105 365.044248 368.303571 371.621622 375.000000 378.440367 381.944444 385.514019 389.150943 392.857143 396.634615 400.485437 404.411765 408.415842 412.500000 416.666667 420.918367 425.257732 429.687500 434.210526 438.829787 443.548387 448.369565 453.296703 458.333333 463.483146 468.750000 474.137931 479.651163 485.294118 491.071429 496.987952 503.048780 509.259259 515.625000 522.151899 528.846154 535.714286 542.763158 550.000000 557.432432 565.068493 572.916667 580.985915 589.285714 597.826087 606.617647 615.671642 625.000000 634.615385 644.531250 654.761905 665.322581 676.229508 687.500000 699.152542 711.206897 723.684211 736.607143 750.000000 763.888889 778.301887 793.269231}</value>
+   <value>343.534286 {refclk 343.534286 m 14 n 1 lpfd 2 lpd 2 fvco 9618.96} 687.068571 {refclk 687.068571 m 14 n 2 lpfd 2 lpd 2 fvco 9618.96} 320.632000 {refclk 320.632000 m 15 n 1 lpfd 2 lpd 2 fvco 9618.96} 641.264000 {refclk 641.264000 m 15 n 2 lpfd 2 lpd 2 fvco 9618.96} 300.592500 {refclk 300.592500 m 16 n 1 lpfd 2 lpd 2 fvco 9618.96} 601.185000 {refclk 601.185000 m 16 n 2 lpfd 2 lpd 2 fvco 9618.96} 282.910588 {refclk 282.910588 m 17 n 1 lpfd 2 lpd 2 fvco 9618.96} 565.821176 {refclk 565.821176 m 17 n 2 lpfd 2 lpd 2 fvco 9618.96} 267.193333 {refclk 267.193333 m 18 n 1 lpfd 2 lpd 2 fvco 9618.96} 534.386667 {refclk 534.386667 m 18 n 2 lpfd 2 lpd 2 fvco 9618.96} 253.130526 {refclk 253.130526 m 19 n 1 lpfd 2 lpd 2 fvco 9618.96} 506.261053 {refclk 506.261053 m 19 n 2 lpfd 2 lpd 2 fvco 9618.96} 240.474000 {refclk 240.474000 m 20 n 1 lpfd 2 lpd 2 fvco 9618.96} 480.948000 {refclk 480.948000 m 20 n 2 lpfd 2 lpd 2 fvco 9618.96} 229.022857 {refclk 229.022857 m 21 n 1 lpfd 2 lpd 2 fvco 9618.96} 458.045714 {refclk 458.045714 m 21 n 2 lpfd 2 lpd 2 fvco 9618.96} 218.612727 {refclk 218.612727 m 22 n 1 lpfd 2 lpd 2 fvco 9618.96} 437.225455 {refclk 437.225455 m 22 n 2 lpfd 2 lpd 2 fvco 9618.96} 209.107826 {refclk 209.107826 m 23 n 1 lpfd 2 lpd 2 fvco 9618.96} 418.215652 {refclk 418.215652 m 23 n 2 lpfd 2 lpd 2 fvco 9618.96} 200.395000 {refclk 200.395000 m 24 n 1 lpfd 2 lpd 2 fvco 9618.96} 400.790000 {refclk 400.790000 m 24 n 2 lpfd 2 lpd 2 fvco 9618.96} 192.379200 {refclk 192.379200 m 25 n 1 lpfd 2 lpd 2 fvco 9618.96} 384.758400 {refclk 384.758400 m 25 n 2 lpfd 2 lpd 2 fvco 9618.96} 769.516800 {refclk 769.516800 m 25 n 4 lpfd 2 lpd 2 fvco 9618.96} 184.980000 {refclk 184.980000 m 26 n 1 lpfd 2 lpd 2 fvco 9618.96} 369.960000 {refclk 369.960000 m 26 n 2 lpfd 2 lpd 2 fvco 9618.96} 739.920000 {refclk 739.920000 m 26 n 4 lpfd 2 lpd 2 fvco 9618.96} 178.128889 {refclk 178.128889 m 27 n 1 lpfd 2 lpd 2 fvco 9618.96} 356.257778 {refclk 356.257778 m 27 n 2 lpfd 2 lpd 2 fvco 9618.96} 712.515556 {refclk 712.515556 m 27 n 4 lpfd 2 lpd 2 fvco 9618.96} 171.767143 {refclk 171.767143 m 28 n 1 lpfd 2 lpd 2 fvco 9618.96} 165.844138 {refclk 165.844138 m 29 n 1 lpfd 2 lpd 2 fvco 9618.96} 331.688276 {refclk 331.688276 m 29 n 2 lpfd 2 lpd 2 fvco 9618.96} 663.376552 {refclk 663.376552 m 29 n 4 lpfd 2 lpd 2 fvco 9618.96} 160.316000 {refclk 160.316000 m 30 n 1 lpfd 2 lpd 2 fvco 9618.96} 155.144516 {refclk 155.144516 m 31 n 1 lpfd 2 lpd 2 fvco 9618.96} 310.289032 {refclk 310.289032 m 31 n 2 lpfd 2 lpd 2 fvco 9618.96} 620.578065 {refclk 620.578065 m 31 n 4 lpfd 2 lpd 2 fvco 9618.96} 150.296250 {refclk 150.296250 m 32 n 1 lpfd 2 lpd 2 fvco 9618.96} 145.741818 {refclk 145.741818 m 33 n 1 lpfd 2 lpd 2 fvco 9618.96} 291.483636 {refclk 291.483636 m 33 n 2 lpfd 2 lpd 2 fvco 9618.96} 582.967273 {refclk 582.967273 m 33 n 4 lpfd 2 lpd 2 fvco 9618.96} 141.455294 {refclk 141.455294 m 34 n 1 lpfd 2 lpd 2 fvco 9618.96} 137.413714 {refclk 137.413714 m 35 n 1 lpfd 2 lpd 2 fvco 9618.96} 274.827429 {refclk 274.827429 m 35 n 2 lpfd 2 lpd 2 fvco 9618.96} 549.654857 {refclk 549.654857 m 35 n 4 lpfd 2 lpd 2 fvco 9618.96} 133.596667 {refclk 133.596667 m 36 n 1 lpfd 2 lpd 2 fvco 9618.96} 129.985946 {refclk 129.985946 m 37 n 1 lpfd 2 lpd 2 fvco 9618.96} 259.971892 {refclk 259.971892 m 37 n 2 lpfd 2 lpd 2 fvco 9618.96} 519.943784 {refclk 519.943784 m 37 n 4 lpfd 2 lpd 2 fvco 9618.96} 126.565263 {refclk 126.565263 m 38 n 1 lpfd 2 lpd 2 fvco 9618.96} 123.320000 {refclk 123.320000 m 39 n 1 lpfd 2 lpd 2 fvco 9618.96} 246.640000 {refclk 246.640000 m 39 n 2 lpfd 2 lpd 2 fvco 9618.96} 493.280000 {refclk 493.280000 m 39 n 4 lpfd 2 lpd 2 fvco 9618.96} 120.237000 {refclk 120.237000 m 40 n 1 lpfd 2 lpd 2 fvco 9618.96} 117.304390 {refclk 117.304390 m 41 n 1 lpfd 2 lpd 2 fvco 9618.96} 234.608780 {refclk 234.608780 m 41 n 2 lpfd 2 lpd 2 fvco 9618.96} 469.217561 {refclk 469.217561 m 41 n 4 lpfd 2 lpd 2 fvco 9618.96} 114.511429 {refclk 114.511429 m 42 n 1 lpfd 2 lpd 2 fvco 9618.96} 111.848372 {refclk 111.848372 m 43 n 1 lpfd 2 lpd 2 fvco 9618.96} 223.696744 {refclk 223.696744 m 43 n 2 lpfd 2 lpd 2 fvco 9618.96} 447.393488 {refclk 447.393488 m 43 n 4 lpfd 2 lpd 2 fvco 9618.96} 109.306364 {refclk 109.306364 m 44 n 1 lpfd 2 lpd 2 fvco 9618.96} 106.877333 {refclk 106.877333 m 45 n 1 lpfd 2 lpd 2 fvco 9618.96} 213.754667 {refclk 213.754667 m 45 n 2 lpfd 2 lpd 2 fvco 9618.96} 427.509333 {refclk 427.509333 m 45 n 4 lpfd 2 lpd 2 fvco 9618.96} 104.553913 {refclk 104.553913 m 46 n 1 lpfd 2 lpd 2 fvco 9618.96} 102.329362 {refclk 102.329362 m 47 n 1 lpfd 2 lpd 2 fvco 9618.96} 204.658723 {refclk 204.658723 m 47 n 2 lpfd 2 lpd 2 fvco 9618.96} 409.317447 {refclk 409.317447 m 47 n 4 lpfd 2 lpd 2 fvco 9618.96} 100.197500 {refclk 100.197500 m 48 n 1 lpfd 2 lpd 2 fvco 9618.96} 98.152653 {refclk 98.152653 m 49 n 1 lpfd 2 lpd 2 fvco 9618.96} 196.305306 {refclk 196.305306 m 49 n 2 lpfd 2 lpd 2 fvco 9618.96} 392.610612 {refclk 392.610612 m 49 n 4 lpfd 2 lpd 2 fvco 9618.96} 785.221224 {refclk 785.221224 m 49 n 8 lpfd 2 lpd 2 fvco 9618.96} 96.189600 {refclk 96.189600 m 50 n 1 lpfd 2 lpd 2 fvco 9618.96} 94.303529 {refclk 94.303529 m 51 n 1 lpfd 2 lpd 2 fvco 9618.96} 188.607059 {refclk 188.607059 m 51 n 2 lpfd 2 lpd 2 fvco 9618.96} 377.214118 {refclk 377.214118 m 51 n 4 lpfd 2 lpd 2 fvco 9618.96} 754.428235 {refclk 754.428235 m 51 n 8 lpfd 2 lpd 2 fvco 9618.96} 92.490000 {refclk 92.490000 m 52 n 1 lpfd 2 lpd 2 fvco 9618.96} 90.744906 {refclk 90.744906 m 53 n 1 lpfd 2 lpd 2 fvco 9618.96} 181.489811 {refclk 181.489811 m 53 n 2 lpfd 2 lpd 2 fvco 9618.96} 362.979623 {refclk 362.979623 m 53 n 4 lpfd 2 lpd 2 fvco 9618.96} 725.959245 {refclk 725.959245 m 53 n 8 lpfd 2 lpd 2 fvco 9618.96} 89.064444 {refclk 89.064444 m 54 n 1 lpfd 2 lpd 2 fvco 9618.96} 87.445091 {refclk 87.445091 m 55 n 1 lpfd 2 lpd 2 fvco 9618.96} 174.890182 {refclk 174.890182 m 55 n 2 lpfd 2 lpd 2 fvco 9618.96} 349.780364 {refclk 349.780364 m 55 n 4 lpfd 2 lpd 2 fvco 9618.96} 699.560727 {refclk 699.560727 m 55 n 8 lpfd 2 lpd 2 fvco 9618.96} 85.883571 {refclk 85.883571 m 56 n 1 lpfd 2 lpd 2 fvco 9618.96} 84.376842 {refclk 84.376842 m 57 n 1 lpfd 2 lpd 2 fvco 9618.96} 168.753684 {refclk 168.753684 m 57 n 2 lpfd 2 lpd 2 fvco 9618.96} 337.507368 {refclk 337.507368 m 57 n 4 lpfd 2 lpd 2 fvco 9618.96} 675.014737 {refclk 675.014737 m 57 n 8 lpfd 2 lpd 2 fvco 9618.96} 82.922069 {refclk 82.922069 m 58 n 1 lpfd 2 lpd 2 fvco 9618.96} 81.516610 {refclk 81.516610 m 59 n 1 lpfd 2 lpd 2 fvco 9618.96} 163.033220 {refclk 163.033220 m 59 n 2 lpfd 2 lpd 2 fvco 9618.96} 326.066441 {refclk 326.066441 m 59 n 4 lpfd 2 lpd 2 fvco 9618.96} 652.132881 {refclk 652.132881 m 59 n 8 lpfd 2 lpd 2 fvco 9618.96} 80.158000 {refclk 80.158000 m 60 n 1 lpfd 2 lpd 2 fvco 9618.96} 78.843934 {refclk 78.843934 m 61 n 1 lpfd 2 lpd 2 fvco 9618.96} 157.687869 {refclk 157.687869 m 61 n 2 lpfd 2 lpd 2 fvco 9618.96} 315.375738 {refclk 315.375738 m 61 n 4 lpfd 2 lpd 2 fvco 9618.96} 630.751475 {refclk 630.751475 m 61 n 8 lpfd 2 lpd 2 fvco 9618.96} 77.572258 {refclk 77.572258 m 62 n 1 lpfd 2 lpd 2 fvco 9618.96} 76.340952 {refclk 76.340952 m 63 n 1 lpfd 2 lpd 2 fvco 9618.96} 152.681905 {refclk 152.681905 m 63 n 2 lpfd 2 lpd 2 fvco 9618.96} 305.363810 {refclk 305.363810 m 63 n 4 lpfd 2 lpd 2 fvco 9618.96} 610.727619 {refclk 610.727619 m 63 n 8 lpfd 2 lpd 2 fvco 9618.96} 75.148125 {refclk 75.148125 m 64 n 1 lpfd 2 lpd 2 fvco 9618.96} 73.992000 {refclk 73.992000 m 65 n 1 lpfd 2 lpd 2 fvco 9618.96} 147.984000 {refclk 147.984000 m 65 n 2 lpfd 2 lpd 2 fvco 9618.96} 295.968000 {refclk 295.968000 m 65 n 4 lpfd 2 lpd 2 fvco 9618.96} 591.936000 {refclk 591.936000 m 65 n 8 lpfd 2 lpd 2 fvco 9618.96} 72.870909 {refclk 72.870909 m 66 n 1 lpfd 2 lpd 2 fvco 9618.96} 71.783284 {refclk 71.783284 m 67 n 1 lpfd 2 lpd 2 fvco 9618.96} 143.566567 {refclk 143.566567 m 67 n 2 lpfd 2 lpd 2 fvco 9618.96} 287.133134 {refclk 287.133134 m 67 n 4 lpfd 2 lpd 2 fvco 9618.96} 574.266269 {refclk 574.266269 m 67 n 8 lpfd 2 lpd 2 fvco 9618.96} 70.727647 {refclk 70.727647 m 68 n 1 lpfd 2 lpd 2 fvco 9618.96} 69.702609 {refclk 69.702609 m 69 n 1 lpfd 2 lpd 2 fvco 9618.96} 139.405217 {refclk 139.405217 m 69 n 2 lpfd 2 lpd 2 fvco 9618.96} 278.810435 {refclk 278.810435 m 69 n 4 lpfd 2 lpd 2 fvco 9618.96} 557.620870 {refclk 557.620870 m 69 n 8 lpfd 2 lpd 2 fvco 9618.96} 68.706857 {refclk 68.706857 m 70 n 1 lpfd 2 lpd 2 fvco 9618.96} 67.739155 {refclk 67.739155 m 71 n 1 lpfd 2 lpd 2 fvco 9618.96} 135.478310 {refclk 135.478310 m 71 n 2 lpfd 2 lpd 2 fvco 9618.96} 270.956620 {refclk 270.956620 m 71 n 4 lpfd 2 lpd 2 fvco 9618.96} 541.913239 {refclk 541.913239 m 71 n 8 lpfd 2 lpd 2 fvco 9618.96} 66.798333 {refclk 66.798333 m 72 n 1 lpfd 2 lpd 2 fvco 9618.96} 65.883288 {refclk 65.883288 m 73 n 1 lpfd 2 lpd 2 fvco 9618.96} 131.766575 {refclk 131.766575 m 73 n 2 lpfd 2 lpd 2 fvco 9618.96} 263.533151 {refclk 263.533151 m 73 n 4 lpfd 2 lpd 2 fvco 9618.96} 527.066301 {refclk 527.066301 m 73 n 8 lpfd 2 lpd 2 fvco 9618.96} 64.992973 {refclk 64.992973 m 74 n 1 lpfd 2 lpd 2 fvco 9618.96} 64.126400 {refclk 64.126400 m 75 n 1 lpfd 2 lpd 2 fvco 9618.96} 128.252800 {refclk 128.252800 m 75 n 2 lpfd 2 lpd 2 fvco 9618.96} 256.505600 {refclk 256.505600 m 75 n 4 lpfd 2 lpd 2 fvco 9618.96} 513.011200 {refclk 513.011200 m 75 n 8 lpfd 2 lpd 2 fvco 9618.96} 63.282632 {refclk 63.282632 m 76 n 1 lpfd 2 lpd 2 fvco 9618.96} 62.460779 {refclk 62.460779 m 77 n 1 lpfd 2 lpd 2 fvco 9618.96} 124.921558 {refclk 124.921558 m 77 n 2 lpfd 2 lpd 2 fvco 9618.96} 249.843117 {refclk 249.843117 m 77 n 4 lpfd 2 lpd 2 fvco 9618.96} 499.686234 {refclk 499.686234 m 77 n 8 lpfd 2 lpd 2 fvco 9618.96} 61.660000 {refclk 61.660000 m 78 n 1 lpfd 2 lpd 2 fvco 9618.96} 60.879494 {refclk 60.879494 m 79 n 1 lpfd 2 lpd 2 fvco 9618.96} 121.758987 {refclk 121.758987 m 79 n 2 lpfd 2 lpd 2 fvco 9618.96} 243.517975 {refclk 243.517975 m 79 n 4 lpfd 2 lpd 2 fvco 9618.96} 487.035949 {refclk 487.035949 m 79 n 8 lpfd 2 lpd 2 fvco 9618.96} 60.118500 {refclk 60.118500 m 80 n 1 lpfd 2 lpd 2 fvco 9618.96} 59.376296 {refclk 59.376296 m 81 n 1 lpfd 2 lpd 2 fvco 9618.96} 118.752593 {refclk 118.752593 m 81 n 2 lpfd 2 lpd 2 fvco 9618.96} 237.505185 {refclk 237.505185 m 81 n 4 lpfd 2 lpd 2 fvco 9618.96} 475.010370 {refclk 475.010370 m 81 n 8 lpfd 2 lpd 2 fvco 9618.96} 58.652195 {refclk 58.652195 m 82 n 1 lpfd 2 lpd 2 fvco 9618.96} 57.945542 {refclk 57.945542 m 83 n 1 lpfd 2 lpd 2 fvco 9618.96} 115.891084 {refclk 115.891084 m 83 n 2 lpfd 2 lpd 2 fvco 9618.96} 231.782169 {refclk 231.782169 m 83 n 4 lpfd 2 lpd 2 fvco 9618.96} 463.564337 {refclk 463.564337 m 83 n 8 lpfd 2 lpd 2 fvco 9618.96} 57.255714 {refclk 57.255714 m 84 n 1 lpfd 2 lpd 2 fvco 9618.96} 56.582118 {refclk 56.582118 m 85 n 1 lpfd 2 lpd 2 fvco 9618.96} 113.164235 {refclk 113.164235 m 85 n 2 lpfd 2 lpd 2 fvco 9618.96} 226.328471 {refclk 226.328471 m 85 n 4 lpfd 2 lpd 2 fvco 9618.96} 452.656941 {refclk 452.656941 m 85 n 8 lpfd 2 lpd 2 fvco 9618.96} 55.924186 {refclk 55.924186 m 86 n 1 lpfd 2 lpd 2 fvco 9618.96} 55.281379 {refclk 55.281379 m 87 n 1 lpfd 2 lpd 2 fvco 9618.96} 110.562759 {refclk 110.562759 m 87 n 2 lpfd 2 lpd 2 fvco 9618.96} 221.125517 {refclk 221.125517 m 87 n 4 lpfd 2 lpd 2 fvco 9618.96} 442.251034 {refclk 442.251034 m 87 n 8 lpfd 2 lpd 2 fvco 9618.96} 54.653182 {refclk 54.653182 m 88 n 1 lpfd 2 lpd 2 fvco 9618.96} 54.039101 {refclk 54.039101 m 89 n 1 lpfd 2 lpd 2 fvco 9618.96} 108.078202 {refclk 108.078202 m 89 n 2 lpfd 2 lpd 2 fvco 9618.96} 216.156404 {refclk 216.156404 m 89 n 4 lpfd 2 lpd 2 fvco 9618.96} 432.312809 {refclk 432.312809 m 89 n 8 lpfd 2 lpd 2 fvco 9618.96} 53.438667 {refclk 53.438667 m 90 n 1 lpfd 2 lpd 2 fvco 9618.96} 52.851429 {refclk 52.851429 m 91 n 1 lpfd 2 lpd 2 fvco 9618.96} 105.702857 {refclk 105.702857 m 91 n 2 lpfd 2 lpd 2 fvco 9618.96} 211.405714 {refclk 211.405714 m 91 n 4 lpfd 2 lpd 2 fvco 9618.96} 422.811429 {refclk 422.811429 m 91 n 8 lpfd 2 lpd 2 fvco 9618.96} 52.276957 {refclk 52.276957 m 92 n 1 lpfd 2 lpd 2 fvco 9618.96} 51.714839 {refclk 51.714839 m 93 n 1 lpfd 2 lpd 2 fvco 9618.96} 103.429677 {refclk 103.429677 m 93 n 2 lpfd 2 lpd 2 fvco 9618.96} 206.859355 {refclk 206.859355 m 93 n 4 lpfd 2 lpd 2 fvco 9618.96} 413.718710 {refclk 413.718710 m 93 n 8 lpfd 2 lpd 2 fvco 9618.96} 51.164681 {refclk 51.164681 m 94 n 1 lpfd 2 lpd 2 fvco 9618.96} 50.626105 {refclk 50.626105 m 95 n 1 lpfd 2 lpd 2 fvco 9618.96} 101.252211 {refclk 101.252211 m 95 n 2 lpfd 2 lpd 2 fvco 9618.96} 202.504421 {refclk 202.504421 m 95 n 4 lpfd 2 lpd 2 fvco 9618.96} 405.008842 {refclk 405.008842 m 95 n 8 lpfd 2 lpd 2 fvco 9618.96} 50.098750 {refclk 50.098750 m 96 n 1 lpfd 2 lpd 2 fvco 9618.96} 49.582268 {refclk 49.582268 m 97 n 1 lpfd 2 lpd 2 fvco 9618.96} 99.164536 {refclk 99.164536 m 97 n 2 lpfd 2 lpd 2 fvco 9618.96} 198.329072 {refclk 198.329072 m 97 n 4 lpfd 2 lpd 2 fvco 9618.96} 396.658144 {refclk 396.658144 m 97 n 8 lpfd 2 lpd 2 fvco 9618.96} 49.076327 {refclk 49.076327 m 98 n 1 lpfd 2 lpd 2 fvco 9618.96} 48.580606 {refclk 48.580606 m 99 n 1 lpfd 2 lpd 2 fvco 9618.96} 97.161212 {refclk 97.161212 m 99 n 2 lpfd 2 lpd 2 fvco 9618.96} 194.322424 {refclk 194.322424 m 99 n 4 lpfd 2 lpd 2 fvco 9618.96} 388.644848 {refclk 388.644848 m 99 n 8 lpfd 2 lpd 2 fvco 9618.96} 48.094800 {refclk 48.094800 m 100 n 1 lpfd 2 lpd 2 fvco 9618.96} 47.618614 {refclk 47.618614 m 101 n 1 lpfd 2 lpd 2 fvco 9618.96} 95.237228 {refclk 95.237228 m 101 n 2 lpfd 2 lpd 2 fvco 9618.96} 190.474455 {refclk 190.474455 m 101 n 4 lpfd 2 lpd 2 fvco 9618.96} 380.948911 {refclk 380.948911 m 101 n 8 lpfd 2 lpd 2 fvco 9618.96} 47.151765 {refclk 47.151765 m 102 n 1 lpfd 2 lpd 2 fvco 9618.96} 46.693981 {refclk 46.693981 m 103 n 1 lpfd 2 lpd 2 fvco 9618.96} 93.387961 {refclk 93.387961 m 103 n 2 lpfd 2 lpd 2 fvco 9618.96} 186.775922 {refclk 186.775922 m 103 n 4 lpfd 2 lpd 2 fvco 9618.96} 373.551845 {refclk 373.551845 m 103 n 8 lpfd 2 lpd 2 fvco 9618.96} 46.245000 {refclk 46.245000 m 104 n 1 lpfd 2 lpd 2 fvco 9618.96} 45.804571 {refclk 45.804571 m 105 n 1 lpfd 2 lpd 2 fvco 9618.96} 91.609143 {refclk 91.609143 m 105 n 2 lpfd 2 lpd 2 fvco 9618.96} 183.218286 {refclk 183.218286 m 105 n 4 lpfd 2 lpd 2 fvco 9618.96} 366.436571 {refclk 366.436571 m 105 n 8 lpfd 2 lpd 2 fvco 9618.96} 45.372453 {refclk 45.372453 m 106 n 1 lpfd 2 lpd 2 fvco 9618.96} 44.948411 {refclk 44.948411 m 107 n 1 lpfd 2 lpd 2 fvco 9618.96} 89.896822 {refclk 89.896822 m 107 n 2 lpfd 2 lpd 2 fvco 9618.96} 179.793645 {refclk 179.793645 m 107 n 4 lpfd 2 lpd 2 fvco 9618.96} 359.587290 {refclk 359.587290 m 107 n 8 lpfd 2 lpd 2 fvco 9618.96} 44.532222 {refclk 44.532222 m 108 n 1 lpfd 2 lpd 2 fvco 9618.96} 44.123670 {refclk 44.123670 m 109 n 1 lpfd 2 lpd 2 fvco 9618.96} 88.247339 {refclk 88.247339 m 109 n 2 lpfd 2 lpd 2 fvco 9618.96} 176.494679 {refclk 176.494679 m 109 n 4 lpfd 2 lpd 2 fvco 9618.96} 352.989358 {refclk 352.989358 m 109 n 8 lpfd 2 lpd 2 fvco 9618.96} 43.722545 {refclk 43.722545 m 110 n 1 lpfd 2 lpd 2 fvco 9618.96} 43.328649 {refclk 43.328649 m 111 n 1 lpfd 2 lpd 2 fvco 9618.96} 86.657297 {refclk 86.657297 m 111 n 2 lpfd 2 lpd 2 fvco 9618.96} 173.314595 {refclk 173.314595 m 111 n 4 lpfd 2 lpd 2 fvco 9618.96} 346.629189 {refclk 346.629189 m 111 n 8 lpfd 2 lpd 2 fvco 9618.96} 42.941786 {refclk 42.941786 m 112 n 1 lpfd 2 lpd 2 fvco 9618.96} 42.561770 {refclk 42.561770 m 113 n 1 lpfd 2 lpd 2 fvco 9618.96} 85.123540 {refclk 85.123540 m 113 n 2 lpfd 2 lpd 2 fvco 9618.96} 170.247080 {refclk 170.247080 m 113 n 4 lpfd 2 lpd 2 fvco 9618.96} 340.494159 {refclk 340.494159 m 113 n 8 lpfd 2 lpd 2 fvco 9618.96} 42.188421 {refclk 42.188421 m 114 n 1 lpfd 2 lpd 2 fvco 9618.96} 41.821565 {refclk 41.821565 m 115 n 1 lpfd 2 lpd 2 fvco 9618.96} 83.643130 {refclk 83.643130 m 115 n 2 lpfd 2 lpd 2 fvco 9618.96} 167.286261 {refclk 167.286261 m 115 n 4 lpfd 2 lpd 2 fvco 9618.96} 334.572522 {refclk 334.572522 m 115 n 8 lpfd 2 lpd 2 fvco 9618.96} 41.461034 {refclk 41.461034 m 116 n 1 lpfd 2 lpd 2 fvco 9618.96} 41.106667 {refclk 41.106667 m 117 n 1 lpfd 2 lpd 2 fvco 9618.96} 82.213333 {refclk 82.213333 m 117 n 2 lpfd 2 lpd 2 fvco 9618.96} 164.426667 {refclk 164.426667 m 117 n 4 lpfd 2 lpd 2 fvco 9618.96} 328.853333 {refclk 328.853333 m 117 n 8 lpfd 2 lpd 2 fvco 9618.96} 40.758305 {refclk 40.758305 m 118 n 1 lpfd 2 lpd 2 fvco 9618.96} 40.415798 {refclk 40.415798 m 119 n 1 lpfd 2 lpd 2 fvco 9618.96} 80.831597 {refclk 80.831597 m 119 n 2 lpfd 2 lpd 2 fvco 9618.96} 161.663193 {refclk 161.663193 m 119 n 4 lpfd 2 lpd 2 fvco 9618.96} 323.326387 {refclk 323.326387 m 119 n 8 lpfd 2 lpd 2 fvco 9618.96} 40.079000 {refclk 40.079000 m 120 n 1 lpfd 2 lpd 2 fvco 9618.96} 39.747769 {refclk 39.747769 m 121 n 1 lpfd 2 lpd 2 fvco 9618.96} 79.495537 {refclk 79.495537 m 121 n 2 lpfd 2 lpd 2 fvco 9618.96} 158.991074 {refclk 158.991074 m 121 n 4 lpfd 2 lpd 2 fvco 9618.96} 317.982149 {refclk 317.982149 m 121 n 8 lpfd 2 lpd 2 fvco 9618.96} 39.421967 {refclk 39.421967 m 122 n 1 lpfd 2 lpd 2 fvco 9618.96} 39.101463 {refclk 39.101463 m 123 n 1 lpfd 2 lpd 2 fvco 9618.96} 78.202927 {refclk 78.202927 m 123 n 2 lpfd 2 lpd 2 fvco 9618.96} 156.405854 {refclk 156.405854 m 123 n 4 lpfd 2 lpd 2 fvco 9618.96} 312.811707 {refclk 312.811707 m 123 n 8 lpfd 2 lpd 2 fvco 9618.96} 38.786129 {refclk 38.786129 m 124 n 1 lpfd 2 lpd 2 fvco 9618.96} 38.475840 {refclk 38.475840 m 125 n 1 lpfd 2 lpd 2 fvco 9618.96} 76.951680 {refclk 76.951680 m 125 n 2 lpfd 2 lpd 2 fvco 9618.96} 153.903360 {refclk 153.903360 m 125 n 4 lpfd 2 lpd 2 fvco 9618.96} 307.806720 {refclk 307.806720 m 125 n 8 lpfd 2 lpd 2 fvco 9618.96} 38.170476 {refclk 38.170476 m 126 n 1 lpfd 2 lpd 2 fvco 9618.96} 37.869921 {refclk 37.869921 m 127 n 1 lpfd 2 lpd 2 fvco 9618.96} 75.739843 {refclk 75.739843 m 127 n 2 lpfd 2 lpd 2 fvco 9618.96} 151.479685 {refclk 151.479685 m 127 n 4 lpfd 2 lpd 2 fvco 9618.96} 302.959370 {refclk 302.959370 m 127 n 8 lpfd 2 lpd 2 fvco 9618.96} allowed_ranges {37.869921 38.170476 38.475840 38.786129 39.101463 39.421967 39.747769 40.079000 40.415798 40.758305 41.106667 41.461034 41.821565 42.188421 42.561770 42.941786 43.328649 43.722545 44.123670 44.532222 44.948411 45.372453 45.804571 46.245000 46.693981 47.151765 47.618614 48.094800 48.580606 49.076327 49.582268 50.098750 50.626105 51.164681 51.714839 52.276957 52.851429 53.438667 54.039101 54.653182 55.281379 55.924186 56.582118 57.255714 57.945542 58.652195 59.376296 60.118500 60.879494 61.660000 62.460779 63.282632 64.126400 64.992973 65.883288 66.798333 67.739155 68.706857 69.702609 70.727647 71.783284 72.870909 73.992000 75.148125 75.739843 76.340952 76.951680 77.572258 78.202927 78.843934 79.495537 80.158000 80.831597 81.516610 82.213333 82.922069 83.643130 84.376842 85.123540 85.883571 86.657297 87.445091 88.247339 89.064444 89.896822 90.744906 91.609143 92.490000 93.387961 94.303529 95.237228 96.189600 97.161212 98.152653 99.164536 100.197500 101.252211 102.329362 103.429677 104.553913 105.702857 106.877333 108.078202 109.306364 110.562759 111.848372 113.164235 114.511429 115.891084 117.304390 118.752593 120.237000 121.758987 123.320000 124.921558 126.565263 128.252800 129.985946 131.766575 133.596667 135.478310 137.413714 139.405217 141.455294 143.566567 145.741818 147.984000 150.296250 151.479685 152.681905 153.903360 155.144516 156.405854 157.687869 158.991074 160.316000 161.663193 163.033220 164.426667 165.844138 167.286261 168.753684 170.247080 171.767143 173.314595 174.890182 176.494679 178.128889 179.793645 181.489811 183.218286 184.980000 186.775922 188.607059 190.474455 192.379200 194.322424 196.305306 198.329072 200.395000 202.504421 204.658723 206.859355 209.107826 211.405714 213.754667 216.156404 218.612727 221.125517 223.696744 226.328471 229.022857 231.782169 234.608780 237.505185 240.474000 243.517975 246.640000 249.843117 253.130526 256.505600 259.971892 263.533151 267.193333 270.956620 274.827429 278.810435 282.910588 287.133134 291.483636 295.968000 300.592500 302.959370 305.363810 307.806720 310.289032 312.811707 315.375738 317.982149 320.632000 323.326387 326.066441 328.853333 331.688276 334.572522 337.507368 340.494159 343.534286 346.629189 349.780364 352.989358 356.257778 359.587290 362.979623 366.436571 369.960000 373.551845 377.214118 380.948911 384.758400 388.644848 392.610612 396.658144 400.790000 405.008842 409.317447 413.718710 418.215652 422.811429 427.509333 432.312809 437.225455 442.251034 447.393488 452.656941 458.045714 463.564337 469.217561 475.010370 480.948000 487.035949 493.280000 499.686234 506.261053 513.011200 519.943784 527.066301 534.386667 541.913239 549.654857 557.620870 565.821176 574.266269 582.967273 591.936000 601.185000 610.727619 620.578065 630.751475 641.264000 652.132881 663.376552 675.014737 687.068571 699.560727 712.515556 725.959245 739.920000 754.428235 769.516800 785.221224}</value>
    <derived>true</derived>
    <enabled>true</enabled>
    <visible>false</visible>
@@ -2999,7 +2999,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="l_pll_settings_key">
    <type>java.lang.String</type>
-   <value>644.531250</value>
+   <value>601.185000</value>
    <derived>true</derived>
    <enabled>true</enabled>
    <visible>false</visible>
@@ -3207,7 +3207,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="hssi_pldadapt_rx_datarate_bps">
    <type>java.lang.String</type>
-   <value>10312500000</value>
+   <value>9618960000</value>
    <derived>true</derived>
    <enabled>true</enabled>
    <visible>false</visible>
@@ -3215,7 +3215,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="hssi_pldadapt_tx_datarate_bps">
    <type>java.lang.String</type>
-   <value>10312500000</value>
+   <value>9618960000</value>
    <derived>true</derived>
    <enabled>true</enabled>
    <visible>false</visible>
@@ -3263,7 +3263,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="adme_data_rate">
    <type>java.lang.String</type>
-   <value>10312500000</value>
+   <value>9618960000</value>
    <derived>true</derived>
    <enabled>true</enabled>
    <visible>false</visible>
@@ -3351,7 +3351,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="cannot_gen_exdesign_prot_msg">
    <type>java.lang.String</type>
-   <value><![CDATA[A design example cannot be generated for "Tx PLL reference clock frequency"=="125.0" && "Selected CDR reference clock frequency"=="644.531250"]]></value>
+   <value><![CDATA[A design example cannot be generated for "Tx PLL reference clock frequency"=="125.0" && "Selected CDR reference clock frequency"=="601.185000"]]></value>
    <derived>true</derived>
    <enabled>true</enabled>
    <visible>false</visible>
@@ -6599,7 +6599,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="hssi_adapt_rx_hd_hssiadapt_pld_pcs_rx_clk_out_hz">
    <type>int</type>
-   <value>161132812</value>
+   <value>150296250</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -7127,7 +7127,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="hssi_adapt_tx_hd_hssiadapt_aib_hssi_tx_transfer_clk_hz">
    <type>int</type>
-   <value>322265624</value>
+   <value>300592500</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -7535,7 +7535,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="hssi_adapt_tx_hd_hssiadapt_pld_pcs_tx_clk_out_hz">
    <type>int</type>
-   <value>161132812</value>
+   <value>150296250</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -11239,7 +11239,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="pma_adapt_datarate_bps">
    <type>java.lang.String</type>
-   <value>10312500000</value>
+   <value>9618960000</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -11631,7 +11631,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="cdr_pll_datarate_bps">
    <type>java.lang.String</type>
-   <value>10312500000</value>
+   <value>9618960000</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -11695,7 +11695,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="cdr_pll_f_max_vco">
    <type>java.lang.String</type>
-   <value>14150000000</value>
+   <value>10312500000</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -11727,7 +11727,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="cdr_pll_f_min_vco">
    <type>java.lang.String</type>
-   <value>7000000000</value>
+   <value>4900000000</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -11871,7 +11871,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="cdr_pll_out_freq">
    <type>java.lang.String</type>
-   <value>5156250000</value>
+   <value>4809480000</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -11991,7 +11991,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="cdr_pll_reference_clock_frequency">
    <type>java.lang.String</type>
-   <value>644531250</value>
+   <value>601185000</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -12023,7 +12023,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="cdr_pll_set_cdr_input_freq_range">
    <type>int</type>
-   <value>149</value>
+   <value>141</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -12055,7 +12055,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="cdr_pll_set_cdr_vco_speed_fix">
    <type>int</type>
-   <value>92</value>
+   <value>80</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -12159,7 +12159,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="cdr_pll_vco_freq">
    <type>java.lang.String</type>
-   <value>10312500000</value>
+   <value>9618960000</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -12391,7 +12391,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="pma_rx_buf_datarate_bps">
    <type>java.lang.String</type>
-   <value>10312500000</value>
+   <value>9618960000</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -12399,7 +12399,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="pma_rx_buf_pm_cr2_rx_path_datarate_bps">
    <type>java.lang.String</type>
-   <value>10312500000</value>
+   <value>9618960000</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -12623,7 +12623,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="pma_rx_buf_pm_cr2_rx_path_pma_rx_divclk_hz">
    <type>java.lang.String</type>
-   <value>161132812</value>
+   <value>150296250</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -13111,7 +13111,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="pma_rx_deser_datarate_bps">
    <type>java.lang.String</type>
-   <value>10312500000</value>
+   <value>9618960000</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -13327,7 +13327,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="pma_rx_dfe_datarate_bps">
    <type>java.lang.String</type>
-   <value>10312500000</value>
+   <value>9618960000</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -14023,7 +14023,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="pma_rx_odi_datarate_bps">
    <type>java.lang.String</type>
-   <value>10312500000</value>
+   <value>9618960000</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -14367,7 +14367,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="pma_tx_buf_datarate_bps">
    <type>java.lang.String</type>
-   <value>10312500000</value>
+   <value>9618960000</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -14375,7 +14375,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="pma_tx_buf_pm_cr2_tx_path_datarate_bps">
    <type>java.lang.String</type>
-   <value>10312500000</value>
+   <value>9618960000</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -14631,7 +14631,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="pma_tx_buf_pm_cr2_tx_path_pma_tx_divclk_hz">
    <type>java.lang.String</type>
-   <value>161132812</value>
+   <value>150296250</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -14943,7 +14943,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="pma_tx_buf_pm_cr2_tx_path_tx_pll_clk_hz">
    <type>java.lang.String</type>
-   <value>5156250000</value>
+   <value>4809480000</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -15087,7 +15087,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="pma_cgb_datarate_bps">
    <type>java.lang.String</type>
-   <value>10312500000</value>
+   <value>9618960000</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -16607,7 +16607,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="hssi_pldadapt_rx_hdpldadapt_aib_fabric_rx_transfer_clk_hz">
    <type>int</type>
-   <value>322265624</value>
+   <value>300592500</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -17111,7 +17111,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="hssi_pldadapt_rx_hdpldadapt_pld_rx_clk1_dcm_hz">
    <type>int</type>
-   <value>161132812</value>
+   <value>150296250</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -17119,7 +17119,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="hssi_pldadapt_rx_hdpldadapt_pld_rx_clk1_rowclk_hz">
    <type>int</type>
-   <value>161132812</value>
+   <value>150296250</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -17495,7 +17495,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="hssi_pldadapt_tx_hdpldadapt_aib_fabric_pma_aib_tx_clk_hz">
    <type>int</type>
-   <value>322265625</value>
+   <value>300592500</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -18015,7 +18015,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="hssi_pldadapt_tx_hdpldadapt_pld_tx_clk1_dcm_hz">
    <type>int</type>
-   <value>161132812</value>
+   <value>150296250</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -18023,7 +18023,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="hssi_pldadapt_tx_hdpldadapt_pld_tx_clk1_rowclk_hz">
    <type>int</type>
-   <value>161132812</value>
+   <value>150296250</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -18031,7 +18031,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="hssi_pldadapt_tx_hdpldadapt_pld_tx_clk2_dcm_hz">
    <type>int</type>
-   <value>322265624</value>
+   <value>300592500</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -18039,7 +18039,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="hssi_pldadapt_tx_hdpldadapt_pld_tx_clk2_rowclk_hz">
    <type>int</type>
-   <value>322265624</value>
+   <value>300592500</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -18747,7 +18747,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="hssi_rx_pld_pcs_interface_hd_pcs_channel_clklow_clk_hz">
    <type>int</type>
-   <value>322265625</value>
+   <value>300592500</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -18795,7 +18795,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="hssi_rx_pld_pcs_interface_hd_pcs_channel_fref_clk_hz">
    <type>int</type>
-   <value>322265625</value>
+   <value>300592500</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -19072,7 +19072,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="hssi_rx_pld_pcs_interface_hd_pcs_channel_pma_rx_clk_hz">
    <type>int</type>
-   <value>161132812</value>
+   <value>150296250</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -20032,7 +20032,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="hssi_tx_pld_pcs_interface_hd_pcs_channel_pma_tx_clk_hz">
    <type>int</type>
-   <value>161132812</value>
+   <value>150296250</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>

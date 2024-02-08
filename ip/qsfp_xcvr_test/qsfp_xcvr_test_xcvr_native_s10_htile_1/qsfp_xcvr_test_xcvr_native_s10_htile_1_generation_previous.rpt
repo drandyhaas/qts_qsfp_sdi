@@ -106,6 +106,3 @@ Info: qsfp_xcvr_test_xcvr_native_s10_htile_1: Generating SystemVerilog package f
 Info: qsfp_xcvr_test_xcvr_native_s10_htile_1: Generating embedded reconfiguration modules
 Info: qsfp_xcvr_test_xcvr_native_s10_htile_1: Done "qsfp_xcvr_test_xcvr_native_s10_htile_1" with 2 modules, 38 files
 Info: Finished: Create HDL design files for synthesis
-Info: Starting: Generate IP Core Documentation
-Info: No documentation filesets were found for components in qsfp_xcvr_test_xcvr_native_s10_htile_1. No files generated.
-Info: Finished: Generate IP Core Documentation
