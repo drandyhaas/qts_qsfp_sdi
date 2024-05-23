@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <deploy
- date="2024.02.07.17:27:44"
+ date="2024.05.23.13:04:50"
  outputDirectory="C:/Users/Haas1S/Downloads/git/qts_qsfp_sdi/ip/qsfp_xcvr_test/qsfp_xcvr_test_xcvr_native_s10_htile_1/">
  <perimeter>
   <parameter
@@ -477,7 +477,7 @@
   </childSourceFiles>
   <messages>
    <message level="Info" culprit="qsfp_xcvr_test_xcvr_native_s10_htile_1">"Generating: qsfp_xcvr_test_xcvr_native_s10_htile_1"</message>
-   <message level="Info" culprit="qsfp_xcvr_test_xcvr_native_s10_htile_1">"Generating: qsfp_xcvr_test_xcvr_native_s10_htile_1_altera_xcvr_native_s10_htile_1930_zuwr7xy"</message>
+   <message level="Info" culprit="qsfp_xcvr_test_xcvr_native_s10_htile_1">"Generating: qsfp_xcvr_test_xcvr_native_s10_htile_1_altera_xcvr_native_s10_htile_1930_mcysl6y"</message>
    <message level="Info" culprit="qsfp_xcvr_test_xcvr_native_s10_htile_1">add_fileset_file ./alt_xcvr_arbiter.sv SYSTEM_VERILOG PATH ../../../../altera_xcvr_generic/ctrl/alt_xcvr_arbiter.sv</message>
    <message level="Info" culprit="qsfp_xcvr_test_xcvr_native_s10_htile_1">add_fileset_file ./altera_std_synchronizer_nocut.v VERILOG PATH ../../../../primitives/altera_std_synchronizer/altera_std_synchronizer_nocut.v</message>
    <message level="Info" culprit="qsfp_xcvr_test_xcvr_native_s10_htile_1">add_fileset_file ./alt_xcvr_resync_std.sv SYSTEM_VERILOG PATH ../../../alt_xcvr_generic/alt_xcvr_resync_std.sv</message>
@@ -519,11 +519,11 @@
    <message level="Info" culprit="qsfp_xcvr_test_xcvr_native_s10_htile_1">Simplified data interface has been enabled. The Native PHY will present the data/control interface for the current configuration only. Dynamic reconfiguration of the data interface cannot be supported. The unused_tx_parallel_data and unused_tx_control ports should be connected to 0.</message>
    <message level="Info" culprit="qsfp_xcvr_test_xcvr_native_s10_htile_1">For current configuration, TX PCS FIFO depth is "16" and TX Core FIFO depth is "16".</message>
    <message level="Info" culprit="qsfp_xcvr_test_xcvr_native_s10_htile_1">For current configuration, RX PCS FIFO depth is "16" and RX Core FIFO depth is "32".</message>
-   <message level="Info" culprit="qsfp_xcvr_test_xcvr_native_s10_htile_1"><![CDATA[<b>"PCS clkout"</b> (pcs_clkout) is selected to drive tx_clkout port and the clock frequency is 402.832031 MHz.]]></message>
+   <message level="Info" culprit="qsfp_xcvr_test_xcvr_native_s10_htile_1"><![CDATA[<b>"PCS clkout"</b> (pcs_clkout) is selected to drive tx_clkout port and the clock frequency is 400.790625 MHz.]]></message>
    <message level="Info" culprit="qsfp_xcvr_test_xcvr_native_s10_htile_1">"pma_div_clkout" is selected to drive tx_clkout2 port and it should not be used for register mode data transfers (Relevant parameter: "Selected tx_clkout2 clock source" (tx_clkout2_sel)).</message>
-   <message level="Info" culprit="qsfp_xcvr_test_xcvr_native_s10_htile_1"><![CDATA[<b>"PCS clkout"</b> (pcs_clkout) is selected to drive rx_clkout port and the clock frequency is 402.832031 MHz.]]></message>
+   <message level="Info" culprit="qsfp_xcvr_test_xcvr_native_s10_htile_1"><![CDATA[<b>"PCS clkout"</b> (pcs_clkout) is selected to drive rx_clkout port and the clock frequency is 400.790625 MHz.]]></message>
    <message level="Info" culprit="qsfp_xcvr_test_xcvr_native_s10_htile_1">"pma_div_clkout" is selected to drive rx_clkout2 port and it should not be used for register mode data transfers (Relevant parameter: "Selected rx_clkout2 clock source" (rx_clkout2_sel)).</message>
-   <message level="Info" culprit="qsfp_xcvr_test_xcvr_native_s10_htile_1"><![CDATA[A design example cannot be generated for "Tx PLL reference clock frequency"=="125.0" && "Selected CDR reference clock frequency"=="644.531250"]]></message>
+   <message level="Info" culprit="qsfp_xcvr_test_xcvr_native_s10_htile_1"><![CDATA[A design example cannot be generated for "Tx PLL reference clock frequency"=="125.0" && "Selected CDR reference clock frequency"=="641.265000"]]></message>
    <message level="Info" culprit="qsfp_xcvr_test_xcvr_native_s10_htile_1">Building configuration data for reconfiguration profile 2</message>
    <message level="Info" culprit="qsfp_xcvr_test_xcvr_native_s10_htile_1">Validating reconfiguration profile 2</message>
    <message level="Info" culprit="qsfp_xcvr_test_xcvr_native_s10_htile_1">Current IP configuration matches reconfiguration profile 2</message>
@@ -551,12 +551,12 @@
  <entity
    kind="altera_xcvr_native_s10_htile"
    version="19.3.0"
-   name="qsfp_xcvr_test_xcvr_native_s10_htile_1_altera_xcvr_native_s10_htile_1930_zuwr7xy">
+   name="qsfp_xcvr_test_xcvr_native_s10_htile_1_altera_xcvr_native_s10_htile_1930_mcysl6y">
   <parameter name="l_pcs_channel_enable_hard_reset" value="0" />
   <parameter
      name="hssi_aibcr_rx_aib_rx_dcc_st_rst"
      value="aib_rx_dcc_st_rst_setting0" />
-  <parameter name="pma_rx_buf_ctle_eq_gain" value="0" />
+  <parameter name="pma_rx_buf_ctle_eq_gain" value="32" />
   <parameter name="enable_port_tx_enh_frame" value="0" />
   <parameter name="enh_tx_64b66b_enable" value="0" />
   <parameter name="pma_rx_buf_reserve_rx_channel" value="false" />
@@ -787,7 +787,7 @@
   <parameter name="hssi_pldadapt_rx_comp_cnt" value="0" />
   <parameter
      name="hssi_pldadapt_tx_hdpldadapt_pld_tx_clk1_dcm_hz"
-     value="161132812" />
+     value="400790625" />
   <parameter name="set_odi_soft_logic_enable" value="0" />
   <parameter name="hssi_adapt_rx_pma_coreclkin_sel" value="pma_coreclkin_pld_sel" />
   <parameter name="pma_rx_dfe_tap8_coeff" value="0" />
@@ -796,7 +796,7 @@
      value="ref_iqclk0" />
   <parameter name="pma_tx_buf_pm_cr2_tx_path_power_mode" value="high_perf" />
   <parameter name="hssi_common_pcs_pma_interface_pc_en_counter" value="0" />
-  <parameter name="cdr_pll_powermode_dc_rvcotop" value="rvcotop_dc_div2" />
+  <parameter name="cdr_pll_powermode_dc_rvcotop" value="rvcotop_dc_div1" />
   <parameter
      name="hssi_tx_pcs_pma_interface_uhsif_delay_cell_margin"
      value="uhsif_dcn_margin_2" />
@@ -804,7 +804,7 @@
   <parameter name="pma_cgb_sup_mode" value="user_mode" />
   <parameter name="hssi_8g_tx_pcs_tx_bitslip" value="dis_tx_bitslip" />
   <parameter name="pma_rx_buf_diag_lp_en" value="dlp_off" />
-  <parameter name="pma_rx_buf_vga_dc_gain" value="4" />
+  <parameter name="pma_rx_buf_vga_dc_gain" value="16" />
   <parameter name="can_gen_exdesign_pcie_pipe" value="0" />
   <parameter name="hssi_krfec_rx_pcs_reconfig_settings" value="{}" />
   <parameter
@@ -816,13 +816,13 @@
   <parameter name="hssi_8g_rx_pcs_auto_speed_nego" value="dis_asn" />
   <parameter name="pma_rx_dfe_pdb_edge_pre_h1" value="cdr_pre_h1_enable" />
   <parameter name="pma_tx_ser_duty_cycle_correction_mode_ctrl" value="dcc_disable" />
-  <parameter name="pma_tx_buf_term_sel" value="r_r1" />
+  <parameter name="pma_tx_buf_term_sel" value="r_r2" />
   <parameter name="enable_port_rx_std_bitrev_ena" value="0" />
   <parameter name="pma_rx_sd_optimal" value="true" />
   <parameter name="hssi_adapt_rx_rxfiford_to_aib_sel" value="rxfiford_sclk_to_aib" />
   <parameter
      name="hssi_pldadapt_tx_hdpldadapt_aib_fabric_pma_aib_tx_clk_hz"
-     value="322265625" />
+     value="801581250" />
   <parameter name="enable_port_krfec_rx_enh_frame_diag_status" value="0" />
   <parameter name="hssi_krfec_rx_pcs_ctrl_bit_reverse" value="ctrl_bit_reverse_en" />
   <parameter
@@ -871,7 +871,7 @@
      value="pma_clks_or_rxfifowr_pre_or_post_ct_mux_clk2_mux1" />
   <parameter
      name="hssi_pldadapt_tx_hdpldadapt_pld_tx_clk1_rowclk_hz"
-     value="161132812" />
+     value="400790625" />
   <parameter name="hssi_gen3_rx_pcs_cdr_ctrl_force_unalgn" value="disable" />
   <parameter name="pma_rx_buf_dfe_h1_cal_en" value="dfe_h1_cal_disable" />
   <parameter name="adme_enable_bg_cal" value="1" />
@@ -888,7 +888,7 @@
   <parameter name="hssi_pipe_gen1_2_txswing" value="dis_txswing" />
   <parameter name="hssi_adapt_tx_us_master" value="us_master_en" />
   <parameter name="hssi_adapt_tx_presethint_bypass" value="enable" />
-  <parameter name="data_rate_bps" value="10312500000" />
+  <parameter name="data_rate_bps" value="25650600000" />
   <parameter name="tx_pma_pre_emp_switching_ctrl_1st_post_tap" value="0" />
   <parameter
      name="pma_cdr_refclk_inclk0_logical_to_physical_mapping"
@@ -926,7 +926,7 @@
   <parameter
      name="pma_adapt_adp_odi_dfe_spec_en"
      value="radp_odi_dfe_spec_en_enable" />
-  <parameter name="pma_rx_odi_vreg_voltage_sel" value="vreg0" />
+  <parameter name="pma_rx_odi_vreg_voltage_sel" value="vreg1" />
   <parameter name="l_enable_rx_pcs_dir" value="0" />
   <parameter name="pma_rx_dfe_tap2_sgn" value="tap2_sign_0" />
   <parameter name="hssi_rx_pld_pcs_interface_hd_krfec_sup_mode" value="user_mode" />
@@ -935,7 +935,7 @@
   <parameter
      name="hssi_rx_pld_pcs_interface_hd_pcs_channel_share_fifo_mem_sup_mode"
      value="user_mode" />
-  <parameter name="hssi_pldadapt_tx_datarate_bps" value="10312500000" />
+  <parameter name="hssi_pldadapt_tx_datarate_bps" value="25650600000" />
   <parameter name="hssi_adapt_rx_hrdrst_dcd_cal_done_bypass" value="disable" />
   <parameter name="hssi_adapt_tx_pipe_mode" value="disable_pipe" />
   <parameter
@@ -981,11 +981,11 @@
      value="radp_clkout_div_sel_div2_4cycle" />
   <parameter
      name="hssi_pldadapt_rx_hdpldadapt_pld_rx_clk1_dcm_hz"
-     value="161132812" />
+     value="400790625" />
   <parameter name="anlg_voltage" value="1_1V" />
   <parameter name="std_rx_byterev_enable" value="0" />
   <parameter name="hssi_8g_tx_pcs_bonding_dft_val" value="dft_0" />
-  <parameter name="pma_cgb_input_select_x1" value="lcpll_bot" />
+  <parameter name="pma_cgb_input_select_x1" value="fpll_bot" />
   <parameter name="hssi_adapt_rx_rx_pcs_testbus_sel" value="direct_tr_tb_bit0_sel" />
   <parameter name="pma_rx_buf_rx_oc_or_lfeq_coeff" value="0" />
   <parameter name="hssi_adapt_tx_hrdrst_dll_lock_bypass" value="disable" />
@@ -995,12 +995,12 @@
   <parameter name="hssi_pldadapt_rx_bonding_dft_val" value="dft_0" />
   <parameter name="hssi_pldadapt_rx_hrdrst_rst_sm_dis" value="enable_rx_rst_sm" />
   <parameter name="hssi_common_pcs_pma_interface_bypass_pma_sw_done" value="false" />
-  <parameter name="hssi_pldadapt_rx_datarate_bps" value="10312500000" />
+  <parameter name="hssi_pldadapt_rx_datarate_bps" value="25650600000" />
   <parameter name="pma_tx_buf_res_cal_local" value="non_local" />
   <parameter name="hssi_avmm1_if_hssiadapt_sr_sr_reserved_in_en" value="enable" />
   <parameter name="enable_port_rx_is_lockedtoref" value="1" />
   <parameter name="enable_ports_rx_manual_cdr_mode" value="0" />
-  <parameter name="pma_rx_buf_pm_cr2_rx_path_pma_rx_divclk_hz" value="161132812" />
+  <parameter name="pma_rx_buf_pm_cr2_rx_path_pma_rx_divclk_hz" value="400790625" />
   <parameter name="pma_rx_buf_pm_cr2_rx_path_uc_cal_clk_bypass" value="cal_clk_0" />
   <parameter name="enable_ports_pipe_rx_elecidle" value="0" />
   <parameter name="hssi_8g_rx_pcs_pipe_if_enable" value="dis_pipe_rx" />
@@ -1014,7 +1014,7 @@
      value="disable" />
   <parameter name="hssi_adapt_rx_hd_hssiadapt_pld_pma_hclk_hz" value="0" />
   <parameter name="duplex_mode" value="duplex" />
-  <parameter name="hssi_aibcr_rx_aib_rx_dcc_byp" value="aib_rx_dcc_byp_enable" />
+  <parameter name="hssi_aibcr_rx_aib_rx_dcc_byp" value="aib_rx_dcc_byp_disable" />
   <parameter name="cdr_pll_rx_pin_as_refclk_mode" value="false" />
   <parameter name="pma_rx_sd_powermode_dc_sd" value="powerdown_sd" />
   <parameter name="hssi_adapt_rx_ctrl_plane_bonding" value="individual" />
@@ -1026,7 +1026,7 @@
   <parameter
      name="hssi_aibnd_tx_aib_red_drx_shiften"
      value="aib_red_drx_shift_disable" />
-  <parameter name="hssi_aibcr_rx_op_mode" value="rx_dcc_disable" />
+  <parameter name="hssi_aibcr_rx_op_mode" value="rx_dcc_enable" />
   <parameter name="hssi_pldadapt_rx_internal_clk1_sel2" value="pma_clks_clk1_mux2" />
   <parameter name="pma_tx_buf_bti_protected" value="false" />
   <parameter name="l_pipe_early_spd_chng" value="0" />
@@ -1040,7 +1040,7 @@
      value="pma_clks_or_txfiford_post_ct_mux_clk1_mux1" />
   <parameter name="hssi_8g_tx_pcs_reconfig_settings" value="{}" />
   <parameter name="hssi_krfec_tx_pcs_transcode_err" value="trans_err_dis" />
-  <parameter name="pma_tx_buf_pm_cr2_tx_path_gt_enabled" value="disable" />
+  <parameter name="pma_tx_buf_pm_cr2_tx_path_gt_enabled" value="enable" />
   <parameter name="hssi_10g_tx_pcs_txfifo_empty" value="empty_default" />
   <parameter name="hssi_pipe_gen3_bypass_rx_preset_enable" value="false" />
   <parameter name="hssi_pldadapt_tx_phcomp_rd_del" value="phcomp_rd_del3" />
@@ -1052,7 +1052,7 @@
   <parameter name="device_family" value="Stratix 10" />
   <parameter
      name="hssi_tx_pld_pcs_interface_hd_pcs_channel_pma_tx_clk_hz"
-     value="161132812" />
+     value="400790625" />
   <parameter
      name="hssi_tx_pld_pcs_interface_hd_pcs_channel_pld_pcs_refclk_dig_nonatpg_mode_clk_hz"
      value="0" />
@@ -1065,7 +1065,7 @@
      name="hssi_pipe_gen3_rate_match_pad_insertion"
      value="dis_rm_fifo_pad_ins" />
   <parameter name="datapath_select" value="Enhanced" />
-  <parameter name="cdr_pll_requires_gt_capable_channel" value="false" />
+  <parameter name="cdr_pll_requires_gt_capable_channel" value="true" />
   <parameter
      name="pma_adapt_adp_odi_control_sel"
      value="radp_odi_control_sel_from_cram" />
@@ -1086,7 +1086,7 @@
   <parameter
      name="hssi_aibcr_tx_aib_dllstr_align_dly_pst"
      value="aib_dllstr_align_dly_pst_setting0" />
-  <parameter name="cdr_pll_set_cdr_vco_speed" value="2" />
+  <parameter name="cdr_pll_set_cdr_vco_speed" value="0" />
   <parameter name="pma_adapt_adp_dc_ctle_accum_depth" value="8" />
   <parameter
      name="hssi_pldadapt_tx_fsr_hip_fsr_in_bit3_rst_val"
@@ -1115,7 +1115,7 @@
   <parameter
      name="pma_rx_buf_pm_cr2_tx_rx_uc_odi_eye_right"
      value="uc_odi_eye_right_off" />
-  <parameter name="pma_rx_buf_eq_sel" value="eq_sel_1" />
+  <parameter name="pma_rx_buf_eq_sel" value="eq_sel_3" />
   <parameter
      name="hssi_avmm1_if_pcs_calibration_feature_en"
      value="avmm1_pcs_calibration_en" />
@@ -1172,7 +1172,7 @@
   <parameter name="rx_fifo_mode" value="Phase compensation" />
   <parameter
      name="hssi_aibcr_tx_aib_dllstr_align_dy_ctlsel"
-     value="aib_dllstr_align_dy_ctlsel_setting1" />
+     value="aib_dllstr_align_dy_ctlsel_setting0" />
   <parameter
      name="hssi_aibnd_rx_aib_dllstr_align_dy_ctl_static"
      value="aib_dllstr_align_dy_ctl_static_setting1" />
@@ -1184,7 +1184,7 @@
      value="reg_rx" />
   <parameter name="pma_rx_sd_power_mode" value="high_perf" />
   <parameter name="hssi_adapt_rx_pma_aib_rx_clk_expected_setting" value="x2" />
-  <parameter name="pma_rx_buf_ctle_tia_isel" value="ib_tia_bw1" />
+  <parameter name="pma_rx_buf_ctle_tia_isel" value="ib_tia_bw3" />
   <parameter name="enh_rx_bitslip_enable" value="0" />
   <parameter name="pma_rx_deser_sup_mode" value="user_mode" />
   <parameter
@@ -1238,7 +1238,7 @@
   <parameter name="pma_rx_buf_pm_cr2_rx_path_uc_cal_enable" value="rx_cal_off" />
   <parameter
      name="rcfg_profile_data1"
-     value="rcfg_debug 0 rcfg_enable 1 rcfg_jtag_enable 1 rcfg_separate_avmm_busy 0 rcfg_enable_avmm_busy_port 0 set_capability_reg_enable 1 set_user_identifier 0 set_csr_soft_logic_enable 1 support_mode user_mode channel_type GXT protocol_mode basic_enh pma_mode basic duplex_mode duplex channels 1 set_data_rate 25781.25 rcfg_iface_enable 0 enable_simple_interface 1 enable_split_interface 0 set_enable_calibration 1 enable_double_rate_transfer 0 enable_background_cal_gui 1 enable_direct_reset_control 0 disable_reset_sequencer 0 disable_digital_reset_sequencer 0 bonded_mode not_bonded set_pcs_bonding_master Auto pcs_reset_sequencing_mode not_bonded manual_pcs_bonding_mode individual manual_pcs_bonding_comp_cnt 0 manual_tx_hssi_aib_bonding_mode individual manual_tx_hssi_aib_bonding_comp_cnt 0 manual_tx_core_aib_bonding_mode individual manual_tx_core_aib_bonding_comp_cnt 0 manual_rx_hssi_aib_bonding_mode individual manual_rx_hssi_aib_bonding_comp_cnt 0 manual_rx_core_aib_bonding_mode individual manual_rx_core_aib_bonding_comp_cnt 0 manual_tx_hssi_aib_indv indv_en manual_tx_core_aib_indv indv_en manual_rx_hssi_aib_indv indv_en manual_rx_core_aib_indv indv_en tx_pma_clk_div 1 plls 2 pll_select 0 enable_port_tx_pma_iqtxrx_clkout 0 enable_port_tx_pma_elecidle 0 number_physical_bonding_clocks 1 enable_qpi_mode 0 enable_qpi_async_transfer 0 enable_port_tx_pma_qpipullup 0 enable_port_tx_pma_qpipulldn 0 enable_port_tx_pma_rxfound 0 enable_port_rx_pma_qpipulldn 0 enable_port_tx_pma_txdetectrx 0 cdr_refclk_cnt 1 cdr_refclk_select 0 set_cdr_refclk_freq 644.531250 rx_ppm_detect_threshold 1000 enable_port_rx_pma_iqtxrx_clkout 1 enable_port_rx_pma_clkslip 0 enable_port_rx_is_lockedtodata 1 enable_port_rx_is_lockedtoref 1 enable_ports_rx_manual_cdr_mode 0 enable_ports_rx_prbs 0 enable_port_rx_seriallpbken 1 std_pcs_pma_width 10 std_low_latency_bypass_enable 0 enable_hip 0 enable_hard_reset 0 set_hip_cal_en 0 hip_mode disable_hip hip_prot_mode gen1 hip_channels x1 enable_ehip 0 avmm_ehip_mode disable_hip adapter_ehip_mode disable_hip std_tx_byte_ser_mode Disabled std_rx_byte_deser_mode Disabled std_tx_8b10b_enable 0 std_tx_8b10b_disp_ctrl_enable 0 std_rx_8b10b_enable 0 std_rx_rmfifo_mode disabled std_rx_rmfifo_pattern_n 0 std_rx_rmfifo_pattern_p 0 enable_port_rx_std_rmfifo_full 0 enable_port_rx_std_rmfifo_empty 0 pcie_rate_match Bypass std_tx_bitslip_enable 0 enable_port_tx_std_bitslipboundarysel 0 std_rx_word_aligner_mode bitslip std_rx_word_aligner_pattern_len 7 std_rx_word_aligner_pattern 0 std_rx_word_aligner_rknumber 3 std_rx_word_aligner_renumber 3 std_rx_word_aligner_rgnumber 3 std_rx_word_aligner_fast_sync_status_enable 0 enable_port_rx_std_wa_patternalign 0 enable_port_rx_std_wa_a1a2size 0 enable_port_rx_std_bitslipboundarysel 0 enable_port_rx_std_bitslip 0 std_tx_bitrev_enable 0 std_tx_byterev_enable 0 std_tx_polinv_enable 0 enable_port_tx_polinv 0 std_rx_bitrev_enable 0 enable_port_rx_std_bitrev_ena 0 std_rx_byterev_enable 0 enable_port_rx_std_byterev_ena 0 std_rx_polinv_enable 0 enable_port_rx_polinv 0 enable_port_rx_std_signaldetect 0 enable_ports_pipe_sw 0 enable_ports_pipe_rx_elecidle 0 enable_ports_pipe_hclk 0 enh_pcs_pma_width 64 enh_pld_pcs_width 64 enh_low_latency_enable 0 enh_advanced_user_mode 0 enh_tx_frmgen_enable 0 enh_tx_frmgen_mfrm_length 2048 enh_tx_frmgen_burst_enable 0 enable_port_tx_enh_frame 0 enable_port_tx_enh_frame_diag_status 0 enable_port_tx_enh_frame_burst_en 0 enh_rx_frmsync_enable 0 enh_rx_frmsync_mfrm_length 2048 enable_port_rx_enh_frame 0 enable_port_rx_enh_frame_lock 0 enable_port_rx_enh_frame_diag_status 0 enh_tx_crcgen_enable 0 enh_tx_crcerr_enable 0 enh_rx_crcchk_enable 0 enable_port_rx_enh_crc32_err 0 enable_port_rx_enh_highber 0 enable_port_rx_enh_highber_clr_cnt 0 enable_port_rx_enh_clr_errblk_count 0 enh_tx_64b66b_enable 0 enh_rx_64b66b_enable 0 enh_tx_sh_err 0 enh_tx_scram_enable 0 enh_tx_scram_seed 0 enh_rx_descram_enable 0 enh_tx_dispgen_enable 0 enh_rx_dispchk_enable 0 enh_tx_randomdispbit_enable 0 enh_rx_blksync_enable 0 enable_port_rx_enh_blk_lock 0 enh_tx_bitslip_enable 0 enh_tx_polinv_enable 0 enh_rx_bitslip_enable 0 enh_rx_polinv_enable 0 enable_port_tx_enh_bitslip 0 enable_port_rx_enh_bitslip 0 enh_rx_krfec_err_mark_enable 0 enh_rx_krfec_err_mark_type 10G enh_tx_krfec_burst_err_enable 0 enh_tx_krfec_burst_err_len 1 enable_port_krfec_tx_enh_frame 0 enable_port_krfec_rx_enh_frame 0 enable_port_krfec_rx_enh_frame_diag_status 0 pcs_direct_width 8 enable_tx_fast_pipeln_reg 0 enable_rx_fast_pipeln_reg 0 parallel_loopback_mode disable loopback_tx_clk_sel internal_clk enable_debug_ports 0 tx_fifo_mode {Phase compensation} tx_fifo_pfull 10 tx_fifo_pempty 2 enable_port_tx_fifo_full 0 enable_port_tx_fifo_empty 0 enable_port_tx_fifo_pfull 0 enable_port_tx_fifo_pempty 0 enable_port_tx_pcs_fifo_full 0 enable_port_tx_pcs_fifo_empty 0 enable_port_tx_dll_lock 0 rx_fifo_mode {Phase compensation} rx_fifo_pfull 10 rx_fifo_pempty 2 rx_fifo_align_del 0 rx_fifo_control_del 0 enable_port_rx_data_valid 0 enable_port_rx_fifo_full 0 enable_port_rx_fifo_empty 0 enable_port_rx_fifo_pfull 0 enable_port_rx_fifo_pempty 0 enable_port_rx_fifo_del 0 enable_port_rx_fifo_insert 0 enable_port_rx_fifo_rd_en 0 enable_port_rx_fifo_align_clr 0 enable_port_rx_pcs_fifo_full 0 enable_port_rx_pcs_fifo_empty 0 tx_clkout_sel pcs_clkout enable_port_tx_clkout2 1 tx_clkout2_sel pma_div_clkout enable_port_tx_clkout_hioint 0 enable_port_tx_clkout2_hioint 0 tx_pma_div_clkout_divider 2 tx_coreclkin_clock_network dedicated tx_pcs_bonding_clock_network dedicated rx_clkout_sel pcs_clkout enable_port_rx_clkout2 1 rx_clkout2_sel pma_div_clkout enable_port_rx_clkout_hioint 0 enable_port_rx_clkout2_hioint 0 rx_pma_div_clkout_divider 2 rx_coreclkin_clock_network dedicated osc_clk_divider 1 enable_port_tx_fifo_latency_adj_ena 0 enable_port_rx_fifo_latency_adj_ena 0 enable_port_latency_measurement 0 enable_port_clock_delay_measurement 0 delay_measurement_clkout_sel clock_delay_measurement_clkout delay_measurement_clkout2_sel clock_delay_measurement_clkout ovrd_tx_dv_mode 0 usr_tx_dv_mode enable ovrd_rx_dv_mode 0 usr_rx_dv_mode enable set_prbs_soft_logic_enable 1 enable_rcfg_tx_digitalreset_release_ctrl 0 anlg_voltage 1_1V anlg_link lr enable_ports_adaptation 0 tx_pma_analog_mode user_custom rx_pma_analog_mode user_custom tx_pma_optimal_settings 1 tx_pma_output_swing_ctrl 12 tx_pma_pre_emp_sign_pre_tap_1t negative tx_pma_pre_emp_switching_ctrl_pre_tap_1t 0 tx_pma_pre_emp_sign_1st_post_tap negative tx_pma_pre_emp_switching_ctrl_1st_post_tap 0 tx_pma_slew_rate_ctrl 0 tx_pma_term_sel r_r1 tx_pma_compensation_en enable rx_pma_adapt_mode ctle_dfe rx_pma_term_sel r_r2 rx_ctle_ac_gain 0 rx_ctle_eq_gain 0 rx_vga_dc_gain 0" />
+     value="rcfg_debug 0 rcfg_enable 1 rcfg_jtag_enable 1 rcfg_separate_avmm_busy 0 rcfg_enable_avmm_busy_port 0 set_capability_reg_enable 1 set_user_identifier 0 set_csr_soft_logic_enable 1 support_mode user_mode channel_type GXT protocol_mode basic_enh pma_mode basic duplex_mode duplex channels 1 set_data_rate 25650.6 rcfg_iface_enable 0 enable_simple_interface 1 enable_split_interface 0 set_enable_calibration 1 enable_double_rate_transfer 0 enable_background_cal_gui 1 enable_direct_reset_control 0 disable_reset_sequencer 0 disable_digital_reset_sequencer 0 bonded_mode not_bonded set_pcs_bonding_master Auto pcs_reset_sequencing_mode not_bonded manual_pcs_bonding_mode individual manual_pcs_bonding_comp_cnt 0 manual_tx_hssi_aib_bonding_mode individual manual_tx_hssi_aib_bonding_comp_cnt 0 manual_tx_core_aib_bonding_mode individual manual_tx_core_aib_bonding_comp_cnt 0 manual_rx_hssi_aib_bonding_mode individual manual_rx_hssi_aib_bonding_comp_cnt 0 manual_rx_core_aib_bonding_mode individual manual_rx_core_aib_bonding_comp_cnt 0 manual_tx_hssi_aib_indv indv_en manual_tx_core_aib_indv indv_en manual_rx_hssi_aib_indv indv_en manual_rx_core_aib_indv indv_en tx_pma_clk_div 1 plls 2 pll_select 0 enable_port_tx_pma_iqtxrx_clkout 0 enable_port_tx_pma_elecidle 0 number_physical_bonding_clocks 1 enable_qpi_mode 0 enable_qpi_async_transfer 0 enable_port_tx_pma_qpipullup 0 enable_port_tx_pma_qpipulldn 0 enable_port_tx_pma_rxfound 0 enable_port_rx_pma_qpipulldn 0 enable_port_tx_pma_txdetectrx 0 cdr_refclk_cnt 1 cdr_refclk_select 0 set_cdr_refclk_freq 641.265000 rx_ppm_detect_threshold 1000 enable_port_rx_pma_iqtxrx_clkout 1 enable_port_rx_pma_clkslip 0 enable_port_rx_is_lockedtodata 1 enable_port_rx_is_lockedtoref 1 enable_ports_rx_manual_cdr_mode 0 enable_ports_rx_prbs 0 enable_port_rx_seriallpbken 1 std_pcs_pma_width 10 std_low_latency_bypass_enable 0 enable_hip 0 enable_hard_reset 0 set_hip_cal_en 0 hip_mode disable_hip hip_prot_mode gen1 hip_channels x1 enable_ehip 0 avmm_ehip_mode disable_hip adapter_ehip_mode disable_hip std_tx_byte_ser_mode Disabled std_rx_byte_deser_mode Disabled std_tx_8b10b_enable 0 std_tx_8b10b_disp_ctrl_enable 0 std_rx_8b10b_enable 0 std_rx_rmfifo_mode disabled std_rx_rmfifo_pattern_n 0 std_rx_rmfifo_pattern_p 0 enable_port_rx_std_rmfifo_full 0 enable_port_rx_std_rmfifo_empty 0 pcie_rate_match Bypass std_tx_bitslip_enable 0 enable_port_tx_std_bitslipboundarysel 0 std_rx_word_aligner_mode bitslip std_rx_word_aligner_pattern_len 7 std_rx_word_aligner_pattern 0 std_rx_word_aligner_rknumber 3 std_rx_word_aligner_renumber 3 std_rx_word_aligner_rgnumber 3 std_rx_word_aligner_fast_sync_status_enable 0 enable_port_rx_std_wa_patternalign 0 enable_port_rx_std_wa_a1a2size 0 enable_port_rx_std_bitslipboundarysel 0 enable_port_rx_std_bitslip 0 std_tx_bitrev_enable 0 std_tx_byterev_enable 0 std_tx_polinv_enable 0 enable_port_tx_polinv 0 std_rx_bitrev_enable 0 enable_port_rx_std_bitrev_ena 0 std_rx_byterev_enable 0 enable_port_rx_std_byterev_ena 0 std_rx_polinv_enable 0 enable_port_rx_polinv 0 enable_port_rx_std_signaldetect 0 enable_ports_pipe_sw 0 enable_ports_pipe_rx_elecidle 0 enable_ports_pipe_hclk 0 enh_pcs_pma_width 64 enh_pld_pcs_width 64 enh_low_latency_enable 0 enh_advanced_user_mode 0 enh_tx_frmgen_enable 0 enh_tx_frmgen_mfrm_length 2048 enh_tx_frmgen_burst_enable 0 enable_port_tx_enh_frame 0 enable_port_tx_enh_frame_diag_status 0 enable_port_tx_enh_frame_burst_en 0 enh_rx_frmsync_enable 0 enh_rx_frmsync_mfrm_length 2048 enable_port_rx_enh_frame 0 enable_port_rx_enh_frame_lock 0 enable_port_rx_enh_frame_diag_status 0 enh_tx_crcgen_enable 0 enh_tx_crcerr_enable 0 enh_rx_crcchk_enable 0 enable_port_rx_enh_crc32_err 0 enable_port_rx_enh_highber 0 enable_port_rx_enh_highber_clr_cnt 0 enable_port_rx_enh_clr_errblk_count 0 enh_tx_64b66b_enable 0 enh_rx_64b66b_enable 0 enh_tx_sh_err 0 enh_tx_scram_enable 0 enh_tx_scram_seed 0 enh_rx_descram_enable 0 enh_tx_dispgen_enable 0 enh_rx_dispchk_enable 0 enh_tx_randomdispbit_enable 0 enh_rx_blksync_enable 0 enable_port_rx_enh_blk_lock 0 enh_tx_bitslip_enable 0 enh_tx_polinv_enable 0 enh_rx_bitslip_enable 0 enh_rx_polinv_enable 0 enable_port_tx_enh_bitslip 0 enable_port_rx_enh_bitslip 0 enh_rx_krfec_err_mark_enable 0 enh_rx_krfec_err_mark_type 10G enh_tx_krfec_burst_err_enable 0 enh_tx_krfec_burst_err_len 1 enable_port_krfec_tx_enh_frame 0 enable_port_krfec_rx_enh_frame 0 enable_port_krfec_rx_enh_frame_diag_status 0 pcs_direct_width 8 enable_tx_fast_pipeln_reg 0 enable_rx_fast_pipeln_reg 0 parallel_loopback_mode disable loopback_tx_clk_sel internal_clk enable_debug_ports 0 tx_fifo_mode {Phase compensation} tx_fifo_pfull 10 tx_fifo_pempty 2 enable_port_tx_fifo_full 0 enable_port_tx_fifo_empty 0 enable_port_tx_fifo_pfull 0 enable_port_tx_fifo_pempty 0 enable_port_tx_pcs_fifo_full 0 enable_port_tx_pcs_fifo_empty 0 enable_port_tx_dll_lock 0 rx_fifo_mode {Phase compensation} rx_fifo_pfull 10 rx_fifo_pempty 2 rx_fifo_align_del 0 rx_fifo_control_del 0 enable_port_rx_data_valid 0 enable_port_rx_fifo_full 0 enable_port_rx_fifo_empty 0 enable_port_rx_fifo_pfull 0 enable_port_rx_fifo_pempty 0 enable_port_rx_fifo_del 0 enable_port_rx_fifo_insert 0 enable_port_rx_fifo_rd_en 0 enable_port_rx_fifo_align_clr 0 enable_port_rx_pcs_fifo_full 0 enable_port_rx_pcs_fifo_empty 0 tx_clkout_sel pcs_clkout enable_port_tx_clkout2 1 tx_clkout2_sel pma_div_clkout enable_port_tx_clkout_hioint 0 enable_port_tx_clkout2_hioint 0 tx_pma_div_clkout_divider 2 tx_coreclkin_clock_network dedicated tx_pcs_bonding_clock_network dedicated rx_clkout_sel pcs_clkout enable_port_rx_clkout2 1 rx_clkout2_sel pma_div_clkout enable_port_rx_clkout_hioint 0 enable_port_rx_clkout2_hioint 0 rx_pma_div_clkout_divider 2 rx_coreclkin_clock_network dedicated osc_clk_divider 1 enable_port_tx_fifo_latency_adj_ena 0 enable_port_rx_fifo_latency_adj_ena 0 enable_port_latency_measurement 0 enable_port_clock_delay_measurement 0 delay_measurement_clkout_sel clock_delay_measurement_clkout delay_measurement_clkout2_sel clock_delay_measurement_clkout ovrd_tx_dv_mode 0 usr_tx_dv_mode enable ovrd_rx_dv_mode 0 usr_rx_dv_mode enable set_prbs_soft_logic_enable 1 enable_rcfg_tx_digitalreset_release_ctrl 0 anlg_voltage 1_1V anlg_link lr enable_ports_adaptation 0 tx_pma_analog_mode user_custom rx_pma_analog_mode user_custom tx_pma_optimal_settings 1 tx_pma_output_swing_ctrl 12 tx_pma_pre_emp_sign_pre_tap_1t negative tx_pma_pre_emp_switching_ctrl_pre_tap_1t 0 tx_pma_pre_emp_sign_1st_post_tap negative tx_pma_pre_emp_switching_ctrl_1st_post_tap 0 tx_pma_slew_rate_ctrl 0 tx_pma_term_sel r_r1 tx_pma_compensation_en enable rx_pma_adapt_mode ctle_dfe rx_pma_term_sel r_r2 rx_ctle_ac_gain 0 rx_ctle_eq_gain 0 rx_vga_dc_gain 0" />
   <parameter
      name="rcfg_profile_data0"
      value="rcfg_debug 0 rcfg_enable 1 rcfg_jtag_enable 1 rcfg_separate_avmm_busy 0 rcfg_enable_avmm_busy_port 0 set_capability_reg_enable 1 set_user_identifier 0 set_csr_soft_logic_enable 1 support_mode user_mode channel_type GX protocol_mode basic_enh pma_mode basic duplex_mode duplex channels 1 set_data_rate 10312.5 rcfg_iface_enable 0 enable_simple_interface 1 enable_split_interface 0 set_enable_calibration 1 enable_double_rate_transfer 0 enable_background_cal_gui 1 enable_direct_reset_control 0 disable_reset_sequencer 0 disable_digital_reset_sequencer 0 bonded_mode not_bonded set_pcs_bonding_master Auto pcs_reset_sequencing_mode not_bonded manual_pcs_bonding_mode individual manual_pcs_bonding_comp_cnt 0 manual_tx_hssi_aib_bonding_mode individual manual_tx_hssi_aib_bonding_comp_cnt 0 manual_tx_core_aib_bonding_mode individual manual_tx_core_aib_bonding_comp_cnt 0 manual_rx_hssi_aib_bonding_mode individual manual_rx_hssi_aib_bonding_comp_cnt 0 manual_rx_core_aib_bonding_mode individual manual_rx_core_aib_bonding_comp_cnt 0 manual_tx_hssi_aib_indv indv_en manual_tx_core_aib_indv indv_en manual_rx_hssi_aib_indv indv_en manual_rx_core_aib_indv indv_en tx_pma_clk_div 1 plls 2 pll_select 1 enable_port_tx_pma_iqtxrx_clkout 0 enable_port_tx_pma_elecidle 0 number_physical_bonding_clocks 1 enable_qpi_mode 0 enable_qpi_async_transfer 0 enable_port_tx_pma_qpipullup 0 enable_port_tx_pma_qpipulldn 0 enable_port_tx_pma_rxfound 0 enable_port_rx_pma_qpipulldn 0 enable_port_tx_pma_txdetectrx 0 cdr_refclk_cnt 1 cdr_refclk_select 0 set_cdr_refclk_freq 644.531250 rx_ppm_detect_threshold 1000 enable_port_rx_pma_iqtxrx_clkout 1 enable_port_rx_pma_clkslip 0 enable_port_rx_is_lockedtodata 1 enable_port_rx_is_lockedtoref 1 enable_ports_rx_manual_cdr_mode 0 enable_ports_rx_prbs 0 enable_port_rx_seriallpbken 1 std_pcs_pma_width 10 std_low_latency_bypass_enable 0 enable_hip 0 enable_hard_reset 0 set_hip_cal_en 0 hip_mode disable_hip hip_prot_mode gen1 hip_channels x1 enable_ehip 0 avmm_ehip_mode disable_hip adapter_ehip_mode disable_hip std_tx_byte_ser_mode Disabled std_rx_byte_deser_mode Disabled std_tx_8b10b_enable 0 std_tx_8b10b_disp_ctrl_enable 0 std_rx_8b10b_enable 0 std_rx_rmfifo_mode disabled std_rx_rmfifo_pattern_n 0 std_rx_rmfifo_pattern_p 0 enable_port_rx_std_rmfifo_full 0 enable_port_rx_std_rmfifo_empty 0 pcie_rate_match Bypass std_tx_bitslip_enable 0 enable_port_tx_std_bitslipboundarysel 0 std_rx_word_aligner_mode bitslip std_rx_word_aligner_pattern_len 7 std_rx_word_aligner_pattern 0 std_rx_word_aligner_rknumber 3 std_rx_word_aligner_renumber 3 std_rx_word_aligner_rgnumber 3 std_rx_word_aligner_fast_sync_status_enable 0 enable_port_rx_std_wa_patternalign 0 enable_port_rx_std_wa_a1a2size 0 enable_port_rx_std_bitslipboundarysel 0 enable_port_rx_std_bitslip 0 std_tx_bitrev_enable 0 std_tx_byterev_enable 0 std_tx_polinv_enable 0 enable_port_tx_polinv 0 std_rx_bitrev_enable 0 enable_port_rx_std_bitrev_ena 0 std_rx_byterev_enable 0 enable_port_rx_std_byterev_ena 0 std_rx_polinv_enable 0 enable_port_rx_polinv 0 enable_port_rx_std_signaldetect 0 enable_ports_pipe_sw 0 enable_ports_pipe_rx_elecidle 0 enable_ports_pipe_hclk 0 enh_pcs_pma_width 64 enh_pld_pcs_width 64 enh_low_latency_enable 0 enh_advanced_user_mode 0 enh_tx_frmgen_enable 0 enh_tx_frmgen_mfrm_length 2048 enh_tx_frmgen_burst_enable 0 enable_port_tx_enh_frame 0 enable_port_tx_enh_frame_diag_status 0 enable_port_tx_enh_frame_burst_en 0 enh_rx_frmsync_enable 0 enh_rx_frmsync_mfrm_length 2048 enable_port_rx_enh_frame 0 enable_port_rx_enh_frame_lock 0 enable_port_rx_enh_frame_diag_status 0 enh_tx_crcgen_enable 0 enh_tx_crcerr_enable 0 enh_rx_crcchk_enable 0 enable_port_rx_enh_crc32_err 0 enable_port_rx_enh_highber 0 enable_port_rx_enh_highber_clr_cnt 0 enable_port_rx_enh_clr_errblk_count 0 enh_tx_64b66b_enable 0 enh_rx_64b66b_enable 0 enh_tx_sh_err 0 enh_tx_scram_enable 0 enh_tx_scram_seed 0 enh_rx_descram_enable 0 enh_tx_dispgen_enable 0 enh_rx_dispchk_enable 0 enh_tx_randomdispbit_enable 0 enh_rx_blksync_enable 0 enable_port_rx_enh_blk_lock 0 enh_tx_bitslip_enable 0 enh_tx_polinv_enable 0 enh_rx_bitslip_enable 0 enh_rx_polinv_enable 0 enable_port_tx_enh_bitslip 0 enable_port_rx_enh_bitslip 0 enh_rx_krfec_err_mark_enable 0 enh_rx_krfec_err_mark_type 10G enh_tx_krfec_burst_err_enable 0 enh_tx_krfec_burst_err_len 1 enable_port_krfec_tx_enh_frame 0 enable_port_krfec_rx_enh_frame 0 enable_port_krfec_rx_enh_frame_diag_status 0 pcs_direct_width 8 enable_tx_fast_pipeln_reg 0 enable_rx_fast_pipeln_reg 0 parallel_loopback_mode disable loopback_tx_clk_sel internal_clk enable_debug_ports 0 tx_fifo_mode {Phase compensation} tx_fifo_pfull 10 tx_fifo_pempty 2 enable_port_tx_fifo_full 0 enable_port_tx_fifo_empty 0 enable_port_tx_fifo_pfull 0 enable_port_tx_fifo_pempty 0 enable_port_tx_pcs_fifo_full 0 enable_port_tx_pcs_fifo_empty 0 enable_port_tx_dll_lock 0 rx_fifo_mode {Phase compensation} rx_fifo_pfull 10 rx_fifo_pempty 2 rx_fifo_align_del 0 rx_fifo_control_del 0 enable_port_rx_data_valid 0 enable_port_rx_fifo_full 0 enable_port_rx_fifo_empty 0 enable_port_rx_fifo_pfull 0 enable_port_rx_fifo_pempty 0 enable_port_rx_fifo_del 0 enable_port_rx_fifo_insert 0 enable_port_rx_fifo_rd_en 0 enable_port_rx_fifo_align_clr 0 enable_port_rx_pcs_fifo_full 0 enable_port_rx_pcs_fifo_empty 0 tx_clkout_sel pcs_clkout enable_port_tx_clkout2 1 tx_clkout2_sel pma_div_clkout enable_port_tx_clkout_hioint 0 enable_port_tx_clkout2_hioint 0 tx_pma_div_clkout_divider 2 tx_coreclkin_clock_network dedicated tx_pcs_bonding_clock_network dedicated rx_clkout_sel pcs_clkout enable_port_rx_clkout2 1 rx_clkout2_sel pma_div_clkout enable_port_rx_clkout_hioint 0 enable_port_rx_clkout2_hioint 0 rx_pma_div_clkout_divider 2 rx_coreclkin_clock_network dedicated osc_clk_divider 1 enable_port_tx_fifo_latency_adj_ena 0 enable_port_rx_fifo_latency_adj_ena 0 enable_port_latency_measurement 0 enable_port_clock_delay_measurement 0 delay_measurement_clkout_sel clock_delay_measurement_clkout delay_measurement_clkout2_sel clock_delay_measurement_clkout ovrd_tx_dv_mode 0 usr_tx_dv_mode enable ovrd_rx_dv_mode 0 usr_rx_dv_mode enable set_prbs_soft_logic_enable 1 enable_rcfg_tx_digitalreset_release_ctrl 0 anlg_voltage 1_1V anlg_link lr enable_ports_adaptation 0 tx_pma_analog_mode user_custom rx_pma_analog_mode user_custom tx_pma_optimal_settings 1 tx_pma_output_swing_ctrl 12 tx_pma_pre_emp_sign_pre_tap_1t negative tx_pma_pre_emp_switching_ctrl_pre_tap_1t 0 tx_pma_pre_emp_sign_1st_post_tap negative tx_pma_pre_emp_switching_ctrl_1st_post_tap 0 tx_pma_slew_rate_ctrl 0 tx_pma_term_sel r_r1 tx_pma_compensation_en enable rx_pma_adapt_mode ctle_dfe rx_pma_term_sel r_r2 rx_ctle_ac_gain 0 rx_ctle_eq_gain 0 rx_vga_dc_gain 0" />
@@ -1284,7 +1284,7 @@
   <parameter name="hssi_adapt_tx_fifo_double_read" value="fifo_double_read_en" />
   <parameter name="hssi_pldadapt_tx_hrdrst_dcd_cal_done_bypass" value="disable" />
   <parameter name="hssi_8g_tx_pcs_txclk_freerun" value="en_freerun_tx" />
-  <parameter name="cdr_pll_mcnt_div" value="16" />
+  <parameter name="cdr_pll_mcnt_div" value="20" />
   <parameter name="l_enable_rx_enh" value="1" />
   <parameter name="hssi_10g_rx_pcs_blksync_pipeln" value="blksync_pipeln_dis" />
   <parameter name="hssi_avmm1_if_hssiadapt_sr_sr_parity_en" value="disable" />
@@ -1319,7 +1319,7 @@
      value="aib_red_dirclkn_shift_disable" />
   <parameter name="enable_port_rx_pma_clkslip" value="0" />
   <parameter name="hssi_avmm1_if_topology" value="disabled_block" />
-  <parameter name="pma_tx_buf_datarate_bps" value="10312500000" />
+  <parameter name="pma_tx_buf_datarate_bps" value="25650600000" />
   <parameter name="enh_tx_polinv_enable" value="0" />
   <parameter name="pma_adapt_advanced_mode" value="false" />
   <parameter name="tx_pll_type" value="ATX" />
@@ -1345,7 +1345,7 @@
      name="hssi_pldadapt_tx_fsr_hip_fsr_out_bit3_rst_val"
      value="reset_to_zero_hfsrout3" />
   <parameter name="hssi_8g_rx_pcs_fixed_pat_num" value="0" />
-  <parameter name="pma_rx_buf_eq_bw_sel" value="eq_bw_1" />
+  <parameter name="pma_rx_buf_eq_bw_sel" value="eq_bw_3" />
   <parameter name="hssi_pldadapt_rx_low_latency_en" value="disable" />
   <parameter name="hssi_8g_rx_pcs_bit_reversal" value="dis_bit_reversal" />
   <parameter name="hssi_avmm1_if_func_mode" value="c3adpt_pmadir" />
@@ -1366,7 +1366,7 @@
      name="pma_rx_buf_xrx_path_xcdr_deser_xcdr_loopback_mode"
      value="loopback_disabled" />
   <parameter name="pma_adapt_adp_dlev_bypass" value="radp_dlev_bypass_not_bypass" />
-  <parameter name="set_data_rate" value="10312.5" />
+  <parameter name="set_data_rate" value="25650.6" />
   <parameter name="hssi_aibnd_tx_aib_tx_dcc_dft" value="aib_tx_dcc_dft_disable" />
   <parameter name="hssi_8g_tx_pcs_eightb_tenb_disp_ctrl" value="dis_disp_ctrl" />
   <parameter name="hssi_pipe_gen3_bypass_rx_preset" value="0" />
@@ -1382,7 +1382,7 @@
   <parameter name="hssi_pldadapt_tx_txfifo_full" value="full_pc_dw" />
   <parameter name="pma_cgb_scratch1_x1_clock_src" value="not_used" />
   <parameter name="pma_adapt_powermode_ac_dfe_adapt" value="adapt_dfe_ac_off" />
-  <parameter name="pma_adapt_adp_dc_ctle_mode2_h2_limit" value="7" />
+  <parameter name="pma_adapt_adp_dc_ctle_mode2_h2_limit" value="12" />
   <parameter name="hssi_8g_rx_pcs_cdr_ctrl_rxvalid_mask" value="dis_rxvalid_mask" />
   <parameter name="hssi_pipe_gen1_2_sup_mode" value="user_mode" />
   <parameter name="hssi_pldadapt_tx_bonding_dft_en" value="dft_dis" />
@@ -1402,7 +1402,7 @@
   <parameter name="pma_cgb_prot_mode" value="basic_tx" />
   <parameter name="pma_cgb_pcie_gen" value="non_pcie" />
   <parameter name="tx_pma_optimal_settings" value="1" />
-  <parameter name="pma_rx_buf_vga_halfbw_en" value="vga_half_bw_enabled" />
+  <parameter name="pma_rx_buf_vga_halfbw_en" value="vga_half_bw_disabled" />
   <parameter name="hssi_tx_pcs_pma_interface_sup_mode" value="user_mode" />
   <parameter name="pma_tx_buf_pm_cr2_tx_path_clock_divider_ratio" value="1" />
   <parameter name="hssi_10g_rx_pcs_test_mode" value="test_off" />
@@ -1443,7 +1443,7 @@
   <parameter name="hssi_pldadapt_rx_fifo_double_read" value="fifo_double_read_en" />
   <parameter
      name="cannot_gen_exdesign_prot_msg"
-     value="A design example cannot be generated for &quot;Tx PLL reference clock frequency&quot;==&quot;125.0&quot; &amp;&amp; &quot;Selected CDR reference clock frequency&quot;==&quot;644.531250&quot;" />
+     value="A design example cannot be generated for &quot;Tx PLL reference clock frequency&quot;==&quot;125.0&quot; &amp;&amp; &quot;Selected CDR reference clock frequency&quot;==&quot;641.265000&quot;" />
   <parameter name="pma_rx_buf_rx_vga_oc_en" value="vga_cal_off" />
   <parameter name="hssi_8g_rx_pcs_wa_rosnumber_data" value="1" />
   <parameter name="l_std_tx_field_width" value="11" />
@@ -1531,12 +1531,12 @@
      value="enable_multi_profile 1 dbg_embedded_debug_enable 1 dbg_capability_reg_enable 1 dbg_user_identifier 0 dbg_stat_soft_logic_enable 1 dbg_ctrl_soft_logic_enable 1 l_tx_transfer_clk_hz 322265624 l_rx_transfer_clk_hz 322265624 enable_background_cal 1 l_tx_fifo_transfer_mode x2 l_rx_fifo_transfer_mode x2 l_num_tx_digitalreset 1 l_num_rx_digitalreset 1 l_enable_channel_bonding 0 l_enable_pma_bonding 0 l_enable_pcs_bonding 0 l_tx_hssi_aib_indv indv_en l_tx_core_aib_indv indv_en l_rx_hssi_aib_indv indv_en l_rx_core_aib_indv indv_en display_std_tx_pld_adapt_width 10 display_std_rx_pld_adapt_width 10 datapath_select Enhanced" />
   <parameter
      name="rcfg_sdc_derived_profile_data1"
-     value="enable_multi_profile 1 dbg_embedded_debug_enable 1 dbg_capability_reg_enable 1 dbg_user_identifier 0 dbg_stat_soft_logic_enable 1 dbg_ctrl_soft_logic_enable 1 l_tx_transfer_clk_hz 805664062 l_rx_transfer_clk_hz 805664062 enable_background_cal 1 l_tx_fifo_transfer_mode x2 l_rx_fifo_transfer_mode x2 l_num_tx_digitalreset 1 l_num_rx_digitalreset 1 l_enable_channel_bonding 0 l_enable_pma_bonding 0 l_enable_pcs_bonding 0 l_tx_hssi_aib_indv indv_en l_tx_core_aib_indv indv_en l_rx_hssi_aib_indv indv_en l_rx_core_aib_indv indv_en display_std_tx_pld_adapt_width 10 display_std_rx_pld_adapt_width 10 datapath_select Enhanced" />
-  <parameter name="hssi_aibcr_tx_op_mode" value="tx_dll_disable" />
+     value="enable_multi_profile 1 dbg_embedded_debug_enable 1 dbg_capability_reg_enable 1 dbg_user_identifier 0 dbg_stat_soft_logic_enable 1 dbg_ctrl_soft_logic_enable 1 l_tx_transfer_clk_hz 801581250 l_rx_transfer_clk_hz 801581250 enable_background_cal 1 l_tx_fifo_transfer_mode x2 l_rx_fifo_transfer_mode x2 l_num_tx_digitalreset 1 l_num_rx_digitalreset 1 l_enable_channel_bonding 0 l_enable_pma_bonding 0 l_enable_pcs_bonding 0 l_tx_hssi_aib_indv indv_en l_tx_core_aib_indv indv_en l_rx_hssi_aib_indv indv_en l_rx_core_aib_indv indv_en display_std_tx_pld_adapt_width 10 display_std_rx_pld_adapt_width 10 datapath_select Enhanced" />
+  <parameter name="hssi_aibcr_tx_op_mode" value="tx_dll_enable" />
   <parameter
      name="hssi_pldadapt_tx_hdpldadapt_aib_fabric_pld_pma_hclk_hz"
      value="0" />
-  <parameter name="hssi_aibcr_rx_aib_rx_dcc_en" value="aib_rx_dcc_disable" />
+  <parameter name="hssi_aibcr_rx_aib_rx_dcc_en" value="aib_rx_dcc_enable" />
   <parameter name="pma_rx_buf_ctle_oc_ib_sel" value="ib_oc_bw3" />
   <parameter name="pma_rx_dfe_dft_osc_sel" value="dft_osc_even" />
   <parameter name="pma_rx_buf_initial_settings" value="true" />
@@ -1544,7 +1544,7 @@
   <parameter
      name="hssi_aibnd_rx_aib_dllstr_align_clkdiv"
      value="aib_dllstr_align_clkdiv_setting1" />
-  <parameter name="pma_adapt_datarate_bps" value="10312500000" />
+  <parameter name="pma_adapt_datarate_bps" value="25650600000" />
   <parameter name="hssi_adapt_tx_stretch_num_stages" value="seven_stage" />
   <parameter name="hssi_adapt_tx_ds_last_chnl" value="ds_last_chnl" />
   <parameter name="hssi_adapt_rx_rx_usertest_sel" value="direct_tr_usertest3_sel" />
@@ -1576,11 +1576,11 @@
      name="hssi_rx_pld_pcs_interface_hd_pcs_channel_pld_if_sup_mode"
      value="user_mode" />
   <parameter name="enable_insert_eios_err" value="0" />
-  <parameter name="hssi_aibcr_tx_powermode_ac" value="txdatapath_low_speed_pwr" />
+  <parameter name="hssi_aibcr_tx_powermode_ac" value="txdatapath_high_speed_pwr" />
   <parameter name="tx_pma_compensation_en" value="enable" />
   <parameter name="hssi_adapt_rx_asn_bypass_clock_gate" value="disable" />
   <parameter name="pma_rx_buf_tia_sel" value="tia_sel_1" />
-  <parameter name="l_pll_settings_key" value="644.531250" />
+  <parameter name="l_pll_settings_key" value="641.265000" />
   <parameter name="enable_workaround_rules" value="0" />
   <parameter
      name="hssi_tx_pcs_pma_interface_uhsif_dft_dead_zone_control"
@@ -1640,7 +1640,7 @@
      name="hssi_8g_rx_pcs_ctrl_plane_bonding_compensation"
      value="dis_compensation" />
   <parameter name="pma_rx_sd_sd_pdb" value="sd_off" />
-  <parameter name="hssi_aibnd_tx_op_mode" value="tx_dcc_disable" />
+  <parameter name="hssi_aibnd_tx_op_mode" value="tx_dcc_enable" />
   <parameter name="pma_rx_dfe_tap10_sgn" value="tap10_sign_0" />
   <parameter name="enable_port_tx_clkout2_hioint" value="0" />
   <parameter name="hssi_pldadapt_tx_hdpldadapt_pld_sclk1_rowclk_hz" value="0" />
@@ -1659,7 +1659,7 @@
   <parameter name="hssi_10g_tx_pcs_silicon_rev" value="14nm5bcr2eb" />
   <parameter
      name="hssi_adapt_rx_hd_hssiadapt_pld_pcs_rx_clk_out_hz"
-     value="161132812" />
+     value="400790625" />
   <parameter
      name="hssi_rx_pld_pcs_interface_hd_pcs_channel_pma_if_channel_operation_mode"
      value="tx_rx_pair_enabled" />
@@ -1726,7 +1726,7 @@
   <parameter name="hssi_8g_rx_pcs_ibm_invalid_code" value="dis_ibm_invalid_code" />
   <parameter
      name="hssi_pldadapt_tx_hdpldadapt_pld_tx_clk2_dcm_hz"
-     value="322265624" />
+     value="801581250" />
   <parameter
      name="hssi_aibnd_tx_aib_tx_dcc_dll_entest"
      value="aib_tx_dcc_dll_test_disable" />
@@ -1741,10 +1741,10 @@
      name="pma_cdr_refclk_pm_cr_tx_rx_scratch3_src"
      value="scratch3_power_down" />
   <parameter name="hssi_pldadapt_tx_ds_last_chnl" value="ds_last_chnl" />
-  <parameter name="cdr_pll_lf_resistor_pfd" value="lf_pfd_setting2" />
+  <parameter name="cdr_pll_lf_resistor_pfd" value="lf_pfd_setting3" />
   <parameter name="pma_tx_buf_cdr_cp_calibration_en" value="cdr_cp_cal_disable" />
   <parameter name="hssi_adapt_tx_fifo_width" value="fifo_double_width" />
-  <parameter name="hssi_aibnd_tx_aib_tx_dcc_byp" value="aib_tx_dcc_byp_enable" />
+  <parameter name="hssi_aibnd_tx_aib_tx_dcc_byp" value="aib_tx_dcc_byp_disable" />
   <parameter
      name="hssi_tx_pld_pcs_interface_hd_pcs_channel_share_fifo_mem_shared_fifo_width_tx"
      value="single_tx" />
@@ -1768,13 +1768,13 @@
   <parameter name="hssi_tx_pcs_pma_interface_prbs9_dwidth" value="prbs9_64b" />
   <parameter name="hssi_adapt_rx_control_del" value="control_del_none" />
   <parameter name="hssi_tx_pld_pcs_interface_hd_pcs8g_lpbk_en" value="disable" />
-  <parameter name="cdr_pll_set_cdr_vco_speed_fix" value="92" />
+  <parameter name="cdr_pll_set_cdr_vco_speed_fix" value="120" />
   <parameter
      name="hssi_tx_pld_pcs_interface_hd_pcs_channel_sup_mode"
      value="user_mode" />
   <parameter
      name="hssi_aibnd_rx_aib_dllstr_align_dy_ctlsel"
-     value="aib_dllstr_align_dy_ctlsel_setting1" />
+     value="aib_dllstr_align_dy_ctlsel_setting0" />
   <parameter name="hssi_10g_tx_pcs_frmgen_mfrm_length" value="2048" />
   <parameter name="hssi_adapt_rx_fifo_stop_rd" value="rd_empty" />
   <parameter name="hssi_pldadapt_tx_frmgen_burst" value="frmgen_burst_dis" />
@@ -1868,7 +1868,9 @@
   <parameter name="hssi_rx_pcs_pma_interface_rx_lpbk_en" value="lpbk_dis" />
   <parameter name="hssi_pldadapt_rx_gb_rx_idwidth" value="idwidth_64" />
   <parameter name="pcs_speedgrade" value="e2" />
-  <parameter name="cannot_gen_exdesign_gen_msg" value="" />
+  <parameter
+     name="cannot_gen_exdesign_gen_msg"
+     value=" IP configuration with GXT channel is currently not supported for a design example" />
   <parameter name="pma_rx_dfe_tap12_coeff" value="0" />
   <parameter name="rx_pma_adapt_start_gui" value="0" />
   <parameter name="pma_tx_buf_reserve_tx_channel" value="false" />
@@ -2000,7 +2002,7 @@
      name="hssi_common_pcs_pma_interface_bypass_send_syncp_fbkp"
      value="true" />
   <parameter name="hssi_adapt_rx_hd_hssiadapt_hip_aib_clk_hz" value="0" />
-  <parameter name="hssi_aibnd_tx_powermode_ac" value="txdatapath_low_speed_pwr" />
+  <parameter name="hssi_aibnd_tx_powermode_ac" value="txdatapath_high_speed_pwr" />
   <parameter
      name="hssi_adapt_tx_fsr_hip_fsr_out_bit3_rst_val"
      value="reset_to_zero_hfsrout3" />
@@ -2022,7 +2024,7 @@
   <parameter name="cdr_pll_ncnt_div" value="2" />
   <parameter name="hssi_krfec_rx_pcs_silicon_rev" value="14nm5bcr2eb" />
   <parameter name="l_rx_pma_optimal_settings" value="true" />
-  <parameter name="pma_tx_buf_pm_cr2_tx_path_pma_tx_divclk_hz" value="161132812" />
+  <parameter name="pma_tx_buf_pm_cr2_tx_path_pma_tx_divclk_hz" value="400790625" />
   <parameter name="hssi_pldadapt_rx_asn_en" value="disable" />
   <parameter
      name="hssi_adapt_rx_fifo_wr_clk_sel"
@@ -2052,7 +2054,7 @@
      value="aib_red_pinp_shift_disable" />
   <parameter
      name="hssi_rx_pld_pcs_interface_hd_pcs_channel_clklow_clk_hz"
-     value="322265625" />
+     value="320632500" />
   <parameter
      name="hssi_aibnd_tx_aib_tx_dcc_byp_iocsr_unused"
      value="aib_tx_dcc_byp_disable_iocsr_unused" />
@@ -2086,12 +2088,12 @@
      name="hssi_pldadapt_tx_aib_clk2_sel"
      value="aib_clk2_pld_pma_clkdiv_tx_user" />
   <parameter name="l_adapt_mode_dfe_auto" value="0" />
-  <parameter name="pma_rx_odi_monitor_bw_sel" value="bw_4" />
+  <parameter name="pma_rx_odi_monitor_bw_sel" value="bw_1" />
   <parameter name="hssi_adapt_rx_dyn_clk_sw_en" value="disable" />
   <parameter name="std_rx_word_aligner_pattern_len" value="7" />
   <parameter name="hssi_adapt_rx_clock_del_measure_enable" value="disable" />
   <parameter name="hssi_10g_tx_pcs_dft_clk_out_sel" value="tx_master_clk" />
-  <parameter name="pma_tx_buf_dcc_finestep_enin" value="disable" />
+  <parameter name="pma_tx_buf_dcc_finestep_enin" value="enable" />
   <parameter name="hssi_common_pcs_pma_interface_bypass_pma_ltr" value="true" />
   <parameter name="tx_fifo_pfull" value="10" />
   <parameter name="cdr_pll_top_or_bottom" value="top_or_bot_off" />
@@ -2100,7 +2102,7 @@
   <parameter name="hssi_10g_rx_pcs_fifo_stop_rd" value="n_rd_empty" />
   <parameter
      name="l_pll_settings"
-     value="343.750000 {refclk 343.750000 m 15 n 1 lpfd 2 lpd 2 fvco 10312.5} 687.500000 {refclk 687.500000 m 15 n 2 lpfd 2 lpd 2 fvco 10312.5} 322.265625 {refclk 322.265625 m 16 n 1 lpfd 2 lpd 2 fvco 10312.5} 644.531250 {refclk 644.531250 m 16 n 2 lpfd 2 lpd 2 fvco 10312.5} 303.308824 {refclk 303.308824 m 17 n 1 lpfd 2 lpd 2 fvco 10312.5} 606.617647 {refclk 606.617647 m 17 n 2 lpfd 2 lpd 2 fvco 10312.5} 286.458333 {refclk 286.458333 m 18 n 1 lpfd 2 lpd 2 fvco 10312.5} 572.916667 {refclk 572.916667 m 18 n 2 lpfd 2 lpd 2 fvco 10312.5} 271.381579 {refclk 271.381579 m 19 n 1 lpfd 2 lpd 2 fvco 10312.5} 542.763158 {refclk 542.763158 m 19 n 2 lpfd 2 lpd 2 fvco 10312.5} 257.812500 {refclk 257.812500 m 20 n 1 lpfd 2 lpd 2 fvco 10312.5} 515.625000 {refclk 515.625000 m 20 n 2 lpfd 2 lpd 2 fvco 10312.5} 245.535714 {refclk 245.535714 m 21 n 1 lpfd 2 lpd 2 fvco 10312.5} 491.071429 {refclk 491.071429 m 21 n 2 lpfd 2 lpd 2 fvco 10312.5} 234.375000 {refclk 234.375000 m 22 n 1 lpfd 2 lpd 2 fvco 10312.5} 468.750000 {refclk 468.750000 m 22 n 2 lpfd 2 lpd 2 fvco 10312.5} 224.184783 {refclk 224.184783 m 23 n 1 lpfd 2 lpd 2 fvco 10312.5} 448.369565 {refclk 448.369565 m 23 n 2 lpfd 2 lpd 2 fvco 10312.5} 214.843750 {refclk 214.843750 m 24 n 1 lpfd 2 lpd 2 fvco 10312.5} 429.687500 {refclk 429.687500 m 24 n 2 lpfd 2 lpd 2 fvco 10312.5} 206.250000 {refclk 206.250000 m 25 n 1 lpfd 2 lpd 2 fvco 10312.5} 412.500000 {refclk 412.500000 m 25 n 2 lpfd 2 lpd 2 fvco 10312.5} 198.317308 {refclk 198.317308 m 26 n 1 lpfd 2 lpd 2 fvco 10312.5} 396.634615 {refclk 396.634615 m 26 n 2 lpfd 2 lpd 2 fvco 10312.5} 793.269231 {refclk 793.269231 m 26 n 4 lpfd 2 lpd 2 fvco 10312.5} 190.972222 {refclk 190.972222 m 27 n 1 lpfd 2 lpd 2 fvco 10312.5} 381.944444 {refclk 381.944444 m 27 n 2 lpfd 2 lpd 2 fvco 10312.5} 763.888889 {refclk 763.888889 m 27 n 4 lpfd 2 lpd 2 fvco 10312.5} 184.151786 {refclk 184.151786 m 28 n 1 lpfd 2 lpd 2 fvco 10312.5} 368.303571 {refclk 368.303571 m 28 n 2 lpfd 2 lpd 2 fvco 10312.5} 736.607143 {refclk 736.607143 m 28 n 4 lpfd 2 lpd 2 fvco 10312.5} 177.801724 {refclk 177.801724 m 29 n 1 lpfd 2 lpd 2 fvco 10312.5} 355.603448 {refclk 355.603448 m 29 n 2 lpfd 2 lpd 2 fvco 10312.5} 711.206897 {refclk 711.206897 m 29 n 4 lpfd 2 lpd 2 fvco 10312.5} 171.875000 {refclk 171.875000 m 30 n 1 lpfd 2 lpd 2 fvco 10312.5} 166.330645 {refclk 166.330645 m 31 n 1 lpfd 2 lpd 2 fvco 10312.5} 332.661290 {refclk 332.661290 m 31 n 2 lpfd 2 lpd 2 fvco 10312.5} 665.322581 {refclk 665.322581 m 31 n 4 lpfd 2 lpd 2 fvco 10312.5} 161.132813 {refclk 161.132813 m 32 n 1 lpfd 2 lpd 2 fvco 10312.5} 156.250000 {refclk 156.250000 m 33 n 1 lpfd 2 lpd 2 fvco 10312.5} 312.500000 {refclk 312.500000 m 33 n 2 lpfd 2 lpd 2 fvco 10312.5} 625.000000 {refclk 625.000000 m 33 n 4 lpfd 2 lpd 2 fvco 10312.5} 151.654412 {refclk 151.654412 m 34 n 1 lpfd 2 lpd 2 fvco 10312.5} 147.321429 {refclk 147.321429 m 35 n 1 lpfd 2 lpd 2 fvco 10312.5} 294.642857 {refclk 294.642857 m 35 n 2 lpfd 2 lpd 2 fvco 10312.5} 589.285714 {refclk 589.285714 m 35 n 4 lpfd 2 lpd 2 fvco 10312.5} 143.229167 {refclk 143.229167 m 36 n 1 lpfd 2 lpd 2 fvco 10312.5} 139.358108 {refclk 139.358108 m 37 n 1 lpfd 2 lpd 2 fvco 10312.5} 278.716216 {refclk 278.716216 m 37 n 2 lpfd 2 lpd 2 fvco 10312.5} 557.432432 {refclk 557.432432 m 37 n 4 lpfd 2 lpd 2 fvco 10312.5} 135.690789 {refclk 135.690789 m 38 n 1 lpfd 2 lpd 2 fvco 10312.5} 132.211538 {refclk 132.211538 m 39 n 1 lpfd 2 lpd 2 fvco 10312.5} 264.423077 {refclk 264.423077 m 39 n 2 lpfd 2 lpd 2 fvco 10312.5} 528.846154 {refclk 528.846154 m 39 n 4 lpfd 2 lpd 2 fvco 10312.5} 128.906250 {refclk 128.906250 m 40 n 1 lpfd 2 lpd 2 fvco 10312.5} 125.762195 {refclk 125.762195 m 41 n 1 lpfd 2 lpd 2 fvco 10312.5} 251.524390 {refclk 251.524390 m 41 n 2 lpfd 2 lpd 2 fvco 10312.5} 503.048780 {refclk 503.048780 m 41 n 4 lpfd 2 lpd 2 fvco 10312.5} 122.767857 {refclk 122.767857 m 42 n 1 lpfd 2 lpd 2 fvco 10312.5} 119.912791 {refclk 119.912791 m 43 n 1 lpfd 2 lpd 2 fvco 10312.5} 239.825581 {refclk 239.825581 m 43 n 2 lpfd 2 lpd 2 fvco 10312.5} 479.651163 {refclk 479.651163 m 43 n 4 lpfd 2 lpd 2 fvco 10312.5} 117.187500 {refclk 117.187500 m 44 n 1 lpfd 2 lpd 2 fvco 10312.5} 114.583333 {refclk 114.583333 m 45 n 1 lpfd 2 lpd 2 fvco 10312.5} 229.166667 {refclk 229.166667 m 45 n 2 lpfd 2 lpd 2 fvco 10312.5} 458.333333 {refclk 458.333333 m 45 n 4 lpfd 2 lpd 2 fvco 10312.5} 112.092391 {refclk 112.092391 m 46 n 1 lpfd 2 lpd 2 fvco 10312.5} 109.707447 {refclk 109.707447 m 47 n 1 lpfd 2 lpd 2 fvco 10312.5} 219.414894 {refclk 219.414894 m 47 n 2 lpfd 2 lpd 2 fvco 10312.5} 438.829787 {refclk 438.829787 m 47 n 4 lpfd 2 lpd 2 fvco 10312.5} 107.421875 {refclk 107.421875 m 48 n 1 lpfd 2 lpd 2 fvco 10312.5} 105.229592 {refclk 105.229592 m 49 n 1 lpfd 2 lpd 2 fvco 10312.5} 210.459184 {refclk 210.459184 m 49 n 2 lpfd 2 lpd 2 fvco 10312.5} 420.918367 {refclk 420.918367 m 49 n 4 lpfd 2 lpd 2 fvco 10312.5} 103.125000 {refclk 103.125000 m 50 n 1 lpfd 2 lpd 2 fvco 10312.5} 101.102941 {refclk 101.102941 m 51 n 1 lpfd 2 lpd 2 fvco 10312.5} 202.205882 {refclk 202.205882 m 51 n 2 lpfd 2 lpd 2 fvco 10312.5} 404.411765 {refclk 404.411765 m 51 n 4 lpfd 2 lpd 2 fvco 10312.5} 99.158654 {refclk 99.158654 m 52 n 1 lpfd 2 lpd 2 fvco 10312.5} 97.287736 {refclk 97.287736 m 53 n 1 lpfd 2 lpd 2 fvco 10312.5} 194.575472 {refclk 194.575472 m 53 n 2 lpfd 2 lpd 2 fvco 10312.5} 389.150943 {refclk 389.150943 m 53 n 4 lpfd 2 lpd 2 fvco 10312.5} 778.301887 {refclk 778.301887 m 53 n 8 lpfd 2 lpd 2 fvco 10312.5} 95.486111 {refclk 95.486111 m 54 n 1 lpfd 2 lpd 2 fvco 10312.5} 93.750000 {refclk 93.750000 m 55 n 1 lpfd 2 lpd 2 fvco 10312.5} 187.500000 {refclk 187.500000 m 55 n 2 lpfd 2 lpd 2 fvco 10312.5} 375.000000 {refclk 375.000000 m 55 n 4 lpfd 2 lpd 2 fvco 10312.5} 750.000000 {refclk 750.000000 m 55 n 8 lpfd 2 lpd 2 fvco 10312.5} 92.075893 {refclk 92.075893 m 56 n 1 lpfd 2 lpd 2 fvco 10312.5} 90.460526 {refclk 90.460526 m 57 n 1 lpfd 2 lpd 2 fvco 10312.5} 180.921053 {refclk 180.921053 m 57 n 2 lpfd 2 lpd 2 fvco 10312.5} 361.842105 {refclk 361.842105 m 57 n 4 lpfd 2 lpd 2 fvco 10312.5} 723.684211 {refclk 723.684211 m 57 n 8 lpfd 2 lpd 2 fvco 10312.5} 88.900862 {refclk 88.900862 m 58 n 1 lpfd 2 lpd 2 fvco 10312.5} 87.394068 {refclk 87.394068 m 59 n 1 lpfd 2 lpd 2 fvco 10312.5} 174.788136 {refclk 174.788136 m 59 n 2 lpfd 2 lpd 2 fvco 10312.5} 349.576271 {refclk 349.576271 m 59 n 4 lpfd 2 lpd 2 fvco 10312.5} 699.152542 {refclk 699.152542 m 59 n 8 lpfd 2 lpd 2 fvco 10312.5} 85.937500 {refclk 85.937500 m 60 n 1 lpfd 2 lpd 2 fvco 10312.5} 84.528689 {refclk 84.528689 m 61 n 1 lpfd 2 lpd 2 fvco 10312.5} 169.057377 {refclk 169.057377 m 61 n 2 lpfd 2 lpd 2 fvco 10312.5} 338.114754 {refclk 338.114754 m 61 n 4 lpfd 2 lpd 2 fvco 10312.5} 676.229508 {refclk 676.229508 m 61 n 8 lpfd 2 lpd 2 fvco 10312.5} 83.165323 {refclk 83.165323 m 62 n 1 lpfd 2 lpd 2 fvco 10312.5} 81.845238 {refclk 81.845238 m 63 n 1 lpfd 2 lpd 2 fvco 10312.5} 163.690476 {refclk 163.690476 m 63 n 2 lpfd 2 lpd 2 fvco 10312.5} 327.380952 {refclk 327.380952 m 63 n 4 lpfd 2 lpd 2 fvco 10312.5} 654.761905 {refclk 654.761905 m 63 n 8 lpfd 2 lpd 2 fvco 10312.5} 80.566406 {refclk 80.566406 m 64 n 1 lpfd 2 lpd 2 fvco 10312.5} 79.326923 {refclk 79.326923 m 65 n 1 lpfd 2 lpd 2 fvco 10312.5} 158.653846 {refclk 158.653846 m 65 n 2 lpfd 2 lpd 2 fvco 10312.5} 317.307692 {refclk 317.307692 m 65 n 4 lpfd 2 lpd 2 fvco 10312.5} 634.615385 {refclk 634.615385 m 65 n 8 lpfd 2 lpd 2 fvco 10312.5} 78.125000 {refclk 78.125000 m 66 n 1 lpfd 2 lpd 2 fvco 10312.5} 76.958955 {refclk 76.958955 m 67 n 1 lpfd 2 lpd 2 fvco 10312.5} 153.917910 {refclk 153.917910 m 67 n 2 lpfd 2 lpd 2 fvco 10312.5} 307.835821 {refclk 307.835821 m 67 n 4 lpfd 2 lpd 2 fvco 10312.5} 615.671642 {refclk 615.671642 m 67 n 8 lpfd 2 lpd 2 fvco 10312.5} 75.827206 {refclk 75.827206 m 68 n 1 lpfd 2 lpd 2 fvco 10312.5} 74.728261 {refclk 74.728261 m 69 n 1 lpfd 2 lpd 2 fvco 10312.5} 149.456522 {refclk 149.456522 m 69 n 2 lpfd 2 lpd 2 fvco 10312.5} 298.913043 {refclk 298.913043 m 69 n 4 lpfd 2 lpd 2 fvco 10312.5} 597.826087 {refclk 597.826087 m 69 n 8 lpfd 2 lpd 2 fvco 10312.5} 73.660714 {refclk 73.660714 m 70 n 1 lpfd 2 lpd 2 fvco 10312.5} 72.623239 {refclk 72.623239 m 71 n 1 lpfd 2 lpd 2 fvco 10312.5} 145.246479 {refclk 145.246479 m 71 n 2 lpfd 2 lpd 2 fvco 10312.5} 290.492958 {refclk 290.492958 m 71 n 4 lpfd 2 lpd 2 fvco 10312.5} 580.985915 {refclk 580.985915 m 71 n 8 lpfd 2 lpd 2 fvco 10312.5} 71.614583 {refclk 71.614583 m 72 n 1 lpfd 2 lpd 2 fvco 10312.5} 70.633562 {refclk 70.633562 m 73 n 1 lpfd 2 lpd 2 fvco 10312.5} 141.267123 {refclk 141.267123 m 73 n 2 lpfd 2 lpd 2 fvco 10312.5} 282.534247 {refclk 282.534247 m 73 n 4 lpfd 2 lpd 2 fvco 10312.5} 565.068493 {refclk 565.068493 m 73 n 8 lpfd 2 lpd 2 fvco 10312.5} 69.679054 {refclk 69.679054 m 74 n 1 lpfd 2 lpd 2 fvco 10312.5} 68.750000 {refclk 68.750000 m 75 n 1 lpfd 2 lpd 2 fvco 10312.5} 137.500000 {refclk 137.500000 m 75 n 2 lpfd 2 lpd 2 fvco 10312.5} 275.000000 {refclk 275.000000 m 75 n 4 lpfd 2 lpd 2 fvco 10312.5} 550.000000 {refclk 550.000000 m 75 n 8 lpfd 2 lpd 2 fvco 10312.5} 67.845395 {refclk 67.845395 m 76 n 1 lpfd 2 lpd 2 fvco 10312.5} 66.964286 {refclk 66.964286 m 77 n 1 lpfd 2 lpd 2 fvco 10312.5} 133.928571 {refclk 133.928571 m 77 n 2 lpfd 2 lpd 2 fvco 10312.5} 267.857143 {refclk 267.857143 m 77 n 4 lpfd 2 lpd 2 fvco 10312.5} 535.714286 {refclk 535.714286 m 77 n 8 lpfd 2 lpd 2 fvco 10312.5} 66.105769 {refclk 66.105769 m 78 n 1 lpfd 2 lpd 2 fvco 10312.5} 65.268987 {refclk 65.268987 m 79 n 1 lpfd 2 lpd 2 fvco 10312.5} 130.537975 {refclk 130.537975 m 79 n 2 lpfd 2 lpd 2 fvco 10312.5} 261.075949 {refclk 261.075949 m 79 n 4 lpfd 2 lpd 2 fvco 10312.5} 522.151899 {refclk 522.151899 m 79 n 8 lpfd 2 lpd 2 fvco 10312.5} 64.453125 {refclk 64.453125 m 80 n 1 lpfd 2 lpd 2 fvco 10312.5} 63.657407 {refclk 63.657407 m 81 n 1 lpfd 2 lpd 2 fvco 10312.5} 127.314815 {refclk 127.314815 m 81 n 2 lpfd 2 lpd 2 fvco 10312.5} 254.629630 {refclk 254.629630 m 81 n 4 lpfd 2 lpd 2 fvco 10312.5} 509.259259 {refclk 509.259259 m 81 n 8 lpfd 2 lpd 2 fvco 10312.5} 62.881098 {refclk 62.881098 m 82 n 1 lpfd 2 lpd 2 fvco 10312.5} 62.123494 {refclk 62.123494 m 83 n 1 lpfd 2 lpd 2 fvco 10312.5} 124.246988 {refclk 124.246988 m 83 n 2 lpfd 2 lpd 2 fvco 10312.5} 248.493976 {refclk 248.493976 m 83 n 4 lpfd 2 lpd 2 fvco 10312.5} 496.987952 {refclk 496.987952 m 83 n 8 lpfd 2 lpd 2 fvco 10312.5} 61.383929 {refclk 61.383929 m 84 n 1 lpfd 2 lpd 2 fvco 10312.5} 60.661765 {refclk 60.661765 m 85 n 1 lpfd 2 lpd 2 fvco 10312.5} 121.323529 {refclk 121.323529 m 85 n 2 lpfd 2 lpd 2 fvco 10312.5} 242.647059 {refclk 242.647059 m 85 n 4 lpfd 2 lpd 2 fvco 10312.5} 485.294118 {refclk 485.294118 m 85 n 8 lpfd 2 lpd 2 fvco 10312.5} 59.956395 {refclk 59.956395 m 86 n 1 lpfd 2 lpd 2 fvco 10312.5} 59.267241 {refclk 59.267241 m 87 n 1 lpfd 2 lpd 2 fvco 10312.5} 118.534483 {refclk 118.534483 m 87 n 2 lpfd 2 lpd 2 fvco 10312.5} 237.068966 {refclk 237.068966 m 87 n 4 lpfd 2 lpd 2 fvco 10312.5} 474.137931 {refclk 474.137931 m 87 n 8 lpfd 2 lpd 2 fvco 10312.5} 58.593750 {refclk 58.593750 m 88 n 1 lpfd 2 lpd 2 fvco 10312.5} 57.935393 {refclk 57.935393 m 89 n 1 lpfd 2 lpd 2 fvco 10312.5} 115.870787 {refclk 115.870787 m 89 n 2 lpfd 2 lpd 2 fvco 10312.5} 231.741573 {refclk 231.741573 m 89 n 4 lpfd 2 lpd 2 fvco 10312.5} 463.483146 {refclk 463.483146 m 89 n 8 lpfd 2 lpd 2 fvco 10312.5} 57.291667 {refclk 57.291667 m 90 n 1 lpfd 2 lpd 2 fvco 10312.5} 56.662088 {refclk 56.662088 m 91 n 1 lpfd 2 lpd 2 fvco 10312.5} 113.324176 {refclk 113.324176 m 91 n 2 lpfd 2 lpd 2 fvco 10312.5} 226.648352 {refclk 226.648352 m 91 n 4 lpfd 2 lpd 2 fvco 10312.5} 453.296703 {refclk 453.296703 m 91 n 8 lpfd 2 lpd 2 fvco 10312.5} 56.046196 {refclk 56.046196 m 92 n 1 lpfd 2 lpd 2 fvco 10312.5} 55.443548 {refclk 55.443548 m 93 n 1 lpfd 2 lpd 2 fvco 10312.5} 110.887097 {refclk 110.887097 m 93 n 2 lpfd 2 lpd 2 fvco 10312.5} 221.774194 {refclk 221.774194 m 93 n 4 lpfd 2 lpd 2 fvco 10312.5} 443.548387 {refclk 443.548387 m 93 n 8 lpfd 2 lpd 2 fvco 10312.5} 54.853723 {refclk 54.853723 m 94 n 1 lpfd 2 lpd 2 fvco 10312.5} 54.276316 {refclk 54.276316 m 95 n 1 lpfd 2 lpd 2 fvco 10312.5} 108.552632 {refclk 108.552632 m 95 n 2 lpfd 2 lpd 2 fvco 10312.5} 217.105263 {refclk 217.105263 m 95 n 4 lpfd 2 lpd 2 fvco 10312.5} 434.210526 {refclk 434.210526 m 95 n 8 lpfd 2 lpd 2 fvco 10312.5} 53.710938 {refclk 53.710938 m 96 n 1 lpfd 2 lpd 2 fvco 10312.5} 53.157216 {refclk 53.157216 m 97 n 1 lpfd 2 lpd 2 fvco 10312.5} 106.314433 {refclk 106.314433 m 97 n 2 lpfd 2 lpd 2 fvco 10312.5} 212.628866 {refclk 212.628866 m 97 n 4 lpfd 2 lpd 2 fvco 10312.5} 425.257732 {refclk 425.257732 m 97 n 8 lpfd 2 lpd 2 fvco 10312.5} 52.614796 {refclk 52.614796 m 98 n 1 lpfd 2 lpd 2 fvco 10312.5} 52.083333 {refclk 52.083333 m 99 n 1 lpfd 2 lpd 2 fvco 10312.5} 104.166667 {refclk 104.166667 m 99 n 2 lpfd 2 lpd 2 fvco 10312.5} 208.333333 {refclk 208.333333 m 99 n 4 lpfd 2 lpd 2 fvco 10312.5} 416.666667 {refclk 416.666667 m 99 n 8 lpfd 2 lpd 2 fvco 10312.5} 51.562500 {refclk 51.562500 m 100 n 1 lpfd 2 lpd 2 fvco 10312.5} 51.051980 {refclk 51.051980 m 101 n 1 lpfd 2 lpd 2 fvco 10312.5} 102.103960 {refclk 102.103960 m 101 n 2 lpfd 2 lpd 2 fvco 10312.5} 204.207921 {refclk 204.207921 m 101 n 4 lpfd 2 lpd 2 fvco 10312.5} 408.415842 {refclk 408.415842 m 101 n 8 lpfd 2 lpd 2 fvco 10312.5} 50.551471 {refclk 50.551471 m 102 n 1 lpfd 2 lpd 2 fvco 10312.5} 50.060680 {refclk 50.060680 m 103 n 1 lpfd 2 lpd 2 fvco 10312.5} 100.121359 {refclk 100.121359 m 103 n 2 lpfd 2 lpd 2 fvco 10312.5} 200.242718 {refclk 200.242718 m 103 n 4 lpfd 2 lpd 2 fvco 10312.5} 400.485437 {refclk 400.485437 m 103 n 8 lpfd 2 lpd 2 fvco 10312.5} 49.579327 {refclk 49.579327 m 104 n 1 lpfd 2 lpd 2 fvco 10312.5} 49.107143 {refclk 49.107143 m 105 n 1 lpfd 2 lpd 2 fvco 10312.5} 98.214286 {refclk 98.214286 m 105 n 2 lpfd 2 lpd 2 fvco 10312.5} 196.428571 {refclk 196.428571 m 105 n 4 lpfd 2 lpd 2 fvco 10312.5} 392.857143 {refclk 392.857143 m 105 n 8 lpfd 2 lpd 2 fvco 10312.5} 48.643868 {refclk 48.643868 m 106 n 1 lpfd 2 lpd 2 fvco 10312.5} 48.189252 {refclk 48.189252 m 107 n 1 lpfd 2 lpd 2 fvco 10312.5} 96.378505 {refclk 96.378505 m 107 n 2 lpfd 2 lpd 2 fvco 10312.5} 192.757009 {refclk 192.757009 m 107 n 4 lpfd 2 lpd 2 fvco 10312.5} 385.514019 {refclk 385.514019 m 107 n 8 lpfd 2 lpd 2 fvco 10312.5} 47.743056 {refclk 47.743056 m 108 n 1 lpfd 2 lpd 2 fvco 10312.5} 47.305046 {refclk 47.305046 m 109 n 1 lpfd 2 lpd 2 fvco 10312.5} 94.610092 {refclk 94.610092 m 109 n 2 lpfd 2 lpd 2 fvco 10312.5} 189.220183 {refclk 189.220183 m 109 n 4 lpfd 2 lpd 2 fvco 10312.5} 378.440367 {refclk 378.440367 m 109 n 8 lpfd 2 lpd 2 fvco 10312.5} 46.875000 {refclk 46.875000 m 110 n 1 lpfd 2 lpd 2 fvco 10312.5} 46.452703 {refclk 46.452703 m 111 n 1 lpfd 2 lpd 2 fvco 10312.5} 92.905405 {refclk 92.905405 m 111 n 2 lpfd 2 lpd 2 fvco 10312.5} 185.810811 {refclk 185.810811 m 111 n 4 lpfd 2 lpd 2 fvco 10312.5} 371.621622 {refclk 371.621622 m 111 n 8 lpfd 2 lpd 2 fvco 10312.5} 46.037946 {refclk 46.037946 m 112 n 1 lpfd 2 lpd 2 fvco 10312.5} 45.630531 {refclk 45.630531 m 113 n 1 lpfd 2 lpd 2 fvco 10312.5} 91.261062 {refclk 91.261062 m 113 n 2 lpfd 2 lpd 2 fvco 10312.5} 182.522124 {refclk 182.522124 m 113 n 4 lpfd 2 lpd 2 fvco 10312.5} 365.044248 {refclk 365.044248 m 113 n 8 lpfd 2 lpd 2 fvco 10312.5} 45.230263 {refclk 45.230263 m 114 n 1 lpfd 2 lpd 2 fvco 10312.5} 44.836957 {refclk 44.836957 m 115 n 1 lpfd 2 lpd 2 fvco 10312.5} 89.673913 {refclk 89.673913 m 115 n 2 lpfd 2 lpd 2 fvco 10312.5} 179.347826 {refclk 179.347826 m 115 n 4 lpfd 2 lpd 2 fvco 10312.5} 358.695652 {refclk 358.695652 m 115 n 8 lpfd 2 lpd 2 fvco 10312.5} 44.450431 {refclk 44.450431 m 116 n 1 lpfd 2 lpd 2 fvco 10312.5} 44.070513 {refclk 44.070513 m 117 n 1 lpfd 2 lpd 2 fvco 10312.5} 88.141026 {refclk 88.141026 m 117 n 2 lpfd 2 lpd 2 fvco 10312.5} 176.282051 {refclk 176.282051 m 117 n 4 lpfd 2 lpd 2 fvco 10312.5} 352.564103 {refclk 352.564103 m 117 n 8 lpfd 2 lpd 2 fvco 10312.5} 43.697034 {refclk 43.697034 m 118 n 1 lpfd 2 lpd 2 fvco 10312.5} 43.329832 {refclk 43.329832 m 119 n 1 lpfd 2 lpd 2 fvco 10312.5} 86.659664 {refclk 86.659664 m 119 n 2 lpfd 2 lpd 2 fvco 10312.5} 173.319328 {refclk 173.319328 m 119 n 4 lpfd 2 lpd 2 fvco 10312.5} 346.638655 {refclk 346.638655 m 119 n 8 lpfd 2 lpd 2 fvco 10312.5} 42.968750 {refclk 42.968750 m 120 n 1 lpfd 2 lpd 2 fvco 10312.5} 42.613636 {refclk 42.613636 m 121 n 1 lpfd 2 lpd 2 fvco 10312.5} 85.227273 {refclk 85.227273 m 121 n 2 lpfd 2 lpd 2 fvco 10312.5} 170.454545 {refclk 170.454545 m 121 n 4 lpfd 2 lpd 2 fvco 10312.5} 340.909091 {refclk 340.909091 m 121 n 8 lpfd 2 lpd 2 fvco 10312.5} 42.264344 {refclk 42.264344 m 122 n 1 lpfd 2 lpd 2 fvco 10312.5} 41.920732 {refclk 41.920732 m 123 n 1 lpfd 2 lpd 2 fvco 10312.5} 83.841463 {refclk 83.841463 m 123 n 2 lpfd 2 lpd 2 fvco 10312.5} 167.682927 {refclk 167.682927 m 123 n 4 lpfd 2 lpd 2 fvco 10312.5} 335.365854 {refclk 335.365854 m 123 n 8 lpfd 2 lpd 2 fvco 10312.5} 41.582661 {refclk 41.582661 m 124 n 1 lpfd 2 lpd 2 fvco 10312.5} 41.250000 {refclk 41.250000 m 125 n 1 lpfd 2 lpd 2 fvco 10312.5} 82.500000 {refclk 82.500000 m 125 n 2 lpfd 2 lpd 2 fvco 10312.5} 165.000000 {refclk 165.000000 m 125 n 4 lpfd 2 lpd 2 fvco 10312.5} 330.000000 {refclk 330.000000 m 125 n 8 lpfd 2 lpd 2 fvco 10312.5} 40.922619 {refclk 40.922619 m 126 n 1 lpfd 2 lpd 2 fvco 10312.5} 40.600394 {refclk 40.600394 m 127 n 1 lpfd 2 lpd 2 fvco 10312.5} 81.200787 {refclk 81.200787 m 127 n 2 lpfd 2 lpd 2 fvco 10312.5} 162.401575 {refclk 162.401575 m 127 n 4 lpfd 2 lpd 2 fvco 10312.5} 324.803150 {refclk 324.803150 m 127 n 8 lpfd 2 lpd 2 fvco 10312.5} allowed_ranges {40.600394 40.922619 41.250000 41.582661 41.920732 42.264344 42.613636 42.968750 43.329832 43.697034 44.070513 44.450431 44.836957 45.230263 45.630531 46.037946 46.452703 46.875000 47.305046 47.743056 48.189252 48.643868 49.107143 49.579327 50.060680 50.551471 51.051980 51.562500 52.083333 52.614796 53.157216 53.710938 54.276316 54.853723 55.443548 56.046196 56.662088 57.291667 57.935393 58.593750 59.267241 59.956395 60.661765 61.383929 62.123494 62.881098 63.657407 64.453125 65.268987 66.105769 66.964286 67.845395 68.750000 69.679054 70.633562 71.614583 72.623239 73.660714 74.728261 75.827206 76.958955 78.125000 79.326923 80.566406 81.200787 81.845238 82.500000 83.165323 83.841463 84.528689 85.227273 85.937500 86.659664 87.394068 88.141026 88.900862 89.673913 90.460526 91.261062 92.075893 92.905405 93.750000 94.610092 95.486111 96.378505 97.287736 98.214286 99.158654 100.121359 101.102941 102.103960 103.125000 104.166667 105.229592 106.314433 107.421875 108.552632 109.707447 110.887097 112.092391 113.324176 114.583333 115.870787 117.187500 118.534483 119.912791 121.323529 122.767857 124.246988 125.762195 127.314815 128.906250 130.537975 132.211538 133.928571 135.690789 137.500000 139.358108 141.267123 143.229167 145.246479 147.321429 149.456522 151.654412 153.917910 156.250000 158.653846 161.132813 162.401575 163.690476 165.000000 166.330645 167.682927 169.057377 170.454545 171.875000 173.319328 174.788136 176.282051 177.801724 179.347826 180.921053 182.522124 184.151786 185.810811 187.500000 189.220183 190.972222 192.757009 194.575472 196.428571 198.317308 200.242718 202.205882 204.207921 206.250000 208.333333 210.459184 212.628866 214.843750 217.105263 219.414894 221.774194 224.184783 226.648352 229.166667 231.741573 234.375000 237.068966 239.825581 242.647059 245.535714 248.493976 251.524390 254.629630 257.812500 261.075949 264.423077 267.857143 271.381579 275.000000 278.716216 282.534247 286.458333 290.492958 294.642857 298.913043 303.308824 307.835821 312.500000 317.307692 322.265625 324.803150 327.380952 330.000000 332.661290 335.365854 338.114754 340.909091 343.750000 346.638655 349.576271 352.564103 355.603448 358.695652 361.842105 365.044248 368.303571 371.621622 375.000000 378.440367 381.944444 385.514019 389.150943 392.857143 396.634615 400.485437 404.411765 408.415842 412.500000 416.666667 420.918367 425.257732 429.687500 434.210526 438.829787 443.548387 448.369565 453.296703 458.333333 463.483146 468.750000 474.137931 479.651163 485.294118 491.071429 496.987952 503.048780 509.259259 515.625000 522.151899 528.846154 535.714286 542.763158 550.000000 557.432432 565.068493 572.916667 580.985915 589.285714 597.826087 606.617647 615.671642 625.000000 634.615385 644.531250 654.761905 665.322581 676.229508 687.500000 699.152542 711.206897 723.684211 736.607143 750.000000 763.888889 778.301887 793.269231}" />
+     value="337.507895 {refclk 337.507895 m 19 n 1 lpfd 2 lpd 1 fvco 12825.3} 675.015789 {refclk 675.015789 m 19 n 2 lpfd 2 lpd 1 fvco 12825.3} 320.632500 {refclk 320.632500 m 20 n 1 lpfd 2 lpd 1 fvco 12825.3} 641.265000 {refclk 641.265000 m 20 n 2 lpfd 2 lpd 1 fvco 12825.3} 305.364286 {refclk 305.364286 m 21 n 1 lpfd 2 lpd 1 fvco 12825.3} 610.728571 {refclk 610.728571 m 21 n 2 lpfd 2 lpd 1 fvco 12825.3} 291.484091 {refclk 291.484091 m 22 n 1 lpfd 2 lpd 1 fvco 12825.3} 582.968182 {refclk 582.968182 m 22 n 2 lpfd 2 lpd 1 fvco 12825.3} 278.810870 {refclk 278.810870 m 23 n 1 lpfd 2 lpd 1 fvco 12825.3} 557.621739 {refclk 557.621739 m 23 n 2 lpfd 2 lpd 1 fvco 12825.3} 267.193750 {refclk 267.193750 m 24 n 1 lpfd 2 lpd 1 fvco 12825.3} 534.387500 {refclk 534.387500 m 24 n 2 lpfd 2 lpd 1 fvco 12825.3} 256.506000 {refclk 256.506000 m 25 n 1 lpfd 2 lpd 1 fvco 12825.3} 513.012000 {refclk 513.012000 m 25 n 2 lpfd 2 lpd 1 fvco 12825.3} 246.640385 {refclk 246.640385 m 26 n 1 lpfd 2 lpd 1 fvco 12825.3} 493.280769 {refclk 493.280769 m 26 n 2 lpfd 2 lpd 1 fvco 12825.3} 237.505556 {refclk 237.505556 m 27 n 1 lpfd 2 lpd 1 fvco 12825.3} 475.011111 {refclk 475.011111 m 27 n 2 lpfd 2 lpd 1 fvco 12825.3} 229.023214 {refclk 229.023214 m 28 n 1 lpfd 2 lpd 1 fvco 12825.3} 458.046429 {refclk 458.046429 m 28 n 2 lpfd 2 lpd 1 fvco 12825.3} 221.125862 {refclk 221.125862 m 29 n 1 lpfd 2 lpd 1 fvco 12825.3} 442.251724 {refclk 442.251724 m 29 n 2 lpfd 2 lpd 1 fvco 12825.3} 213.755000 {refclk 213.755000 m 30 n 1 lpfd 2 lpd 1 fvco 12825.3} 427.510000 {refclk 427.510000 m 30 n 2 lpfd 2 lpd 1 fvco 12825.3} 206.859677 {refclk 206.859677 m 31 n 1 lpfd 2 lpd 1 fvco 12825.3} 413.719355 {refclk 413.719355 m 31 n 2 lpfd 2 lpd 1 fvco 12825.3} 200.395312 {refclk 200.395312 m 32 n 1 lpfd 2 lpd 1 fvco 12825.3} 400.790625 {refclk 400.790625 m 32 n 2 lpfd 2 lpd 1 fvco 12825.3} 194.322727 {refclk 194.322727 m 33 n 1 lpfd 2 lpd 1 fvco 12825.3} 388.645455 {refclk 388.645455 m 33 n 2 lpfd 2 lpd 1 fvco 12825.3} 777.290909 {refclk 777.290909 m 33 n 4 lpfd 2 lpd 1 fvco 12825.3} 188.607353 {refclk 188.607353 m 34 n 1 lpfd 2 lpd 1 fvco 12825.3} 377.214706 {refclk 377.214706 m 34 n 2 lpfd 2 lpd 1 fvco 12825.3} 754.429412 {refclk 754.429412 m 34 n 4 lpfd 2 lpd 1 fvco 12825.3} 183.218571 {refclk 183.218571 m 35 n 1 lpfd 2 lpd 1 fvco 12825.3} 366.437143 {refclk 366.437143 m 35 n 2 lpfd 2 lpd 1 fvco 12825.3} 732.874286 {refclk 732.874286 m 35 n 4 lpfd 2 lpd 1 fvco 12825.3} 178.129167 {refclk 178.129167 m 36 n 1 lpfd 2 lpd 1 fvco 12825.3} 356.258333 {refclk 356.258333 m 36 n 2 lpfd 2 lpd 1 fvco 12825.3} 712.516667 {refclk 712.516667 m 36 n 4 lpfd 2 lpd 1 fvco 12825.3} 173.314865 {refclk 173.314865 m 37 n 1 lpfd 2 lpd 1 fvco 12825.3} 346.629730 {refclk 346.629730 m 37 n 2 lpfd 2 lpd 1 fvco 12825.3} 693.259459 {refclk 693.259459 m 37 n 4 lpfd 2 lpd 1 fvco 12825.3} 168.753947 {refclk 168.753947 m 38 n 1 lpfd 2 lpd 1 fvco 12825.3} 164.426923 {refclk 164.426923 m 39 n 1 lpfd 2 lpd 1 fvco 12825.3} 328.853846 {refclk 328.853846 m 39 n 2 lpfd 2 lpd 1 fvco 12825.3} 657.707692 {refclk 657.707692 m 39 n 4 lpfd 2 lpd 1 fvco 12825.3} 160.316250 {refclk 160.316250 m 40 n 1 lpfd 2 lpd 1 fvco 12825.3} 156.406098 {refclk 156.406098 m 41 n 1 lpfd 2 lpd 1 fvco 12825.3} 312.812195 {refclk 312.812195 m 41 n 2 lpfd 2 lpd 1 fvco 12825.3} 625.624390 {refclk 625.624390 m 41 n 4 lpfd 2 lpd 1 fvco 12825.3} 152.682143 {refclk 152.682143 m 42 n 1 lpfd 2 lpd 1 fvco 12825.3} 149.131395 {refclk 149.131395 m 43 n 1 lpfd 2 lpd 1 fvco 12825.3} 298.262791 {refclk 298.262791 m 43 n 2 lpfd 2 lpd 1 fvco 12825.3} 596.525581 {refclk 596.525581 m 43 n 4 lpfd 2 lpd 1 fvco 12825.3} 145.742045 {refclk 145.742045 m 44 n 1 lpfd 2 lpd 1 fvco 12825.3} 142.503333 {refclk 142.503333 m 45 n 1 lpfd 2 lpd 1 fvco 12825.3} 285.006667 {refclk 285.006667 m 45 n 2 lpfd 2 lpd 1 fvco 12825.3} 570.013333 {refclk 570.013333 m 45 n 4 lpfd 2 lpd 1 fvco 12825.3} 139.405435 {refclk 139.405435 m 46 n 1 lpfd 2 lpd 1 fvco 12825.3} 136.439362 {refclk 136.439362 m 47 n 1 lpfd 2 lpd 1 fvco 12825.3} 272.878723 {refclk 272.878723 m 47 n 2 lpfd 2 lpd 1 fvco 12825.3} 545.757447 {refclk 545.757447 m 47 n 4 lpfd 2 lpd 1 fvco 12825.3} 133.596875 {refclk 133.596875 m 48 n 1 lpfd 2 lpd 1 fvco 12825.3} 130.870408 {refclk 130.870408 m 49 n 1 lpfd 2 lpd 1 fvco 12825.3} 261.740816 {refclk 261.740816 m 49 n 2 lpfd 2 lpd 1 fvco 12825.3} 523.481633 {refclk 523.481633 m 49 n 4 lpfd 2 lpd 1 fvco 12825.3} 128.253000 {refclk 128.253000 m 50 n 1 lpfd 2 lpd 1 fvco 12825.3} 125.738235 {refclk 125.738235 m 51 n 1 lpfd 2 lpd 1 fvco 12825.3} 251.476471 {refclk 251.476471 m 51 n 2 lpfd 2 lpd 1 fvco 12825.3} 502.952941 {refclk 502.952941 m 51 n 4 lpfd 2 lpd 1 fvco 12825.3} 123.320192 {refclk 123.320192 m 52 n 1 lpfd 2 lpd 1 fvco 12825.3} 120.993396 {refclk 120.993396 m 53 n 1 lpfd 2 lpd 1 fvco 12825.3} 241.986792 {refclk 241.986792 m 53 n 2 lpfd 2 lpd 1 fvco 12825.3} 483.973585 {refclk 483.973585 m 53 n 4 lpfd 2 lpd 1 fvco 12825.3} 118.752778 {refclk 118.752778 m 54 n 1 lpfd 2 lpd 1 fvco 12825.3} 116.593636 {refclk 116.593636 m 55 n 1 lpfd 2 lpd 1 fvco 12825.3} 233.187273 {refclk 233.187273 m 55 n 2 lpfd 2 lpd 1 fvco 12825.3} 466.374545 {refclk 466.374545 m 55 n 4 lpfd 2 lpd 1 fvco 12825.3} 114.511607 {refclk 114.511607 m 56 n 1 lpfd 2 lpd 1 fvco 12825.3} 112.502632 {refclk 112.502632 m 57 n 1 lpfd 2 lpd 1 fvco 12825.3} 225.005263 {refclk 225.005263 m 57 n 2 lpfd 2 lpd 1 fvco 12825.3} 450.010526 {refclk 450.010526 m 57 n 4 lpfd 2 lpd 1 fvco 12825.3} 110.562931 {refclk 110.562931 m 58 n 1 lpfd 2 lpd 1 fvco 12825.3} 108.688983 {refclk 108.688983 m 59 n 1 lpfd 2 lpd 1 fvco 12825.3} 217.377966 {refclk 217.377966 m 59 n 2 lpfd 2 lpd 1 fvco 12825.3} 434.755932 {refclk 434.755932 m 59 n 4 lpfd 2 lpd 1 fvco 12825.3} 106.877500 {refclk 106.877500 m 60 n 1 lpfd 2 lpd 1 fvco 12825.3} 105.125410 {refclk 105.125410 m 61 n 1 lpfd 2 lpd 1 fvco 12825.3} 210.250820 {refclk 210.250820 m 61 n 2 lpfd 2 lpd 1 fvco 12825.3} 420.501639 {refclk 420.501639 m 61 n 4 lpfd 2 lpd 1 fvco 12825.3} 103.429839 {refclk 103.429839 m 62 n 1 lpfd 2 lpd 1 fvco 12825.3} 101.788095 {refclk 101.788095 m 63 n 1 lpfd 2 lpd 1 fvco 12825.3} 203.576190 {refclk 203.576190 m 63 n 2 lpfd 2 lpd 1 fvco 12825.3} 407.152381 {refclk 407.152381 m 63 n 4 lpfd 2 lpd 1 fvco 12825.3} 100.197656 {refclk 100.197656 m 64 n 1 lpfd 2 lpd 1 fvco 12825.3} 98.656154 {refclk 98.656154 m 65 n 1 lpfd 2 lpd 1 fvco 12825.3} 197.312308 {refclk 197.312308 m 65 n 2 lpfd 2 lpd 1 fvco 12825.3} 394.624615 {refclk 394.624615 m 65 n 4 lpfd 2 lpd 1 fvco 12825.3} 789.249231 {refclk 789.249231 m 65 n 8 lpfd 2 lpd 1 fvco 12825.3} 97.161364 {refclk 97.161364 m 66 n 1 lpfd 2 lpd 1 fvco 12825.3} 95.711194 {refclk 95.711194 m 67 n 1 lpfd 2 lpd 1 fvco 12825.3} 191.422388 {refclk 191.422388 m 67 n 2 lpfd 2 lpd 1 fvco 12825.3} 382.844776 {refclk 382.844776 m 67 n 4 lpfd 2 lpd 1 fvco 12825.3} 765.689552 {refclk 765.689552 m 67 n 8 lpfd 2 lpd 1 fvco 12825.3} 94.303676 {refclk 94.303676 m 68 n 1 lpfd 2 lpd 1 fvco 12825.3} 92.936957 {refclk 92.936957 m 69 n 1 lpfd 2 lpd 1 fvco 12825.3} 185.873913 {refclk 185.873913 m 69 n 2 lpfd 2 lpd 1 fvco 12825.3} 371.747826 {refclk 371.747826 m 69 n 4 lpfd 2 lpd 1 fvco 12825.3} 743.495652 {refclk 743.495652 m 69 n 8 lpfd 2 lpd 1 fvco 12825.3} 91.609286 {refclk 91.609286 m 70 n 1 lpfd 2 lpd 1 fvco 12825.3} 90.319014 {refclk 90.319014 m 71 n 1 lpfd 2 lpd 1 fvco 12825.3} 180.638028 {refclk 180.638028 m 71 n 2 lpfd 2 lpd 1 fvco 12825.3} 361.276056 {refclk 361.276056 m 71 n 4 lpfd 2 lpd 1 fvco 12825.3} 722.552113 {refclk 722.552113 m 71 n 8 lpfd 2 lpd 1 fvco 12825.3} 89.064583 {refclk 89.064583 m 72 n 1 lpfd 2 lpd 1 fvco 12825.3} 87.844521 {refclk 87.844521 m 73 n 1 lpfd 2 lpd 1 fvco 12825.3} 175.689041 {refclk 175.689041 m 73 n 2 lpfd 2 lpd 1 fvco 12825.3} 351.378082 {refclk 351.378082 m 73 n 4 lpfd 2 lpd 1 fvco 12825.3} 702.756164 {refclk 702.756164 m 73 n 8 lpfd 2 lpd 1 fvco 12825.3} 86.657432 {refclk 86.657432 m 74 n 1 lpfd 2 lpd 1 fvco 12825.3} 85.502000 {refclk 85.502000 m 75 n 1 lpfd 2 lpd 1 fvco 12825.3} 171.004000 {refclk 171.004000 m 75 n 2 lpfd 2 lpd 1 fvco 12825.3} 342.008000 {refclk 342.008000 m 75 n 4 lpfd 2 lpd 1 fvco 12825.3} 684.016000 {refclk 684.016000 m 75 n 8 lpfd 2 lpd 1 fvco 12825.3} 84.376974 {refclk 84.376974 m 76 n 1 lpfd 2 lpd 1 fvco 12825.3} 83.281169 {refclk 83.281169 m 77 n 1 lpfd 2 lpd 1 fvco 12825.3} 166.562338 {refclk 166.562338 m 77 n 2 lpfd 2 lpd 1 fvco 12825.3} 333.124675 {refclk 333.124675 m 77 n 4 lpfd 2 lpd 1 fvco 12825.3} 666.249351 {refclk 666.249351 m 77 n 8 lpfd 2 lpd 1 fvco 12825.3} 82.213462 {refclk 82.213462 m 78 n 1 lpfd 2 lpd 1 fvco 12825.3} 81.172785 {refclk 81.172785 m 79 n 1 lpfd 2 lpd 1 fvco 12825.3} 162.345570 {refclk 162.345570 m 79 n 2 lpfd 2 lpd 1 fvco 12825.3} 324.691139 {refclk 324.691139 m 79 n 4 lpfd 2 lpd 1 fvco 12825.3} 649.382278 {refclk 649.382278 m 79 n 8 lpfd 2 lpd 1 fvco 12825.3} 80.158125 {refclk 80.158125 m 80 n 1 lpfd 2 lpd 1 fvco 12825.3} 79.168519 {refclk 79.168519 m 81 n 1 lpfd 2 lpd 1 fvco 12825.3} 158.337037 {refclk 158.337037 m 81 n 2 lpfd 2 lpd 1 fvco 12825.3} 316.674074 {refclk 316.674074 m 81 n 4 lpfd 2 lpd 1 fvco 12825.3} 633.348148 {refclk 633.348148 m 81 n 8 lpfd 2 lpd 1 fvco 12825.3} 78.203049 {refclk 78.203049 m 82 n 1 lpfd 2 lpd 1 fvco 12825.3} 77.260843 {refclk 77.260843 m 83 n 1 lpfd 2 lpd 1 fvco 12825.3} 154.521687 {refclk 154.521687 m 83 n 2 lpfd 2 lpd 1 fvco 12825.3} 309.043373 {refclk 309.043373 m 83 n 4 lpfd 2 lpd 1 fvco 12825.3} 618.086747 {refclk 618.086747 m 83 n 8 lpfd 2 lpd 1 fvco 12825.3} 76.341071 {refclk 76.341071 m 84 n 1 lpfd 2 lpd 1 fvco 12825.3} 75.442941 {refclk 75.442941 m 85 n 1 lpfd 2 lpd 1 fvco 12825.3} 150.885882 {refclk 150.885882 m 85 n 2 lpfd 2 lpd 1 fvco 12825.3} 301.771765 {refclk 301.771765 m 85 n 4 lpfd 2 lpd 1 fvco 12825.3} 603.543529 {refclk 603.543529 m 85 n 8 lpfd 2 lpd 1 fvco 12825.3} 74.565698 {refclk 74.565698 m 86 n 1 lpfd 2 lpd 1 fvco 12825.3} 73.708621 {refclk 73.708621 m 87 n 1 lpfd 2 lpd 1 fvco 12825.3} 147.417241 {refclk 147.417241 m 87 n 2 lpfd 2 lpd 1 fvco 12825.3} 294.834483 {refclk 294.834483 m 87 n 4 lpfd 2 lpd 1 fvco 12825.3} 589.668966 {refclk 589.668966 m 87 n 8 lpfd 2 lpd 1 fvco 12825.3} 72.871023 {refclk 72.871023 m 88 n 1 lpfd 2 lpd 1 fvco 12825.3} 72.052247 {refclk 72.052247 m 89 n 1 lpfd 2 lpd 1 fvco 12825.3} 144.104494 {refclk 144.104494 m 89 n 2 lpfd 2 lpd 1 fvco 12825.3} 288.208989 {refclk 288.208989 m 89 n 4 lpfd 2 lpd 1 fvco 12825.3} 576.417978 {refclk 576.417978 m 89 n 8 lpfd 2 lpd 1 fvco 12825.3} 71.251667 {refclk 71.251667 m 90 n 1 lpfd 2 lpd 1 fvco 12825.3} 70.468681 {refclk 70.468681 m 91 n 1 lpfd 2 lpd 1 fvco 12825.3} 140.937363 {refclk 140.937363 m 91 n 2 lpfd 2 lpd 1 fvco 12825.3} 281.874725 {refclk 281.874725 m 91 n 4 lpfd 2 lpd 1 fvco 12825.3} 563.749451 {refclk 563.749451 m 91 n 8 lpfd 2 lpd 1 fvco 12825.3} 69.702717 {refclk 69.702717 m 92 n 1 lpfd 2 lpd 1 fvco 12825.3} 68.953226 {refclk 68.953226 m 93 n 1 lpfd 2 lpd 1 fvco 12825.3} 137.906452 {refclk 137.906452 m 93 n 2 lpfd 2 lpd 1 fvco 12825.3} 275.812903 {refclk 275.812903 m 93 n 4 lpfd 2 lpd 1 fvco 12825.3} 551.625806 {refclk 551.625806 m 93 n 8 lpfd 2 lpd 1 fvco 12825.3} 68.219681 {refclk 68.219681 m 94 n 1 lpfd 2 lpd 1 fvco 12825.3} 67.501579 {refclk 67.501579 m 95 n 1 lpfd 2 lpd 1 fvco 12825.3} 135.003158 {refclk 135.003158 m 95 n 2 lpfd 2 lpd 1 fvco 12825.3} 270.006316 {refclk 270.006316 m 95 n 4 lpfd 2 lpd 1 fvco 12825.3} 540.012632 {refclk 540.012632 m 95 n 8 lpfd 2 lpd 1 fvco 12825.3} 66.798437 {refclk 66.798437 m 96 n 1 lpfd 2 lpd 1 fvco 12825.3} 66.109794 {refclk 66.109794 m 97 n 1 lpfd 2 lpd 1 fvco 12825.3} 132.219588 {refclk 132.219588 m 97 n 2 lpfd 2 lpd 1 fvco 12825.3} 264.439175 {refclk 264.439175 m 97 n 4 lpfd 2 lpd 1 fvco 12825.3} 528.878351 {refclk 528.878351 m 97 n 8 lpfd 2 lpd 1 fvco 12825.3} 65.435204 {refclk 65.435204 m 98 n 1 lpfd 2 lpd 1 fvco 12825.3} 64.774242 {refclk 64.774242 m 99 n 1 lpfd 2 lpd 1 fvco 12825.3} 129.548485 {refclk 129.548485 m 99 n 2 lpfd 2 lpd 1 fvco 12825.3} 259.096970 {refclk 259.096970 m 99 n 4 lpfd 2 lpd 1 fvco 12825.3} 518.193939 {refclk 518.193939 m 99 n 8 lpfd 2 lpd 1 fvco 12825.3} 64.126500 {refclk 64.126500 m 100 n 1 lpfd 2 lpd 1 fvco 12825.3} 63.491584 {refclk 63.491584 m 101 n 1 lpfd 2 lpd 1 fvco 12825.3} 126.983168 {refclk 126.983168 m 101 n 2 lpfd 2 lpd 1 fvco 12825.3} 253.966337 {refclk 253.966337 m 101 n 4 lpfd 2 lpd 1 fvco 12825.3} 507.932673 {refclk 507.932673 m 101 n 8 lpfd 2 lpd 1 fvco 12825.3} 62.869118 {refclk 62.869118 m 102 n 1 lpfd 2 lpd 1 fvco 12825.3} 62.258738 {refclk 62.258738 m 103 n 1 lpfd 2 lpd 1 fvco 12825.3} 124.517476 {refclk 124.517476 m 103 n 2 lpfd 2 lpd 1 fvco 12825.3} 249.034951 {refclk 249.034951 m 103 n 4 lpfd 2 lpd 1 fvco 12825.3} 498.069903 {refclk 498.069903 m 103 n 8 lpfd 2 lpd 1 fvco 12825.3} 61.660096 {refclk 61.660096 m 104 n 1 lpfd 2 lpd 1 fvco 12825.3} 61.072857 {refclk 61.072857 m 105 n 1 lpfd 2 lpd 1 fvco 12825.3} 122.145714 {refclk 122.145714 m 105 n 2 lpfd 2 lpd 1 fvco 12825.3} 244.291429 {refclk 244.291429 m 105 n 4 lpfd 2 lpd 1 fvco 12825.3} 488.582857 {refclk 488.582857 m 105 n 8 lpfd 2 lpd 1 fvco 12825.3} 60.496698 {refclk 60.496698 m 106 n 1 lpfd 2 lpd 1 fvco 12825.3} 59.931308 {refclk 59.931308 m 107 n 1 lpfd 2 lpd 1 fvco 12825.3} 119.862617 {refclk 119.862617 m 107 n 2 lpfd 2 lpd 1 fvco 12825.3} 239.725234 {refclk 239.725234 m 107 n 4 lpfd 2 lpd 1 fvco 12825.3} 479.450467 {refclk 479.450467 m 107 n 8 lpfd 2 lpd 1 fvco 12825.3} 59.376389 {refclk 59.376389 m 108 n 1 lpfd 2 lpd 1 fvco 12825.3} 58.831651 {refclk 58.831651 m 109 n 1 lpfd 2 lpd 1 fvco 12825.3} 117.663303 {refclk 117.663303 m 109 n 2 lpfd 2 lpd 1 fvco 12825.3} 235.326606 {refclk 235.326606 m 109 n 4 lpfd 2 lpd 1 fvco 12825.3} 470.653211 {refclk 470.653211 m 109 n 8 lpfd 2 lpd 1 fvco 12825.3} 58.296818 {refclk 58.296818 m 110 n 1 lpfd 2 lpd 1 fvco 12825.3} 57.771622 {refclk 57.771622 m 111 n 1 lpfd 2 lpd 1 fvco 12825.3} 115.543243 {refclk 115.543243 m 111 n 2 lpfd 2 lpd 1 fvco 12825.3} 231.086486 {refclk 231.086486 m 111 n 4 lpfd 2 lpd 1 fvco 12825.3} 462.172973 {refclk 462.172973 m 111 n 8 lpfd 2 lpd 1 fvco 12825.3} 57.255804 {refclk 57.255804 m 112 n 1 lpfd 2 lpd 1 fvco 12825.3} 56.749115 {refclk 56.749115 m 113 n 1 lpfd 2 lpd 1 fvco 12825.3} 113.498230 {refclk 113.498230 m 113 n 2 lpfd 2 lpd 1 fvco 12825.3} 226.996460 {refclk 226.996460 m 113 n 4 lpfd 2 lpd 1 fvco 12825.3} 453.992920 {refclk 453.992920 m 113 n 8 lpfd 2 lpd 1 fvco 12825.3} 56.251316 {refclk 56.251316 m 114 n 1 lpfd 2 lpd 1 fvco 12825.3} 55.762174 {refclk 55.762174 m 115 n 1 lpfd 2 lpd 1 fvco 12825.3} 111.524348 {refclk 111.524348 m 115 n 2 lpfd 2 lpd 1 fvco 12825.3} 223.048696 {refclk 223.048696 m 115 n 4 lpfd 2 lpd 1 fvco 12825.3} 446.097391 {refclk 446.097391 m 115 n 8 lpfd 2 lpd 1 fvco 12825.3} 55.281466 {refclk 55.281466 m 116 n 1 lpfd 2 lpd 1 fvco 12825.3} 54.808974 {refclk 54.808974 m 117 n 1 lpfd 2 lpd 1 fvco 12825.3} 109.617949 {refclk 109.617949 m 117 n 2 lpfd 2 lpd 1 fvco 12825.3} 219.235897 {refclk 219.235897 m 117 n 4 lpfd 2 lpd 1 fvco 12825.3} 438.471795 {refclk 438.471795 m 117 n 8 lpfd 2 lpd 1 fvco 12825.3} 54.344492 {refclk 54.344492 m 118 n 1 lpfd 2 lpd 1 fvco 12825.3} 53.887815 {refclk 53.887815 m 119 n 1 lpfd 2 lpd 1 fvco 12825.3} 107.775630 {refclk 107.775630 m 119 n 2 lpfd 2 lpd 1 fvco 12825.3} 215.551261 {refclk 215.551261 m 119 n 4 lpfd 2 lpd 1 fvco 12825.3} 431.102521 {refclk 431.102521 m 119 n 8 lpfd 2 lpd 1 fvco 12825.3} 53.438750 {refclk 53.438750 m 120 n 1 lpfd 2 lpd 1 fvco 12825.3} 52.997107 {refclk 52.997107 m 121 n 1 lpfd 2 lpd 1 fvco 12825.3} 105.994215 {refclk 105.994215 m 121 n 2 lpfd 2 lpd 1 fvco 12825.3} 211.988430 {refclk 211.988430 m 121 n 4 lpfd 2 lpd 1 fvco 12825.3} 423.976860 {refclk 423.976860 m 121 n 8 lpfd 2 lpd 1 fvco 12825.3} 52.562705 {refclk 52.562705 m 122 n 1 lpfd 2 lpd 1 fvco 12825.3} 52.135366 {refclk 52.135366 m 123 n 1 lpfd 2 lpd 1 fvco 12825.3} 104.270732 {refclk 104.270732 m 123 n 2 lpfd 2 lpd 1 fvco 12825.3} 208.541463 {refclk 208.541463 m 123 n 4 lpfd 2 lpd 1 fvco 12825.3} 417.082927 {refclk 417.082927 m 123 n 8 lpfd 2 lpd 1 fvco 12825.3} 51.714919 {refclk 51.714919 m 124 n 1 lpfd 2 lpd 1 fvco 12825.3} 51.301200 {refclk 51.301200 m 125 n 1 lpfd 2 lpd 1 fvco 12825.3} 102.602400 {refclk 102.602400 m 125 n 2 lpfd 2 lpd 1 fvco 12825.3} 205.204800 {refclk 205.204800 m 125 n 4 lpfd 2 lpd 1 fvco 12825.3} 410.409600 {refclk 410.409600 m 125 n 8 lpfd 2 lpd 1 fvco 12825.3} 50.894048 {refclk 50.894048 m 126 n 1 lpfd 2 lpd 1 fvco 12825.3} 50.493307 {refclk 50.493307 m 127 n 1 lpfd 2 lpd 1 fvco 12825.3} 100.986614 {refclk 100.986614 m 127 n 2 lpfd 2 lpd 1 fvco 12825.3} 201.973228 {refclk 201.973228 m 127 n 4 lpfd 2 lpd 1 fvco 12825.3} 403.946457 {refclk 403.946457 m 127 n 8 lpfd 2 lpd 1 fvco 12825.3} allowed_ranges {50.493307 50.894048 51.301200 51.714919 52.135366 52.562705 52.997107 53.438750 53.887815 54.344492 54.808974 55.281466 55.762174 56.251316 56.749115 57.255804 57.771622 58.296818 58.831651 59.376389 59.931308 60.496698 61.072857 61.660096 62.258738 62.869118 63.491584 64.126500 64.774242 65.435204 66.109794 66.798437 67.501579 68.219681 68.953226 69.702717 70.468681 71.251667 72.052247 72.871023 73.708621 74.565698 75.442941 76.341071 77.260843 78.203049 79.168519 80.158125 81.172785 82.213462 83.281169 84.376974 85.502000 86.657432 87.844521 89.064583 90.319014 91.609286 92.936957 94.303676 95.711194 97.161364 98.656154 100.197656 100.986614 101.788095 102.602400 103.429839 104.270732 105.125410 105.994215 106.877500 107.775630 108.688983 109.617949 110.562931 111.524348 112.502632 113.498230 114.511607 115.543243 116.593636 117.663303 118.752778 119.862617 120.993396 122.145714 123.320192 124.517476 125.738235 126.983168 128.253000 129.548485 130.870408 132.219588 133.596875 135.003158 136.439362 137.906452 139.405435 140.937363 142.503333 144.104494 145.742045 147.417241 149.131395 150.885882 152.682143 154.521687 156.406098 158.337037 160.316250 162.345570 164.426923 166.562338 168.753947 171.004000 173.314865 175.689041 178.129167 180.638028 183.218571 185.873913 188.607353 191.422388 194.322727 197.312308 200.395312 201.973228 203.576190 205.204800 206.859677 208.541463 210.250820 211.988430 213.755000 215.551261 217.377966 219.235897 221.125862 223.048696 225.005263 226.996460 229.023214 231.086486 233.187273 235.326606 237.505556 239.725234 241.986792 244.291429 246.640385 249.034951 251.476471 253.966337 256.506000 259.096970 261.740816 264.439175 267.193750 270.006316 272.878723 275.812903 278.810870 281.874725 285.006667 288.208989 291.484091 294.834483 298.262791 301.771765 305.364286 309.043373 312.812195 316.674074 320.632500 324.691139 328.853846 333.124675 337.507895 342.008000 346.629730 351.378082 356.258333 361.276056 366.437143 371.747826 377.214706 382.844776 388.645455 394.624615 400.790625 403.946457 407.152381 410.409600 413.719355 417.082927 420.501639 423.976860 427.510000 431.102521 434.755932 438.471795 442.251724 446.097391 450.010526 453.992920 458.046429 462.172973 466.374545 470.653211 475.011111 479.450467 483.973585 488.582857 493.280769 498.069903 502.952941 507.932673 513.012000 518.193939 523.481633 528.878351 534.387500 540.012632 545.757447 551.625806 557.621739 563.749451 570.013333 576.417978 582.968182 589.668966 596.525581 603.543529 610.728571 618.086747 625.624390 633.348148 641.265000 649.382278 657.707692 666.249351 675.015789 684.016000 693.259459 702.756164 712.516667 722.552113 732.874286 743.495652 754.429412 765.689552 777.290909 789.249231}" />
   <parameter name="hssi_8g_rx_pcs_clkcmp_pattern_n" value="0" />
   <parameter name="cdr_pll_powermode_ac_bbpd" value="bbpd_ac_on" />
   <parameter name="hssi_8g_rx_pcs_clkcmp_pattern_p" value="0" />
@@ -2138,7 +2140,7 @@
      name="hssi_pldadapt_rx_aib_clk1_sel"
      value="aib_clk1_pld_pcs_rx_clk_out" />
   <parameter name="hssi_pldadapt_rx_pld_clk1_delay_sel" value="delay_path13" />
-  <parameter name="l_rx_transfer_clk_hz" value="322265624" />
+  <parameter name="l_rx_transfer_clk_hz" value="801581250" />
   <parameter name="pma_tx_buf_ser_powerdown" value="normal_ser_on" />
   <parameter name="pma_rx_buf_link" value="link_off" />
   <parameter name="pma_adapt_prot_mode" value="basic_rx" />
@@ -2150,7 +2152,7 @@
      value="knum_sh_cnt_prelock_10g" />
   <parameter
      name="pma_adapt_adp_vga_initial_value"
-     value="radp_vga_initial_value_4" />
+     value="radp_vga_initial_value_16" />
   <parameter name="pma_rx_buf_qpi_enable" value="non_qpi_mode" />
   <parameter name="pma_tx_ser_xtx_path_xtx_idle_ctrl" value="id_cpen_on" />
   <parameter
@@ -2172,7 +2174,7 @@
   <parameter name="hssi_8g_rx_pcs_rate_match_ins_thres" value="dis_rm_ins_thres" />
   <parameter name="hssi_adapt_tx_phcomp_rd_del" value="phcomp_rd_del2" />
   <parameter name="hssi_adapt_rx_rx_rmfflag_stretch_enable" value="enable" />
-  <parameter name="pma_rx_buf_rx_lfeq_enable" value="rx_lfeq_disable" />
+  <parameter name="pma_rx_buf_rx_lfeq_enable" value="rx_lfeq_enable" />
   <parameter name="pma_rx_deser_silicon_rev" value="14nm5bcr2eb" />
   <parameter name="hssi_pipe_gen3_bypass_rx_detection_enable" value="false" />
   <parameter name="hssi_adapt_rx_pma_hclk_scg_en" value="enable" />
@@ -2206,7 +2208,7 @@
      name="hssi_tx_pcs_pma_interface_master_clk_sel"
      value="master_tx_pma_clk" />
   <parameter name="hssi_8g_tx_pcs_phase_compensation_fifo" value="register_fifo" />
-  <parameter name="cdr_pll_pd_l_counter" value="2" />
+  <parameter name="cdr_pll_pd_l_counter" value="1" />
   <parameter name="hssi_gen3_rx_pcs_rate_match_fifo_latency" value="low_latency" />
   <parameter name="hssi_adapt_tx_us_last_chnl" value="us_last_chnl" />
   <parameter name="pma_adapt_adp_dc_ctle_en" value="radp_dc_ctle_en_enable" />
@@ -2264,7 +2266,7 @@
   <parameter
      name="hssi_pldadapt_tx_fifo_double_write"
      value="fifo_double_write_en" />
-  <parameter name="rcfg_profile_select" value="0" />
+  <parameter name="rcfg_profile_select" value="1" />
   <parameter name="hssi_common_pcs_pma_interface_bypass_ppm_lock" value="false" />
   <parameter name="hssi_10g_tx_pcs_ctrl_bit_reverse" value="ctrl_bit_reverse_dis" />
   <parameter name="hssi_8g_rx_pcs_gen3_clk_en" value="disable_clk" />
@@ -2363,14 +2365,14 @@
   <parameter name="pma_txpath_chnsequencer_txpath_chnseq_enable" value="disable" />
   <parameter
      name="hssi_adapt_tx_hd_hssiadapt_aib_hssi_tx_transfer_clk_hz"
-     value="322265624" />
+     value="801581250" />
   <parameter
      name="hssi_aibcr_rx_aib_rx_dcc_cont_cal_iocsr_unused"
      value="aib_rx_dcc_cal_single_iocsr_unused" />
   <parameter name="pma_rx_buf_term_sync_bypass" value="bypass_termsync" />
   <parameter name="pma_adapt_powermode_ac_deser_adapt" value="adapt_deser_ac_off" />
   <parameter name="hssi_10g_rx_pcs_rx_sm_bypass" value="rx_sm_bypass_en" />
-  <parameter name="pma_tx_buf_pm_cr2_tx_path_tx_pll_clk_hz" value="5156250000" />
+  <parameter name="pma_tx_buf_pm_cr2_tx_path_tx_pll_clk_hz" value="12825300000" />
   <parameter name="hssi_rx_pcs_pma_interface_block_sel" value="ten_g_pcs" />
   <parameter name="enable_port_rx_fifo_pfull" value="0" />
   <parameter name="hssi_adapt_rx_comp_cnt" value="0" />
@@ -2387,7 +2389,7 @@
   <parameter name="hssi_pldadapt_tx_pld_clk1_delay_sel" value="delay_path15" />
   <parameter name="pma_rx_dfe_tap3_sgn" value="tap3_sign_0" />
   <parameter name="cdr_pll_pma_width" value="64" />
-  <parameter name="pma_rx_buf_pm_cr2_rx_path_gt_enabled" value="disable" />
+  <parameter name="pma_rx_buf_pm_cr2_rx_path_gt_enabled" value="enable" />
   <parameter name="pma_rx_buf_powermode_dc_ctle" value="ctle_pwr_dc1" />
   <parameter name="hssi_aibnd_rx_silicon_rev" value="14nm5bcr2eb" />
   <parameter
@@ -2463,7 +2465,7 @@
      name="hssi_adapt_tx_datapath_mapping_mode"
      value="map_10g_2x2x_2x1x_fifo" />
   <parameter name="hssi_adapt_tx_tx_datapath_tb_sel" value="cp_bond" />
-  <parameter name="pma_tx_buf_pm_cr2_tx_path_datarate_bps" value="10312500000" />
+  <parameter name="pma_tx_buf_pm_cr2_tx_path_datarate_bps" value="25650600000" />
   <parameter
      name="hssi_pipe_gen3_ind_error_reporting"
      value="dis_ind_error_reporting" />
@@ -2570,7 +2572,7 @@
   <parameter name="pma_rx_deser_tdr_mode" value="select_bbpd_data" />
   <parameter
      name="rcfg_sdc_derived_param_vals1"
-     value="1,1,1,0,1,1,805664062,805664062,1,x2,x2,1,1,0,0,0,indv_en,indv_en,indv_en,indv_en,10,10,Enhanced" />
+     value="1,1,1,0,1,1,801581250,801581250,1,x2,x2,1,1,0,0,0,indv_en,indv_en,indv_en,indv_en,10,10,Enhanced" />
   <parameter name="hssi_pldadapt_tx_sh_err" value="sh_err_dis" />
   <parameter name="hssi_tx_pld_pcs_interface_hd_krfec_sup_mode" value="user_mode" />
   <parameter
@@ -2629,7 +2631,7 @@
   <parameter name="pma_adapt_adp_dfe_hold_sel" value="radp_dfe_hold_sel_no" />
   <parameter
      name="hssi_pldadapt_rx_hdpldadapt_aib_fabric_rx_transfer_clk_hz"
-     value="322265624" />
+     value="801581250" />
   <parameter name="hssi_aibnd_rx_powerdown_mode" value="true" />
   <parameter name="pma_rx_deser_powermode_dc_deser" value="deser_dc_64b_nobs" />
   <parameter name="hssi_pldadapt_rx_pld_clk1_delay_en" value="enable" />
@@ -2640,7 +2642,7 @@
      name="hssi_aibnd_tx_aib_red_tx_shiften"
      value="aib_red_tx_shift_disable" />
   <parameter name="hssi_rx_pcs_pma_interface_prbs_ver" value="prbs_off" />
-  <parameter name="pll_select" value="1" />
+  <parameter name="pll_select" value="0" />
   <parameter name="enable_tx_x2_coreclkin_port" value="0" />
   <parameter name="hssi_avmm1_if_pldadapt_osc_clk_scg_en" value="disable" />
   <parameter name="hssi_pldadapt_tx_hrdrst_rx_osc_clk_scg_en" value="disable" />
@@ -2861,7 +2863,7 @@
   <parameter name="hssi_aibnd_rx_redundancy_en" value="disable" />
   <parameter name="enh_advanced_user_mode" value="0" />
   <parameter name="pma_adapt_adp_dlev_accum_depth" value="6" />
-  <parameter name="l_tx_transfer_clk_hz" value="322265624" />
+  <parameter name="l_tx_transfer_clk_hz" value="801581250" />
   <parameter name="cdr_pll_chgpmp_testmode" value="cp_test_disable" />
   <parameter name="pma_tx_buf_pre_emp_sign_1st_post_tap" value="fir_post_1t_neg" />
   <parameter
@@ -2911,7 +2913,7 @@
      name="pma_adapt_adp_pat_trans_only_en"
      value="radp_pat_trans_only_en_enable" />
   <parameter name="enable_port_rx_pcs_fifo_empty" value="0" />
-  <parameter name="pma_rx_dfe_datarate_bps" value="10312500000" />
+  <parameter name="pma_rx_dfe_datarate_bps" value="25650600000" />
   <parameter name="pma_tx_buf_pcie_gen" value="non_pcie" />
   <parameter name="hssi_gen3_rx_pcs_reverse_lpbk" value="rev_lpbk_dis" />
   <parameter
@@ -2936,17 +2938,17 @@
   <parameter name="hssi_pldadapt_rx_fifo_stop_wr" value="n_wr_full" />
   <parameter name="hssi_gen3_tx_pcs_reconfig_settings" value="{}" />
   <parameter name="hssi_10g_tx_pcs_pld_if_type" value="reg" />
-  <parameter name="pma_rx_buf_const_gm_en" value="cgm_en_3" />
+  <parameter name="pma_rx_buf_const_gm_en" value="cgm_en_2" />
   <parameter name="pma_txpath_chnsequencer_silicon_rev" value="14nm5bcr2eb" />
   <parameter
      name="hssi_10g_tx_pcs_distup_bypass_pipeln"
      value="distup_bypass_pipeln_dis" />
-  <parameter name="hssi_aibnd_tx_aib_tx_dcc_en" value="aib_tx_dcc_disable" />
+  <parameter name="hssi_aibnd_tx_aib_tx_dcc_en" value="aib_tx_dcc_enable" />
   <parameter
      name="hssi_aibcr_rx_aib_rx_dcc_st_core_dn_prgmnvrt"
      value="aib_rx_dcc_st_core_dn_prgmnvrt_setting0" />
   <parameter name="hssi_adapt_rx_asn_wait_for_dll_reset_cnt" value="32" />
-  <parameter name="hssi_aibcr_rx_powermode_ac" value="rxdatapath_low_speed_pwr" />
+  <parameter name="hssi_aibcr_rx_powermode_ac" value="rxdatapath_high_speed_pwr" />
   <parameter
      name="hssi_pldadapt_tx_tx_pld_10g_tx_bitslip_polling_bypass"
      value="disable" />
@@ -2959,7 +2961,7 @@
   <parameter name="hssi_pldadapt_tx_stretch_num_stages" value="two_stage" />
   <parameter name="pma_cdr_refclk_refclk_select" value="ref_iqclk0" />
   <parameter name="enable_port_tx_enh_frame_burst_en" value="0" />
-  <parameter name="cdr_pll_powermode_ac_rvcotop" value="rvcotop_ac_div2" />
+  <parameter name="cdr_pll_powermode_ac_rvcotop" value="rvcotop_ac_div1" />
   <parameter name="hssi_adapt_rx_hd_hssiadapt_pma_aib_rx_clk_hz" value="0" />
   <parameter name="cdr_pll_chgpmp_current_dn_pd" value="cp_current_pd_dn_setting3" />
   <parameter name="hssi_pldadapt_tx_txfifo_mode" value="txphase_comp" />
@@ -2971,7 +2973,7 @@
   <parameter name="enable_de_hardware_debug" value="0" />
   <parameter
      name="pma_adapt_adp_dc_ctle_initial_value"
-     value="radp_dc_ctle_initial_value_16" />
+     value="radp_dc_ctle_initial_value_32" />
   <parameter name="pma_tx_ser_ser_preset_bti_en" value="ser_preset_bti_disable" />
   <parameter name="hssi_10g_rx_pcs_frmsync_enum_scrm" value="enum_scrm_default" />
   <parameter
@@ -2995,7 +2997,7 @@
   <parameter
      name="hssi_avmm1_if_pldadapt_nfhssi_calibratio_feature_en"
      value="enable" />
-  <parameter name="pma_rx_buf_ctle_ac_gain" value="4" />
+  <parameter name="pma_rx_buf_ctle_ac_gain" value="12" />
   <parameter
      name="hssi_tx_pld_pcs_interface_hd_pcs_channel_channel_operation_mode"
      value="tx_rx_pair_enabled" />
@@ -3031,7 +3033,7 @@
   <parameter
      name="hssi_adapt_rx_fsr_pld_rx_fifo_align_clr_rst_val"
      value="reset_to_zero_alignclr" />
-  <parameter name="pma_rx_buf_powermode_ac_ctle" value="ctle_pwr_ac2" />
+  <parameter name="pma_rx_buf_powermode_ac_ctle" value="ctle_pwr_ac4" />
   <parameter name="hssi_pldadapt_tx_indv" value="indv_en" />
   <parameter name="enable_port_rx_std_byterev_ena" value="0" />
   <parameter name="hssi_avmm1_if_hssiadapt_avmm_clk_scg_en" value="disable" />
@@ -3066,7 +3068,7 @@
      value="internal_sw_wa_clk" />
   <parameter name="enable_tx_fast_pipeln_reg" value="0" />
   <parameter name="hssi_common_pcs_pma_interface_pma_if_dft_en" value="dft_dis" />
-  <parameter name="cdr_pll_lpd_counter" value="2" />
+  <parameter name="cdr_pll_lpd_counter" value="1" />
   <parameter name="pma_tx_ser_ser_powerdown" value="normal_poweron_ser" />
   <parameter name="hssi_8g_rx_pcs_rx_pcs_urst" value="en_rx_pcs_urst" />
   <parameter name="std_rx_polinv_enable" value="0" />
@@ -3082,13 +3084,13 @@
   <parameter
      name="hssi_rx_pld_pcs_interface_hd_krfec_low_latency_en_rx"
      value="disable" />
-  <parameter name="pma_rx_dfe_latch_xcouple_disable" value="latch_xcouple_enable" />
+  <parameter name="pma_rx_dfe_latch_xcouple_disable" value="latch_xcouple_disable" />
   <parameter name="use_tx_clkout2" value="0" />
   <parameter name="pma_adapt_adp_odi_start" value="radp_odi_start_0" />
   <parameter name="qsf_assignments_list" value="" />
   <parameter name="pma_rx_dfe_tap5_sgn" value="tap5_sign_0" />
   <parameter name="pma_pcie_gen_switch_silicon_rev" value="14nm5bcr2eb" />
-  <parameter name="cdr_pll_vco_freq" value="10312500000" />
+  <parameter name="cdr_pll_vco_freq" value="12825300000" />
   <parameter name="l_pcs_pma_width" value="64" />
   <parameter name="pma_adapt_adp_oc_hold_en" value="radp_oc_hold_en_not_hold" />
   <parameter name="pma_rx_odi_silicon_rev" value="14nm5bcr2eb" />
@@ -3213,7 +3215,7 @@
   <parameter name="hssi_adapt_rx_pipe_mode" value="disable_pipe" />
   <parameter
      name="hssi_rx_pld_pcs_interface_hd_pcs_channel_fref_clk_hz"
-     value="322265625" />
+     value="320632500" />
   <parameter name="cdr_pll_fref_clklow_div" value="2" />
   <parameter name="design_example_filename" value="top" />
   <parameter
@@ -3221,7 +3223,7 @@
      value="cp_current_trimming_up_setting0" />
   <parameter name="cdr_pll_reverse_serial_loopback" value="no_loopback" />
   <parameter name="pma_tx_buf_duty_cycle_input_polarity" value="dcc_input_pos" />
-  <parameter name="hssi_aibnd_rx_op_mode" value="rx_dll_disable" />
+  <parameter name="hssi_aibnd_rx_op_mode" value="rx_dll_enable" />
   <parameter name="hssi_8g_tx_pcs_gen3_tx_pipe_clk_sel" value="dis_tx_pipe_clk" />
   <parameter name="std_low_latency_bypass_enable" value="0" />
   <parameter name="enh_tx_krfec_burst_err_enable" value="0" />
@@ -3251,7 +3253,7 @@
      name="hssi_rx_pld_pcs_interface_hd_pcs_channel_pld_fifo_mode_rx"
      value="reg_rx" />
   <parameter name="hssi_avmm1_if_hssiadapt_sr_sr_osc_clk_scg_en" value="disable" />
-  <parameter name="pma_rx_buf_pm_cr2_rx_path_datarate_bps" value="10312500000" />
+  <parameter name="pma_rx_buf_pm_cr2_rx_path_datarate_bps" value="25650600000" />
   <parameter name="manual_rx_core_aib_indv" value="indv_en" />
   <parameter
      name="hssi_aibcr_rx_aib_rx_dcc_st_en"
@@ -3262,7 +3264,7 @@
   <parameter name="hssi_10g_rx_pcs_wrfifo_clken" value="wrfifo_clk_en" />
   <parameter
      name="hssi_rx_pld_pcs_interface_hd_pcs_channel_pma_rx_clk_hz"
-     value="161132812" />
+     value="400790625" />
   <parameter name="hssi_adapt_tx_fifo_mode" value="phase_comp" />
   <parameter
      name="pma_tx_ser_powermode_dc_ser"
@@ -3354,7 +3356,7 @@
   <parameter name="hssi_pldadapt_tx_bonding_dft_val" value="dft_0" />
   <parameter
      name="rcfg_param_vals1"
-     value="0,1,1,0,0,1,0,1,user_mode,GXT,basic_enh,basic,duplex,1,25781.25,0,1,0,1,0,1,0,0,0,not_bonded,Auto,not_bonded,individual,0,individual,0,individual,0,individual,0,individual,0,indv_en,indv_en,indv_en,indv_en,1,2,0,0,0,1,0,0,0,0,0,0,0,1,0,644.531250,1000,1,0,1,1,0,0,1,10,0,0,0,0,disable_hip,gen1,x1,0,disable_hip,disable_hip,Disabled,Disabled,0,0,0,disabled,0,0,0,0,Bypass,0,0,bitslip,7,0,3,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,64,64,0,0,0,2048,0,0,0,0,0,2048,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10G,0,1,0,0,0,8,0,0,disable,internal_clk,0,Phase compensation,10,2,0,0,0,0,0,0,0,Phase compensation,10,2,0,0,0,0,0,0,0,0,0,0,0,0,0,pcs_clkout,1,pma_div_clkout,0,0,2,dedicated,dedicated,pcs_clkout,1,pma_div_clkout,0,0,2,dedicated,1,0,0,0,0,clock_delay_measurement_clkout,clock_delay_measurement_clkout,0,enable,0,enable,1,0,1_1V,lr,0,user_custom,user_custom,1,12,negative,0,negative,0,0,r_r1,enable,ctle_dfe,r_r2,0,0,0" />
+     value="0,1,1,0,0,1,0,1,user_mode,GXT,basic_enh,basic,duplex,1,25650.6,0,1,0,1,0,1,0,0,0,not_bonded,Auto,not_bonded,individual,0,individual,0,individual,0,individual,0,individual,0,indv_en,indv_en,indv_en,indv_en,1,2,0,0,0,1,0,0,0,0,0,0,0,1,0,641.265000,1000,1,0,1,1,0,0,1,10,0,0,0,0,disable_hip,gen1,x1,0,disable_hip,disable_hip,Disabled,Disabled,0,0,0,disabled,0,0,0,0,Bypass,0,0,bitslip,7,0,3,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,64,64,0,0,0,2048,0,0,0,0,0,2048,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10G,0,1,0,0,0,8,0,0,disable,internal_clk,0,Phase compensation,10,2,0,0,0,0,0,0,0,Phase compensation,10,2,0,0,0,0,0,0,0,0,0,0,0,0,0,pcs_clkout,1,pma_div_clkout,0,0,2,dedicated,dedicated,pcs_clkout,1,pma_div_clkout,0,0,2,dedicated,1,0,0,0,0,clock_delay_measurement_clkout,clock_delay_measurement_clkout,0,enable,0,enable,1,0,1_1V,lr,0,user_custom,user_custom,1,12,negative,0,negative,0,0,r_r1,enable,ctle_dfe,r_r2,0,0,0" />
   <parameter
      name="rcfg_param_vals2"
      value="0,1,1,0,0,1,0,1,user_mode,GX,basic_enh,basic,duplex,1,9618.96,0,1,0,1,0,1,0,0,0,not_bonded,Auto,not_bonded,individual,0,individual,0,individual,0,individual,0,individual,0,indv_en,indv_en,indv_en,indv_en,1,2,1,0,0,1,0,0,0,0,0,0,0,1,0,601.185000,1000,1,0,1,1,0,0,1,10,0,0,0,0,disable_hip,gen1,x1,0,disable_hip,disable_hip,Disabled,Disabled,0,0,0,disabled,0,0,0,0,Bypass,0,0,bitslip,7,0,3,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,64,64,0,0,0,2048,0,0,0,0,0,2048,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10G,0,1,0,0,0,8,0,0,disable,internal_clk,0,Phase compensation,10,2,0,0,0,0,0,0,0,Phase compensation,10,2,0,0,0,0,0,0,0,0,0,0,0,0,0,pcs_clkout,1,pma_div_clkout,0,0,2,dedicated,dedicated,pcs_clkout,1,pma_div_clkout,0,0,2,dedicated,1,0,0,0,0,clock_delay_measurement_clkout,clock_delay_measurement_clkout,0,enable,0,enable,1,0,1_1V,lr,0,user_custom,user_custom,1,12,negative,0,negative,0,0,r_r1,enable,ctle_dfe,r_r2,0,0,0" />
@@ -3374,7 +3376,7 @@
   <parameter name="pma_adapt_adp_po_gb_slp2act" value="radp_po_gb_slp2act_288ns" />
   <parameter name="cdr_pll_bti_protected" value="false" />
   <parameter name="enable_port_rx_seriallpbken" value="1" />
-  <parameter name="pma_rx_dfe_tapsum_bw_sel" value="tapsum_medbw" />
+  <parameter name="pma_rx_dfe_tapsum_bw_sel" value="tapsum_hibw" />
   <parameter name="hssi_8g_rx_pcs_sup_mode" value="user_mode" />
   <parameter name="hssi_adapt_rx_fifo_rd_clk_sel" value="fifo_rd_pma_aib_rx_clk" />
   <parameter name="hssi_8g_rx_pcs_bonding_dft_en" value="dft_dis" />
@@ -3403,7 +3405,7 @@
   <parameter
      name="hssi_aibnd_rx_aib_dllstr_align_st_en"
      value="aib_dllstr_align_st_en_setting1" />
-  <parameter name="adme_data_rate" value="10312500000" />
+  <parameter name="adme_data_rate" value="25650600000" />
   <parameter name="hssi_adapt_tx_dv_gating" value="disable" />
   <parameter
      name="hssi_pldadapt_rx_fsr_pld_ltd_b_rst_val"
@@ -3411,7 +3413,7 @@
   <parameter name="hssi_aibnd_rx_aib_outndrv_r78" value="aib_ndrv78_setting1" />
   <parameter name="hssi_adapt_tx_fifo_wr_clk_scg_en" value="disable" />
   <parameter name="pma_adapt_adp_pat_trans_filter" value="radp_pat_trans_filter_5" />
-  <parameter name="cdr_pll_datarate_bps" value="10312500000" />
+  <parameter name="cdr_pll_datarate_bps" value="25650600000" />
   <parameter name="pma_rx_dfe_odi_h1_sign" value="odi_h1_pos" />
   <parameter name="hssi_pldadapt_tx_word_mark" value="wm_en" />
   <parameter name="hssi_avmm1_if_hssiadapt_read_blocking_enable" value="enable" />
@@ -3473,7 +3475,7 @@
   <parameter
      name="hssi_10g_tx_pcs_fifo_double_write"
      value="fifo_double_write_dis" />
-  <parameter name="pma_rx_odi_datarate_bps" value="10312500000" />
+  <parameter name="pma_rx_odi_datarate_bps" value="25650600000" />
   <parameter name="hip_prot_mode" value="gen1" />
   <parameter name="hssi_avmm1_if_pcs_arbiter_ctrl" value="avmm1_arbiter_uc_sel" />
   <parameter name="hssi_8g_rx_pcs_sync_sm_idle_eios" value="dis_syncsm_idle" />
@@ -3504,7 +3506,7 @@
      value="radp_bist_errcount_rstn_0" />
   <parameter
      name="hssi_adapt_tx_hd_hssiadapt_pld_pcs_tx_clk_out_hz"
-     value="161132812" />
+     value="400790625" />
   <parameter name="hssi_10g_rx_pcs_rxfifo_empty" value="empty_default" />
   <parameter
      name="hssi_krfec_rx_pcs_data_bit_reverse"
@@ -3575,7 +3577,7 @@
   <parameter name="hssi_pldadapt_rx_ds_last_chnl" value="ds_last_chnl" />
   <parameter name="cdr_pll_enable_idle_rx_channel_support" value="false" />
   <parameter name="hssi_adapt_rx_word_align_enable" value="enable" />
-  <parameter name="pma_rx_buf_datarate_bps" value="10312500000" />
+  <parameter name="pma_rx_buf_datarate_bps" value="25650600000" />
   <parameter
      name="pma_adapt_adp_pat_dlev_sign_avg_win"
      value="radp_pat_dlev_sign_avg_win_2x" />
@@ -3586,12 +3588,12 @@
   <parameter
      name="hssi_pldadapt_rx_hdpldadapt_aib_fabric_rx_sr_clk_in_hz"
      value="0" />
-  <parameter name="cdr_pll_reference_clock_frequency" value="644531250" />
+  <parameter name="cdr_pll_reference_clock_frequency" value="641265000" />
   <parameter name="pma_rx_buf_offset_rx_cal_en" value="rx_oc_dis" />
   <parameter name="hssi_adapt_tx_tx_fastbond_wren" value="wren_ds_del2_us_del2" />
   <parameter
      name="pma_adapt_adp_dfe_tap1_initial_value"
-     value="radp_dfe_tap1_initial_value_0" />
+     value="radp_dfe_tap1_initial_value_16" />
   <parameter name="hssi_10g_tx_pcs_gbred_clken" value="gbred_clk_en" />
   <parameter
      name="hssi_aibnd_tx_aib_red_dirclkn_shiften"
@@ -3619,7 +3621,7 @@
   <parameter name="hssi_10g_rx_pcs_pempty_flag_type" value="pempty_rd_side" />
   <parameter
      name="hssi_pldadapt_tx_hdpldadapt_pld_tx_clk2_rowclk_hz"
-     value="322265624" />
+     value="801581250" />
   <parameter name="hssi_rx_pld_pcs_interface_hd_pcs10g_test_bus_mode" value="rx" />
   <parameter name="hssi_10g_rx_pcs_rx_signal_ok_sel" value="synchronized_ver" />
   <parameter
@@ -3647,7 +3649,7 @@
   <parameter name="hssi_adapt_tx_tx_rev_lpbk" value="disable" />
   <parameter name="enable_advanced_user_mode" value="0" />
   <parameter name="hssi_10g_rx_pcs_rand_clken" value="rand_clk_dis" />
-  <parameter name="cdr_pll_out_freq" value="5156250000" />
+  <parameter name="cdr_pll_out_freq" value="12825300000" />
   <parameter name="hssi_krfec_tx_pcs_sup_mode" value="user_mode" />
   <parameter name="hssi_pldadapt_tx_hdpldadapt_csr_clk_hz" value="0" />
   <parameter name="hssi_pldadapt_tx_tx_osc_clock_setting" value="osc_clk_div_by1" />
@@ -3672,7 +3674,7 @@
      value="single_tx" />
   <parameter name="pma_rx_deser_clkdiv_source" value="vco_bypass_normal" />
   <parameter name="std_tx_polinv_enable" value="0" />
-  <parameter name="cdr_pll_chgpmp_current_pfd" value="cp_current_pfd_setting2" />
+  <parameter name="cdr_pll_chgpmp_current_pfd" value="cp_current_pfd_setting1" />
   <parameter name="hssi_adapt_rx_asn_wait_for_pma_pcie_sw_done_cnt" value="32" />
   <parameter
      name="hssi_gen3_rx_pcs_rx_ins_del_one_skip"
@@ -3698,7 +3700,7 @@
      name="hssi_tx_pld_pcs_interface_hd_pcs10g_pma_dw_tx"
      value="pma_64b_tx" />
   <parameter name="pma_rx_buf_bypass_ctle_rf_cal" value="use_dprio_rfcal" />
-  <parameter name="pma_cgb_datarate_bps" value="10312500000" />
+  <parameter name="pma_cgb_datarate_bps" value="25650600000" />
   <parameter
      name="hssi_rx_pcs_pma_interface_pldif_datawidth_mode"
      value="pldif_data_10bit" />
@@ -3714,7 +3716,7 @@
   <parameter name="hssi_common_pcs_pma_interface_cdr_control" value="dis_cdr_ctrl" />
   <parameter name="pma_rx_dfe_pdb_edge_pst_h1" value="cdr_pst_h1_enable" />
   <parameter name="cdr_pll_f_max_m_counter" value="1" />
-  <parameter name="pma_rx_deser_datarate_bps" value="10312500000" />
+  <parameter name="pma_rx_deser_datarate_bps" value="25650600000" />
   <parameter name="hssi_8g_rx_pcs_clock_gate_sw_wa" value="en_sw_wa_clk_gating" />
   <parameter name="cdr_pll_tx_pll_prot_mode" value="txpll_unused" />
   <parameter name="pma_rx_dfe_h1edge_bti_en" value="h1edge_bti_disable" />
@@ -3773,9 +3775,11 @@
   <parameter
      name="hssi_tx_pld_pcs_interface_hd_pcs_channel_pcs_tx_pwr_scaling_clk"
      value="pma_tx_clk" />
-  <parameter name="set_cdr_refclk_freq" value="644.531250" />
+  <parameter name="set_cdr_refclk_freq" value="641.265000" />
   <parameter name="pma_rx_buf_ctle_rf_cal" value="3" />
-  <parameter name="cannot_gen_exdesign_msg" value="" />
+  <parameter
+     name="cannot_gen_exdesign_msg"
+     value="Design example cannot be generated for the current configuration. Please check under Design Example tab and system message below for more detailed information." />
   <parameter name="hssi_pldadapt_tx_gb_tx_odwidth" value="odwidth_64" />
   <parameter name="hip_channels" value="x1" />
   <parameter name="hssi_10g_tx_pcs_dispgen_pipeln" value="dispgen_pipeln_dis" />
@@ -3919,7 +3923,7 @@
   <parameter name="hssi_tx_pld_pcs_interface_reconfig_settings" value="{}" />
   <parameter
      name="pma_adapt_adp_ac_ctle_initial_value"
-     value="radp_ac_ctle_initial_value_8" />
+     value="radp_ac_ctle_initial_value_12" />
   <parameter name="pma_rx_buf_loopback_modes" value="lpbk_disable" />
   <parameter name="cdr_pll_silicon_rev" value="14nm5bcr2eb" />
   <parameter name="pma_cgb_cgb_bti_en" value="cgb_bti_disable" />
@@ -3955,7 +3959,7 @@
      name="pma_rx_buf_pm_cr2_tx_rx_pcie_gen_bitwidth"
      value="pcie_gen3_32b" />
   <parameter name="suppress_design_example_messages" value="0" />
-  <parameter name="hssi_aibnd_rx_powermode_ac" value="rxdatapath_low_speed_pwr" />
+  <parameter name="hssi_aibnd_rx_powermode_ac" value="rxdatapath_high_speed_pwr" />
   <parameter
      name="hssi_aibnd_tx_aib_red_pout_shiften"
      value="aib_red_pout_shift_disable" />
@@ -4095,7 +4099,7 @@
   <parameter name="cdr_pll_uc_ro_cal" value="uc_ro_cal_off" />
   <parameter
      name="hssi_pldadapt_rx_hdpldadapt_pld_rx_clk1_rowclk_hz"
-     value="161132812" />
+     value="400790625" />
   <parameter
      name="cdr_pll_pm_cr2_tx_rx_uc_dyn_reconfig"
      value="uc_dyn_reconfig_off" />
@@ -4109,7 +4113,7 @@
   <parameter name="l_enable_pcs_channel" value="1" />
   <parameter name="hssi_10g_rx_pcs_rxfifo_pempty" value="2" />
   <parameter name="set_enable_eios_rx_protect" value="0" />
-  <parameter name="channel_type" value="GX" />
+  <parameter name="channel_type" value="GXT" />
   <parameter
      name="hssi_tx_pld_pcs_interface_hd_pcs_channel_pma_if_lpbk_en"
      value="disable" />
@@ -4137,7 +4141,7 @@
      value="aib_dllstr_align_st_lockreq_muxsel_setting0" />
   <parameter name="hssi_aibnd_tx_aib_tx_dcc_cont_cal" value="aib_tx_dcc_cal_cont" />
   <parameter name="dbg_user_identifier" value="0" />
-  <parameter name="pma_rx_buf_eq_cdgen_sel" value="eq_cdgen_2" />
+  <parameter name="pma_rx_buf_eq_cdgen_sel" value="eq_cdgen_0" />
   <parameter name="pcs_direct_width" value="8" />
   <parameter
      name="hssi_adapt_tx_txqpi_pulldn_rst_val"
@@ -4202,13 +4206,13 @@
        path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\plain_files.txt"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\rcfg_timing_db\qsfp_xcvr_test_xcvr_native_s10_htile_1_hssi_pldadapt_rx_rcfg_settings_zuwr7xy.json"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\rcfg_timing_db\qsfp_xcvr_test_xcvr_native_s10_htile_1_hssi_pldadapt_rx_rcfg_settings_mcysl6y.json"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\rcfg_timing_db\qsfp_xcvr_test_xcvr_native_s10_htile_1_hssi_pldadapt_tx_rcfg_settings_zuwr7xy.json"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\rcfg_timing_db\qsfp_xcvr_test_xcvr_native_s10_htile_1_hssi_pldadapt_tx_rcfg_settings_mcysl6y.json"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\qsfp_xcvr_test_xcvr_native_s10_htile_1_ip_parameters_zuwr7xy.tcl"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\qsfp_xcvr_test_xcvr_native_s10_htile_1_ip_parameters_mcysl6y.tcl"
        attributes="" />
    <file
        path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\reconfig\altera_xcvr_rcfg_10_reconfig_parameters_CFG0.mif"
@@ -4220,40 +4224,40 @@
        path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\reconfig\altera_xcvr_rcfg_10_reconfig_parameters_CFG2.mif"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_native_rcfg_strm_params_zuwr7xy.sv"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_native_rcfg_strm_params_mcysl6y.sv"
        attributes="" />
    <file
        path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_native_rcfg_strm_functions.sv"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\docs\qsfp_xcvr_test_xcvr_native_s10_htile_1_altera_xcvr_native_s10_htile_1930_zuwr7xy_parameters.csv"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\docs\qsfp_xcvr_test_xcvr_native_s10_htile_1_altera_xcvr_native_s10_htile_1930_mcysl6y_parameters.csv"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\qsfp_xcvr_test_xcvr_native_s10_htile_1_altera_xcvr_native_s10_htile_1930_zuwr7xy.sv"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\qsfp_xcvr_test_xcvr_native_s10_htile_1_altera_xcvr_native_s10_htile_1930_mcysl6y.sv"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\qsfp_xcvr_test_xcvr_native_s10_htile_1_altera_xcvr_native_s10_htile_1930_zuwr7xy.sdc"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\qsfp_xcvr_test_xcvr_native_s10_htile_1_altera_xcvr_native_s10_htile_1930_mcysl6y.sdc"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_native_helper_functions_zuwr7xy.tcl"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_native_helper_functions_mcysl6y.tcl"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_native_global_constraints_zuwr7xy.sdc"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_native_global_constraints_mcysl6y.sdc"
        attributes="NO_SDC_PROMOTION" />
    <file
-       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_native_re_cal_chnl_zuwr7xy.sdc"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_native_re_cal_chnl_mcysl6y.sdc"
        attributes="NO_SDC_PROMOTION" />
    <file
-       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_native_rcfg_strm_rom_zuwr7xy.sv"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_native_rcfg_strm_rom_mcysl6y.sv"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_native_rcfg_strm_top_zuwr7xy.sv"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_native_rcfg_strm_top_mcysl6y.sv"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_native_rcfg_strm_ctrl_zuwr7xy.sv"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_native_rcfg_strm_ctrl_mcysl6y.sv"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_native_rcfg_opt_logic_zuwr7xy.sv"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_native_rcfg_opt_logic_mcysl6y.sv"
        attributes="" />
   </generatedFiles>
   <childGeneratedFiles>
@@ -4315,13 +4319,13 @@
        path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\plain_files.txt"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\rcfg_timing_db\qsfp_xcvr_test_xcvr_native_s10_htile_1_hssi_pldadapt_rx_rcfg_settings_zuwr7xy.json"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\rcfg_timing_db\qsfp_xcvr_test_xcvr_native_s10_htile_1_hssi_pldadapt_rx_rcfg_settings_mcysl6y.json"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\rcfg_timing_db\qsfp_xcvr_test_xcvr_native_s10_htile_1_hssi_pldadapt_tx_rcfg_settings_zuwr7xy.json"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\rcfg_timing_db\qsfp_xcvr_test_xcvr_native_s10_htile_1_hssi_pldadapt_tx_rcfg_settings_mcysl6y.json"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\qsfp_xcvr_test_xcvr_native_s10_htile_1_ip_parameters_zuwr7xy.tcl"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\qsfp_xcvr_test_xcvr_native_s10_htile_1_ip_parameters_mcysl6y.tcl"
        attributes="" />
    <file
        path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\reconfig\altera_xcvr_rcfg_10_reconfig_parameters_CFG0.mif"
@@ -4333,40 +4337,40 @@
        path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\reconfig\altera_xcvr_rcfg_10_reconfig_parameters_CFG2.mif"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_native_rcfg_strm_params_zuwr7xy.sv"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_native_rcfg_strm_params_mcysl6y.sv"
        attributes="" />
    <file
        path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_native_rcfg_strm_functions.sv"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\docs\qsfp_xcvr_test_xcvr_native_s10_htile_1_altera_xcvr_native_s10_htile_1930_zuwr7xy_parameters.csv"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\docs\qsfp_xcvr_test_xcvr_native_s10_htile_1_altera_xcvr_native_s10_htile_1930_mcysl6y_parameters.csv"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\qsfp_xcvr_test_xcvr_native_s10_htile_1_altera_xcvr_native_s10_htile_1930_zuwr7xy.sv"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\qsfp_xcvr_test_xcvr_native_s10_htile_1_altera_xcvr_native_s10_htile_1930_mcysl6y.sv"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\qsfp_xcvr_test_xcvr_native_s10_htile_1_altera_xcvr_native_s10_htile_1930_zuwr7xy.sdc"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\qsfp_xcvr_test_xcvr_native_s10_htile_1_altera_xcvr_native_s10_htile_1930_mcysl6y.sdc"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_native_helper_functions_zuwr7xy.tcl"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_native_helper_functions_mcysl6y.tcl"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_native_global_constraints_zuwr7xy.sdc"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_native_global_constraints_mcysl6y.sdc"
        attributes="NO_SDC_PROMOTION" />
    <file
-       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_native_re_cal_chnl_zuwr7xy.sdc"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_native_re_cal_chnl_mcysl6y.sdc"
        attributes="NO_SDC_PROMOTION" />
    <file
-       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_native_rcfg_strm_rom_zuwr7xy.sv"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_native_rcfg_strm_rom_mcysl6y.sv"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_native_rcfg_strm_top_zuwr7xy.sv"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_native_rcfg_strm_top_mcysl6y.sv"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_native_rcfg_strm_ctrl_zuwr7xy.sv"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_native_rcfg_strm_ctrl_mcysl6y.sv"
        attributes="" />
    <file
-       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_native_rcfg_opt_logic_zuwr7xy.sv"
+       path="C:\Users\Haas1S\Downloads\git\qts_qsfp_sdi\ip\qsfp_xcvr_test\qsfp_xcvr_test_xcvr_native_s10_htile_1\altera_xcvr_native_s10_htile_1930\synth\alt_xcvr_native_rcfg_opt_logic_mcysl6y.sv"
        attributes="" />
   </childGeneratedFiles>
   <sourceFiles>
@@ -4378,7 +4382,7 @@
      instantiator="qsfp_xcvr_test_xcvr_native_s10_htile_1"
      as="qsfp_xcvr_test_xcvr_native_s10_htile_1" />
   <messages>
-   <message level="Info" culprit="qsfp_xcvr_test_xcvr_native_s10_htile_1">"Generating: qsfp_xcvr_test_xcvr_native_s10_htile_1_altera_xcvr_native_s10_htile_1930_zuwr7xy"</message>
+   <message level="Info" culprit="qsfp_xcvr_test_xcvr_native_s10_htile_1">"Generating: qsfp_xcvr_test_xcvr_native_s10_htile_1_altera_xcvr_native_s10_htile_1930_mcysl6y"</message>
    <message level="Info" culprit="qsfp_xcvr_test_xcvr_native_s10_htile_1">add_fileset_file ./alt_xcvr_arbiter.sv SYSTEM_VERILOG PATH ../../../../altera_xcvr_generic/ctrl/alt_xcvr_arbiter.sv</message>
    <message level="Info" culprit="qsfp_xcvr_test_xcvr_native_s10_htile_1">add_fileset_file ./altera_std_synchronizer_nocut.v VERILOG PATH ../../../../primitives/altera_std_synchronizer/altera_std_synchronizer_nocut.v</message>
    <message level="Info" culprit="qsfp_xcvr_test_xcvr_native_s10_htile_1">add_fileset_file ./alt_xcvr_resync_std.sv SYSTEM_VERILOG PATH ../../../alt_xcvr_generic/alt_xcvr_resync_std.sv</message>
@@ -4420,11 +4424,11 @@
    <message level="Info" culprit="qsfp_xcvr_test_xcvr_native_s10_htile_1">Simplified data interface has been enabled. The Native PHY will present the data/control interface for the current configuration only. Dynamic reconfiguration of the data interface cannot be supported. The unused_tx_parallel_data and unused_tx_control ports should be connected to 0.</message>
    <message level="Info" culprit="qsfp_xcvr_test_xcvr_native_s10_htile_1">For current configuration, TX PCS FIFO depth is "16" and TX Core FIFO depth is "16".</message>
    <message level="Info" culprit="qsfp_xcvr_test_xcvr_native_s10_htile_1">For current configuration, RX PCS FIFO depth is "16" and RX Core FIFO depth is "32".</message>
-   <message level="Info" culprit="qsfp_xcvr_test_xcvr_native_s10_htile_1"><![CDATA[<b>"PCS clkout"</b> (pcs_clkout) is selected to drive tx_clkout port and the clock frequency is 402.832031 MHz.]]></message>
+   <message level="Info" culprit="qsfp_xcvr_test_xcvr_native_s10_htile_1"><![CDATA[<b>"PCS clkout"</b> (pcs_clkout) is selected to drive tx_clkout port and the clock frequency is 400.790625 MHz.]]></message>
    <message level="Info" culprit="qsfp_xcvr_test_xcvr_native_s10_htile_1">"pma_div_clkout" is selected to drive tx_clkout2 port and it should not be used for register mode data transfers (Relevant parameter: "Selected tx_clkout2 clock source" (tx_clkout2_sel)).</message>
-   <message level="Info" culprit="qsfp_xcvr_test_xcvr_native_s10_htile_1"><![CDATA[<b>"PCS clkout"</b> (pcs_clkout) is selected to drive rx_clkout port and the clock frequency is 402.832031 MHz.]]></message>
+   <message level="Info" culprit="qsfp_xcvr_test_xcvr_native_s10_htile_1"><![CDATA[<b>"PCS clkout"</b> (pcs_clkout) is selected to drive rx_clkout port and the clock frequency is 400.790625 MHz.]]></message>
    <message level="Info" culprit="qsfp_xcvr_test_xcvr_native_s10_htile_1">"pma_div_clkout" is selected to drive rx_clkout2 port and it should not be used for register mode data transfers (Relevant parameter: "Selected rx_clkout2 clock source" (rx_clkout2_sel)).</message>
-   <message level="Info" culprit="qsfp_xcvr_test_xcvr_native_s10_htile_1"><![CDATA[A design example cannot be generated for "Tx PLL reference clock frequency"=="125.0" && "Selected CDR reference clock frequency"=="644.531250"]]></message>
+   <message level="Info" culprit="qsfp_xcvr_test_xcvr_native_s10_htile_1"><![CDATA[A design example cannot be generated for "Tx PLL reference clock frequency"=="125.0" && "Selected CDR reference clock frequency"=="641.265000"]]></message>
    <message level="Info" culprit="qsfp_xcvr_test_xcvr_native_s10_htile_1">Building configuration data for reconfiguration profile 2</message>
    <message level="Info" culprit="qsfp_xcvr_test_xcvr_native_s10_htile_1">Validating reconfiguration profile 2</message>
    <message level="Info" culprit="qsfp_xcvr_test_xcvr_native_s10_htile_1">Current IP configuration matches reconfiguration profile 2</message>

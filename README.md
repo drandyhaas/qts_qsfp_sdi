@@ -19,7 +19,7 @@ qsfp_xcvr_test_xcvr_native_s10_htile_1
 q_sys_xcvr_atx_pll_s10_htile_1
 q_sys_xcvr_atx_pll_s10_htile_2
 reconfiguration profile 0: 10312.5 Gbps (set pll at 644.53125 MHz, default)
-reconfiguration profile 1: 25781.25 Gbps (set pll at 644.53125 MHz, default)
+reconfiguration profile 1: 25650.6 (was 25781.25) Gbps (set pll at 644.53125 MHz, default)
 reconfiguration profile 2: 9618.96 Gbps (set pll at 601.185 MHz)
 
 see quartus subdirectory for preventing the dreaded transceiver_channel_rx_override_arbitration_crete2 error

@@ -689,7 +689,6 @@ https://fpgasoftware.intel.com/eula.-->
         <ipxact:fileSetRef>
           <ipxact:localName>QUARTUS_SYNTH</ipxact:localName>
         </ipxact:fileSetRef>
-        <ipxact:parameters></ipxact:parameters>
       </ipxact:componentInstantiation>
     </ipxact:instantiations>
     <ipxact:ports>
@@ -697,7 +696,6 @@ https://fpgasoftware.intel.com/eula.-->
         <ipxact:name>pll_refclk0</ipxact:name>
         <ipxact:wire>
           <ipxact:direction>in</ipxact:direction>
-          <ipxact:vectors></ipxact:vectors>
           <ipxact:wireTypeDefs>
             <ipxact:wireTypeDef>
               <ipxact:typeName>STD_LOGIC</ipxact:typeName>
@@ -710,7 +708,6 @@ https://fpgasoftware.intel.com/eula.-->
         <ipxact:name>tx_serial_clk</ipxact:name>
         <ipxact:wire>
           <ipxact:direction>out</ipxact:direction>
-          <ipxact:vectors></ipxact:vectors>
           <ipxact:wireTypeDefs>
             <ipxact:wireTypeDef>
               <ipxact:typeName>STD_LOGIC</ipxact:typeName>
@@ -723,7 +720,6 @@ https://fpgasoftware.intel.com/eula.-->
         <ipxact:name>tx_serial_clk_gxt</ipxact:name>
         <ipxact:wire>
           <ipxact:direction>out</ipxact:direction>
-          <ipxact:vectors></ipxact:vectors>
           <ipxact:wireTypeDefs>
             <ipxact:wireTypeDef>
               <ipxact:typeName>STD_LOGIC</ipxact:typeName>
@@ -736,7 +732,6 @@ https://fpgasoftware.intel.com/eula.-->
         <ipxact:name>pll_locked</ipxact:name>
         <ipxact:wire>
           <ipxact:direction>out</ipxact:direction>
-          <ipxact:vectors></ipxact:vectors>
           <ipxact:wireTypeDefs>
             <ipxact:wireTypeDef>
               <ipxact:typeName>STD_LOGIC</ipxact:typeName>
@@ -749,7 +744,6 @@ https://fpgasoftware.intel.com/eula.-->
         <ipxact:name>reconfig_clk0</ipxact:name>
         <ipxact:wire>
           <ipxact:direction>in</ipxact:direction>
-          <ipxact:vectors></ipxact:vectors>
           <ipxact:wireTypeDefs>
             <ipxact:wireTypeDef>
               <ipxact:typeName>STD_LOGIC</ipxact:typeName>
@@ -762,7 +756,6 @@ https://fpgasoftware.intel.com/eula.-->
         <ipxact:name>reconfig_reset0</ipxact:name>
         <ipxact:wire>
           <ipxact:direction>in</ipxact:direction>
-          <ipxact:vectors></ipxact:vectors>
           <ipxact:wireTypeDefs>
             <ipxact:wireTypeDef>
               <ipxact:typeName>STD_LOGIC</ipxact:typeName>
@@ -775,7 +768,6 @@ https://fpgasoftware.intel.com/eula.-->
         <ipxact:name>reconfig_write0</ipxact:name>
         <ipxact:wire>
           <ipxact:direction>in</ipxact:direction>
-          <ipxact:vectors></ipxact:vectors>
           <ipxact:wireTypeDefs>
             <ipxact:wireTypeDef>
               <ipxact:typeName>STD_LOGIC</ipxact:typeName>
@@ -788,7 +780,6 @@ https://fpgasoftware.intel.com/eula.-->
         <ipxact:name>reconfig_read0</ipxact:name>
         <ipxact:wire>
           <ipxact:direction>in</ipxact:direction>
-          <ipxact:vectors></ipxact:vectors>
           <ipxact:wireTypeDefs>
             <ipxact:wireTypeDef>
               <ipxact:typeName>STD_LOGIC</ipxact:typeName>
@@ -855,7 +846,6 @@ https://fpgasoftware.intel.com/eula.-->
         <ipxact:name>reconfig_waitrequest0</ipxact:name>
         <ipxact:wire>
           <ipxact:direction>out</ipxact:direction>
-          <ipxact:vectors></ipxact:vectors>
           <ipxact:wireTypeDefs>
             <ipxact:wireTypeDef>
               <ipxact:typeName>STD_LOGIC</ipxact:typeName>
@@ -868,7 +858,6 @@ https://fpgasoftware.intel.com/eula.-->
         <ipxact:name>pll_cal_busy</ipxact:name>
         <ipxact:wire>
           <ipxact:direction>out</ipxact:direction>
-          <ipxact:vectors></ipxact:vectors>
           <ipxact:wireTypeDefs>
             <ipxact:wireTypeDef>
               <ipxact:typeName>STD_LOGIC</ipxact:typeName>
@@ -981,7 +970,7 @@ https://fpgasoftware.intel.com/eula.-->
         <ipxact:parameter parameterId="rcfg_profile_select" type="int">
           <ipxact:name>rcfg_profile_select</ipxact:name>
           <ipxact:displayName>Store current configuration to profile:</ipxact:displayName>
-          <ipxact:value>0</ipxact:value>
+          <ipxact:value>1</ipxact:value>
         </ipxact:parameter>
         <ipxact:parameter parameterId="rcfg_profile_data0" type="string">
           <ipxact:name>rcfg_profile_data0</ipxact:name>
@@ -991,7 +980,7 @@ https://fpgasoftware.intel.com/eula.-->
         <ipxact:parameter parameterId="rcfg_profile_data1" type="string">
           <ipxact:name>rcfg_profile_data1</ipxact:name>
           <ipxact:displayName>rcfg_profile_data1</ipxact:displayName>
-          <ipxact:value>rcfg_debug 0 rcfg_enable 1 rcfg_jtag_enable 1 rcfg_separate_avmm_busy 0 rcfg_enable_avmm_busy_port 0 set_capability_reg_enable 1 set_user_identifier 0 set_csr_soft_logic_enable 1 enable_pld_atx_cal_busy_port 1 support_mode user_mode prot_mode Basic bw_sel high refclk_cnt 1 refclk_index 0 primary_pll_buffer {GXT clock output buffer} enable_8G_path 1 enable_28G_output_frm_abv_atx 0 enable_28G_output_frm_blw_atx 0 enable_28G_local_atx_path 1 enable_28G_input_frm_abv_atx 0 enable_28G_input_frm_blw_atx 0 enable_GXT_out_buffer_abv 0 enable_GXT_out_buffer_blw 0 enable_GXT_clock_source atx_lcl enable_pcie_clk 0 enable_cascade_out 0 enable_hip_cal_done_port 0 set_hip_cal_en 0 set_output_clock_frequency 12890.625 set_auto_reference_clock_frequency 644.53125 set_manual_reference_clock_frequency 200.0 set_fref_clock_frequency 156.25 set_m_counter 24 set_ref_clk_div 1 set_l_counter 4 set_l_cascade_counter 4 set_l_cascade_predivider 1 set_k_counter 1 enable_mcgb 0 mcgb_div 1 enable_hfreq_clk 0 enable_mcgb_pcie_clksw 0 enable_mcgb_reset 0 mcgb_aux_clkin_cnt 0 enable_bonding_clks 0 enable_fb_comp_bonding 0 pma_width 64 enable_pld_mcgb_cal_busy_port 0</ipxact:value>
+          <ipxact:value>rcfg_debug 0 rcfg_enable 1 rcfg_jtag_enable 1 rcfg_separate_avmm_busy 0 rcfg_enable_avmm_busy_port 0 set_capability_reg_enable 1 set_user_identifier 0 set_csr_soft_logic_enable 1 enable_pld_atx_cal_busy_port 1 support_mode user_mode prot_mode Basic bw_sel high refclk_cnt 1 refclk_index 0 primary_pll_buffer {GXT clock output buffer} enable_8G_path 1 enable_28G_output_frm_abv_atx 0 enable_28G_output_frm_blw_atx 0 enable_28G_local_atx_path 1 enable_28G_input_frm_abv_atx 0 enable_28G_input_frm_blw_atx 0 enable_GXT_out_buffer_abv 0 enable_GXT_out_buffer_blw 0 enable_GXT_clock_source atx_lcl enable_pcie_clk 0 enable_cascade_out 0 enable_hip_cal_done_port 0 set_hip_cal_en 0 set_output_clock_frequency 12825.3 set_auto_reference_clock_frequency 641.265 set_manual_reference_clock_frequency 200.0 set_fref_clock_frequency 156.25 set_m_counter 24 set_ref_clk_div 1 set_l_counter 4 set_l_cascade_counter 4 set_l_cascade_predivider 1 set_k_counter 1 enable_mcgb 0 mcgb_div 1 enable_hfreq_clk 0 enable_mcgb_pcie_clksw 0 enable_mcgb_reset 0 mcgb_aux_clkin_cnt 0 enable_bonding_clks 0 enable_fb_comp_bonding 0 pma_width 64 enable_pld_mcgb_cal_busy_port 0</ipxact:value>
         </ipxact:parameter>
         <ipxact:parameter parameterId="rcfg_profile_data2" type="string">
           <ipxact:name>rcfg_profile_data2</ipxact:name>
@@ -1031,7 +1020,7 @@ https://fpgasoftware.intel.com/eula.-->
         <ipxact:parameter parameterId="rcfg_sdc_derived_profile_data1" type="string">
           <ipxact:name>rcfg_sdc_derived_profile_data1</ipxact:name>
           <ipxact:displayName>rcfg_sdc_derived_profile_data1</ipxact:displayName>
-          <ipxact:value>enable_multi_profile 1 dbg_embedded_debug_enable 1 dbg_capability_reg_enable 1 dbg_user_identifier 0 dbg_stat_soft_logic_enable 1 dbg_ctrl_soft_logic_enable 1 atx_pll_lcpll_gt_in_sel lc_gt_in_sel0 atx_pll_lcpll_gt_out_left_enb lcpll_gt_out_left_dis atx_pll_lcpll_gt_out_mid_enb lcpll_gt_out_mid_en atx_pll_lcpll_gt_out_right_enb lcpll_gt_out_right_dis enable_atx_to_fpll_cascade_out 0 output_clock_datarate 25781.25 datarate {25781.25 Mbps} enable_fractional 0</ipxact:value>
+          <ipxact:value>enable_multi_profile 1 dbg_embedded_debug_enable 1 dbg_capability_reg_enable 1 dbg_user_identifier 0 dbg_stat_soft_logic_enable 1 dbg_ctrl_soft_logic_enable 1 atx_pll_lcpll_gt_in_sel lc_gt_in_sel0 atx_pll_lcpll_gt_out_left_enb lcpll_gt_out_left_dis atx_pll_lcpll_gt_out_mid_enb lcpll_gt_out_mid_en atx_pll_lcpll_gt_out_right_enb lcpll_gt_out_right_dis enable_atx_to_fpll_cascade_out 0 output_clock_datarate 25650.6 datarate {25650.6 Mbps} enable_fractional 0</ipxact:value>
         </ipxact:parameter>
         <ipxact:parameter parameterId="rcfg_sdc_derived_profile_data2" type="string">
           <ipxact:name>rcfg_sdc_derived_profile_data2</ipxact:name>
@@ -1151,7 +1140,7 @@ https://fpgasoftware.intel.com/eula.-->
         <ipxact:parameter parameterId="primary_pll_buffer" type="string">
           <ipxact:name>primary_pll_buffer</ipxact:name>
           <ipxact:displayName>Primary PLL clock output buffer</ipxact:displayName>
-          <ipxact:value>GX clock output buffer</ipxact:value>
+          <ipxact:value>GXT clock output buffer</ipxact:value>
         </ipxact:parameter>
         <ipxact:parameter parameterId="enable_pll_lock" type="int">
           <ipxact:name>enable_pll_lock</ipxact:name>
@@ -1201,7 +1190,7 @@ https://fpgasoftware.intel.com/eula.-->
         <ipxact:parameter parameterId="enable_GXT_clock_source" type="string">
           <ipxact:name>enable_GXT_clock_source</ipxact:name>
           <ipxact:displayName>GXT output clock source</ipxact:displayName>
-          <ipxact:value>disabled</ipxact:value>
+          <ipxact:value>atx_lcl</ipxact:value>
         </ipxact:parameter>
         <ipxact:parameter parameterId="enable_pcie_clk" type="int">
           <ipxact:name>enable_pcie_clk</ipxact:name>
@@ -1226,12 +1215,12 @@ https://fpgasoftware.intel.com/eula.-->
         <ipxact:parameter parameterId="set_output_clock_frequency" type="real">
           <ipxact:name>set_output_clock_frequency</ipxact:name>
           <ipxact:displayName>PLL output frequency</ipxact:displayName>
-          <ipxact:value>5156.25</ipxact:value>
+          <ipxact:value>12825.3</ipxact:value>
         </ipxact:parameter>
         <ipxact:parameter parameterId="set_auto_reference_clock_frequency" type="real">
           <ipxact:name>set_auto_reference_clock_frequency</ipxact:name>
           <ipxact:displayName>PLL auto mode reference clock frequency (Integer)</ipxact:displayName>
-          <ipxact:value>644.53125</ipxact:value>
+          <ipxact:value>641.265</ipxact:value>
         </ipxact:parameter>
         <ipxact:parameter parameterId="set_manual_reference_clock_frequency" type="real">
           <ipxact:name>set_manual_reference_clock_frequency</ipxact:name>
@@ -1387,14 +1376,6 @@ https://fpgasoftware.intel.com/eula.-->
           <ipxact:displayName>bonusData</ipxact:displayName>
           <ipxact:value>bonusData 
 {
-   element $system
-   {
-      datum _originalDeviceFamily
-      {
-         value = "Stratix 10";
-         type = "String";
-      }
-   }
    element q_sys_xcvr_atx_pll_s10_htile_2
    {
       datum _sortIndex

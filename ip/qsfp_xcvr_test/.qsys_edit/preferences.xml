@@ -2,7 +2,7 @@
 <preferences>
  <debug showDebugMenu="0" />
  <library expandedCategories="Project,Library,Existing IP Variants" />
- <window width="2576" height="1416" x="-8" y="-8" />
+ <window width="2560" height="1400" x="0" y="0" />
  <systemtable filter="All Interfaces">
   <columns>
    <connections preferredWidth="31" />

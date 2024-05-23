@@ -1,5 +1,25 @@
 <sld_project_info>
   <sld_infos>
+    <sld_info hpath="q_sys_i" library="q_sys" name="q_sys_i">
+      <assignment_values>
+        <assignment_value text="QSYS_NAME q_sys HAS_SOPCINFO 1 GENERATION_ID 0"/>
+      </assignment_values>
+    </sld_info>
+    <sld_info hpath="q_sys_i|clk_100" library="q_sys_clk_100" name="clk_100">
+      <assignment_values>
+        <assignment_value text="QSYS_NAME q_sys_clk_100 HAS_SOPCINFO 1 GENERATION_ID 0"/>
+      </assignment_values>
+    </sld_info>
+    <sld_info hpath="q_sys_i|clk_50" library="q_sys_clk_50" name="clk_50">
+      <assignment_values>
+        <assignment_value text="QSYS_NAME q_sys_clk_50 HAS_SOPCINFO 1 GENERATION_ID 0"/>
+      </assignment_values>
+    </sld_info>
+    <sld_info hpath="q_sys_i|master_0" library="q_sys_master_0" name="master_0">
+      <assignment_values>
+        <assignment_value text="QSYS_NAME q_sys_master_0 HAS_SOPCINFO 1 GENERATION_ID 0"/>
+      </assignment_values>
+    </sld_info>
     <sld_info hpath="q_sys_i|product_info_0" library="q_sys_product_info_0" name="product_info_0">
       <assignment_values>
         <assignment_value text="QSYS_NAME q_sys_product_info_0 HAS_SOPCINFO 1 GENERATION_ID 0"/>
@@ -450,29 +470,9 @@
         <assignment_value text="QSYS_NAME xcvr_test_system_xcvr_user_tx_fifo_converter_0 HAS_SOPCINFO 1 GENERATION_ID 0"/>
       </assignment_values>
     </sld_info>
-    <sld_info hpath="q_sys_i" library="q_sys" name="q_sys_i">
-      <assignment_values>
-        <assignment_value text="QSYS_NAME q_sys HAS_SOPCINFO 1 GENERATION_ID 0"/>
-      </assignment_values>
-    </sld_info>
-    <sld_info hpath="q_sys_i|clk_100" library="q_sys_clk_100" name="clk_100">
-      <assignment_values>
-        <assignment_value text="QSYS_NAME q_sys_clk_100 HAS_SOPCINFO 1 GENERATION_ID 0"/>
-      </assignment_values>
-    </sld_info>
-    <sld_info hpath="q_sys_i|clk_50" library="q_sys_clk_50" name="clk_50">
-      <assignment_values>
-        <assignment_value text="QSYS_NAME q_sys_clk_50 HAS_SOPCINFO 1 GENERATION_ID 0"/>
-      </assignment_values>
-    </sld_info>
-    <sld_info hpath="q_sys_i|master_0" library="q_sys_master_0" name="master_0">
-      <assignment_values>
-        <assignment_value text="QSYS_NAME q_sys_master_0 HAS_SOPCINFO 1 GENERATION_ID 0"/>
-      </assignment_values>
-    </sld_info>
     <sld_info hpath="auto_fab_0" library="alt_sld_fab_0" name="auto_fab_0">
       <assignment_values>
-        <assignment_value text="QSYS_NAME alt_sld_fab_0 HAS_SOPCINFO 1 GENERATION_ID 0 ENTITY_NAME alt_sld_fab SLD_FAB 1 DESIGN_HASH 8a71a489fc8d279dbebe"/>
+        <assignment_value text="QSYS_NAME alt_sld_fab_0 HAS_SOPCINFO 1 GENERATION_ID 0 ENTITY_NAME alt_sld_fab SLD_FAB 1 DESIGN_HASH e4b1fc0b006b5fc684a7"/>
       </assignment_values>
     </sld_info>
   </sld_infos>
