@@ -98,7 +98,7 @@
           </parameter>
           <parameter>
             <name>atx_pll_datarate_bps</name>
-            <value>25650600000</value>
+            <value>9618960000</value>
           </parameter>
           <parameter>
             <name>atx_pll_device_variant</name>
@@ -218,7 +218,7 @@
           </parameter>
           <parameter>
             <name>atx_pll_l_counter</name>
-            <value>1</value>
+            <value>2</value>
           </parameter>
           <parameter>
             <name>atx_pll_lc_cal_reserved</name>
@@ -246,7 +246,7 @@
           </parameter>
           <parameter>
             <name>atx_pll_lc_sel_tank</name>
-            <value>lctank2</value>
+            <value>lctank1</value>
           </parameter>
           <parameter>
             <name>atx_pll_lc_tank_band</name>
@@ -302,11 +302,11 @@
           </parameter>
           <parameter>
             <name>atx_pll_lcnt_divide</name>
-            <value>1</value>
+            <value>2</value>
           </parameter>
           <parameter>
             <name>atx_pll_lcnt_off</name>
-            <value>lcnt_off</value>
+            <value>lcnt_on</value>
           </parameter>
           <parameter>
             <name>atx_pll_lcpll_gt_in_sel</name>
@@ -318,7 +318,7 @@
           </parameter>
           <parameter>
             <name>atx_pll_lcpll_gt_out_mid_enb</name>
-            <value>lcpll_gt_out_mid_en</value>
+            <value>lcpll_gt_out_mid_dis</value>
           </parameter>
           <parameter>
             <name>atx_pll_lcpll_gt_out_right_enb</name>
@@ -366,7 +366,7 @@
           </parameter>
           <parameter>
             <name>atx_pll_mcnt_divide</name>
-            <value>10</value>
+            <value>8</value>
           </parameter>
           <parameter>
             <name>atx_pll_min_fractional_percentage</name>
@@ -378,7 +378,7 @@
           </parameter>
           <parameter>
             <name>atx_pll_out_freq</name>
-            <value>12825300000</value>
+            <value>4809480000</value>
           </parameter>
           <parameter>
             <name>atx_pll_output_regulator_supply</name>
@@ -434,7 +434,7 @@
           </parameter>
           <parameter>
             <name>atx_pll_powermode_ac_lc</name>
-            <value>lc2_ac_div1</value>
+            <value>lc1_ac_div2</value>
           </parameter>
           <parameter>
             <name>atx_pll_powermode_ac_lc_gtpath</name>
@@ -442,7 +442,7 @@
           </parameter>
           <parameter>
             <name>atx_pll_powermode_dc_lc</name>
-            <value>lc2_dc_div1</value>
+            <value>lc1_dc_div2</value>
           </parameter>
           <parameter>
             <name>atx_pll_powermode_dc_lc_gtpath</name>
@@ -450,7 +450,7 @@
           </parameter>
           <parameter>
             <name>atx_pll_primary_use</name>
-            <value>hssi_hf</value>
+            <value>hssi_x1</value>
           </parameter>
           <parameter>
             <name>atx_pll_prot_mode</name>
@@ -462,7 +462,7 @@
           </parameter>
           <parameter>
             <name>atx_pll_reference_clock_frequency</name>
-            <value>641265000</value>
+            <value>601185000</value>
           </parameter>
           <parameter>
             <name>atx_pll_regulator_bypass</name>
@@ -506,7 +506,7 @@
           </parameter>
           <parameter>
             <name>atx_pll_vco_freq</name>
-            <value>12825300000</value>
+            <value>9618960000</value>
           </parameter>
           <parameter>
             <name>atx_pll_vreg1_boost_step_size</name>
@@ -526,7 +526,7 @@
           </parameter>
           <parameter>
             <name>auto_list</name>
-            <value>61.660096 {m 104 effective_m 104 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 62.258738 {m 103 effective_m 103 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 62.869118 {m 102 effective_m 102 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 63.491584 {m 101 effective_m 101 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 64.126500 {m 100 effective_m 100 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 64.774242 {m 99 effective_m 99 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 65.435204 {m 98 effective_m 98 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 66.109794 {m 97 effective_m 97 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 66.798438 {m 96 effective_m 96 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 67.501579 {m 95 effective_m 95 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 68.219681 {m 94 effective_m 94 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 68.953226 {m 93 effective_m 93 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 69.702717 {m 92 effective_m 92 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 70.468681 {m 91 effective_m 91 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 71.251667 {m 90 effective_m 90 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 72.052247 {m 89 effective_m 89 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 72.871023 {m 88 effective_m 88 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 73.708621 {m 87 effective_m 87 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 74.565698 {m 86 effective_m 86 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 75.442941 {m 85 effective_m 85 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 76.341071 {m 84 effective_m 84 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 77.260843 {m 83 effective_m 83 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 78.203049 {m 82 effective_m 82 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 79.168519 {m 81 effective_m 81 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 80.158125 {m 80 effective_m 80 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 81.172785 {m 79 effective_m 79 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 82.213462 {m 78 effective_m 78 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 83.281169 {m 77 effective_m 77 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 84.376974 {m 76 effective_m 76 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 85.502000 {m 75 effective_m 75 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 86.657432 {m 74 effective_m 74 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 87.844521 {m 73 effective_m 73 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 89.064583 {m 72 effective_m 72 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 90.319014 {m 71 effective_m 71 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 91.609286 {m 70 effective_m 70 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 92.936957 {m 69 effective_m 69 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 94.303676 {m 68 effective_m 68 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 95.711194 {m 67 effective_m 67 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 97.161364 {m 66 effective_m 66 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 98.656154 {m 65 effective_m 65 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 100.197656 {m 64 effective_m 64 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 101.788095 {m 63 effective_m 63 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 103.429839 {m 62 effective_m 62 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 105.125410 {m 61 effective_m 61 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 106.877500 {m 60 effective_m 60 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 108.688983 {m 59 effective_m 59 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 110.562931 {m 58 effective_m 58 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 112.502632 {m 57 effective_m 57 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 114.511607 {m 56 effective_m 56 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 116.593636 {m 55 effective_m 55 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 118.752778 {m 54 effective_m 54 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 120.993396 {m 53 effective_m 53 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 123.320192 {m 52 effective_m 52 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 124.517476 {m 103 effective_m 103 n 2 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 125.738235 {m 51 effective_m 51 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 126.983168 {m 101 effective_m 101 n 2 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 128.253000 {m 50 effective_m 50 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 129.548485 {m 99 effective_m 99 n 2 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 130.870408 {m 49 effective_m 49 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 132.219588 {m 97 effective_m 97 n 2 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 133.596875 {m 48 effective_m 48 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 135.003158 {m 95 effective_m 95 n 2 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 136.439362 {m 47 effective_m 47 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 137.906452 {m 93 effective_m 93 n 2 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 139.405435 {m 46 effective_m 46 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 140.937363 {m 91 effective_m 91 n 2 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 142.503333 {m 45 effective_m 45 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 144.104494 {m 89 effective_m 89 n 2 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 145.742045 {m 44 effective_m 44 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 147.417241 {m 87 effective_m 87 n 2 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 149.131395 {m 43 effective_m 43 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 150.885882 {m 85 effective_m 85 n 2 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 152.682143 {m 42 effective_m 42 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 154.521687 {m 83 effective_m 83 n 2 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 156.406098 {m 41 effective_m 41 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 158.337037 {m 81 effective_m 81 n 2 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 160.316250 {m 40 effective_m 40 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 162.345570 {m 79 effective_m 79 n 2 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 164.426923 {m 39 effective_m 39 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 166.562338 {m 77 effective_m 77 n 2 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 168.753947 {m 38 effective_m 38 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 171.004000 {m 75 effective_m 75 n 2 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 173.314865 {m 37 effective_m 37 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 175.689041 {m 73 effective_m 73 n 2 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 178.129167 {m 36 effective_m 36 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 180.638028 {m 71 effective_m 71 n 2 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 183.218571 {m 35 effective_m 35 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 185.873913 {m 69 effective_m 69 n 2 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 188.607353 {m 34 effective_m 34 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 191.422388 {m 67 effective_m 67 n 2 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 194.322727 {m 33 effective_m 33 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 197.312308 {m 65 effective_m 65 n 2 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 200.395312 {m 32 effective_m 32 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 203.576190 {m 63 effective_m 63 n 2 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 206.859677 {m 31 effective_m 31 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 210.250820 {m 61 effective_m 61 n 2 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 213.755000 {m 30 effective_m 30 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 217.377966 {m 59 effective_m 59 n 2 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 221.125862 {m 29 effective_m 29 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 225.005263 {m 57 effective_m 57 n 2 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 229.023214 {m 28 effective_m 28 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 233.187273 {m 55 effective_m 55 n 2 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 237.505556 {m 27 effective_m 27 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 241.986792 {m 53 effective_m 53 n 2 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 246.640385 {m 26 effective_m 26 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 249.034951 {m 103 effective_m 103 n 4 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 251.476471 {m 51 effective_m 51 n 2 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 253.966337 {m 101 effective_m 101 n 4 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 256.506000 {m 25 effective_m 25 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 259.096970 {m 99 effective_m 99 n 4 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 261.740816 {m 49 effective_m 49 n 2 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 264.439175 {m 97 effective_m 97 n 4 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 267.193750 {m 24 effective_m 24 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 270.006316 {m 95 effective_m 95 n 4 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 272.878723 {m 47 effective_m 47 n 2 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 275.812903 {m 93 effective_m 93 n 4 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 278.810870 {m 23 effective_m 23 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 281.874725 {m 91 effective_m 91 n 4 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 285.006667 {m 45 effective_m 45 n 2 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 288.208989 {m 89 effective_m 89 n 4 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 291.484091 {m 22 effective_m 22 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 294.834483 {m 87 effective_m 87 n 4 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 298.262791 {m 43 effective_m 43 n 2 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 301.771765 {m 85 effective_m 85 n 4 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 305.364286 {m 21 effective_m 21 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 309.043373 {m 83 effective_m 83 n 4 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 312.812195 {m 41 effective_m 41 n 2 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 316.674074 {m 81 effective_m 81 n 4 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 320.632500 {m 20 effective_m 20 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 324.691139 {m 79 effective_m 79 n 4 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 328.853846 {m 39 effective_m 39 n 2 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 333.124675 {m 77 effective_m 77 n 4 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 337.507895 {m 19 effective_m 19 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 342.008000 {m 75 effective_m 75 n 4 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 346.629730 {m 37 effective_m 37 n 2 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 351.378082 {m 73 effective_m 73 n 4 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 356.258333 {m 18 effective_m 18 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 361.276056 {m 71 effective_m 71 n 4 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 366.437143 {m 35 effective_m 35 n 2 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 371.747826 {m 69 effective_m 69 n 4 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 377.214706 {m 17 effective_m 17 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 382.844776 {m 67 effective_m 67 n 4 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 388.645455 {m 33 effective_m 33 n 2 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 394.624615 {m 65 effective_m 65 n 4 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 400.790625 {m 16 effective_m 16 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 407.152381 {m 63 effective_m 63 n 4 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 413.719355 {m 31 effective_m 31 n 2 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 420.501639 {m 61 effective_m 61 n 4 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 427.510000 {m 15 effective_m 15 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 434.755932 {m 59 effective_m 59 n 4 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 442.251724 {m 29 effective_m 29 n 2 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 450.010526 {m 57 effective_m 57 n 4 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 458.046429 {m 14 effective_m 14 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 466.374545 {m 55 effective_m 55 n 4 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 475.011111 {m 27 effective_m 27 n 2 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 483.973585 {m 53 effective_m 53 n 4 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 493.280769 {m 13 effective_m 13 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 498.069903 {m 103 effective_m 103 n 8 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 502.952941 {m 51 effective_m 51 n 4 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 507.932673 {m 101 effective_m 101 n 8 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 513.012000 {m 25 effective_m 25 n 2 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 518.193939 {m 99 effective_m 99 n 8 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 523.481633 {m 49 effective_m 49 n 4 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 528.878351 {m 97 effective_m 97 n 8 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 534.387500 {m 12 effective_m 12 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 540.012632 {m 95 effective_m 95 n 8 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 545.757447 {m 47 effective_m 47 n 4 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 551.625806 {m 93 effective_m 93 n 8 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 557.621739 {m 23 effective_m 23 n 2 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 563.749451 {m 91 effective_m 91 n 8 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 570.013333 {m 45 effective_m 45 n 4 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 576.417978 {m 89 effective_m 89 n 8 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 582.968182 {m 11 effective_m 11 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 589.668966 {m 87 effective_m 87 n 8 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 596.525581 {m 43 effective_m 43 n 4 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 603.543529 {m 85 effective_m 85 n 8 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 610.728571 {m 21 effective_m 21 n 2 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 618.086747 {m 83 effective_m 83 n 8 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 625.624390 {m 41 effective_m 41 n 4 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 633.348148 {m 81 effective_m 81 n 8 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 641.265000 {m 10 effective_m 10 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 649.382278 {m 79 effective_m 79 n 8 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 657.707692 {m 39 effective_m 39 n 4 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 666.249351 {m 77 effective_m 77 n 8 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 675.015789 {m 19 effective_m 19 n 2 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 684.016000 {m 75 effective_m 75 n 8 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 693.259459 {m 37 effective_m 37 n 4 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 702.756164 {m 73 effective_m 73 n 8 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 712.516667 {m 9 effective_m 9 n 1 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 722.552113 {m 71 effective_m 71 n 8 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 732.874286 {m 35 effective_m 35 n 4 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 743.495652 {m 69 effective_m 69 n 8 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 754.429412 {m 17 effective_m 17 n 2 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 765.689552 {m 67 effective_m 67 n 8 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 777.290909 {m 33 effective_m 33 n 4 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0} 789.249231 {m 65 effective_m 65 n 8 l 1 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank0 tank_band lc_band0}</value>
+            <value>61.660000 {m 78 effective_m 78 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 62.460779 {m 77 effective_m 77 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 63.282632 {m 76 effective_m 76 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 64.126400 {m 75 effective_m 75 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 64.992973 {m 74 effective_m 74 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 65.883288 {m 73 effective_m 73 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 66.798333 {m 72 effective_m 72 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 67.739155 {m 71 effective_m 71 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 68.706857 {m 70 effective_m 70 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 69.702609 {m 69 effective_m 69 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 70.727647 {m 68 effective_m 68 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 71.783284 {m 67 effective_m 67 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 72.870909 {m 66 effective_m 66 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 73.992000 {m 65 effective_m 65 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 75.148125 {m 64 effective_m 64 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 76.340952 {m 63 effective_m 63 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 77.572258 {m 62 effective_m 62 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 78.843934 {m 61 effective_m 61 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 80.158000 {m 60 effective_m 60 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 81.516610 {m 59 effective_m 59 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 82.922069 {m 58 effective_m 58 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 84.376842 {m 57 effective_m 57 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 85.883571 {m 56 effective_m 56 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 87.445091 {m 55 effective_m 55 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 89.064444 {m 54 effective_m 54 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 90.744906 {m 53 effective_m 53 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 92.490000 {m 52 effective_m 52 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 94.303529 {m 51 effective_m 51 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 96.189600 {m 50 effective_m 50 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 98.152653 {m 49 effective_m 49 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 100.197500 {m 48 effective_m 48 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 102.329362 {m 47 effective_m 47 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 104.553913 {m 46 effective_m 46 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 106.877333 {m 45 effective_m 45 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 109.306364 {m 44 effective_m 44 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 111.848372 {m 43 effective_m 43 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 114.511429 {m 42 effective_m 42 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 117.304390 {m 41 effective_m 41 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 120.237000 {m 40 effective_m 40 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 123.320000 {m 39 effective_m 39 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 124.921558 {m 77 effective_m 77 n 2 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 126.565263 {m 38 effective_m 38 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 128.252800 {m 75 effective_m 75 n 2 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 129.985946 {m 37 effective_m 37 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 131.766575 {m 73 effective_m 73 n 2 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 133.596667 {m 36 effective_m 36 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 135.478310 {m 71 effective_m 71 n 2 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 137.413714 {m 35 effective_m 35 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 139.405217 {m 69 effective_m 69 n 2 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 141.455294 {m 34 effective_m 34 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 143.566567 {m 67 effective_m 67 n 2 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 145.741818 {m 33 effective_m 33 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 147.984000 {m 65 effective_m 65 n 2 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 150.296250 {m 32 effective_m 32 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 152.681905 {m 63 effective_m 63 n 2 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 155.144516 {m 31 effective_m 31 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 157.687869 {m 61 effective_m 61 n 2 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 160.316000 {m 30 effective_m 30 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 163.033220 {m 59 effective_m 59 n 2 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 165.844138 {m 29 effective_m 29 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 168.753684 {m 57 effective_m 57 n 2 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 171.767143 {m 28 effective_m 28 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 174.890182 {m 55 effective_m 55 n 2 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 178.128889 {m 27 effective_m 27 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 181.489811 {m 53 effective_m 53 n 2 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 184.980000 {m 26 effective_m 26 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 188.607059 {m 51 effective_m 51 n 2 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 192.379200 {m 25 effective_m 25 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 196.305306 {m 49 effective_m 49 n 2 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 200.395000 {m 24 effective_m 24 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 204.658723 {m 47 effective_m 47 n 2 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 209.107826 {m 23 effective_m 23 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 213.754667 {m 45 effective_m 45 n 2 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 218.612727 {m 22 effective_m 22 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 223.696744 {m 43 effective_m 43 n 2 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 229.022857 {m 21 effective_m 21 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 234.608780 {m 41 effective_m 41 n 2 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 240.474000 {m 20 effective_m 20 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 246.640000 {m 39 effective_m 39 n 2 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 249.843117 {m 77 effective_m 77 n 4 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 253.130526 {m 19 effective_m 19 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 256.505600 {m 75 effective_m 75 n 4 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 259.971892 {m 37 effective_m 37 n 2 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 263.533151 {m 73 effective_m 73 n 4 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 267.193333 {m 18 effective_m 18 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 270.956620 {m 71 effective_m 71 n 4 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 274.827429 {m 35 effective_m 35 n 2 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 278.810435 {m 69 effective_m 69 n 4 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 282.910588 {m 17 effective_m 17 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 287.133134 {m 67 effective_m 67 n 4 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 291.483636 {m 33 effective_m 33 n 2 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 295.968000 {m 65 effective_m 65 n 4 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 300.592500 {m 16 effective_m 16 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 305.363810 {m 63 effective_m 63 n 4 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 310.289032 {m 31 effective_m 31 n 2 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 315.375738 {m 61 effective_m 61 n 4 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 320.632000 {m 15 effective_m 15 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 326.066441 {m 59 effective_m 59 n 4 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 331.688276 {m 29 effective_m 29 n 2 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 337.507368 {m 57 effective_m 57 n 4 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 343.534286 {m 14 effective_m 14 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 349.780364 {m 55 effective_m 55 n 4 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 356.257778 {m 27 effective_m 27 n 2 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 362.979623 {m 53 effective_m 53 n 4 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 369.960000 {m 13 effective_m 13 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 377.214118 {m 51 effective_m 51 n 4 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 384.758400 {m 25 effective_m 25 n 2 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 392.610612 {m 49 effective_m 49 n 4 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 400.790000 {m 12 effective_m 12 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 409.317447 {m 47 effective_m 47 n 4 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 418.215652 {m 23 effective_m 23 n 2 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 427.509333 {m 45 effective_m 45 n 4 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 437.225455 {m 11 effective_m 11 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 447.393488 {m 43 effective_m 43 n 4 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 458.045714 {m 21 effective_m 21 n 2 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 469.217561 {m 41 effective_m 41 n 4 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 480.948000 {m 10 effective_m 10 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 493.280000 {m 39 effective_m 39 n 4 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 499.686234 {m 77 effective_m 77 n 8 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 506.261053 {m 19 effective_m 19 n 2 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 513.011200 {m 75 effective_m 75 n 8 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 519.943784 {m 37 effective_m 37 n 4 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 527.066301 {m 73 effective_m 73 n 8 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 534.386667 {m 9 effective_m 9 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 541.913239 {m 71 effective_m 71 n 8 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 549.654857 {m 35 effective_m 35 n 4 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 557.620870 {m 69 effective_m 69 n 8 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 565.821176 {m 17 effective_m 17 n 2 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 574.266269 {m 67 effective_m 67 n 8 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 582.967273 {m 33 effective_m 33 n 4 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 591.936000 {m 65 effective_m 65 n 8 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 601.185000 {m 8 effective_m 8 n 1 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 610.727619 {m 63 effective_m 63 n 8 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 620.578065 {m 31 effective_m 31 n 4 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 630.751475 {m 61 effective_m 61 n 8 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 641.264000 {m 15 effective_m 15 n 2 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 652.132881 {m 59 effective_m 59 n 8 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 663.376552 {m 29 effective_m 29 n 4 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 675.014737 {m 57 effective_m 57 n 8 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 687.068571 {m 14 effective_m 14 n 2 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 699.560727 {m 55 effective_m 55 n 8 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 712.515556 {m 27 effective_m 27 n 4 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 725.959245 {m 53 effective_m 53 n 8 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 739.920000 {m 13 effective_m 13 n 2 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 754.428235 {m 51 effective_m 51 n 8 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 769.516800 {m 25 effective_m 25 n 4 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0} 785.221224 {m 49 effective_m 49 n 8 l 2 l_cascade 0 l_cascade_predivider 1 k 1 tank_sel lctank2 tank_band lc_band0}</value>
           </parameter>
           <parameter>
             <name>base_device</name>
@@ -554,7 +554,7 @@
           </parameter>
           <parameter>
             <name>datarate</name>
-            <value>25650.6 Mbps</value>
+            <value>9618.96 Mbps</value>
           </parameter>
           <parameter>
             <name>dbg_capability_reg_enable</name>
@@ -606,7 +606,7 @@
           </parameter>
           <parameter>
             <name>enable_28G_buffer_fnl</name>
-            <value>true</value>
+            <value>false</value>
           </parameter>
           <parameter>
             <name>enable_28G_input_frm_abv_atx</name>
@@ -630,7 +630,7 @@
           </parameter>
           <parameter>
             <name>enable_8G_buffer_fnl</name>
-            <value>false</value>
+            <value>true</value>
           </parameter>
           <parameter>
             <name>enable_8G_path</name>
@@ -638,7 +638,7 @@
           </parameter>
           <parameter>
             <name>enable_GXT_clock_source</name>
-            <value>atx_lcl</value>
+            <value>disabled</value>
           </parameter>
           <parameter>
             <name>enable_GXT_out_buffer_abv</name>
@@ -774,7 +774,7 @@
           </parameter>
           <parameter>
             <name>gui_parameter_values</name>
-            <value>select_vco_output,1,0,10,1,1,12825.3 MHz,12825.3 MHz,25650.6 Mbps</value>
+            <value>select_vco_output,2,0,8,1,1,4809.48 MHz,9618.96 MHz,9618.96 Mbps</value>
           </parameter>
           <parameter>
             <name>hip_cal_en</name>
@@ -874,7 +874,7 @@
           </parameter>
           <parameter>
             <name>hssi_pma_cgb_master_datarate_bps</name>
-            <value>25650600000</value>
+            <value>9618960000</value>
           </parameter>
           <parameter>
             <name>hssi_pma_cgb_master_input_select</name>
@@ -1070,7 +1070,7 @@
           </parameter>
           <parameter>
             <name>l_counter</name>
-            <value>1</value>
+            <value>2</value>
           </parameter>
           <parameter>
             <name>lc_refclk_select</name>
@@ -1078,7 +1078,7 @@
           </parameter>
           <parameter>
             <name>m_counter</name>
-            <value>10</value>
+            <value>8</value>
           </parameter>
           <parameter>
             <name>manual_list</name>
@@ -1090,11 +1090,11 @@
           </parameter>
           <parameter>
             <name>mapped_output_clock_frequency</name>
-            <value>12825.3 MHz</value>
+            <value>4809.48 MHz</value>
           </parameter>
           <parameter>
             <name>mapped_primary_pll_buffer</name>
-            <value>GXT clock output buffer</value>
+            <value>GX clock output buffer</value>
           </parameter>
           <parameter>
             <name>mcgb_aux_clkin_cnt</name>
@@ -1114,11 +1114,11 @@
           </parameter>
           <parameter>
             <name>mcgb_in_clk_freq</name>
-            <value>12825.3</value>
+            <value>4809.48</value>
           </parameter>
           <parameter>
             <name>mcgb_out_datarate</name>
-            <value>25650.6</value>
+            <value>9618.96</value>
           </parameter>
           <parameter>
             <name>message_level</name>
@@ -1126,15 +1126,15 @@
           </parameter>
           <parameter>
             <name>output_clock_datarate</name>
-            <value>25650.6</value>
+            <value>9618.96</value>
           </parameter>
           <parameter>
             <name>output_clock_frequency</name>
-            <value>12825.3 MHz</value>
+            <value>4809.48 MHz</value>
           </parameter>
           <parameter>
             <name>pll_setting</name>
-            <value>refclk 641.265000 m_cnt 10 n_cnt 1 l_cnt 1 k_cnt 1 l_cascade 0 l_cascade_predivider 1 outclk {12825.3 MHz}</value>
+            <value>refclk 601.185000 m_cnt 8 n_cnt 1 l_cnt 2 k_cnt 1 l_cascade 0 l_cascade_predivider 1 outclk {4809.48 MHz}</value>
           </parameter>
           <parameter>
             <name>pma_speedgrade</name>
@@ -1150,11 +1150,11 @@
           </parameter>
           <parameter>
             <name>primary_pll_buffer</name>
-            <value>GXT clock output buffer</value>
+            <value>GX clock output buffer</value>
           </parameter>
           <parameter>
             <name>primary_use</name>
-            <value>hssi_hf</value>
+            <value>hssi_x1</value>
           </parameter>
           <parameter>
             <name>prot_mode</name>
@@ -1282,7 +1282,7 @@
           </parameter>
           <parameter>
             <name>rcfg_profile_select</name>
-            <value>1</value>
+            <value>2</value>
           </parameter>
           <parameter>
             <name>rcfg_reduced_files_enable</name>
@@ -1382,7 +1382,7 @@
           </parameter>
           <parameter>
             <name>reference_clock_frequency_fnl</name>
-            <value>641.265000</value>
+            <value>601.185000</value>
           </parameter>
           <parameter>
             <name>select_manual_config</name>
@@ -1394,7 +1394,7 @@
           </parameter>
           <parameter>
             <name>set_auto_reference_clock_frequency</name>
-            <value>641.265</value>
+            <value>601.185</value>
           </parameter>
           <parameter>
             <name>set_capability_reg_enable</name>
@@ -1438,7 +1438,7 @@
           </parameter>
           <parameter>
             <name>set_output_clock_frequency</name>
-            <value>12825.3</value>
+            <value>4809.48</value>
           </parameter>
           <parameter>
             <name>set_rcfg_emb_strm_enable</name>
@@ -1470,14 +1470,14 @@
           </parameter>
           <parameter>
             <name>vco_freq</name>
-            <value>12825.3 MHz</value>
+            <value>9618.96 MHz</value>
           </parameter>
         </parameters>
         <interconnectAssignments></interconnectAssignments>
         <className>altera_xcvr_atx_pll_s10_htile</className>
         <version>19.1.1</version>
         <name>q_sys_xcvr_atx_pll_s10_htile_1</name>
-        <uniqueName>q_sys_xcvr_atx_pll_s10_htile_1_altera_xcvr_atx_pll_s10_htile_1911_ebazqsi</uniqueName>
+        <uniqueName>q_sys_xcvr_atx_pll_s10_htile_1_altera_xcvr_atx_pll_s10_htile_1911_3lxuczy</uniqueName>
         <nonce>0</nonce>
         <incidentConnections></incidentConnections>
         <path>q_sys_xcvr_atx_pll_s10_htile_1.q_sys_xcvr_atx_pll_s10_htile_1</path>

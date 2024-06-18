@@ -5,7 +5,7 @@
  version="1.0"
  fabric="QSYS">
  <!-- Format version 23.3 104 (Future versions may contain additional information.) -->
- <!-- 2024.05.23.13:04:50 -->
+ <!-- 2024.06.07.12:41:49 -->
  <!-- A collection of modules and connections -->
  <parameter name="AUTO_GENERATION_ID">
   <type>java.lang.Integer</type>
@@ -193,7 +193,7 @@
    name="qsfp_xcvr_test_xcvr_native_s10_htile_1"
    kind="altera_xcvr_native_s10_htile"
    version="19.3.0"
-   entity="qsfp_xcvr_test_xcvr_native_s10_htile_1_altera_xcvr_native_s10_htile_1930_mcysl6y"
+   entity="qsfp_xcvr_test_xcvr_native_s10_htile_1_altera_xcvr_native_s10_htile_1930_utxzjjq"
    library="altera_xcvr_native_s10_htile_1930"
    path="qsfp_xcvr_test_xcvr_native_s10_htile_1"
    hpath="qsfp_xcvr_test_xcvr_native_s10_htile_1"
@@ -410,7 +410,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="rcfg_profile_select">
    <type>int</type>
-   <value>1</value>
+   <value>2</value>
    <derived>false</derived>
    <enabled>true</enabled>
    <visible>true</visible>
@@ -799,7 +799,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="channel_type">
    <type>java.lang.String</type>
-   <value>GXT</value>
+   <value>GX</value>
    <derived>false</derived>
    <enabled>true</enabled>
    <visible>true</visible>
@@ -847,7 +847,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="set_data_rate">
    <type>java.lang.String</type>
-   <value>25650.6</value>
+   <value>9618.96</value>
    <derived>false</derived>
    <enabled>true</enabled>
    <visible>true</visible>
@@ -855,7 +855,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="data_rate_bps">
    <type>java.lang.String</type>
-   <value>25650600000</value>
+   <value>9618960000</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -863,7 +863,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="l_tx_transfer_clk_hz">
    <type>int</type>
-   <value>801581250</value>
+   <value>300592500</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -871,7 +871,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="l_rx_transfer_clk_hz">
    <type>int</type>
-   <value>801581250</value>
+   <value>300592500</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -1327,7 +1327,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="pll_select">
    <type>int</type>
-   <value>0</value>
+   <value>1</value>
    <derived>false</derived>
    <enabled>true</enabled>
    <visible>true</visible>
@@ -1431,7 +1431,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="set_cdr_refclk_freq">
    <type>java.lang.String</type>
-   <value>641.265000</value>
+   <value>601.185000</value>
    <derived>false</derived>
    <enabled>true</enabled>
    <visible>true</visible>
@@ -2991,7 +2991,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="l_pll_settings">
    <type>java.lang.String</type>
-   <value>337.507895 {refclk 337.507895 m 19 n 1 lpfd 2 lpd 1 fvco 12825.3} 675.015789 {refclk 675.015789 m 19 n 2 lpfd 2 lpd 1 fvco 12825.3} 320.632500 {refclk 320.632500 m 20 n 1 lpfd 2 lpd 1 fvco 12825.3} 641.265000 {refclk 641.265000 m 20 n 2 lpfd 2 lpd 1 fvco 12825.3} 305.364286 {refclk 305.364286 m 21 n 1 lpfd 2 lpd 1 fvco 12825.3} 610.728571 {refclk 610.728571 m 21 n 2 lpfd 2 lpd 1 fvco 12825.3} 291.484091 {refclk 291.484091 m 22 n 1 lpfd 2 lpd 1 fvco 12825.3} 582.968182 {refclk 582.968182 m 22 n 2 lpfd 2 lpd 1 fvco 12825.3} 278.810870 {refclk 278.810870 m 23 n 1 lpfd 2 lpd 1 fvco 12825.3} 557.621739 {refclk 557.621739 m 23 n 2 lpfd 2 lpd 1 fvco 12825.3} 267.193750 {refclk 267.193750 m 24 n 1 lpfd 2 lpd 1 fvco 12825.3} 534.387500 {refclk 534.387500 m 24 n 2 lpfd 2 lpd 1 fvco 12825.3} 256.506000 {refclk 256.506000 m 25 n 1 lpfd 2 lpd 1 fvco 12825.3} 513.012000 {refclk 513.012000 m 25 n 2 lpfd 2 lpd 1 fvco 12825.3} 246.640385 {refclk 246.640385 m 26 n 1 lpfd 2 lpd 1 fvco 12825.3} 493.280769 {refclk 493.280769 m 26 n 2 lpfd 2 lpd 1 fvco 12825.3} 237.505556 {refclk 237.505556 m 27 n 1 lpfd 2 lpd 1 fvco 12825.3} 475.011111 {refclk 475.011111 m 27 n 2 lpfd 2 lpd 1 fvco 12825.3} 229.023214 {refclk 229.023214 m 28 n 1 lpfd 2 lpd 1 fvco 12825.3} 458.046429 {refclk 458.046429 m 28 n 2 lpfd 2 lpd 1 fvco 12825.3} 221.125862 {refclk 221.125862 m 29 n 1 lpfd 2 lpd 1 fvco 12825.3} 442.251724 {refclk 442.251724 m 29 n 2 lpfd 2 lpd 1 fvco 12825.3} 213.755000 {refclk 213.755000 m 30 n 1 lpfd 2 lpd 1 fvco 12825.3} 427.510000 {refclk 427.510000 m 30 n 2 lpfd 2 lpd 1 fvco 12825.3} 206.859677 {refclk 206.859677 m 31 n 1 lpfd 2 lpd 1 fvco 12825.3} 413.719355 {refclk 413.719355 m 31 n 2 lpfd 2 lpd 1 fvco 12825.3} 200.395312 {refclk 200.395312 m 32 n 1 lpfd 2 lpd 1 fvco 12825.3} 400.790625 {refclk 400.790625 m 32 n 2 lpfd 2 lpd 1 fvco 12825.3} 194.322727 {refclk 194.322727 m 33 n 1 lpfd 2 lpd 1 fvco 12825.3} 388.645455 {refclk 388.645455 m 33 n 2 lpfd 2 lpd 1 fvco 12825.3} 777.290909 {refclk 777.290909 m 33 n 4 lpfd 2 lpd 1 fvco 12825.3} 188.607353 {refclk 188.607353 m 34 n 1 lpfd 2 lpd 1 fvco 12825.3} 377.214706 {refclk 377.214706 m 34 n 2 lpfd 2 lpd 1 fvco 12825.3} 754.429412 {refclk 754.429412 m 34 n 4 lpfd 2 lpd 1 fvco 12825.3} 183.218571 {refclk 183.218571 m 35 n 1 lpfd 2 lpd 1 fvco 12825.3} 366.437143 {refclk 366.437143 m 35 n 2 lpfd 2 lpd 1 fvco 12825.3} 732.874286 {refclk 732.874286 m 35 n 4 lpfd 2 lpd 1 fvco 12825.3} 178.129167 {refclk 178.129167 m 36 n 1 lpfd 2 lpd 1 fvco 12825.3} 356.258333 {refclk 356.258333 m 36 n 2 lpfd 2 lpd 1 fvco 12825.3} 712.516667 {refclk 712.516667 m 36 n 4 lpfd 2 lpd 1 fvco 12825.3} 173.314865 {refclk 173.314865 m 37 n 1 lpfd 2 lpd 1 fvco 12825.3} 346.629730 {refclk 346.629730 m 37 n 2 lpfd 2 lpd 1 fvco 12825.3} 693.259459 {refclk 693.259459 m 37 n 4 lpfd 2 lpd 1 fvco 12825.3} 168.753947 {refclk 168.753947 m 38 n 1 lpfd 2 lpd 1 fvco 12825.3} 164.426923 {refclk 164.426923 m 39 n 1 lpfd 2 lpd 1 fvco 12825.3} 328.853846 {refclk 328.853846 m 39 n 2 lpfd 2 lpd 1 fvco 12825.3} 657.707692 {refclk 657.707692 m 39 n 4 lpfd 2 lpd 1 fvco 12825.3} 160.316250 {refclk 160.316250 m 40 n 1 lpfd 2 lpd 1 fvco 12825.3} 156.406098 {refclk 156.406098 m 41 n 1 lpfd 2 lpd 1 fvco 12825.3} 312.812195 {refclk 312.812195 m 41 n 2 lpfd 2 lpd 1 fvco 12825.3} 625.624390 {refclk 625.624390 m 41 n 4 lpfd 2 lpd 1 fvco 12825.3} 152.682143 {refclk 152.682143 m 42 n 1 lpfd 2 lpd 1 fvco 12825.3} 149.131395 {refclk 149.131395 m 43 n 1 lpfd 2 lpd 1 fvco 12825.3} 298.262791 {refclk 298.262791 m 43 n 2 lpfd 2 lpd 1 fvco 12825.3} 596.525581 {refclk 596.525581 m 43 n 4 lpfd 2 lpd 1 fvco 12825.3} 145.742045 {refclk 145.742045 m 44 n 1 lpfd 2 lpd 1 fvco 12825.3} 142.503333 {refclk 142.503333 m 45 n 1 lpfd 2 lpd 1 fvco 12825.3} 285.006667 {refclk 285.006667 m 45 n 2 lpfd 2 lpd 1 fvco 12825.3} 570.013333 {refclk 570.013333 m 45 n 4 lpfd 2 lpd 1 fvco 12825.3} 139.405435 {refclk 139.405435 m 46 n 1 lpfd 2 lpd 1 fvco 12825.3} 136.439362 {refclk 136.439362 m 47 n 1 lpfd 2 lpd 1 fvco 12825.3} 272.878723 {refclk 272.878723 m 47 n 2 lpfd 2 lpd 1 fvco 12825.3} 545.757447 {refclk 545.757447 m 47 n 4 lpfd 2 lpd 1 fvco 12825.3} 133.596875 {refclk 133.596875 m 48 n 1 lpfd 2 lpd 1 fvco 12825.3} 130.870408 {refclk 130.870408 m 49 n 1 lpfd 2 lpd 1 fvco 12825.3} 261.740816 {refclk 261.740816 m 49 n 2 lpfd 2 lpd 1 fvco 12825.3} 523.481633 {refclk 523.481633 m 49 n 4 lpfd 2 lpd 1 fvco 12825.3} 128.253000 {refclk 128.253000 m 50 n 1 lpfd 2 lpd 1 fvco 12825.3} 125.738235 {refclk 125.738235 m 51 n 1 lpfd 2 lpd 1 fvco 12825.3} 251.476471 {refclk 251.476471 m 51 n 2 lpfd 2 lpd 1 fvco 12825.3} 502.952941 {refclk 502.952941 m 51 n 4 lpfd 2 lpd 1 fvco 12825.3} 123.320192 {refclk 123.320192 m 52 n 1 lpfd 2 lpd 1 fvco 12825.3} 120.993396 {refclk 120.993396 m 53 n 1 lpfd 2 lpd 1 fvco 12825.3} 241.986792 {refclk 241.986792 m 53 n 2 lpfd 2 lpd 1 fvco 12825.3} 483.973585 {refclk 483.973585 m 53 n 4 lpfd 2 lpd 1 fvco 12825.3} 118.752778 {refclk 118.752778 m 54 n 1 lpfd 2 lpd 1 fvco 12825.3} 116.593636 {refclk 116.593636 m 55 n 1 lpfd 2 lpd 1 fvco 12825.3} 233.187273 {refclk 233.187273 m 55 n 2 lpfd 2 lpd 1 fvco 12825.3} 466.374545 {refclk 466.374545 m 55 n 4 lpfd 2 lpd 1 fvco 12825.3} 114.511607 {refclk 114.511607 m 56 n 1 lpfd 2 lpd 1 fvco 12825.3} 112.502632 {refclk 112.502632 m 57 n 1 lpfd 2 lpd 1 fvco 12825.3} 225.005263 {refclk 225.005263 m 57 n 2 lpfd 2 lpd 1 fvco 12825.3} 450.010526 {refclk 450.010526 m 57 n 4 lpfd 2 lpd 1 fvco 12825.3} 110.562931 {refclk 110.562931 m 58 n 1 lpfd 2 lpd 1 fvco 12825.3} 108.688983 {refclk 108.688983 m 59 n 1 lpfd 2 lpd 1 fvco 12825.3} 217.377966 {refclk 217.377966 m 59 n 2 lpfd 2 lpd 1 fvco 12825.3} 434.755932 {refclk 434.755932 m 59 n 4 lpfd 2 lpd 1 fvco 12825.3} 106.877500 {refclk 106.877500 m 60 n 1 lpfd 2 lpd 1 fvco 12825.3} 105.125410 {refclk 105.125410 m 61 n 1 lpfd 2 lpd 1 fvco 12825.3} 210.250820 {refclk 210.250820 m 61 n 2 lpfd 2 lpd 1 fvco 12825.3} 420.501639 {refclk 420.501639 m 61 n 4 lpfd 2 lpd 1 fvco 12825.3} 103.429839 {refclk 103.429839 m 62 n 1 lpfd 2 lpd 1 fvco 12825.3} 101.788095 {refclk 101.788095 m 63 n 1 lpfd 2 lpd 1 fvco 12825.3} 203.576190 {refclk 203.576190 m 63 n 2 lpfd 2 lpd 1 fvco 12825.3} 407.152381 {refclk 407.152381 m 63 n 4 lpfd 2 lpd 1 fvco 12825.3} 100.197656 {refclk 100.197656 m 64 n 1 lpfd 2 lpd 1 fvco 12825.3} 98.656154 {refclk 98.656154 m 65 n 1 lpfd 2 lpd 1 fvco 12825.3} 197.312308 {refclk 197.312308 m 65 n 2 lpfd 2 lpd 1 fvco 12825.3} 394.624615 {refclk 394.624615 m 65 n 4 lpfd 2 lpd 1 fvco 12825.3} 789.249231 {refclk 789.249231 m 65 n 8 lpfd 2 lpd 1 fvco 12825.3} 97.161364 {refclk 97.161364 m 66 n 1 lpfd 2 lpd 1 fvco 12825.3} 95.711194 {refclk 95.711194 m 67 n 1 lpfd 2 lpd 1 fvco 12825.3} 191.422388 {refclk 191.422388 m 67 n 2 lpfd 2 lpd 1 fvco 12825.3} 382.844776 {refclk 382.844776 m 67 n 4 lpfd 2 lpd 1 fvco 12825.3} 765.689552 {refclk 765.689552 m 67 n 8 lpfd 2 lpd 1 fvco 12825.3} 94.303676 {refclk 94.303676 m 68 n 1 lpfd 2 lpd 1 fvco 12825.3} 92.936957 {refclk 92.936957 m 69 n 1 lpfd 2 lpd 1 fvco 12825.3} 185.873913 {refclk 185.873913 m 69 n 2 lpfd 2 lpd 1 fvco 12825.3} 371.747826 {refclk 371.747826 m 69 n 4 lpfd 2 lpd 1 fvco 12825.3} 743.495652 {refclk 743.495652 m 69 n 8 lpfd 2 lpd 1 fvco 12825.3} 91.609286 {refclk 91.609286 m 70 n 1 lpfd 2 lpd 1 fvco 12825.3} 90.319014 {refclk 90.319014 m 71 n 1 lpfd 2 lpd 1 fvco 12825.3} 180.638028 {refclk 180.638028 m 71 n 2 lpfd 2 lpd 1 fvco 12825.3} 361.276056 {refclk 361.276056 m 71 n 4 lpfd 2 lpd 1 fvco 12825.3} 722.552113 {refclk 722.552113 m 71 n 8 lpfd 2 lpd 1 fvco 12825.3} 89.064583 {refclk 89.064583 m 72 n 1 lpfd 2 lpd 1 fvco 12825.3} 87.844521 {refclk 87.844521 m 73 n 1 lpfd 2 lpd 1 fvco 12825.3} 175.689041 {refclk 175.689041 m 73 n 2 lpfd 2 lpd 1 fvco 12825.3} 351.378082 {refclk 351.378082 m 73 n 4 lpfd 2 lpd 1 fvco 12825.3} 702.756164 {refclk 702.756164 m 73 n 8 lpfd 2 lpd 1 fvco 12825.3} 86.657432 {refclk 86.657432 m 74 n 1 lpfd 2 lpd 1 fvco 12825.3} 85.502000 {refclk 85.502000 m 75 n 1 lpfd 2 lpd 1 fvco 12825.3} 171.004000 {refclk 171.004000 m 75 n 2 lpfd 2 lpd 1 fvco 12825.3} 342.008000 {refclk 342.008000 m 75 n 4 lpfd 2 lpd 1 fvco 12825.3} 684.016000 {refclk 684.016000 m 75 n 8 lpfd 2 lpd 1 fvco 12825.3} 84.376974 {refclk 84.376974 m 76 n 1 lpfd 2 lpd 1 fvco 12825.3} 83.281169 {refclk 83.281169 m 77 n 1 lpfd 2 lpd 1 fvco 12825.3} 166.562338 {refclk 166.562338 m 77 n 2 lpfd 2 lpd 1 fvco 12825.3} 333.124675 {refclk 333.124675 m 77 n 4 lpfd 2 lpd 1 fvco 12825.3} 666.249351 {refclk 666.249351 m 77 n 8 lpfd 2 lpd 1 fvco 12825.3} 82.213462 {refclk 82.213462 m 78 n 1 lpfd 2 lpd 1 fvco 12825.3} 81.172785 {refclk 81.172785 m 79 n 1 lpfd 2 lpd 1 fvco 12825.3} 162.345570 {refclk 162.345570 m 79 n 2 lpfd 2 lpd 1 fvco 12825.3} 324.691139 {refclk 324.691139 m 79 n 4 lpfd 2 lpd 1 fvco 12825.3} 649.382278 {refclk 649.382278 m 79 n 8 lpfd 2 lpd 1 fvco 12825.3} 80.158125 {refclk 80.158125 m 80 n 1 lpfd 2 lpd 1 fvco 12825.3} 79.168519 {refclk 79.168519 m 81 n 1 lpfd 2 lpd 1 fvco 12825.3} 158.337037 {refclk 158.337037 m 81 n 2 lpfd 2 lpd 1 fvco 12825.3} 316.674074 {refclk 316.674074 m 81 n 4 lpfd 2 lpd 1 fvco 12825.3} 633.348148 {refclk 633.348148 m 81 n 8 lpfd 2 lpd 1 fvco 12825.3} 78.203049 {refclk 78.203049 m 82 n 1 lpfd 2 lpd 1 fvco 12825.3} 77.260843 {refclk 77.260843 m 83 n 1 lpfd 2 lpd 1 fvco 12825.3} 154.521687 {refclk 154.521687 m 83 n 2 lpfd 2 lpd 1 fvco 12825.3} 309.043373 {refclk 309.043373 m 83 n 4 lpfd 2 lpd 1 fvco 12825.3} 618.086747 {refclk 618.086747 m 83 n 8 lpfd 2 lpd 1 fvco 12825.3} 76.341071 {refclk 76.341071 m 84 n 1 lpfd 2 lpd 1 fvco 12825.3} 75.442941 {refclk 75.442941 m 85 n 1 lpfd 2 lpd 1 fvco 12825.3} 150.885882 {refclk 150.885882 m 85 n 2 lpfd 2 lpd 1 fvco 12825.3} 301.771765 {refclk 301.771765 m 85 n 4 lpfd 2 lpd 1 fvco 12825.3} 603.543529 {refclk 603.543529 m 85 n 8 lpfd 2 lpd 1 fvco 12825.3} 74.565698 {refclk 74.565698 m 86 n 1 lpfd 2 lpd 1 fvco 12825.3} 73.708621 {refclk 73.708621 m 87 n 1 lpfd 2 lpd 1 fvco 12825.3} 147.417241 {refclk 147.417241 m 87 n 2 lpfd 2 lpd 1 fvco 12825.3} 294.834483 {refclk 294.834483 m 87 n 4 lpfd 2 lpd 1 fvco 12825.3} 589.668966 {refclk 589.668966 m 87 n 8 lpfd 2 lpd 1 fvco 12825.3} 72.871023 {refclk 72.871023 m 88 n 1 lpfd 2 lpd 1 fvco 12825.3} 72.052247 {refclk 72.052247 m 89 n 1 lpfd 2 lpd 1 fvco 12825.3} 144.104494 {refclk 144.104494 m 89 n 2 lpfd 2 lpd 1 fvco 12825.3} 288.208989 {refclk 288.208989 m 89 n 4 lpfd 2 lpd 1 fvco 12825.3} 576.417978 {refclk 576.417978 m 89 n 8 lpfd 2 lpd 1 fvco 12825.3} 71.251667 {refclk 71.251667 m 90 n 1 lpfd 2 lpd 1 fvco 12825.3} 70.468681 {refclk 70.468681 m 91 n 1 lpfd 2 lpd 1 fvco 12825.3} 140.937363 {refclk 140.937363 m 91 n 2 lpfd 2 lpd 1 fvco 12825.3} 281.874725 {refclk 281.874725 m 91 n 4 lpfd 2 lpd 1 fvco 12825.3} 563.749451 {refclk 563.749451 m 91 n 8 lpfd 2 lpd 1 fvco 12825.3} 69.702717 {refclk 69.702717 m 92 n 1 lpfd 2 lpd 1 fvco 12825.3} 68.953226 {refclk 68.953226 m 93 n 1 lpfd 2 lpd 1 fvco 12825.3} 137.906452 {refclk 137.906452 m 93 n 2 lpfd 2 lpd 1 fvco 12825.3} 275.812903 {refclk 275.812903 m 93 n 4 lpfd 2 lpd 1 fvco 12825.3} 551.625806 {refclk 551.625806 m 93 n 8 lpfd 2 lpd 1 fvco 12825.3} 68.219681 {refclk 68.219681 m 94 n 1 lpfd 2 lpd 1 fvco 12825.3} 67.501579 {refclk 67.501579 m 95 n 1 lpfd 2 lpd 1 fvco 12825.3} 135.003158 {refclk 135.003158 m 95 n 2 lpfd 2 lpd 1 fvco 12825.3} 270.006316 {refclk 270.006316 m 95 n 4 lpfd 2 lpd 1 fvco 12825.3} 540.012632 {refclk 540.012632 m 95 n 8 lpfd 2 lpd 1 fvco 12825.3} 66.798437 {refclk 66.798437 m 96 n 1 lpfd 2 lpd 1 fvco 12825.3} 66.109794 {refclk 66.109794 m 97 n 1 lpfd 2 lpd 1 fvco 12825.3} 132.219588 {refclk 132.219588 m 97 n 2 lpfd 2 lpd 1 fvco 12825.3} 264.439175 {refclk 264.439175 m 97 n 4 lpfd 2 lpd 1 fvco 12825.3} 528.878351 {refclk 528.878351 m 97 n 8 lpfd 2 lpd 1 fvco 12825.3} 65.435204 {refclk 65.435204 m 98 n 1 lpfd 2 lpd 1 fvco 12825.3} 64.774242 {refclk 64.774242 m 99 n 1 lpfd 2 lpd 1 fvco 12825.3} 129.548485 {refclk 129.548485 m 99 n 2 lpfd 2 lpd 1 fvco 12825.3} 259.096970 {refclk 259.096970 m 99 n 4 lpfd 2 lpd 1 fvco 12825.3} 518.193939 {refclk 518.193939 m 99 n 8 lpfd 2 lpd 1 fvco 12825.3} 64.126500 {refclk 64.126500 m 100 n 1 lpfd 2 lpd 1 fvco 12825.3} 63.491584 {refclk 63.491584 m 101 n 1 lpfd 2 lpd 1 fvco 12825.3} 126.983168 {refclk 126.983168 m 101 n 2 lpfd 2 lpd 1 fvco 12825.3} 253.966337 {refclk 253.966337 m 101 n 4 lpfd 2 lpd 1 fvco 12825.3} 507.932673 {refclk 507.932673 m 101 n 8 lpfd 2 lpd 1 fvco 12825.3} 62.869118 {refclk 62.869118 m 102 n 1 lpfd 2 lpd 1 fvco 12825.3} 62.258738 {refclk 62.258738 m 103 n 1 lpfd 2 lpd 1 fvco 12825.3} 124.517476 {refclk 124.517476 m 103 n 2 lpfd 2 lpd 1 fvco 12825.3} 249.034951 {refclk 249.034951 m 103 n 4 lpfd 2 lpd 1 fvco 12825.3} 498.069903 {refclk 498.069903 m 103 n 8 lpfd 2 lpd 1 fvco 12825.3} 61.660096 {refclk 61.660096 m 104 n 1 lpfd 2 lpd 1 fvco 12825.3} 61.072857 {refclk 61.072857 m 105 n 1 lpfd 2 lpd 1 fvco 12825.3} 122.145714 {refclk 122.145714 m 105 n 2 lpfd 2 lpd 1 fvco 12825.3} 244.291429 {refclk 244.291429 m 105 n 4 lpfd 2 lpd 1 fvco 12825.3} 488.582857 {refclk 488.582857 m 105 n 8 lpfd 2 lpd 1 fvco 12825.3} 60.496698 {refclk 60.496698 m 106 n 1 lpfd 2 lpd 1 fvco 12825.3} 59.931308 {refclk 59.931308 m 107 n 1 lpfd 2 lpd 1 fvco 12825.3} 119.862617 {refclk 119.862617 m 107 n 2 lpfd 2 lpd 1 fvco 12825.3} 239.725234 {refclk 239.725234 m 107 n 4 lpfd 2 lpd 1 fvco 12825.3} 479.450467 {refclk 479.450467 m 107 n 8 lpfd 2 lpd 1 fvco 12825.3} 59.376389 {refclk 59.376389 m 108 n 1 lpfd 2 lpd 1 fvco 12825.3} 58.831651 {refclk 58.831651 m 109 n 1 lpfd 2 lpd 1 fvco 12825.3} 117.663303 {refclk 117.663303 m 109 n 2 lpfd 2 lpd 1 fvco 12825.3} 235.326606 {refclk 235.326606 m 109 n 4 lpfd 2 lpd 1 fvco 12825.3} 470.653211 {refclk 470.653211 m 109 n 8 lpfd 2 lpd 1 fvco 12825.3} 58.296818 {refclk 58.296818 m 110 n 1 lpfd 2 lpd 1 fvco 12825.3} 57.771622 {refclk 57.771622 m 111 n 1 lpfd 2 lpd 1 fvco 12825.3} 115.543243 {refclk 115.543243 m 111 n 2 lpfd 2 lpd 1 fvco 12825.3} 231.086486 {refclk 231.086486 m 111 n 4 lpfd 2 lpd 1 fvco 12825.3} 462.172973 {refclk 462.172973 m 111 n 8 lpfd 2 lpd 1 fvco 12825.3} 57.255804 {refclk 57.255804 m 112 n 1 lpfd 2 lpd 1 fvco 12825.3} 56.749115 {refclk 56.749115 m 113 n 1 lpfd 2 lpd 1 fvco 12825.3} 113.498230 {refclk 113.498230 m 113 n 2 lpfd 2 lpd 1 fvco 12825.3} 226.996460 {refclk 226.996460 m 113 n 4 lpfd 2 lpd 1 fvco 12825.3} 453.992920 {refclk 453.992920 m 113 n 8 lpfd 2 lpd 1 fvco 12825.3} 56.251316 {refclk 56.251316 m 114 n 1 lpfd 2 lpd 1 fvco 12825.3} 55.762174 {refclk 55.762174 m 115 n 1 lpfd 2 lpd 1 fvco 12825.3} 111.524348 {refclk 111.524348 m 115 n 2 lpfd 2 lpd 1 fvco 12825.3} 223.048696 {refclk 223.048696 m 115 n 4 lpfd 2 lpd 1 fvco 12825.3} 446.097391 {refclk 446.097391 m 115 n 8 lpfd 2 lpd 1 fvco 12825.3} 55.281466 {refclk 55.281466 m 116 n 1 lpfd 2 lpd 1 fvco 12825.3} 54.808974 {refclk 54.808974 m 117 n 1 lpfd 2 lpd 1 fvco 12825.3} 109.617949 {refclk 109.617949 m 117 n 2 lpfd 2 lpd 1 fvco 12825.3} 219.235897 {refclk 219.235897 m 117 n 4 lpfd 2 lpd 1 fvco 12825.3} 438.471795 {refclk 438.471795 m 117 n 8 lpfd 2 lpd 1 fvco 12825.3} 54.344492 {refclk 54.344492 m 118 n 1 lpfd 2 lpd 1 fvco 12825.3} 53.887815 {refclk 53.887815 m 119 n 1 lpfd 2 lpd 1 fvco 12825.3} 107.775630 {refclk 107.775630 m 119 n 2 lpfd 2 lpd 1 fvco 12825.3} 215.551261 {refclk 215.551261 m 119 n 4 lpfd 2 lpd 1 fvco 12825.3} 431.102521 {refclk 431.102521 m 119 n 8 lpfd 2 lpd 1 fvco 12825.3} 53.438750 {refclk 53.438750 m 120 n 1 lpfd 2 lpd 1 fvco 12825.3} 52.997107 {refclk 52.997107 m 121 n 1 lpfd 2 lpd 1 fvco 12825.3} 105.994215 {refclk 105.994215 m 121 n 2 lpfd 2 lpd 1 fvco 12825.3} 211.988430 {refclk 211.988430 m 121 n 4 lpfd 2 lpd 1 fvco 12825.3} 423.976860 {refclk 423.976860 m 121 n 8 lpfd 2 lpd 1 fvco 12825.3} 52.562705 {refclk 52.562705 m 122 n 1 lpfd 2 lpd 1 fvco 12825.3} 52.135366 {refclk 52.135366 m 123 n 1 lpfd 2 lpd 1 fvco 12825.3} 104.270732 {refclk 104.270732 m 123 n 2 lpfd 2 lpd 1 fvco 12825.3} 208.541463 {refclk 208.541463 m 123 n 4 lpfd 2 lpd 1 fvco 12825.3} 417.082927 {refclk 417.082927 m 123 n 8 lpfd 2 lpd 1 fvco 12825.3} 51.714919 {refclk 51.714919 m 124 n 1 lpfd 2 lpd 1 fvco 12825.3} 51.301200 {refclk 51.301200 m 125 n 1 lpfd 2 lpd 1 fvco 12825.3} 102.602400 {refclk 102.602400 m 125 n 2 lpfd 2 lpd 1 fvco 12825.3} 205.204800 {refclk 205.204800 m 125 n 4 lpfd 2 lpd 1 fvco 12825.3} 410.409600 {refclk 410.409600 m 125 n 8 lpfd 2 lpd 1 fvco 12825.3} 50.894048 {refclk 50.894048 m 126 n 1 lpfd 2 lpd 1 fvco 12825.3} 50.493307 {refclk 50.493307 m 127 n 1 lpfd 2 lpd 1 fvco 12825.3} 100.986614 {refclk 100.986614 m 127 n 2 lpfd 2 lpd 1 fvco 12825.3} 201.973228 {refclk 201.973228 m 127 n 4 lpfd 2 lpd 1 fvco 12825.3} 403.946457 {refclk 403.946457 m 127 n 8 lpfd 2 lpd 1 fvco 12825.3} allowed_ranges {50.493307 50.894048 51.301200 51.714919 52.135366 52.562705 52.997107 53.438750 53.887815 54.344492 54.808974 55.281466 55.762174 56.251316 56.749115 57.255804 57.771622 58.296818 58.831651 59.376389 59.931308 60.496698 61.072857 61.660096 62.258738 62.869118 63.491584 64.126500 64.774242 65.435204 66.109794 66.798437 67.501579 68.219681 68.953226 69.702717 70.468681 71.251667 72.052247 72.871023 73.708621 74.565698 75.442941 76.341071 77.260843 78.203049 79.168519 80.158125 81.172785 82.213462 83.281169 84.376974 85.502000 86.657432 87.844521 89.064583 90.319014 91.609286 92.936957 94.303676 95.711194 97.161364 98.656154 100.197656 100.986614 101.788095 102.602400 103.429839 104.270732 105.125410 105.994215 106.877500 107.775630 108.688983 109.617949 110.562931 111.524348 112.502632 113.498230 114.511607 115.543243 116.593636 117.663303 118.752778 119.862617 120.993396 122.145714 123.320192 124.517476 125.738235 126.983168 128.253000 129.548485 130.870408 132.219588 133.596875 135.003158 136.439362 137.906452 139.405435 140.937363 142.503333 144.104494 145.742045 147.417241 149.131395 150.885882 152.682143 154.521687 156.406098 158.337037 160.316250 162.345570 164.426923 166.562338 168.753947 171.004000 173.314865 175.689041 178.129167 180.638028 183.218571 185.873913 188.607353 191.422388 194.322727 197.312308 200.395312 201.973228 203.576190 205.204800 206.859677 208.541463 210.250820 211.988430 213.755000 215.551261 217.377966 219.235897 221.125862 223.048696 225.005263 226.996460 229.023214 231.086486 233.187273 235.326606 237.505556 239.725234 241.986792 244.291429 246.640385 249.034951 251.476471 253.966337 256.506000 259.096970 261.740816 264.439175 267.193750 270.006316 272.878723 275.812903 278.810870 281.874725 285.006667 288.208989 291.484091 294.834483 298.262791 301.771765 305.364286 309.043373 312.812195 316.674074 320.632500 324.691139 328.853846 333.124675 337.507895 342.008000 346.629730 351.378082 356.258333 361.276056 366.437143 371.747826 377.214706 382.844776 388.645455 394.624615 400.790625 403.946457 407.152381 410.409600 413.719355 417.082927 420.501639 423.976860 427.510000 431.102521 434.755932 438.471795 442.251724 446.097391 450.010526 453.992920 458.046429 462.172973 466.374545 470.653211 475.011111 479.450467 483.973585 488.582857 493.280769 498.069903 502.952941 507.932673 513.012000 518.193939 523.481633 528.878351 534.387500 540.012632 545.757447 551.625806 557.621739 563.749451 570.013333 576.417978 582.968182 589.668966 596.525581 603.543529 610.728571 618.086747 625.624390 633.348148 641.265000 649.382278 657.707692 666.249351 675.015789 684.016000 693.259459 702.756164 712.516667 722.552113 732.874286 743.495652 754.429412 765.689552 777.290909 789.249231}</value>
+   <value>343.534286 {refclk 343.534286 m 14 n 1 lpfd 2 lpd 2 fvco 9618.96} 687.068571 {refclk 687.068571 m 14 n 2 lpfd 2 lpd 2 fvco 9618.96} 320.632000 {refclk 320.632000 m 15 n 1 lpfd 2 lpd 2 fvco 9618.96} 641.264000 {refclk 641.264000 m 15 n 2 lpfd 2 lpd 2 fvco 9618.96} 300.592500 {refclk 300.592500 m 16 n 1 lpfd 2 lpd 2 fvco 9618.96} 601.185000 {refclk 601.185000 m 16 n 2 lpfd 2 lpd 2 fvco 9618.96} 282.910588 {refclk 282.910588 m 17 n 1 lpfd 2 lpd 2 fvco 9618.96} 565.821176 {refclk 565.821176 m 17 n 2 lpfd 2 lpd 2 fvco 9618.96} 267.193333 {refclk 267.193333 m 18 n 1 lpfd 2 lpd 2 fvco 9618.96} 534.386667 {refclk 534.386667 m 18 n 2 lpfd 2 lpd 2 fvco 9618.96} 253.130526 {refclk 253.130526 m 19 n 1 lpfd 2 lpd 2 fvco 9618.96} 506.261053 {refclk 506.261053 m 19 n 2 lpfd 2 lpd 2 fvco 9618.96} 240.474000 {refclk 240.474000 m 20 n 1 lpfd 2 lpd 2 fvco 9618.96} 480.948000 {refclk 480.948000 m 20 n 2 lpfd 2 lpd 2 fvco 9618.96} 229.022857 {refclk 229.022857 m 21 n 1 lpfd 2 lpd 2 fvco 9618.96} 458.045714 {refclk 458.045714 m 21 n 2 lpfd 2 lpd 2 fvco 9618.96} 218.612727 {refclk 218.612727 m 22 n 1 lpfd 2 lpd 2 fvco 9618.96} 437.225455 {refclk 437.225455 m 22 n 2 lpfd 2 lpd 2 fvco 9618.96} 209.107826 {refclk 209.107826 m 23 n 1 lpfd 2 lpd 2 fvco 9618.96} 418.215652 {refclk 418.215652 m 23 n 2 lpfd 2 lpd 2 fvco 9618.96} 200.395000 {refclk 200.395000 m 24 n 1 lpfd 2 lpd 2 fvco 9618.96} 400.790000 {refclk 400.790000 m 24 n 2 lpfd 2 lpd 2 fvco 9618.96} 192.379200 {refclk 192.379200 m 25 n 1 lpfd 2 lpd 2 fvco 9618.96} 384.758400 {refclk 384.758400 m 25 n 2 lpfd 2 lpd 2 fvco 9618.96} 769.516800 {refclk 769.516800 m 25 n 4 lpfd 2 lpd 2 fvco 9618.96} 184.980000 {refclk 184.980000 m 26 n 1 lpfd 2 lpd 2 fvco 9618.96} 369.960000 {refclk 369.960000 m 26 n 2 lpfd 2 lpd 2 fvco 9618.96} 739.920000 {refclk 739.920000 m 26 n 4 lpfd 2 lpd 2 fvco 9618.96} 178.128889 {refclk 178.128889 m 27 n 1 lpfd 2 lpd 2 fvco 9618.96} 356.257778 {refclk 356.257778 m 27 n 2 lpfd 2 lpd 2 fvco 9618.96} 712.515556 {refclk 712.515556 m 27 n 4 lpfd 2 lpd 2 fvco 9618.96} 171.767143 {refclk 171.767143 m 28 n 1 lpfd 2 lpd 2 fvco 9618.96} 165.844138 {refclk 165.844138 m 29 n 1 lpfd 2 lpd 2 fvco 9618.96} 331.688276 {refclk 331.688276 m 29 n 2 lpfd 2 lpd 2 fvco 9618.96} 663.376552 {refclk 663.376552 m 29 n 4 lpfd 2 lpd 2 fvco 9618.96} 160.316000 {refclk 160.316000 m 30 n 1 lpfd 2 lpd 2 fvco 9618.96} 155.144516 {refclk 155.144516 m 31 n 1 lpfd 2 lpd 2 fvco 9618.96} 310.289032 {refclk 310.289032 m 31 n 2 lpfd 2 lpd 2 fvco 9618.96} 620.578065 {refclk 620.578065 m 31 n 4 lpfd 2 lpd 2 fvco 9618.96} 150.296250 {refclk 150.296250 m 32 n 1 lpfd 2 lpd 2 fvco 9618.96} 145.741818 {refclk 145.741818 m 33 n 1 lpfd 2 lpd 2 fvco 9618.96} 291.483636 {refclk 291.483636 m 33 n 2 lpfd 2 lpd 2 fvco 9618.96} 582.967273 {refclk 582.967273 m 33 n 4 lpfd 2 lpd 2 fvco 9618.96} 141.455294 {refclk 141.455294 m 34 n 1 lpfd 2 lpd 2 fvco 9618.96} 137.413714 {refclk 137.413714 m 35 n 1 lpfd 2 lpd 2 fvco 9618.96} 274.827429 {refclk 274.827429 m 35 n 2 lpfd 2 lpd 2 fvco 9618.96} 549.654857 {refclk 549.654857 m 35 n 4 lpfd 2 lpd 2 fvco 9618.96} 133.596667 {refclk 133.596667 m 36 n 1 lpfd 2 lpd 2 fvco 9618.96} 129.985946 {refclk 129.985946 m 37 n 1 lpfd 2 lpd 2 fvco 9618.96} 259.971892 {refclk 259.971892 m 37 n 2 lpfd 2 lpd 2 fvco 9618.96} 519.943784 {refclk 519.943784 m 37 n 4 lpfd 2 lpd 2 fvco 9618.96} 126.565263 {refclk 126.565263 m 38 n 1 lpfd 2 lpd 2 fvco 9618.96} 123.320000 {refclk 123.320000 m 39 n 1 lpfd 2 lpd 2 fvco 9618.96} 246.640000 {refclk 246.640000 m 39 n 2 lpfd 2 lpd 2 fvco 9618.96} 493.280000 {refclk 493.280000 m 39 n 4 lpfd 2 lpd 2 fvco 9618.96} 120.237000 {refclk 120.237000 m 40 n 1 lpfd 2 lpd 2 fvco 9618.96} 117.304390 {refclk 117.304390 m 41 n 1 lpfd 2 lpd 2 fvco 9618.96} 234.608780 {refclk 234.608780 m 41 n 2 lpfd 2 lpd 2 fvco 9618.96} 469.217561 {refclk 469.217561 m 41 n 4 lpfd 2 lpd 2 fvco 9618.96} 114.511429 {refclk 114.511429 m 42 n 1 lpfd 2 lpd 2 fvco 9618.96} 111.848372 {refclk 111.848372 m 43 n 1 lpfd 2 lpd 2 fvco 9618.96} 223.696744 {refclk 223.696744 m 43 n 2 lpfd 2 lpd 2 fvco 9618.96} 447.393488 {refclk 447.393488 m 43 n 4 lpfd 2 lpd 2 fvco 9618.96} 109.306364 {refclk 109.306364 m 44 n 1 lpfd 2 lpd 2 fvco 9618.96} 106.877333 {refclk 106.877333 m 45 n 1 lpfd 2 lpd 2 fvco 9618.96} 213.754667 {refclk 213.754667 m 45 n 2 lpfd 2 lpd 2 fvco 9618.96} 427.509333 {refclk 427.509333 m 45 n 4 lpfd 2 lpd 2 fvco 9618.96} 104.553913 {refclk 104.553913 m 46 n 1 lpfd 2 lpd 2 fvco 9618.96} 102.329362 {refclk 102.329362 m 47 n 1 lpfd 2 lpd 2 fvco 9618.96} 204.658723 {refclk 204.658723 m 47 n 2 lpfd 2 lpd 2 fvco 9618.96} 409.317447 {refclk 409.317447 m 47 n 4 lpfd 2 lpd 2 fvco 9618.96} 100.197500 {refclk 100.197500 m 48 n 1 lpfd 2 lpd 2 fvco 9618.96} 98.152653 {refclk 98.152653 m 49 n 1 lpfd 2 lpd 2 fvco 9618.96} 196.305306 {refclk 196.305306 m 49 n 2 lpfd 2 lpd 2 fvco 9618.96} 392.610612 {refclk 392.610612 m 49 n 4 lpfd 2 lpd 2 fvco 9618.96} 785.221224 {refclk 785.221224 m 49 n 8 lpfd 2 lpd 2 fvco 9618.96} 96.189600 {refclk 96.189600 m 50 n 1 lpfd 2 lpd 2 fvco 9618.96} 94.303529 {refclk 94.303529 m 51 n 1 lpfd 2 lpd 2 fvco 9618.96} 188.607059 {refclk 188.607059 m 51 n 2 lpfd 2 lpd 2 fvco 9618.96} 377.214118 {refclk 377.214118 m 51 n 4 lpfd 2 lpd 2 fvco 9618.96} 754.428235 {refclk 754.428235 m 51 n 8 lpfd 2 lpd 2 fvco 9618.96} 92.490000 {refclk 92.490000 m 52 n 1 lpfd 2 lpd 2 fvco 9618.96} 90.744906 {refclk 90.744906 m 53 n 1 lpfd 2 lpd 2 fvco 9618.96} 181.489811 {refclk 181.489811 m 53 n 2 lpfd 2 lpd 2 fvco 9618.96} 362.979623 {refclk 362.979623 m 53 n 4 lpfd 2 lpd 2 fvco 9618.96} 725.959245 {refclk 725.959245 m 53 n 8 lpfd 2 lpd 2 fvco 9618.96} 89.064444 {refclk 89.064444 m 54 n 1 lpfd 2 lpd 2 fvco 9618.96} 87.445091 {refclk 87.445091 m 55 n 1 lpfd 2 lpd 2 fvco 9618.96} 174.890182 {refclk 174.890182 m 55 n 2 lpfd 2 lpd 2 fvco 9618.96} 349.780364 {refclk 349.780364 m 55 n 4 lpfd 2 lpd 2 fvco 9618.96} 699.560727 {refclk 699.560727 m 55 n 8 lpfd 2 lpd 2 fvco 9618.96} 85.883571 {refclk 85.883571 m 56 n 1 lpfd 2 lpd 2 fvco 9618.96} 84.376842 {refclk 84.376842 m 57 n 1 lpfd 2 lpd 2 fvco 9618.96} 168.753684 {refclk 168.753684 m 57 n 2 lpfd 2 lpd 2 fvco 9618.96} 337.507368 {refclk 337.507368 m 57 n 4 lpfd 2 lpd 2 fvco 9618.96} 675.014737 {refclk 675.014737 m 57 n 8 lpfd 2 lpd 2 fvco 9618.96} 82.922069 {refclk 82.922069 m 58 n 1 lpfd 2 lpd 2 fvco 9618.96} 81.516610 {refclk 81.516610 m 59 n 1 lpfd 2 lpd 2 fvco 9618.96} 163.033220 {refclk 163.033220 m 59 n 2 lpfd 2 lpd 2 fvco 9618.96} 326.066441 {refclk 326.066441 m 59 n 4 lpfd 2 lpd 2 fvco 9618.96} 652.132881 {refclk 652.132881 m 59 n 8 lpfd 2 lpd 2 fvco 9618.96} 80.158000 {refclk 80.158000 m 60 n 1 lpfd 2 lpd 2 fvco 9618.96} 78.843934 {refclk 78.843934 m 61 n 1 lpfd 2 lpd 2 fvco 9618.96} 157.687869 {refclk 157.687869 m 61 n 2 lpfd 2 lpd 2 fvco 9618.96} 315.375738 {refclk 315.375738 m 61 n 4 lpfd 2 lpd 2 fvco 9618.96} 630.751475 {refclk 630.751475 m 61 n 8 lpfd 2 lpd 2 fvco 9618.96} 77.572258 {refclk 77.572258 m 62 n 1 lpfd 2 lpd 2 fvco 9618.96} 76.340952 {refclk 76.340952 m 63 n 1 lpfd 2 lpd 2 fvco 9618.96} 152.681905 {refclk 152.681905 m 63 n 2 lpfd 2 lpd 2 fvco 9618.96} 305.363810 {refclk 305.363810 m 63 n 4 lpfd 2 lpd 2 fvco 9618.96} 610.727619 {refclk 610.727619 m 63 n 8 lpfd 2 lpd 2 fvco 9618.96} 75.148125 {refclk 75.148125 m 64 n 1 lpfd 2 lpd 2 fvco 9618.96} 73.992000 {refclk 73.992000 m 65 n 1 lpfd 2 lpd 2 fvco 9618.96} 147.984000 {refclk 147.984000 m 65 n 2 lpfd 2 lpd 2 fvco 9618.96} 295.968000 {refclk 295.968000 m 65 n 4 lpfd 2 lpd 2 fvco 9618.96} 591.936000 {refclk 591.936000 m 65 n 8 lpfd 2 lpd 2 fvco 9618.96} 72.870909 {refclk 72.870909 m 66 n 1 lpfd 2 lpd 2 fvco 9618.96} 71.783284 {refclk 71.783284 m 67 n 1 lpfd 2 lpd 2 fvco 9618.96} 143.566567 {refclk 143.566567 m 67 n 2 lpfd 2 lpd 2 fvco 9618.96} 287.133134 {refclk 287.133134 m 67 n 4 lpfd 2 lpd 2 fvco 9618.96} 574.266269 {refclk 574.266269 m 67 n 8 lpfd 2 lpd 2 fvco 9618.96} 70.727647 {refclk 70.727647 m 68 n 1 lpfd 2 lpd 2 fvco 9618.96} 69.702609 {refclk 69.702609 m 69 n 1 lpfd 2 lpd 2 fvco 9618.96} 139.405217 {refclk 139.405217 m 69 n 2 lpfd 2 lpd 2 fvco 9618.96} 278.810435 {refclk 278.810435 m 69 n 4 lpfd 2 lpd 2 fvco 9618.96} 557.620870 {refclk 557.620870 m 69 n 8 lpfd 2 lpd 2 fvco 9618.96} 68.706857 {refclk 68.706857 m 70 n 1 lpfd 2 lpd 2 fvco 9618.96} 67.739155 {refclk 67.739155 m 71 n 1 lpfd 2 lpd 2 fvco 9618.96} 135.478310 {refclk 135.478310 m 71 n 2 lpfd 2 lpd 2 fvco 9618.96} 270.956620 {refclk 270.956620 m 71 n 4 lpfd 2 lpd 2 fvco 9618.96} 541.913239 {refclk 541.913239 m 71 n 8 lpfd 2 lpd 2 fvco 9618.96} 66.798333 {refclk 66.798333 m 72 n 1 lpfd 2 lpd 2 fvco 9618.96} 65.883288 {refclk 65.883288 m 73 n 1 lpfd 2 lpd 2 fvco 9618.96} 131.766575 {refclk 131.766575 m 73 n 2 lpfd 2 lpd 2 fvco 9618.96} 263.533151 {refclk 263.533151 m 73 n 4 lpfd 2 lpd 2 fvco 9618.96} 527.066301 {refclk 527.066301 m 73 n 8 lpfd 2 lpd 2 fvco 9618.96} 64.992973 {refclk 64.992973 m 74 n 1 lpfd 2 lpd 2 fvco 9618.96} 64.126400 {refclk 64.126400 m 75 n 1 lpfd 2 lpd 2 fvco 9618.96} 128.252800 {refclk 128.252800 m 75 n 2 lpfd 2 lpd 2 fvco 9618.96} 256.505600 {refclk 256.505600 m 75 n 4 lpfd 2 lpd 2 fvco 9618.96} 513.011200 {refclk 513.011200 m 75 n 8 lpfd 2 lpd 2 fvco 9618.96} 63.282632 {refclk 63.282632 m 76 n 1 lpfd 2 lpd 2 fvco 9618.96} 62.460779 {refclk 62.460779 m 77 n 1 lpfd 2 lpd 2 fvco 9618.96} 124.921558 {refclk 124.921558 m 77 n 2 lpfd 2 lpd 2 fvco 9618.96} 249.843117 {refclk 249.843117 m 77 n 4 lpfd 2 lpd 2 fvco 9618.96} 499.686234 {refclk 499.686234 m 77 n 8 lpfd 2 lpd 2 fvco 9618.96} 61.660000 {refclk 61.660000 m 78 n 1 lpfd 2 lpd 2 fvco 9618.96} 60.879494 {refclk 60.879494 m 79 n 1 lpfd 2 lpd 2 fvco 9618.96} 121.758987 {refclk 121.758987 m 79 n 2 lpfd 2 lpd 2 fvco 9618.96} 243.517975 {refclk 243.517975 m 79 n 4 lpfd 2 lpd 2 fvco 9618.96} 487.035949 {refclk 487.035949 m 79 n 8 lpfd 2 lpd 2 fvco 9618.96} 60.118500 {refclk 60.118500 m 80 n 1 lpfd 2 lpd 2 fvco 9618.96} 59.376296 {refclk 59.376296 m 81 n 1 lpfd 2 lpd 2 fvco 9618.96} 118.752593 {refclk 118.752593 m 81 n 2 lpfd 2 lpd 2 fvco 9618.96} 237.505185 {refclk 237.505185 m 81 n 4 lpfd 2 lpd 2 fvco 9618.96} 475.010370 {refclk 475.010370 m 81 n 8 lpfd 2 lpd 2 fvco 9618.96} 58.652195 {refclk 58.652195 m 82 n 1 lpfd 2 lpd 2 fvco 9618.96} 57.945542 {refclk 57.945542 m 83 n 1 lpfd 2 lpd 2 fvco 9618.96} 115.891084 {refclk 115.891084 m 83 n 2 lpfd 2 lpd 2 fvco 9618.96} 231.782169 {refclk 231.782169 m 83 n 4 lpfd 2 lpd 2 fvco 9618.96} 463.564337 {refclk 463.564337 m 83 n 8 lpfd 2 lpd 2 fvco 9618.96} 57.255714 {refclk 57.255714 m 84 n 1 lpfd 2 lpd 2 fvco 9618.96} 56.582118 {refclk 56.582118 m 85 n 1 lpfd 2 lpd 2 fvco 9618.96} 113.164235 {refclk 113.164235 m 85 n 2 lpfd 2 lpd 2 fvco 9618.96} 226.328471 {refclk 226.328471 m 85 n 4 lpfd 2 lpd 2 fvco 9618.96} 452.656941 {refclk 452.656941 m 85 n 8 lpfd 2 lpd 2 fvco 9618.96} 55.924186 {refclk 55.924186 m 86 n 1 lpfd 2 lpd 2 fvco 9618.96} 55.281379 {refclk 55.281379 m 87 n 1 lpfd 2 lpd 2 fvco 9618.96} 110.562759 {refclk 110.562759 m 87 n 2 lpfd 2 lpd 2 fvco 9618.96} 221.125517 {refclk 221.125517 m 87 n 4 lpfd 2 lpd 2 fvco 9618.96} 442.251034 {refclk 442.251034 m 87 n 8 lpfd 2 lpd 2 fvco 9618.96} 54.653182 {refclk 54.653182 m 88 n 1 lpfd 2 lpd 2 fvco 9618.96} 54.039101 {refclk 54.039101 m 89 n 1 lpfd 2 lpd 2 fvco 9618.96} 108.078202 {refclk 108.078202 m 89 n 2 lpfd 2 lpd 2 fvco 9618.96} 216.156404 {refclk 216.156404 m 89 n 4 lpfd 2 lpd 2 fvco 9618.96} 432.312809 {refclk 432.312809 m 89 n 8 lpfd 2 lpd 2 fvco 9618.96} 53.438667 {refclk 53.438667 m 90 n 1 lpfd 2 lpd 2 fvco 9618.96} 52.851429 {refclk 52.851429 m 91 n 1 lpfd 2 lpd 2 fvco 9618.96} 105.702857 {refclk 105.702857 m 91 n 2 lpfd 2 lpd 2 fvco 9618.96} 211.405714 {refclk 211.405714 m 91 n 4 lpfd 2 lpd 2 fvco 9618.96} 422.811429 {refclk 422.811429 m 91 n 8 lpfd 2 lpd 2 fvco 9618.96} 52.276957 {refclk 52.276957 m 92 n 1 lpfd 2 lpd 2 fvco 9618.96} 51.714839 {refclk 51.714839 m 93 n 1 lpfd 2 lpd 2 fvco 9618.96} 103.429677 {refclk 103.429677 m 93 n 2 lpfd 2 lpd 2 fvco 9618.96} 206.859355 {refclk 206.859355 m 93 n 4 lpfd 2 lpd 2 fvco 9618.96} 413.718710 {refclk 413.718710 m 93 n 8 lpfd 2 lpd 2 fvco 9618.96} 51.164681 {refclk 51.164681 m 94 n 1 lpfd 2 lpd 2 fvco 9618.96} 50.626105 {refclk 50.626105 m 95 n 1 lpfd 2 lpd 2 fvco 9618.96} 101.252211 {refclk 101.252211 m 95 n 2 lpfd 2 lpd 2 fvco 9618.96} 202.504421 {refclk 202.504421 m 95 n 4 lpfd 2 lpd 2 fvco 9618.96} 405.008842 {refclk 405.008842 m 95 n 8 lpfd 2 lpd 2 fvco 9618.96} 50.098750 {refclk 50.098750 m 96 n 1 lpfd 2 lpd 2 fvco 9618.96} 49.582268 {refclk 49.582268 m 97 n 1 lpfd 2 lpd 2 fvco 9618.96} 99.164536 {refclk 99.164536 m 97 n 2 lpfd 2 lpd 2 fvco 9618.96} 198.329072 {refclk 198.329072 m 97 n 4 lpfd 2 lpd 2 fvco 9618.96} 396.658144 {refclk 396.658144 m 97 n 8 lpfd 2 lpd 2 fvco 9618.96} 49.076327 {refclk 49.076327 m 98 n 1 lpfd 2 lpd 2 fvco 9618.96} 48.580606 {refclk 48.580606 m 99 n 1 lpfd 2 lpd 2 fvco 9618.96} 97.161212 {refclk 97.161212 m 99 n 2 lpfd 2 lpd 2 fvco 9618.96} 194.322424 {refclk 194.322424 m 99 n 4 lpfd 2 lpd 2 fvco 9618.96} 388.644848 {refclk 388.644848 m 99 n 8 lpfd 2 lpd 2 fvco 9618.96} 48.094800 {refclk 48.094800 m 100 n 1 lpfd 2 lpd 2 fvco 9618.96} 47.618614 {refclk 47.618614 m 101 n 1 lpfd 2 lpd 2 fvco 9618.96} 95.237228 {refclk 95.237228 m 101 n 2 lpfd 2 lpd 2 fvco 9618.96} 190.474455 {refclk 190.474455 m 101 n 4 lpfd 2 lpd 2 fvco 9618.96} 380.948911 {refclk 380.948911 m 101 n 8 lpfd 2 lpd 2 fvco 9618.96} 47.151765 {refclk 47.151765 m 102 n 1 lpfd 2 lpd 2 fvco 9618.96} 46.693981 {refclk 46.693981 m 103 n 1 lpfd 2 lpd 2 fvco 9618.96} 93.387961 {refclk 93.387961 m 103 n 2 lpfd 2 lpd 2 fvco 9618.96} 186.775922 {refclk 186.775922 m 103 n 4 lpfd 2 lpd 2 fvco 9618.96} 373.551845 {refclk 373.551845 m 103 n 8 lpfd 2 lpd 2 fvco 9618.96} 46.245000 {refclk 46.245000 m 104 n 1 lpfd 2 lpd 2 fvco 9618.96} 45.804571 {refclk 45.804571 m 105 n 1 lpfd 2 lpd 2 fvco 9618.96} 91.609143 {refclk 91.609143 m 105 n 2 lpfd 2 lpd 2 fvco 9618.96} 183.218286 {refclk 183.218286 m 105 n 4 lpfd 2 lpd 2 fvco 9618.96} 366.436571 {refclk 366.436571 m 105 n 8 lpfd 2 lpd 2 fvco 9618.96} 45.372453 {refclk 45.372453 m 106 n 1 lpfd 2 lpd 2 fvco 9618.96} 44.948411 {refclk 44.948411 m 107 n 1 lpfd 2 lpd 2 fvco 9618.96} 89.896822 {refclk 89.896822 m 107 n 2 lpfd 2 lpd 2 fvco 9618.96} 179.793645 {refclk 179.793645 m 107 n 4 lpfd 2 lpd 2 fvco 9618.96} 359.587290 {refclk 359.587290 m 107 n 8 lpfd 2 lpd 2 fvco 9618.96} 44.532222 {refclk 44.532222 m 108 n 1 lpfd 2 lpd 2 fvco 9618.96} 44.123670 {refclk 44.123670 m 109 n 1 lpfd 2 lpd 2 fvco 9618.96} 88.247339 {refclk 88.247339 m 109 n 2 lpfd 2 lpd 2 fvco 9618.96} 176.494679 {refclk 176.494679 m 109 n 4 lpfd 2 lpd 2 fvco 9618.96} 352.989358 {refclk 352.989358 m 109 n 8 lpfd 2 lpd 2 fvco 9618.96} 43.722545 {refclk 43.722545 m 110 n 1 lpfd 2 lpd 2 fvco 9618.96} 43.328649 {refclk 43.328649 m 111 n 1 lpfd 2 lpd 2 fvco 9618.96} 86.657297 {refclk 86.657297 m 111 n 2 lpfd 2 lpd 2 fvco 9618.96} 173.314595 {refclk 173.314595 m 111 n 4 lpfd 2 lpd 2 fvco 9618.96} 346.629189 {refclk 346.629189 m 111 n 8 lpfd 2 lpd 2 fvco 9618.96} 42.941786 {refclk 42.941786 m 112 n 1 lpfd 2 lpd 2 fvco 9618.96} 42.561770 {refclk 42.561770 m 113 n 1 lpfd 2 lpd 2 fvco 9618.96} 85.123540 {refclk 85.123540 m 113 n 2 lpfd 2 lpd 2 fvco 9618.96} 170.247080 {refclk 170.247080 m 113 n 4 lpfd 2 lpd 2 fvco 9618.96} 340.494159 {refclk 340.494159 m 113 n 8 lpfd 2 lpd 2 fvco 9618.96} 42.188421 {refclk 42.188421 m 114 n 1 lpfd 2 lpd 2 fvco 9618.96} 41.821565 {refclk 41.821565 m 115 n 1 lpfd 2 lpd 2 fvco 9618.96} 83.643130 {refclk 83.643130 m 115 n 2 lpfd 2 lpd 2 fvco 9618.96} 167.286261 {refclk 167.286261 m 115 n 4 lpfd 2 lpd 2 fvco 9618.96} 334.572522 {refclk 334.572522 m 115 n 8 lpfd 2 lpd 2 fvco 9618.96} 41.461034 {refclk 41.461034 m 116 n 1 lpfd 2 lpd 2 fvco 9618.96} 41.106667 {refclk 41.106667 m 117 n 1 lpfd 2 lpd 2 fvco 9618.96} 82.213333 {refclk 82.213333 m 117 n 2 lpfd 2 lpd 2 fvco 9618.96} 164.426667 {refclk 164.426667 m 117 n 4 lpfd 2 lpd 2 fvco 9618.96} 328.853333 {refclk 328.853333 m 117 n 8 lpfd 2 lpd 2 fvco 9618.96} 40.758305 {refclk 40.758305 m 118 n 1 lpfd 2 lpd 2 fvco 9618.96} 40.415798 {refclk 40.415798 m 119 n 1 lpfd 2 lpd 2 fvco 9618.96} 80.831597 {refclk 80.831597 m 119 n 2 lpfd 2 lpd 2 fvco 9618.96} 161.663193 {refclk 161.663193 m 119 n 4 lpfd 2 lpd 2 fvco 9618.96} 323.326387 {refclk 323.326387 m 119 n 8 lpfd 2 lpd 2 fvco 9618.96} 40.079000 {refclk 40.079000 m 120 n 1 lpfd 2 lpd 2 fvco 9618.96} 39.747769 {refclk 39.747769 m 121 n 1 lpfd 2 lpd 2 fvco 9618.96} 79.495537 {refclk 79.495537 m 121 n 2 lpfd 2 lpd 2 fvco 9618.96} 158.991074 {refclk 158.991074 m 121 n 4 lpfd 2 lpd 2 fvco 9618.96} 317.982149 {refclk 317.982149 m 121 n 8 lpfd 2 lpd 2 fvco 9618.96} 39.421967 {refclk 39.421967 m 122 n 1 lpfd 2 lpd 2 fvco 9618.96} 39.101463 {refclk 39.101463 m 123 n 1 lpfd 2 lpd 2 fvco 9618.96} 78.202927 {refclk 78.202927 m 123 n 2 lpfd 2 lpd 2 fvco 9618.96} 156.405854 {refclk 156.405854 m 123 n 4 lpfd 2 lpd 2 fvco 9618.96} 312.811707 {refclk 312.811707 m 123 n 8 lpfd 2 lpd 2 fvco 9618.96} 38.786129 {refclk 38.786129 m 124 n 1 lpfd 2 lpd 2 fvco 9618.96} 38.475840 {refclk 38.475840 m 125 n 1 lpfd 2 lpd 2 fvco 9618.96} 76.951680 {refclk 76.951680 m 125 n 2 lpfd 2 lpd 2 fvco 9618.96} 153.903360 {refclk 153.903360 m 125 n 4 lpfd 2 lpd 2 fvco 9618.96} 307.806720 {refclk 307.806720 m 125 n 8 lpfd 2 lpd 2 fvco 9618.96} 38.170476 {refclk 38.170476 m 126 n 1 lpfd 2 lpd 2 fvco 9618.96} 37.869921 {refclk 37.869921 m 127 n 1 lpfd 2 lpd 2 fvco 9618.96} 75.739843 {refclk 75.739843 m 127 n 2 lpfd 2 lpd 2 fvco 9618.96} 151.479685 {refclk 151.479685 m 127 n 4 lpfd 2 lpd 2 fvco 9618.96} 302.959370 {refclk 302.959370 m 127 n 8 lpfd 2 lpd 2 fvco 9618.96} allowed_ranges {37.869921 38.170476 38.475840 38.786129 39.101463 39.421967 39.747769 40.079000 40.415798 40.758305 41.106667 41.461034 41.821565 42.188421 42.561770 42.941786 43.328649 43.722545 44.123670 44.532222 44.948411 45.372453 45.804571 46.245000 46.693981 47.151765 47.618614 48.094800 48.580606 49.076327 49.582268 50.098750 50.626105 51.164681 51.714839 52.276957 52.851429 53.438667 54.039101 54.653182 55.281379 55.924186 56.582118 57.255714 57.945542 58.652195 59.376296 60.118500 60.879494 61.660000 62.460779 63.282632 64.126400 64.992973 65.883288 66.798333 67.739155 68.706857 69.702609 70.727647 71.783284 72.870909 73.992000 75.148125 75.739843 76.340952 76.951680 77.572258 78.202927 78.843934 79.495537 80.158000 80.831597 81.516610 82.213333 82.922069 83.643130 84.376842 85.123540 85.883571 86.657297 87.445091 88.247339 89.064444 89.896822 90.744906 91.609143 92.490000 93.387961 94.303529 95.237228 96.189600 97.161212 98.152653 99.164536 100.197500 101.252211 102.329362 103.429677 104.553913 105.702857 106.877333 108.078202 109.306364 110.562759 111.848372 113.164235 114.511429 115.891084 117.304390 118.752593 120.237000 121.758987 123.320000 124.921558 126.565263 128.252800 129.985946 131.766575 133.596667 135.478310 137.413714 139.405217 141.455294 143.566567 145.741818 147.984000 150.296250 151.479685 152.681905 153.903360 155.144516 156.405854 157.687869 158.991074 160.316000 161.663193 163.033220 164.426667 165.844138 167.286261 168.753684 170.247080 171.767143 173.314595 174.890182 176.494679 178.128889 179.793645 181.489811 183.218286 184.980000 186.775922 188.607059 190.474455 192.379200 194.322424 196.305306 198.329072 200.395000 202.504421 204.658723 206.859355 209.107826 211.405714 213.754667 216.156404 218.612727 221.125517 223.696744 226.328471 229.022857 231.782169 234.608780 237.505185 240.474000 243.517975 246.640000 249.843117 253.130526 256.505600 259.971892 263.533151 267.193333 270.956620 274.827429 278.810435 282.910588 287.133134 291.483636 295.968000 300.592500 302.959370 305.363810 307.806720 310.289032 312.811707 315.375738 317.982149 320.632000 323.326387 326.066441 328.853333 331.688276 334.572522 337.507368 340.494159 343.534286 346.629189 349.780364 352.989358 356.257778 359.587290 362.979623 366.436571 369.960000 373.551845 377.214118 380.948911 384.758400 388.644848 392.610612 396.658144 400.790000 405.008842 409.317447 413.718710 418.215652 422.811429 427.509333 432.312809 437.225455 442.251034 447.393488 452.656941 458.045714 463.564337 469.217561 475.010370 480.948000 487.035949 493.280000 499.686234 506.261053 513.011200 519.943784 527.066301 534.386667 541.913239 549.654857 557.620870 565.821176 574.266269 582.967273 591.936000 601.185000 610.727619 620.578065 630.751475 641.264000 652.132881 663.376552 675.014737 687.068571 699.560727 712.515556 725.959245 739.920000 754.428235 769.516800 785.221224}</value>
    <derived>true</derived>
    <enabled>true</enabled>
    <visible>false</visible>
@@ -2999,7 +2999,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="l_pll_settings_key">
    <type>java.lang.String</type>
-   <value>641.265000</value>
+   <value>601.185000</value>
    <derived>true</derived>
    <enabled>true</enabled>
    <visible>false</visible>
@@ -3207,7 +3207,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="hssi_pldadapt_rx_datarate_bps">
    <type>java.lang.String</type>
-   <value>25650600000</value>
+   <value>9618960000</value>
    <derived>true</derived>
    <enabled>true</enabled>
    <visible>false</visible>
@@ -3215,7 +3215,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="hssi_pldadapt_tx_datarate_bps">
    <type>java.lang.String</type>
-   <value>25650600000</value>
+   <value>9618960000</value>
    <derived>true</derived>
    <enabled>true</enabled>
    <visible>false</visible>
@@ -3263,7 +3263,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="adme_data_rate">
    <type>java.lang.String</type>
-   <value>25650600000</value>
+   <value>9618960000</value>
    <derived>true</derived>
    <enabled>true</enabled>
    <visible>false</visible>
@@ -3335,7 +3335,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="cannot_gen_exdesign_msg">
    <type>java.lang.String</type>
-   <value>Design example cannot be generated for the current configuration. Please check under Design Example tab and system message below for more detailed information.</value>
+   <value></value>
    <derived>true</derived>
    <enabled>true</enabled>
    <visible>false</visible>
@@ -3343,7 +3343,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="cannot_gen_exdesign_gen_msg">
    <type>java.lang.String</type>
-   <value> IP configuration with GXT channel is currently not supported for a design example</value>
+   <value></value>
    <derived>true</derived>
    <enabled>true</enabled>
    <visible>false</visible>
@@ -3351,7 +3351,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="cannot_gen_exdesign_prot_msg">
    <type>java.lang.String</type>
-   <value><![CDATA[A design example cannot be generated for "Tx PLL reference clock frequency"=="125.0" && "Selected CDR reference clock frequency"=="641.265000"]]></value>
+   <value><![CDATA[A design example cannot be generated for "Tx PLL reference clock frequency"=="125.0" && "Selected CDR reference clock frequency"=="601.185000"]]></value>
    <derived>true</derived>
    <enabled>true</enabled>
    <visible>false</visible>
@@ -6599,7 +6599,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="hssi_adapt_rx_hd_hssiadapt_pld_pcs_rx_clk_out_hz">
    <type>int</type>
-   <value>400790625</value>
+   <value>150296250</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -7127,7 +7127,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="hssi_adapt_tx_hd_hssiadapt_aib_hssi_tx_transfer_clk_hz">
    <type>int</type>
-   <value>801581250</value>
+   <value>300592500</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -7535,7 +7535,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="hssi_adapt_tx_hd_hssiadapt_pld_pcs_tx_clk_out_hz">
    <type>int</type>
-   <value>400790625</value>
+   <value>150296250</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -7943,7 +7943,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="hssi_aibcr_rx_aib_rx_dcc_byp">
    <type>java.lang.String</type>
-   <value>aib_rx_dcc_byp_disable</value>
+   <value>aib_rx_dcc_byp_enable</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -8015,7 +8015,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="hssi_aibcr_rx_aib_rx_dcc_en">
    <type>java.lang.String</type>
-   <value>aib_rx_dcc_enable</value>
+   <value>aib_rx_dcc_disable</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -8167,7 +8167,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="hssi_aibcr_rx_op_mode">
    <type>java.lang.String</type>
-   <value>rx_dcc_enable</value>
+   <value>rx_dcc_disable</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -8175,7 +8175,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="hssi_aibcr_rx_powermode_ac">
    <type>java.lang.String</type>
-   <value>rxdatapath_high_speed_pwr</value>
+   <value>rxdatapath_low_speed_pwr</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -8279,7 +8279,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="hssi_aibcr_tx_aib_dllstr_align_dy_ctlsel">
    <type>java.lang.String</type>
-   <value>aib_dllstr_align_dy_ctlsel_setting0</value>
+   <value>aib_dllstr_align_dy_ctlsel_setting1</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -8607,7 +8607,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="hssi_aibcr_tx_op_mode">
    <type>java.lang.String</type>
-   <value>tx_dll_enable</value>
+   <value>tx_dll_disable</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -8615,7 +8615,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="hssi_aibcr_tx_powermode_ac">
    <type>java.lang.String</type>
-   <value>txdatapath_high_speed_pwr</value>
+   <value>txdatapath_low_speed_pwr</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -8711,7 +8711,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="hssi_aibnd_rx_aib_dllstr_align_dy_ctlsel">
    <type>java.lang.String</type>
-   <value>aib_dllstr_align_dy_ctlsel_setting0</value>
+   <value>aib_dllstr_align_dy_ctlsel_setting1</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -8967,7 +8967,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="hssi_aibnd_rx_op_mode">
    <type>java.lang.String</type>
-   <value>rx_dll_enable</value>
+   <value>rx_dll_disable</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -8983,7 +8983,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="hssi_aibnd_rx_powermode_ac">
    <type>java.lang.String</type>
-   <value>rxdatapath_high_speed_pwr</value>
+   <value>rxdatapath_low_speed_pwr</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -9239,7 +9239,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="hssi_aibnd_tx_aib_tx_dcc_byp">
    <type>java.lang.String</type>
-   <value>aib_tx_dcc_byp_disable</value>
+   <value>aib_tx_dcc_byp_enable</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -9319,7 +9319,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="hssi_aibnd_tx_aib_tx_dcc_en">
    <type>java.lang.String</type>
-   <value>aib_tx_dcc_enable</value>
+   <value>aib_tx_dcc_disable</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -9479,7 +9479,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="hssi_aibnd_tx_op_mode">
    <type>java.lang.String</type>
-   <value>tx_dcc_enable</value>
+   <value>tx_dcc_disable</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -9495,7 +9495,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="hssi_aibnd_tx_powermode_ac">
    <type>java.lang.String</type>
-   <value>txdatapath_high_speed_pwr</value>
+   <value>txdatapath_low_speed_pwr</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -10391,7 +10391,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="pma_adapt_adp_ac_ctle_initial_value">
    <type>java.lang.String</type>
-   <value>radp_ac_ctle_initial_value_12</value>
+   <value>radp_ac_ctle_initial_value_8</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -10519,7 +10519,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="pma_adapt_adp_dc_ctle_initial_value">
    <type>java.lang.String</type>
-   <value>radp_dc_ctle_initial_value_32</value>
+   <value>radp_dc_ctle_initial_value_16</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -10551,7 +10551,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="pma_adapt_adp_dc_ctle_mode2_h2_limit">
    <type>int</type>
-   <value>12</value>
+   <value>7</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -10647,7 +10647,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="pma_adapt_adp_dfe_tap1_initial_value">
    <type>java.lang.String</type>
-   <value>radp_dfe_tap1_initial_value_16</value>
+   <value>radp_dfe_tap1_initial_value_0</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -11207,7 +11207,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="pma_adapt_adp_vga_initial_value">
    <type>java.lang.String</type>
-   <value>radp_vga_initial_value_16</value>
+   <value>radp_vga_initial_value_4</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -11239,7 +11239,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="pma_adapt_datarate_bps">
    <type>java.lang.String</type>
-   <value>25650600000</value>
+   <value>9618960000</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -11495,7 +11495,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="cdr_pll_chgpmp_current_pfd">
    <type>java.lang.String</type>
-   <value>cp_current_pfd_setting1</value>
+   <value>cp_current_pfd_setting2</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -11631,7 +11631,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="cdr_pll_datarate_bps">
    <type>java.lang.String</type>
-   <value>25650600000</value>
+   <value>9618960000</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -11695,7 +11695,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="cdr_pll_f_max_vco">
    <type>java.lang.String</type>
-   <value>14150000000</value>
+   <value>10312500000</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -11727,7 +11727,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="cdr_pll_f_min_vco">
    <type>java.lang.String</type>
-   <value>7000000000</value>
+   <value>4900000000</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -11783,7 +11783,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="cdr_pll_lf_resistor_pfd">
    <type>java.lang.String</type>
-   <value>lf_pfd_setting3</value>
+   <value>lf_pfd_setting2</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -11815,7 +11815,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="cdr_pll_lpd_counter">
    <type>int</type>
-   <value>1</value>
+   <value>2</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -11839,7 +11839,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="cdr_pll_mcnt_div">
    <type>int</type>
-   <value>20</value>
+   <value>16</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -11871,7 +11871,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="cdr_pll_out_freq">
    <type>java.lang.String</type>
-   <value>12825300000</value>
+   <value>4809480000</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -11895,7 +11895,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="cdr_pll_pd_l_counter">
    <type>int</type>
-   <value>1</value>
+   <value>2</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -11935,7 +11935,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="cdr_pll_powermode_ac_rvcotop">
    <type>java.lang.String</type>
-   <value>rvcotop_ac_div1</value>
+   <value>rvcotop_ac_div2</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -11959,7 +11959,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="cdr_pll_powermode_dc_rvcotop">
    <type>java.lang.String</type>
-   <value>rvcotop_dc_div1</value>
+   <value>rvcotop_dc_div2</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -11991,7 +11991,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="cdr_pll_reference_clock_frequency">
    <type>java.lang.String</type>
-   <value>641265000</value>
+   <value>601185000</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -11999,7 +11999,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="cdr_pll_requires_gt_capable_channel">
    <type>java.lang.String</type>
-   <value>true</value>
+   <value>false</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -12023,7 +12023,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="cdr_pll_set_cdr_input_freq_range">
    <type>int</type>
-   <value>149</value>
+   <value>141</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -12047,7 +12047,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="cdr_pll_set_cdr_vco_speed">
    <type>int</type>
-   <value>0</value>
+   <value>2</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -12055,7 +12055,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="cdr_pll_set_cdr_vco_speed_fix">
    <type>int</type>
-   <value>120</value>
+   <value>80</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -12159,7 +12159,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="cdr_pll_vco_freq">
    <type>java.lang.String</type>
-   <value>12825300000</value>
+   <value>9618960000</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -12311,7 +12311,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="pma_rx_buf_const_gm_en">
    <type>java.lang.String</type>
-   <value>cgm_en_2</value>
+   <value>cgm_en_3</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -12319,7 +12319,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="pma_rx_buf_ctle_ac_gain">
    <type>int</type>
-   <value>12</value>
+   <value>4</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -12327,7 +12327,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="pma_rx_buf_ctle_eq_gain">
    <type>int</type>
-   <value>32</value>
+   <value>0</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -12375,7 +12375,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="pma_rx_buf_ctle_tia_isel">
    <type>java.lang.String</type>
-   <value>ib_tia_bw3</value>
+   <value>ib_tia_bw1</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -12391,7 +12391,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="pma_rx_buf_datarate_bps">
    <type>java.lang.String</type>
-   <value>25650600000</value>
+   <value>9618960000</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -12399,7 +12399,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="pma_rx_buf_pm_cr2_rx_path_datarate_bps">
    <type>java.lang.String</type>
-   <value>25650600000</value>
+   <value>9618960000</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -12455,7 +12455,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="pma_rx_buf_eq_bw_sel">
    <type>java.lang.String</type>
-   <value>eq_bw_3</value>
+   <value>eq_bw_1</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -12463,7 +12463,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="pma_rx_buf_eq_cdgen_sel">
    <type>java.lang.String</type>
-   <value>eq_cdgen_0</value>
+   <value>eq_cdgen_2</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -12479,7 +12479,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="pma_rx_buf_eq_sel">
    <type>java.lang.String</type>
-   <value>eq_sel_3</value>
+   <value>eq_sel_1</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -12487,7 +12487,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="pma_rx_buf_pm_cr2_rx_path_gt_enabled">
    <type>java.lang.String</type>
-   <value>enable</value>
+   <value>disable</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -12623,7 +12623,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="pma_rx_buf_pm_cr2_rx_path_pma_rx_divclk_hz">
    <type>java.lang.String</type>
-   <value>400790625</value>
+   <value>150296250</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -12679,7 +12679,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="pma_rx_buf_powermode_ac_ctle">
    <type>java.lang.String</type>
-   <value>ctle_pwr_ac4</value>
+   <value>ctle_pwr_ac2</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -12807,7 +12807,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="pma_rx_buf_rx_lfeq_enable">
    <type>java.lang.String</type>
-   <value>rx_lfeq_enable</value>
+   <value>rx_lfeq_disable</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -13039,7 +13039,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="pma_rx_buf_vga_dc_gain">
    <type>int</type>
-   <value>16</value>
+   <value>4</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -13047,7 +13047,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="pma_rx_buf_vga_halfbw_en">
    <type>java.lang.String</type>
-   <value>vga_half_bw_disabled</value>
+   <value>vga_half_bw_enabled</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -13111,7 +13111,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="pma_rx_deser_datarate_bps">
    <type>java.lang.String</type>
-   <value>25650600000</value>
+   <value>9618960000</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -13327,7 +13327,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="pma_rx_dfe_datarate_bps">
    <type>java.lang.String</type>
-   <value>25650600000</value>
+   <value>9618960000</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -13391,7 +13391,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="pma_rx_dfe_latch_xcouple_disable">
    <type>java.lang.String</type>
-   <value>latch_xcouple_disable</value>
+   <value>latch_xcouple_enable</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -13999,7 +13999,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="pma_rx_dfe_tapsum_bw_sel">
    <type>java.lang.String</type>
-   <value>tapsum_hibw</value>
+   <value>tapsum_medbw</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -14023,7 +14023,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="pma_rx_odi_datarate_bps">
    <type>java.lang.String</type>
-   <value>25650600000</value>
+   <value>9618960000</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -14047,7 +14047,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="pma_rx_odi_monitor_bw_sel">
    <type>java.lang.String</type>
-   <value>bw_1</value>
+   <value>bw_4</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -14127,7 +14127,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="pma_rx_odi_vreg_voltage_sel">
    <type>java.lang.String</type>
-   <value>vreg1</value>
+   <value>vreg0</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -14367,7 +14367,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="pma_tx_buf_datarate_bps">
    <type>java.lang.String</type>
-   <value>25650600000</value>
+   <value>9618960000</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -14375,7 +14375,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="pma_tx_buf_pm_cr2_tx_path_datarate_bps">
    <type>java.lang.String</type>
-   <value>25650600000</value>
+   <value>9618960000</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -14391,7 +14391,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="pma_tx_buf_dcc_finestep_enin">
    <type>java.lang.String</type>
-   <value>enable</value>
+   <value>disable</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -14519,7 +14519,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="pma_tx_buf_pm_cr2_tx_path_gt_enabled">
    <type>java.lang.String</type>
-   <value>enable</value>
+   <value>disable</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -14631,7 +14631,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="pma_tx_buf_pm_cr2_tx_path_pma_tx_divclk_hz">
    <type>java.lang.String</type>
-   <value>400790625</value>
+   <value>150296250</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -14919,7 +14919,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="pma_tx_buf_term_sel">
    <type>java.lang.String</type>
-   <value>r_r2</value>
+   <value>r_r1</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -14943,7 +14943,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="pma_tx_buf_pm_cr2_tx_path_tx_pll_clk_hz">
    <type>java.lang.String</type>
-   <value>12825300000</value>
+   <value>4809480000</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -15087,7 +15087,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="pma_cgb_datarate_bps">
    <type>java.lang.String</type>
-   <value>25650600000</value>
+   <value>9618960000</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -15311,7 +15311,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="pma_cgb_input_select_x1">
    <type>java.lang.String</type>
-   <value>fpll_bot</value>
+   <value>lcpll_bot</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -16607,7 +16607,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="hssi_pldadapt_rx_hdpldadapt_aib_fabric_rx_transfer_clk_hz">
    <type>int</type>
-   <value>801581250</value>
+   <value>300592500</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -17111,7 +17111,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="hssi_pldadapt_rx_hdpldadapt_pld_rx_clk1_dcm_hz">
    <type>int</type>
-   <value>400790625</value>
+   <value>150296250</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -17119,7 +17119,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="hssi_pldadapt_rx_hdpldadapt_pld_rx_clk1_rowclk_hz">
    <type>int</type>
-   <value>400790625</value>
+   <value>150296250</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -17495,7 +17495,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="hssi_pldadapt_tx_hdpldadapt_aib_fabric_pma_aib_tx_clk_hz">
    <type>int</type>
-   <value>801581250</value>
+   <value>300592500</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -18015,7 +18015,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="hssi_pldadapt_tx_hdpldadapt_pld_tx_clk1_dcm_hz">
    <type>int</type>
-   <value>400790625</value>
+   <value>150296250</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -18023,7 +18023,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="hssi_pldadapt_tx_hdpldadapt_pld_tx_clk1_rowclk_hz">
    <type>int</type>
-   <value>400790625</value>
+   <value>150296250</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -18031,7 +18031,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="hssi_pldadapt_tx_hdpldadapt_pld_tx_clk2_dcm_hz">
    <type>int</type>
-   <value>801581250</value>
+   <value>300592500</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -18039,7 +18039,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="hssi_pldadapt_tx_hdpldadapt_pld_tx_clk2_rowclk_hz">
    <type>int</type>
-   <value>801581250</value>
+   <value>300592500</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -18747,7 +18747,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="hssi_rx_pld_pcs_interface_hd_pcs_channel_clklow_clk_hz">
    <type>int</type>
-   <value>320632500</value>
+   <value>300592500</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -18795,7 +18795,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="hssi_rx_pld_pcs_interface_hd_pcs_channel_fref_clk_hz">
    <type>int</type>
-   <value>320632500</value>
+   <value>300592500</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -19072,7 +19072,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="hssi_rx_pld_pcs_interface_hd_pcs_channel_pma_rx_clk_hz">
    <type>int</type>
-   <value>400790625</value>
+   <value>150296250</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -20032,7 +20032,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="hssi_tx_pld_pcs_interface_hd_pcs_channel_pma_tx_clk_hz">
    <type>int</type>
-   <value>400790625</value>
+   <value>150296250</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>

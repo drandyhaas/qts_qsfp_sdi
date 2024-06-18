@@ -2452,7 +2452,7 @@ https://fpgasoftware.intel.com/eula.-->
         <ipxact:parameter parameterId="rcfg_profile_select" type="int">
           <ipxact:name>rcfg_profile_select</ipxact:name>
           <ipxact:displayName>Store current configuration to profile:</ipxact:displayName>
-          <ipxact:value>1</ipxact:value>
+          <ipxact:value>2</ipxact:value>
         </ipxact:parameter>
         <ipxact:parameter parameterId="rcfg_profile_data0" type="string">
           <ipxact:name>rcfg_profile_data0</ipxact:name>
@@ -2582,7 +2582,7 @@ https://fpgasoftware.intel.com/eula.-->
         <ipxact:parameter parameterId="channel_type" type="string">
           <ipxact:name>channel_type</ipxact:name>
           <ipxact:displayName>Transceiver channel type</ipxact:displayName>
-          <ipxact:value>GXT</ipxact:value>
+          <ipxact:value>GX</ipxact:value>
         </ipxact:parameter>
         <ipxact:parameter parameterId="protocol_mode" type="string">
           <ipxact:name>protocol_mode</ipxact:name>
@@ -2607,7 +2607,7 @@ https://fpgasoftware.intel.com/eula.-->
         <ipxact:parameter parameterId="set_data_rate" type="string">
           <ipxact:name>set_data_rate</ipxact:name>
           <ipxact:displayName>Data rate</ipxact:displayName>
-          <ipxact:value>25650.6</ipxact:value>
+          <ipxact:value>9618.96</ipxact:value>
         </ipxact:parameter>
         <ipxact:parameter parameterId="rcfg_iface_enable" type="int">
           <ipxact:name>rcfg_iface_enable</ipxact:name>
@@ -2772,7 +2772,7 @@ https://fpgasoftware.intel.com/eula.-->
         <ipxact:parameter parameterId="pll_select" type="int">
           <ipxact:name>pll_select</ipxact:name>
           <ipxact:displayName>Initial TX PLL clock input selection</ipxact:displayName>
-          <ipxact:value>0</ipxact:value>
+          <ipxact:value>1</ipxact:value>
         </ipxact:parameter>
         <ipxact:parameter parameterId="enable_port_tx_pma_iqtxrx_clkout" type="int">
           <ipxact:name>enable_port_tx_pma_iqtxrx_clkout</ipxact:name>
@@ -2837,7 +2837,7 @@ https://fpgasoftware.intel.com/eula.-->
         <ipxact:parameter parameterId="set_cdr_refclk_freq" type="string">
           <ipxact:name>set_cdr_refclk_freq</ipxact:name>
           <ipxact:displayName>Selected CDR reference clock frequency</ipxact:displayName>
-          <ipxact:value>641.265000</ipxact:value>
+          <ipxact:value>601.185000</ipxact:value>
         </ipxact:parameter>
         <ipxact:parameter parameterId="rx_ppm_detect_threshold" type="string">
           <ipxact:name>rx_ppm_detect_threshold</ipxact:name>
